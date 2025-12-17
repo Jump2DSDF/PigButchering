@@ -1,0 +1,80 @@
+{
+  "case_id": 40,
+  "approach_and_lure": {
+    "initial_contact_platform": [
+      "dating_app"
+    ],
+    "lure_type": [
+      "romance",
+      "investment_opportunity"
+    ],
+    "communication_migration": "WhatsApp"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Lily - romantic interest and crypto investment mentor",
+      "wealth_indicators": [
+        "crypto_trading_knowledge",
+        "access_to_profitable_platform",
+        "early_retirement_success_implied"
+      ],
+      "relationship_type": "romantic_partner"
+    },
+    "psychological_tactics": [
+      "love_bombing",
+      "trust_building",
+      "fear_of_missing_out",
+      "urgency",
+      "reciprocity",
+      "sunk_cost_exploitation"
+    ],
+    "trust_building_period": "Estimated 2-4 weeks (dating app conversations, shared retirement goals discussion before investment introduction)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": [
+      "bitsorcoinss.com"
+    ],
+    "platform_urls": [
+      "bitsorcoinss.com"
+    ],
+    "fake_profit_shown": null,
+    "withdrawal_block_tactics": [
+      "funds_irrecoverable",
+      "platform_shutdown"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": [
+      "unspecified_crypto"
+    ],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": null,
+    "payment_methods": [
+      "cryptocurrency_transfer"
+    ]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Estimated 3-6 weeks (dating app contact to fund loss)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.75,
+    "missing_information": [
+      "loss_amount_usd",
+      "specific_cryptocurrency_types",
+      "wallet_addresses",
+      "transaction_hashes",
+      "specific_dating_app_name",
+      "lily_contact_details",
+      "number_of_deposits",
+      "exact_trust_building_duration",
+      "fake_profit_display_confirmation",
+      "specific_withdrawal_blocking_method",
+      "victim_demographics",
+      "communication_records"
+    ],
+    "notes": "Classic pig butchering case with dating app origin. Notable TTP: coordinated operation where platform itself sent SMS to victim, adding legitimacy. Deposit-matching bonus scheme used as aggressive acquisition tactic. Standard progression: dating app → WhatsApp → shared goals discussion → crypto investment introduction → platform recommendation with pressure → deposit → exit scam. Platform name 'bitsorcoinss.com' uses typosquatting technique (double 's'). Strong operational TTP profile but zero financial tracking data (no amounts, addresses, or transaction hashes). Case exemplifies textbook romance-to-investment pig butchering with sophisticated coordination between romance scammer and platform operators. Platform now defunct, preventing evidence recovery."
+  }
+}

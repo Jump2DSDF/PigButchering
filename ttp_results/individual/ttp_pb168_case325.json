@@ -1,0 +1,63 @@
+{
+  "case_id": 325,
+  "approach_and_lure": {
+    "initial_contact_platform": ["online_unspecified"],
+    "lure_type": ["romance", "investment_opportunity"],
+    "communication_migration": "Online → Telegram group"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": [
+      {"name": "Mandy", "claimed_identity": "Romantic interest", "role": "romance_hook"},
+      {"name": "Nancy", "claimed_identity": "Binary Trading Solutions leader", "role": "investment_scammer"}
+    ],
+    "psychological_tactics": [
+      "romance_interest",
+      "financial_success_story",
+      "group_dynamics",
+      "authority",
+      "threatening_behavior",
+      "identity_theft_attempt"
+    ],
+    "trust_building_period": "Extended"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["GlobalTek Forex Trading", "Global tek Forex Tradin"],
+    "platform_urls": ["globaltekforex.com"],
+    "telegram_group": "Binary Trading Solutions",
+    "withdrawal_block_tactics": [
+      "perpetual_fee_demands"
+    ],
+    "identity_theft_attempts": [
+      "social_security_number_request",
+      "idme_account_credentials_request"
+    ],
+    "aggressive_behavior": true
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["ETH"],
+    "wallet_addresses": [
+      "0xc0818387a81Bea766C9038F961C1ae7b2342106b"
+    ],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 3100,
+    "payment_methods": ["cryptocurrency_transfer"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended",
+    "platform_status": "unknown"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.88,
+    "missing_information": ["transaction_hashes"],
+    "notes": "CRITICAL: ETH wallet 0xc0818387a81Bea766C9038F961C1ae7b2342106b extracted. DANGEROUS OPERATION - scammers attempted identity theft (SSN, IDme credentials) and used threatening messages. Romance → investment funnel with Telegram group. Nancy became 'increasingly aggressive' - unusual escalation pattern."
+  },
+  "chain_of_thought": {
+    "step_1_initial_contact": "Mandy approached victim online with romantic interest",
+    "step_2_trust_building": "Extended conversation, Mandy shared crypto success story",
+    "step_3_group_introduction": "Introduced to Telegram group 'Binary Trading Solutions' led by Nancy",
+    "step_4_platform_direction": "Nancy directed victim to GlobalTek Forex Trading",
+    "step_5_extraction_loop": "Perpetual fee demands blocking every withdrawal attempt",
+    "step_6_identity_theft": "Nancy became aggressive, demanded SSN and IDme login credentials"
+  }
+}

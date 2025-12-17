@@ -1,0 +1,113 @@
+CHAIN OF THOUGHT ANALYSIS - PB_046 (Case 135)
+===============================================
+Case: Abnas Global (abnasglobal.cc)
+Total Loss: $1,200,000+
+Status: HIGH VALUE CASE
+
+INITIAL CONTACT & RELATIONSHIP BUILDING
+---------------------------------------
+- Initial Contact Vector: WhatsApp and WeChat (multi-platform approach)
+- Persona Used: "Tina" (female persona)
+- Social Engineering: Built trust through messaging platforms before introducing investment opportunity
+- This is a classic "fattening the pig" phase where the scammer establishes rapport
+
+LURING & PLATFORM INTRODUCTION
+-------------------------------
+- Platform Name: Abnas Global
+- Multiple URLs provided:
+  * https://www.abnasglobal.com/#/home/modal
+  * https://abnasglobal.cc/#/pc/trade
+- Investment Type: Bitcoin/crypto asset trading
+- Delivery Method: Both web platform and mobile app download
+- The use of multiple URLs and app download increases perceived legitimacy
+
+INITIAL INVESTMENT & FAKE PROFITS
+----------------------------------
+- Victim transferred crypto assets to the platform
+- Account showed inflated balance of $2,017,141.86
+- This phantom profit is a key psychological hook
+- The large "profit" creates urgency and fear of loss when withdrawal is blocked
+
+EXTRACTION TACTICS (SUCCESSIVE DEMANDS)
+----------------------------------------
+1. First Demand: $240,000 in "taxes"
+   - Threat: Assets would be confiscated if not paid
+   - This is a common exit scam tactic
+
+2. Negotiation with Tina:
+   - Tina offered to "help" by paying some tax
+   - Victim only needed to pay $100,000
+   - This creates false sense of partnership and reduces perceived risk
+
+3. Second Demand: $160,000 "fine"
+   - Another manufactured barrier to withdrawal
+   - Again, Tina offered to help by covering part of it
+   - Victim paid $140,000 with Tina promising to cover remainder
+
+4. Pattern: Successive extraction through manufactured fees
+   - Each demand has a "reason" (tax, fine)
+   - Tina's offers to "help" make demands seem more reasonable
+   - Victim kept paying hoping to access the phantom $2M balance
+
+OUTCOME
+-------
+- Total paid: $1,200,000+
+- Funds recovered: $0
+- Platform status: All sites now defunct
+- This is a complete loss scenario with no recovery
+
+TECHNICAL INDICATORS
+--------------------
+- Multiple domains (.com and .cc TLD)
+- Web and mobile app presence
+- Platform likely clone of legitimate trading interface
+- Sites taken down after extraction completed
+
+BEHAVIORAL PATTERNS
+-------------------
+- Long-game approach (relationship building)
+- Phantom profits to create investment
+- Manufactured obstacles to withdrawal
+- Accomplice (Tina) provides false support
+- Successive demands drain victim systematically
+- Exit when victim exhausted or suspicious
+
+KEY TTPS IDENTIFIED
+-------------------
+1. Multi-platform initial contact (WhatsApp, WeChat)
+2. Romantic/friendship social engineering
+3. Fake investment platform with multiple entry points
+4. Mobile app distribution
+5. Phantom profit display
+6. Tax/fee withdrawal blocking
+7. Accomplice offering to "help" with fees
+8. Successive extraction demands
+9. Complete exit scam
+10. Domain abandonment post-scam
+
+MITRE ATT&CK FRAMEWORK MAPPING
+-------------------------------
+- Initial Access: Phishing via messaging apps
+- Execution: User downloads malicious app
+- Persistence: Relationship maintenance
+- Defense Evasion: Multiple domains, app-based delivery
+- Credential Access: Account creation on fake platform
+- Collection: Crypto asset deposits
+- Impact: Financial theft, resource hijacking
+
+SOPHISTICATION LEVEL: HIGH
+---------------------------
+- Professional platform design
+- Multi-channel approach
+- Coordinated accomplice role
+- Sophisticated social engineering
+- Systematic extraction strategy
+- $1.2M+ loss indicates sustained operation
+
+PREVENTION OPPORTUNITIES MISSED
+--------------------------------
+1. Platform verification (both domains unregistered/illegitimate)
+2. Tax payment red flag (legitimate platforms don't demand external tax payments)
+3. Fine payment red flag (manufactured obstacles)
+4. Third party "help" red flag (Tina's involvement in fee payments)
+5. Inability to withdraw should have triggered immediate cessation

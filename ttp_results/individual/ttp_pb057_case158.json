@@ -1,0 +1,389 @@
+{
+  "case_metadata": {
+    "pb_case_id": 57,
+    "original_case_id": 158,
+    "primary_subject": "Wealth BAX Finance / wealthbax.com",
+    "analysis_date": "2025-12-17",
+    "case_status": "Platform Offline",
+    "evidence_available": {
+      "screenshots": true,
+      "screenshot_url": "https://dfpi.ca.gov/wp-content/uploads/2025/03/Wealthbax1000.jpg",
+      "screenshot_local": "pig_butchering_cases\\screenshots\\pb_057_case_158.jpg"
+    }
+  },
+  "financial_impact": {
+    "initial_investment_usd": "Not specified",
+    "displayed_account_value_usd": 281992,
+    "tax_demand_usd": 40000,
+    "tax_demand_paid": "Unknown",
+    "total_loss_usd": "Not specified (at least initial deposits)",
+    "amount_recovered": 0,
+    "recovery_likelihood": "very_low"
+  },
+  "identity_theft_risk": {
+    "pii_collected": true,
+    "documents_compromised": [
+      "Driver's License (photograph)"
+    ],
+    "personal_information_collected": true,
+    "risk_level": "HIGH",
+    "recommended_actions": [
+      "Credit freeze",
+      "Credit monitoring",
+      "Identity theft alert",
+      "Monitor for fraudulent accounts"
+    ]
+  },
+  "scam_classification": {
+    "primary_type": "Pig Butchering Scam",
+    "secondary_types": [
+      "Romance Scam",
+      "Fraudulent Trading Platform",
+      "Identity Theft"
+    ],
+    "variant": "Romance-Based Pig Butchering with Identity Collection",
+    "confidence_level": "high"
+  },
+  "attack_chain": {
+    "phase_1_initial_contact": {
+      "contact_method": "Unsolicited Text Message (SMS)",
+      "actor_identity": "Sandy (likely fake persona)",
+      "actor_relationship": "Stranger",
+      "contact_pattern": "Random outreach",
+      "initial_topic": "General conversation (not financial)",
+      "trust_building_approach": "Gradual relationship development"
+    },
+    "phase_2_platform_migration": {
+      "original_platform": "SMS/Text Messaging",
+      "target_platform": "WhatsApp",
+      "migration_timing": "After initial contact",
+      "migration_purpose": [
+        "More intimate communication",
+        "Harder to monitor",
+        "Enhanced multimedia sharing",
+        "Relationship deepening"
+      ]
+    },
+    "phase_3_relationship_building": {
+      "relationship_type": "Romantic",
+      "development_duration": "Extended (not specified)",
+      "emotional_investment": "High",
+      "trust_level_achieved": "Deep (victim trusted Sandy)",
+      "communication_frequency": "Regular (implied)",
+      "relationship_status": "Developed relationship"
+    },
+    "phase_4_investment_introduction": {
+      "topic_introduction_timing": "After relationship established",
+      "introduction_method": "Sandy brought up crypto assets",
+      "platform_name": "Wealth Bax",
+      "platform_presentation": "Personal investment recommendation",
+      "trust_leverage": "Established romantic relationship"
+    },
+    "phase_5_platform_onboarding": {
+      "fraudulent_platform": "wealthbax.com / h5.wealthbax.com",
+      "platform_type": "Crypto Trading Platform",
+      "account_creation_url": "h5.wealthbax.com/x/",
+      "onboarding_guidance": "Direct instruction from Sandy",
+      "kyc_requirements": {
+        "personal_information": true,
+        "identity_document": "Driver's License (photograph)",
+        "document_upload": true
+      },
+      "legitimacy_facade": "KYC process mimics real exchanges"
+    },
+    "phase_6_investment_phase": {
+      "investment_type": "Cryptocurrency",
+      "specific_assets": "Not specified",
+      "initial_deposits": "Not specified (amount)",
+      "trading_activity": "Active (victim began trading)",
+      "account_interface": "Trading functionality provided"
+    },
+    "phase_7_relationship_exploitation": {
+      "manipulation_technique": "Quid Pro Quo",
+      "sandy_request": "Money to help with her family",
+      "sandy_promise": "Would add money to victim's account in return",
+      "psychological_hooks": [
+        "Relationship obligation",
+        "Expected reciprocity",
+        "Compassion exploitation",
+        "Partnership narrative"
+      ],
+      "additional_extraction": "Personal financial request beyond platform"
+    },
+    "phase_8_profit_manipulation": {
+      "fake_profits_displayed": true,
+      "displayed_account_value": 281992,
+      "growth_pattern": "Massive unrealistic gains",
+      "victim_belief": "Platform showing legitimate profits",
+      "psychological_impact": [
+        "Greed amplification",
+        "Urgency to cash out",
+        "Fear of losing gains",
+        "Validation of investment decision"
+      ]
+    },
+    "phase_9_withdrawal_blocking": {
+      "withdrawal_attempted": true,
+      "blocking_method": "Tax payment demand",
+      "fee_type": "IRS taxes",
+      "fee_amount_usd": 40000,
+      "fee_percentage": "~14% of displayed value",
+      "payment_deadline": "Not specified",
+      "justification": "Required to release funds",
+      "legitimacy_facade": "Government tax requirement"
+    },
+    "phase_10_accomplice_validation": {
+      "victim_action": "Reached out to Sandy about tax demand",
+      "sandy_response": "Told victim to pay",
+      "sandy_social_proof": "Claimed she had also paid to get her money",
+      "validation_effect": "Reinforced platform legitimacy",
+      "trust_maintenance": "Sandy positioned as fellow victim/partner",
+      "compliance_encouragement": "Active pressure to pay fees"
+    },
+    "phase_11_exit_strategy": {
+      "exit_method": "Complete platform shutdown",
+      "platform_status": "No longer operational",
+      "fund_recovery": "Unable to withdraw any funds",
+      "communication_status": "Implied terminated",
+      "evidence_preservation": "Screenshots captured"
+    }
+  },
+  "technical_indicators": {
+    "domains": [
+      {
+        "domain": "wealthbax.com",
+        "status": "offline",
+        "role": "primary_platform",
+        "protocol": "https"
+      },
+      {
+        "domain": "h5.wealthbax.com",
+        "status": "offline",
+        "role": "mobile_interface",
+        "type": "subdomain",
+        "path": "/x/",
+        "notes": "h5 prefix indicates HTML5/mobile optimized"
+      }
+    ],
+    "platform_infrastructure": {
+      "multi_domain": true,
+      "mobile_optimized": true,
+      "web_interface": true,
+      "subdomains": [
+        "h5.wealthbax.com"
+      ]
+    },
+    "wallet_addresses": [],
+    "messaging_apps": [
+      {
+        "platform": "WhatsApp",
+        "role": "Primary communication channel",
+        "actors": [
+          "Sandy"
+        ]
+      }
+    ],
+    "phone_numbers": [],
+    "email_addresses": []
+  },
+  "actor_profile": {
+    "primary_actors": [
+      {
+        "identity": "Sandy",
+        "role": "Romance scammer / Investment advisor",
+        "persona_type": "Fake romantic interest",
+        "communication_platforms": [
+          "SMS/Text",
+          "WhatsApp"
+        ],
+        "relationship_to_victim": "Developed romantic relationship",
+        "key_activities": [
+          "Initiated contact via text",
+          "Developed romantic relationship",
+          "Introduced crypto investment",
+          "Provided platform instructions",
+          "Requested money for family",
+          "Validated fake tax demand",
+          "Provided social proof (claimed she also paid)"
+        ],
+        "sophistication_indicators": [
+          "Patient relationship building",
+          "Multi-platform engagement",
+          "Quid-pro-quo manipulation",
+          "Accomplice validation of platform demands"
+        ]
+      }
+    ],
+    "organizational_structure": "Coordinated (Sandy + Platform Operators)",
+    "sophistication_level": "High"
+  },
+  "brand_impersonation": {
+    "impersonation_present": false,
+    "fake_brand_created": "Wealth BAX Finance",
+    "legitimacy_tactics": [
+      "Professional platform name",
+      "KYC/identity verification process",
+      "Trading interface",
+      "Mobile optimization"
+    ]
+  },
+  "psychological_manipulation": {
+    "techniques_used": [
+      "Romance/Emotional Manipulation",
+      "Reciprocity (quid-pro-quo)",
+      "Authority (platform tax demands)",
+      "Social Proof (Sandy claimed she also paid taxes)",
+      "Greed (massive displayed profits)",
+      "Fear (losing displayed gains)",
+      "Sunk Cost Fallacy (relationship + financial investment)",
+      "Compassion Exploitation (helping Sandy's family)"
+    ],
+    "vulnerability_exploited": [
+      "Desire for romantic connection",
+      "Trust in relationship partner",
+      "Crypto investment interest",
+      "Limited knowledge of crypto taxation",
+      "Compassion for partner's family situation",
+      "Desire for significant financial returns"
+    ],
+    "emotional_manipulation_level": "Very High",
+    "relationship_investment": "High (romantic relationship)",
+    "manipulation_sophistication": "Advanced (multi-layered)"
+  },
+  "red_flags": [
+    {
+      "indicator": "Unsolicited text message from stranger",
+      "severity": "high",
+      "detectability": "high",
+      "phase": "initial_contact"
+    },
+    {
+      "indicator": "Quick migration from SMS to WhatsApp",
+      "severity": "medium",
+      "detectability": "medium",
+      "phase": "relationship_building"
+    },
+    {
+      "indicator": "Romantic interest introducing investment opportunity",
+      "severity": "critical",
+      "detectability": "high",
+      "phase": "investment_introduction"
+    },
+    {
+      "indicator": "Unknown/unverified crypto trading platform",
+      "severity": "critical",
+      "detectability": "high",
+      "phase": "platform_onboarding"
+    },
+    {
+      "indicator": "Request to upload driver's license to trading platform",
+      "severity": "critical",
+      "detectability": "high",
+      "phase": "kyc_collection"
+    },
+    {
+      "indicator": "Romantic partner requesting money for family",
+      "severity": "critical",
+      "detectability": "medium",
+      "phase": "relationship_exploitation"
+    },
+    {
+      "indicator": "Unrealistic investment returns (very large gains)",
+      "severity": "critical",
+      "detectability": "medium",
+      "phase": "profit_display"
+    },
+    {
+      "indicator": "Platform demanding tax payment to exchange (not IRS)",
+      "severity": "critical",
+      "detectability": "high",
+      "phase": "withdrawal_blocking"
+    },
+    {
+      "indicator": "Partner validating suspicious platform demands",
+      "severity": "critical",
+      "detectability": "medium",
+      "phase": "accomplice_validation"
+    },
+    {
+      "indicator": "Unable to withdraw funds without additional payment",
+      "severity": "critical",
+      "detectability": "high",
+      "phase": "withdrawal_blocking"
+    }
+  ],
+  "mitre_attack_mapping": {
+    "reconnaissance": [
+      "T1593 - Search Open Websites/Domains (victim targeting)",
+      "Social Media Reconnaissance"
+    ],
+    "initial_access": [
+      "T1566 - Phishing (SMS variant)",
+      "Unsolicited text message"
+    ],
+    "execution": [
+      "User-initiated platform registration",
+      "User-initiated cryptocurrency transfer"
+    ],
+    "persistence": [
+      "Multi-platform communication (WhatsApp)",
+      "Romantic relationship maintenance",
+      "Continuous engagement through fake profits"
+    ],
+    "credential_access": [
+      "T1589.001 - Gather Victim Identity Information (driver's license)",
+      "T1589.002 - Gather Victim Identity Information: Email Addresses (implied)",
+      "PII Collection"
+    ],
+    "defense_evasion": [
+      "Legitimate-appearing platform interface",
+      "KYC process mimicry",
+      "Platform migration (SMS to WhatsApp)",
+      "Relationship-based trust exploitation"
+    ],
+    "collection": [
+      "T1005 - Data from Local System (driver's license upload)",
+      "Personal Information Collection"
+    ],
+    "impact": [
+      "T1565 - Data Manipulation (fabricated account balances)",
+      "Financial Theft (deposits + potential tax payment)",
+      "Identity Theft (driver's license compromise)"
+    ]
+  },
+  "prevention_recommendations": [
+    "Never respond to unsolicited text messages from strangers",
+    "Be extremely cautious of romantic interests who discuss investments",
+    "Verify crypto exchanges through official regulatory listings",
+    "Never upload government ID to unknown trading platforms",
+    "Understand that real tax obligations are paid to IRS, not to exchanges",
+    "Exchanges cannot block withdrawals for unpaid taxes",
+    "Be suspicious of requests for money from online romantic interests",
+    "Verify platform legitimacy before any financial commitment",
+    "Research platform reviews and regulatory status",
+    "Be wary of unrealistic investment returns",
+    "Never mix romantic relationships with investment advice"
+  ],
+  "recovery_actions": [
+    "Report to California DFPI (completed)",
+    "File complaint with FBI IC3",
+    "Report to FTC",
+    "Report romance scam to WhatsApp",
+    "Document all communications with Sandy",
+    "Preserve all platform screenshots",
+    "IMMEDIATE: Place credit freeze with all three bureaus",
+    "IMMEDIATE: Set up identity theft monitoring",
+    "IMMEDIATE: File identity theft report with FTC (IdentityTheft.gov)",
+    "Monitor credit reports for fraudulent activity",
+    "Consider blockchain analysis for cryptocurrency tracing",
+    "Report phone number used for initial contact to carrier"
+  ],
+  "unique_characteristics": [
+    "Quid-pro-quo manipulation (money for family help)",
+    "Very high displayed fabricated gains ($281,992)",
+    "Identity document collection (driver's license)",
+    "Multi-stage relationship development (SMS → WhatsApp → romance)",
+    "Accomplice validation of platform scam (Sandy confirming tax requirement)",
+    "Triple fraud vector: platform scam + personal money request + identity theft"
+  ]
+}

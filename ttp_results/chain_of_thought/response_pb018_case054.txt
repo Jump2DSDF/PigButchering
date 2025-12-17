@@ -1,0 +1,640 @@
+CASE 54 - PIG BUTCHERING SCAM ANALYSIS
+=====================================
+
+CASE OVERVIEW:
+- Primary Platforms: CBMWW.com, bittisport.com, nvbit.cc, frbit.cc
+- Scam Type: Pig Butchering Scam with Fraudulent Crypto Trading Platform
+- Victims: Two California residents
+- Total Losses: $400,000+ (Victim 1), $179,000+ (Victim 2)
+- Wallet Addresses Identified:
+  * 0xb1ee662001a0247270b282e03cfc0c86642babec
+  * 0xa5fe0f74911715f5d6290d39da823c8e15986554
+
+=====================================
+6-STEP CHAIN OF THOUGHT TTP ANALYSIS
+=====================================
+
+STEP 1: IDENTIFY THE ATTACK VECTOR
+-----------------------------------
+
+Primary Attack Vectors Identified:
+1. Social Media Recruitment (Facebook)
+   - Unsolicited messages from strangers claiming crypto expertise
+   - Both victims approached via Facebook messenger
+   - Perpetrators posed as successful investors/businesspeople
+
+2. Communication Platform Migration
+   - Victim 1: Moved from Facebook to WhatsApp
+   - Pattern: Shift to encrypted/private messaging apps
+   - Purpose: Avoid platform monitoring and create isolation
+
+3. Social Engineering Personas
+   - Victim 1: Generic "crypto investor" persona
+   - Victim 2: "Yinan" - detailed backstory (successful business, early retirement plans, uncle with analyst team)
+   - Use of proof points (business statements showing returns)
+
+Attack Vector Assessment:
+- Initial Contact: Facebook direct messaging
+- Relationship Development: WhatsApp for victim 1, likely similar for victim 2
+- Trust Building: Success stories, fabricated credentials, false profit demonstrations
+- Platform Presentation: Fraudulent crypto trading platform (CBMWW and predecessors)
+
+MITRE ATT&CK Mapping:
+- T1566.002 - Phishing: Spearphishing Link (social media messaging)
+- T1598.003 - Phishing for Information: Social Media
+- T1534 - Internal Spearphishing (platform migration)
+
+
+STEP 2: TRACE THE TECHNICAL INFRASTRUCTURE
+-------------------------------------------
+
+Domain Infrastructure Analysis:
+
+Chronological Domain Sequence (Based on Victim 1 Report):
+1. bittisport.com (earliest domain)
+2. nvbit.cc (second iteration)
+3. frbit.cc (third iteration)
+4. cbmww.com (final/current domain at time of report)
+
+Infrastructure Characteristics:
+- Multiple domain migrations suggest infrastructure cycling
+- Domain hopping pattern indicates:
+  * Evasion of blocklists/takedowns
+  * Abuse of different TLDs (.com, .cc)
+  * Likely rapid infrastructure turnover
+
+Platform Features (Based on Victim Reports):
+- Account creation functionality
+- Deposit mechanisms (crypto)
+- Fake balance display system
+- Withdrawal request interface
+- Customer support chat system
+- Statement/proof generation capability
+
+Cryptocurrency Wallet Addresses:
+- 0xb1ee662001a0247270b282e03cfc0c86642babec
+- 0xa5fe0f74911715f5d6290d39da823c8e15986554
+- Both appear to be Ethereum addresses (0x prefix, 40 hex characters)
+
+Technical Infrastructure TTPs:
+- Domain rotation/cycling for persistence
+- Use of .cc TLD (often favored by scammers due to lax registration)
+- Fraudulent trading platform mimicking legitimate exchanges
+- Fake balance manipulation system
+- False withdrawal interface
+
+Current Status:
+- All reported websites are no longer operational
+- Likely indicates takedown or voluntary shutdown after scam completion
+
+
+STEP 3: MAP THE SOCIAL ENGINEERING TACTICS
+-------------------------------------------
+
+Stage 1: Initial Contact & Trust Building
+
+Victim 1 Tactics:
+- Unsolicited Facebook message
+- Immediate credibility claim ("crypto investor")
+- Quick progression to investment discussion
+- Migration to WhatsApp (privacy, control, isolation)
+
+Victim 2 Tactics (More Sophisticated):
+- Unsolicited Facebook contact by "Yinan"
+- Elaborate backstory: successful business, early retirement planning
+- Social proof: Uncle manages team of analysts
+- Visual evidence: Business statements showing profits
+- Credibility through specificity and detail
+
+Stage 2: Investment Introduction & Platform Onboarding
+
+Victim 1:
+- Direct presentation of "bitcoin trades"
+- Promise of high returns
+- Platform presented as investment vehicle
+
+Victim 2:
+- Natural conversation flow about financial success
+- Victim initiated inquiry (making victim feel in control)
+- Insider access narrative (uncle's analyst team)
+- Guided platform registration (CBMWW.com)
+
+Stage 3: Initial Investment & Confidence Building
+
+Victim 1:
+- Progressive investment over time
+- Total exceeding $400,000
+- Gradual escalation of deposits
+
+Victim 2:
+- Initial small investment
+- CRITICAL: First withdrawal of $1,000 successfully processed
+- Classic "pig butchering" tactic - allow small win to build confidence
+- Created false sense of legitimacy and accessibility
+
+Stage 4: Investment Escalation ("Fattening the Pig")
+
+Victim 1:
+- Continued deposits totaling $400,000+
+- Multiple transactions over time
+- Ongoing promises of returns
+
+Victim 2:
+- Post-withdrawal, encouraged to deposit more funds
+- "Yinan" provided regular "market information"
+- Created sense of insider knowledge and partnership
+- Account balance displayed growth to over $1 million
+- Psychological investment in the "success"
+
+Stage 5: Withdrawal Prevention & Additional Extraction
+
+Victim 1:
+- Complete loss of account access
+- No withdrawal attempts mentioned (access lost first)
+- Total loss: $400,000+
+
+Victim 2:
+- Attempted withdrawal after seeing $1M+ balance
+- Platform customer support introduced obstacle: "tax" requirement
+- Fabricated authority: "Cryptocurrency Regulatory Authority"
+- Tax demand: $260,000 (significant barrier)
+- "Yinan" offered to pay half the tax (deepening the scam)
+- True motive revealed: gain access to victim's crypto wallet
+- Total loss: $179,000+
+
+Social Engineering Technique Breakdown:
+
+1. Authority/Expertise Positioning
+   - Crypto investor persona
+   - Analyst team narrative
+   - Insider knowledge claims
+
+2. Social Proof
+   - Business statements
+   - Displayed profits
+   - Success stories
+
+3. Reciprocity
+   - "Yinan" offering to help pay tax
+   - Sharing "insider information"
+   - Creating sense of partnership
+
+4. Commitment & Consistency
+   - Initial small investment
+   - Successful small withdrawal
+   - Progressive escalation
+   - Psychological commitment to belief in returns
+
+5. Scarcity/Urgency
+   - Market timing information
+   - Investment opportunities
+   - Implied limited access through "uncle's team"
+
+6. Trust Through Isolation
+   - Platform migration (WhatsApp)
+   - Private communications
+   - Removal from public scrutiny
+
+MITRE ATT&CK Social Engineering Mappings:
+- T1598.003 - Phishing for Information: Social Media
+- T1586.002 - Compromise Accounts: Social Media Accounts (potentially fake accounts)
+- T1204.001 - User Execution: Malicious Link
+
+
+STEP 4: ANALYZE THE FINANCIAL FLOW
+-----------------------------------
+
+Victim 1 Financial Flow:
+
+Total Investment: $400,000+
+Investment Pattern: Progressive deposits over time
+Platform Interaction:
+- Deposits made to platform
+- Funds likely converted to cryptocurrency
+- Transferred to scammer-controlled wallets
+- Domain changes during investment period suggests:
+  * Continued deposits across multiple platform iterations
+  * Victim maintained belief despite infrastructure changes
+
+Withdrawal Attempts: Unable to access account before withdrawal possible
+Final Outcome: Total loss of $400,000+
+
+Victim 2 Financial Flow:
+
+Phase 1 - Trust Building:
+- Initial deposit (amount unspecified)
+- First withdrawal: $1,000 (SUCCESSFUL)
+- Purpose: Establish platform legitimacy
+
+Phase 2 - Investment Escalation:
+- Additional deposits after successful withdrawal
+- Total deposits: $179,000+ (possibly more)
+- Platform displayed balance: $1,000,000+
+- Fake profit display to encourage more deposits
+
+Phase 3 - Extraction Prevention:
+- Withdrawal request submitted
+- Obstacle introduced: $260,000 "tax" to "Cryptocurrency Regulatory Authority"
+- Additional scam layer: "Yinan" offers to pay half ($130,000)
+- True objective: Gain access to victim's personal crypto wallet
+- Victim realized scam before additional loss
+
+Final Outcome: Loss of $179,000+
+
+Combined Financial Analysis:
+
+Total Documented Losses: $579,000+ ($400,000 + $179,000)
+Potential Additional Exposure: $130,000 (if Victim 2 had complied with wallet access)
+
+Financial Flow Pattern:
+1. Fiat currency → Platform deposits
+2. Platform converts to cryptocurrency
+3. Cryptocurrency transferred to scammer wallets:
+   - 0xb1ee662001a0247270b282e03cfc0c86642babec
+   - 0xa5fe0f74911715f5d6290d39da823c8e15986554
+4. Funds laundered through cryptocurrency mixing or exchanges
+5. Platform displays fake balances to maintain victim engagement
+
+Key Financial Tactics:
+- Small withdrawal allowance (Victim 2: $1,000)
+- Fake balance inflation (Victim 2: $1M+ displayed)
+- Fabricated tax obstacles ($260,000 demand)
+- Secondary wallet access attempts (gain control of victim's personal wallet)
+- Multiple deposit solicitations over time
+
+Cryptocurrency Wallet Analysis:
+- Both addresses are Ethereum-based (ERC-20 compatible)
+- Likely received funds from multiple victims
+- Could be part of larger wallet network
+- Should be flagged for:
+  * Blockchain analysis
+  * Exchange monitoring
+  * Asset freezing attempts
+
+Money Laundering Indicators:
+- Multiple platform domains suggest layering
+- Cryptocurrency use provides anonymity
+- Cross-border nature complicates law enforcement
+- Wallet addresses represent consolidation points
+
+MITRE ATT&CK Financial Mappings:
+- T1657 - Financial Theft
+- T1573 - Encrypted Channel (cryptocurrency transactions)
+- T1027 - Obfuscated Files or Information (money laundering)
+
+
+STEP 5: DOCUMENT THE OPERATIONAL TIMELINE
+------------------------------------------
+
+Pre-Contact Phase (Timeline Unknown):
+- Infrastructure setup: bittisport.com created
+- Facebook accounts created/compromised for outreach
+- WhatsApp accounts prepared
+- Fraudulent trading platform developed
+- Wallet addresses established
+
+Phase 1: Initial Contact (Timeframe: Unknown, Sequential Events)
+
+Victim 1:
+- T+0: Facebook message received from "crypto investor"
+- T+1: Conversation moved to WhatsApp
+- T+2: Investment opportunity presented (Bitcoin trades, high returns)
+
+Victim 2:
+- T+0: Facebook contact from "Yinan"
+- T+1: Relationship building conversations
+- T+2: Victim inquires about Yinan's success
+- T+3: Yinan reveals "uncle's analyst team" story
+- T+4: Business statements shown as proof
+
+Phase 2: Platform Onboarding (Both Victims)
+
+Victim 1:
+- Active Platform: Initially bittisport.com
+- Account creation process
+- Initial deposit instructions
+
+Victim 2:
+- Platform: CBMWW.com (www.cbmww.com)
+- Guided account registration
+- Initial deposit made
+
+Phase 3: Investment Period (Extended Timeline)
+
+Victim 1:
+- Multiple deposits over time totaling $400,000+
+- Platform migrations observed:
+  * bittisport.com → nvbit.cc → frbit.cc → cbmww.com
+- Continued communication and deposits despite domain changes
+- Suggests operation over weeks/months
+
+Victim 2:
+- Initial investment (amount unspecified)
+- First withdrawal request: $1,000
+- First withdrawal APPROVED and received
+- Confidence established
+- Series of additional deposits
+- Regular communication with "Yinan" about market opportunities
+- Account balance grows (displayed as $1M+)
+- Timeline suggests weeks/months of engagement
+
+Phase 4: Withdrawal Attempt & Exit Prevention
+
+Victim 1:
+- Access to cryptocurrency lost
+- Account access denied
+- No successful withdrawal
+
+Victim 2:
+- Large withdrawal attempt initiated
+- Customer support responds with "tax" demand
+- $260,000 payment to "Cryptocurrency Regulatory Authority" required
+- "Yinan" offers to pay half ($130,000)
+- "Yinan" attempts to gain access to victim's personal crypto wallet
+- Victim recognizes scam
+- No additional payments made
+
+Phase 5: Post-Scam (Current State)
+
+- All platforms no longer operational:
+  * bittisport.com - down
+  * nvbit.cc - down
+  * frbit.cc - down
+  * cbmww.com - down
+- Victims report to authorities
+- Combined losses: $579,000+
+- Wallet addresses identified for investigation
+
+Operational Timeline Characteristics:
+
+Duration: Likely several months per victim
+- Extended relationship building
+- Multiple deposits over time
+- Progressive trust development
+- Platform domain migrations during active scamming
+
+Sophistication Indicators:
+- Multiple backup domains ready for migration
+- Customer support infrastructure
+- Withdrawal processing capability (for initial trust building)
+- Coordinated communication and platform updates
+
+Infrastructure Lifecycle:
+1. bittisport.com (earliest known)
+2. nvbit.cc (migration 1)
+3. frbit.cc (migration 2)
+4. cbmww.com (final known iteration)
+5. All platforms shuttered (post-scam completion or law enforcement pressure)
+
+Temporal TTPs:
+- Long-term victim engagement (weeks/months)
+- Patience in relationship building
+- Gradual escalation of deposits
+- Strategic timing of withdrawal approval (Victim 2 - early in relationship)
+- Strategic timing of obstacles (Victim 2 - after significant investment)
+- Coordinated shutdown of all infrastructure
+
+
+STEP 6: IDENTIFY INDICATORS OF COMPROMISE (IOCs) & MITIGATION
+--------------------------------------------------------------
+
+INDICATORS OF COMPROMISE (IOCs):
+
+Network/Domain IOCs:
+1. bittisport.com (fraudulent crypto platform)
+2. nvbit.cc (fraudulent crypto platform)
+3. frbit.cc (fraudulent crypto platform)
+4. cbmww.com (fraudulent crypto platform)
+5. www.cbmww.com (variant URL)
+
+Cryptocurrency IOCs:
+1. 0xb1ee662001a0247270b282e03cfc0c86642babec (Ethereum wallet)
+2. 0xa5fe0f74911715f5d6290d39da823c8e15986554 (Ethereum wallet)
+
+Social Engineering IOCs:
+1. Unsolicited Facebook messages about cryptocurrency investment
+2. Request to move conversation to WhatsApp
+3. Claims of "crypto investor" expertise
+4. Stories about "uncle managing analyst team"
+5. Display of fabricated business statements/profits
+6. Promises of high returns on Bitcoin/crypto trades
+7. Requests to register on unknown crypto trading platforms
+8. Initial small withdrawal approval followed by deposit requests
+9. Customer support demands for "regulatory tax" payments
+10. References to fake "Cryptocurrency Regulatory Authority"
+11. Offers to "help pay" fees/taxes to gain wallet access
+
+Persona IOCs:
+1. "Yinan" (Facebook persona, successful business owner narrative)
+2. Generic "crypto investor" personas on Facebook
+
+Behavioral IOCs:
+1. Platform domain changes during active investment relationship
+2. Account access denial after significant deposits
+3. Withdrawal requests met with large "tax" demands
+4. Third party offering to pay portion of fees (deepening scam)
+5. Attempts to gain access to victim's personal crypto wallets
+
+DETECTION & PREVENTION MEASURES:
+
+For Potential Victims:
+1. Recognize unsolicited investment approaches on social media
+2. Extreme caution with platform migration requests (Facebook → WhatsApp)
+3. Verify any crypto platform through:
+   - Official financial regulatory databases
+   - Independent review sites
+   - Domain age and registration information
+4. Red flags for fake platforms:
+   - Too-good-to-be-true returns
+   - Pressure to deposit more funds
+   - Withdrawal obstacles (taxes, fees, regulatory demands)
+   - Unverifiable "regulatory authorities"
+5. Legitimate crypto regulations:
+   - Taxes are paid to official government agencies (IRS, etc.)
+   - Taxes are NOT paid to trading platforms
+   - No legitimate "Cryptocurrency Regulatory Authority" exists
+6. Small withdrawal approval is a common pig butchering tactic
+7. Never share private wallet access with third parties
+
+For Financial Institutions:
+1. Monitor for large cryptocurrency purchases
+2. Customer education on pig butchering scams
+3. Transaction pattern recognition:
+   - Multiple crypto purchases over weeks/months
+   - Escalating amounts
+   - Purchases following social media contact
+4. Implement cooling-off periods for large crypto transactions
+
+For Cryptocurrency Exchanges:
+1. Flag and monitor identified wallet addresses:
+   - 0xb1ee662001a0247270b282e03cfc0c86642babec
+   - 0xa5fe0f74911715f5d6290d39da823c8e15986554
+2. Track incoming transactions to these addresses
+3. Implement wallet blacklists
+4. Share intelligence with other exchanges
+5. Freeze assets if legally possible
+
+For Social Media Platforms (Facebook):
+1. Detect and remove fake investment advisor accounts
+2. Monitor for crypto investment solicitation patterns
+3. Flag accounts requesting platform migration to WhatsApp
+4. Implement warnings for cryptocurrency investment messages
+5. User education on pig butchering scams
+
+For Law Enforcement:
+1. Blockchain analysis of wallet addresses
+2. Trace fund flows from identified wallets
+3. Coordinate with international agencies (likely overseas operation)
+4. Exchange subpoenas for wallet transaction data
+5. Domain registration investigation:
+   - WHOIS data for all four domains
+   - Hosting provider information
+   - Payment methods for domain/hosting
+6. Facebook account investigation
+7. WhatsApp metadata (if accessible)
+
+For Domain Registrars/DNS:
+1. Blocklist identified domains:
+   - bittisport.com
+   - nvbit.cc
+   - frbit.cc
+   - cbmww.com
+2. Monitor for similar domain registrations
+3. Flag .cc TLD registrations with crypto-related keywords
+4. Enhanced verification for crypto trading platform domains
+
+For Cybersecurity Community:
+1. IOC sharing through threat intelligence platforms
+2. Wallet address blacklisting
+3. Domain reputation databases updated
+4. Pattern recognition for similar scams:
+   - Multiple domain iterations
+   - .cc TLD usage
+   - "bit" keyword in domain names
+5. Public awareness campaigns
+
+Technical Mitigation Recommendations:
+
+Blockchain Level:
+- Tag wallets as associated with fraud
+- Monitor for mixing service usage
+- Track downstream wallet addresses
+- Identify exchange cash-out points
+
+Network Level:
+- DNS sinkholing of identified domains
+- SSL certificate tracking for similar platforms
+- IP address investigation for hosting infrastructure
+
+Application Level:
+- Browser warnings for identified domains
+- Crypto wallet software warnings for flagged addresses
+- Anti-phishing filters updated with IOCs
+
+RECOVERY RECOMMENDATIONS:
+
+For Victims:
+1. Immediate reporting to:
+   - Local law enforcement
+   - FBI IC3 (Internet Crime Complaint Center)
+   - FTC (Federal Trade Commission)
+   - State Attorney General
+2. Document all evidence:
+   - Screenshots of conversations
+   - Platform screenshots
+   - Transaction records
+   - Blockchain transaction hashes
+3. Report to social media platforms (Facebook, WhatsApp)
+4. Credit monitoring and fraud alerts
+5. Consult with crypto asset recovery specialists
+6. Tax documentation of losses
+
+For Investigators:
+1. Blockchain forensics on wallet addresses
+2. International cooperation (likely offshore operation)
+3. Exchange cooperation for asset freezing
+4. Pattern analysis for connected victims
+5. Domain/infrastructure takedown efforts
+
+STRATEGIC RECOMMENDATIONS:
+
+1. Public Awareness Campaigns:
+   - Pig butchering scam education
+   - "Small withdrawal" tactic awareness
+   - Platform verification techniques
+   - Fake regulatory authority recognition
+
+2. Industry Collaboration:
+   - Crypto exchanges sharing wallet blacklists
+   - Social media platforms coordinating on persona detection
+   - Financial institutions sharing victim patterns
+
+3. Regulatory Enhancements:
+   - Crypto platform licensing requirements
+   - Enhanced domain registration verification
+   - Cross-border enforcement mechanisms
+
+4. Technology Solutions:
+   - AI-based detection of pig butchering conversations
+   - Automated wallet reputation systems
+   - Real-time domain reputation checks
+   - Blockchain analysis automation
+
+=====================================
+SUMMARY OF KEY TTPs
+=====================================
+
+ATTACK VECTORS:
+- Social media recruitment (Facebook)
+- Platform migration to private messaging (WhatsApp)
+- Elaborate social engineering personas
+- Trust building through fake credentials
+
+TECHNICAL INFRASTRUCTURE:
+- Multiple domain rotations (4 identified)
+- Fraudulent crypto trading platform
+- Fake balance display systems
+- 2 Ethereum wallet addresses for fund collection
+
+SOCIAL ENGINEERING:
+- Authority positioning (expert investor, analyst team)
+- Social proof (fake business statements)
+- Initial small withdrawal for trust building
+- Progressive commitment escalation
+- Fake regulatory obstacles ($260,000 "tax")
+- Secondary wallet access attempts
+
+FINANCIAL OPERATIONS:
+- Total documented losses: $579,000+
+- Progressive deposit solicitation
+- Fake profit display (up to $1M+)
+- Withdrawal prevention through fabricated fees
+- Cryptocurrency-based money laundering
+
+OPERATIONAL TIMELINE:
+- Extended engagement (weeks/months per victim)
+- Multiple platform migrations during active scamming
+- Coordinated infrastructure shutdown post-scam
+
+KEY IOCs:
+- Domains: bittisport.com, nvbit.cc, frbit.cc, cbmww.com
+- Wallets: 0xb1ee662001a0247270b282e03cfc0c86642babec, 0xa5fe0f74911715f5d6290d39da823c8e15986554
+- Persona: "Yinan"
+- Fake authority: "Cryptocurrency Regulatory Authority"
+
+CRITICAL SUCCESS FACTORS FOR SCAMMERS:
+1. Initial small withdrawal approval (builds false trust)
+2. Extended relationship development (psychological investment)
+3. Domain rotation capability (infrastructure resilience)
+4. Sophisticated social engineering (detailed backstories)
+5. Multi-layered extraction (deposits + fake taxes + wallet access)
+
+CRITICAL FAILURE POINTS FOR SCAMMERS:
+1. Victim 2 recognized wallet access attempt as scam
+2. All infrastructure eventually taken down/abandoned
+3. Wallet addresses identified and documented
+4. Multiple victims reporting enables pattern recognition
+
+=====================================
+END OF ANALYSIS
+=====================================

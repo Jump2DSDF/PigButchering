@@ -1,0 +1,80 @@
+{
+  "case_id": 47,
+  "pb_case_id": "pb_015",
+  "platform_domain": "pzmqgow.top",
+  "approach_and_lure": {
+    "initial_contact_platform": [
+      "social_media_unspecified",
+      "WhatsApp"
+    ],
+    "lure_type": [
+      "investment_opportunity"
+    ],
+    "communication_migration": "WhatsApp"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Samiya - representative of well-known investment firm in San Diego",
+      "wealth_indicators": [
+        "association_with_investment_firm",
+        "professional_credentials",
+        "san_diego_based_firm",
+        "promised_high_returns"
+      ],
+      "relationship_type": "company_representative"
+    },
+    "psychological_tactics": [
+      "authority",
+      "trust_building",
+      "fear_of_missing_out",
+      "sunk_cost_exploitation"
+    ],
+    "trust_building_period": "Unknown duration, likely brief compared to romance scams (professional credentials approach)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": [
+      "pzmqgow.top"
+    ],
+    "platform_urls": [
+      "pzmqgow.top"
+    ],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "customer_service_fee_demands",
+      "complete_fund_retention"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": [
+      "crypto_unspecified"
+    ],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": null,
+    "payment_methods": [
+      "crypto_wallet_app_unspecified"
+    ]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Unknown, estimated days to weeks based on professional approach and multiple deposits",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.7,
+    "missing_information": [
+      "specific_social_media_platform",
+      "investment_firm_name",
+      "total_loss_amount",
+      "cryptocurrency_types_specific",
+      "wallet_addresses",
+      "transaction_hashes",
+      "fee_amounts_demanded",
+      "exact_timeline_dates",
+      "number_of_deposits",
+      "crypto_wallet_app_name",
+      "victim_background"
+    ],
+    "notes": "Case demonstrates professional/investment firm credential variant of Pig Butchering, differing from typical romance-based approach. Scammer 'Samiya' claimed association with San Diego investment firm, used authority positioning rather than relationship building. Multi-step onboarding process (wallet download, account creation, fund transfer) adds sophistication and legitimacy appearance. Platform pzmqgow.top included customer service function before exit. California resident victim. Platform now defunct. Likely faster operation timeline than romance scams but follows same core pattern: trust building, progressive deposits, withdrawal blocking with fees, exit scam."
+  }
+}

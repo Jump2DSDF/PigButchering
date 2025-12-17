@@ -1,0 +1,203 @@
+TTP ANALYSIS - CASE PB_031 (Horizon Pro Financial - horizonprofinancial.com)
+================================================================================
+
+CASE INFORMATION:
+- Case ID: 84 (pb_case_id: 31)
+- Primary Subject: Horizon Pro Financial
+- Website: horizonprofinancial.com
+- Scam Type: Pig Butchering Scam / Fraudulent Trading Platform
+
+COMPLAINT NARRATIVE:
+"A California resident reports meeting an individual through the app TikTok, who convinced the resident to invest in cryptocurrency on a crypto asset exchange operating on the website horizonprofinancial.com. After depositing funds and trading, the resident attempt to withdraw, but the platform (Horizon Pro Financial) denied the request, stating that a fee was required. To date, the resident has not recovered any of their invested funds. The website is no longer operational."
+
+================================================================================
+CHAIN OF THOUGHT ANALYSIS
+================================================================================
+
+STEP 1: INITIAL CONTACT ANALYSIS (접근 및 유인)
+--------------------------------------------------------------------------------
+Reasoning:
+The narrative explicitly states that the victim "met an individual through the app TikTok." This is the initial contact platform. TikTok as an initial contact vector is somewhat unusual in pig butchering scams, which more commonly use dating apps, WhatsApp, or professional networking platforms. However, TikTok has increasingly been exploited for scams due to its messaging features and large user base.
+
+The scammer "convinced the resident to invest in cryptocurrency," indicating the lure type was an investment opportunity rather than romance or friendship. The narrative does not mention any migration to another communication platform (e.g., WhatsApp, Telegram), though this is common in pig butchering operations. The absence of this information suggests either:
+1. Communication stayed on TikTok
+2. The victim did not report this detail
+3. The migration occurred but wasn't documented
+
+Key Findings:
+- Initial Contact Platform: TikTok
+- Lure Type: Investment opportunity (cryptocurrency investment)
+- Communication Migration: Not specified in narrative (unknown)
+
+STEP 2: PERSONA & PSYCHOLOGY ANALYSIS (사칭 및 심리)
+--------------------------------------------------------------------------------
+Reasoning:
+The narrative provides minimal information about the scammer's persona. We know:
+- The scammer positioned themselves as someone knowledgeable about cryptocurrency investment
+- They had access to or promoted a "crypto asset exchange" (Horizon Pro Financial)
+- They were persuasive enough to convince the victim to invest
+
+The relationship type appears to be investment advisor or mentor rather than romantic partner, given the focus on investment rather than personal relationship building. The narrative lacks details about:
+- Any claimed identity (name, profession, background)
+- Wealth indicators shown (luxury lifestyle, trading profits, etc.)
+- Duration of trust-building phase
+
+Psychological tactics evident from the narrative:
+1. Trust building - The scammer spent time to "convince" the victim, suggesting rapport development
+2. Authority - Presenting knowledge of cryptocurrency and access to a trading platform
+3. Fear of Missing Out (FOMO) - Investment opportunities typically exploit this
+4. Sunk cost exploitation - After initial deposit, the victim attempted to withdraw, but fees were demanded, a classic tactic to extract more money
+
+Key Findings:
+- Claimed Identity: Unknown (not specified)
+- Wealth Indicators: Access to trading platform, cryptocurrency investment knowledge
+- Relationship Type: Investment advisor/mentor
+- Psychological Tactics: trust_building, authority, fear_of_missing_out, sunk_cost_exploitation
+- Trust Building Period: Unknown duration (not specified)
+
+STEP 3: FRAUD MECHANISM ANALYSIS (사기 수법)
+--------------------------------------------------------------------------------
+Reasoning:
+The fraud mechanism is clearly described:
+
+Platform Type: The narrative explicitly identifies this as a "crypto asset exchange operating on the website horizonprofinancial.com." This is classified as a fake_trading_platform or fake_exchange.
+
+Platform Identification:
+- Name: Horizon Pro Financial
+- URL: horizonprofinancial.com (no protocol specified in complaint)
+
+Fake Profits: The narrative states the victim "deposited funds and trading" occurred. While not explicitly stated, the fact that the victim attempted to withdraw suggests they believed there were funds to withdraw, likely including profits. In typical pig butchering schemes, fake profits are shown to encourage further deposits. However, we cannot confirm this with 100% certainty from the narrative alone.
+
+Withdrawal Blocking: The platform "denied the request, stating that a fee was required." This is the classic withdrawal blocking tactic of demanding fees, taxes, or additional payments before allowing withdrawal. The narrative confirms "the resident has not recovered any of their invested funds," indicating successful execution of the scam.
+
+Platform Status: "The website is no longer operational" - indicating the platform is defunct, likely shut down after exit scam.
+
+Key Findings:
+- Platform Type: fake_exchange / fake_trading_platform
+- Platform Names: ["Horizon Pro Financial"]
+- Platform URLs: ["horizonprofinancial.com"]
+- Fake Profit Shown: Likely true (implied by withdrawal attempt, but not explicitly confirmed)
+- Withdrawal Block Tactics: ["fee_payment_demand"]
+- Platform Status: defunct
+
+STEP 4: FINANCIAL INTELLIGENCE EXTRACTION (추적단서)
+--------------------------------------------------------------------------------
+Reasoning:
+The narrative provides limited financial tracking information:
+
+Cryptocurrency Types: The narrative mentions "invest in cryptocurrency" and "crypto asset exchange" but does not specify which cryptocurrencies were involved (Bitcoin, Ethereum, USDT, etc.).
+
+Wallet Addresses: No wallet addresses are mentioned in the narrative.
+
+Transaction Hashes: No transaction hashes are provided.
+
+Estimated Loss: The narrative states the victim has "not recovered any of their invested funds" but does not specify the dollar amount. This is critical missing information.
+
+Payment Methods: The victim was investing in "cryptocurrency on a crypto asset exchange," suggesting they likely:
+- Transferred cryptocurrency from another exchange/wallet
+- Or possibly purchased cryptocurrency elsewhere first
+The specific payment method is not detailed.
+
+The lack of financial tracking data significantly limits the investigative value of this case for blockchain analysis and asset recovery efforts.
+
+Key Findings:
+- Cryptocurrency Types: Unspecified (generic "cryptocurrency" mentioned)
+- Wallet Addresses: None provided
+- Transaction Hashes: None provided
+- Estimated Loss USD: Not specified
+- Payment Methods: Cryptocurrency transfer (method unspecified)
+
+STEP 5: TEMPORAL ANALYSIS (시간적 지표)
+--------------------------------------------------------------------------------
+Reasoning:
+The narrative provides minimal temporal information:
+
+Scam Duration: The sequence of events is:
+1. Meeting individual on TikTok
+2. Being convinced to invest
+3. Depositing funds
+4. Trading
+5. Attempting withdrawal
+6. Being denied and asked for fees
+7. Not recovering funds
+
+This suggests a multi-stage process over days to weeks, but no specific timeframe is provided. The trust-building phase (convincing to invest) and trading phase both take time, suggesting at minimum several days to weeks.
+
+Platform Status: Explicitly stated as "no longer operational" - the platform is defunct. This is typical of pig butchering scams where the platform shuts down after collecting sufficient funds (exit scam).
+
+Key Findings:
+- Scam Duration: Estimated days to weeks (not specified)
+- Platform Status: defunct (confirmed)
+
+STEP 6: CONFIDENCE ASSESSMENT
+--------------------------------------------------------------------------------
+Information Quality Analysis:
+
+CLEARLY STATED:
+- Initial contact platform (TikTok)
+- Lure type (investment opportunity)
+- Platform name (Horizon Pro Financial)
+- Platform URL (horizonprofinancial.com)
+- Withdrawal blocking tactic (fee demand)
+- Platform status (defunct)
+- Victim location (California)
+- Outcome (funds not recovered)
+
+STRONGLY IMPLIED:
+- Fake profits shown (victim attempted withdrawal)
+- Relationship type (investment advisor)
+- Some psychological tactics (trust building, authority)
+
+MISSING/UNKNOWN:
+- Scammer identity or claimed persona
+- Communication migration platform
+- Specific wealth indicators used
+- Trust-building duration
+- Cryptocurrency types involved
+- Any wallet addresses
+- Any transaction hashes
+- Estimated financial loss (critical gap)
+- Specific payment methods
+- Timeline/dates
+- Contact information of scammer
+
+CONFIDENCE SCORE RATIONALE:
+The narrative provides clear information about the basic scam structure (TikTok contact, investment lure, fake platform, withdrawal blocking) but lacks crucial details for investigative purposes:
+- No financial tracking data (amounts, addresses, transactions)
+- No temporal specifics
+- Minimal scammer persona information
+- No actionable intelligence for asset recovery
+
+This is a brief, high-level complaint that captures the scam framework but lacks forensic detail. Confidence score: 0.65
+
+The extraction is moderately confident for categorical information (platform type, contact method, scam type) but low confidence for investigative intelligence (financial tracking, timeline, scammer identification).
+
+KEY INVESTIGATIVE GAPS:
+1. Financial loss amount - Critical for prioritization
+2. Wallet addresses - Essential for blockchain tracking
+3. Scammer contact details - Needed for pattern analysis
+4. Transaction details - Required for asset recovery
+5. Timeline - Important for correlation with other cases
+
+NOTES:
+- TikTok as initial contact platform is noteworthy - less common than dating apps
+- Very limited financial intelligence limits investigative value
+- Classic withdrawal blocking via fee demand
+- Platform defunct suggests exit scam completion
+- Brief narrative suggests preliminary complaint, may have supplemental information elsewhere
+
+================================================================================
+EXTRACTION SUMMARY
+================================================================================
+
+This case represents a textbook pig butchering scam with the following key characteristics:
+1. Social media initial contact (TikTok - unusual platform)
+2. Investment opportunity lure (cryptocurrency)
+3. Fraudulent trading platform (Horizon Pro Financial)
+4. Withdrawal blocking via fee demands
+5. Complete loss of invested funds
+6. Platform exit scam (now defunct)
+
+The case has moderate value for TTP pattern analysis but limited value for financial investigation due to lack of blockchain tracking data. The TikTok vector is worth monitoring for trend analysis.
+
+Recommended follow-up: Request supplemental information from victim regarding financial amounts, cryptocurrency types, wallet addresses, and timeline details.

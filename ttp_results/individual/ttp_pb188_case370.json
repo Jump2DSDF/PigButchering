@@ -1,0 +1,67 @@
+{
+  "case_id": 370,
+  "victim_count": 2,
+  "approach_and_lure": {
+    "initial_contact_platform": ["LinkedIn"],
+    "lure_type": ["gold_trading", "mentorship", "investment_opportunity"],
+    "communication_migration": "LinkedIn → WhatsApp"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "name": "Amelia",
+      "claimed_identity": "Financial mentor",
+      "approach": "Cultural connection (Korea)",
+      "video_call_used": true
+    },
+    "psychological_tactics": [
+      "cultural_affinity",
+      "video_call_trust_building",
+      "mentorship_offer",
+      "demo_platform_demonstration",
+      "progressive_investment_pressure",
+      "uk_tax_extraction"
+    ],
+    "trust_building_period": "Extended"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["Sundell Ltd", "Sundell FX"],
+    "platform_urls": ["sundell-fx.com"],
+    "platform_claims": ["UK registered online trading platform", "US registered money services business"],
+    "trading_type": "gold_futures",
+    "fake_profit_shown": true,
+    "fake_balance_displayed": {"victim_1": 83000},
+    "partial_withdrawals_allowed": true,
+    "withdrawal_block_tactics": [
+      "id_verification_demand",
+      "bank_account_verification_demand",
+      "uk_personal_income_tax_demand",
+      "deadline_threat",
+      "account_deactivation"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["unknown"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": {"victim_1": 141000, "victim_2": "unknown", "total_minimum": 800000},
+    "payment_methods": ["wire_transfer", "cryptocurrency_transfer"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.85,
+    "missing_information": ["wallet_addresses", "victim_2_loss_amount", "transaction_hashes"],
+    "notes": "HIGH VALUE CASE: $800K+ estimated total loss. Unique tactics: Video call with scammer (Amelia), cultural affinity (Korea), gold futures trading specialization, UK tax extraction scheme. Platform claimed UK and US regulatory registration (false). Demo platform used to build confidence."
+  },
+  "chain_of_thought": {
+    "step_1_initial_contact": "Amelia contacted victim on LinkedIn, expressed interest in Korean culture",
+    "step_2_platform_migration": "Moved conversation to WhatsApp for extended trust building",
+    "step_3_trust_building": "Video calls conducted, Amelia offered to be financial mentor",
+    "step_4_platform_introduction": "Showed demo trading platform at Sundell-fx, promised profits",
+    "step_5_investment_escalation": "Continuous pressure to transfer more money for larger profits",
+    "step_6_extraction_block": "ID/bank verification demanded, then UK tax demand with 1-week deadline"
+  }
+}

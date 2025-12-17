@@ -1,0 +1,54 @@
+{
+  "case_id": 171,
+  "approach_and_lure": {
+    "initial_contact_platform": ["WhatsApp_group"],
+    "lure_type": ["investment_group", "investment_opportunity"],
+    "communication_migration": "WhatsApp group → Private WhatsApp chat"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "name": "Kaia",
+      "claimed_identity": "Investment teacher",
+      "wealth_indicators": ["trading_expertise"],
+      "relationship_type": "mentor_teacher"
+    },
+    "psychological_tactics": [
+      "authority",
+      "social_proof",
+      "group_dynamics",
+      "expertise_claims",
+      "sunk_cost_exploitation"
+    ],
+    "trust_building_period": "Unknown"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["COINS"],
+    "platform_urls": ["coinsns.com", "coinwns.com", "coinns.com"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "additional_investment_required_to_unlock"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["BTC"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 150000,
+    "payment_methods": ["cryptocurrency_transfer"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended period",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.72,
+    "missing_information": [
+      "wallet_addresses",
+      "transaction_hashes",
+      "specific_timeline",
+      "group_chat_details"
+    ],
+    "notes": "Investment group scam variant with 'investment teacher' Kaia persona. Multiple domain names (coinsns.com, coinwns.com, coinns.com) suggest domain rotation strategy. WhatsApp group used for social proof and victim recruitment. $150,000 loss indicates significant extraction."
+  }
+}

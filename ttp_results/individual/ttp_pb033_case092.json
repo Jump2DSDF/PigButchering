@@ -1,0 +1,65 @@
+{
+  "case_id": 92,
+  "approach_and_lure": {
+    "initial_contact_platform": ["unknown"],
+    "lure_type": ["investment_opportunity"],
+    "communication_migration": "unknown"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Crypto trading platform representative",
+      "wealth_indicators": [
+        "professional_trading_platform",
+        "crypto_asset_management"
+      ],
+      "relationship_type": "company_representative"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "sunk_cost_exploitation",
+      "authority"
+    ],
+    "trust_building_period": "Sufficient time to establish account and accumulate assets before withdrawal attempt"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["cryptomo.net"],
+    "platform_urls": ["https://cryptomo.net"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "additional_deposit_demand",
+      "wallet_verification_fee"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["crypto_assets_unspecified"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": null,
+    "payment_methods": ["crypto_transfer"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Unknown duration from account opening to withdrawal attempt",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.7,
+    "missing_information": [
+      "initial_contact_platform",
+      "initial_contact_method",
+      "communication_migration_details",
+      "scammer_identity_details",
+      "trust_building_timeline",
+      "specific_cryptocurrency_types",
+      "wallet_addresses",
+      "transaction_hashes",
+      "estimated_loss_amount_usd",
+      "deposit_amounts",
+      "fake_profit_amounts",
+      "additional_deposit_amount_demanded",
+      "exact_timeline_dates",
+      "victim_demographic_details"
+    ],
+    "notes": "MEDIUM PRIORITY case due to limited extractable information. Classic Pig Butchering withdrawal blocking pattern with wallet verification pretext. Victim location: California. Key indicators: (1) Attempted withdrawal from crypto trading platform cryptomo.net, (2) Platform demanded additional deposit for 'wallet verification' before account unlock - classic advance fee fraud tactic, (3) Platform now defunct preventing fund recovery. Narrative is brief with minimal details about initial contact, relationship building, or financial specifics. No wallet addresses or transaction hashes provided, limiting blockchain tracking capability. The 'wallet verification' pretext is a common withdrawal blocking technique designed to extract additional funds while creating appearance of legitimate security procedure. Platform shutdown indicates likely exit scam after accumulating victim deposits. Without initial contact details, cannot determine if this follows typical romance/friendship lure pattern or direct investment approach. Case demonstrates standard Pig Butchering endgame: victim deposits funds, attempts withdrawal, faces fabricated fees/requirements, platform disappears."
+  }
+}

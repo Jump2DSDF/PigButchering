@@ -1,0 +1,101 @@
+{
+  "analysis_date": "2025-12-17 21:55:30",
+  "total_cases_analyzed": 9,
+  "contact_platforms": {
+    "online_platform_unspecified": 3,
+    "WhatsApp": 2,
+    "linkedin": 1,
+    "unknown_online_platform": 1,
+    "Dating App": 1,
+    "Facebook": 1,
+    "unspecified_online_platform": 1
+  },
+  "lure_types": {
+    "investment_opportunity": 9,
+    "friendship": 3,
+    "romance": 2,
+    "profit_promises": 1,
+    "quick_profits": 1
+  },
+  "relationship_types": {
+    "friend": 3,
+    "romantic_partner": 2,
+    "company_representative": 2,
+    "professional_mentor": 1,
+    "investment_advisor": 1
+  },
+  "psychological_tactics": {
+    "sunk_cost_exploitation": 9,
+    "trust_building": 8,
+    "authority": 7,
+    "social_proof": 6,
+    "fear_of_missing_out": 6,
+    "reciprocity": 2,
+    "fake_profit_display": 2,
+    "urgency": 2,
+    "graduated_commitment": 1,
+    "fee_legitimization": 1,
+    "authority_expertise": 1,
+    "greed_fomo": 1,
+    "escalating_commitment": 1,
+    "compliance_conditioning": 1,
+    "love_bombing": 1
+  },
+  "platform_types": {
+    "fake_trading_platform": 6,
+    "fake_crypto_trading_platform": 2,
+    "fake_exchange": 1
+  },
+  "withdrawal_tactics": {
+    "security_fee_500000": 1,
+    "complete_fund_freeze_after_refusal": 1,
+    "tax_payment_demand": 1,
+    "management_fee_20_percent_25000_usd": 1,
+    "verification_fee_21000_usd": 1,
+    "10_percent_withdrawal_deposit": 1,
+    "15_percent_identity_verification": 1,
+    "100_percent_account_balance_matching": 1,
+    "demand_additional_deposit_for_withdrawal": 1,
+    "continued_blocking_after_payment": 1,
+    "withdrawal_prevented_unspecified_method": 1,
+    "platform_shutdown_exit_scam": 1,
+    "complete_withdrawal_block": 1,
+    "minimum_trade_requirement_5_trades": 1,
+    "additional_trade_requirement_5_more_trades": 1,
+    "10_percent_withdrawal_fee_upfront": 1,
+    "20_percent_service_fee_demand": 1,
+    "threat_of_fund_seizure_for_non_payment": 1,
+    "customer_service_refusal": 1,
+    "margin_loan_repayment_demand": 1,
+    "external_wire_transfer_required": 1,
+    "refusal_to_deduct_from_account_balance": 1
+  },
+  "platform_status": {
+    "defunct": 9
+  },
+  "avg_confidence": 0.72,
+  "total_estimated_loss": 3553000,
+  "cases_with_wallet_addresses": 1,
+  "losses_breakdown": [
+    {
+      "case_id": 9,
+      "loss": 2500000
+    },
+    {
+      "case_id": 16,
+      "loss": 90000
+    },
+    {
+      "case_id": 24,
+      "loss": 550000
+    },
+    {
+      "case_id": 27,
+      "loss": 55000
+    },
+    {
+      "case_id": 34,
+      "loss": 358000
+    }
+  ]
+}

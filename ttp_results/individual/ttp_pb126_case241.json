@@ -1,0 +1,53 @@
+{
+  "case_id": 241,
+  "approach_and_lure": {
+    "initial_contact_platform": ["Instagram"],
+    "lure_type": ["friend_referral", "investment_opportunity"],
+    "communication_migration": "Instagram (via friend's hacked account)"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "name": "Sasha",
+      "claimed_identity": "Crypto trader, friend of friend",
+      "wealth_indicators": ["trading_profits"],
+      "relationship_type": "investment_mentor"
+    },
+    "psychological_tactics": [
+      "social_proof_hacked_account",
+      "guaranteed_profits_claim",
+      "progressive_fee_extraction",
+      "false_assurances"
+    ],
+    "trust_building_period": "Short (leveraged hacked friend connection)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["Spike fx fast trade", "Upward Fox"],
+    "platform_urls": ["spikefxfasttrade.com"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "technical_issues",
+      "mining_fee_3500",
+      "withdrawal_fee_7000",
+      "reduced_fee_offer_via_paypal_cashapp"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["ETH"],
+    "wallet_addresses": [
+      "0x83cA775F45Ca6E979414e71B10F49ac7685aFEde"
+    ],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 4500,
+    "payment_methods": ["cryptocurrency_transfer", "potential_paypal_cashapp"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Short (hours to days)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.88,
+    "missing_information": ["transaction_hashes"],
+    "notes": "CRITICAL: ETH wallet address 0x83cA775F45Ca6E979414e71B10F49ac7685aFEde extracted. Unique tactic: scammer accessed victim via hacked Instagram account of actual friend. Multi-entity operation (Spike fx + Upward Fox). Offered reduced withdrawal fee via PayPal/CashApp - unusual alternative payment method."
+  }
+}

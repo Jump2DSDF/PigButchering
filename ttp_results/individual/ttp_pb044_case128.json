@@ -1,0 +1,92 @@
+{
+  "case_id": 128,
+  "approach_and_lure": {
+    "initial_contact_platform": [
+      "dating_app"
+    ],
+    "lure_type": [
+      "romance",
+      "investment_education",
+      "cryptocurrency_trading",
+      "insider_opportunity",
+      "exclusive_access"
+    ],
+    "communication_migration": "Not explicitly stated - likely migrated from dating app to encrypted messaging platform (WhatsApp/Telegram typical for this scam type)"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Kevin - IT Manager and Director of Operations at major international hotel chain, with multiple investment portfolios",
+      "wealth_indicators": [
+        "Director-level position at international hotel chain",
+        "Multiple investment portfolios (real estate, stocks, cryptocurrency)",
+        "Access to $8 million investment quota through NASDAQ-connected aunt",
+        "Connection to expert trading group",
+        "Ability to participate in multi-million dollar trades"
+      ],
+      "relationship_type": "romantic_interest_evolved_to_mentor_then_business_partner"
+    },
+    "psychological_tactics": [
+      "mentorship_and_education",
+      "proof_of_legitimacy_via_successful_withdrawal",
+      "insider_access_and_exclusivity",
+      "artificial_urgency_and_scarcity",
+      "escalating_commitment_foot_in_door",
+      "partnership_framing",
+      "manufactured_crisis_and_recovery",
+      "sunk_cost_exploitation",
+      "authority_and_expertise_positioning",
+      "fomo_fear_of_missing_out"
+    ],
+    "trust_building_period": "approximately_1_month_of_normal_trading_before_major_escalation"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_cryptocurrency_exchange",
+    "platform_names": [
+      "Zipmex pro",
+      "Zipmexpro"
+    ],
+    "platform_urls": [
+      "https://zipmexpro.com"
+    ],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "initial_withdrawal_allowed_for_trust_building",
+      "platform_shutdown_hard_exit"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": [
+      "Bitcoin",
+      "BTC"
+    ],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 3800000,
+    "payment_methods": [
+      "brokerage_account_liquidation",
+      "retirement_account_liquidation_401k_ira",
+      "personal_loans",
+      "direct_cryptocurrency_transfer",
+      "bank_transfer_to_platform"
+    ]
+  },
+  "temporal_indicators": {
+    "scam_duration": "approximately_2_to_3_months",
+    "platform_status": "no_longer_operational"
+  },
+  "extraction_metadata": {
+    "confidence_score": 82,
+    "missing_information": [
+      "cryptocurrency_wallet_addresses",
+      "transaction_hashes",
+      "specific_dating_app_name",
+      "secondary_communication_platforms",
+      "exact_dates_of_events",
+      "detailed_transfer_amounts_breakdown",
+      "kevin_contact_information",
+      "email_addresses",
+      "platform_technical_infrastructure"
+    ],
+    "notes": "HIGH-VALUE CASE ($3.8M+ loss). Excellent psychological and tactical intelligence with detailed victim narrative showing classic pig butchering escalation pattern. Critical gap: No blockchain forensic data (wallet addresses, transaction hashes) severely limits law enforcement asset recovery potential. Platform impersonated legitimate Zipmex exchange using 'pro' suffix. Scammer used sophisticated multi-phase approach with proof-of-legitimacy withdrawal, insider access narratives (NASDAQ aunt), and manufactured crisis. Victim had high financial sophistication but was successfully manipulated through mentorship framing and escalating commitment tactics. Platform currently offline. Recovery unlikely without additional technical intelligence."
+  }
+}

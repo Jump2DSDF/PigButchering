@@ -1,0 +1,286 @@
+{
+  "case_metadata": {
+    "pb_case_id": 76,
+    "original_case_id": 177,
+    "analysis_date": "2025-12-17",
+    "case_status": "completed_analysis",
+    "victim_location": "California, USA",
+    "primary_subject": "Incapital Limited crypto incapital.limited"
+  },
+  "scam_classification": {
+    "primary_type": "Pig Butchering Scam",
+    "secondary_types": [
+      "Fraudulent Trading Platform",
+      "Investment Scam"
+    ],
+    "scam_variant": "Business/Brokerage Impersonation",
+    "sophistication_level": "High"
+  },
+  "initial_contact": {
+    "method": "Social Media",
+    "platform": "Unspecified social media platform",
+    "contact_initiator": "Victim (discovered company)",
+    "approach_type": "Business/Investment Opportunity",
+    "persona_type": "Legitimate brokerage company",
+    "persona_details": {
+      "company_name": "InCapital Limited",
+      "claimed_locations": [
+        "Chicago, Illinois, USA",
+        "Boca Raton, Florida, USA",
+        "London, United Kingdom"
+      ],
+      "business_type": "Cryptocurrency brokerage"
+    },
+    "relationship_building": "Professional/business relationship",
+    "communication_channels": [
+      "Social Media",
+      "Phone calls",
+      "Trading platform website"
+    ]
+  },
+  "trust_building_tactics": {
+    "legitimacy_indicators": [
+      "Multiple domain names",
+      "Professional website design",
+      "International business addresses",
+      "Brokerage company positioning",
+      "Customer service representatives",
+      "Multi-location presence"
+    ],
+    "social_engineering": [
+      "Professional branding",
+      "Regulatory-sounding entity name",
+      "Global presence implication",
+      "Established business appearance"
+    ],
+    "time_invested": "Not specified",
+    "relationship_type": "Business client relationship"
+  },
+  "platform_details": {
+    "platform_name": "InCapital Limited",
+    "platform_type": "Fraudulent crypto trading platform",
+    "domains": [
+      "incapital.limited",
+      "incapital.com",
+      "incaptl.link"
+    ],
+    "urls": [
+      "https://incapital.limited/en/login",
+      "https://incapital.limited"
+    ],
+    "current_status": "Offline/Defunct",
+    "platform_features": [
+      "Login portal",
+      "Account creation",
+      "Trading interface",
+      "Balance display",
+      "Transaction history (implied)"
+    ],
+    "apparent_functionality": "Fully functional trading platform",
+    "technical_infrastructure": "Multiple domains, professional web interface"
+  },
+  "financial_details": {
+    "total_loss_usd": 35000,
+    "initial_investment_usd": 35000,
+    "additional_fees_demanded_usd": 22000,
+    "additional_fees_paid_usd": 0,
+    "amount_recovered_usd": 0,
+    "cryptocurrency_types": [
+      "Unspecified crypto assets"
+    ],
+    "payment_methods": [
+      "Cryptocurrency transfers"
+    ],
+    "investment_timeline": "Not specified",
+    "withdrawal_blocked": true
+  },
+  "investment_phase": {
+    "initial_deposit": {
+      "amount_usd": 35000,
+      "method": "Crypto asset transfer",
+      "encouraged_by": "Platform functionality and professional appearance"
+    },
+    "profit_demonstration": {
+      "method": "Platform balance display",
+      "apparent_gains": "Not specified",
+      "victim_allowed_trading": true,
+      "fabricated_returns": "Implied through balance manipulation"
+    },
+    "escalation_tactics": [
+      "Technical glitch manufactured",
+      "Account balance loss event"
+    ]
+  },
+  "withdrawal_blocking": {
+    "trigger_event": "Technical glitch causing fund loss",
+    "victim_action": "Attempted to withdraw remaining funds",
+    "blocking_mechanism": "Mandatory additional fee requirement",
+    "fees_demanded": [
+      {
+        "amount_usd": 22000,
+        "justification": "Preserve account balance",
+        "fee_type": "Account preservation/maintenance fee",
+        "paid": false
+      }
+    ],
+    "pressure_tactics": [
+      "Multiple aggressive phone calls",
+      "Repeated demands for payment",
+      "High-pressure collection tactics",
+      "Urgency creation"
+    ],
+    "communication_escalation": "Professional to aggressive harassment"
+  },
+  "red_flags": [
+    "Multiple domain names for single company",
+    "Inability to withdraw funds without additional payment",
+    "Large unexpected fee ($22,000) required",
+    "Aggressive repeated phone calls demanding payment",
+    "Convenient technical glitch preventing operations",
+    "All websites simultaneously going offline",
+    "No verifiable business registration",
+    "Unverifiable international addresses",
+    "Account preservation fee concept",
+    "Complete fund inaccessibility despite account access",
+    "High-pressure sales tactics",
+    "No regulatory oversight or licensing evidence"
+  ],
+  "scammer_infrastructure": {
+    "domains_identified": [
+      "incapital.limited",
+      "incapital.com",
+      "incaptl.link"
+    ],
+    "hosting_info": "Not available",
+    "registration_info": "Not available",
+    "communication_tools": [
+      "Phone calls",
+      "Website platform",
+      "Social media presence"
+    ],
+    "claimed_physical_locations": [
+      "Chicago, Illinois, USA",
+      "Boca Raton, Florida, USA",
+      "London, United Kingdom"
+    ],
+    "phone_numbers": "Not specified",
+    "email_addresses": "Not specified"
+  },
+  "crypto_wallets": {
+    "identified_addresses": [],
+    "blockchain_networks": [],
+    "note": "No wallet addresses provided in case narrative"
+  },
+  "outcome": {
+    "victim_realized_scam": true,
+    "realization_trigger": "Demanded $22,000 fee and inability to withdraw",
+    "platform_shutdown": true,
+    "funds_recovered": false,
+    "law_enforcement_contacted": true,
+    "case_reported_to": "California authorities (implied)",
+    "scammer_identified": false,
+    "scammer_prosecuted": false
+  },
+  "ttp_summary": {
+    "initial_contact_ttp": [
+      "Social media company presence",
+      "Professional branding",
+      "Multi-domain web infrastructure",
+      "International business location claims"
+    ],
+    "trust_building_ttp": [
+      "Brokerage company impersonation",
+      "Multiple domain legitimacy signals",
+      "Prestigious business addresses",
+      "Professional customer service"
+    ],
+    "platform_operation_ttp": [
+      "Functional trading platform",
+      "Account creation and onboarding",
+      "Real-time balance display",
+      "Manufactured technical glitches"
+    ],
+    "investment_extraction_ttp": [
+      "Single large investment acceptance",
+      "Allowed trading activity for legitimacy",
+      "Balance manipulation through platform"
+    ],
+    "withdrawal_blocking_ttp": [
+      "Technical glitch as crisis trigger",
+      "Mandatory additional fees",
+      "Aggressive phone-based pressure",
+      "Account preservation justification"
+    ],
+    "exit_strategy_ttp": [
+      "Final large fee extraction attempt",
+      "Complete infrastructure dismantlement",
+      "Simultaneous multi-domain shutdown",
+      "No recovery options provided"
+    ]
+  },
+  "victim_vulnerabilities": [
+    "Trust in professional-appearing platforms",
+    "Belief in multi-domain legitimacy",
+    "Sunk cost fallacy ($35,000 invested)",
+    "Fear of losing investment during technical issue",
+    "Pressure from repeated contact",
+    "Hope of fund recovery through fee payment"
+  ],
+  "unique_characteristics": [
+    "Business-focused approach (no romance element)",
+    "Social media discovery by victim",
+    "Multiple domains for single operation",
+    "Technical glitch as manufactured crisis",
+    "Aggressive phone campaign",
+    "Professional brokerage impersonation",
+    "High-value single investment target"
+  ],
+  "iocs": {
+    "domains": [
+      "incapital.limited",
+      "incapital.com",
+      "incaptl.link"
+    ],
+    "urls": [
+      "https://incapital.limited/en/login",
+      "https://incapital.limited"
+    ],
+    "company_names": [
+      "InCapital Limited"
+    ],
+    "fake_addresses": [
+      "Chicago location (unspecified)",
+      "Boca Raton location (unspecified)",
+      "London location (unspecified)"
+    ]
+  },
+  "recommendations": {
+    "prevention": [
+      "Verify brokerage licenses with regulatory authorities",
+      "Check company registration in claimed jurisdictions",
+      "Research domain registration dates and ownership",
+      "Be suspicious of multiple domains for single company",
+      "Never pay fees to withdraw your own funds",
+      "Verify physical addresses through independent sources",
+      "Research company reviews and scam databases"
+    ],
+    "detection": [
+      "Test small withdrawal before large investments",
+      "Verify regulatory compliance and licensing",
+      "Check for consistent contact information",
+      "Research domain age and history",
+      "Validate claimed business addresses",
+      "Be alert to unexpected technical issues",
+      "Question any additional fees for withdrawals"
+    ],
+    "response": [
+      "Document all communications and transactions",
+      "Report to FTC, SEC, and CFTC",
+      "File complaint with IC3",
+      "Contact crypto exchanges involved",
+      "Report domains to hosting providers",
+      "Consult with crypto fraud attorney",
+      "Share information with anti-scam organizations"
+    ]
+  }
+}

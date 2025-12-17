@@ -1,0 +1,51 @@
+{
+  "case_id": 136,
+  "approach_and_lure": {
+    "initial_contact_platform": ["social_media_unspecified"],
+    "lure_type": ["investment_opportunity"],
+    "communication_migration": "WhatsApp (group chat)"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Nathan (financial consultant) and Amy (assistant)",
+      "wealth_indicators": ["professional_financial_consultant", "has_assistant", "trading_expertise", "trading_signals"],
+      "relationship_type": "investment_advisor"
+    },
+    "psychological_tactics": ["trust_building", "authority", "social_proof", "reciprocity", "sunk_cost_exploitation", "scarcity"],
+    "trust_building_period": "Weeks to months (free advice period before paid services)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_wallet",
+    "platform_names": ["DYDX Wallet"],
+    "platform_urls": ["dydxgroup.com"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": ["commission_payment_demand"]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["likely_crypto_unspecified"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 22000,
+    "payment_methods": ["unspecified_transfer"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Weeks to months",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.75,
+    "missing_information": [
+      "specific_initial_contact_platform",
+      "cryptocurrency_types_specific",
+      "wallet_addresses",
+      "transaction_hashes",
+      "exact_deposit_amounts",
+      "payment_methods_specific",
+      "exact_timeline",
+      "number_of_group_participants",
+      "trading_signal_details",
+      "platform_interface_details"
+    ],
+    "notes": "Sophisticated Pig Butchering scam featuring two-person operation (Nathan + Amy) impersonating legitimate dYdX Exchange. Started with social media contact, migrated to WhatsApp group for social proof. Nathan positioned as financial consultant offering free advice (reciprocity), then charged $8,000 in commissions for trading signals. Victim deposited funds into fake DYDX Wallet (dydxgroup.com) and saw fake profits. Withdrawal blocked by $3,000 commission demand. Total loss $22,000. Platform now defunct. Notable for professional business framing rather than romance/friendship, brand impersonation strategy, and tiered revenue extraction (signals + deposits + withdrawal fees). Missing blockchain tracking data limits investigation capability."
+  }
+}

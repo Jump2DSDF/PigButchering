@@ -1,0 +1,168 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Pig Butchering TTP Profile",
+  "description": "Fraud TTPs (Tactics, Techniques, Procedures) extraction schema for Pig Butchering scams",
+  "type": "object",
+  "properties": {
+    "case_id": {
+      "type": "integer",
+      "description": "Original case ID from DFPI data"
+    },
+    "approach_and_lure": {
+      "type": "object",
+      "description": "Initial contact and attraction methods",
+      "properties": {
+        "initial_contact_platform": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Platforms used for initial contact (e.g., WhatsApp, Telegram, Tinder, Facebook, Instagram, LinkedIn, Dating Apps)"
+        },
+        "lure_type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["romance", "friendship", "investment_opportunity", "job_offer", "celebrity_endorsement", "social_media_ad", "random_message", "referral", "other"]
+          },
+          "description": "Type of lure used to attract victim"
+        },
+        "communication_migration": {
+          "type": "string",
+          "description": "Platform victim was moved to for continued communication"
+        }
+      }
+    },
+    "impersonation_and_psychology": {
+      "type": "object",
+      "description": "Persona and psychological manipulation tactics",
+      "properties": {
+        "scammer_persona": {
+          "type": "object",
+          "properties": {
+            "claimed_identity": {
+              "type": "string",
+              "description": "Who the scammer claimed to be"
+            },
+            "wealth_indicators": {
+              "type": "array",
+              "items": {"type": "string"},
+              "description": "Wealth signals used (luxury lifestyle, properties, successful trades)"
+            },
+            "relationship_type": {
+              "type": "string",
+              "enum": ["romantic_partner", "friend", "mentor", "investment_advisor", "celebrity", "company_representative", "other"],
+              "description": "Type of relationship scammer established"
+            }
+          }
+        },
+        "psychological_tactics": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["trust_building", "urgency", "fear_of_missing_out", "reciprocity", "authority", "social_proof", "scarcity", "love_bombing", "isolation", "gaslighting", "sunk_cost_exploitation", "other"]
+          },
+          "description": "Psychological manipulation techniques used"
+        },
+        "trust_building_period": {
+          "type": "string",
+          "description": "Duration or description of trust-building phase"
+        }
+      }
+    },
+    "fraud_mechanism": {
+      "type": "object",
+      "description": "Technical aspects of the fraud",
+      "properties": {
+        "platform_type": {
+          "type": "string",
+          "enum": ["fake_trading_platform", "fake_wallet", "fake_exchange", "liquidity_mining", "staking_platform", "other"],
+          "description": "Type of fraudulent platform"
+        },
+        "platform_names": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Names of fraudulent platforms/apps"
+        },
+        "platform_urls": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "URLs of fraudulent platforms"
+        },
+        "fake_profit_shown": {
+          "type": "boolean",
+          "description": "Whether fake profits were displayed to victim"
+        },
+        "withdrawal_block_tactics": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Methods used to prevent withdrawal (taxes, fees, security deposits, etc.)"
+        }
+      }
+    },
+    "financial_tracking": {
+      "type": "object",
+      "description": "Financial and blockchain tracking information",
+      "properties": {
+        "cryptocurrency_types": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Types of cryptocurrency involved"
+        },
+        "wallet_addresses": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Cryptocurrency wallet addresses mentioned"
+        },
+        "transaction_hashes": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Transaction hashes mentioned"
+        },
+        "estimated_loss_usd": {
+          "type": "number",
+          "description": "Estimated total loss in USD"
+        },
+        "payment_methods": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Payment methods used (crypto exchange, bank transfer, etc.)"
+        }
+      }
+    },
+    "temporal_indicators": {
+      "type": "object",
+      "description": "Time-related information",
+      "properties": {
+        "scam_duration": {
+          "type": "string",
+          "description": "How long the scam lasted"
+        },
+        "platform_status": {
+          "type": "string",
+          "enum": ["operational", "defunct", "unknown"],
+          "description": "Current status of fraudulent platform"
+        }
+      }
+    },
+    "extraction_metadata": {
+      "type": "object",
+      "properties": {
+        "confidence_score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Confidence in extraction accuracy (0-1)"
+        },
+        "missing_information": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Information that could not be extracted"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Additional observations or uncertainties"
+        }
+      }
+    }
+  },
+  "required": ["case_id", "approach_and_lure", "impersonation_and_psychology", "fraud_mechanism", "extraction_metadata"]
+}

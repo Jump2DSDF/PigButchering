@@ -1,0 +1,55 @@
+{
+  "case_id": 152,
+  "approach_and_lure": {
+    "initial_contact_platform": ["KakaoTalk"],
+    "lure_type": ["mistaken_identity", "investment_opportunity"],
+    "communication_migration": "KakaoTalk → Text/Video messages"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "John - private equity firm employee, crypto trading division",
+      "wealth_indicators": ["private_equity_employment", "crypto_trading_expertise"],
+      "relationship_type": "romantic_partner"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "authority",
+      "expertise_claims",
+      "proof_of_legitimacy",
+      "romance_manipulation",
+      "sunk_cost_exploitation"
+    ],
+    "trust_building_period": "Extended (video calls, relationship development)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["Coinefx", "Coin EFX"],
+    "platform_urls": ["coinefxiih.com", "coinefx.com", "coinexfmsl.com"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "account_freeze_suspicious_profits",
+      "percentage_fee_10_percent",
+      "blockchain_technologist_fee_8_percent"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["unspecified"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 571936.70,
+    "payment_methods": ["family_loans", "retirement_account_withdrawal", "cryptocurrency_transfer"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended (months)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.80,
+    "missing_information": [
+      "wallet_addresses",
+      "transaction_hashes",
+      "cryptocurrency_types"
+    ],
+    "notes": "HIGH-VALUE CASE ($571,936.70). Unique initial contact via KakaoTalk mistaken identity. John claimed private equity crypto division employment. Multi-stage extraction: 10% suspicious profits fee, then 8% blockchain technologist fee. Victim borrowed from family and retirement accounts. Sophisticated operation with video calls for trust building."
+  }
+}

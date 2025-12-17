@@ -1,0 +1,81 @@
+{
+  "case_id": 34,
+  "approach_and_lure": {
+    "initial_contact_platform": [
+      "unspecified_online_platform"
+    ],
+    "lure_type": [
+      "investment_opportunity"
+    ],
+    "communication_migration": "not_mentioned"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Jack - AI trading system developer and Bitcoin futures trader",
+      "wealth_indicators": [
+        "developed_proprietary_ai_trading_mechanism",
+        "guaranteed_100_percent_profitable_trades",
+        "demonstrated_2_million_account_balance",
+        "active_futures_trader"
+      ],
+      "relationship_type": "investment_advisor"
+    },
+    "psychological_tactics": [
+      "authority",
+      "trust_building",
+      "fear_of_missing_out",
+      "social_proof",
+      "sunk_cost_exploitation",
+      "urgency"
+    ],
+    "trust_building_period": "Few weeks (compressed timeline)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": [
+      "Hrdebit"
+    ],
+    "platform_urls": [
+      "hrdebit.com"
+    ],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "20_percent_service_fee_demand",
+      "threat_of_fund_seizure_for_non_payment",
+      "customer_service_refusal"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": [
+      "Bitcoin",
+      "Bitcoin_Futures"
+    ],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 358000,
+    "payment_methods": [
+      "unspecified_likely_crypto_transfer"
+    ]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Few weeks (2-6 weeks estimated)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.80,
+    "missing_information": [
+      "initial_contact_platform",
+      "communication_platform",
+      "payment_methods_specific",
+      "wallet_addresses",
+      "transaction_hashes",
+      "exact_timeline_dates",
+      "jack_background_details",
+      "communication_migration_details",
+      "other_victims",
+      "platform_technical_details",
+      "attempt_to_pay_fee"
+    ],
+    "notes": "AI-themed investment variant of Pig Butchering with accelerated timeline. Used AI hype and guaranteed returns claim to attract victim. Displayed massive fake profits ($2M+ from $358K in weeks) to encourage deposits. Exit attempt via percentage-based fee (~$400K) exceeding actual deposits. Platform defunct after victim unable to pay. Represents emerging trend of technology-themed investment scams vs traditional romance-based approach. California resident victim."
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "case_id": "pb089_case192",
+  "original_case_id": 192,
+  "analysis_date": "2025-12-17",
+  "case_metadata": {
+    "primary_subject": "DAF Finance Financial Institute / OPNCOIN (Continuation)",
+    "scam_type": [
+      "Fraudulent Trading Platform",
+      "Pig Butchering Scam"
+    ],
+    "victim_location": "California (multiple victims)",
+    "total_loss_usd": 260000,
+    "loss_breakdown": {
+      "loan_scheme_victim_retirement_destruction": 60000,
+      "ico_tier_victim_150k_investment": 200000,
+      "note": "Continuation of pb088_case191. Combined total: $387,000+"
+    },
+    "platform_status": "Website down",
+    "recovery_status": "No recovery for any victim",
+    "multiple_victims": true,
+    "related_case": "pb088_case191",
+    "continuation": true
+  },
+  "ttp_profile": {
+    "initial_contact": {
+      "ttp_id": "T1566",
+      "technique": "Continuation of Investment Group Operation",
+      "channel": "WhatsApp investment group (DAF Finance Institute)",
+      "note": "Same operation as pb088_case191, this case documents additional victims and tactics",
+      "sophistication": "EXTREMELY HIGH"
+    },
+    "platform_introduction": {
+      "ttp_id": "T1204",
+      "technique": "Same Platform as pb088_case191",
+      "platform_name": "OPACOIN / OPNCOIN / OPN-GO",
+      "platform_urls": [
+        "https://www.dreamadviser.com/",
+        "https://dreamadviser.com",
+        "opacoin.net"
+      ],
+      "note": "This case focuses on victims at $50,000 loan tier and $150,000 ICO tier"
+    },
+    "investment_escalation": {
+      "ttp_id": "T1078",
+      "technique": "Predatory Lending Scheme & Extreme Tier Escalation",
+      "lending_scheme": {
+        "victim_profile": "Member who wanted to invest but did not have $50,000",
+        "loan_offer": {
+          "amount": 50000,
+          "offered_by": "DAF Finance Institute group",
+          "promise": "Loan could be repaid with trading profits",
+          "purpose": "Eliminate 'can't afford it' objection",
+          "creates": "Debt obligation in addition to investment risk"
+        },
+        "account_activity": {
+          "trading": "Victim traded with $50,000 loan amount",
+          "profits_displayed": "Account showed fabricated profits",
+          "withdrawal_attempt": "Victim tried to withdraw profits"
+        }
+      },
+      "ico_tier_escalation": {
+        "description": "After $50,000 round, members pressured to invest $150,000 more",
+        "positioning": "ICO subscriptions on OPACOIN",
+        "total_investment": 200000,
+        "note": "$50,000 (from pb088) + $150,000 (this tier) = $200,000+ per victim"
+      }
+    },
+    "withdrawal_barriers": {
+      "ttp_id": "T1486",
+      "technique": "Loan Repayment Trap & Retirement Account Destruction",
+      "loan_scheme_victim_barriers": [
+        {
+          "stage": 1,
+          "barrier_type": "Loan Repayment Demand with Legal Threat",
+          "loan_amount": 50000,
+          "demand": "Must repay loan with OUTSIDE FUNDS",
+          "threat": "Or be sued",
+          "cannot_use": "Trading profits to repay loan",
+          "illegality": "Lawsuit threat for fabricated loan",
+          "outcome": "Victim forced to find external funds"
+        },
+        {
+          "stage": 2,
+          "barrier_type": "Forced Retirement Account Liquidation",
+          "victim_action": "Withdrew money from 401(k) retirement account",
+          "amount": 50000,
+          "purpose": "Cover the $50,000 'loan'",
+          "penalties": "Heavy withdrawal penalties (typically 10%)",
+          "false_promise": "Trading gains would cover penalties",
+          "impact": [
+            "Retirement security destroyed",
+            "Early withdrawal penalties (~$5,000)",
+            "Lost future retirement growth",
+            "Potential tax consequences"
+          ],
+          "estimated_total_loss": 60000
+        },
+        {
+          "stage": 3,
+          "barrier_type": "Tax Fee Demand",
+          "fee_demanded": "10% of profits",
+          "payment_requirement": "Must be paid using OUTSIDE FUNDS",
+          "outcome": "Contacts stopped communicating after this demand",
+          "final_status": "Unable to withdraw any funds"
+        }
+      ],
+      "ico_tier_victim_barriers": [
+        {
+          "victim": "150k ICO tier investor",
+          "total_investment": 200000,
+          "breakdown": "Previous $50,000 + additional $150,000",
+          "barrier_type": "Withdrawal fee demand",
+          "fee_amount": 20000,
+          "outcome": "Unable to recover any funds"
+        }
+      ],
+      "sophistication_indicators": [
+        "Predatory lending to eliminate affordability objection",
+        "Loan repayment demanded in external funds only",
+        "Illegal lawsuit threats",
+        "Forced retirement account destruction",
+        "False promises to cover retirement penalties",
+        "Communication cutoff after maximum extraction",
+        "Progressive tier to $150,000 level"
+      ]
+    },
+    "final_extraction": {
+      "ttp_id": "T1537",
+      "technique": "Multi-Victim Extraction & Platform Shutdown",
+      "exit_method": "Progressive tier extraction, retirement destruction, communication cutoff, website shutdown",
+      "total_loss_this_case": 260000,
+      "combined_loss_with_pb088": 387000,
+      "funds_recovered": 0,
+      "platform_status": "Down",
+      "particularly_predatory": [
+        "Lending scheme targeting victims without funds",
+        "Forcing retirement account liquidation",
+        "Lawsuit threats for fabricated loans",
+        "Retirement security destruction"
+      ]
+    }
+  },
+  "red_flags": {
+    "critical_indicators": [
+      "All red flags from pb088_case191 apply",
+      "Lending scheme for victims who cannot afford investment",
+      "Loan repayment demanded in external funds only",
+      "Lawsuit threats for non-repayment of fabricated loan",
+      "Pressure to liquidate retirement accounts (401(k))",
+      "Promise that trading gains will cover retirement penalties",
+      "$150,000 additional investment tier (ICO subscriptions)",
+      "$20,000 withdrawal fee on $200,000 investment",
+      "Communication cutoff after final fee demands",
+      "Total investment tiers reaching $200,000+ per victim"
+    ],
+    "extreme_financial_red_flags": [
+      "Lending scheme with external repayment requirement",
+      "401(k) liquidation pressure (retirement destruction)",
+      "$150,000 ICO subscription tier",
+      "Total $200,000+ per victim investment path",
+      "$20,000 withdrawal fee (10% of investment)",
+      "False promises to cover retirement penalties",
+      "Progressive tier structure to extreme levels"
+    ],
+    "predatory_tactics_unique_to_this_case": [
+      "Lending to eliminate 'can't afford it' objection",
+      "Retirement account destruction",
+      "Illegal lawsuit threats",
+      "Multi-tier extraction to $150,000 level",
+      "Communication cutoff after maximum extraction"
+    ]
+  },
+  "cryptocurrency_indicators": {
+    "wallet_addresses": [],
+    "blockchain_networks": [],
+    "trading_claims": [
+      "ICO subscriptions",
+      "Pre-ICO trading (from pb088)",
+      "AI algorithmic trading (from pb088)"
+    ],
+    "note": "No specific cryptocurrency wallet addresses mentioned in complaint narrative"
+  },
+  "timeline": {
+    "estimated_duration": "Several months (continuation from pb088_case191)",
+    "phases": [
+      "Continuation from $50,000 investment tier (pb088)",
+      "Loan scheme targeting member without $50,000",
+      "Trading with loaned funds, fabricated profits",
+      "First withdrawal attempt triggers loan repayment demand",
+      "Forced 401(k) liquidation to cover loan",
+      "Second withdrawal attempt triggers 10% tax fee demand",
+      "Communication cutoff and abandonment",
+      "Meanwhile, other members pushed to $150,000 ICO tier",
+      "$20,000 fee barrier for ICO tier withdrawals",
+      "Platform shutdown with no victim recovery"
+    ]
+  },
+  "threat_actor_profile": {
+    "sophistication_level": "EXTREMELY HIGH",
+    "operational_characteristics": [
+      "Predatory lending scheme",
+      "Retirement account destruction tactics",
+      "Illegal lawsuit threats",
+      "Multi-tier progressive extraction ($50k -> $150k)",
+      "False promises regarding retirement penalties",
+      "Systematic communication cutoff",
+      "Coordinated multi-victim operation"
+    ],
+    "social_engineering_skill": "Advanced - Lending scheme, retirement destruction pressure, legal threat intimidation",
+    "organizational_structure": "Sophisticated organized group with systematic extraction processes across multiple victim tiers",
+    "financial_impact": "Extreme - $260,000+ this case, $387,000+ combined with pb088",
+    "psychological_impact": "Severe - Retirement security destruction, debt creation, legal intimidation"
+  },
+  "notable_characteristics": [
+    "Continuation of pb088_case191 (same DAF Finance Institute operation)",
+    "Predatory lending scheme for victims without sufficient funds",
+    "Forced retirement account liquidation (401(k) destruction)",
+    "Illegal lawsuit threats for fabricated loans",
+    "$150,000 investment tier ($200,000+ total per victim at this level)",
+    "Retirement security destruction",
+    "One of the most predatory cases in dataset",
+    "Combined with pb088: $387,000+ total documented losses",
+    "Investment tier progression: $500 -> $5k -> $22k -> $50k -> $150k"
+  ],
+  "combined_analysis_pb088_pb089": {
+    "operation_name": "DAF Finance Institute / OPACOIN",
+    "total_cases": 2,
+    "total_documented_losses": 387000,
+    "victim_count": "Multiple (at least 6+ documented)",
+    "investment_tiers": [500, 5000, 22000, 50000, 150000],
+    "sophistication": "EXTREMELY HIGH - One of most sophisticated operations in dataset",
+    "tactics": [
+      "Professional institutional framing",
+      "False regulatory association (FINRA)",
+      "Trial period with real withdrawals",
+      "AI product marketing",
+      "Formal investment contracts",
+      "Predatory lending scheme",
+      "Retirement account destruction",
+      "Legal threats",
+      "Victim silencing and isolation",
+      "Multi-tier systematic extraction"
+    ],
+    "impact": "One of the most damaging operations documented"
+  }
+}

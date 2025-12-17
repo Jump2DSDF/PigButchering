@@ -1,0 +1,77 @@
+{
+  "case_id": 84,
+  "approach_and_lure": {
+    "initial_contact_platform": [
+      "TikTok"
+    ],
+    "lure_type": [
+      "investment_opportunity"
+    ],
+    "communication_migration": "Not specified in complaint (possibly remained on TikTok or migrated but not reported)"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Unknown - Individual presenting as cryptocurrency investment advisor",
+      "wealth_indicators": [
+        "cryptocurrency_investment_knowledge",
+        "access_to_trading_platform"
+      ],
+      "relationship_type": "investment_advisor"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "authority",
+      "fear_of_missing_out",
+      "sunk_cost_exploitation"
+    ],
+    "trust_building_period": "Unknown duration - sufficient time to convince victim to invest (likely days to weeks)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_exchange",
+    "platform_names": [
+      "Horizon Pro Financial"
+    ],
+    "platform_urls": [
+      "horizonprofinancial.com"
+    ],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "fee_payment_demand"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": [
+      "unspecified_cryptocurrency"
+    ],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": null,
+    "payment_methods": [
+      "cryptocurrency_transfer"
+    ]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Estimated days to weeks (contact, convincing, deposit, trading, withdrawal attempt phases)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.65,
+    "missing_information": [
+      "scammer_identity_details",
+      "communication_migration_platform",
+      "specific_wealth_indicators_shown",
+      "trust_building_timeline",
+      "specific_cryptocurrency_types",
+      "wallet_addresses",
+      "transaction_hashes",
+      "estimated_financial_loss_amount",
+      "specific_payment_methods_details",
+      "exact_dates_timeline",
+      "scammer_contact_information",
+      "fee_amount_demanded",
+      "number_of_deposits_made",
+      "fake_profit_amounts_shown"
+    ],
+    "notes": "MODERATE INVESTIGATIVE VALUE. Key observations: (1) TikTok as initial contact platform is noteworthy and less common than traditional dating apps or WhatsApp - worth monitoring for emerging trend; (2) Classic investment opportunity lure with cryptocurrency focus; (3) Standard withdrawal blocking via fee demand; (4) Platform is defunct (exit scam completed); (5) CRITICAL LIMITATION: No financial tracking data (amounts, addresses, transactions) severely limits blockchain investigation potential; (6) Brief narrative suggests preliminary complaint - may have supplemental documentation elsewhere; (7) Victim confirmed total loss of invested funds but amount not specified; (8) Fake profits are implied by withdrawal attempt but not explicitly confirmed in narrative; (9) No communication platform migration mentioned, unusual for pig butchering operations; (10) Recommend follow-up to obtain: specific loss amount, cryptocurrency types, wallet addresses, transaction hashes, timeline, and scammer contact details for enhanced investigative value."
+  }
+}

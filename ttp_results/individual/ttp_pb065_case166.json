@@ -1,0 +1,57 @@
+{
+  "case_id": 166,
+  "approach_and_lure": {
+    "initial_contact_platform": ["online_unspecified"],
+    "lure_type": ["investment_opportunity"],
+    "communication_migration": "Unknown"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Unknown individual met online",
+      "wealth_indicators": [],
+      "relationship_type": "investment_advisor"
+    },
+    "psychological_tactics": [
+      "profit_promises",
+      "time_lock_investment"
+    ],
+    "trust_building_period": "Unknown"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["CFX Lifestyle"],
+    "platform_urls": ["cfxlifestyle.com"],
+    "investment_structure": {
+      "minimum_investment": 5000,
+      "lock_period_months": 3,
+      "promised_profit": true
+    },
+    "fake_profit_shown": false,
+    "withdrawal_block_tactics": [
+      "irs_tax_issues_claim"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["unspecified"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 5000,
+    "payment_methods": ["unspecified"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Approximately 2.5 months (3 months promised minus 2 weeks)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.60,
+    "missing_information": [
+      "scammer_identity",
+      "contact_platform",
+      "wallet_addresses",
+      "transaction_hashes",
+      "cryptocurrency_types",
+      "payment_methods"
+    ],
+    "notes": "Minimal detail case. Fixed lock-period investment scheme (3 months). Platform claimed IRS tax issues as exit excuse - unusual tactic suggesting coordinated shutdown. Lower loss amount ($5,000) suggests smaller-scale operation or early victim exit."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "case_id": 132,
+  "approach_and_lure": {
+    "initial_contact_platform": ["dating_app"],
+    "lure_type": ["romance", "investment_opportunity"],
+    "communication_migration": "Text message (SMS)"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Cole - romantic partner with crypto trading knowledge",
+      "wealth_indicators": ["crypto_trading_knowledge", "platform_access", "bonus_event_awareness"],
+      "relationship_type": "romantic_partner"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "love_bombing",
+      "authority",
+      "reciprocity",
+      "fear_of_missing_out",
+      "sunk_cost_exploitation",
+      "scarcity"
+    ],
+    "trust_building_period": "Weeks to months (sufficient to develop romantic relationship)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["jex.newcrypto-hub.com", "Jex", "New Crypto Hub"],
+    "platform_urls": ["https://jex.newcrypto-hub.com/#/"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "bonus_event_deposit_requirement",
+      "impossible_deposit_demand_50000_for_3800_bonus"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["crypto_assets_unspecified"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 11500,
+    "payment_methods": ["unspecified"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "1-6 months (estimated from relationship development and trading period)",
+    "platform_status": "likely_operational"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.75,
+    "missing_information": [
+      "specific_dating_app_name",
+      "cryptocurrency_types_specific",
+      "wallet_addresses",
+      "transaction_hashes",
+      "payment_methods",
+      "number_of_deposits",
+      "individual_deposit_amounts",
+      "fake_profit_amounts",
+      "cole_detailed_persona",
+      "timeline_specific_dates",
+      "platform_screenshots",
+      "communication_evidence",
+      "current_contact_status_with_cole"
+    ],
+    "notes": "Sophisticated romance-based Pig Butchering scam using advanced 'bonus trap' withdrawal blocking mechanism. Victim met 'Cole' on dating app, developed romantic relationship, then was guided into fake trading platform (jex.newcrypto-hub.com). After depositing $11,500, victim was offered $3,800 DEX bonus but required to deposit $50,000 to receive it - creating impossible barrier to fund recovery. This withdrawal block is more sophisticated than standard tax/fee demands as it appears voluntary (victim applied) and maintains platform legitimacy illusion. Complete financial loss with zero recovery. Strong structural and psychological intelligence but lacks blockchain tracking data (addresses, hashes, crypto types) limiting investigation capability. Platform likely still operational. Case demonstrates evolution in Pig Butchering tactics beyond simple withdrawal fees."
+  }
+}

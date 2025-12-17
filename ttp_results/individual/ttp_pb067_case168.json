@@ -1,0 +1,339 @@
+{
+  "case_id": "pb_067",
+  "original_case_id": 168,
+  "analysis_date": "2025-12-17",
+  "case_summary": {
+    "primary_subject": "bybukx.com",
+    "total_loss_usd": 50003,
+    "additional_demands_not_paid": 50000,
+    "total_exposure_usd": 100003,
+    "scam_type": [
+      "Fraudulent Trading Platform",
+      "Pig Butchering Scam",
+      "Fake Crypto Exchange",
+      "Progressive Fee Extortion",
+      "Withdrawal Blocking Scam"
+    ],
+    "outcome": "Total loss - website offline, no fund recovery"
+  },
+  "ttp_profile": {
+    "initial_contact": {
+      "platform": "Direct to website (no apparent social engineering)",
+      "contact_method": "Victim-initiated (discovered platform independently)",
+      "actor_role": "Fraudulent crypto exchange",
+      "legitimacy_claim": "Legitimate cryptocurrency exchange platform",
+      "trust_building_elements": [
+        "Professional exchange interface",
+        "Functional deposit and conversion system",
+        "Customer support presence",
+        "Standard exchange appearance"
+      ]
+    },
+    "communication_platforms": {
+      "initial": "bybukx.com website",
+      "primary": "bybukx.com platform interface",
+      "additional": [
+        "Customer support system (on-platform)"
+      ]
+    },
+    "relationship_development": {
+      "duration_estimate": "Short (likely days to weeks)",
+      "topics_discussed": [
+        "Crypto conversion (ETH to USDT)",
+        "Withdrawal issues",
+        "VIP status requirements",
+        "Fee payments"
+      ],
+      "romance_element": false,
+      "friendship_element": false,
+      "business_mentor_element": false,
+      "group_dynamic": false,
+      "note": "Minimal relationship building - direct platform fraud"
+    },
+    "investment_platform": {
+      "name": "bybukx",
+      "websites": [
+        "https://bybukx.com/",
+        "https://bybukx.com",
+        "bybukx.com"
+      ],
+      "platform_type": "Fraudulent cryptocurrency exchange",
+      "claimed_services": [
+        "Cryptocurrency exchange",
+        "ETH to USDT conversion",
+        "Trading services",
+        "VIP membership tiers"
+      ],
+      "legitimacy_indicators": [
+        "Professional exchange interface",
+        "Functional deposit system",
+        "Cryptocurrency conversion capability",
+        "Customer support portal",
+        "Account management features"
+      ],
+      "current_status": "Offline/defunct"
+    },
+    "investment_mechanism": {
+      "asset_type": "Cryptocurrency",
+      "specific_cryptocurrencies": [
+        "Ethereum (ETH)",
+        "Tether (USDT)"
+      ],
+      "investment_structure": "Exchange/conversion service",
+      "promised_returns": "None (positioned as exchange, not investment)",
+      "return_frequency": "N/A",
+      "minimum_investment": "Not specified",
+      "fund_transfer_method": "Direct cryptocurrency deposit to platform"
+    },
+    "wallet_addresses": {
+      "identified_addresses": [],
+      "address_purpose": "Platform deposit addresses",
+      "note": "Specific wallet addresses not disclosed in complaint; funds deposited to exchange-controlled addresses"
+    },
+    "technical_attack_methods": {
+      "primary_method": "Withdrawal blocking on fraudulent exchange",
+      "attack_details": [
+        "Platform allows deposits and conversions",
+        "Withdrawal functionality disabled or blocked",
+        "Backend designed for one-way fund flow",
+        "Account flags or verification loops prevent withdrawals",
+        "No actual technical exploit - architectural fraud"
+      ],
+      "sophistication_level": "Medium-High",
+      "blockchain_interaction": true,
+      "smart_contract_exploitation": false
+    },
+    "withdrawal_prevention": {
+      "method": "Platform withdrawal blocking + progressive fee extortion",
+      "justification_provided": "VIP status requirement to unlock withdrawals",
+      "additional_fees_demanded": [
+        {
+          "fee_type": "VIP status deposit",
+          "amount_usd": 50000,
+          "amount_crypto": "50,000 USDT",
+          "justification": "Required deposit to obtain VIP status for withdrawal access",
+          "victim_compliance": "Yes (paid)"
+        },
+        {
+          "fee_type": "Insurance payment",
+          "amount_usd": 3,
+          "amount_crypto": "3 USDT",
+          "justification": "Insurance fee for withdrawal processing",
+          "victim_compliance": "Yes (paid)"
+        },
+        {
+          "fee_type": "Additional VIP deposit (second demand)",
+          "amount_usd": 50000,
+          "amount_crypto": "50,000 USDT",
+          "justification": "Further deposit requirement after first payment",
+          "victim_compliance": "No (not paid)"
+        }
+      ],
+      "escalation_pattern": "Progressive demands with moving goalposts",
+      "total_extorted": 50003
+    },
+    "red_flags": [
+      "Unknown/unverified cryptocurrency exchange",
+      "Withdrawal blocked after successful deposit",
+      "Customer support demanding large additional deposits for withdrawals",
+      "VIP status requirement for basic withdrawal functionality",
+      "Extremely high deposit requirement (50,000 USDT) to unlock withdrawals",
+      "Combination of large deposit and small insurance fee (psychological manipulation)",
+      "Moving goalposts - second 50,000 USDT demand after compliance",
+      "No regulatory licensing or exchange verification",
+      "Platform not listed on reputable exchange directories",
+      "Generic domain name (bybukx.com) without brand recognition",
+      "Complete website shutdown without user notice",
+      "No recovery mechanism or support after shutdown",
+      "Deposits work perfectly but withdrawals completely blocked"
+    ],
+    "scammer_characteristics": {
+      "number_of_actors": "Multiple (platform developers, customer support team)",
+      "roles": [
+        "Platform developers/operators",
+        "Customer support representatives",
+        "Infrastructure maintenance"
+      ],
+      "technical_sophistication": "Medium-High - functional exchange development",
+      "organizational_structure": "Coordinated team with defined roles",
+      "impersonation": "Legitimate cryptocurrency exchange"
+    },
+    "victim_profile": {
+      "location": "California, USA",
+      "crypto_experience": "Moderate to High (conducting ETH to USDT conversions, has primary exchange)",
+      "initial_investment": "Unknown amount of ETH",
+      "total_invested": 50003,
+      "recruitment_vector": "Direct platform discovery (search, ads, or referral)",
+      "vulnerability_exploited": [
+        "Need for crypto conversion service",
+        "Belief in platform legitimacy",
+        "Sunk cost fallacy after initial deposit",
+        "Desperation to recover trapped funds",
+        "Trust in customer support explanations"
+      ]
+    },
+    "financial_flow": {
+      "victim_to_platform": 50003,
+      "platform_to_victim": 0,
+      "additional_demands": 50000,
+      "total_exposure": 100003,
+      "funds_recovered": 0,
+      "transfer_methods": [
+        "Direct cryptocurrency deposits (ETH, USDT)",
+        "On-platform conversions"
+      ]
+    },
+    "timeline": {
+      "initial_contact": "Unknown (victim discovered platform)",
+      "first_investment": "Unknown",
+      "relationship_duration": "Short (days to weeks estimated)",
+      "attempted_withdrawal": "After ETH to USDT conversion",
+      "first_extortion_demand": "When withdrawal blocked",
+      "first_payment": "After VIP status demand",
+      "second_extortion_demand": "After first payment made",
+      "platform_shutdown": "Unknown exact date",
+      "total_duration_estimate": "Days to weeks"
+    },
+    "exit_strategy": {
+      "method": "Complete exit scam",
+      "indicators": [
+        "Website taken offline",
+        "All victim funds retained",
+        "No recovery mechanism provided",
+        "Complete cessation of operations",
+        "Customer support disappeared"
+      ],
+      "evidence_destruction": "Website shutdown eliminates evidence and user access"
+    },
+    "mitre_attack_mapping": {
+      "initial_access": {
+        "technique": "Drive-by Compromise / Watering Hole",
+        "tactic_id": "T1189 / T1608",
+        "description": "Victim discovered fraudulent platform through web search or advertisement"
+      },
+      "execution": {
+        "technique": "User Execution",
+        "tactic_id": "T1204",
+        "description": "Victim deposited cryptocurrency to platform"
+      },
+      "persistence": {
+        "technique": "Account Manipulation",
+        "tactic_id": "T1098",
+        "description": "Platform maintains control of deposited funds through withdrawal blocking"
+      },
+      "defense_evasion": {
+        "technique": "Impersonation",
+        "tactic_id": "T1656",
+        "description": "Platform masqueraded as legitimate cryptocurrency exchange"
+      },
+      "collection": {
+        "technique": "Data from Local System",
+        "tactic_id": "T1005",
+        "description": "Platform collected cryptocurrency deposits from victims"
+      },
+      "impact": {
+        "technique": "Financial Theft",
+        "tactic_id": "T1657",
+        "description": "Stole 50,003+ USDT through deposit trap and extortion"
+      }
+    },
+    "iocs": {
+      "domains": [
+        "bybukx.com"
+      ],
+      "urls": [
+        "https://bybukx.com/",
+        "https://bybukx.com"
+      ],
+      "wallet_addresses": [],
+      "email_addresses": [],
+      "phone_numbers": [],
+      "social_media": []
+    },
+    "threat_actor_assessment": {
+      "sophistication": "Medium-High",
+      "technical_capability": "Functional cryptocurrency exchange development with deposit/conversion capability",
+      "operational_security": "Good - successful exit scam, evidence removal",
+      "financial_motivation": "Primary",
+      "targeting": "Opportunistic - targeting crypto users seeking exchange services",
+      "infrastructure": "Professional fraudulent exchange platform with customer support",
+      "likely_origin": "Unknown (international likely given crypto focus)",
+      "modus_operandi": "Honeypot exchange with withdrawal blocking and progressive extortion"
+    },
+    "attack_chain_summary": {
+      "step_1": "Platform Discovery - Victim finds bybukx.com (search/ads/referral)",
+      "step_2": "Account Creation - Victim opens account on fraudulent exchange",
+      "step_3": "Deposit - Victim deposits ETH successfully",
+      "step_4": "Conversion - Platform converts ETH to USDT (functionality works)",
+      "step_5": "Withdrawal Block - Victim attempts withdrawal, platform blocks transaction",
+      "step_6": "Customer Support Contact - Victim contacts support seeking help",
+      "step_7": "VIP Status Demand - Support demands 50,000 USDT + 3 USDT for VIP status",
+      "step_8": "First Payment - Victim pays 50,003 USDT",
+      "step_9": "Second Demand - Platform demands another 50,000 USDT",
+      "step_10": "Victim Refuses - Victim recognizes scam pattern, refuses second payment",
+      "step_11": "Exit Scam - Platform shuts down, victim loses all funds"
+    },
+    "recommendations": {
+      "prevention": [
+        "Only use well-known, verified cryptocurrency exchanges",
+        "Check exchange listings on CoinMarketCap, CoinGecko, etc.",
+        "Verify exchange regulatory licensing (FinCEN, state licenses)",
+        "Research exchange reputation through crypto communities",
+        "Test withdrawals with small amounts before large deposits",
+        "Never deposit large sums to unlock withdrawal functionality",
+        "Be suspicious of unknown exchanges with perfect deposit functionality",
+        "Check domain age and registration information",
+        "Look for exchange reviews and complaint history",
+        "Verify exchange social media presence and community engagement"
+      ],
+      "detection": [
+        "Withdrawal blocking after successful deposit is major red flag",
+        "Large additional deposits required for basic functionality",
+        "VIP status or tier requirements for withdrawals",
+        "Combination of large and trivial fees (psychological manipulation)",
+        "Moving goalposts - repeated escalating demands",
+        "Customer support that only offers payment solutions",
+        "Lack of regulatory information or licensing",
+        "Domain not recognized in crypto exchange directories",
+        "No social media presence or community reviews"
+      ],
+      "response": [
+        "Stop all payments immediately upon first extortion demand",
+        "Report to IC3 (FBI), FTC, FinCEN, and state financial regulators",
+        "Document all transactions, communications, and demands",
+        "Preserve blockchain transaction records and screenshots",
+        "Do NOT pay additional fees or deposits",
+        "Warn crypto community through forums and social media",
+        "Report domain to abuse databases and registrars",
+        "Consider consulting crypto recovery specialists (verify legitimacy)",
+        "File complaint with domain registrar",
+        "Alert other potential victims through crypto safety communities"
+      ]
+    },
+    "case_notes": {
+      "unique_characteristics": [
+        "No apparent social engineering or relationship building",
+        "Direct honeypot exchange approach",
+        "Victim-initiated platform discovery (not recruiter-initiated)",
+        "Functional deposit and conversion system (higher technical sophistication)",
+        "Progressive extortion with identical second demand (50k USDT twice)",
+        "Small insurance fee (3 USDT) combined with large deposit requirement"
+      ],
+      "deviation_from_typical_pig_butchering": [
+        "No romantic or business relationship development",
+        "No trading mentorship or guidance",
+        "Shorter timeline (days/weeks vs months)",
+        "Less social engineering, more platform-based fraud",
+        "Positioned as exchange service rather than investment opportunity"
+      ],
+      "similarities_to_pig_butchering": [
+        "Cryptocurrency-focused fraud",
+        "Progressive financial extraction",
+        "Inability to withdraw funds",
+        "Fabricated policies to justify demands",
+        "Complete exit scam conclusion",
+        "Exploitation of sunk cost fallacy"
+      ]
+    }
+  }
+}

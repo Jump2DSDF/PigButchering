@@ -1,0 +1,91 @@
+{
+  "case_id": 120,
+  "approach_and_lure": {
+    "initial_contact_platform": [
+      "cell_phone_sms",
+      "random_contact"
+    ],
+    "lure_type": [
+      "random_message",
+      "friendship",
+      "investment_opportunity"
+    ],
+    "communication_migration": "WhatsApp"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Friendly stranger who became crypto trading mentor/advisor",
+      "wealth_indicators": [
+        "crypto_trading_knowledge",
+        "access_to_profitable_platform",
+        "demonstrated_fake_profits_5.3M"
+      ],
+      "relationship_type": "friend"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "authority",
+      "fear_of_missing_out",
+      "social_proof",
+      "sunk_cost_exploitation",
+      "reciprocity",
+      "urgency"
+    ],
+    "trust_building_period": "Extended period - weeks to months (sufficient to convince victim to deposit $540K over time)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": [
+      "Goomarket LLC",
+      "GOO Market LLC"
+    ],
+    "platform_urls": [
+      "https://goomarketllc.info"
+    ],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "tax_payment_demand",
+      "money_laundering_accusation",
+      "additional_clearance_fee_demand",
+      "complete_access_denial",
+      "exit_scam_platform_shutdown"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": [
+      "crypto_assets_unspecified"
+    ],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 540000,
+    "payment_methods": [
+      "cryptocurrency_deposits_to_platform",
+      "likely_exchange_purchase_then_transfer"
+    ]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended period - months (sufficient time to extract $540K+ in deposits, conduct trading simulation, and execute multi-stage withdrawal blocking)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.75,
+    "missing_information": [
+      "specific_cryptocurrency_types",
+      "wallet_addresses_critical",
+      "transaction_hashes_critical",
+      "tax_payment_amount",
+      "money_laundering_fee_amount",
+      "total_loss_including_fees",
+      "scammer_identity_details",
+      "exact_timeline_and_dates",
+      "initial_vs_later_deposit_amounts",
+      "communication_records",
+      "platform_screenshots",
+      "victim_exchange_accounts_used",
+      "specific_trading_activities_shown",
+      "scammer_phone_number",
+      "whatsapp_account_details"
+    ],
+    "notes": "HIGH VALUE CASE - $540,000+ loss with $5.3M fake profit display (9.8x ratio). Sophisticated multi-stage extraction: initial deposits → fake profit display → tax demand → payment → money laundering accusation → additional fee demand → complete denial → exit scam. Platform now defunct (confirmed exit scam). Family member reporting suggests victim may not fully recognize scam or is too embarrassed to report directly. CRITICAL: Blockchain tracking data (wallet addresses, transaction hashes) not provided but should be obtainable from victim's cryptocurrency exchange records - HIGH PRIORITY for investigation. Multi-stage withdrawal blocking demonstrates professional operation with understanding of victim psychology and sunk cost exploitation. LLC naming convention suggests business legitimacy facade. .info TLD common for scam operations. This case demonstrates top-tier Pig Butchering sophistication and financial impact. Likely organized crime operation, not individual scammer. Professional platform construction, systematic extraction over months, and clean exit indicate experienced operators. Should be cross-referenced with other high-value cases and defunct platform patterns."
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "case_metadata": {
+    "pb_case_id": 60,
+    "original_case_id": 161,
+    "primary_subject": "btm-vip.com / bitaeqcke.net (Entity Impersonating BitMex)",
+    "analysis_date": "2025-12-17",
+    "case_status": "Platform Offline",
+    "multiple_victims": true,
+    "evidence_available": {
+      "screenshots": true,
+      "screenshot_url": "https://dfpi.ca.gov/wp-content/uploads/2025/03/btm1000.png",
+      "screenshot_local": "pig_butchering_cases\\screenshots\\pb_060_case_161.png",
+      "screenshot_type": "PNG (likely platform interface showing brand impersonation)"
+    }
+  },
+  "financial_impact": {
+    "initial_investment_usd": "Not specified",
+    "tax_fee_demand_usd": 30000,
+    "tax_fee_minimum": true,
+    "tax_fee_paid": false,
+    "total_loss_usd": "Not specified (initial deposits)",
+    "amount_recovered": 0,
+    "recovery_likelihood": "very_low",
+    "avoided_additional_loss_usd": 30000
+  },
+  "scam_classification": {
+    "primary_type": "Pig Butchering Scam",
+    "secondary_types": [
+      "Romance Scam",
+      "Fraudulent Trading Platform",
+      "Imposter Scam"
+    ],
+    "variant": "Instagram Romance with Brand Impersonation (BitMex)",
+    "confidence_level": "high"
+  },
+  "brand_impersonation": {
+    "impersonation_present": true,
+    "impersonated_entity": "BitMex",
+    "legitimate_website": "https://www.bitmex.com/",
+    "legitimate_entity_type": "Crypto Asset Exchange",
+    "fraudulent_websites": [
+      "bitaeqcke.net",
+      "btm-vip.com"
+    ],
+    "impersonation_methods": [
+      "Logo misuse (BitMex logo used on fraudulent platform)",
+      "Exchange branding",
+      "Platform interface mimicry"
+    ],
+    "domain_confusion": {
+      "legitimate_domain": "bitmex.com",
+      "fraudulent_domains": [
+        "bitaeqcke.net (completely different)",
+        "btm-vip.com (vague similarity to BTM/BitMex)"
+      ],
+      "similarity_level": "Low (domains completely different, relies on logo)"
+    },
+    "detection_difficulty": "Medium (obvious on domain check, but logo creates false legitimacy)",
+    "victim_confusion_factor": "High (trusted brand recognition)"
+  },
+  "attack_chain": {
+    "phase_1_initial_contact": {
+      "contact_method": "Instagram",
+      "contact_type": "Unsolicited (stranger reaching out)",
+      "contact_pattern": "Social media direct message",
+      "scammer_persona": "Romantic interest"
+    },
+    "phase_2_relationship_building": {
+      "relationship_type": "Romantic",
+      "development_duration": "Extended (sufficient for romantic relationship)",
+      "communication_platform": "Instagram (likely migrated to other apps)",
+      "emotional_investment": "High (romantic relationship)",
+      "trust_level_achieved": "Deep (romantic partner trust)"
+    },
+    "phase_3_investment_introduction": {
+      "topic_introduction_timing": "After romantic relationship established",
+      "introduction_phrase": "At some point, brought up subject of investing in crypto",
+      "introduction_method": "Romantic partner recommendation",
+      "trust_leverage": "Established romantic relationship"
+    },
+    "phase_4_crypto_acquisition": {
+      "scammer_assistance": "Helped victim purchase crypto assets",
+      "assistance_level": "Hands-on guidance",
+      "crypto_type": "Not specified",
+      "amount": "Not specified",
+      "purpose": "Funding for fraudulent exchange account"
+    },
+    "phase_5_platform_onboarding": {
+      "fraudulent_platform": "bitaeqcke.net",
+      "platform_type": "Crypto asset exchange (fraudulent)",
+      "platform_branding": "BitMex logo and branding",
+      "secondary_domain": "btm-vip.com",
+      "scammer_guidance": "Showed how to open account",
+      "assistance_level": "Step-by-step instruction",
+      "account_creation": "Victim created account with scammer's help"
+    },
+    "phase_6_investment_phase": {
+      "investment_type": "Cryptocurrency",
+      "deposit_action": "Victim transferred crypto to platform",
+      "trading_activity": "Implied (exchange platform)",
+      "scammer_involvement": "Active monitoring with victim",
+      "account_display": "Growing balance (fabricated)",
+      "scammer_validation": "Convinced victim that account balance was growing"
+    },
+    "phase_7_profit_manipulation": {
+      "fake_profits_displayed": true,
+      "display_method": "Platform account balance",
+      "scammer_role": "Actively convinced victim of growth",
+      "victim_belief": "Account balance was growing",
+      "engagement_maintenance": "Ongoing communication about investments"
+    },
+    "phase_8_withdrawal_blocking": {
+      "withdrawal_attempted": true,
+      "blocking_method": "Tax profit fee demand",
+      "fee_type": "Tax profit fee (fabricated tax requirement)",
+      "fee_amount_usd": 30000,
+      "fee_amount_minimum": true,
+      "payment_deadline": "10 days",
+      "urgency_tactic": "Deadline pressure (10 days)",
+      "justification": "Required to release funds",
+      "victim_response": "Unable to pay"
+    },
+    "phase_9_relationship_termination": {
+      "trigger": "Victim couldn't pay tax fee",
+      "scammer_action": "Cut off all communication",
+      "termination_method": "Complete ghosting",
+      "termination_timing": "Immediate (when victim couldn't pay)",
+      "relationship_reveal": "Entire romance was fabricated for financial extraction"
+    },
+    "phase_10_exit_strategy": {
+      "exit_method": "Platform shutdown + communication cutoff",
+      "platform_status": "No longer operational",
+      "domains_offline": [
+        "bitaeqcke.net",
+        "btm-vip.com"
+      ],
+      "fund_recovery": "Unable to recover any funds",
+      "evidence_destruction": "Platform offline"
+    }
+  },
+  "technical_indicators": {
+    "domains": [
+      {
+        "domain": "bitaeqcke.net",
+        "status": "offline",
+        "role": "primary_fraudulent_platform",
+        "impersonates": "BitMex (bitmex.com)"
+      },
+      {
+        "domain": "btm-vip.com",
+        "status": "offline",
+        "role": "secondary_fraudulent_platform",
+        "impersonates": "BitMex (bitmex.com)",
+        "notes": "VIP branding suggests premium tier"
+      }
+    ],
+    "legitimate_entity": {
+      "name": "BitMex",
+      "website": "https://www.bitmex.com/",
+      "type": "Legitimate crypto asset exchange",
+      "relationship_to_fraud": "Impersonated (logo and brand misused)"
+    },
+    "platform_infrastructure": {
+      "multi_domain": true,
+      "brand_impersonation": true,
+      "logo_misuse": "BitMex logo",
+      "interface_mimicry": "Likely (implied by brand impersonation)"
+    },
+    "wallet_addresses": [],
+    "messaging_apps": [
+      {
+        "platform": "Instagram",
+        "role": "Initial contact and primary communication",
+        "usage": "Romance development + investment discussions"
+      }
+    ]
+  },
+  "actor_profile": {
+    "primary_actors": [
+      {
+        "identity": "Unknown (romantic interest persona)",
+        "role": "Romance scammer / Investment advisor",
+        "contact_platform": "Instagram",
+        "relationship_type": "Romantic partner (fabricated)",
+        "activities": [
+          "Initiated contact on Instagram",
+          "Developed romantic relationship with victim",
+          "Introduced crypto investment topic",
+          "Helped victim purchase cryptocurrency",
+          "Guided victim to fraudulent exchange",
+          "Assisted with account opening",
+          "Monitored investments with victim",
+          "Convinced victim of account growth",
+          "Cut off communication when victim couldn't pay fee"
+        ],
+        "sophistication": "Medium-High (romance + technical assistance + brand impersonation platform)",
+        "exit_behavior": "Immediate abandonment when extraction failed"
+      }
+    ],
+    "organizational_structure": {
+      "type": "Organized operation (individual scammer + platform infrastructure)",
+      "platform_operators": "Separate team operating fraudulent exchange",
+      "coordination": "Romance scammer directs victims to specific platform",
+      "scale": "Multiple victims (plural mentioned in narrative)",
+      "sophistication": "High (brand impersonation requires resources and planning)"
+    }
+  },
+  "psychological_manipulation": {
+    "techniques_used": [
+      "Romance/Emotional Manipulation (romantic relationship)",
+      "Trust Exploitation (romantic partner)",
+      "Authority (brand impersonation - BitMex recognition)",
+      "Reciprocity (scammer helping with purchases and account setup)",
+      "Social Proof (BitMex brand recognition)",
+      "Greed (growing account balance)",
+      "Urgency (10-day deadline for tax payment)",
+      "Fear (losing access to funds if tax not paid)",
+      "Sunk Cost Fallacy (romance investment + financial investment)"
+    ],
+    "vulnerability_exploited": [
+      "Desire for romantic connection",
+      "Trust in romantic partner",
+      "Limited crypto knowledge (needed assistance)",
+      "Recognition/trust of BitMex brand",
+      "Desire for investment returns",
+      "Limited knowledge of crypto tax requirements",
+      "Fear of losing displayed profits"
+    ],
+    "emotional_manipulation_level": "Very High (romantic relationship)",
+    "relationship_investment": "High (romantic relationship)",
+    "manipulation_sophistication": "High (romance + brand impersonation + technical assistance)"
+  },
+  "red_flags": [
+    {
+      "indicator": "Unsolicited Instagram contact from stranger",
+      "severity": "high",
+      "detectability": "high",
+      "phase": "initial_contact"
+    },
+    {
+      "indicator": "Quick romantic relationship development",
+      "severity": "high",
+      "detectability": "medium",
+      "phase": "relationship_building"
+    },
+    {
+      "indicator": "Romantic partner introducing crypto investments",
+      "severity": "critical",
+      "detectability": "high",
+      "phase": "investment_introduction"
+    },
+    {
+      "indicator": "Exchange domain doesn't match claimed brand (bitaeqcke.net vs bitmex.com)",
+      "severity": "critical",
+      "detectability": "high",
+      "phase": "platform_verification"
+    },
+    {
+      "indicator": "Need for romantic partner's help with basic exchange tasks",
+      "severity": "medium",
+      "detectability": "medium",
+      "phase": "onboarding"
+    },
+    {
+      "indicator": "Romantic partner actively monitoring your investments",
+      "severity": "high",
+      "detectability": "medium",
+      "phase": "investment_phase"
+    },
+    {
+      "indicator": "Exchange demanding tax payment to release funds",
+      "severity": "critical",
+      "detectability": "high",
+      "phase": "withdrawal_blocking"
+    },
+    {
+      "indicator": "10-day deadline for fee payment (urgency)",
+      "severity": "high",
+      "detectability": "high",
+      "phase": "withdrawal_blocking"
+    },
+    {
+      "indicator": "Romantic partner cuts all communication when you can't pay",
+      "severity": "critical",
+      "detectability": "high",
+      "phase": "exit"
+    },
+    {
+      "indicator": "Multiple domains for same exchange (bitaeqcke.net + btm-vip.com)",
+      "severity": "high",
+      "detectability": "medium",
+      "phase": "platform_verification"
+    }
+  ],
+  "mitre_attack_mapping": {
+    "reconnaissance": [
+      "T1593.002 - Search Open Websites/Domains: Social Media",
+      "Instagram user targeting"
+    ],
+    "initial_access": [
+      "T1566 - Phishing (Social Media variant)",
+      "Social Engineering via Instagram romance"
+    ],
+    "execution": [
+      "User-initiated cryptocurrency purchase",
+      "User-initiated platform registration",
+      "User-initiated fund transfer"
+    ],
+    "persistence": [
+      "Romantic relationship maintenance",
+      "Continuous Instagram communication",
+      "Active investment monitoring (creates dependency)"
+    ],
+    "defense_evasion": [
+      "T1036.005 - Masquerading: Match Legitimate Name or Location",
+      "Brand impersonation (BitMex)",
+      "Logo misuse",
+      "Legitimate exchange mimicry",
+      "Multi-domain obfuscation"
+    ],
+    "impact": [
+      "T1565 - Data Manipulation (fabricated account balances)",
+      "Financial Theft (crypto deposits)",
+      "Brand Reputation Damage (BitMex)",
+      "Emotional Trauma (romance scam revelation)",
+      "Evidence Destruction (platform shutdown)"
+    ]
+  },
+  "prevention_recommendations": [
+    "CRITICAL: Verify exchange domains against official brand websites",
+    "Never trust crypto exchanges introduced by romantic interests",
+    "Check domain exactly: bitaeqcke.net ≠ bitmex.com",
+    "Legitimate exchanges don't collect taxes on behalf of governments",
+    "Exchanges cannot block withdrawals for unpaid tax obligations",
+    "Be extremely cautious of Instagram romance + crypto investment combination",
+    "Research exchanges independently through regulatory databases",
+    "Verify official domains on company's official website (not search results)",
+    "Be suspicious of urgent deadlines for fee payments",
+    "Don't rely on logos alone - verify domain names carefully",
+    "Romantic partners who ghost when you can't pay are scammers",
+    "Use only well-known, verified cryptocurrency exchanges"
+  ],
+  "recovery_actions": [
+    "Report to California DFPI (completed)",
+    "File complaint with FBI IC3",
+    "Report to FTC",
+    "Report Instagram account to Instagram/Meta",
+    "Document all Instagram communications",
+    "Preserve platform screenshots (evidence of brand impersonation)",
+    "Notify legitimate BitMex of brand impersonation",
+    "Report fraudulent domains to domain registrars",
+    "Blockchain analysis for cryptocurrency tracing",
+    "Share evidence with other potential victims (if identifiable)",
+    "File complaint with CFTC (Commodity Futures Trading Commission)",
+    "Consider reporting to Interpol (if international elements)"
+  ],
+  "legitimate_brand_impact": {
+    "affected_brand": "BitMex",
+    "official_website": "https://www.bitmex.com/",
+    "impact_types": [
+      "Brand reputation damage",
+      "Customer confusion",
+      "Potential misdirected complaints",
+      "Trust erosion in legitimate service"
+    ],
+    "recommended_brand_actions": [
+      "Issue public warnings about fraudulent sites",
+      "Pursue legal action against domain operators",
+      "Educate customers on domain verification",
+      "Monitor for brand misuse",
+      "Coordinate with law enforcement"
+    ]
+  },
+  "unique_characteristics": [
+    "Instagram-based romance scam variant",
+    "Brand impersonation of legitimate exchange (BitMex)",
+    "Multi-domain fraudulent infrastructure (bitaeqcke.net + btm-vip.com)",
+    "Hands-on scammer assistance (crypto purchase + account setup + monitoring)",
+    "Tax profit fee with 10-day deadline",
+    "Immediate ghosting when victim couldn't pay",
+    "Multiple victims indicated (plural in narrative)",
+    "Complete hands-on guidance throughout entire process",
+    "Romantic partner as active investment monitor"
+  ],
+  "case_significance": {
+    "importance": "High - demonstrates brand impersonation tactics",
+    "teaching_value": "Critical domain verification lesson",
+    "pattern_recognition": "Instagram romance + brand impersonation combination",
+    "prevention_focus": "Domain verification is essential protection",
+    "victim_count": "Multiple (indicated by plural 'victims')"
+  }
+}

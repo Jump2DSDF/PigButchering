@@ -1,0 +1,56 @@
+{
+  "case_id": 155,
+  "approach_and_lure": {
+    "initial_contact_platform": ["WhatsApp"],
+    "lure_type": ["friendship", "investment_opportunity"],
+    "communication_migration": "WhatsApp (no migration)"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Li - cosmetic firm manager from Seattle, Washington",
+      "wealth_indicators": ["management_position", "seattle_location"],
+      "relationship_type": "friend_mentor"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "authority",
+      "expertise_claims",
+      "fake_profit_display",
+      "sunk_cost_exploitation"
+    ],
+    "trust_building_period": "Several months of communication"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["ASX.US", "AXS"],
+    "platform_urls": ["asxcw.net", "asx.zibbetmax.com"],
+    "trading_instrument": "Gold futures with Tether (USDT)",
+    "fake_profit_shown": true,
+    "fake_balance_displayed": 1000000,
+    "withdrawal_block_tactics": [
+      "tax_demand",
+      "refusal_to_deduct_from_balance"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["USDT"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 75000,
+    "payment_methods": ["wire_transfer_to_vietnam"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Several months",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.75,
+    "missing_information": [
+      "wallet_addresses",
+      "transaction_hashes",
+      "vietnam_bank_account_details",
+      "specific_tax_amount_demanded"
+    ],
+    "notes": "Gold futures trading scam using Tether (USDT). Interesting payment route: wire to Vietnam bank account. Li persona claimed Seattle cosmetic firm manager. Platform showed $1M+ balance but demanded taxes with refusal to deduct from account. Multiple domain names suggest platform migration strategy."
+  }
+}

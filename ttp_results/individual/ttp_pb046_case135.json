@@ -1,0 +1,472 @@
+{
+  "case_id": "pb_046",
+  "case_number": 135,
+  "classification": "HIGH_VALUE_CASE",
+  "total_loss_usd": 1200000,
+  "victim_location": "California, USA",
+  "case_status": "Complete Loss - Platforms Defunct",
+
+  "scam_overview": {
+    "scam_type": "Pig Butchering (Sha Zhu Pan)",
+    "platform_name": "Abnas Global",
+    "investment_type": "Cryptocurrency (Bitcoin) Trading",
+    "sophistication_level": "High",
+    "operation_duration": "Extended (weeks to months)",
+    "phantom_balance_shown": 2017141.86
+  },
+
+  "threat_actor_profile": {
+    "primary_contact": {
+      "alias": "Tina",
+      "persona_type": "Female",
+      "role": "Relationship Builder & Investment Advisor",
+      "communication_channels": ["WhatsApp", "WeChat"]
+    },
+    "organization_structure": "Coordinated Group",
+    "indicators_of_organization": [
+      "Professional platform development",
+      "Coordinated accomplice behavior (Tina offering to pay fees)",
+      "Successive extraction strategy",
+      "Multi-domain infrastructure"
+    ]
+  },
+
+  "infrastructure": {
+    "domains": [
+      {
+        "url": "https://www.abnasglobal.com/#/home/modal",
+        "tld": ".com",
+        "status": "Defunct",
+        "purpose": "Primary web platform"
+      },
+      {
+        "url": "https://abnasglobal.cc/#/pc/trade",
+        "tld": ".cc",
+        "status": "Defunct",
+        "purpose": "Secondary web platform (trading interface)"
+      }
+    ],
+    "mobile_app": {
+      "exists": true,
+      "distribution_method": "Direct download (not app store)",
+      "platform": "Unspecified",
+      "status": "Likely malicious or fake trading app"
+    },
+    "infrastructure_notes": [
+      "Multiple domains suggest redundancy or A/B testing",
+      "Mobile app increases perceived legitimacy",
+      "All infrastructure abandoned post-scam",
+      ".cc TLD commonly used in scams due to low registration requirements"
+    ]
+  },
+
+  "attack_chain": {
+    "phase_1_initial_contact": {
+      "phase_name": "Initial Contact & Trust Building",
+      "ttps": [
+        {
+          "tactic": "Initial Access",
+          "technique": "Phishing via Messaging Apps",
+          "procedure": "Contact victim through WhatsApp and WeChat",
+          "mitre_technique": "T1566 - Phishing",
+          "details": "Multi-platform approach increases contact success rate"
+        },
+        {
+          "tactic": "Execution",
+          "technique": "Social Engineering - Relationship Building",
+          "procedure": "Establish trust through friendly conversation before introducing investment",
+          "mitre_technique": "T1204 - User Execution",
+          "details": "Victim voluntarily engages based on perceived relationship"
+        }
+      ],
+      "duration": "Days to weeks",
+      "success_indicators": "Victim receptive to investment discussion"
+    },
+
+    "phase_2_luring": {
+      "phase_name": "Platform Introduction & Investment Luring",
+      "ttps": [
+        {
+          "tactic": "Credential Access",
+          "technique": "Fake Platform Account Creation",
+          "procedure": "Victim creates account on fraudulent Abnas Global platform",
+          "mitre_technique": "T1589 - Gather Victim Identity Information",
+          "details": "Account creation collects PII and establishes victim in system"
+        },
+        {
+          "tactic": "Execution",
+          "technique": "Malicious App Installation",
+          "procedure": "Victim downloads and installs Abnas Global app at Tina's instruction",
+          "mitre_technique": "T1204.002 - User Execution: Malicious File",
+          "details": "App provides controlled environment for scam execution"
+        },
+        {
+          "tactic": "Collection",
+          "technique": "Investment Platform Mimicry",
+          "procedure": "Platform mimics legitimate crypto trading interface",
+          "mitre_technique": "T1185 - Browser Session Hijacking (adapted)",
+          "details": "Victims believe they are using legitimate trading platform"
+        }
+      ],
+      "platform_features": [
+        "Professional UI/UX design",
+        "Real-time price feeds (likely fake)",
+        "Trading functionality",
+        "Account balance display",
+        "Withdrawal interface (later blocked)"
+      ]
+    },
+
+    "phase_3_investment": {
+      "phase_name": "Initial Investment & Phantom Profits",
+      "ttps": [
+        {
+          "tactic": "Collection",
+          "technique": "Cryptocurrency Transfer",
+          "procedure": "Victim transfers crypto assets to platform-controlled wallets",
+          "mitre_technique": "T1657 - Financial Theft",
+          "details": "Initial deposits likely small to moderate amounts"
+        },
+        {
+          "tactic": "Impact",
+          "technique": "Trading Simulation",
+          "procedure": "Platform shows successful trades and growing balance",
+          "mitre_technique": "T1565.001 - Data Manipulation: Stored Data Manipulation",
+          "details": "All trading activity is simulated; profits are phantom"
+        },
+        {
+          "tactic": "Persistence",
+          "technique": "Psychological Investment",
+          "procedure": "Display inflated balance ($2,017,141.86) to create emotional investment",
+          "mitre_technique": "T1539 - Steal Web Session Cookie (adapted)",
+          "details": "Large phantom balance creates fear of loss and urgency"
+        }
+      ],
+      "psychological_hooks": [
+        "Confirmation bias (early 'wins' validate platform)",
+        "Sunk cost fallacy (already invested, see large returns)",
+        "Fear of loss (might lose access to $2M+ balance)",
+        "Greed (desire to access large profits)"
+      ]
+    },
+
+    "phase_4_extraction": {
+      "phase_name": "Successive Extraction Through Manufactured Barriers",
+      "ttps": [
+        {
+          "tactic": "Impact",
+          "technique": "Withdrawal Blocking",
+          "procedure": "Platform blocks withdrawal and demands $240,000 in 'taxes'",
+          "mitre_technique": "T1486 - Data Encrypted for Impact (adapted to asset freezing)",
+          "details": "Creates artificial barrier with threat of asset confiscation"
+        },
+        {
+          "tactic": "Execution",
+          "technique": "Accomplice Manipulation",
+          "procedure": "Tina offers to pay portion of tax if victim pays $100,000",
+          "mitre_technique": "T1204 - User Execution",
+          "details": "Creates false sense of partnership and reduces perceived risk"
+        },
+        {
+          "tactic": "Impact",
+          "technique": "Successive Fee Demands",
+          "procedure": "After first payment, demand $160,000 'fine'; Tina again offers to help if victim pays $140,000",
+          "mitre_technique": "T1657 - Financial Theft",
+          "details": "Systematic extraction through repeated manufactured obstacles"
+        },
+        {
+          "tactic": "Defense Evasion",
+          "technique": "Authority Impersonation",
+          "procedure": "Frame demands as legitimate requirements (taxes, fines)",
+          "mitre_technique": "T1656 - Impersonation",
+          "details": "Using official-sounding terms increases compliance"
+        }
+      ],
+      "extraction_sequence": [
+        {
+          "demand_number": 1,
+          "stated_reason": "Tax payment",
+          "amount_demanded": 240000,
+          "tina_offer": "Will pay remaining if victim pays $100,000",
+          "victim_payment": 100000,
+          "threat": "Asset confiscation"
+        },
+        {
+          "demand_number": 2,
+          "stated_reason": "Fine payment",
+          "amount_demanded": 160000,
+          "tina_offer": "Will pay remaining if victim pays $140,000",
+          "victim_payment": 140000,
+          "threat": "Implied continued blocking of assets"
+        },
+        {
+          "demand_number": 3,
+          "stated_reason": "Additional payments (details unspecified)",
+          "amount_demanded": "Variable",
+          "total_paid_all_phases": 1200000,
+          "note": "Multiple additional payments until victim exhausted financially or became suspicious"
+        }
+      ],
+      "extraction_total": 1200000,
+      "funds_recovered": 0
+    },
+
+    "phase_5_exit": {
+      "phase_name": "Exit & Infrastructure Abandonment",
+      "ttps": [
+        {
+          "tactic": "Defense Evasion",
+          "technique": "Infrastructure Teardown",
+          "procedure": "All domains taken offline after extraction complete",
+          "mitre_technique": "T1070 - Indicator Removal",
+          "details": "Prevents investigation and victim recovery attempts"
+        },
+        {
+          "tactic": "Defense Evasion",
+          "technique": "Communication Cessation",
+          "procedure": "Tina and platform cease all communication",
+          "mitre_technique": "T1070.004 - File Deletion",
+          "details": "Scammers disappear completely"
+        }
+      ],
+      "exit_indicators": [
+        "All websites defunct",
+        "No communication from Tina",
+        "No access to platform or funds",
+        "Complete financial loss"
+      ]
+    }
+  },
+
+  "key_ttps_summary": [
+    {
+      "id": "TTP-001",
+      "category": "Initial Contact",
+      "technique": "Multi-Platform Messaging",
+      "description": "Contact via WhatsApp and WeChat",
+      "sophistication": "Medium",
+      "prevalence": "Very High"
+    },
+    {
+      "id": "TTP-002",
+      "category": "Social Engineering",
+      "technique": "Relationship-Based Trust Building",
+      "description": "Female persona 'Tina' builds rapport before introducing investment",
+      "sophistication": "High",
+      "prevalence": "Very High"
+    },
+    {
+      "id": "TTP-003",
+      "category": "Infrastructure",
+      "technique": "Multi-Domain Strategy",
+      "description": "Multiple domains (.com, .cc) for redundancy and legitimacy",
+      "sophistication": "Medium",
+      "prevalence": "High"
+    },
+    {
+      "id": "TTP-004",
+      "category": "Delivery",
+      "technique": "Mobile App Distribution",
+      "description": "Victim instructed to download app (outside official stores)",
+      "sophistication": "High",
+      "prevalence": "High"
+    },
+    {
+      "id": "TTP-005",
+      "category": "Deception",
+      "technique": "Professional Platform Mimicry",
+      "description": "Platform mimics legitimate crypto trading interface",
+      "sophistication": "High",
+      "prevalence": "Very High"
+    },
+    {
+      "id": "TTP-006",
+      "category": "Manipulation",
+      "technique": "Phantom Profit Display",
+      "description": "Show inflated balance ($2M+) to create psychological investment",
+      "sophistication": "Medium",
+      "prevalence": "Very High"
+    },
+    {
+      "id": "TTP-007",
+      "category": "Extraction",
+      "technique": "Tax/Fee Withdrawal Blocking",
+      "description": "Block withdrawal and demand large 'tax' payment",
+      "sophistication": "Medium",
+      "prevalence": "Very High"
+    },
+    {
+      "id": "TTP-008",
+      "category": "Extraction",
+      "technique": "Accomplice Assistance Deception",
+      "description": "Tina offers to 'help' pay fees, reducing victim's perceived risk",
+      "sophistication": "High",
+      "prevalence": "Medium"
+    },
+    {
+      "id": "TTP-009",
+      "category": "Extraction",
+      "technique": "Successive Fee Demands",
+      "description": "Multiple sequential payment demands (tax, fine, etc.)",
+      "sophistication": "High",
+      "prevalence": "High"
+    },
+    {
+      "id": "TTP-010",
+      "category": "Exit",
+      "technique": "Complete Infrastructure Abandonment",
+      "description": "All sites taken offline, all communication ceased",
+      "sophistication": "Low",
+      "prevalence": "Very High"
+    }
+  ],
+
+  "indicators_of_compromise": {
+    "domains": [
+      "abnasglobal.com",
+      "abnasglobal.cc"
+    ],
+    "platform_name": "Abnas Global",
+    "contact_alias": "Tina",
+    "communication_platforms": ["WhatsApp", "WeChat"],
+    "scam_indicators": [
+      "Unsolicited investment advice via messaging apps",
+      "Multiple domains for same platform",
+      "App download from non-official source",
+      "Inability to withdraw funds",
+      "Tax payment demanded before withdrawal",
+      "Third party offering to help with platform fees",
+      "Successive payment demands",
+      "Platform becomes inaccessible"
+    ]
+  },
+
+  "victim_vulnerabilities_exploited": [
+    "Trust in personal relationship",
+    "Desire for investment returns",
+    "Fear of losing phantom profits",
+    "Sunk cost fallacy (already invested)",
+    "False sense of partnership with Tina",
+    "Authority bias (tax and fine demands)",
+    "Hope that next payment will unlock funds"
+  ],
+
+  "financial_analysis": {
+    "initial_deposits": "Multiple crypto transfers (amount unspecified)",
+    "phantom_balance_shown": 2017141.86,
+    "extraction_payments": {
+      "first_tax_demand": 100000,
+      "second_fine_demand": 140000,
+      "additional_payments": 960000,
+      "total_extracted": 1200000
+    },
+    "recovery_amount": 0,
+    "recovery_percentage": 0,
+    "loss_percentage": 100,
+    "notes": "Victim paid $1.2M+ attempting to access phantom $2M+ balance"
+  },
+
+  "prevention_and_detection": {
+    "red_flags_present": [
+      "Investment opportunity from messaging app contact",
+      "Pressure to download app from non-official source",
+      "Unusually high returns shown on platform",
+      "Inability to withdraw funds",
+      "Tax/fee payment required before withdrawal",
+      "Third party involvement in fee payments",
+      "Repeated payment demands",
+      "Platform inaccessibility"
+    ],
+    "intervention_opportunities": [
+      "Domain verification (both domains illegitimate)",
+      "App store verification (not in official stores)",
+      "Financial advisor consultation",
+      "Crypto exchange verification (Abnas Global not legitimate)",
+      "Tax professional consultation (no legitimate platform requires external tax payment)",
+      "Banking fraud detection (large suspicious transfers)",
+      "Stop payment after first withdrawal denial"
+    ],
+    "detection_methods": [
+      "Domain reputation checking",
+      "App store verification",
+      "Crypto platform legitimacy verification",
+      "Unusual messaging app investment offers",
+      "Withdrawal blocking patterns",
+      "Large sequential payments to same entity"
+    ]
+  },
+
+  "attribution_indicators": {
+    "likely_origin": "Organized crime group (possibly Asia-based)",
+    "evidence": [
+      "Sophisticated platform development",
+      "Coordinated accomplice behavior",
+      "Multi-million dollar operation scale",
+      "Professional social engineering",
+      "Use of WhatsApp and WeChat (common in Asian-origin scams)"
+    ],
+    "operation_scale": "Large (based on $1.2M+ extraction from single victim)",
+    "likely_victim_count": "Multiple (infrastructure investment suggests many victims)"
+  },
+
+  "recommendations": {
+    "for_victims": [
+      "Never invest based on unsolicited messaging app contacts",
+      "Verify all investment platforms through official regulatory bodies",
+      "Never download apps from non-official sources",
+      "Legitimate platforms never require external tax payments",
+      "Stop all payments when withdrawal is blocked",
+      "Consult financial professionals before large investments",
+      "Report to FBI IC3 and local law enforcement immediately"
+    ],
+    "for_investigators": [
+      "Analyze blockchain transactions for fund tracking",
+      "Investigate domain registration information",
+      "Examine app code for infrastructure indicators",
+      "Track WhatsApp/WeChat account information",
+      "Coordinate with international law enforcement",
+      "Identify other victims of same platform",
+      "Follow the money through crypto exchanges"
+    ],
+    "for_platforms": [
+      "Enhanced fraud detection for large crypto transfers",
+      "Pattern recognition for successive payments",
+      "User education on pig butchering scams",
+      "Automated warnings for high-risk transactions"
+    ]
+  },
+
+  "case_significance": {
+    "notable_aspects": [
+      "High loss amount ($1.2M+)",
+      "Sophisticated accomplice manipulation (Tina's 'help' offers)",
+      "Multiple extraction phases with different justifications",
+      "Systematic extraction strategy",
+      "Complete infrastructure abandonment post-scam"
+    ],
+    "lessons_learned": [
+      "Accomplice 'help' offers are sophisticated manipulation tactic",
+      "Successive fee demands can extract enormous sums",
+      "Phantom profits create strong psychological investment",
+      "Victims may pay far more than initial deposit to access fake balance"
+    ],
+    "value_for_research": "High - demonstrates advanced successive extraction tactics and accomplice manipulation"
+  },
+
+  "related_cases": {
+    "similar_platforms": [],
+    "similar_ttps": [
+      "Other cases with tax/fee withdrawal blocking",
+      "Other cases with accomplice 'help' offers",
+      "Other high-value pig butchering cases",
+      "Other cases using multiple domains"
+    ]
+  },
+
+  "metadata": {
+    "analysis_date": "2025-12-17",
+    "analyst_notes": "This case demonstrates highly sophisticated extraction tactics, particularly the use of an accomplice (Tina) offering to 'help' pay fees. This creates a false sense of partnership and makes successive demands seem more reasonable. The $1.2M+ loss is among the highest recorded in pig butchering cases and shows how phantom profits can drive victims to pay amounts far exceeding their initial deposits.",
+    "confidence_level": "High",
+    "data_quality": "Good - detailed case narrative with specific amounts and sequence of events"
+  }
+}

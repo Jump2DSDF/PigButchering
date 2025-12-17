@@ -1,0 +1,63 @@
+{
+  "case_id": 248,
+  "approach_and_lure": {
+    "initial_contact_platform": ["online_unspecified", "text_message", "Telegram"],
+    "lure_type": ["investment_group", "investment_opportunity"],
+    "communication_migration": "Various → Telegram investment group"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": [
+      {"name": "LinXinXin", "claimed_identity": "Consortium administrator"},
+      {"name": "Scarlett", "claimed_identity": "Consortium administrator"},
+      {"name": "Leena", "claimed_identity": "Hong Kong native, Boston consulting firm employee"}
+    ],
+    "impersonated_entities": [
+      {"entity": "FATF (Financial Action Task Force)", "type": "intergovernmental_organization"}
+    ],
+    "psychological_tactics": [
+      "authority",
+      "social_proof",
+      "group_dynamics",
+      "fake_profit_display",
+      "government_impersonation",
+      "money_laundering_accusation"
+    ],
+    "trust_building_period": "Months"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["CoinMate VIP"],
+    "platform_urls": ["h5.coinmatevip.com", "coinmatevip.com", "coinmatevp.com"],
+    "fake_profit_shown": true,
+    "fake_balance_displayed": 1100000,
+    "withdrawal_block_tactics": [
+      "upfront_fee_133000",
+      "tax_and_consortium_fee",
+      "fatf_aml_freeze_50000"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["ETH", "USDT"],
+    "wallet_addresses": [
+      "0xba909bd6cd78bd9ba9c491d400821ff2bedd003b"
+    ],
+    "transaction_hashes": [],
+    "estimated_loss_usd": {
+      "victim_1": 650000,
+      "victim_2": 330000,
+      "victim_3": "unknown",
+      "total_minimum": 980000
+    },
+    "payment_methods": ["cryptocurrency_transfer"]
+  },
+  "victim_count": 3,
+  "temporal_indicators": {
+    "scam_duration": "3+ months per victim",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.85,
+    "missing_information": ["victim3_loss_amount", "transaction_hashes"],
+    "notes": "CRITICAL HIGH-VALUE CASE: $980K+ combined loss across 3 victims. ETH wallet 0xba909bd6cd78bd9ba9c491d400821ff2bedd003b extracted. FATF (Financial Action Task Force) impersonation - scammer falsely claimed funds frozen by 'World Anti-Money Laundering Task Force'. Investment consortium/group scam pattern. Multiple personas (LinXinXin, Scarlett, Leena)."
+  }
+}

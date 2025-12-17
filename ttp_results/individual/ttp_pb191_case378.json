@@ -1,0 +1,65 @@
+{
+  "case_id": 378,
+  "approach_and_lure": {
+    "initial_contact_platform": ["LinkedIn"],
+    "lure_type": ["charity_angle", "investment_opportunity"],
+    "communication_migration": "LinkedIn"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "name": "Lucy Barney",
+      "aliases": ["Lucy Lee"],
+      "claimed_identity": "Charity founder for autistic children",
+      "relationship_type": "investment_mentor"
+    },
+    "psychological_tactics": [
+      "charity_emotional_manipulation",
+      "deposit_bonus_incentive",
+      "million_dollar_milestone",
+      "money_laundering_accusation",
+      "retirement_fund_targeting",
+      "split_payment_offer"
+    ],
+    "trust_building_period": "Extended"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["Moodysfx Global Limited", "MoodysFX"],
+    "platform_urls": ["moodyfx.com"],
+    "deposit_bonus_claimed": true,
+    "fake_profit_shown": true,
+    "fake_balance_displayed": 23000000,
+    "withdrawal_block_tactics": [
+      "money_laundering_accusation",
+      "security_deposit_200000",
+      "split_deposit_offer",
+      "tax_payment_144000",
+      "30_45_day_processing"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["unknown"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 740000,
+    "payment_methods": ["wire_transfer", "cryptocurrency_transfer"],
+    "victim_fund_sources": ["retirement_account"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.88,
+    "missing_information": ["wallet_addresses", "transaction_hashes"],
+    "notes": "HIGH VALUE CASE: $740K loss. UNIQUE TACTIC: Charity angle - scammer claimed to start non-profit for autistic children. $23M fake balance shown. Lucy offered to contribute $50K of 'her own money' towards $200K security deposit (split payment social engineering). Milestone scam: $1M account = bonus incentive."
+  },
+  "chain_of_thought": {
+    "step_1_initial_contact": "Lucy Barney/Lucy Lee contacted victim on LinkedIn",
+    "step_2_trust_building": "Gained trust via charity story (autistic children non-profit)",
+    "step_3_platform_setup": "Showed victim how to wire money to exchange, transfer to Moodyfx",
+    "step_4_proof_of_concept": "$10K deposit showed $800 profit on first trade",
+    "step_5_milestone_pressure": "Pressured to reach $1M for bonus, Lucy offered to contribute $50K",
+    "step_6_multi_stage_block": "Money laundering accusation → $200K security → $144K tax → 30-45 day wait"
+  }
+}

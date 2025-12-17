@@ -1,0 +1,262 @@
+{
+  "case_id": "pb088_case191",
+  "original_case_id": 191,
+  "analysis_date": "2025-12-17",
+  "case_metadata": {
+    "primary_subject": "DAF Finance Financial Institute / OPNCOIN (OPACOIN, OPNCOIN, OPN-GO)",
+    "scam_type": [
+      "Fraudulent Trading Platform",
+      "Pig Butchering Scam",
+      "AI Investment Scam",
+      "Investment Group Scam"
+    ],
+    "victim_location": "California (multiple victims)",
+    "total_loss_usd": 127000,
+    "loss_breakdown": {
+      "victim_a_5k_tier": 5000,
+      "victim_b_22k_tier": 22000,
+      "victim_c_50k_tier": 50000,
+      "victim_d_50k_tier": 50000,
+      "note": "Multiple victims, $127,000+ known losses, likely much higher with other group members"
+    },
+    "platform_status": "Website down",
+    "recovery_status": "No recovery for any victim",
+    "multiple_victims": true,
+    "continuation_case": "pb089_case192"
+  },
+  "ttp_profile": {
+    "initial_contact": {
+      "ttp_id": "T1566",
+      "technique": "Investment Group with Professional Institutional Framing",
+      "channel": "WhatsApp investment group",
+      "group_name": "DAF Finance Institute",
+      "approach_method": "Exclusive investment group with professional framing",
+      "social_engineering_tactics": [
+        "Professional institutional name (DAF Finance Financial Institute)",
+        "Group format creating community and social proof",
+        "Sophisticated product offering (AI Profit Algorithms 4.0)",
+        "False legitimacy claims (FINRA funding)",
+        "Technical product positioning (final testing stages)",
+        "Pre-ICO access implication (insider opportunity)"
+      ],
+      "sophistication": "VERY HIGH"
+    },
+    "platform_introduction": {
+      "ttp_id": "T1204",
+      "technique": "AI Trading Platform with Trial Success",
+      "platform_name": "OPACOIN / OPNCOIN / OPN-GO",
+      "platform_urls": [
+        "https://www.dreamadviser.com/",
+        "https://dreamadviser.com",
+        "opacoin.net"
+      ],
+      "platform_type": "Fake crypto trading exchange with AI product",
+      "product_offering": {
+        "name": "AI Profit Algorithms 4.0",
+        "positioning": "Pre-ICO trading with AI algorithms",
+        "promise": "Massive profits after ICO due to crypto market volatility",
+        "legitimacy_claims": "FINRA funding, final testing stages"
+      },
+      "trial_period": {
+        "trial_amount": 500,
+        "trial_provided_by": "Group (no victim risk)",
+        "trial_outcome": "Growth displayed",
+        "withdrawal_allowed": true,
+        "withdrawal_amount": 500,
+        "purpose": "Build trust through real withdrawal",
+        "sophistication_note": "Actual withdrawal processing is highly sophisticated trust-building"
+      }
+    },
+    "investment_escalation": {
+      "ttp_id": "T1078",
+      "technique": "Tiered Investment Escalation Over Months",
+      "tiered_structure": [
+        {
+          "tier": 1,
+          "amount": 500,
+          "description": "Trial investment provided by group",
+          "outcome": "Successful withdrawal allowed",
+          "purpose": "Build trust and proof of legitimacy"
+        },
+        {
+          "tier": 2,
+          "amount": 5000,
+          "description": "First real investment tier",
+          "outcome": "Withdrawal denied for this victim",
+          "purpose": "Initial financial extraction"
+        },
+        {
+          "tier": 3,
+          "amount": 22000,
+          "description": "Mid-level investment tier",
+          "promise": "Full reimbursement if investment fails",
+          "outcome": "Withdrawal denied (trade executed late excuse)",
+          "purpose": "Larger extraction with false guarantees"
+        },
+        {
+          "tier": 4,
+          "amount": 50000,
+          "description": "Major investment tier with formal contracts",
+          "promise": "300% return over 3-month period",
+          "contract": "Formal investment contract with DAF Finance Institute",
+          "outcomes": [
+            "Victim C: Withdrawal likely denied",
+            "Victim D: Told investment completely failed, total loss"
+          ],
+          "purpose": "Maximum extraction with fake contracts",
+          "timeline": "After multiple months of trading"
+        }
+      ],
+      "total_invested_known": 127000,
+      "psychological_manipulation": [
+        "Trial success with real withdrawal",
+        "Group environment for social proof and pressure",
+        "Professional investment contracts",
+        "300% return guarantees",
+        "Silencing of victims who lost",
+        "Group removal to prevent communication"
+      ]
+    },
+    "withdrawal_barriers": {
+      "ttp_id": "T1486",
+      "technique": "Victim-Specific Barrier Tactics with Silencing",
+      "barrier_patterns": [
+        {
+          "victim": "A",
+          "investment": 5000,
+          "barrier_type": "Direct denial",
+          "justification": "None provided",
+          "outcome": "Unable to recover funds"
+        },
+        {
+          "victim": "B",
+          "investment": 22000,
+          "barrier_type": "False technical justification",
+          "justification": "One trade was 'executed late'",
+          "false_promise": "Full reimbursement if investment failed",
+          "outcome": "Unable to recover funds, promise not honored"
+        },
+        {
+          "victim": "C",
+          "investment": 50000,
+          "barrier_type": "Contract violation",
+          "contract_terms": "300% return guaranteed over 3 months",
+          "outcome": "Implied withdrawal denial, contract not honored"
+        },
+        {
+          "victim": "D",
+          "investment": 50000,
+          "barrier_type": "Total loss claim with silencing",
+          "justification": "Investment completely failed",
+          "additional_tactics": [
+            "Encouraged to keep silent about losses",
+            "Removed from WhatsApp group",
+            "Isolated from other victims"
+          ],
+          "outcome": "Total loss, silenced and isolated"
+        }
+      ],
+      "silencing_tactics": [
+        "Explicit instruction to keep silent about losses",
+        "Removal from WhatsApp group when questioned",
+        "Isolation to prevent victim communication",
+        "Prevention of collective action"
+      ],
+      "total_losses": 127000
+    },
+    "final_extraction": {
+      "ttp_id": "T1537",
+      "technique": "Systematic Victim Silencing & Platform Shutdown",
+      "exit_method": "Progressive isolation, silencing, and website shutdown",
+      "total_loss": 127000,
+      "funds_recovered": 0,
+      "platform_status": "Down",
+      "communication_status": "Group access removed for questioning victims",
+      "silencing_campaign": {
+        "method": "Instruct silence, remove from group",
+        "purpose": "Prevent victim communication and warnings",
+        "impact": "Isolates victims, prevents collective action"
+      }
+    }
+  },
+  "red_flags": {
+    "critical_indicators": [
+      "WhatsApp investment group structure",
+      "Claims of FINRA funding (false legitimacy)",
+      "AI Profit Algorithms 4.0 (overly technical product name)",
+      "Pre-ICO trading opportunity (insider access claim)",
+      "Trial investment with successful withdrawal (sophisticated trust building)",
+      "Progressive investment tiers ($500 -> $5,000 -> $22,000 -> $50,000)",
+      "Investment contracts with guaranteed returns (300% over 3 months)",
+      "Guaranteed returns (no legitimate investment can guarantee)",
+      "Full reimbursement promises",
+      "Silencing of victims who experience losses",
+      "Removal from group when questioning",
+      "Multiple simultaneous victims"
+    ],
+    "technical_indicators": [
+      "Multiple platform name variations (OPACOIN, OPNCOIN, OPN-GO)",
+      "Website URL mismatch (dreamadviser.com vs opacoin.net)",
+      "Platform now down/non-operational",
+      "No legitimate FINRA funding for such operations"
+    ],
+    "financial_indicators": [
+      "300% guaranteed return over 3 months (impossible)",
+      "Progressive tier structure pushing toward $50,000",
+      "Full reimbursement guarantees never honored",
+      "Executed late as withdrawal denial reason",
+      "Claims of complete investment failure for total loss"
+    ]
+  },
+  "cryptocurrency_indicators": {
+    "wallet_addresses": [],
+    "blockchain_networks": [],
+    "trading_claims": [
+      "Pre-ICO trading",
+      "AI algorithmic trading",
+      "Crypto market volatility exploitation"
+    ],
+    "note": "No specific cryptocurrency wallet addresses mentioned in complaint narrative"
+  },
+  "timeline": {
+    "estimated_duration": "Several months (3-6 months estimated)",
+    "phases": [
+      "WhatsApp group formation (DAF Finance Institute)",
+      "$500 trial investment phase with successful withdrawals",
+      "$5,000 first real investment tier",
+      "Multiple months of trading activity",
+      "$22,000 mid-tier investment phase",
+      "$50,000 major investment push with formal contracts",
+      "Withdrawal denials with various justifications",
+      "Victim silencing and group removal",
+      "Platform shutdown"
+    ]
+  },
+  "threat_actor_profile": {
+    "sophistication_level": "VERY HIGH",
+    "operational_characteristics": [
+      "Professional institutional framing",
+      "False regulatory association (FINRA)",
+      "Real trial withdrawal processing (builds trust)",
+      "Formal investment contracts",
+      "AI product marketing",
+      "Pre-ICO narrative",
+      "Systematic victim silencing",
+      "Multi-victim group operation",
+      "Tiered investment structure"
+    ],
+    "social_engineering_skill": "Advanced - Professional framing, regulatory false claims, trial withdrawal trust building, contract legitimization",
+    "organizational_structure": "Organized group operation with multiple victims, systematic processes",
+    "financial_impact": "High - $127,000+ known, multiple victims, likely much higher total"
+  },
+  "notable_characteristics": [
+    "Investment group format with multiple simultaneous victims",
+    "AI trading product marketing (AI Profit Algorithms 4.0)",
+    "Professional institutional framing with false FINRA association",
+    "Trial period with REAL withdrawal (sophisticated trust building)",
+    "Tiered investment structure ($500 -> $50,000)",
+    "Formal investment contracts that are meaningless",
+    "Systematic victim silencing and isolation tactics",
+    "Part 1 of 2-part case series (continues in pb089_case192)"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "case_id": 321,
+  "victim_count": 2,
+  "approach_and_lure": {
+    "initial_contact_platform": ["online_unspecified"],
+    "lure_type": ["investment_opportunity", "lifestyle_display"],
+    "communication_migration": "Various"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": [
+      {"name": "Francis", "claimed_identity": "Rental property inquirer", "approach": "real_estate_inquiry"},
+      {"name": "Unknown female", "claimed_identity": "Wealthy crypto trader", "approach": "luxury_lifestyle_display"}
+    ],
+    "psychological_tactics": [
+      "social_proof",
+      "guaranteed_returns_25_percent",
+      "progressive_investment_pressure",
+      "lifestyle_envy",
+      "fake_profit_display",
+      "offshore_tax_excuse"
+    ],
+    "trust_building_period": "Extended (months for Victim 1)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["YoBitPro", "YouBitPro", "Yo Bit Pro"],
+    "platform_urls": ["youbitpro.me", "dobsz.vip"],
+    "fake_profit_shown": true,
+    "fake_balance_displayed": {"victim_1": 400000, "victim_2": 620000},
+    "withdrawal_block_tactics": [
+      "erc20_network_maintenance",
+      "24_hour_delay",
+      "account_disabled",
+      "offshore_tax_demand",
+      "funds_transferred_to_another_exchange_excuse"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["ETH"],
+    "wallet_addresses": [
+      "0xd33F76dA78669B41ABcb98234Abb887bFe2D4F0a",
+      "0x074580e8Ad363e06A904602Fac3b28beC21B2303",
+      "0x232bf7c4096b3639eb9AFfB5902d9bE72138bC6B"
+    ],
+    "transaction_hashes": [],
+    "estimated_loss_usd": {"victim_1": 100000, "victim_2": 161000, "total": 261000},
+    "payment_methods": ["cryptocurrency_transfer"],
+    "victim_fund_sources": ["401k_retirement", "credit_card_debt"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended (months)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.95,
+    "missing_information": ["transaction_hashes"],
+    "notes": "CRITICAL HIGH VALUE: 3 ETH wallets extracted, $261K+ combined loss from 2 victims. Unique tactic: Francis used rental property inquiry as entry point. Victim 1 liquidated 401K and borrowed on credit card. Platform used ERC-20 maintenance and offshore tax excuses. Follow-up phishing emails sent after initial extraction."
+  },
+  "chain_of_thought": {
+    "step_1_initial_contact": "Francis: rental property inquiry; Female scammer: random contact with wealth display",
+    "step_2_trust_building": "Months of conversation (Francis); Luxury car/apartment photos (female)",
+    "step_3_platform_introduction": "Introduced YoBitPro with 25% ETH return promise",
+    "step_4_initial_investment": "Small trades showing promised returns to build confidence",
+    "step_5_escalation": "Pressured to invest larger amounts from retirement and credit",
+    "step_6_extraction_block": "Account disabled, offshore tax demand, follow-up phishing for more funds"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "case_id": 41,
+  "approach_and_lure": {
+    "initial_contact_platform": [
+      "dating_app_unspecified"
+    ],
+    "lure_type": [
+      "romance",
+      "investment_opportunity"
+    ],
+    "communication_migration": "messaging_app_inferred_then_trading_platform"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Romantic interest with crypto trading expertise and success",
+      "wealth_indicators": [
+        "successful_crypto_trading",
+        "access_to_profitable_platform",
+        "financial_knowledge",
+        "investment_expertise"
+      ],
+      "relationship_type": "romantic_partner"
+    },
+    "psychological_tactics": [
+      "love_bombing",
+      "trust_building",
+      "fear_of_missing_out",
+      "social_proof",
+      "reciprocity",
+      "sunk_cost_exploitation",
+      "urgency"
+    ],
+    "trust_building_period": "Estimated 3-8 weeks from dating app contact to investment introduction - romance-based approach requires extended relationship development"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_exchange",
+    "platform_names": [
+      "atomexc.com",
+      "atomexc"
+    ],
+    "platform_urls": [
+      "https://www.atomexc.com/"
+    ],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "tax_payment_demand",
+      "additional_fee_16000_usd",
+      "escalating_fee_structure",
+      "refusal_to_process_without_payment"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": [
+      "unspecified_crypto"
+    ],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 14000,
+    "payment_methods": [
+      "cryptocurrency_transfer_inferred",
+      "payment_method_not_specified"
+    ]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Estimated 6-12 weeks (1.5-3 months) - romance-based variant with extended trust-building phase",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.75,
+    "missing_information": [
+      "specific_dating_app_name",
+      "scammer_profile_details",
+      "messaging_platform_used",
+      "specific_cryptocurrency_types",
+      "wallet_addresses",
+      "transaction_hashes",
+      "payment_method_details",
+      "number_of_deposits",
+      "individual_deposit_amounts",
+      "tax_payment_amount",
+      "event_dates",
+      "communication_records",
+      "platform_screenshots"
+    ],
+    "notes": "Standard romance-based pig butchering scam with classic progression: dating app contact → relationship building → crypto platform introduction → fake profits → multi-stage fee extraction. Victim lost $14,000+ (deposits + tax payment) but avoided additional $16,000 loss by refusing escalating fees. Platform atomexc.com now defunct. No unique TTPs - textbook execution of romance-to-crypto scam pattern. Critical gaps in blockchain tracking data (no wallet addresses or transaction hashes) prevent asset recovery efforts. Strong operational TTP profile for awareness and pattern recognition. Case demonstrates importance of recognizing escalating fee demands as fraud indicator. Victim showed good judgment by refusing second fee and reporting to authorities."
+  }
+}

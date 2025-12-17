@@ -1,0 +1,138 @@
+{
+  "case_id": 137,
+  "case_identifier": "pb_048",
+  "approach_and_lure": {
+    "initial_contact_platform": [
+      "online_platform_unspecified",
+      "dating_app_popular_unspecified"
+    ],
+    "lure_type": [
+      "investment_opportunity",
+      "romance"
+    ],
+    "communication_migration": "whatsapp"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Romantic partner (dating app) and online acquaintance (social platform) - multiple victim scenarios",
+      "wealth_indicators": [
+        "successful_trading_demonstration",
+        "fake_25_percent_profit_shown",
+        "contributed_1000_to_victim_account",
+        "promised_to_split_withdrawal_fees"
+      ],
+      "relationship_type": "romantic_partner_and_online_acquaintance",
+      "identity_deception": "Used stolen photos and information to create fake dating profile (confirmed catfishing)"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "romance_manipulation",
+      "proof_of_concept_demonstration",
+      "social_proof",
+      "reciprocity",
+      "financial_partnership_future_together",
+      "pressure_and_bullying",
+      "sunk_cost_exploitation",
+      "small_withdrawal_allowance_confidence_building",
+      "authority_tax_demands"
+    ],
+    "trust_building_period": "Extended period (weeks to months) - relationship establishment, demonstration trades, progressive investment increases"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform_mobile_app",
+    "platform_names": [
+      "MIC Markets"
+    ],
+    "platform_urls": [
+      "micmarkfx.com"
+    ],
+    "fake_profit_shown": true,
+    "fake_profit_details": [
+      "victim1_doubled_money",
+      "victim2_25_percent_profit_demonstration",
+      "victim2_profit_reached_50000"
+    ],
+    "withdrawal_block_tactics": [
+      "blocked_total_balance_withdrawal",
+      "tax_payment_demand_unspecified_amount",
+      "20_percent_fee_demand_10000_on_50000",
+      "complete_account_lockout",
+      "platform_shutdown_exit_scam"
+    ],
+    "confidence_building_tactics": [
+      "allowed_small_initial_withdrawals",
+      "scammer_added_1000_demonstration",
+      "executed_profitable_demo_trades"
+    ],
+    "additional_requirements": [
+      "bitcoin_wallet_app_download",
+      "mic_markets_trading_app_download"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": [
+      "crypto_assets_unspecified",
+      "bitcoin"
+    ],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 65000,
+    "loss_breakdown": {
+      "victim1": 45000,
+      "victim2": 20000
+    },
+    "payment_methods": [
+      "bitcoin_wallet_transfer",
+      "personal_loan",
+      "attempted_401k_withdrawal"
+    ],
+    "fee_extortion_demands": {
+      "victim1": "taxes_unspecified_amount",
+      "victim2": "20_percent_fee_10000_dollars"
+    }
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended period (estimated multiple months based on relationship building, progressive investments, and loan acquisition timeline)",
+    "platform_status": "defunct",
+    "exit_scam_trigger": "Victims attempted withdrawals and victim2 discovered fake profile"
+  },
+  "victim_details": {
+    "number_of_victims": 2,
+    "victim_locations": [
+      "California"
+    ],
+    "victim_profiles": [
+      {
+        "victim_id": 1,
+        "initial_contact": "online_platform_unspecified",
+        "relationship_type": "online_acquaintance",
+        "loss_amount": 45000
+      },
+      {
+        "victim_id": 2,
+        "initial_contact": "dating_app",
+        "relationship_type": "romantic_partner",
+        "loss_amount": 20000,
+        "pressure_tactics": [
+          "bullying_into_401k_withdrawal",
+          "bullying_into_personal_loans"
+        ]
+      }
+    ]
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.85,
+    "missing_information": [
+      "specific_dating_app_name",
+      "specific_online_platform_victim1",
+      "wallet_addresses",
+      "transaction_hashes",
+      "exact_timeline_dates",
+      "scammer_identity_details_name_profession",
+      "specific_cryptocurrency_types_beyond_bitcoin",
+      "victim1_tax_demand_specific_amount",
+      "scammer_location_claims"
+    ],
+    "notes": "Two-victim case demonstrating multiple attack vectors: (1) social/investment approach and (2) classic romance-to-investment Pig Butchering. Platform MIC Markets (micmarkfx.com) operated as mobile app. Notable tactics: allowed small initial withdrawals to build trust, progressive pressure escalation including bullying into 401(k) withdrawal and personal loans, fake profit demonstrations (25% gains), scammer contributed $1,000 to appear invested. Victim 2 discovered catfishing (fake photos/identity confirmed). Exit scam executed when victims attempted major withdrawals - platform went completely offline. Combined losses $65,000. California residents. Platform now defunct. Classic progression: trust building → small wins → major deposits → withdrawal blocks → fee demands → exit scam."
+  }
+}

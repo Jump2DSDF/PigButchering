@@ -1,0 +1,263 @@
+{
+  "case_metadata": {
+    "pb_case_id": 63,
+    "original_case_id": 164,
+    "analysis_date": "2025-12-17",
+    "primary_subject": "Ceypro investments",
+    "scam_classification": [
+      "Fraudulent Trading Platform",
+      "Pig Butchering Scam",
+      "Advance Fee Fraud"
+    ]
+  },
+  "financial_impact": {
+    "total_loss_usd": 100000,
+    "cryptocurrency_type": "Cryptocurrency (type unspecified)",
+    "number_of_transactions": "multiple",
+    "loss_escalation_pattern": "progressive_escalation"
+  },
+  "victim_profile": {
+    "location": "California",
+    "acquisition_channel": "Instagram",
+    "victim_interests": [
+      "cryptocurrency",
+      "investing",
+      "crypto_assets",
+      "wealth_building"
+    ],
+    "technical_sophistication": "moderate",
+    "financial_capacity": "high"
+  },
+  "attack_chain": {
+    "initial_contact": {
+      "method": "social_media_direct_message",
+      "platform": "Instagram",
+      "contact_initiator": "scammer",
+      "impersonated_entity": null,
+      "persona_type": "expert_investor",
+      "lure_type": "investment_opportunity",
+      "trust_building_duration": "extended",
+      "narrative": "Experienced crypto asset investor offering guidance"
+    },
+    "platform_introduction": {
+      "platform_name": "Ceypro investments",
+      "platform_type": "fraudulent_investment_platform",
+      "introduction_method": "personal_recommendation",
+      "promised_returns": "increasing_balance",
+      "initial_deposit_requirement": null,
+      "platform_features": [
+        "cryptocurrency_investment",
+        "account_dashboard",
+        "balance_tracking",
+        "fake_profit_display"
+      ]
+    },
+    "deposit_phase": {
+      "initial_deposit_usd": null,
+      "total_deposits_usd": 100000,
+      "deposit_method": "cryptocurrency_transfer",
+      "fake_profit_display": true,
+      "withdrawal_test_allowed": false,
+      "escalation_tactics": [
+        "fake_balance_increases",
+        "mentor_encouragement",
+        "success_story_sharing"
+      ]
+    },
+    "exit_strategy": {
+      "exit_type": "withdrawal_barrier_advance_fee",
+      "withdrawal_barrier_type": "additional_deposit_required",
+      "barrier_description": "Required to deposit additional funds to withdraw existing balance",
+      "platform_status": "status_unknown",
+      "scammer_disappearance": true
+    }
+  },
+  "technical_infrastructure": {
+    "domains": [
+      {
+        "domain": "unknown",
+        "status": "unknown",
+        "purpose": "fraudulent_investment_platform",
+        "notes": "No website URL provided in complaint"
+      }
+    ],
+    "cryptocurrency_wallets": [],
+    "communication_platforms": [
+      {
+        "platform": "Instagram",
+        "purpose": "initial_contact_and_trust_building",
+        "method": "direct_messaging"
+      },
+      {
+        "platform": "unknown",
+        "purpose": "ongoing_communication",
+        "method": "messaging"
+      }
+    ],
+    "technical_elements": [
+      "account_dashboard",
+      "fake_balance_system",
+      "cryptocurrency_payment_integration",
+      "multi_platform_communication"
+    ]
+  },
+  "scammer_personas": {
+    "personas": [
+      {
+        "name": "Ashley",
+        "role": "experienced_crypto_investor",
+        "communication_style": "mentor_advisor",
+        "claimed_expertise": "cryptocurrency_investment",
+        "relationship_type": "professional_mentor",
+        "gender": "female"
+      }
+    ]
+  },
+  "red_flags": [
+    "unsolicited_instagram_contact",
+    "unverified_investment_expertise",
+    "no_platform_website_or_public_information",
+    "fake_balance_increases",
+    "withdrawal_requires_additional_deposit",
+    "no_regulatory_compliance",
+    "introduction_through_stranger",
+    "high_pressure_investment_tactics",
+    "too_good_to_be_true_returns",
+    "opacity_of_platform_operations"
+  ],
+  "tactics_techniques_procedures": {
+    "mitre_attack_mapping": [
+      {
+        "tactic": "Initial Access",
+        "technique_id": "T1566.003",
+        "technique_name": "Phishing",
+        "sub_technique": "Spearphishing via Service",
+        "description": "Unsolicited contact through Instagram direct messaging"
+      },
+      {
+        "tactic": "Execution",
+        "technique_id": "T1204.001",
+        "technique_name": "User Execution",
+        "sub_technique": "Malicious Link",
+        "description": "Victim directed to fraudulent investment platform"
+      },
+      {
+        "tactic": "Persistence",
+        "technique_id": "T1534",
+        "technique_name": "Internal Spearphishing",
+        "sub_technique": "Ongoing Communication",
+        "description": "Continuous contact with Ashley to maintain engagement"
+      },
+      {
+        "tactic": "Collection",
+        "technique_id": "T1005",
+        "technique_name": "Data from Local System",
+        "sub_technique": "Cryptocurrency",
+        "description": "Progressive collection of cryptocurrency totaling $100,000"
+      },
+      {
+        "tactic": "Impact",
+        "technique_id": "T1657",
+        "technique_name": "Financial Theft",
+        "sub_technique": "Cryptocurrency Theft",
+        "description": "Total theft of $100,000 through fake investment platform"
+      }
+    ],
+    "social_engineering_tactics": [
+      "expert_credential_claims",
+      "mentor_relationship_building",
+      "fake_profit_psychological_manipulation",
+      "trust_building_over_time",
+      "social_media_credibility",
+      "sunk_cost_fallacy_exploitation",
+      "authority_exploitation"
+    ],
+    "technical_tactics": [
+      "fraudulent_platform_deployment",
+      "fake_account_dashboard",
+      "fake_balance_display_system",
+      "cryptocurrency_payment_infrastructure",
+      "multi_platform_communication",
+      "withdrawal_blocking_mechanism"
+    ],
+    "financial_tactics": [
+      "progressive_deposit_escalation",
+      "fake_profit_displays",
+      "withdrawal_barrier_advance_fee",
+      "cryptocurrency_irreversibility",
+      "sunk_cost_exploitation"
+    ]
+  },
+  "timeline": {
+    "relationship_duration": "extended_period",
+    "time_to_first_deposit": "unknown",
+    "time_to_total_loss": "extended_period",
+    "total_scam_duration": "weeks_to_months",
+    "deposits_pattern": "multiple_progressive_deposits"
+  },
+  "regulatory_concerns": [
+    "unlicensed_investment_advisory",
+    "securities_fraud",
+    "wire_fraud",
+    "cryptocurrency_fraud",
+    "social_media_platform_misuse",
+    "advance_fee_fraud",
+    "consumer_protection_violations"
+  ],
+  "evidence_artifacts": {
+    "screenshots": [],
+    "urls": [],
+    "wallet_addresses": [],
+    "communication_records": [
+      "Instagram_messages_with_Ashley",
+      "investment_platform_communications"
+    ]
+  },
+  "prevention_recommendations": [
+    "Never invest based on unsolicited social media contact",
+    "Verify investment advisor credentials with regulators",
+    "Research investment platforms thoroughly before depositing",
+    "Be suspicious of platforms requiring additional deposits for withdrawals",
+    "Test withdrawal capability with small amounts before large investments",
+    "No legitimate platform requires payment to access your own funds",
+    "Use only regulated and licensed investment platforms",
+    "Be skeptical of guaranteed or consistently high returns",
+    "Report suspicious investment offers to financial regulators",
+    "Educate about sunk cost fallacy and withdrawal barriers"
+  ],
+  "psychological_manipulation_techniques": [
+    {
+      "technique": "fake_profit_display",
+      "purpose": "encourage_more_deposits",
+      "effectiveness": "high"
+    },
+    {
+      "technique": "mentor_relationship",
+      "purpose": "build_trust_and_dependency",
+      "effectiveness": "high"
+    },
+    {
+      "technique": "progressive_escalation",
+      "purpose": "normalize_larger_deposits",
+      "effectiveness": "high"
+    },
+    {
+      "technique": "sunk_cost_fallacy",
+      "purpose": "prevent_exit_and_encourage_more_investment",
+      "effectiveness": "high"
+    },
+    {
+      "technique": "withdrawal_barrier",
+      "purpose": "final_extraction_attempt",
+      "effectiveness": "moderate"
+    }
+  ],
+  "scam_sophistication_assessment": {
+    "overall_sophistication": "high",
+    "technical_complexity": "moderate",
+    "social_engineering_complexity": "high",
+    "financial_extraction_effectiveness": "very_high",
+    "victim_targeting_precision": "moderate",
+    "operational_security": "moderate"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "case_id": 36,
+  "approach_and_lure": {
+    "initial_contact_platform": ["Instagram"],
+    "lure_type": ["investment_opportunity", "friendship"],
+    "communication_migration": "Instagram → WhatsApp"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "unknown",
+      "wealth_indicators": ["offered_to_pay_40000_for_victim"],
+      "relationship_type": "stranger_turned_advisor"
+    },
+    "psychological_tactics": [
+      "fake_profits_display",
+      "authority_manipulation_via_helpdesk",
+      "reciprocity_offering_financial_help",
+      "escalating_fee_demands",
+      "sunk_cost_exploitation"
+    ],
+    "trust_building_period": "unknown"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_crypto_futures_exchange",
+    "platform_names": ["ApolloX"],
+    "platform_urls": ["apolloxxap.com"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "malicious_trading_accusation",
+      "security_fee_10400_usd",
+      "profit_tax_demand",
+      "vip_membership_requirement_50000_usd",
+      "withdrawal_fee_20000_usd"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": [],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 0,
+    "payment_methods": []
+  },
+  "temporal_indicators": {
+    "scam_duration": "unknown",
+    "platform_status": "defunct_no_longer_operational"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.85,
+    "missing_information": [
+      "initial_investment_amount",
+      "exact_tax_payment_amount",
+      "whether_final_20000_fee_was_paid",
+      "cryptocurrency_types_used",
+      "wallet_addresses",
+      "transaction_hashes",
+      "specific_timeline_duration",
+      "scammer_identity_details",
+      "total_confirmed_financial_loss"
+    ],
+    "notes": "Classic multi-stage extraction pig butchering scam. Confirmed payments include: $10,400 security fee and $10,000 toward VIP membership (victim's portion). Scammer claimed to contribute $40,000 for VIP membership (likely false or accomplice transaction). Tax amount and whether final $20,000 withdrawal fee was paid are unspecified. Total loss unknown but minimum $20,400 plus initial investment and tax. Platform now defunct. Sophisticated psychological manipulation using reciprocity tactic where scammer offers to help pay fees."
+  }
+}

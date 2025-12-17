@@ -1,0 +1,754 @@
+{
+  "case_id": "pb_034",
+  "case_reference": "case102",
+  "analysis_date": "2025-12-17",
+  "case_value": 165000,
+  "case_priority": "HIGH",
+  "victim_location": "California, USA",
+  "fraudulent_domain": "trtuner.top",
+  "case_status": "Platform no longer operational",
+
+  "executive_summary": {
+    "total_loss": 165000,
+    "attack_duration": "Extended period (multi-month)",
+    "primary_platform": "Facebook",
+    "scammer_identity": "Huda (claimed to be Senior Web Designer at marketing agency)",
+    "fraudulent_platform": "www.trtuner.top",
+    "cryptocurrency_wallet": "Trust Wallet",
+    "peak_account_value_shown": 190000,
+    "key_sophistication_elements": [
+      "Professional persona with specific job title and company type",
+      "Initial profit demonstration and partial withdrawal to build trust",
+      "Partnership framing to create emotional investment",
+      "Multi-stage fee extraction (taxes, money laundering verification)",
+      "Platform shutdown after maximum extraction"
+    ]
+  },
+
+  "ttp_analysis": {
+    "tactics": [
+      {
+        "tactic_id": "T001",
+        "tactic_name": "Initial Contact & Social Engineering",
+        "description": "Unsolicited approach on social media platform with professional persona",
+        "mitre_mapping": "T1566 - Phishing (Social Media variant)",
+        "severity": "HIGH",
+        "evidence": [
+          "Approached victim on Facebook",
+          "Used persona 'Huda' with professional background (Senior Web Designer at marketing agency)",
+          "Established credibility through detailed professional identity"
+        ]
+      },
+      {
+        "tactic_id": "T002",
+        "tactic_name": "Trust Building & Relationship Development",
+        "description": "Extended grooming period to establish emotional connection and trust",
+        "mitre_mapping": "T1589 - Gather Victim Identity Information",
+        "severity": "CRITICAL",
+        "evidence": [
+          "Positioned as trading partner, not just advisor",
+          "Claimed to be investing own money alongside victim",
+          "Created sense of mutual benefit and partnership",
+          "Extended interaction over time to deepen trust"
+        ]
+      },
+      {
+        "tactic_id": "T003",
+        "tactic_name": "Expertise Fabrication",
+        "description": "False claims of investment expertise and insider knowledge",
+        "mitre_mapping": "T1656 - Impersonation",
+        "severity": "HIGH",
+        "evidence": [
+          "Claimed expertise in trading on Trust Wallet",
+          "Promised significant profits",
+          "Presented as experienced trader with proven track record"
+        ]
+      },
+      {
+        "tactic_id": "T004",
+        "tactic_name": "Platform Redirection",
+        "description": "Directing victim to fraudulent trading platform under attacker control",
+        "mitre_mapping": "T1583.008 - Acquire Infrastructure: Malicious Domains",
+        "severity": "CRITICAL",
+        "evidence": [
+          "Introduced victim to www.trtuner.top",
+          "Platform under complete control of threat actors",
+          "Platform designed to display false trading data"
+        ]
+      },
+      {
+        "tactic_id": "T005",
+        "tactic_name": "Initial Success Demonstration",
+        "description": "Showing fake profits and allowing small withdrawal to build confidence",
+        "mitre_mapping": "T1204 - User Execution",
+        "severity": "CRITICAL",
+        "evidence": [
+          "Claimed execution of short-term trade with 27% profit",
+          "Returned portion of funds back to victim",
+          "Created proof of concept that system works"
+        ],
+        "sophistication_note": "This is a key trust-building mechanism - allowing real withdrawal of funds"
+      },
+      {
+        "tactic_id": "T006",
+        "tactic_name": "Progressive Commitment Escalation",
+        "description": "Gradually increasing victim investment amounts over time",
+        "mitre_mapping": "T1078 - Valid Accounts (Victim's Own)",
+        "severity": "CRITICAL",
+        "evidence": [
+          "Encouraged victim to deposit ever larger amounts",
+          "Victim continued trading over extended period",
+          "Total investments reached $165,000+",
+          "Platform showed account value of $190,000 to encourage more deposits"
+        ]
+      },
+      {
+        "tactic_id": "T007",
+        "tactic_name": "False Account Balance Display",
+        "description": "Showing inflated account values to maintain victim engagement",
+        "mitre_mapping": "T1565.001 - Data Manipulation: Stored Data",
+        "severity": "HIGH",
+        "evidence": [
+          "Platform displayed account worth $190,000",
+          "False balance exceeded actual deposits",
+          "Designed to show 'success' and encourage withdrawal attempts"
+        ]
+      },
+      {
+        "tactic_id": "T008",
+        "tactic_name": "Withdrawal Blocking - Tax Demand",
+        "description": "First-stage fee extraction when victim attempts withdrawal",
+        "mitre_mapping": "T1657 - Financial Theft",
+        "severity": "CRITICAL",
+        "evidence": [
+          "Platform demanded $39,500 in taxes before withdrawal",
+          "Victim paid the tax demand",
+          "Common pretext in pig butchering schemes"
+        ],
+        "fee_extraction_stage": "1",
+        "amount_extracted": 39500
+      },
+      {
+        "tactic_id": "T009",
+        "tactic_name": "Withdrawal Blocking - Account Freeze",
+        "description": "Second-stage obstruction after initial fee payment",
+        "mitre_mapping": "T1657 - Financial Theft",
+        "severity": "CRITICAL",
+        "evidence": [
+          "Account frozen after tax payment",
+          "Claimed reason: money laundering concerns",
+          "Created new pretext for additional fees"
+        ],
+        "fee_extraction_stage": "2"
+      },
+      {
+        "tactic_id": "T010",
+        "tactic_name": "Multi-Stage Fee Extraction",
+        "description": "Sequential fee demands to maximize extraction before victim realizes fraud",
+        "mitre_mapping": "T1657 - Financial Theft",
+        "severity": "CRITICAL",
+        "evidence": [
+          "First demand: $39,500 for taxes",
+          "Second demand: $30,000 for account verification",
+          "Progressive extraction strategy to maximize losses"
+        ],
+        "total_additional_fees_demanded": 69500
+      },
+      {
+        "tactic_id": "T011",
+        "tactic_name": "Infrastructure Abandonment",
+        "description": "Taking down platform after maximum extraction achieved",
+        "mitre_mapping": "T1485 - Data Destruction / T1070 - Indicator Removal",
+        "severity": "HIGH",
+        "evidence": [
+          "Platform is no longer operational",
+          "Occurred after victim unable to extract funds",
+          "Prevents further investigation and recovery attempts"
+        ],
+        "anti_forensics": true
+      }
+    ],
+
+    "techniques": [
+      {
+        "technique_id": "TQ001",
+        "technique_name": "Social Media Initial Vector",
+        "category": "Initial Access",
+        "description": "Using Facebook as initial contact point",
+        "platform": "Facebook",
+        "effectiveness": "HIGH"
+      },
+      {
+        "technique_id": "TQ002",
+        "technique_name": "Professional Persona Construction",
+        "category": "Social Engineering",
+        "description": "Creating detailed professional identity to appear legitimate",
+        "persona_details": {
+          "name": "Huda",
+          "claimed_position": "Senior Web Designer",
+          "claimed_employer_type": "Marketing agency",
+          "claimed_expertise": "Trading on Trust Wallet"
+        },
+        "effectiveness": "HIGH"
+      },
+      {
+        "technique_id": "TQ003",
+        "technique_name": "Partnership Framing",
+        "category": "Psychological Manipulation",
+        "description": "Positioning relationship as mutual partnership rather than advisor-client",
+        "psychological_elements": [
+          "Claimed to invest own money",
+          "Framed as trading together",
+          "Created sense of shared risk and reward"
+        ],
+        "effectiveness": "CRITICAL"
+      },
+      {
+        "technique_id": "TQ004",
+        "technique_name": "Cryptocurrency Wallet Reference",
+        "category": "Technical Legitimacy",
+        "description": "Referencing legitimate cryptocurrency tools to appear knowledgeable",
+        "legitimate_tool_referenced": "Trust Wallet",
+        "purpose": "Build technical credibility"
+      },
+      {
+        "technique_id": "TQ005",
+        "technique_name": "Controlled Withdrawal Permission",
+        "category": "Trust Building",
+        "description": "Allowing initial withdrawal to prove platform functionality",
+        "withdrawal_details": {
+          "claimed_profit": "27%",
+          "partial_return": true,
+          "purpose": "Establish trust and encourage larger deposits"
+        },
+        "effectiveness": "CRITICAL",
+        "sophistication": "HIGH"
+      },
+      {
+        "technique_id": "TQ006",
+        "technique_name": "Fake Trading Platform",
+        "category": "Infrastructure",
+        "description": "Custom-built fraudulent trading interface",
+        "domain": "www.trtuner.top",
+        "tld": ".top",
+        "platform_capabilities": [
+          "Display false account balances",
+          "Show fake trading activity",
+          "Accept deposits",
+          "Block withdrawals with fee demands"
+        ]
+      },
+      {
+        "technique_id": "TQ007",
+        "technique_name": "Inflated Balance Display",
+        "category": "Psychological Manipulation",
+        "description": "Showing profits that exceed deposits to maintain engagement",
+        "displayed_value": 190000,
+        "actual_deposits": 165000,
+        "apparent_profit": 25000,
+        "purpose": "Encourage withdrawal attempts that trigger fee extraction"
+      },
+      {
+        "technique_id": "TQ008",
+        "technique_name": "Tax Payment Pretext",
+        "category": "Fee Extraction",
+        "description": "Demanding upfront tax payment as withdrawal condition",
+        "pretext": "Taxes on profits",
+        "amount": 39500,
+        "percentage_of_displayed_value": 20.8,
+        "legitimacy_mimicry": "Government tax obligations"
+      },
+      {
+        "technique_id": "TQ009",
+        "technique_name": "Money Laundering Accusation",
+        "category": "Fee Extraction",
+        "description": "Using AML concerns as pretext for account freeze and additional fees",
+        "pretext": "Money laundering concerns",
+        "demanded_action": "Account verification payment",
+        "amount": 30000,
+        "legitimacy_mimicry": "Regulatory compliance requirements"
+      },
+      {
+        "technique_id": "TQ010",
+        "technique_name": "Sequential Fee Demands",
+        "category": "Extraction Maximization",
+        "description": "Multiple staged fee demands to extract additional funds",
+        "sequence": [
+          {
+            "stage": 1,
+            "pretext": "Tax payment",
+            "amount": 39500
+          },
+          {
+            "stage": 2,
+            "pretext": "Account verification/AML compliance",
+            "amount": 30000
+          }
+        ],
+        "total_fees_demanded": 69500,
+        "victim_fees_paid": "At least $39,500 (first stage confirmed)"
+      },
+      {
+        "technique_id": "TQ011",
+        "technique_name": "Domain Takedown/Abandonment",
+        "category": "Anti-Forensics",
+        "description": "Taking platform offline after extraction complete",
+        "timing": "After victim unable to recover funds",
+        "purpose": [
+          "Prevent forensic investigation",
+          "Eliminate evidence",
+          "Move to new infrastructure for new victims"
+        ]
+      }
+    ],
+
+    "procedures": [
+      {
+        "procedure_id": "P001",
+        "procedure_name": "Complete Pig Butchering Attack Chain",
+        "stages": [
+          {
+            "stage": 1,
+            "name": "Initial Contact",
+            "duration": "Day 1",
+            "actions": [
+              "Approach victim on Facebook",
+              "Introduce professional persona (Huda, Senior Web Designer)",
+              "Begin relationship building"
+            ]
+          },
+          {
+            "stage": 2,
+            "name": "Expertise Establishment",
+            "duration": "Early phase",
+            "actions": [
+              "Claim expertise in Trust Wallet trading",
+              "Promise significant profits",
+              "Position as knowledgeable mentor/partner"
+            ]
+          },
+          {
+            "stage": 3,
+            "name": "Platform Introduction",
+            "duration": "After initial trust established",
+            "actions": [
+              "Direct victim to www.trtuner.top",
+              "Provide instructions for account setup",
+              "Guide through initial deposit process"
+            ]
+          },
+          {
+            "stage": 4,
+            "name": "Initial Success Demonstration",
+            "duration": "After first deposits",
+            "actions": [
+              "Execute apparent trade with 27% profit",
+              "Return portion of funds to victim",
+              "Prove platform 'works' and builds trust"
+            ]
+          },
+          {
+            "stage": 5,
+            "name": "Investment Escalation",
+            "duration": "Extended period (weeks to months)",
+            "actions": [
+              "Encourage increasingly larger deposits",
+              "Claim to be investing own money alongside victim",
+              "Maintain partnership narrative",
+              "Show growing account balance ($190,000)"
+            ]
+          },
+          {
+            "stage": 6,
+            "name": "Withdrawal Attempt & First Fee",
+            "duration": "When victim attempts withdrawal",
+            "actions": [
+              "Block withdrawal attempt",
+              "Demand $39,500 in taxes",
+              "Collect tax payment from victim"
+            ]
+          },
+          {
+            "stage": 7,
+            "name": "Account Freeze & Second Fee",
+            "duration": "After first fee paid",
+            "actions": [
+              "Freeze account citing money laundering concerns",
+              "Demand $30,000 for account verification",
+              "Create regulatory compliance pretext"
+            ]
+          },
+          {
+            "stage": 8,
+            "name": "Final Extraction & Exit",
+            "duration": "After maximum extraction",
+            "actions": [
+              "Continue blocking all withdrawal attempts",
+              "Maintain contact as long as victim might pay more",
+              "Eventually cease communication",
+              "Take down platform infrastructure"
+            ]
+          }
+        ],
+        "total_stages": 8,
+        "estimated_total_duration": "Multiple months"
+      }
+    ],
+
+    "infrastructure_analysis": {
+      "primary_domain": {
+        "domain": "trtuner.top",
+        "full_url": "www.trtuner.top",
+        "tld": ".top",
+        "tld_risk_assessment": "HIGH - .top is commonly used for fraudulent sites",
+        "current_status": "No longer operational",
+        "functionality": [
+          "Fraudulent trading platform interface",
+          "Deposit acceptance system",
+          "False balance display system",
+          "Withdrawal blocking mechanism",
+          "Fee payment collection system"
+        ]
+      },
+      "social_media_vector": {
+        "platform": "Facebook",
+        "account_name": "Huda",
+        "account_type": "Personal profile",
+        "account_status": "Unknown"
+      },
+      "cryptocurrency_references": {
+        "mentioned_wallets": ["Trust Wallet"],
+        "purpose": "Technical credibility and legitimacy",
+        "actual_blockchain_usage": "Unknown - likely fraudulent platform only"
+      }
+    },
+
+    "financial_analysis": {
+      "victim_deposits": {
+        "total_deposited": 165000,
+        "deposit_pattern": "Progressive escalation over time",
+        "largest_amounts": "Later in relationship after trust established"
+      },
+      "displayed_balance": {
+        "peak_shown": 190000,
+        "apparent_profit": 25000,
+        "profit_percentage": 15.2,
+        "purpose": "Encourage withdrawal attempt to trigger fee extraction"
+      },
+      "fee_extraction": {
+        "first_fee_demand": {
+          "pretext": "Taxes",
+          "amount": 39500,
+          "status": "PAID by victim"
+        },
+        "second_fee_demand": {
+          "pretext": "Money laundering verification",
+          "amount": 30000,
+          "status": "Unknown if paid"
+        },
+        "total_additional_fees_demanded": 69500
+      },
+      "total_loss": {
+        "confirmed_minimum": 165000,
+        "potential_maximum": 204500,
+        "note": "If victim paid both fee demands, total loss could be $204,500"
+      },
+      "initial_withdrawal": {
+        "occurred": true,
+        "amount": "Portion of claimed 27% profit",
+        "purpose": "Trust building mechanism",
+        "strategic_significance": "HIGH - proves platform works to victim"
+      }
+    },
+
+    "psychological_manipulation_analysis": {
+      "primary_techniques": [
+        {
+          "technique": "Authority & Expertise",
+          "implementation": "Professional persona with specific job title and claimed trading expertise",
+          "effectiveness": "HIGH"
+        },
+        {
+          "technique": "Partnership & Reciprocity",
+          "implementation": "Claimed to invest own money alongside victim, framed as mutual endeavor",
+          "effectiveness": "CRITICAL"
+        },
+        {
+          "technique": "Proof of Concept",
+          "implementation": "Initial profit demonstration with actual withdrawal",
+          "effectiveness": "CRITICAL"
+        },
+        {
+          "technique": "Commitment & Consistency",
+          "implementation": "Progressive escalation of deposits over time",
+          "effectiveness": "HIGH"
+        },
+        {
+          "technique": "Scarcity & Urgency",
+          "implementation": "Implicit in trading opportunities and profit claims",
+          "effectiveness": "MEDIUM"
+        },
+        {
+          "technique": "Loss Aversion",
+          "implementation": "Fee demands positioned as necessary to recover existing funds",
+          "effectiveness": "CRITICAL"
+        },
+        {
+          "technique": "Authority Mimicry",
+          "implementation": "Tax and regulatory compliance pretexts",
+          "effectiveness": "HIGH"
+        }
+      ],
+      "relationship_dynamics": {
+        "framing": "Partnership/collaboration",
+        "power_dynamic": "Presented as equal partners",
+        "trust_level_achieved": "Very high (victim invested $165,000)",
+        "emotional_investment": "Significant - long-term relationship"
+      }
+    },
+
+    "indicators_of_compromise": {
+      "behavioral_indicators": [
+        "Unsolicited contact on social media claiming investment expertise",
+        "Directing to unknown trading platform",
+        "Claiming to invest own money alongside victim",
+        "Showing profits that seem too good to be true",
+        "Demanding upfront fees/taxes before withdrawal",
+        "Multiple sequential fee demands",
+        "Account freeze/block after fee payment",
+        "Money laundering accusations as pretext for fees"
+      ],
+      "technical_indicators": [
+        "Domain: trtuner.top",
+        ".top TLD usage (high-risk)",
+        "Platform displaying false balances",
+        "Inability to withdraw funds",
+        "Platform shutdown after maximum extraction"
+      ],
+      "communication_indicators": [
+        "Initial contact via Facebook",
+        "Persona: 'Huda' - Senior Web Designer at marketing agency",
+        "Trust Wallet references for legitimacy",
+        "Partnership/collaboration language"
+      ]
+    },
+
+    "sophistication_assessment": {
+      "overall_rating": "HIGH",
+      "sophistication_factors": [
+        {
+          "factor": "Initial Withdrawal Permission",
+          "rating": "VERY HIGH",
+          "description": "Allowing victim to withdraw funds initially is advanced trust-building technique"
+        },
+        {
+          "factor": "Professional Persona Development",
+          "rating": "MEDIUM-HIGH",
+          "description": "Detailed professional identity with specific job title and expertise claims"
+        },
+        {
+          "factor": "Partnership Framing",
+          "rating": "HIGH",
+          "description": "Sophisticated psychological manipulation positioning as equal partner"
+        },
+        {
+          "factor": "Multi-Stage Fee Extraction",
+          "rating": "HIGH",
+          "description": "Sequential fee demands with different pretexts shows operational maturity"
+        },
+        {
+          "factor": "Custom Platform Development",
+          "rating": "MEDIUM-HIGH",
+          "description": "Fully functional fraudulent trading platform with balance display and payment processing"
+        },
+        {
+          "factor": "Clean Exit Strategy",
+          "rating": "MEDIUM",
+          "description": "Platform takedown after extraction prevents investigation"
+        }
+      ],
+      "comparison_to_typical_pig_butchering": "Above average - particularly the initial withdrawal permission and partnership framing show advanced social engineering"
+    },
+
+    "victim_vulnerability_factors": {
+      "exploited_factors": [
+        "Desire for investment returns",
+        "Trust in social media connections",
+        "Susceptibility to authority/expertise claims",
+        "Commitment escalation over time",
+        "Loss aversion after significant investment",
+        "Hope to recover funds through fee payment"
+      ],
+      "demographic_notes": "California resident - no other demographic information provided"
+    },
+
+    "attribution_indicators": {
+      "infrastructure": {
+        "domain": "trtuner.top",
+        "domain_status": "Offline",
+        "potential_investigation_leads": [
+          "Domain registration records (WHOIS)",
+          "Hosting provider information",
+          "Payment processing infrastructure",
+          "Facebook account 'Huda'"
+        ]
+      },
+      "operational_indicators": {
+        "language": "English (assumed from U.S. victim)",
+        "working_hours": "Unknown",
+        "response_patterns": "Long-term engagement capability"
+      },
+      "geographic_indicators": {
+        "target_region": "United States (California)",
+        "suspected_operation_location": "Unknown - possibly international"
+      }
+    },
+
+    "recommendations": {
+      "investigation_priorities": [
+        "WHOIS lookup for trtuner.top domain registration",
+        "Facebook account investigation for 'Huda'",
+        "Payment processing analysis - how victim transferred initial $165,000",
+        "Blockchain analysis if cryptocurrency was actually used",
+        "Check for similar domains/platforms (trtuner variants)",
+        "Search for other victims of trtuner.top platform",
+        "Tax payment destination analysis ($39,500 payment)"
+      ],
+      "prevention_measures": [
+        "Public education about pig butchering schemes",
+        "Warning about unsolicited investment advice on social media",
+        "Red flag awareness: upfront fee demands for withdrawals",
+        "Red flag awareness: platforms requiring multiple sequential fees",
+        "Verification of trading platforms through official channels",
+        "Caution about .top and other high-risk TLDs"
+      ],
+      "victim_support": [
+        "Document all communications with 'Huda'",
+        "Preserve any platform screenshots showing $190,000 balance",
+        "File IC3 complaint with FBI",
+        "Report to California authorities",
+        "Report Facebook account 'Huda' to platform",
+        "Consult with financial fraud attorney",
+        "Credit monitoring for potential identity theft"
+      ]
+    }
+  },
+
+  "timeline_reconstruction": {
+    "phase_1_initial_contact": {
+      "description": "First approach on Facebook",
+      "estimated_timeframe": "Day 0-7",
+      "key_events": [
+        "Huda contacts victim on Facebook",
+        "Establishes professional persona",
+        "Begins relationship building"
+      ]
+    },
+    "phase_2_trust_building": {
+      "description": "Establishing expertise and credibility",
+      "estimated_timeframe": "Week 1-2",
+      "key_events": [
+        "Discusses Trust Wallet trading expertise",
+        "Promises significant profits",
+        "Positions as mentor and partner"
+      ]
+    },
+    "phase_3_platform_onboarding": {
+      "description": "Introduction to fraudulent platform",
+      "estimated_timeframe": "Week 2-3",
+      "key_events": [
+        "Introduces www.trtuner.top",
+        "Guides victim through setup",
+        "Victim makes initial deposit"
+      ]
+    },
+    "phase_4_initial_success": {
+      "description": "Proof of concept with allowed withdrawal",
+      "estimated_timeframe": "Week 3-4",
+      "key_events": [
+        "Claims 27% profit on trade",
+        "Returns portion of funds to victim",
+        "Establishes platform as 'legitimate'"
+      ]
+    },
+    "phase_5_escalation": {
+      "description": "Progressive increase in deposits",
+      "estimated_timeframe": "Month 1-3+",
+      "key_events": [
+        "Encourages larger and larger deposits",
+        "Claims to invest own money",
+        "Maintains partnership narrative",
+        "Account shows growth to $190,000"
+      ]
+    },
+    "phase_6_withdrawal_block": {
+      "description": "First fee extraction attempt",
+      "estimated_timeframe": "After months of deposits",
+      "key_events": [
+        "Victim attempts withdrawal",
+        "Platform demands $39,500 in taxes",
+        "Victim pays tax demand"
+      ]
+    },
+    "phase_7_secondary_block": {
+      "description": "Second fee extraction",
+      "estimated_timeframe": "After tax payment",
+      "key_events": [
+        "Account frozen for 'money laundering concerns'",
+        "Platform demands $30,000 verification fee",
+        "Continued inability to withdraw"
+      ]
+    },
+    "phase_8_exit": {
+      "description": "Platform shutdown",
+      "estimated_timeframe": "After maximum extraction",
+      "key_events": [
+        "Platform goes offline",
+        "No further contact from Huda",
+        "Total loss: $165,000+"
+      ]
+    }
+  },
+
+  "comparative_analysis": {
+    "typical_pig_butchering_elements": [
+      "Social media initial contact - PRESENT",
+      "Romance or friendship building - PRESENT (professional friendship/partnership)",
+      "Cryptocurrency investment focus - PRESENT",
+      "Fake trading platform - PRESENT",
+      "Initial withdrawal allowed - PRESENT",
+      "Progressive deposit escalation - PRESENT",
+      "Withdrawal blocking with fees - PRESENT",
+      "Multiple fee demands - PRESENT",
+      "Platform shutdown - PRESENT"
+    ],
+    "unique_or_notable_elements": [
+      "Professional rather than romantic persona",
+      "Partnership framing (claiming to invest alongside victim)",
+      "Specific Trust Wallet reference for technical credibility",
+      "Money laundering accusation as second fee pretext",
+      "Very high loss amount ($165,000)"
+    ],
+    "case_classification": "Classic pig butchering with professional partnership variation"
+  },
+
+  "risk_scoring": {
+    "financial_impact": {
+      "score": 10,
+      "justification": "Loss of $165,000+ is very high impact"
+    },
+    "sophistication": {
+      "score": 8,
+      "justification": "High sophistication with initial withdrawal permission and partnership framing"
+    },
+    "victim_harm": {
+      "score": 9,
+      "justification": "Significant financial and emotional harm over extended period"
+    },
+    "replicability": {
+      "score": 8,
+      "justification": "Techniques are replicable but require some infrastructure and social engineering skill"
+    },
+    "overall_threat_level": "CRITICAL"
+  }
+}

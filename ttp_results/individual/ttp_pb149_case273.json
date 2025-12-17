@@ -1,0 +1,61 @@
+{
+  "case_id": 273,
+  "approach_and_lure": {
+    "initial_contact_platform": ["WhatsApp_group"],
+    "lure_type": ["investment_group", "options_trading"],
+    "communication_migration": "WhatsApp group (BTIG investment group)"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "name": "Anna",
+      "claimed_identity": "Platform representative",
+      "relationship_type": "customer_support"
+    },
+    "psychological_tactics": [
+      "authority",
+      "social_proof",
+      "group_dynamics",
+      "fake_profit_display",
+      "margin_trading_pressure",
+      "unauthorized_deposit_demands"
+    ],
+    "trust_building_period": "Extended"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["Securityco", "Securitys Coin"],
+    "platform_urls": [
+      "m.securityplatf.com",
+      "m.securityscoin.com",
+      "m.security-jys.com",
+      "m.securitymce.com",
+      "m.dcgdcgcom.com"
+    ],
+    "fake_profit_shown": true,
+    "fake_balance_displayed": 1100000,
+    "withdrawal_block_tactics": [
+      "tax_15_percent",
+      "unusual_transaction_freeze_72h",
+      "unauthorized_deposit_demands_10000_80000",
+      "margin_issue_fee_10000"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["USDT"],
+    "wallet_addresses": [
+      "0x1Bab6ae69Cbcd31e11dccC92b5346B320e5d619C"
+    ],
+    "transaction_hashes": [],
+    "estimated_loss_usd": null,
+    "payment_methods": ["cryptocurrency_transfer", "credit_card", "personal_loans"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.82,
+    "missing_information": ["total_loss_amount", "transaction_hashes"],
+    "notes": "CRITICAL: ETH wallet 0x1Bab6ae69Cbcd31e11dccC92b5346B320e5d619C extracted. BTIG investment group scam. 5 different domain names suggests sophisticated domain rotation. Victim pressured into credit card borrowing and personal loans. Unauthorized deposit demands ($10K, $80K) without victim consent. Options trading scam variant."
+  }
+}

@@ -1,0 +1,737 @@
+[
+  {
+    "case_id": 9,
+    "approach_and_lure": {
+      "initial_contact_platform": [
+        "online_platform_unspecified"
+      ],
+      "lure_type": [
+        "romance",
+        "investment_opportunity"
+      ],
+      "communication_migration": "unknown"
+    },
+    "impersonation_and_psychology": {
+      "scammer_persona": {
+        "claimed_identity": "Romantic partner named 'Aileen' with wealthy investor aunt",
+        "wealth_indicators": [
+          "aunt_owns_properties_france_croatia",
+          "successful_investor_family",
+          "personal_trading_success",
+          "made_money_on_platform"
+        ],
+        "relationship_type": "romantic_partner"
+      },
+      "psychological_tactics": [
+        "trust_building",
+        "social_proof",
+        "authority",
+        "reciprocity",
+        "fear_of_missing_out",
+        "sunk_cost_exploitation"
+      ],
+      "trust_building_period": "Extended period (weeks to months, relationship establishment phase)"
+    },
+    "fraud_mechanism": {
+      "platform_type": "fake_trading_platform",
+      "platform_names": [
+        "web3app.rest"
+      ],
+      "platform_urls": [
+        "web3app.rest"
+      ],
+      "fake_profit_shown": true,
+      "withdrawal_block_tactics": [
+        "security_fee_500000",
+        "complete_fund_freeze_after_refusal"
+      ]
+    },
+    "financial_tracking": {
+      "cryptocurrency_types": [
+        "crypto_assets_unspecified"
+      ],
+      "wallet_addresses": [],
+      "transaction_hashes": [],
+      "estimated_loss_usd": 2500000,
+      "payment_methods": [
+        "unknown"
+      ]
+    },
+    "temporal_indicators": {
+      "scam_duration": "Extended period (estimated 6+ months based on relationship building and investment accumulation)",
+      "platform_status": "defunct"
+    },
+    "extraction_metadata": {
+      "confidence_score": 0.8,
+      "missing_information": [
+        "initial_contact_platform_specific",
+        "messaging_app_used",
+        "cryptocurrency_types_specific",
+        "wallet_addresses",
+        "transaction_hashes",
+        "payment_methods",
+        "exact_timeline_dates",
+        "scammer_location"
+      ],
+      "notes": "High-value case ($2.5M+ loss) demonstrating classic Pig Butchering pattern. Notable for sophisticated proof-of-concept mechanism: allowing initial small withdrawals to build confidence before major extraction attempt. Victim showed financial caution by refusing final $500K demand but had already lost $2.5M+. Platform's 'blockchain savings plan' terminology designed to sound legitimate and low-risk. California resident victim. Platform web3app.rest now defunct."
+    }
+  },
+  {
+    "case_id": 10,
+    "approach_and_lure": {
+      "initial_contact_platform": [
+        "WhatsApp"
+      ],
+      "lure_type": [
+        "friendship",
+        "investment_opportunity"
+      ],
+      "communication_migration": "WhatsApp (no migration)"
+    },
+    "impersonation_and_psychology": {
+      "scammer_persona": {
+        "claimed_identity": "Friend and crypto trading mentor/advisor",
+        "wealth_indicators": [
+          "successful_crypto_trader",
+          "trading_knowledge"
+        ],
+        "relationship_type": "friend"
+      },
+      "psychological_tactics": [
+        "trust_building",
+        "authority",
+        "social_proof",
+        "fear_of_missing_out",
+        "sunk_cost_exploitation"
+      ],
+      "trust_building_period": "Days to weeks (sufficient to establish friendship)"
+    },
+    "fraud_mechanism": {
+      "platform_type": "fake_trading_platform",
+      "platform_names": [
+        "goldmarketer.net"
+      ],
+      "platform_urls": [
+        "goldmarketer.net"
+      ],
+      "fake_profit_shown": true,
+      "withdrawal_block_tactics": [
+        "tax_payment_demand"
+      ]
+    },
+    "financial_tracking": {
+      "cryptocurrency_types": [
+        "crypto_assets_unspecified"
+      ],
+      "wallet_addresses": [],
+      "transaction_hashes": [],
+      "estimated_loss_usd": null,
+      "payment_methods": [
+        "unspecified"
+      ]
+    },
+    "temporal_indicators": {
+      "scam_duration": "Days to weeks",
+      "platform_status": "defunct"
+    },
+    "extraction_metadata": {
+      "confidence_score": 0.65,
+      "missing_information": [
+        "cryptocurrency_types_specific",
+        "wallet_addresses",
+        "transaction_hashes",
+        "deposit_amount",
+        "tax_demand_amount",
+        "scammer_identity_details",
+        "exact_timeline",
+        "payment_methods",
+        "fake_profit_amounts",
+        "additional_communications"
+      ],
+      "notes": "Classic Pig Butchering scam with WhatsApp contact, friendship building, and fraudulent crypto trading platform. Tax demand is sophisticated withdrawal blocking tactic. Platform now defunct (exit scam). Significant intelligence gaps in financial tracking data limit blockchain investigation capability. Victim suffered complete loss of funds."
+    }
+  },
+  {
+    "chain_of_thought": {
+      "step1_initial_contact": "Victim approached online by scammer who established 'online friend' relationship before platform introduction. Classic friendship-based lure transitioning to investment opportunity. Initial platform unspecified, likely migrated to messaging app for sustained communication.",
+      "step2_persona_psychology": "Scammer posed as online friend with investment knowledge. Used trust building, graduated commitment (small start), fake profit displays ($140K+), sunk cost exploitation through two-tier fees, and legitimization through professional fee terminology. Extended relationship building phase evident from 'over time' deposits.",
+      "step3_fraud_mechanism": "Fake crypto trading platform 'OSL' at oslvsap.vip (likely impersonating legitimate OSL exchange). Displayed fake profits ($140K+), encouraged graduated deposits over time. Two-stage withdrawal blocking: 20% management fee ($25K paid), then verification fee ($21K demanded). Platform went defunct after extraction.",
+      "step4_financial_intelligence": "Total loss $90,000+ confirmed. Breakdown: multiple deposits over time, $25K management fee paid, $21K verification fee demanded. Displayed fake account value of $140K+. No wallet addresses or transaction hashes provided. Cryptocurrency type unspecified (generic 'crypto assets').",
+      "step5_temporal_analysis": "Extended duration (estimated 1-3 months) indicated by 'over time' deposits and relationship building. Multi-phase timeline: contact → friendship → platform introduction → graduated investments → fake profit observation → withdrawal blocking → fee extraction → exit scam. Platform confirmed defunct.",
+      "step6_confidence_assessment": "High confidence (0.9+) on platform details, fees, total loss, withdrawal tactics. Medium confidence (0.6-0.8) on timeline estimates and psychological tactics (inferred). Low confidence on missing items: initial platform, messaging app, crypto types, wallet addresses, exact dates. Overall: 0.80. Strong pattern analysis but limited forensic tracking data."
+    },
+    "ttp_profile": {
+      "case_id": 16,
+      "approach_and_lure": {
+        "initial_contact_platform": [
+          "online_platform_unspecified"
+        ],
+        "lure_type": [
+          "friendship",
+          "investment_opportunity",
+          "profit_promises"
+        ],
+        "communication_migration": "messaging_platform_implied"
+      },
+      "impersonation_and_psychology": {
+        "scammer_persona": {
+          "claimed_identity": "Online friend with investment knowledge",
+          "wealth_indicators": [
+            "successful_trader",
+            "access_to_profitable_platform"
+          ],
+          "relationship_type": "friend"
+        },
+        "psychological_tactics": [
+          "trust_building",
+          "graduated_commitment",
+          "fake_profit_display",
+          "sunk_cost_exploitation",
+          "fee_legitimization",
+          "social_proof"
+        ],
+        "trust_building_period": "Extended period (weeks to months, multiple deposits over time)"
+      },
+      "fraud_mechanism": {
+        "platform_type": "fake_crypto_trading_platform",
+        "platform_names": [
+          "OSL"
+        ],
+        "platform_urls": [
+          "www.oslvsap.vip",
+          "https://www.oslvsap.vip"
+        ],
+        "fake_profit_shown": true,
+        "withdrawal_block_tactics": [
+          "management_fee_20_percent_25000_usd",
+          "verification_fee_21000_usd"
+        ]
+      },
+      "financial_tracking": {
+        "cryptocurrency_types": [
+          "crypto_assets_unspecified"
+        ],
+        "wallet_addresses": [],
+        "transaction_hashes": [],
+        "estimated_loss_usd": 90000,
+        "payment_methods": [
+          "cryptocurrency"
+        ]
+      },
+      "temporal_indicators": {
+        "scam_duration": "Extended period (estimated 1-3 months with multiple deposits)",
+        "platform_status": "defunct"
+      },
+      "extraction_metadata": {
+        "confidence_score": 0.8,
+        "missing_information": [
+          "initial_contact_platform_specific",
+          "messaging_platform_specific",
+          "cryptocurrency_types_specific",
+          "wallet_addresses",
+          "transaction_hashes",
+          "exact_timeline_dates",
+          "scammer_detailed_identity",
+          "number_of_deposits",
+          "verification_fee_payment_status"
+        ],
+        "notes": "Classic Pig Butchering case with OSL platform impersonation. Strong two-tier fee extraction mechanism. Fake profits displayed to incentivize larger deposits ($140K+ fake balance). Platform used .vip TLD mimicking legitimate OSL exchange. Victim lost $90K+ through graduated deposits and fees before platform exit scam."
+      }
+    }
+  },
+  {
+    "chain_of_thought": {
+      "step1_initial_contact": "Victim contacted via LinkedIn then moved to WhatsApp. Direct investment opportunity lure focused on quick, profitable crypto trading using YCBIT platform. Scammer initiated contact on professional network (LinkedIn) then migrated to personal messaging (WhatsApp) for continued communication.",
+      "step2_persona_psychology": "Scammer likely posed as investment advisor or successful crypto trader (implied from context). Used professional relationship type originating from LinkedIn. Psychological tactics: authority/expertise, greed/FOMO (quick profits), fake profit display, escalating commitment through three-tier payment demands, compliance conditioning. Trust-building period appears short to medium term based on trading activity mentioned.",
+      "step3_fraud_mechanism": "Fake crypto trading platform YCBIT at ycbit.com. Platform displayed fake profits to victim. Sophisticated three-tier withdrawal blocking: 10% withdrawal fee, then 15% identity verification, then 100% account balance matching. Each demand framed as necessary to access funds. Platform now defunct.",
+      "step4_financial_intelligence": "Limited financial tracking data available. Cryptocurrency type not specified (crypto assets mentioned generically). No wallet addresses or transaction hashes provided. Total loss unknown - victim made initial investment and possibly additional payments but amounts not specified. Payment methods not detailed, likely crypto transfers.",
+      "step5_temporal_analysis": "Scam duration estimated weeks to 1-2 months based on trading period and multiple sequential payment demands. Timeline: contact, account setup, trading period (showing fake gains), withdrawal attempt triggering three-tier demands, eventual platform shutdown. Platform confirmed defunct ('no longer active').",
+      "step6_confidence_assessment": "High confidence: platforms (LinkedIn/WhatsApp), platform details (YCBIT, ycbit.com), fake profits shown, three-tier withdrawal blocking structure, defunct status. Medium confidence: scammer persona (implied), relationship type, psychological tactics (inferred), duration estimate. Low confidence: specific identity details, crypto types, wallet addresses, transaction data, exact loss amounts, payment methods. Overall: 0.70 - Strong fraud mechanism details but weak financial tracking information."
+    },
+    "ttp_profile": {
+      "case_id": 20,
+      "approach_and_lure": {
+        "initial_contact_platform": [
+          "linkedin"
+        ],
+        "lure_type": [
+          "investment_opportunity",
+          "quick_profits"
+        ],
+        "communication_migration": "whatsapp"
+      },
+      "impersonation_and_psychology": {
+        "scammer_persona": {
+          "claimed_identity": "Investment advisor or successful crypto trader (implied)",
+          "wealth_indicators": [
+            "crypto_trading_expertise",
+            "platform_knowledge",
+            "successful_investor"
+          ],
+          "relationship_type": "professional_mentor"
+        },
+        "psychological_tactics": [
+          "authority_expertise",
+          "greed_fomo",
+          "fake_profit_display",
+          "sunk_cost_exploitation",
+          "escalating_commitment",
+          "compliance_conditioning"
+        ],
+        "trust_building_period": "Short to medium term (days to weeks, implied)"
+      },
+      "fraud_mechanism": {
+        "platform_type": "fake_crypto_trading_platform",
+        "platform_names": [
+          "YCBIT"
+        ],
+        "platform_urls": [
+          "ycbit.com"
+        ],
+        "fake_profit_shown": true,
+        "withdrawal_block_tactics": [
+          "10_percent_withdrawal_deposit",
+          "15_percent_identity_verification",
+          "100_percent_account_balance_matching"
+        ]
+      },
+      "financial_tracking": {
+        "cryptocurrency_types": [
+          "crypto_assets_unspecified"
+        ],
+        "wallet_addresses": [],
+        "transaction_hashes": [],
+        "estimated_loss_usd": null,
+        "payment_methods": [
+          "unknown"
+        ]
+      },
+      "temporal_indicators": {
+        "scam_duration": "Estimated weeks to 1-2 months",
+        "platform_status": "defunct"
+      },
+      "extraction_metadata": {
+        "confidence_score": 0.7,
+        "missing_information": [
+          "cryptocurrency_types",
+          "wallet_addresses",
+          "transaction_hashes",
+          "total_loss_amount",
+          "payment_methods",
+          "exact_timeline",
+          "specific_scammer_identity",
+          "trust_building_duration",
+          "which_payments_were_made"
+        ],
+        "notes": "Classic Pig Butchering with professional networking approach (LinkedIn). Notable three-tier escalating withdrawal blocking system (10%, 15%, 100%). Strong fraud mechanism documentation but limited financial tracking data. Platform now defunct. Victim unable to recover any funds."
+      }
+    }
+  },
+  {
+    "case_id": 21,
+    "approach_and_lure": {
+      "initial_contact_platform": [
+        "unknown_online_platform"
+      ],
+      "lure_type": [
+        "investment_opportunity"
+      ],
+      "communication_migration": "none_platform_based"
+    },
+    "impersonation_and_psychology": {
+      "scammer_persona": {
+        "claimed_identity": "Legitimate cryptocurrency exchange (KuCoin impersonation)",
+        "wealth_indicators": [
+          "professional_platform_design",
+          "growing_account_balance"
+        ],
+        "relationship_type": "company_representative"
+      },
+      "psychological_tactics": [
+        "trust_building",
+        "authority",
+        "social_proof",
+        "sunk_cost_exploitation"
+      ],
+      "trust_building_period": "Quick-moving (weeks estimated, based on fake profit display period)"
+    },
+    "fraud_mechanism": {
+      "platform_type": "fake_exchange",
+      "platform_names": [
+        "kakucoin.com"
+      ],
+      "platform_urls": [
+        "kakucoin.com"
+      ],
+      "fake_profit_shown": true,
+      "withdrawal_block_tactics": [
+        "demand_additional_deposit_for_withdrawal",
+        "continued_blocking_after_payment"
+      ]
+    },
+    "financial_tracking": {
+      "cryptocurrency_types": [
+        "unspecified_cryptocurrency"
+      ],
+      "wallet_addresses": [],
+      "transaction_hashes": [],
+      "estimated_loss_usd": null,
+      "payment_methods": [
+        "unknown"
+      ]
+    },
+    "temporal_indicators": {
+      "scam_duration": "Estimated weeks to months",
+      "platform_status": "defunct"
+    },
+    "extraction_metadata": {
+      "confidence_score": 0.65,
+      "missing_information": [
+        "initial_contact_method",
+        "financial_loss_amount",
+        "cryptocurrency_types",
+        "wallet_addresses",
+        "transaction_hashes",
+        "exact_timeline",
+        "specific_withdrawal_block_excuse",
+        "number_of_deposits_made",
+        "payment_methods",
+        "communication_with_platform_support"
+      ],
+      "notes": "Brand impersonation via typosquatting (kakucoin.com vs KuCoin.com). Quick-moving institutional trust scam rather than relationship-based. Platform defunct at time of complaint. Critical tracking information absent from narrative but victim likely has transaction records for blockchain analysis. High-threat pattern due to exploitation of legitimate brand reputation."
+    }
+  },
+  {
+    "case_id": 24,
+    "approach_and_lure": {
+      "initial_contact_platform": [
+        "Dating App"
+      ],
+      "lure_type": [
+        "romance",
+        "investment_opportunity"
+      ],
+      "communication_migration": "WhatsApp"
+    },
+    "impersonation_and_psychology": {
+      "scammer_persona": {
+        "claimed_identity": "Dylan - romantic interest with cryptocurrency trading expertise",
+        "wealth_indicators": [
+          "successful_crypto_trader"
+        ],
+        "relationship_type": "romantic_partner"
+      },
+      "psychological_tactics": [
+        "trust_building",
+        "love_bombing",
+        "authority",
+        "fear_of_missing_out",
+        "sunk_cost_exploitation"
+      ],
+      "trust_building_period": "2-6 months estimated (extended period from meeting to $550K+ investment)"
+    },
+    "fraud_mechanism": {
+      "platform_type": "fake_trading_platform",
+      "platform_names": [
+        "2bridgeio",
+        "2bridge"
+      ],
+      "platform_urls": [
+        "2bridgeio.com",
+        "http://2bridgeio.com/"
+      ],
+      "fake_profit_shown": true,
+      "withdrawal_block_tactics": [
+        "withdrawal_prevented_unspecified_method",
+        "platform_shutdown_exit_scam"
+      ]
+    },
+    "financial_tracking": {
+      "cryptocurrency_types": [
+        "crypto_assets_unspecified"
+      ],
+      "wallet_addresses": [],
+      "transaction_hashes": [],
+      "estimated_loss_usd": 550000,
+      "payment_methods": [
+        "traditional_investment_liquidation",
+        "crypto_exchange_purchase",
+        "platform_deposit"
+      ]
+    },
+    "temporal_indicators": {
+      "scam_duration": "2-6 months estimated",
+      "platform_status": "defunct"
+    },
+    "extraction_metadata": {
+      "confidence_score": 0.7,
+      "missing_information": [
+        "specific_dating_app",
+        "specific_cryptocurrency_types",
+        "wallet_addresses",
+        "transaction_hashes",
+        "exact_timeline",
+        "victim_sending_exchange",
+        "dylan_whatsapp_number",
+        "dylan_profile_information",
+        "specific_withdrawal_blocking_tactics_before_shutdown",
+        "number_of_deposits",
+        "dylan_claimed_location_background"
+      ],
+      "notes": "High-value Pig Butchering case with $550K+ loss. Classic romance-to-investment pattern. Platform executed exit scam. Victim had significant pre-existing investment portfolio, suggesting sophistication of scam operation. Missing critical blockchain tracking information limits investigative potential. Strong pattern data for TTP analysis but weak on actionable financial intelligence. California resident targeted, Dylan likely claimed US-based identity given dating app context."
+    }
+  },
+  {
+    "chain_of_thought": {
+      "step1_initial_contact": "Two victims contacted separately: Victim 1 via Facebook by 'Raddy' then moved to WhatsApp; Victim 2 directly on WhatsApp by 'Reddy'. Similar scammer names suggest coordinated operation. Classic friendship-to-investment lure pattern with gradual trust building 'over time'.",
+      "step2_persona_psychology": "Scammers posed as crypto trading experts with access to AI trading programs promising 'stable returns'. Used trust building, authority/expertise claims, FOMO, social proof, and sunk cost exploitation. Victim 2 experienced artificial requirements (minimum trades), moving goalposts (5 trades → 5 more), and percentage-based fee extraction (10% of fake $100K+ balance).",
+      "step3_fraud_mechanism": "Fake crypto trading platform operating on up-business.top and up-business.business (dual domains). Both victims shown fake substantial profits. Withdrawal blocking via: (V1) complete block, (V2) escalating barriers: minimum trades → more trades → 10% upfront fee. Platform now defunct - classic exit scam.",
+      "step4_financial_intelligence": "Victim 1 sent crypto to 0xB10ABECA64cf19d37c45045a5851BB528fB21E47 (Ethereum address), losing $55,000+. Victim 2 saw fake balance of $100,000+, actual loss unknown. Only one wallet address recovered. Cryptocurrency type likely Ethereum/ERC-20 tokens based on address format. No transaction hashes provided.",
+      "step5_temporal_analysis": "Extended duration indicated by 'over time' for trust building - typical weeks to months. Multiple phases: contact → trust building → investment introduction → trading → withdrawal blocks → extraction attempts. Platform shut down post-extraction. Two concurrent victims suggest coordinated multi-target operation.",
+      "step6_confidence_assessment": "High confidence: platform URLs, scammer names, contact platforms, one wallet address, fake profits, AI program claims, platform defunct status. Medium confidence: crypto type (inferred from address), scam duration, coordinated operation, psychological tactics. Low/Missing: Victim 2 wallet/amounts, transaction hashes, exact crypto types, specific dates, payment methods, technical infrastructure. Overall: 0.7 - Well-documented TTPs and one blockchain indicator, but incomplete financial tracking data."
+    },
+    "ttp_profile": {
+      "case_id": 27,
+      "approach_and_lure": {
+        "initial_contact_platform": [
+          "Facebook",
+          "WhatsApp"
+        ],
+        "lure_type": [
+          "friendship",
+          "investment_opportunity"
+        ],
+        "communication_migration": "WhatsApp"
+      },
+      "impersonation_and_psychology": {
+        "scammer_persona": {
+          "claimed_identity": "Crypto trading expert with AI trading program access",
+          "wealth_indicators": [
+            "successful_trader",
+            "AI_technology_access",
+            "stable_returns_claim"
+          ],
+          "relationship_type": "friend"
+        },
+        "psychological_tactics": [
+          "trust_building",
+          "authority",
+          "fear_of_missing_out",
+          "social_proof",
+          "sunk_cost_exploitation"
+        ],
+        "trust_building_period": "Extended period (weeks to months implied by 'over time')"
+      },
+      "fraud_mechanism": {
+        "platform_type": "fake_trading_platform",
+        "platform_names": [
+          "Up-Business"
+        ],
+        "platform_urls": [
+          "up-business.top",
+          "up-business.business"
+        ],
+        "fake_profit_shown": true,
+        "withdrawal_block_tactics": [
+          "complete_withdrawal_block",
+          "minimum_trade_requirement_5_trades",
+          "additional_trade_requirement_5_more_trades",
+          "10_percent_withdrawal_fee_upfront"
+        ]
+      },
+      "financial_tracking": {
+        "cryptocurrency_types": [
+          "crypto_assets",
+          "likely_ethereum_or_erc20_tokens"
+        ],
+        "wallet_addresses": [
+          "0xB10ABECA64cf19d37c45045a5851BB528fB21E47"
+        ],
+        "transaction_hashes": [],
+        "estimated_loss_usd": 55000,
+        "payment_methods": [
+          "cryptocurrency_transfer"
+        ]
+      },
+      "temporal_indicators": {
+        "scam_duration": "Extended period, multiple weeks to months per victim",
+        "platform_status": "defunct"
+      },
+      "extraction_metadata": {
+        "confidence_score": 0.7,
+        "missing_information": [
+          "victim_2_wallet_addresses",
+          "victim_2_exact_loss_amount",
+          "transaction_hashes",
+          "specific_cryptocurrency_types",
+          "exact_dates_timeline",
+          "payment_methods_details",
+          "scammer_location",
+          "additional_infrastructure"
+        ],
+        "notes": "Coordinated operation targeting multiple California residents. Similar scammer names ('Raddy' and 'Reddy') suggest organized team using scripts. Dual-domain strategy (up-business.top and up-business.business) for redundancy. AI trading program claim adds technological sophistication to social engineering. One Ethereum wallet address recovered for blockchain investigation. Victim 2 experienced more elaborate multi-stage withdrawal blocking compared to Victim 1's simple block."
+      }
+    }
+  },
+  {
+    "case_id": 34,
+    "approach_and_lure": {
+      "initial_contact_platform": [
+        "unspecified_online_platform"
+      ],
+      "lure_type": [
+        "investment_opportunity"
+      ],
+      "communication_migration": "not_mentioned"
+    },
+    "impersonation_and_psychology": {
+      "scammer_persona": {
+        "claimed_identity": "Jack - AI trading system developer and Bitcoin futures trader",
+        "wealth_indicators": [
+          "developed_proprietary_ai_trading_mechanism",
+          "guaranteed_100_percent_profitable_trades",
+          "demonstrated_2_million_account_balance",
+          "active_futures_trader"
+        ],
+        "relationship_type": "investment_advisor"
+      },
+      "psychological_tactics": [
+        "authority",
+        "trust_building",
+        "fear_of_missing_out",
+        "social_proof",
+        "sunk_cost_exploitation",
+        "urgency"
+      ],
+      "trust_building_period": "Few weeks (compressed timeline)"
+    },
+    "fraud_mechanism": {
+      "platform_type": "fake_trading_platform",
+      "platform_names": [
+        "Hrdebit"
+      ],
+      "platform_urls": [
+        "hrdebit.com"
+      ],
+      "fake_profit_shown": true,
+      "withdrawal_block_tactics": [
+        "20_percent_service_fee_demand",
+        "threat_of_fund_seizure_for_non_payment",
+        "customer_service_refusal"
+      ]
+    },
+    "financial_tracking": {
+      "cryptocurrency_types": [
+        "Bitcoin",
+        "Bitcoin_Futures"
+      ],
+      "wallet_addresses": [],
+      "transaction_hashes": [],
+      "estimated_loss_usd": 358000,
+      "payment_methods": [
+        "unspecified_likely_crypto_transfer"
+      ]
+    },
+    "temporal_indicators": {
+      "scam_duration": "Few weeks (2-6 weeks estimated)",
+      "platform_status": "defunct"
+    },
+    "extraction_metadata": {
+      "confidence_score": 0.8,
+      "missing_information": [
+        "initial_contact_platform",
+        "communication_platform",
+        "payment_methods_specific",
+        "wallet_addresses",
+        "transaction_hashes",
+        "exact_timeline_dates",
+        "jack_background_details",
+        "communication_migration_details",
+        "other_victims",
+        "platform_technical_details",
+        "attempt_to_pay_fee"
+      ],
+      "notes": "AI-themed investment variant of Pig Butchering with accelerated timeline. Used AI hype and guaranteed returns claim to attract victim. Displayed massive fake profits ($2M+ from $358K in weeks) to encourage deposits. Exit attempt via percentage-based fee (~$400K) exceeding actual deposits. Platform defunct after victim unable to pay. Represents emerging trend of technology-themed investment scams vs traditional romance-based approach. California resident victim."
+    }
+  },
+  {
+    "case_id": 35,
+    "approach_and_lure": {
+      "initial_contact_platform": [
+        "online_platform_unspecified"
+      ],
+      "lure_type": [
+        "investment_opportunity"
+      ],
+      "communication_migration": "trading_platform_direct"
+    },
+    "impersonation_and_psychology": {
+      "scammer_persona": {
+        "claimed_identity": "Licensed broker representing Amundi investment firm",
+        "wealth_indicators": [
+          "institutional_affiliation",
+          "margin_lending_capability",
+          "access_to_trading_platform",
+          "professional_credentials"
+        ],
+        "relationship_type": "company_representative"
+      },
+      "psychological_tactics": [
+        "authority",
+        "trust_building",
+        "reciprocity",
+        "fear_of_missing_out",
+        "sunk_cost_exploitation",
+        "urgency"
+      ],
+      "trust_building_period": "Brief period (estimated days to 2 weeks) - professional pitch requires less relationship building"
+    },
+    "fraud_mechanism": {
+      "platform_type": "fake_trading_platform",
+      "platform_names": [
+        "Amundi TM",
+        "Amundi Ltd"
+      ],
+      "platform_urls": [
+        "https://www.amundi-ltd.info/",
+        "amundi-ltd.com"
+      ],
+      "fake_profit_shown": true,
+      "withdrawal_block_tactics": [
+        "margin_loan_repayment_demand",
+        "external_wire_transfer_required",
+        "refusal_to_deduct_from_account_balance"
+      ]
+    },
+    "financial_tracking": {
+      "cryptocurrency_types": [],
+      "wallet_addresses": [],
+      "transaction_hashes": [],
+      "estimated_loss_usd": null,
+      "payment_methods": [
+        "wire_transfer_demanded_not_completed",
+        "initial_payment_method_unknown"
+      ]
+    },
+    "temporal_indicators": {
+      "scam_duration": "Estimated 3-6 weeks (fast-burn professional variant)",
+      "platform_status": "defunct"
+    },
+    "extraction_metadata": {
+      "confidence_score": 0.7,
+      "missing_information": [
+        "initial_investment_amount",
+        "margin_loan_amount",
+        "margin_repayment_demand_amount",
+        "initial_payment_method",
+        "cryptocurrency_involvement",
+        "wallet_addresses",
+        "transaction_hashes",
+        "specific_initial_contact_platform",
+        "exact_scam_duration",
+        "communication_records"
+      ],
+      "notes": "Sophisticated professional broker impersonation variant using brand hijacking (legitimate Amundi company). Unique TTP: margin loan trap - offering institutional-style margin lending, then demanding external repayment despite fake profits displayed. Victim demonstrated good judgment by refusing illogical wire transfer demand. Fast-burn variant (3-6 weeks) vs typical romance-based scams (months). No explicit cryptocurrency mention - may be traditional securities fraud angle. Platform defunct. Strong operational TTP profile but weak financial tracking data. Case highlights evolution of pig butchering from romance-based to professional investment scams targeting different demographics."
+    }
+  }
+]

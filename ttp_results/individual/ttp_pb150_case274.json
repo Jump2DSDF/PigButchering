@@ -1,0 +1,57 @@
+{
+  "case_id": 274,
+  "approach_and_lure": {
+    "initial_contact_platform": ["WhatsApp_group"],
+    "lure_type": ["investment_group", "signal_selling"],
+    "communication_migration": "WhatsApp group"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "name": "William",
+      "claimed_identity": "Market analyst",
+      "wealth_indicators": ["stock_trading_success"],
+      "relationship_type": "investment_mentor"
+    },
+    "psychological_tactics": [
+      "authority",
+      "social_proof",
+      "trust_building_via_stock_tips",
+      "progressive_investment_pressure",
+      "ipo_delay_excuse"
+    ],
+    "trust_building_period": "Extended (started with stock recommendations)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["Volcanic Exchange"],
+    "platform_urls": ["volcanic.exchange"],
+    "fake_profit_shown": true,
+    "fake_balance_displayed": 30477,
+    "withdrawal_block_tactics": [
+      "ipo_plan_delay"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["ETH", "BTC"],
+    "wallet_addresses": [
+      "0xcd184922133e42fd6bc0d07187de4bcb9b3f3242",
+      "bc1qehjnu7vqjwwqex3nn69ak67haeqha3hn0zgjx7"
+    ],
+    "additional_traced_addresses": [
+      "0x1F973636c97d8775024E5965a7C709a28442beEb",
+      "1QBhSQhUHnaAZcM7ZXnwvfSaAayP2uL3vk"
+    ],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 43000,
+    "payment_methods": ["cryptocurrency_transfer"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.92,
+    "missing_information": ["transaction_hashes"],
+    "notes": "CRITICAL: 4 wallet addresses extracted (2 primary + 2 traced). Primary ETH: 0xcd184922133e42fd6bc0d07187de4bcb9b3f3242, Primary BTC: bc1qehjnu7vqjwwqex3nn69ak67haeqha3hn0zgjx7. Further traced addresses suggest connected network. Unique approach: started with stock recommendations to build trust, then pivoted to crypto. IPO delay used as withdrawal blocking excuse."
+  }
+}

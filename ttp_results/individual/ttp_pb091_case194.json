@@ -1,0 +1,242 @@
+{
+  "case_metadata": {
+    "pb_case_id": 91,
+    "original_case_id": 194,
+    "analysis_date": "2025-12-17",
+    "platform_name": "Provestics",
+    "primary_domain": "provestics.com",
+    "case_status": "complete_loss",
+    "victim_location": "California, USA"
+  },
+  "scam_classification": {
+    "primary_type": "Fraudulent Trading Platform",
+    "secondary_types": [
+      "Pig Butchering Scam",
+      "Exit Scam",
+      "Investment Fraud"
+    ],
+    "sophistication_level": "medium",
+    "target_demographic": "crypto_investors"
+  },
+  "attack_chain": {
+    "initial_access": {
+      "method": "online_advertising",
+      "vector": "fraudulent_trading_platform",
+      "platform": "web_based",
+      "lure": "high_returns_forex_crypto_trading",
+      "trust_building_duration": "unknown"
+    },
+    "reconnaissance": {
+      "victim_profiling": "general_crypto_interested",
+      "targeting_method": "broad_net_advertising",
+      "information_gathered": "unknown"
+    },
+    "execution": {
+      "platform_type": "fake_crypto_exchange",
+      "onboarding_process": [
+        "victim_instructed_to_purchase_crypto_externally",
+        "victim_transfers_crypto_to_platform",
+        "account_creation_on_fraudulent_platform"
+      ],
+      "investment_mechanism": "crypto_deposit",
+      "trading_interface": "fake_trading_dashboard"
+    },
+    "persistence": {
+      "engagement_tactics": [
+        "display_fake_trading_profits",
+        "simulate_successful_trades",
+        "maintain_professional_platform_appearance"
+      ],
+      "communication_channels": "unknown",
+      "duration": "unknown"
+    },
+    "profit_manipulation": {
+      "display_method": "fabricated_account_balance",
+      "fake_profits_shown": true,
+      "amount_shown": "unspecified",
+      "encouragement_for_more_deposits": "implied"
+    },
+    "withdrawal_denial": {
+      "method": "platform_blocking_withdrawal",
+      "specific_reason_given": "not_specified",
+      "common_excuses": [
+        "technical_difficulties",
+        "verification_required",
+        "fees_demanded"
+      ],
+      "victim_compliance": "attempted_withdrawal"
+    },
+    "exit_strategy": {
+      "method": "complete_platform_shutdown",
+      "timing": "after_withdrawal_attempt",
+      "site_status": "no_longer_operational",
+      "contact_loss": true
+    }
+  },
+  "technical_indicators": {
+    "infrastructure": {
+      "domains": [
+        "provestics.com",
+        "www.provestics.com",
+        "https://www.provestics.com/index.php",
+        "http://www.provestics.com"
+      ],
+      "urls": [
+        "https://www.provestics.com/index.php"
+      ],
+      "hosting": "unknown",
+      "registration_info": "unknown",
+      "current_status": "offline"
+    },
+    "cryptocurrency": {
+      "wallet_addresses": [],
+      "crypto_types": [
+        "unspecified"
+      ],
+      "deposit_method": "victim_transfers_to_platform",
+      "blockchain_trails": "unknown"
+    },
+    "communication": {
+      "platforms": "unknown",
+      "contact_methods": "unknown",
+      "impersonation": false
+    }
+  },
+  "financial_impact": {
+    "direct_losses": {
+      "amount": "unspecified",
+      "currency": "cryptocurrency",
+      "payment_methods": [
+        "crypto_transfer"
+      ]
+    },
+    "fees_paid": {
+      "withdrawal_fees": "unknown",
+      "tax_fees": "unknown",
+      "other_fees": "unknown"
+    },
+    "total_estimated_loss": "unspecified",
+    "recovery_status": "no_recovery",
+    "recovery_probability": "low"
+  },
+  "victim_interaction": {
+    "relationship_type": "platform_customer",
+    "communication_frequency": "unknown",
+    "trust_level_achieved": "moderate",
+    "red_flags_noticed": [
+      "withdrawal_denied",
+      "platform_shutdown"
+    ],
+    "reporting_action": "complaint_filed"
+  },
+  "ttps_mitre_style": {
+    "tactics": [
+      "Initial Access",
+      "Execution",
+      "Persistence",
+      "Defense Evasion",
+      "Impact"
+    ],
+    "techniques": {
+      "initial_access": [
+        "T-PB-001: Online Advertisement Lure",
+        "T-PB-002: Fraudulent Trading Platform"
+      ],
+      "execution": [
+        "T-PB-010: External Crypto Purchase Instruction",
+        "T-PB-011: Victim-Initiated Fund Transfer",
+        "T-PB-012: Fake Trading Interface"
+      ],
+      "persistence": [
+        "T-PB-020: Fake Profit Display",
+        "T-PB-021: Professional Platform Maintenance"
+      ],
+      "defense_evasion": [
+        "T-PB-030: Legitimate Exchange Mimicry",
+        "T-PB-031: Professional Web Design"
+      ],
+      "impact": [
+        "T-PB-040: Withdrawal Denial",
+        "T-PB-041: Complete Platform Shutdown",
+        "T-PB-042: Total Financial Loss"
+      ]
+    }
+  },
+  "behavioral_patterns": {
+    "scammer_behavior": {
+      "patience_level": "moderate",
+      "professionalism": "high",
+      "aggression": "low_until_exit",
+      "exit_trigger": "withdrawal_attempt"
+    },
+    "victim_behavior": {
+      "trust_establishment": "platform_reputation",
+      "investment_pattern": "single_or_multiple_unknown",
+      "withdrawal_attempts": "at_least_one",
+      "awareness_point": "withdrawal_denial"
+    }
+  },
+  "indicators_of_compromise": {
+    "domains": [
+      "provestics.com",
+      "www.provestics.com"
+    ],
+    "urls": [
+      "https://www.provestics.com/index.php",
+      "http://www.provestics.com"
+    ],
+    "wallet_addresses": [],
+    "email_addresses": [],
+    "phone_numbers": [],
+    "social_media_accounts": []
+  },
+  "prevention_lessons": {
+    "red_flags": [
+      "Unrealistic high return promises",
+      "Requirement to purchase crypto externally and transfer",
+      "No regulatory compliance mentioned",
+      "Platform not on known exchange lists",
+      "Withdrawal difficulties",
+      "Sudden platform unavailability"
+    ],
+    "verification_failures": [
+      "No verification of platform legitimacy",
+      "No check of regulatory registration",
+      "No independent reviews consulted",
+      "No verification of trading activity"
+    ],
+    "recommendations": [
+      "Use only regulated, well-known cryptocurrency exchanges",
+      "Verify platform registration with financial regulators",
+      "Research platform reviews and reputation",
+      "Be skeptical of high return promises",
+      "Test small withdrawal before large deposits",
+      "Avoid platforms requiring external crypto transfers"
+    ]
+  },
+  "law_enforcement": {
+    "reported": true,
+    "reporting_agency": "implied_california_authorities",
+    "case_number": "unknown",
+    "investigation_status": "unknown",
+    "international_coordination": "unknown"
+  },
+  "attribution": {
+    "threat_actor": "unknown",
+    "geographic_origin": "unknown",
+    "organization_type": "organized_fraud_group_likely",
+    "related_campaigns": "unknown",
+    "confidence_level": "low"
+  },
+  "additional_notes": {
+    "analyst_comments": "This case represents a fraudulent trading platform with pig butchering characteristics. The exit scam methodology and professional infrastructure suggest an organized operation targeting multiple victims simultaneously. The lack of detailed initial contact information suggests this may be a platform-based scam rather than relationship-based pig butchering.",
+    "missing_information": [
+      "Specific investment amounts",
+      "Duration of engagement",
+      "Initial contact method details",
+      "Cryptocurrency wallet addresses",
+      "Communication platform details"
+    ],
+    "comparison_to_typical_pig_butchering": "Less personal relationship building than classic pig butchering; more platform-focused with broad net approach through advertising rather than targeted individual social engineering."
+  }
+}

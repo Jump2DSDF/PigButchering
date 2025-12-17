@@ -1,0 +1,308 @@
+{
+  "case_metadata": {
+    "pb_case_id": 51,
+    "original_case_id": 142,
+    "analysis_date": "2025-12-17",
+    "analyst_confidence": "HIGH",
+    "confidence_score": 0.80,
+    "case_status": "ANALYZED"
+  },
+  "initial_contact": {
+    "primary_platform": "WhatsApp",
+    "contact_method": "UNSOLICITED_APPROACH",
+    "initiator": "SCAMMER",
+    "secondary_platforms": [],
+    "platform_migration": false,
+    "contact_pretense": "INVESTMENT_OPPORTUNITY"
+  },
+  "scammer_persona": {
+    "relationship_type": "FINANCIAL_MENTOR",
+    "claimed_identity": "CRYPTO_TRADER",
+    "claimed_expertise": [
+      "CRYPTOCURRENCY_TRADING",
+      "INVESTMENT_ADVISOR"
+    ],
+    "romance_element": false,
+    "gender_presented": "UNKNOWN",
+    "location_claimed": "UNKNOWN",
+    "occupation_claimed": "CRYPTO_TRADER",
+    "wealth_signals": [
+      "INVESTMENT_PROFITS"
+    ]
+  },
+  "psychological_tactics": {
+    "primary_tactics": [
+      "AUTHORITY_BIAS",
+      "GREED_EXPLOITATION",
+      "FAKE_PROFIT_DISPLAY",
+      "COMMITMENT_CONSISTENCY"
+    ],
+    "trust_building_methods": [
+      "STEP_BY_STEP_GUIDANCE",
+      "INSTRUCTIONAL_SUPPORT",
+      "PROFIT_DEMONSTRATION"
+    ],
+    "urgency_creation": [
+      "PROFIT_OPPORTUNITY"
+    ],
+    "social_proof": [
+      "IMPLIED_PLATFORM_SUCCESS"
+    ]
+  },
+  "fraud_infrastructure": {
+    "platform_name": "Bitnice",
+    "platform_type": "FAKE_CRYPTO_EXCHANGE",
+    "domains": [
+      "bit-nice.com",
+      "www.bit-nice.com"
+    ],
+    "platform_status": "DEFUNCT",
+    "platform_features": [
+      "ACCOUNT_REGISTRATION",
+      "DEPOSIT_INTERFACE",
+      "FAKE_BALANCE_DISPLAY",
+      "FAKE_PROFIT_TRACKING",
+      "WITHDRAWAL_BLOCKING"
+    ],
+    "technical_indicators": {
+      "domain_age": "UNKNOWN",
+      "ssl_certificate": "UNKNOWN",
+      "hosting_location": "UNKNOWN",
+      "whois_privacy": "UNKNOWN"
+    },
+    "brand_impersonation": {
+      "is_impersonation": false,
+      "target_brand": null,
+      "impersonation_techniques": []
+    }
+  },
+  "financial_intelligence": {
+    "total_loss_usd_estimate": {
+      "minimum": 48000,
+      "maximum": 76000,
+      "note": "Estimate based on historical BTC/ETH prices; exact loss depends on transaction dates"
+    },
+    "cryptocurrency_losses": [
+      {
+        "currency": "BTC",
+        "amount": 1.01744435,
+        "wallet_address": null,
+        "transaction_hash": null
+      },
+      {
+        "currency": "ETH",
+        "amount": 3.725443,
+        "wallet_address": null,
+        "transaction_hash": null
+      }
+    ],
+    "fiat_transfers": [],
+    "fee_extortion_attempts": [
+      {
+        "fee_type": "WITHDRAWAL_FEE",
+        "amount": "UNSPECIFIED",
+        "paid": false,
+        "excuse": "REQUIRED_BEFORE_WITHDRAWAL"
+      }
+    ],
+    "payment_methods": [
+      "CRYPTOCURRENCY_DEPOSIT"
+    ],
+    "intermediary_accounts": [],
+    "money_laundering_indicators": [
+      "CRYPTOCURRENCY_ANONYMITY",
+      "PLATFORM_CONTROLLED_WALLETS",
+      "RAPID_PLATFORM_SHUTDOWN"
+    ]
+  },
+  "temporal_analysis": {
+    "estimated_duration_days": {
+      "minimum": 60,
+      "maximum": 180,
+      "confidence": "MEDIUM"
+    },
+    "timeline_phases": [
+      {
+        "phase": "INITIAL_CONTACT",
+        "duration_estimate": "DAYS_TO_WEEKS",
+        "activities": [
+          "WHATSAPP_OUTREACH",
+          "INVESTMENT_DISCUSSION",
+          "TRUST_BUILDING"
+        ]
+      },
+      {
+        "phase": "PLATFORM_INTRODUCTION",
+        "duration_estimate": "DAYS",
+        "activities": [
+          "PLATFORM_INTRODUCTION",
+          "REGISTRATION_GUIDANCE",
+          "INITIAL_DEPOSIT"
+        ]
+      },
+      {
+        "phase": "INVESTMENT_PERIOD",
+        "duration_estimate": "WEEKS_TO_MONTHS",
+        "activities": [
+          "ADDITIONAL_DEPOSITS",
+          "FAKE_PROFIT_DISPLAY",
+          "CONFIDENCE_BUILDING"
+        ]
+      },
+      {
+        "phase": "WITHDRAWAL_BLOCK",
+        "duration_estimate": "DAYS",
+        "activities": [
+          "WITHDRAWAL_ATTEMPT",
+          "FEE_DEMAND",
+          "VICTIM_RESISTANCE"
+        ]
+      },
+      {
+        "phase": "EXIT_SCAM",
+        "duration_estimate": "DAYS_TO_WEEKS",
+        "activities": [
+          "PLATFORM_SHUTDOWN",
+          "FUND_RECOVERY_FAILURE",
+          "COMPLAINT_FILING"
+        ]
+      }
+    ],
+    "specific_dates": [],
+    "temporal_red_flags": [
+      "RAPID_INVESTMENT_PRESSURE",
+      "IMMEDIATE_WITHDRAWAL_BLOCKING",
+      "QUICK_PLATFORM_SHUTDOWN"
+    ]
+  },
+  "victim_profile": {
+    "location": "California, USA",
+    "demographics": {
+      "age": "UNKNOWN",
+      "gender": "UNKNOWN",
+      "occupation": "UNKNOWN"
+    },
+    "vulnerability_factors": [
+      "INTEREST_IN_CRYPTOCURRENCY",
+      "TRUST_IN_ONLINE_CONTACTS",
+      "INSUFFICIENT_DUE_DILIGENCE"
+    ],
+    "financial_sophistication": "MEDIUM",
+    "prior_crypto_experience": "LIKELY_YES"
+  },
+  "attack_pattern": {
+    "mitre_attack_mapping": {
+      "initial_access": [
+        "T1566 - Phishing (WhatsApp unsolicited message)"
+      ],
+      "execution": [
+        "T1204 - User Execution (victim followed instructions)"
+      ],
+      "persistence": [
+        "T1534 - Internal Spearphishing (continued WhatsApp communication)"
+      ],
+      "credential_access": [
+        "T1598 - Phishing for Information (account creation on fake platform)"
+      ],
+      "collection": [
+        "T1005 - Data from Local System (cryptocurrency from victim wallet)"
+      ],
+      "impact": [
+        "T1499 - Endpoint Denial of Service (withdrawal blocking)",
+        "T1485 - Data Destruction (platform shutdown)"
+      ]
+    },
+    "kill_chain_phases": [
+      "RECONNAISSANCE",
+      "WEAPONIZATION",
+      "DELIVERY",
+      "EXPLOITATION",
+      "INSTALLATION",
+      "COMMAND_AND_CONTROL",
+      "ACTIONS_ON_OBJECTIVES"
+    ]
+  },
+  "indicators_of_compromise": {
+    "domains": [
+      "bit-nice.com",
+      "www.bit-nice.com"
+    ],
+    "urls": [
+      "http://www.bit-nice.com/"
+    ],
+    "crypto_addresses": [],
+    "phone_numbers": [],
+    "email_addresses": [],
+    "social_media_accounts": [],
+    "platform_names": [
+      "Bitnice"
+    ]
+  },
+  "red_flags_identified": [
+    "UNSOLICITED_WHATSAPP_CONTACT",
+    "STRANGER_OFFERING_INVESTMENT_ADVICE",
+    "UNKNOWN_CRYPTO_EXCHANGE",
+    "UNREALISTIC_PROFITS",
+    "WITHDRAWAL_BLOCKING",
+    "FEE_DEMANDED_BEFORE_WITHDRAWAL",
+    "PLATFORM_DISAPPEARED",
+    "NO_REGULATORY_COMPLIANCE",
+    "DOMAIN_NAME_MIMICRY"
+  ],
+  "ttps_narrative": {
+    "summary": "Classic pig butchering scam using WhatsApp for initial contact and a fraudulent cryptocurrency exchange platform (Bitnice) to steal funds. Scammer posed as financial mentor, guided victim through fake platform, displayed false profits, then blocked withdrawals with fee extortion attempt before executing exit scam.",
+    "sophistication_level": "MEDIUM",
+    "notable_techniques": [
+      "Fake cryptocurrency exchange platform with functional interface",
+      "Real-time profit display to build confidence",
+      "Withdrawal blocking mechanism with fee extortion",
+      "Rapid platform shutdown after extraction"
+    ],
+    "comparison_to_known_patterns": "Matches standard pig butchering pattern with abbreviated trust-building phase. Focus on financial opportunity rather than romance suggests targeted approach to crypto-interested victims."
+  },
+  "investigative_leads": {
+    "priority_actions": [
+      "Obtain blockchain transaction history from victim's wallets",
+      "Identify receiving addresses for BTC and ETH deposits",
+      "Trace cryptocurrency movements through blockchain analysis",
+      "Recover WhatsApp chat logs and scammer contact details",
+      "Check domain registration history for bit-nice.com"
+    ],
+    "evidence_gaps": [
+      "Cryptocurrency wallet addresses",
+      "Specific timeline dates",
+      "WhatsApp contact information",
+      "Platform screenshots",
+      "Domain registration details"
+    ],
+    "correlation_opportunities": [
+      "Search for other complaints mentioning Bitnice",
+      "Correlate with similar WhatsApp-initiated crypto scams",
+      "Link to known pig butchering operation networks"
+    ]
+  },
+  "data_quality": {
+    "completeness": 0.65,
+    "reliability": 0.85,
+    "actionability": 0.55,
+    "limitations": [
+      "No blockchain addresses provided",
+      "Missing specific dates",
+      "No technical evidence available",
+      "Platform offline (no forensic analysis possible)",
+      "Limited scammer identification details"
+    ]
+  },
+  "tags": [
+    "PIG_BUTCHERING",
+    "FAKE_CRYPTO_EXCHANGE",
+    "WHATSAPP_SCAM",
+    "BITCOIN_THEFT",
+    "ETHEREUM_THEFT",
+    "WITHDRAWAL_BLOCKING",
+    "FEE_EXTORTION",
+    "EXIT_SCAM",
+    "CALIFORNIA_VICTIM",
+    "PLATFORM_DEFUNCT"
+  ]
+}

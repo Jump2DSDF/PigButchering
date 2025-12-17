@@ -1,0 +1,58 @@
+{
+  "case_id": 308,
+  "approach_and_lure": {
+    "initial_contact_platform": ["online_unspecified"],
+    "lure_type": ["investment_opportunity", "ai_trading"],
+    "communication_migration": "Unknown"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "name": "Ava",
+      "claimed_identity": "Finance company analyst",
+      "wealth_indicators": ["professional_finance_role"],
+      "relationship_type": "investment_advisor"
+    },
+    "impersonated_entities": [
+      {"entity": "NFA (National Futures Association)", "type": "regulatory_body"},
+      {"entity": "CFTC (Commodities Futures Trading Commission)", "type": "regulatory_body"}
+    ],
+    "psychological_tactics": [
+      "authority",
+      "regulatory_certification_claims",
+      "ai_trading_claims",
+      "urgency_investigation_excuse"
+    ],
+    "trust_building_period": "Extended"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["Daily Harvest Ltd", "SXFMGY"],
+    "platform_urls": ["dailyharvestltd.com"],
+    "fake_certifications": ["NFA", "CFTC"],
+    "ai_trading_claims": true,
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "investigation_announcement",
+      "account_freeze_threat"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["ETH"],
+    "wallet_addresses": [
+      "0x7630B16b5456075a2B8474B94e7950A917A251B9",
+      "0x6DfbdCadf54dF4c29C6BF34fedD24d27096f245D"
+    ],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 50000,
+    "payment_methods": ["cryptocurrency_transfer"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.85,
+    "missing_information": ["transaction_hashes"],
+    "notes": "CRITICAL: 2 ETH wallet addresses extracted. False NFA/CFTC certification claims - DFPI explicitly warns about this tactic. AI trading software claims used as lure. Scammer announced fake 'investigation' to create urgency for withdrawal. Ava persona ceased all communication after platform shutdown."
+  }
+}

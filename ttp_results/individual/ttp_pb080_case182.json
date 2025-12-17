@@ -1,0 +1,496 @@
+{
+  "case_metadata": {
+    "pb_case_id": 80,
+    "original_case_id": 182,
+    "analysis_date": "2025-12-17",
+    "case_status": "completed_analysis",
+    "victim_location": "California, USA",
+    "primary_subject": "prolongers.vip"
+  },
+  "scam_classification": {
+    "primary_type": "Pig Butchering Scam",
+    "secondary_types": [
+      "Fraudulent Trading Platform",
+      "Investment Scam",
+      "Social Media Scam"
+    ],
+    "scam_variant": "Quick Exit Social Media Investment Scam",
+    "sophistication_level": "Medium-High"
+  },
+  "initial_contact": {
+    "method": "TikTok Social Media Platform",
+    "platform": "TikTok",
+    "secondary_platforms": [
+      "WhatsApp (ongoing communication)"
+    ],
+    "contact_initiator": "Scammer (Ananya)",
+    "approach_type": "Direct investment opportunity",
+    "persona_type": "Investment advisor/promoter",
+    "persona_details": {
+      "name": "Ananya",
+      "gender": "Female",
+      "background": "Name suggests Indian/South Asian origin",
+      "role": "Investment opportunity promoter",
+      "characteristics": "Direct, business-focused, initially responsive",
+      "platform_presence": "TikTok profile (likely showing success/lifestyle)"
+    },
+    "relationship_building": "Minimal - business/investment focused",
+    "communication_channels": [
+      "TikTok (initial contact)",
+      "WhatsApp (ongoing communication)",
+      "prolongers.vip platform"
+    ]
+  },
+  "trust_building_tactics": {
+    "legitimacy_indicators": [
+      "TikTok social media presence",
+      "Specific return promise (20%)",
+      "Short time frame commitment",
+      "Use of legitimate exchange (crypto.com)",
+      "Personal wallet for security appearance",
+      "Professional platform domain",
+      "Balance monitoring capability"
+    ],
+    "social_engineering": [
+      "TikTok familiarity and trust",
+      "Profile possibly displaying wealth/success",
+      "Specific percentage return (adds credibility)",
+      "Short time frame creates urgency",
+      "Get-rich-quick appeal",
+      "Direct and confident pitch",
+      "Modern social media approach"
+    ],
+    "time_invested": "Very short - few days only",
+    "relationship_type": "Business/investment focused (minimal personal relationship)"
+  },
+  "platform_details": {
+    "platform_name": "prolongers.vip",
+    "platform_type": "Fraudulent cryptocurrency exchange",
+    "domains": [
+      "prolongers.vip"
+    ],
+    "urls": [
+      "http://www.prolongers.vip/"
+    ],
+    "current_status": "Offline/Defunct",
+    "platform_features": [
+      "Wallet connection capability",
+      "Account balance monitoring",
+      "Dashboard interface",
+      "Withdrawal interface (non-functional)"
+    ],
+    "apparent_functionality": "Crypto exchange with wallet integration",
+    "technical_infrastructure": "Web-based platform using HTTP (not HTTPS - security red flag)",
+    "security_issues": [
+      "HTTP protocol instead of HTTPS",
+      "No SSL/TLS encryption",
+      ".vip TLD (less regulated)",
+      "Wallet connection mechanism potentially compromising private keys"
+    ]
+  },
+  "legitimate_platforms_exploited": {
+    "crypto_com": {
+      "name": "Crypto.com",
+      "type": "Legitimate cryptocurrency exchange",
+      "usage": "Victim purchased cryptocurrency",
+      "purpose_in_scam": "Provide credibility and facilitate crypto purchase",
+      "note": "Legitimate platform not involved in scam"
+    },
+    "onchain_wallet": {
+      "name": "onChain wallet",
+      "type": "Personal cryptocurrency wallet",
+      "usage": "Victim transferred crypto from crypto.com to personal custody",
+      "connection": "Victim connected wallet to prolongers.vip platform",
+      "security_concern": "Wallet connection to fraudulent platform may have compromised private keys"
+    }
+  },
+  "financial_details": {
+    "total_loss_usd": 3000,
+    "initial_investment_usd": 3000,
+    "additional_fees_demanded_usd": 0,
+    "additional_fees_paid_usd": 0,
+    "amount_recovered_usd": 0,
+    "cryptocurrency_types": [
+      "Unspecified cryptocurrency (purchased via crypto.com)"
+    ],
+    "payment_methods": [
+      "Cryptocurrency purchase via crypto.com",
+      "Transfer to onChain wallet",
+      "Wallet connection to prolongers.vip"
+    ],
+    "promised_return": {
+      "percentage": 20,
+      "timeframe": "Short period of time",
+      "realized": false
+    },
+    "investment_timeline": "Very short - only a few days",
+    "withdrawal_blocked": true
+  },
+  "investment_phase": {
+    "initial_deposit": {
+      "amount_usd": 3000,
+      "method": "Purchase crypto on crypto.com, transfer to onChain wallet, connect to prolongers.vip",
+      "encouraged_by": "Ananya's 20% return promise"
+    },
+    "multi_platform_process": {
+      "step_1": "Purchase cryptocurrency on crypto.com (legitimate)",
+      "step_2": "Transfer crypto to onChain personal wallet",
+      "step_3": "Connect onChain wallet to prolongers.vip platform",
+      "purpose": "Multi-step process obscures scam and exploits trust in legitimate platforms"
+    },
+    "profit_demonstration": {
+      "method": "Platform balance display for few days",
+      "apparent_gains": "Funds visible in account",
+      "duration": "Only a few days",
+      "fabricated_returns": "No mention of artificial profits - short timeline"
+    },
+    "escalation_tactics": [
+      "20% return promise",
+      "Short time frame urgency",
+      "Use of legitimate exchange for credibility",
+      "Personal wallet for security false sense"
+    ]
+  },
+  "withdrawal_blocking": {
+    "trigger_event": "Victim attempted to withdraw funds after few days",
+    "victim_action": "Withdrawal request to return money to onChain wallet",
+    "blocking_mechanism": "Complete withdrawal prevention - funds non-transferable",
+    "fees_demanded": [],
+    "pressure_tactics": [
+      "Withdrawal functionality completely blocked",
+      "No explanation provided",
+      "Ananya stopped responding on WhatsApp",
+      "No customer support available",
+      "Platform went offline"
+    ],
+    "communication_escalation": "Responsive to complete ghosting (no response on WhatsApp)"
+  },
+  "red_flags": [
+    "Contact through TikTok from stranger",
+    "Promised 20% return in short time (unrealistic)",
+    "Direct investment pitch without relationship building",
+    "Unknown cryptocurrency exchange (prolongers.vip)",
+    ".vip domain extension (uncommon for legitimate exchanges)",
+    "HTTP instead of HTTPS (major security issue)",
+    "Platform not listed on legitimate exchange directories",
+    "Request to connect personal wallet to unknown platform",
+    "Very short timeline (few days) for returns",
+    "Unable to withdraw funds",
+    "Ananya stopped responding completely",
+    "Platform went offline",
+    "No customer support",
+    "WhatsApp for business communication",
+    "Get-rich-quick promise",
+    "No discussion of investment risk"
+  ],
+  "scammer_infrastructure": {
+    "domains_identified": [
+      "prolongers.vip"
+    ],
+    "hosting_info": "Not available",
+    "registration_info": "Not available",
+    "communication_tools": [
+      "TikTok (initial contact)",
+      "WhatsApp (ongoing communication)",
+      "Trading platform website"
+    ],
+    "scammer_personas": [
+      {
+        "name": "Ananya",
+        "role": "Investment promoter",
+        "platform": "TikTok and WhatsApp",
+        "characteristics": "Direct, business-focused"
+      }
+    ],
+    "phone_numbers": "WhatsApp contact (not specified)",
+    "email_addresses": "Not specified",
+    "social_media_profiles": [
+      {
+        "platform": "TikTok",
+        "username": "Not specified",
+        "status": "Likely deleted or victim blocked"
+      }
+    ]
+  },
+  "crypto_wallets": {
+    "identified_addresses": [],
+    "blockchain_networks": [
+      "Unspecified (crypto purchased on crypto.com)"
+    ],
+    "wallet_compromise_risk": {
+      "wallet_type": "onChain wallet",
+      "risk_level": "High",
+      "concern": "Wallet connected to fraudulent platform may have exposed private keys",
+      "recommendation": "Victim should consider wallet compromised and transfer any remaining funds to new wallet"
+    },
+    "note": "No specific wallet addresses documented. Victim used onChain wallet connected to prolongers.vip."
+  },
+  "outcome": {
+    "victim_realized_scam": true,
+    "realization_trigger": "Unable to withdraw funds and Ananya stopped responding",
+    "platform_shutdown": true,
+    "funds_recovered": false,
+    "law_enforcement_contacted": true,
+    "case_reported_to": "California authorities (implied)",
+    "scammer_identified": false,
+    "scammer_prosecuted": false,
+    "wallet_compromise": "Potential - onChain wallet security at risk"
+  },
+  "ttp_summary": {
+    "initial_contact_ttp": [
+      "TikTok social media platform approach",
+      "Direct messaging or comment contact",
+      "Female persona (Ananya)",
+      "Modern social media exploitation",
+      "Profile possibly displaying success"
+    ],
+    "trust_building_ttp": [
+      "TikTok presence legitimacy",
+      "Specific return promise (20%)",
+      "Short time frame for urgency",
+      "Direct and confident pitch",
+      "Minimal emotional manipulation",
+      "Business-focused approach"
+    ],
+    "platform_operation_ttp": [
+      "Multi-platform process (crypto.com → onChain → prolongers.vip)",
+      "Exploitation of legitimate exchange trust",
+      "Wallet connection mechanism",
+      "Balance monitoring dashboard",
+      "HTTP (not HTTPS) website",
+      ".vip domain"
+    ],
+    "investment_extraction_ttp": [
+      "$3,000 investment amount",
+      "Crypto purchased via crypto.com",
+      "Personal onChain wallet transfer",
+      "Wallet connection to prolongers.vip",
+      "Short visibility period (few days)",
+      "Funds trapped through wallet connection"
+    ],
+    "withdrawal_blocking_ttp": [
+      "Complete withdrawal prevention",
+      "No explanation provided",
+      "Ananya ghosting on WhatsApp",
+      "No customer support",
+      "Platform disabled"
+    ],
+    "exit_strategy_ttp": [
+      "Quick operation (few days only)",
+      "Ananya complete ghosting",
+      "Platform shutdown",
+      "No fee extraction phase",
+      "Efficient exit",
+      "TikTok profile likely deleted"
+    ]
+  },
+  "victim_vulnerabilities": [
+    "Active on TikTok and receptive to contacts",
+    "Desire for quick financial gains",
+    "Trust in specific return promise",
+    "Belief in short time frame feasibility",
+    "Trust in crypto.com extending to prolongers.vip",
+    "False security sense from personal wallet",
+    "Hope for easy money",
+    "Lack of crypto exchange knowledge",
+    "Trust in Ananya's guidance",
+    "Get-rich-quick susceptibility"
+  ],
+  "unique_characteristics": [
+    "TikTok as initial contact platform",
+    "Very short timeline (few days only)",
+    "Direct investment pitch (no grooming)",
+    "Specific 20% return promise",
+    "No romance or friendship element",
+    "Two-wallet system exploitation (crypto.com + onChain)",
+    "Clean exit without fee demands",
+    "HTTP (not HTTPS) platform security flaw",
+    "Wallet connection as trap mechanism",
+    "Lower loss amount ($3,000)",
+    "Modern social media vector",
+    "Efficiency-focused operation"
+  ],
+  "iocs": {
+    "domains": [
+      "prolongers.vip"
+    ],
+    "urls": [
+      "http://www.prolongers.vip/"
+    ],
+    "scammer_names": [
+      "Ananya"
+    ],
+    "platform_names": [
+      "prolongers.vip"
+    ],
+    "tlds_used": [
+      ".vip"
+    ],
+    "social_media_accounts": [
+      {
+        "platform": "TikTok",
+        "persona": "Ananya",
+        "details": "Not specified"
+      }
+    ]
+  },
+  "recommendations": {
+    "prevention": [
+      "Be extremely suspicious of investment offers through social media",
+      "Never accept investment advice from TikTok contacts",
+      "Verify cryptocurrency exchanges on CoinMarketCap/CoinGecko",
+      "Only use well-known, regulated exchanges",
+      "Question any guaranteed return promises (especially 20% short-term)",
+      "Never connect personal wallets to unknown platforms",
+      "Always check for HTTPS on financial websites",
+      "Be wary of .vip and other uncommon domain extensions",
+      "Research platforms thoroughly before investing",
+      "Ignore get-rich-quick promises",
+      "Test withdrawals with small amounts first"
+    ],
+    "detection": [
+      "Check if exchange is listed on legitimate directories",
+      "Verify HTTPS security on financial platforms",
+      "Research domain registration and age",
+      "Test withdrawal functionality immediately",
+      "Verify contact's identity through multiple channels",
+      "Check for customer support responsiveness",
+      "Look for regulatory licenses and compliance",
+      "Be alert to unrealistic return promises",
+      "Question short-timeline guarantees"
+    ],
+    "response": [
+      "Report to FBI IC3 immediately",
+      "File complaint with FTC and SEC",
+      "Report TikTok account to TikTok",
+      "Report WhatsApp number to WhatsApp",
+      "Document all communications with Ananya",
+      "Report domain to hosting provider and registrar",
+      "Contact crypto.com to report associated scam",
+      "Transfer any remaining funds from onChain wallet to new secure wallet",
+      "Consider onChain wallet compromised",
+      "Monitor for additional unauthorized transactions",
+      "Share case with crypto anti-fraud organizations",
+      "Warn friends and family about TikTok investment scams"
+    ],
+    "wallet_security": [
+      "Consider onChain wallet compromised",
+      "Create new wallet with new seed phrase",
+      "Transfer any remaining funds to new wallet immediately",
+      "Never reuse compromised wallet",
+      "Review all wallet transactions for unauthorized activity",
+      "Enable maximum security features on crypto accounts",
+      "Never connect wallets to unverified platforms"
+    ]
+  },
+  "social_media_vector_analysis": {
+    "platform": "TikTok",
+    "trends": [
+      "Growing vector for pig butchering scams",
+      "Targets younger, social-media-savvy demographics",
+      "Direct messaging enables private contact",
+      "Profile content establishes credibility",
+      "Video format allows lifestyle displays",
+      "Verification limitations on platform",
+      "Comment sections allow initial contact"
+    ],
+    "risks": [
+      "Platform familiarity reduces victim suspicion",
+      "Younger users may lack scam awareness",
+      "Profile authenticity difficult to verify",
+      "Quick deletion of accounts after scam",
+      "Direct messaging privacy",
+      "Global reach of platform",
+      "Financial content normalization"
+    ]
+  },
+  "technical_analysis": {
+    "http_vs_https": {
+      "issue": "Platform used HTTP instead of HTTPS",
+      "implications": [
+        "No SSL/TLS encryption",
+        "Data transmitted in clear text",
+        "Passwords and wallet info unencrypted",
+        "Major security red flag",
+        "Legitimate exchanges always use HTTPS",
+        "Professional platforms would never use HTTP"
+      ],
+      "detection": "Check URL protocol before entering any information"
+    },
+    "wallet_connection": {
+      "mechanism": "onChain wallet connected to prolongers.vip",
+      "risks": [
+        "Private key exposure potential",
+        "Wallet compromise",
+        "Unauthorized access to funds",
+        "Ongoing security risk",
+        "Other wallet funds at risk"
+      ],
+      "mitigation": "Never connect personal wallets to unverified platforms"
+    }
+  },
+  "comparison_to_typical_pig_butchering": {
+    "similarities": [
+      "Female scammer persona",
+      "Fraudulent trading platform",
+      "Cryptocurrency investment",
+      "Withdrawal blocking",
+      "Platform shutdown",
+      "Complete loss of funds",
+      "Communication cessation (ghosting)"
+    ],
+    "differences": [
+      "TikTok contact (vs wrong number/WhatsApp group)",
+      "Very short timeline (few days vs weeks/months)",
+      "Direct investment pitch (vs extended grooming)",
+      "No romance or friendship building",
+      "Specific return promise (20%)",
+      "No additional fee demands",
+      "Clean quick exit",
+      "Lower loss amount ($3,000)",
+      "Two-wallet system exploitation",
+      "No emotional manipulation phase",
+      "Efficiency-focused operation",
+      "Modern social media vector"
+    ]
+  },
+  "timeline_analysis": {
+    "estimated_phases": {
+      "initial_contact": "TikTok contact by Ananya",
+      "investment_pitch": "20% return promise and $3,000 discussion",
+      "crypto_purchase": "Victim purchases on crypto.com",
+      "wallet_transfer": "Transfer to onChain wallet",
+      "platform_connection": "Wallet connected to prolongers.vip",
+      "monitoring_phase": "Few days of balance visibility",
+      "withdrawal_attempt": "Victim tries to withdraw",
+      "exit_phase": "Ananya ghosting and platform shutdown"
+    },
+    "total_estimated_duration": "1-2 weeks maximum (very short operation)"
+  },
+  "investment_promise_analysis": {
+    "promised_return": "20%",
+    "timeframe": "Short period of time",
+    "red_flags": [
+      "Unrealistic return rate for legitimate investment",
+      "No discussion of risk",
+      "No explanation of trading strategy",
+      "Get-rich-quick appeal",
+      "Specific number adds false credibility",
+      "Designed to overcome hesitation quickly",
+      "No market volatility consideration",
+      "Guaranteed returns (impossible in real trading)"
+    ]
+  },
+  "modern_scam_evolution": {
+    "trends_observed": [
+      "TikTok as newer social media vector",
+      "Targeting younger demographics",
+      "Shorter timelines for efficiency",
+      "Less emotional manipulation",
+      "More direct pitch approach",
+      "Exploitation of personal wallet technology",
+      "Multi-platform process confusion",
+      "Adaptation to social media landscape"
+    ]
+  }
+}

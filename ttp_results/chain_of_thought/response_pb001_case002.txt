@@ -1,0 +1,183 @@
+## Chain of Thought Analysis for Case 002 (b2c2-amm.com)
+
+### Step 1: Initial Contact Analysis (접근 및 유인)
+
+**Reasoning:**
+The narrative states the victim was "contacted by an individual online who asked to move the conversation to a messaging platform." This indicates:
+- Initial contact was made on an unspecified online platform
+- There was deliberate migration to a messaging platform (likely WhatsApp, Telegram, or similar)
+- The scammer initiated contact, not the victim
+
+The lure type appears to be friendship-based ("friend") that evolved into an investment opportunity ("joint-investing"). This is classic Pig Butchering - building trust through friendship before introducing the investment angle.
+
+**Extracted:**
+- Initial contact platform: Online (unspecified)
+- Communication migration: Messaging platform
+- Lure type: Friendship → Investment opportunity
+
+---
+
+### Step 2: Persona & Psychology Analysis (사칭 및 심리)
+
+**Reasoning:**
+The scammer presented themselves as a "friend" who was also an investor. Key psychological tactics evident:
+
+1. **Trust Building**: Formed a "relationship" before introducing investment
+2. **Reciprocity**: Offered "joint-investing" where they would "match" the victim's investment - this creates a sense of partnership and shared risk
+3. **Social Proof**: By claiming to invest alongside the victim, the scammer validated the investment
+4. **Fear/Urgency**: Used fabricated "data breach" to create urgency for payment
+5. **Sunk Cost Exploitation**: After victim paid $77,000, demanded additional $100,000
+
+The "matching investment" claim is a sophisticated trust mechanism - it implies the scammer has skin in the game.
+
+**Extracted:**
+- Claimed identity: Friend/Investment partner
+- Relationship type: Friend
+- Psychological tactics: Trust building, Reciprocity, Fear (data breach), Sunk cost exploitation
+
+---
+
+### Step 3: Fraud Mechanism Analysis (사기 수법)
+
+**Reasoning:**
+The platform is described as a "crypto asset trading platform" - this is the typical Pig Butchering infrastructure.
+
+Withdrawal blocking tactics identified:
+1. First block: Fabricated "data breach" requiring $77,000 payment
+2. Second block: Demanded additional $100,000 "investment"
+
+This dual-barrier approach is designed to:
+- Extract maximum funds from the victim
+- Make the victim feel they're "close" to getting their money back
+- The first payment creates sunk cost psychology for the second demand
+
+Platform status: "no longer operational" - typical for these scams once exposed or after extracting funds.
+
+**Extracted:**
+- Platform type: Fake trading platform
+- Platform names: b2c2-amm.com
+- Withdrawal tactics: Data breach fee ($77,000), Additional investment demand ($100,000)
+- Platform status: Defunct
+
+---
+
+### Step 4: Financial Intelligence Extraction (추적단서)
+
+**Reasoning:**
+The narrative mentions specific dollar amounts but no cryptocurrency wallet addresses or transaction hashes are explicitly stated.
+
+Financial losses:
+- Initial fee demanded: $77,000 (paid by victim)
+- Second demand: $100,000 (not paid)
+- Total confirmed loss: At least $77,000 plus initial investment amount (unspecified)
+
+No blockchain tracking information is available in this narrative.
+
+**Extracted:**
+- Estimated loss: $77,000+ (confirmed paid, plus unspecified initial investment)
+- Wallet addresses: None mentioned
+- Transaction hashes: None mentioned
+- Cryptocurrency types: Crypto assets (unspecified)
+
+---
+
+### Step 5: Temporal Analysis (시간적 지표)
+
+**Reasoning:**
+The phrase "After a while" suggests a prolonged trust-building phase, typical for Pig Butchering scams which can last weeks to months.
+
+Timeline reconstruction:
+1. Initial contact online
+2. Migration to messaging platform
+3. Relationship building phase ("After forming a relationship")
+4. Investment introduction ("joint-investing" pitch)
+5. Investment phase
+6. First withdrawal attempt → Data breach excuse
+7. $77,000 payment
+8. Second demand for $100,000
+9. Victim stopped paying
+
+Platform is confirmed defunct ("no longer operational").
+
+**Extracted:**
+- Scam duration: Extended period (weeks to months implied)
+- Platform status: Defunct
+
+---
+
+### Step 6: Confidence Assessment
+
+**Reasoning:**
+High confidence items:
+- Platform URL and type (explicitly stated)
+- Withdrawal blocking tactics (detailed)
+- Basic scam structure (clear narrative)
+
+Medium confidence items:
+- Total financial loss (only partial amount confirmed)
+- Psychological tactics (inferred from narrative)
+
+Low confidence/Missing items:
+- Initial contact platform (not specified)
+- Specific messaging app used
+- Cryptocurrency types
+- Wallet addresses
+- Exact timeline
+- Full investment amount
+
+Overall confidence: 0.75 - The narrative provides good structural information but lacks specific financial tracking details.
+
+---
+
+```json
+{
+  "chain_of_thought": {
+    "step1_initial_contact": "Victim contacted online, moved to messaging platform. Classic friendship-to-investment lure pattern. Scammer initiated contact and built relationship before introducing investment opportunity.",
+    "step2_persona_psychology": "Scammer posed as friend/investment partner. Used reciprocity (joint investing), trust building, fear tactics (fake data breach), and sunk cost exploitation. The 'matching investment' claim built false sense of partnership.",
+    "step3_fraud_mechanism": "Fake crypto trading platform at b2c2-amm.com. Two-stage withdrawal blocking: first demanded $77K for 'data breach', then additional $100K. Platform now defunct.",
+    "step4_financial_intelligence": "Victim paid $77,000 after first demand. Total loss unknown but significant. No wallet addresses or transaction hashes in narrative. Cryptocurrency type unspecified.",
+    "step5_temporal_analysis": "Extended duration implied by 'after a while' and 'forming a relationship'. Multiple phases: contact, trust-building, investment, extraction attempts. Platform confirmed defunct.",
+    "step6_confidence_assessment": "High confidence on platform and tactics. Medium on psychology (inferred). Low on financial tracking data. Missing: specific contact platform, messaging app, crypto types, wallet addresses, exact timeline. Overall: 0.75"
+  },
+  "ttp_profile": {
+    "case_id": 2,
+    "approach_and_lure": {
+      "initial_contact_platform": ["online_platform_unspecified"],
+      "lure_type": ["friendship", "investment_opportunity"],
+      "communication_migration": "messaging_platform"
+    },
+    "impersonation_and_psychology": {
+      "scammer_persona": {
+        "claimed_identity": "Friend and investment partner",
+        "wealth_indicators": ["successful_investor", "joint_investing_capability"],
+        "relationship_type": "friend"
+      },
+      "psychological_tactics": ["trust_building", "reciprocity", "fear_of_missing_out", "sunk_cost_exploitation"],
+      "trust_building_period": "Extended period (weeks implied)"
+    },
+    "fraud_mechanism": {
+      "platform_type": "fake_trading_platform",
+      "platform_names": ["b2c2-amm.com"],
+      "platform_urls": ["b2c2-amm.com"],
+      "fake_profit_shown": true,
+      "withdrawal_block_tactics": ["data_breach_fee_77000", "additional_investment_demand_100000"]
+    },
+    "financial_tracking": {
+      "cryptocurrency_types": ["crypto_assets_unspecified"],
+      "wallet_addresses": [],
+      "transaction_hashes": [],
+      "estimated_loss_usd": 77000,
+      "payment_methods": ["unknown"]
+    },
+    "temporal_indicators": {
+      "scam_duration": "Extended period (multiple weeks)",
+      "platform_status": "defunct"
+    },
+    "extraction_metadata": {
+      "confidence_score": 0.75,
+      "missing_information": ["initial_contact_platform", "messaging_app_name", "cryptocurrency_type", "wallet_addresses", "transaction_hashes", "exact_timeline", "total_investment_amount"],
+      "notes": "Classic Pig Butchering pattern with friendship-based approach. Two-stage extraction attempt. Victim stopped at second demand."
+    }
+  }
+}
+```

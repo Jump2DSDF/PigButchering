@@ -1,0 +1,74 @@
+{
+  "case_id": 21,
+  "approach_and_lure": {
+    "initial_contact_platform": [
+      "unknown_online_platform"
+    ],
+    "lure_type": [
+      "investment_opportunity"
+    ],
+    "communication_migration": "none_platform_based"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Legitimate cryptocurrency exchange (KuCoin impersonation)",
+      "wealth_indicators": [
+        "professional_platform_design",
+        "growing_account_balance"
+      ],
+      "relationship_type": "company_representative"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "authority",
+      "social_proof",
+      "sunk_cost_exploitation"
+    ],
+    "trust_building_period": "Quick-moving (weeks estimated, based on fake profit display period)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_exchange",
+    "platform_names": [
+      "kakucoin.com"
+    ],
+    "platform_urls": [
+      "kakucoin.com"
+    ],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "demand_additional_deposit_for_withdrawal",
+      "continued_blocking_after_payment"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": [
+      "unspecified_cryptocurrency"
+    ],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": null,
+    "payment_methods": [
+      "unknown"
+    ]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Estimated weeks to months",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.65,
+    "missing_information": [
+      "initial_contact_method",
+      "financial_loss_amount",
+      "cryptocurrency_types",
+      "wallet_addresses",
+      "transaction_hashes",
+      "exact_timeline",
+      "specific_withdrawal_block_excuse",
+      "number_of_deposits_made",
+      "payment_methods",
+      "communication_with_platform_support"
+    ],
+    "notes": "Brand impersonation via typosquatting (kakucoin.com vs KuCoin.com). Quick-moving institutional trust scam rather than relationship-based. Platform defunct at time of complaint. Critical tracking information absent from narrative but victim likely has transaction records for blockchain analysis. High-threat pattern due to exploitation of legitimate brand reputation."
+  }
+}

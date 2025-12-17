@@ -1,0 +1,272 @@
+{
+  "case_id": "pb_066",
+  "original_case_id": 167,
+  "analysis_date": "2025-12-17",
+  "case_summary": {
+    "primary_subject": "YFI App / yfiapp.com",
+    "total_loss_usd": 61000,
+    "additional_ransom_demanded": 200000,
+    "scam_type": [
+      "Fraudulent Trading Platform",
+      "Pig Butchering Scam",
+      "Group Investment Scam",
+      "Wallet Draining Attack",
+      "Secondary Extortion"
+    ],
+    "outcome": "Total loss - website offline, no fund recovery"
+  },
+  "ttp_profile": {
+    "initial_contact": {
+      "platform": "Facebook",
+      "contact_method": "Unsolicited outreach",
+      "actor_role": "Company employee",
+      "legitimacy_claim": "Employee of YFIAPP.com platform",
+      "trust_building_elements": [
+        "Professional company affiliation",
+        "Structured return promise (1%-1.8% daily)",
+        "Group investment opportunity"
+      ]
+    },
+    "communication_platforms": {
+      "initial": "Facebook",
+      "primary": "Facebook",
+      "additional": [
+        "YFIAPP platform messaging (likely)"
+      ]
+    },
+    "relationship_development": {
+      "duration_estimate": "Unknown",
+      "topics_discussed": [
+        "Crypto investment opportunities",
+        "Platform features and benefits",
+        "Group investment coordination",
+        "Daily return promises"
+      ],
+      "romance_element": false,
+      "friendship_element": false,
+      "business_mentor_element": true,
+      "group_dynamic": true
+    },
+    "investment_platform": {
+      "name": "YFI App / YFIAPP",
+      "websites": [
+        "https://yfiapp.com",
+        "www.YFIAPP.com",
+        "yfiapp.com",
+        "https://www.yfiapp.com/#/trading"
+      ],
+      "platform_type": "Fraudulent crypto trading/wallet platform",
+      "claimed_services": [
+        "Crypto wallet with daily returns",
+        "Group investment opportunities",
+        "Trading platform"
+      ],
+      "legitimacy_indicators": [
+        "Professional website design (assumed)",
+        "Company employee representation",
+        "Structured return system"
+      ],
+      "current_status": "Offline/defunct"
+    },
+    "investment_mechanism": {
+      "asset_type": "Cryptocurrency",
+      "specific_cryptocurrencies": [
+        "Unspecified (likely Bitcoin, Ethereum, or USDT)"
+      ],
+      "investment_structure": "Group investment via shared wallet address",
+      "promised_returns": "1% to 1.8% daily",
+      "return_frequency": "Daily",
+      "minimum_investment": "Not specified",
+      "fund_transfer_method": "Direct transfer to specific crypto wallet address"
+    },
+    "wallet_addresses": {
+      "identified_addresses": [],
+      "address_purpose": "Group investment collection wallet",
+      "note": "Specific wallet address not disclosed in complaint, but victim reported seeing wallet drained via dapp connection"
+    },
+    "technical_attack_methods": {
+      "primary_method": "Malicious dapp wallet draining",
+      "attack_details": [
+        "Scammers connected shared wallet to malicious dapp",
+        "Dapp drained accumulated funds from wallet",
+        "Likely used smart contract approval exploit",
+        "Possible unlimited token approval attack",
+        "Victim witnessed draining in real-time"
+      ],
+      "sophistication_level": "High",
+      "blockchain_interaction": true,
+      "smart_contract_exploitation": true
+    },
+    "withdrawal_prevention": {
+      "method": "Funds stolen via technical exploit (not withdrawal blocking)",
+      "secondary_extortion": true,
+      "additional_fees_demanded": [
+        {
+          "fee_type": "Recovery ransom",
+          "amount_usd": 200000,
+          "justification": "Payment required to access stolen funds",
+          "victim_compliance": "No (not paid)"
+        }
+      ],
+      "escalation_pattern": "Post-theft ransom demand"
+    },
+    "red_flags": [
+      "Unsolicited contact via Facebook",
+      "Unrealistic daily returns (365%-657% annually)",
+      "Promise of guaranteed consistent profits",
+      "Group investment scheme with shared wallet",
+      "Request to send funds to external wallet address",
+      "No regulatory licensing or oversight mentioned",
+      "Malicious dapp connection request",
+      "Real-time wallet draining witnessed by victim",
+      "Post-theft ransom demand of $200,000",
+      "Complete website shutdown without notice",
+      "No customer support or recovery mechanism",
+      "Extreme escalation in ransom amount vs original loss"
+    ],
+    "scammer_characteristics": {
+      "number_of_actors": "Multiple (at least 2 - initial contact + post-theft contact)",
+      "roles": [
+        "Company employee/recruiter",
+        "Platform operator",
+        "Technical operator (dapp connection)",
+        "Extortion contact"
+      ],
+      "technical_sophistication": "High - capable of dapp exploitation and smart contract attacks",
+      "organizational_structure": "Coordinated group operation",
+      "impersonation": "Legitimate company (YFIAPP)"
+    },
+    "victim_profile": {
+      "location": "California, USA",
+      "crypto_experience": "Moderate (understood wallet operations, could observe draining)",
+      "initial_investment": "Unknown",
+      "total_invested": 61000,
+      "recruitment_vector": "Social media (Facebook)",
+      "vulnerability_exploited": [
+        "Desire for passive income",
+        "Trust in group investment legitimacy",
+        "Social proof from other investors",
+        "Desperation after loss (for secondary extortion attempt)"
+      ]
+    },
+    "financial_flow": {
+      "victim_to_platform": 61000,
+      "platform_to_victim": 0,
+      "additional_demands": 200000,
+      "total_exposure": 261000,
+      "funds_recovered": 0,
+      "transfer_methods": [
+        "Direct cryptocurrency transfer to wallet address",
+        "Malicious dapp connection draining"
+      ]
+    },
+    "timeline": {
+      "initial_contact": "Unknown",
+      "first_investment": "Unknown",
+      "relationship_duration": "Unknown",
+      "attempted_withdrawal": "Unknown",
+      "theft_execution": "Unknown (when wallet drained)",
+      "secondary_extortion": "After wallet draining",
+      "platform_shutdown": "Unknown exact date",
+      "total_duration_estimate": "Weeks to months"
+    },
+    "exit_strategy": {
+      "method": "Complete exit scam",
+      "indicators": [
+        "Website taken offline",
+        "All victim funds stolen",
+        "No recovery mechanism provided",
+        "Complete cessation of operations"
+      ],
+      "evidence_destruction": "Website shutdown eliminates evidence"
+    },
+    "mitre_attack_mapping": {
+      "initial_access": {
+        "technique": "Phishing: Social Media",
+        "tactic_id": "T1566.002",
+        "description": "Unsolicited contact via Facebook"
+      },
+      "execution": {
+        "technique": "User Execution: Malicious File/Link",
+        "tactic_id": "T1204",
+        "description": "Victim connected wallet to malicious dapp"
+      },
+      "persistence": {
+        "technique": "Account Manipulation",
+        "tactic_id": "T1098",
+        "description": "Smart contract approval for ongoing fund access"
+      },
+      "privilege_escalation": {
+        "technique": "Valid Accounts",
+        "tactic_id": "T1078",
+        "description": "Gained control of victim wallet via dapp permissions"
+      },
+      "collection": {
+        "technique": "Data from Local System",
+        "tactic_id": "T1005",
+        "description": "Extracted cryptocurrency from victim wallet"
+      },
+      "impact": {
+        "technique": "Financial Theft",
+        "tactic_id": "T1657",
+        "description": "Stole $61,000+ via wallet draining"
+      }
+    },
+    "iocs": {
+      "domains": [
+        "yfiapp.com",
+        "www.yfiapp.com"
+      ],
+      "urls": [
+        "https://yfiapp.com",
+        "https://www.yfiapp.com/#/trading"
+      ],
+      "wallet_addresses": [],
+      "social_media": [
+        "Facebook (scammer account - identity unknown)"
+      ],
+      "malicious_dapp": "Unknown dapp used for wallet draining"
+    },
+    "threat_actor_assessment": {
+      "sophistication": "High",
+      "technical_capability": "Advanced blockchain/smart contract knowledge",
+      "operational_security": "Good - successful exit scam, evidence removal",
+      "financial_motivation": "Primary",
+      "targeting": "Opportunistic via social media, but coordinated group operation",
+      "infrastructure": "Professional fraudulent platform + malicious dapp capability",
+      "likely_origin": "Unknown (international likely given crypto focus)"
+    },
+    "recommendations": {
+      "prevention": [
+        "Never respond to unsolicited investment offers on social media",
+        "Be extremely skeptical of guaranteed daily returns",
+        "Avoid group investment schemes with shared wallets",
+        "Never approve dapp connections without thorough verification",
+        "Research platforms through official regulatory databases",
+        "Verify company employees through official channels",
+        "Understand smart contract approvals before signing",
+        "Use hardware wallets for large holdings",
+        "Revoke unnecessary token approvals regularly"
+      ],
+      "detection": [
+        "Monitor for unrealistic return promises (>10% annually is suspicious)",
+        "Check domain registration dates and ownership",
+        "Verify platform licensing with financial regulators",
+        "Review dapp smart contracts before connecting",
+        "Watch for group investment pressure tactics",
+        "Monitor wallet for unauthorized dapp connections",
+        "Use blockchain explorers to verify wallet transactions"
+      ],
+      "response": [
+        "Report to IC3, FBI, FTC, and state authorities immediately",
+        "Document all communications and transactions",
+        "Preserve blockchain transaction records",
+        "Do NOT pay secondary ransom/extortion demands",
+        "Revoke all smart contract approvals immediately",
+        "Alert other victims if part of group investment",
+        "Consult crypto recovery specialists (be wary of recovery scams)",
+        "Share information with crypto security communities"
+      ]
+    }
+  }
+}

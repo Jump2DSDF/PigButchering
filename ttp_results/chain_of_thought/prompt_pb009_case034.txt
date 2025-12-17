@@ -1,0 +1,124 @@
+You are a digital forensics expert specializing in cryptocurrency fraud analysis. Your task is to extract structured TTP (Tactics, Techniques, Procedures) information from a Pig Butchering scam complaint narrative.
+
+## Task
+Analyze the following victim complaint and extract fraud intelligence using a systematic Chain of Thought approach.
+
+## Input
+**Case ID:** 34
+**Primary Subject:** Hrdebit
+hrdebit.com
+**Scam Type:** Pig Butchering Scam 
+
+AI Investment Scam
+**Website:** hrdebit.com
+**Complaint Narrative:**
+A California resident reports meeting an individual named “Jack” who claimed he had developed a trading mechanism using AI that guaranteed profitable trades 100% of the time. Jack told the victim about a futures exchange trading platform, Hrdebit, operating at hrdebit.com where he would trade bitcoin for the both of them. Following Jack’s instructions, the victim set up an account and deposited funds, believing the account was worth more than $2 million after only a few weeks of investing. But when the victim tried to withdraw their profits, the platform’s customer service demanded a 20% service fee and that it would seize the funds if the victim didn’t pay. The victim has been unable to recover their funds from the platform and the website is no longer operational. All told, the resident lost at least $358,000 on the platform.
+
+## Chain of Thought Analysis
+
+Please follow these steps explicitly and document your reasoning for each:
+
+### Step 1: Initial Contact Analysis (접근 및 유인)
+Think through:
+- How did the victim first encounter the scammer?
+- What platform was used for initial contact?
+- Was there a migration to another communication platform?
+- What type of lure was used (romance, investment opportunity, etc.)?
+
+### Step 2: Persona & Psychology Analysis (사칭 및 심리)
+Think through:
+- What identity did the scammer claim?
+- What wealth or success indicators were shown?
+- What type of relationship was established?
+- What psychological manipulation tactics are evident?
+- How long was the trust-building phase?
+
+### Step 3: Fraud Mechanism Analysis (사기 수법)
+Think through:
+- What type of fraudulent platform was used?
+- What was the platform name and URL?
+- Were fake profits shown to the victim?
+- What tactics were used to block withdrawals?
+
+### Step 4: Financial Intelligence Extraction (추적단서)
+Think through:
+- What cryptocurrencies were involved?
+- Are any wallet addresses mentioned?
+- Are any transaction hashes mentioned?
+- What was the estimated total loss?
+- What payment methods were used?
+
+### Step 5: Temporal Analysis (시간적 지표)
+Think through:
+- How long did the scam last?
+- Is the fraudulent platform still operational?
+
+### Step 6: Confidence Assessment
+Think through:
+- What information was clearly stated vs. inferred?
+- What important information is missing?
+- Overall confidence in this extraction?
+
+## Output Format
+After your Chain of Thought analysis, provide the structured output in the following JSON format:
+
+```json
+{
+  "chain_of_thought": {
+    "step1_initial_contact": "Your reasoning here...",
+    "step2_persona_psychology": "Your reasoning here...",
+    "step3_fraud_mechanism": "Your reasoning here...",
+    "step4_financial_intelligence": "Your reasoning here...",
+    "step5_temporal_analysis": "Your reasoning here...",
+    "step6_confidence_assessment": "Your reasoning here..."
+  },
+  "ttp_profile": {
+    "case_id": 34,
+    "approach_and_lure": {
+      "initial_contact_platform": [],
+      "lure_type": [],
+      "communication_migration": ""
+    },
+    "impersonation_and_psychology": {
+      "scammer_persona": {
+        "claimed_identity": "",
+        "wealth_indicators": [],
+        "relationship_type": ""
+      },
+      "psychological_tactics": [],
+      "trust_building_period": ""
+    },
+    "fraud_mechanism": {
+      "platform_type": "",
+      "platform_names": [],
+      "platform_urls": [],
+      "fake_profit_shown": false,
+      "withdrawal_block_tactics": []
+    },
+    "financial_tracking": {
+      "cryptocurrency_types": [],
+      "wallet_addresses": [],
+      "transaction_hashes": [],
+      "estimated_loss_usd": null,
+      "payment_methods": []
+    },
+    "temporal_indicators": {
+      "scam_duration": "",
+      "platform_status": ""
+    },
+    "extraction_metadata": {
+      "confidence_score": 0.0,
+      "missing_information": [],
+      "notes": ""
+    }
+  }
+}
+```
+
+## Important Guidelines
+1. Only extract information explicitly stated or strongly implied in the narrative
+2. Use "unknown" or null for information not available
+3. Be conservative with confidence scores
+4. Document all reasoning in the chain_of_thought section
+5. For arrays, include all relevant items found
+6. Normalize wallet addresses and URLs as found in the text

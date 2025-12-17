@@ -1,0 +1,73 @@
+{
+  "case_id": 165,
+  "approach_and_lure": {
+    "initial_contact_platform": ["Facebook_Messenger", "phone_call"],
+    "lure_type": ["friendship", "investment_opportunity"],
+    "communication_migration": "Facebook Messenger → WhatsApp, Phone call"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": [
+      {
+        "name": "Unknown",
+        "claimed_identity": "Gold investor with wealthy uncle (Victim 1)",
+        "relationship_type": "friend_mentor"
+      },
+      {
+        "name": "Lee",
+        "claimed_identity": "Investment advisor (Victim 2)",
+        "relationship_type": "investment_advisor"
+      }
+    ],
+    "brand_impersonation": {
+      "legitimate_entity": "Saxo Bank",
+      "legitimate_url": "https://www.home.saxo/",
+      "fake_entity": "SAXO Group"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "authority",
+      "family_wealth_claims",
+      "fake_profit_display",
+      "sunk_cost_exploitation",
+      "government_authority_impersonation"
+    ],
+    "trust_building_period": "Extended"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["SAXO Group"],
+    "platform_urls": [],
+    "platform_delivery": "Mobile application download",
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "personal_tax_demand_65000",
+      "advance_tax_dutch_government_500000"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["unspecified"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": {
+      "victim_1": 49000,
+      "victim_2": 1572870.63,
+      "total": 1621870.63
+    },
+    "payment_methods": ["cryptocurrency_transfer"]
+  },
+  "victim_count": 2,
+  "temporal_indicators": {
+    "scam_duration": "Extended (months)",
+    "platform_status": "unknown"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.80,
+    "missing_information": [
+      "platform_url",
+      "wallet_addresses",
+      "transaction_hashes",
+      "cryptocurrency_types"
+    ],
+    "notes": "CRITICAL HIGH-VALUE CASE: $1,621,870.63 total loss across 2 victims. Saxo Bank brand impersonation using mobile app. Victim 2 actually paid $500,000+ 'Dutch government tax' and still lost all funds. Demonstrates extreme financial extraction capability. Government tax authority impersonation adds legitimacy to fee demands."
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "case_id": 69,
+  "approach_and_lure": {
+    "initial_contact_platform": [
+      "dating_app_unspecified",
+      "WhatsApp"
+    ],
+    "lure_type": [
+      "romance",
+      "investment_opportunity"
+    ],
+    "communication_migration": "WhatsApp"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Woman - successful crypto trader and investment mentor with guaranteed market strategy",
+      "wealth_indicators": [
+        "demonstrated_crypto_trading_success",
+        "expert_investment_knowledge",
+        "market_proof_strategy_claims"
+      ],
+      "relationship_type": "romantic_partner"
+    },
+    "psychological_tactics": [
+      "love_bombing",
+      "trust_building",
+      "social_proof",
+      "fear_of_missing_out",
+      "authority",
+      "sunk_cost_exploitation",
+      "reciprocity"
+    ],
+    "trust_building_period": "Extended period (weeks to months) - dating app connection, WhatsApp migration, multiple video calls, strategy demonstration, trading period"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": [
+      "Cypo"
+    ],
+    "platform_urls": [
+      "eth-cryp.com"
+    ],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "tax_payment_demand_31000_usd",
+      "non_deductible_payment_requirement",
+      "partial_withdrawal_allowance_2000_usd",
+      "complete_fund_access_blockage"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": [
+      "likely_ETH_or_stablecoins"
+    ],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 63000,
+    "payment_methods": [
+      "unspecified_likely_crypto_exchange_transfer"
+    ]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Estimated 2-6 months (romance building through exit scam)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.75,
+    "missing_information": [
+      "specific_dating_app_name",
+      "scammer_name_identity",
+      "exact_cryptocurrency_types",
+      "wallet_addresses",
+      "transaction_hashes",
+      "payment_method_specifics",
+      "whether_full_tax_paid",
+      "scammer_whatsapp_contact",
+      "specific_dates_timeline",
+      "communication_logs",
+      "platform_screenshots",
+      "woman_accomplices_if_any"
+    ],
+    "notes": "Classic romance-based Pig Butchering scam with enhanced trust building via multiple video calls. Woman used blended approach: romantic interest + crypto investment mentor. Platform Cypo (eth-cryp.com) showed fake profits growing from $34,000 to $150,000+. Sophisticated withdrawal blocking: tax demand, partial withdrawal allowed ($2,000) to maintain legitimacy, then complete fund lockage. Platform now defunct - exit scam completed. Estimated loss $63,000. Critical gaps: no blockchain tracking data (wallet addresses/hashes), preventing fund tracing. Californian victim. Video call usage more sophisticated than text-only scams, creates stronger legitimacy and emotional connection."
+  }
+}

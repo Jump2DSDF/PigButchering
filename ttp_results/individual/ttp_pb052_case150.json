@@ -1,0 +1,499 @@
+{
+  "case_metadata": {
+    "pb_case_id": 52,
+    "original_case_id": 150,
+    "analysis_date": "2025-12-17",
+    "analyst_confidence": "VERY_HIGH",
+    "confidence_score": 0.85,
+    "case_status": "ANALYZED",
+    "priority_level": "HIGH",
+    "priority_reason": "HIGH_FINANCIAL_LOSS_SOPHISTICATED_OPERATION"
+  },
+  "initial_contact": {
+    "primary_platform": "LinkedIn",
+    "contact_method": "LINKEDIN_CONNECTION",
+    "initiator": "SCAMMER",
+    "secondary_platforms": [
+      "Facebook Messenger"
+    ],
+    "platform_migration": true,
+    "platform_migration_sequence": [
+      "LinkedIn",
+      "Facebook Messenger"
+    ],
+    "contact_pretense": "PROFESSIONAL_NETWORKING"
+  },
+  "scammer_persona": {
+    "name_used": "Wayne",
+    "relationship_type": "ROMANTIC_PARTNER",
+    "relationship_evolution": "PROFESSIONAL_TO_ROMANTIC",
+    "claimed_identity": "PROFESSIONAL_CRYPTO_TRADER",
+    "claimed_expertise": [
+      "CRYPTOCURRENCY_TRADING",
+      "INVESTMENT_STRATEGY",
+      "PLATFORM_NAVIGATION"
+    ],
+    "romance_element": true,
+    "gender_presented": "MALE",
+    "location_claimed": "UNKNOWN",
+    "occupation_claimed": "CRYPTO_TRADER_INVESTOR",
+    "wealth_signals": [
+      "SUCCESSFUL_TRADING",
+      "CLAIMED_WATCH_OWNERSHIP_FOR_MORTGAGE",
+      "INVESTMENT_EXPERTISE"
+    ]
+  },
+  "psychological_tactics": {
+    "primary_tactics": [
+      "ROMANCE_MANIPULATION",
+      "AUTHORITY_BIAS",
+      "PROOF_OF_CONCEPT",
+      "INCREMENTAL_COMMITMENT",
+      "FAKE_PROFIT_DISPLAY",
+      "SUNK_COST_EXPLOITATION",
+      "FALSE_PARTNERSHIP",
+      "VICTIM_POSITIONING"
+    ],
+    "trust_building_methods": [
+      "RELATIONSHIP_DEVELOPMENT_OVER_TIME",
+      "PLATFORM_MIGRATION_FOR_INTIMACY",
+      "DEMONSTRATION_OF_PLATFORM_FEATURES",
+      "SUCCESSFUL_INITIAL_WITHDRAWAL",
+      "STEP_BY_STEP_GUIDANCE",
+      "CLAIMING_TO_HELP_WITH_FEES",
+      "POSITIONING_AS_FELLOW_VICTIM"
+    ],
+    "urgency_creation": [
+      "ACCOUNT_FROZEN_CRISIS",
+      "FEE_PAYMENT_REQUIRED",
+      "VERIFICATION_DEADLINE"
+    ],
+    "social_proof": [
+      "PERSONAL_SUCCESS_STORIES",
+      "PLATFORM_LEGITIMACY_CLAIMS",
+      "SHARED_INVESTMENT_OPPORTUNITY"
+    ],
+    "advanced_manipulation": [
+      {
+        "technique": "PROOF_OF_CONCEPT_WITHDRAWAL",
+        "description": "Initial successful withdrawal to prove platform legitimacy and build confidence for larger investments"
+      },
+      {
+        "technique": "SCAMMER_AS_SAVIOR",
+        "description": "Wayne offered to help pay fees by mortgaging his watch, positioning himself as victim's helper"
+      },
+      {
+        "technique": "SCAMMER_AS_FELLOW_VICTIM",
+        "description": "Wayne claimed his own account was frozen, requesting money from victim, creating sympathy and shared struggle"
+      },
+      {
+        "technique": "CASCADE_FEE_EXTORTION",
+        "description": "Multiple sequential fees ($245K, $187K, $70K, $150K) to drain victim completely"
+      }
+    ]
+  },
+  "fraud_infrastructure": {
+    "platform_name": "Qexbit",
+    "platform_type": "FAKE_CRYPTO_EXCHANGE",
+    "domains": [
+      "qexbit.org"
+    ],
+    "platform_status": "PRESUMED_DEFUNCT",
+    "platform_features": [
+      "ACCOUNT_REGISTRATION",
+      "DEPOSIT_INTERFACE",
+      "FAKE_TRADING_INTERFACE",
+      "FAKE_BALANCE_DISPLAY",
+      "WITHDRAWAL_REQUEST_SYSTEM",
+      "ACCOUNT_FREEZING_MECHANISM",
+      "INITIAL_WITHDRAWAL_CAPABILITY",
+      "FEE_DEMAND_SYSTEM"
+    ],
+    "technical_indicators": {
+      "domain_age": "UNKNOWN",
+      "ssl_certificate": "UNKNOWN",
+      "hosting_location": "UNKNOWN",
+      "whois_privacy": "UNKNOWN"
+    },
+    "platform_sophistication": "HIGH",
+    "platform_sophistication_indicators": [
+      "Functional initial withdrawal system",
+      "Account balance tracking up to $3M+",
+      "Multiple fee collection mechanisms",
+      "Account freeze/unfreeze functionality"
+    ],
+    "brand_impersonation": {
+      "is_impersonation": false,
+      "target_brand": null,
+      "impersonation_techniques": []
+    }
+  },
+  "financial_intelligence": {
+    "total_loss_usd": {
+      "amount": 762000,
+      "precision": "MINIMUM",
+      "currency": "USD"
+    },
+    "cryptocurrency_losses": [],
+    "fiat_transfers": [
+      {
+        "amount": 187000,
+        "currency": "USD",
+        "method": "WIRE_TRANSFER",
+        "destination": "Qexbit platform",
+        "purpose": "PARTIAL_SERVICE_FEE_PAYMENT"
+      },
+      {
+        "amount": 70000,
+        "currency": "USD",
+        "method": "WIRE_TRANSFER",
+        "destination": "Qexbit platform or Wayne",
+        "purpose": "WAYNE_ACCOUNT_FEE_ASSISTANCE"
+      }
+    ],
+    "fee_extortion_attempts": [
+      {
+        "fee_type": "SERVICE_FEE",
+        "amount": 245000,
+        "currency": "USD",
+        "paid": true,
+        "amount_paid": 187000,
+        "excuse": "ACCOUNT_FROZEN_REQUIRES_SERVICE_FEE",
+        "notes": "Wayne claimed to contribute $60K from watch mortgage plus remainder"
+      },
+      {
+        "fee_type": "WAYNE_ASSISTANCE_FEE",
+        "amount": 70000,
+        "currency": "USD",
+        "paid": true,
+        "excuse": "WAYNE_ACCOUNT_ALSO_FROZEN",
+        "notes": "Wayne positioned himself as fellow victim needing help"
+      },
+      {
+        "fee_type": "USER_VERIFICATION_FEE",
+        "amount": 150000,
+        "currency": "USD",
+        "paid": false,
+        "excuse": "IDENTITY_VERIFICATION_REQUIRED_FOR_WITHDRAWAL",
+        "notes": "Victim unable or unwilling to pay this final fee"
+      }
+    ],
+    "total_fee_extortion_attempted": 465000,
+    "total_fee_extortion_paid": 257000,
+    "payment_methods": [
+      "WIRE_TRANSFER",
+      "POSSIBLY_CRYPTOCURRENCY"
+    ],
+    "intermediary_accounts": [],
+    "fake_account_balance_displayed": 3000000,
+    "money_laundering_indicators": [
+      "MULTIPLE_WIRE_TRANSFERS",
+      "LIKELY_INTERNATIONAL_TRANSFERS",
+      "CRYPTOCURRENCY_ANONYMITY",
+      "PLATFORM_CONTROLLED_ACCOUNTS",
+      "COMPLEX_FEE_STRUCTURE",
+      "RAPID_PLATFORM_SHUTDOWN"
+    ]
+  },
+  "temporal_analysis": {
+    "estimated_duration_days": {
+      "minimum": 120,
+      "maximum": 270,
+      "confidence": "MEDIUM"
+    },
+    "timeline_phases": [
+      {
+        "phase": "INITIAL_CONTACT_LINKEDIN",
+        "duration_estimate": "DAYS",
+        "activities": [
+          "LINKEDIN_CONNECTION",
+          "PROFESSIONAL_CONVERSATION",
+          "RAPPORT_BUILDING"
+        ]
+      },
+      {
+        "phase": "PLATFORM_MIGRATION",
+        "duration_estimate": "DAYS_TO_WEEKS",
+        "activities": [
+          "MOVE_TO_FACEBOOK_MESSENGER",
+          "INCREASE_COMMUNICATION_FREQUENCY",
+          "PERSONAL_CONVERSATION_DEVELOPMENT"
+        ]
+      },
+      {
+        "phase": "RELATIONSHIP_BUILDING",
+        "duration_estimate": "WEEKS_TO_MONTHS",
+        "activities": [
+          "ROMANTIC_RELATIONSHIP_DEVELOPMENT",
+          "EMOTIONAL_BOND_CREATION",
+          "TRUST_ESTABLISHMENT"
+        ]
+      },
+      {
+        "phase": "INVESTMENT_INTRODUCTION",
+        "duration_estimate": "DAYS_TO_WEEKS",
+        "activities": [
+          "CRYPTO_DISCUSSION",
+          "PLATFORM_INTRODUCTION",
+          "INVESTMENT_EDUCATION"
+        ]
+      },
+      {
+        "phase": "INITIAL_INVESTMENT_PROOF",
+        "duration_estimate": "DAYS_TO_WEEKS",
+        "activities": [
+          "ACCOUNT_OPENING",
+          "INITIAL_DEPOSIT",
+          "SUCCESSFUL_TRADE_DEMO",
+          "INITIAL_WITHDRAWAL_SUCCESS"
+        ]
+      },
+      {
+        "phase": "MAJOR_INVESTMENT_PERIOD",
+        "duration_estimate": "WEEKS_TO_MONTHS",
+        "activities": [
+          "MULTIPLE_LARGE_DEPOSITS",
+          "ACCOUNT_BALANCE_GROWTH_TO_3M",
+          "CONTINUED_RELATIONSHIP_REINFORCEMENT"
+        ]
+      },
+      {
+        "phase": "FIRST_WITHDRAWAL_BLOCK",
+        "duration_estimate": "DAYS",
+        "activities": [
+          "LARGE_WITHDRAWAL_ATTEMPT",
+          "ACCOUNT_FREEZE",
+          "SERVICE_FEE_DEMAND_245K"
+        ]
+      },
+      {
+        "phase": "WAYNE_ASSISTANCE_SCHEME",
+        "duration_estimate": "DAYS_TO_WEEKS",
+        "activities": [
+          "WAYNE_OFFERS_HELP",
+          "NEGOTIATION_OF_FEE_SPLIT",
+          "VICTIM_PAYS_187K",
+          "ACCOUNT_SUPPOSEDLY_UNFROZEN"
+        ]
+      },
+      {
+        "phase": "WAYNE_VICTIMIZATION_CLAIM",
+        "duration_estimate": "DAYS_TO_WEEKS",
+        "activities": [
+          "WAYNE_CLAIMS_HIS_ACCOUNT_FROZEN",
+          "REQUEST_FOR_70K",
+          "VICTIM_PAYS_70K"
+        ]
+      },
+      {
+        "phase": "FINAL_FEE_DEMAND",
+        "duration_estimate": "DAYS",
+        "activities": [
+          "WITHDRAWAL_ATTEMPT",
+          "VERIFICATION_FEE_DEMAND_150K",
+          "VICTIM_REFUSES_OR_UNABLE_TO_PAY"
+        ]
+      },
+      {
+        "phase": "ABANDONMENT",
+        "duration_estimate": "DAYS_TO_WEEKS",
+        "activities": [
+          "WAYNE_STOPS_COMMUNICATION",
+          "VICTIM_REALIZES_SCAM",
+          "COMPLAINT_FILED"
+        ]
+      }
+    ],
+    "specific_dates": [],
+    "temporal_red_flags": [
+      "QUICK_PLATFORM_MIGRATION_FROM_LINKEDIN",
+      "INVESTMENT_INTRODUCED_AFTER_RELATIONSHIP_ESTABLISHED",
+      "IMMEDIATE_ACCOUNT_FREEZE_ON_LARGE_WITHDRAWAL",
+      "CASCADE_OF_FEES_IN_RAPID_SUCCESSION",
+      "WAYNE_ABANDONMENT_AFTER_FINAL_FEE_REFUSAL"
+    ]
+  },
+  "victim_profile": {
+    "location": "California, USA",
+    "demographics": {
+      "age": "UNKNOWN",
+      "gender": "UNKNOWN",
+      "occupation": "UNKNOWN"
+    },
+    "vulnerability_factors": [
+      "SEEKING_PROFESSIONAL_CONNECTIONS",
+      "OPEN_TO_ONLINE_ROMANCE",
+      "SIGNIFICANT_FINANCIAL_RESOURCES",
+      "TRUST_IN_ROMANTIC_PARTNER",
+      "INTEREST_IN_CRYPTOCURRENCY",
+      "INSUFFICIENT_PLATFORM_VERIFICATION",
+      "EMOTIONAL_DECISION_MAKING"
+    ],
+    "financial_sophistication": "MEDIUM_TO_HIGH",
+    "financial_resources": "HIGH",
+    "prior_crypto_experience": "LIKELY_LIMITED",
+    "victim_resilience": "HIGH_INITIAL_LOW_FINAL",
+    "victim_resilience_notes": "Continued paying fees up to $257K before refusing final $150K fee"
+  },
+  "attack_pattern": {
+    "mitre_attack_mapping": {
+      "reconnaissance": [
+        "T1589 - Gather Victim Identity Information (LinkedIn profile analysis)"
+      ],
+      "resource_development": [
+        "T1585 - Establish Accounts (LinkedIn and Facebook profiles)",
+        "T1583 - Acquire Infrastructure (Qexbit.org platform)"
+      ],
+      "initial_access": [
+        "T1566 - Phishing (LinkedIn connection request)"
+      ],
+      "execution": [
+        "T1204 - User Execution (victim followed instructions)"
+      ],
+      "persistence": [
+        "T1534 - Internal Spearphishing (continued Facebook Messenger communication)"
+      ],
+      "privilege_escalation": [
+        "T1078 - Valid Accounts (victim created account on fake platform)"
+      ],
+      "defense_evasion": [
+        "T1497 - Virtualization/Sandbox Evasion (platform migration to avoid monitoring)"
+      ],
+      "credential_access": [
+        "T1598 - Phishing for Information (account creation, personal details)"
+      ],
+      "collection": [
+        "T1005 - Data from Local System (victim's financial resources)",
+        "T1114 - Email Collection (message logs, personal information)"
+      ],
+      "impact": [
+        "T1499 - Endpoint Denial of Service (account freezing)",
+        "T1657 - Financial Theft ($762,000+ loss)"
+      ]
+    },
+    "kill_chain_phases": [
+      "RECONNAISSANCE",
+      "WEAPONIZATION",
+      "DELIVERY",
+      "EXPLOITATION",
+      "INSTALLATION",
+      "COMMAND_AND_CONTROL",
+      "ACTIONS_ON_OBJECTIVES"
+    ]
+  },
+  "indicators_of_compromise": {
+    "domains": [
+      "qexbit.org"
+    ],
+    "urls": [
+      "http://qexbit.org/"
+    ],
+    "crypto_addresses": [],
+    "phone_numbers": [],
+    "email_addresses": [],
+    "social_media_accounts": [
+      {
+        "platform": "LinkedIn",
+        "identifier": "Wayne",
+        "status": "UNKNOWN"
+      },
+      {
+        "platform": "Facebook",
+        "identifier": "Wayne",
+        "status": "UNKNOWN"
+      }
+    ],
+    "platform_names": [
+      "Qexbit"
+    ],
+    "personas": [
+      "Wayne"
+    ]
+  },
+  "red_flags_identified": [
+    "PROFESSIONAL_CONTACT_BECOMING_ROMANTIC",
+    "PLATFORM_MIGRATION_REQUEST",
+    "ROMANTIC_PARTNER_SUGGESTING_INVESTMENT",
+    "UNKNOWN_CRYPTO_EXCHANGE",
+    "UNREALISTIC_ACCOUNT_BALANCE_3M",
+    "ACCOUNT_FREEZING",
+    "MULTIPLE_CASCADE_FEES",
+    "FEES_DEMANDED_BEFORE_WITHDRAWAL",
+    "SCAMMER_CLAIMING_TO_BE_FELLOW_VICTIM",
+    "SCAMMER_REQUESTING_MONEY_FROM_VICTIM",
+    "SCAMMER_ABANDONMENT_AFTER_FEE_REFUSAL",
+    "NO_REGULATORY_COMPLIANCE",
+    "NO_LEGITIMATE_CUSTOMER_SERVICE"
+  ],
+  "ttps_narrative": {
+    "summary": "Highly sophisticated romance-based pig butchering scam utilizing LinkedIn for initial credible contact, migrating to Facebook Messenger for relationship development, then introducing fraudulent crypto platform Qexbit.org. Scammer 'Wayne' developed romantic relationship over time, demonstrated platform legitimacy through successful initial withdrawal, then extracted $762,000+ through escalating investments and multiple fee extortion schemes including positioning himself as fellow victim.",
+    "sophistication_level": "VERY_HIGH",
+    "notable_techniques": [
+      "Multi-platform social engineering (LinkedIn → Facebook)",
+      "Extended relationship building with romantic element",
+      "Proof-of-concept initial withdrawal to build trust",
+      "Advanced psychological manipulation: scammer as helper and fellow victim",
+      "Cascade fee extortion with multiple excuses",
+      "Fake account balance of $3M+ to justify fees and maintain engagement",
+      "Highest financial loss in analyzed dataset"
+    ],
+    "comparison_to_known_patterns": "Represents gold standard of romance-based pig butchering with extended trust-building, proof-of-concept demonstration, and sophisticated multi-stage extraction. Significantly more elaborate than basic crypto scams, indicating experienced criminal organization."
+  },
+  "investigative_leads": {
+    "priority_actions": [
+      "Subpoena LinkedIn for Wayne's account details, IP addresses, and connection history",
+      "Subpoena Facebook for Messenger chat logs, metadata, and Wayne's profile information",
+      "Obtain complete banking records for all wire transfers including destination accounts",
+      "Domain investigation for Qexbit.org including WHOIS, hosting, and related infrastructure",
+      "Request victim's cryptocurrency transaction history if crypto deposits were made",
+      "Cross-reference with other Qexbit.org complaints for pattern correlation",
+      "International law enforcement coordination for wire transfer tracing"
+    ],
+    "evidence_gaps": [
+      "Cryptocurrency wallet addresses",
+      "Specific timeline dates",
+      "Wayne's real identity",
+      "Platform screenshots",
+      "Initial investment amounts breakdown",
+      "Wire transfer destination details",
+      "Bank account information"
+    ],
+    "correlation_opportunities": [
+      "Search for other complaints mentioning Qexbit",
+      "LinkedIn profile analysis for similar romance scam patterns",
+      "Cross-reference Wayne persona with other cases",
+      "Correlate wire transfer destinations with other pig butchering cases",
+      "Platform infrastructure analysis for related domains"
+    ]
+  },
+  "data_quality": {
+    "completeness": 0.70,
+    "reliability": 0.95,
+    "actionability": 0.75,
+    "narrative_detail": "EXCELLENT",
+    "limitations": [
+      "No cryptocurrency addresses provided",
+      "Missing specific dates and timeline",
+      "No social media profile details captured",
+      "No platform screenshots available",
+      "Initial investment breakdown not specified"
+    ]
+  },
+  "tags": [
+    "PIG_BUTCHERING",
+    "ROMANCE_SCAM",
+    "FAKE_CRYPTO_EXCHANGE",
+    "LINKEDIN_SCAM",
+    "FACEBOOK_MESSENGER",
+    "MULTI_PLATFORM",
+    "HIGH_VALUE_TARGET",
+    "CASCADE_FEE_EXTORTION",
+    "PROOF_OF_CONCEPT_WITHDRAWAL",
+    "SCAMMER_AS_VICTIM",
+    "ADVANCED_SOCIAL_ENGINEERING",
+    "CALIFORNIA_VICTIM",
+    "HIGH_SOPHISTICATION",
+    "MAJOR_FINANCIAL_LOSS",
+    "LAW_ENFORCEMENT_PRIORITY"
+  ]
+}

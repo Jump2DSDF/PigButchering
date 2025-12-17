@@ -1,0 +1,356 @@
+{
+  "case_id": "pb074_case175",
+  "pb_case_id": 74,
+  "original_case_id": 175,
+  "case_name": "Fucoins Global Signal-Selling Platform Scam",
+  "financial_loss": null,
+  "financial_loss_note": "Amount not specified in narrative",
+  "victim_location": "California, United States",
+  "scam_classification": [
+    "Fraudulent Trading Platform",
+    "Pig Butchering Scam",
+    "Signal Selling Scam",
+    "Investment Group Scam"
+  ],
+  "threat_actor_profile": {
+    "sophistication_level": "Very High",
+    "team_based": true,
+    "team_size_minimum": 2,
+    "target_demographics": "WhatsApp users interested in crypto trading and signals",
+    "geographic_focus": "United States (California confirmed, likely broader)",
+    "language": "English",
+    "operational_pattern": "Scalable multi-group operation with coordinated roles and quick exit",
+    "scale_indicators": "D8 designation suggests minimum 8 parallel WhatsApp groups"
+  },
+  "attack_chain": {
+    "initial_contact": {
+      "method": "WhatsApp investment group invitation/addition",
+      "platform": "WhatsApp",
+      "group_name": "Market Analysis Forum D8",
+      "persona": "Trading education community",
+      "social_engineering": "Professional market analysis forum with expert traders"
+    },
+    "trust_building": {
+      "relationship_type": "Trading community with expert guidance",
+      "duration": "Not specified",
+      "techniques": [
+        "Trading guru authority (Mr. Oliver)",
+        "Free trading signals",
+        "Assistant role separation (Anne)",
+        "Group-based social proof",
+        "Fake success stories from members",
+        "Accurate-appearing signals (fabricated)",
+        "Educational framing (market analysis)"
+      ],
+      "key_actors": [
+        "Mr. Oliver (crypto trading guru)",
+        "Anne (Mr. Oliver's assistant)",
+        "Multiple confederate group members"
+      ]
+    },
+    "platform_introduction": {
+      "platform_name": "Fucoins Global",
+      "platform_type": "Fraudulent crypto trading platform (SPA)",
+      "platform_urls": [
+        "https://www.fucoins.com/#/login?redirect=%2F",
+        "https://www.fucoins.com",
+        "https://fucoins.com"
+      ],
+      "platform_status": "Offline/defunct",
+      "introduced_by": "Anne (Mr. Oliver's assistant)",
+      "legitimacy_indicators": [
+        "Modern single-page application architecture",
+        "Professional domain name",
+        "Functional trading interface",
+        "Login/authentication system",
+        "Integration with trading signals",
+        "HTTPS/SSL certificates"
+      ]
+    },
+    "investment_phase": {
+      "initial_deposit": "Not specified",
+      "total_deposits": "Not specified",
+      "investment_narrative": "Execute Mr. Oliver's trading signals on Fucoins platform",
+      "promised_returns": "Implied through signal success",
+      "fake_profits_shown": true,
+      "manipulation_sequence": [
+        "Initial trades showed huge losses",
+        "Platform offered 50% reimbursement",
+        "Encouraged continued trading",
+        "Subsequent trades showed profits"
+      ]
+    },
+    "withdrawal_prevention": {
+      "attempted_withdrawal": true,
+      "barriers_encountered": [
+        "Account restricted"
+      ],
+      "additional_fees_requested": [],
+      "additional_fees_note": "No specific fees mentioned - platform shut down instead"
+    },
+    "exit_strategy": {
+      "method": "Account restriction followed by complete platform shutdown",
+      "status": "Website no longer operational"
+    }
+  },
+  "technical_indicators": {
+    "websites": [
+      {
+        "url": "https://www.fucoins.com/#/login?redirect=%2F",
+        "status": "Offline",
+        "purpose": "Primary trading platform login page",
+        "technical_notes": "Single-page application with hash routing, redirect functionality"
+      },
+      {
+        "url": "https://www.fucoins.com",
+        "status": "Offline",
+        "purpose": "Main platform domain"
+      },
+      {
+        "url": "https://fucoins.com",
+        "status": "Offline",
+        "purpose": "Alternative platform access"
+      }
+    ],
+    "domains": [
+      "fucoins.com",
+      "www.fucoins.com"
+    ],
+    "cryptocurrency_addresses": [],
+    "communication_platforms": [
+      "WhatsApp"
+    ],
+    "whatsapp_groups": [
+      {
+        "name": "Market Analysis Forum D8",
+        "purpose": "Signal distribution and victim recruitment",
+        "details": "D8 designation suggests multiple parallel groups (D1-D8+)"
+      }
+    ],
+    "fake_tokens": [],
+    "apps": [],
+    "email_addresses": [],
+    "phone_numbers": []
+  },
+  "social_engineering_tactics": [
+    "Trading guru authority and expertise",
+    "Free value provision (trading signals)",
+    "Role separation (expert vs. platform recommender)",
+    "Group-based social proof and validation",
+    "Signal selling to demonstrate expertise",
+    "Educational framing (market analysis forum)",
+    "Loss-then-reimbursement manipulation",
+    "Fake generosity (50% reimbursement offer)",
+    "Graduated trust building through accurate signals",
+    "Assistant role for indirect platform promotion",
+    "FOMO through group success stories",
+    "Sunk cost exploitation after losses"
+  ],
+  "red_flags": [
+    "Investment opportunity in WhatsApp group",
+    "Trading guru offering free signals",
+    "Assistant conveniently recommends specific platform",
+    "Numbered group name (D8) suggesting mass operation",
+    "Signals appear too accurate",
+    "Platform reimbursed 50% of trading losses (no legitimate platform does this)",
+    "Encouragement to continue trading after losses",
+    "Unable to withdraw funds",
+    "Account restricted upon withdrawal attempt",
+    "Platform shut down after restricting accounts",
+    "No regulatory licensing or registration",
+    "Platform name matches group-recommended exchange"
+  ],
+  "victim_vulnerabilities_exploited": [
+    "Interest in cryptocurrency trading",
+    "Desire for expert trading signals/guidance",
+    "Trust in authority figures (trading guru)",
+    "Group dynamics and social proof",
+    "Greed after seeing fake profits",
+    "Sunk cost fallacy after initial losses",
+    "Gratitude after fake reimbursement",
+    "Fear of missing out on successful trades",
+    "Limited ability to verify signal accuracy",
+    "Belief in market analysis expertise"
+  ],
+  "impersonated_entities": [],
+  "timeline": {
+    "initial_contact": "Not specified - joined Market Analysis Forum D8",
+    "signal_sharing_phase": "Not specified - Mr. Oliver shared signals in group",
+    "platform_introduction": "Not specified - Anne introduced fucoins.com",
+    "account_creation": "Not specified",
+    "first_trading": "Not specified",
+    "loss_phase": "Not specified - showed huge losses",
+    "reimbursement_offer": "After initial losses",
+    "continued_trading": "After reimbursement",
+    "profit_phase": "After continued trading",
+    "withdrawal_attempt": "Not specified",
+    "account_restriction": "Upon withdrawal attempt",
+    "total_duration": "Not specified",
+    "platform_shutdown": "After account restrictions (current status: offline)"
+  },
+  "investigation_leads": {
+    "blockchain_addresses": [],
+    "domains_for_analysis": [
+      "fucoins.com",
+      "www.fucoins.com"
+    ],
+    "social_media_accounts": [
+      "WhatsApp group 'Market Analysis Forum D8'",
+      "Mr. Oliver's WhatsApp account",
+      "Anne's WhatsApp account",
+      "Other Market Analysis Forum groups (D1-D7, D9+)"
+    ],
+    "connected_cases": [
+      "Other Market Analysis Forum group victims",
+      "Other Fucoins-related scams",
+      "Other signal-selling platform scams",
+      "Other Mr. Oliver or Anne-related scams"
+    ],
+    "additional_leads": [
+      "WhatsApp group chat history and member list",
+      "Trading signals shared by Mr. Oliver",
+      "Server hosting information",
+      "Domain registration records",
+      "SPA framework and development patterns",
+      "Payment processor information",
+      "Other D-series groups (D1, D2, D3, etc.)"
+    ]
+  },
+  "defensive_recommendations": [
+    "Be highly skeptical of trading signals from WhatsApp/Telegram groups",
+    "Verify trading gurus' credentials and track record independently",
+    "Question why experts would share profitable signals for free",
+    "Be wary when group members recommend specific platforms",
+    "Recognize numbered groups (D8, etc.) as signs of mass scam operations",
+    "Understand legitimate platforms never reimburse trading losses",
+    "Test withdrawals immediately after first deposit",
+    "Research platforms independently through regulatory databases",
+    "Be suspicious of loss-then-recovery patterns (psychological manipulation)",
+    "Verify group members are real people through independent channels",
+    "Check if platform has regulatory registration (SEC, FINRA, FinCEN)",
+    "Be wary of role separation (guru + assistant) - coordination indicator",
+    "Don't trust signals without independent verification",
+    "Understand market analysis cannot guarantee profits",
+    "Be suspicious of platforms specifically designed for group signals"
+  ],
+  "ttps": {
+    "initial_access": {
+      "technique": "WhatsApp Investment Group Recruitment",
+      "platforms": ["WhatsApp"],
+      "description": "Victim joined 'Market Analysis Forum D8' group for trading education and signals"
+    },
+    "social_engineering": {
+      "techniques": [
+        {
+          "name": "Authority and Expertise",
+          "description": "Mr. Oliver positioned as crypto trading guru providing valuable signals"
+        },
+        {
+          "name": "Free Value Provision",
+          "description": "Free trading signals to build credibility and reciprocity"
+        },
+        {
+          "name": "Role Separation",
+          "description": "Mr. Oliver (expert) separated from Anne (platform recommender) to reduce sales appearance"
+        },
+        {
+          "name": "Group-Based Social Proof",
+          "description": "Multiple group members (confederates) validated signals and platform success"
+        },
+        {
+          "name": "Signal Selling",
+          "description": "Accurate-appearing signals demonstrated expertise and created dependency"
+        },
+        {
+          "name": "Loss-Reimbursement Manipulation",
+          "description": "Showed huge losses, then offered 50% reimbursement to build trust and encourage continued trading"
+        },
+        {
+          "name": "Fake Generosity",
+          "description": "Platform appeared caring by reimbursing losses, creating gratitude and trust"
+        }
+      ]
+    },
+    "infrastructure": {
+      "websites": [
+        {
+          "url": "https://www.fucoins.com",
+          "purpose": "Fraudulent trading platform",
+          "sophistication": "Very High - Single-page application, functional trading, authentication system"
+        }
+      ],
+      "communication": [
+        {
+          "platform": "WhatsApp",
+          "purpose": "Market Analysis Forum D8 for signal distribution and victim recruitment",
+          "scale": "D8 designation suggests minimum 8 parallel groups"
+        }
+      ]
+    },
+    "fund_extraction": {
+      "method": "Deposits to fraudulent trading platform",
+      "total_extracted": "Not specified",
+      "currency": "Cryptocurrency (type not specified)",
+      "manipulation_sequence": "Loss → Reimbursement → Continued trading → Fake profits → Withdrawal restriction"
+    },
+    "persistence": {
+      "technique": "Signal dependency and loss-recovery cycle",
+      "description": "Ongoing signals kept victims engaged, loss-reimbursement-profit cycle deepened commitment"
+    },
+    "evasion": {
+      "techniques": [
+        "Role separation to obscure coordination",
+        "Multiple parallel groups for scale and redundancy",
+        "Quick coordinated exit after withdrawal attempts",
+        "Platform shutdown to avoid investigation",
+        "SPA architecture allows quick deployment/shutdown",
+        "Educational framing delays suspicion"
+      ]
+    }
+  },
+  "mitre_attack_mapping": {
+    "initial_access": [
+      "T1566 - Phishing (Social Media Variant - WhatsApp Group)"
+    ],
+    "execution": [
+      "User-initiated deposits and trading on fraudulent platform"
+    ],
+    "persistence": [
+      "Signal dependency",
+      "Group engagement",
+      "Loss-recovery manipulation cycle"
+    ],
+    "defense_evasion": [
+      "T1070.004 - Indicator Removal on Host (Website shutdown)",
+      "T1027 - Obfuscated Files or Information (Role separation, educational framing)",
+      "T1535 - Unused/Unsupported Cloud Regions (Disposable infrastructure)"
+    ],
+    "credential_access": [
+      "Platform account credentials"
+    ],
+    "collection": [
+      "T1530 - Data from Cloud Storage Object (Cryptocurrency deposits)",
+      "User account information",
+      "Trading behavior data"
+    ],
+    "impact": [
+      "T1499 - Endpoint Denial of Service (Account restriction, platform shutdown)",
+      "T1657 - Financial Theft"
+    ]
+  },
+  "metadata": {
+    "report_source": "California resident complaint",
+    "analysis_date": "2025-12-17",
+    "analyst_notes": "Highly sophisticated multi-technique operation combining signal selling, investment group scam, and fraudulent platform. Notable for role separation (Mr. Oliver as guru, Anne as assistant) and advanced psychological manipulation (loss-reimbursement-profit cycle). D8 designation indicates large-scale operation with minimum 8 parallel groups. SPA architecture shows professional technical capabilities. Loss-then-50%-reimbursement tactic is sophisticated trust-building mechanism rarely seen in pig butchering cases. Quick coordinated exit suggests experienced operation with predetermined timeline.",
+    "severity": "Critical",
+    "confidence": "High",
+    "unique_elements": [
+      "Signal selling component with trading guru",
+      "Role separation (expert and assistant)",
+      "Loss-then-reimbursement manipulation",
+      "Numbered group designation (D8) indicating scale",
+      "SPA technical architecture"
+    ],
+    "scale_assessment": "D8 designation suggests 8+ parallel groups, potentially hundreds of victims across operation"
+  }
+}

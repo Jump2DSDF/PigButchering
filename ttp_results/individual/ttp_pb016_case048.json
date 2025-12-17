@@ -1,0 +1,466 @@
+{
+  "case_id": "48",
+  "case_name": "stdubrye.top Dating App Pig Butchering Scam",
+  "summary": "A California resident lost $240,000+ in a sophisticated pig butchering scam that began with a romantic relationship on an online dating app. The scammer introduced the victim to 'short-term crypto asset trading' and directed them to open an account on stdubrye.top. At the scammer's direction, the victim made progressive deposits totaling over $240,000. When the victim attempted to withdraw funds, the platform demanded a $275,000 payment. The victim wisely refused, and the scammer immediately stopped responding. The platform is no longer operational, and the victim has been unable to recover any funds.",
+  "ttps": [
+    {
+      "category": "Initial Access",
+      "techniques": [
+        {
+          "id": "T1566.002",
+          "name": "Phishing: Spearphishing Link",
+          "description": "Scammer initiated contact with victim via online dating app, establishing a romantic relationship before introducing investment opportunities. The victim was directed to the fraudulent platform stdubrye.top through this relationship.",
+          "evidence": [
+            "Victim met individual on online dating app",
+            "Individual introduced victim to crypto asset trading",
+            "Victim directed to specific platform: stdubrye.top",
+            "All actions taken 'at the direction of the individual'"
+          ]
+        },
+        {
+          "id": "T1598.003",
+          "name": "Phishing for Information: Social Media",
+          "description": "Scammer used dating app to identify and engage victim, gathering information through relationship building to tailor the investment scam approach.",
+          "evidence": [
+            "Initial contact through online dating app",
+            "Relationship established before financial discussion",
+            "Information gathered enabled targeted crypto investment pitch"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Execution",
+      "techniques": [
+        {
+          "id": "T1204.001",
+          "name": "User Execution: Malicious Link",
+          "description": "Victim was directed to open account on fraudulent cryptocurrency trading platform stdubrye.top, leading to progressive deposits totaling $240,000+ based on scammer's instructions.",
+          "evidence": [
+            "Victim directed to open account on stdubrye.top",
+            "Account creation and deposits made at scammer's direction",
+            "Platform presented as legitimate crypto trading site"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Persistence",
+      "techniques": [
+        {
+          "id": "T1584.001",
+          "name": "Compromise Infrastructure: Domains",
+          "description": "Scammer established fraudulent trading platform on stdubrye.top domain using .top TLD, which is known for lax registration requirements and frequent abuse by fraudsters.",
+          "evidence": [
+            "Domain: stdubrye.top",
+            "Use of .top TLD (commonly abused by scammers)",
+            "Platform functional for victim deposits and fake trading interface",
+            "Website eventually shut down after scam completion"
+          ]
+        },
+        {
+          "id": "T1586.002",
+          "name": "Compromise Accounts: Social Media Accounts",
+          "description": "Scammer created or potentially compromised dating app account to conduct outreach and maintain persistent romantic relationship with victim throughout the scam.",
+          "evidence": [
+            "Dating app account used for initial romantic contact",
+            "Account maintained throughout investment period",
+            "Account ceased communication after victim refused additional payment",
+            "Romantic relationship maintained parallel to financial manipulation"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Defense Evasion",
+      "techniques": [
+        {
+          "id": "T1027",
+          "name": "Obfuscated Files or Information",
+          "description": "Scammer obfuscated the fraudulent nature through fake trading platform interface, likely fake balance displays, and romantic relationship cover to obscure financial fraud intent.",
+          "evidence": [
+            "Platform presented as legitimate crypto trading site",
+            "Likely displayed fake trading activity and profits",
+            "Romantic relationship obscured financial exploitation motive",
+            "Platform appearance designed to seem legitimate"
+          ]
+        },
+        {
+          "id": "T1562.001",
+          "name": "Impair Defenses: Disable or Modify Tools",
+          "description": "Scammer moved relationship from dating app (which may have fraud monitoring) to direct platform interaction and likely private messaging to evade platform security controls.",
+          "evidence": [
+            "Movement from dating app to private communications likely occurred",
+            "Direct control over victim actions ('at the direction of')",
+            "Platform migration reduces fraud detection opportunities"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Collection",
+      "techniques": [
+        {
+          "id": "T1114",
+          "name": "Email Collection",
+          "description": "Scammer collected victim information through extended romantic relationship and conversations to build detailed profile and maintain long-term control over victim.",
+          "evidence": [
+            "Extended romantic relationship establishment",
+            "Information gathering enabled targeted investment approach",
+            "Victim's financial capacity assessed through conversations"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Command and Control",
+      "techniques": [
+        {
+          "id": "T1071.001",
+          "name": "Application Layer Protocol: Web Protocols",
+          "description": "Fraudulent trading platform stdubrye.top used standard web protocols to appear legitimate and facilitate victim interaction with fake trading interface.",
+          "evidence": [
+            "stdubrye.top operated as web-based trading platform",
+            "Platform included account registration and deposit functionality",
+            "Standard HTTPS web protocols used for legitimacy appearance"
+          ]
+        },
+        {
+          "id": "T1102",
+          "name": "Web Service",
+          "description": "Scammer leveraged legitimate dating app service for command and control communications with victim throughout the scam operation.",
+          "evidence": [
+            "Dating app used for initial contact and relationship building",
+            "Ongoing communication through dating platform",
+            "Direct instructions provided through romantic relationship channel"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Impact",
+      "techniques": [
+        {
+          "id": "T1657",
+          "name": "Financial Theft",
+          "description": "Primary objective was financial theft through fraudulent cryptocurrency investments. Victim lost over $240,000 through progressive deposits directed by the scammer to the fake trading platform.",
+          "evidence": [
+            "Victim deposited money at scammer's direction",
+            "Total documented loss: over $240,000",
+            "All funds unrecoverable",
+            "Funds transferred to scammer-controlled accounts"
+          ]
+        },
+        {
+          "id": "T1565.001",
+          "name": "Data Manipulation: Stored Data Manipulation",
+          "description": "Platform likely manipulated displayed account balances to show false profits or trading activity, encouraging victim to continue depositing funds throughout the scam period.",
+          "evidence": [
+            "Victim believed funds were invested in legitimate trading",
+            "Platform presented trading functionality",
+            "Victim continued deposits suggesting displayed success",
+            "No actual trading occurred - all displays were fake"
+          ]
+        },
+        {
+          "id": "T1499",
+          "name": "Endpoint Denial of Service",
+          "description": "Victim was denied access to funds through fabricated $275,000 withdrawal fee demand, and platform was subsequently shut down, preventing any victim access or fund recovery.",
+          "evidence": [
+            "Victim attempted to withdraw funds",
+            "Platform demanded $275,000 payment before withdrawal",
+            "Withdrawal fee exceeded total investment ($275K vs $240K)",
+            "Victim unable to recover any funds",
+            "Website no longer operational"
+          ]
+        }
+      ]
+    }
+  ],
+  "attack_flow": [
+    {
+      "step": 1,
+      "phase": "Initial Contact & Romantic Relationship Building",
+      "description": "Scammer contacted victim through online dating app, presenting as a romantic interest. Extended relationship building phase established trust and emotional connection. Victim developed romantic relationship believing it to be genuine.",
+      "ttps": [
+        "T1566.002",
+        "T1598.003",
+        "T1586.002"
+      ]
+    },
+    {
+      "step": 2,
+      "phase": "Investment Introduction",
+      "description": "After establishing romantic relationship and trust, scammer introduced the concept of 'short-term crypto asset trading.' Positioned as sharing a profitable opportunity with romantic partner, creating partnership dynamic. Scammer claimed expertise in crypto trading.",
+      "ttps": [
+        "T1102",
+        "T1114"
+      ]
+    },
+    {
+      "step": 3,
+      "phase": "Platform Onboarding",
+      "description": "Scammer directed victim to open account on specific platform: stdubrye.top. Provided guidance through account creation process. Platform presented as legitimate crypto trading site. Scammer maintained direct control over victim's actions.",
+      "ttps": [
+        "T1204.001",
+        "T1071.001",
+        "T1027"
+      ]
+    },
+    {
+      "step": 4,
+      "phase": "Investment Escalation ('Fattening the Pig')",
+      "description": "At the direction of the scammer, victim made progressive deposits to the platform totaling over $240,000. Scammer provided ongoing trading guidance and instructions. Platform likely displayed fake trading activity and profits to maintain victim engagement. Parallel romantic relationship maintained throughout to reinforce trust and compliance.",
+      "ttps": [
+        "T1657",
+        "T1565.001",
+        "T1027"
+      ]
+    },
+    {
+      "step": 5,
+      "phase": "Withdrawal Prevention & Additional Extraction Attempt",
+      "description": "When victim attempted to withdraw funds, platform demanded $275,000 payment - exceeding the victim's total investment. This massive withdrawal 'fee' was designed to extract additional funds. Victim wisely recognized the unreasonable demand and refused to pay.",
+      "ttps": [
+        "T1499",
+        "T1657"
+      ]
+    },
+    {
+      "step": 6,
+      "phase": "Scammer Abandonment",
+      "description": "After victim refused the $275,000 payment, the individual from the dating app stopped responding immediately. Complete ghosting confirmed the romantic relationship was entirely fraudulent. Scammer abandoned communication entirely when additional extraction failed.",
+      "ttps": [
+        "T1562.001"
+      ]
+    },
+    {
+      "step": 7,
+      "phase": "Infrastructure Shutdown & Complete Loss",
+      "description": "Platform stdubrye.top was shut down and is no longer operational. Victim unable to recover any of the $240,000+ invested. Complete infrastructure abandonment prevented any access to accounts or funds. Victim reported total loss to authorities.",
+      "ttps": [
+        "T1499",
+        "T1657"
+      ]
+    }
+  ],
+  "iocs": {
+    "domains": [
+      {
+        "domain": "stdubrye.top",
+        "type": "Fraudulent Crypto Trading Platform",
+        "status": "Inactive/Taken Down",
+        "description": "Primary fraudulent crypto trading platform used in this scam. .top TLD commonly associated with fraudulent operations due to low cost and lax registration requirements."
+      }
+    ],
+    "wallets": [],
+    "social_media": [
+      {
+        "platform": "Dating App (unspecified)",
+        "identifier": "Unknown account",
+        "description": "Dating app account used to establish romantic relationship with victim and direct them to fraudulent investment platform"
+      }
+    ],
+    "fake_entities": [
+      {
+        "name": "stdubrye.top crypto trading platform",
+        "type": "Fictitious Trading Platform",
+        "description": "Completely fraudulent crypto trading platform with no legitimate business operations. Designed solely to accept victim deposits and display fake trading activity."
+      }
+    ],
+    "behavioral_indicators": [
+      {
+        "indicator": "Romantic partner met on dating app discussing cryptocurrency investments",
+        "severity": "Critical",
+        "description": "Classic pig butchering initial vector - romance leading to investment opportunity"
+      },
+      {
+        "indicator": "Direction to open account on unknown/unverifiable crypto platform",
+        "severity": "Critical",
+        "description": "Victim directed to specific platform stdubrye.top with .top TLD"
+      },
+      {
+        "indicator": "All investment actions taken 'at the direction of' romantic partner",
+        "severity": "Critical",
+        "description": "Direct control and instruction pattern indicating manipulation"
+      },
+      {
+        "indicator": "Progressive deposits totaling $240,000+ over time",
+        "severity": "High",
+        "description": "Large cumulative investment through multiple transactions under scammer guidance"
+      },
+      {
+        "indicator": "Withdrawal attempt met with massive fee demand ($275,000)",
+        "severity": "Critical",
+        "description": "Withdrawal 'fee' exceeding total investment - classic pig butchering extraction attempt"
+      },
+      {
+        "indicator": "Romantic partner immediately stops responding after fee refusal",
+        "severity": "Critical",
+        "description": "Instant ghosting when additional extraction fails reveals fraudulent relationship"
+      },
+      {
+        "indicator": "Platform shutdown coinciding with scammer disappearance",
+        "severity": "Critical",
+        "description": "Coordinated abandonment of infrastructure and communications"
+      }
+    ]
+  },
+  "financial_impact": {
+    "total_loss": "$240,000+",
+    "victim_breakdown": [
+      {
+        "victim_id": "Victim 1",
+        "location": "California",
+        "amount_lost": "$240,000+",
+        "investment_period": "Progressive deposits over extended period (likely weeks to months)",
+        "withdrawal_attempts": "One withdrawal attempt met with $275,000 fee demand - victim refused to pay",
+        "platforms_used": [
+          "stdubrye.top"
+        ],
+        "additional_exposure": "Avoided additional loss of $275,000 by refusing to pay withdrawal fee"
+      }
+    ],
+    "cryptocurrency_flow": {
+      "deposit_method": "Victim deposited funds to stdubrye.top platform (likely via bank transfer to crypto exchange, then to platform)",
+      "platform_conversion": "Funds converted to cryptocurrency by platform",
+      "destination_wallets": "Unknown - not documented in case narrative",
+      "laundering_method": "Likely cryptocurrency mixing services or exchanges for further laundering"
+    }
+  },
+  "victim_profile": {
+    "count": 1,
+    "locations": [
+      "California, USA"
+    ],
+    "targeting_method": "Romantic relationship establishment via online dating app",
+    "common_characteristics": [
+      "Active on dating apps",
+      "Open to romantic relationships",
+      "Sufficient financial resources ($240,000+ investment capability)",
+      "Trust in romantic partner's financial guidance",
+      "Responsive to investment opportunities from trusted sources"
+    ]
+  },
+  "scammer_profile": {
+    "organization_level": "Individual or Small Group",
+    "sophistication": "Moderate to High",
+    "indicators": [
+      "Functional fraudulent trading platform",
+      "Extended victim engagement capability (weeks/months)",
+      "Parallel romantic and financial manipulation",
+      "Professional platform appearance",
+      "Direct victim control and guidance",
+      "Withdrawal prevention mechanisms",
+      "Coordinated ghosting and infrastructure shutdown"
+    ],
+    "personas_used": [
+      {
+        "name": "Unknown romantic interest",
+        "platform": "Dating App",
+        "target": "California victim",
+        "characteristics": "Romantic partner, crypto trading expert, investment mentor, direct instructor for all financial actions"
+      }
+    ],
+    "communication_channels": [
+      "Dating App messaging",
+      "Likely additional private messaging platforms"
+    ],
+    "likely_location": "International (offshore operation typical for pig butchering scams)",
+    "operational_duration": "Weeks to months (based on extended victim engagement and progressive deposits)"
+  },
+  "timeline": {
+    "earliest_known_activity": "Unknown (predates victim contact)",
+    "infrastructure_setup": "stdubrye.top domain registered and platform developed prior to victim contact",
+    "victim_timeline": {
+      "initial_contact": "Date unknown - Dating app contact and romantic relationship establishment",
+      "relationship_building": "Extended period of trust building through romantic relationship",
+      "investment_introduction": "Scammer introduced 'short-term crypto asset trading' concept",
+      "platform_onboarding": "Victim directed to open account on stdubrye.top",
+      "investment_period": "Progressive deposits made at scammer's direction totaling $240,000+",
+      "withdrawal_attempt": "Victim attempted to withdraw funds from platform",
+      "fee_demand": "Platform demanded $275,000 payment before allowing withdrawal",
+      "victim_refusal": "Victim refused to pay the $275,000 fee",
+      "scammer_ghosting": "Individual stopped responding on dating app",
+      "platform_shutdown": "stdubrye.top website no longer operational",
+      "total_loss": "$240,000+ unrecoverable",
+      "reporting": "Victim reported scam to authorities"
+    },
+    "infrastructure_shutdown": "stdubrye.top taken offline following scam completion",
+    "current_status": "Platform inactive, scammer disappeared, investigation ongoing"
+  },
+  "recommendations": {
+    "immediate_actions": [
+      "Add stdubrye.top to domain blocklists and reputation databases",
+      "Issue warnings about dating app + crypto investment scam pattern",
+      "Coordinate with dating platforms to identify and remove scammer accounts",
+      "Investigate domain registration and hosting for stdubrye.top",
+      "Attempt blockchain analysis if victim transaction data available",
+      "Public warning about .top domains and crypto trading platforms"
+    ],
+    "victim_support": [
+      "Report to FBI IC3 (Internet Crime Complaint Center)",
+      "Report to FTC (Federal Trade Commission)",
+      "Report to local law enforcement and California Attorney General",
+      "Report to dating app platform for account investigation",
+      "Document all evidence: dating app conversations, platform screenshots, transaction records",
+      "Consult with cryptocurrency asset recovery specialists (vet carefully)",
+      "Consider psychological counseling for dual victimization (romance + financial)",
+      "Claim tax deduction for investment fraud losses if applicable"
+    ],
+    "prevention_measures": [
+      "Public awareness campaigns on dating app + crypto investment scams",
+      "Education on pig butchering tactics involving romantic relationships",
+      "Dating app user warnings when financial discussions detected",
+      "Cryptocurrency exchange warnings for deposits to unknown platforms",
+      "Financial institution monitoring for large crypto purchase patterns",
+      "Browser warnings for .top domains claiming to be trading platforms",
+      "Verification requirements for all crypto trading platforms"
+    ],
+    "detection_indicators": [
+      "Romantic partner on dating app discussing cryptocurrency investments",
+      "Recommendations to invest on specific unknown platforms",
+      "Direct instructions for all financial actions ('at the direction of')",
+      "Unknown platforms using suspicious TLDs like .top",
+      "Withdrawal attempts met with large fee demands",
+      "Withdrawal fees exceeding total investment amount",
+      "Romantic partner disappearing when fees refused",
+      "Platform shutdown coinciding with communication cessation"
+    ],
+    "law_enforcement_priorities": [
+      "Domain registration and hosting investigation for stdubrye.top",
+      "Dating app cooperation for scammer account identification",
+      "Blockchain forensics if victim transaction data available",
+      "International cooperation for offshore operation tracking",
+      "Pattern analysis to identify additional victims",
+      "Asset recovery efforts if wallet addresses identified",
+      "Prosecution of identified perpetrators"
+    ]
+  },
+  "mitre_attack_mapping": {
+    "tactics": [
+      "Initial Access",
+      "Execution",
+      "Persistence",
+      "Defense Evasion",
+      "Collection",
+      "Command and Control",
+      "Impact"
+    ],
+    "technique_summary": {
+      "total_techniques": 13,
+      "by_tactic": {
+        "Initial Access": 2,
+        "Execution": 1,
+        "Persistence": 2,
+        "Defense Evasion": 2,
+        "Collection": 1,
+        "Command and Control": 2,
+        "Impact": 3
+      }
+    }
+  },
+  "confidence_level": "High",
+  "confidence_justification": "Analysis based on clear victim report with specific domain name (stdubrye.top), documented financial loss ($240,000+), specific extraction attempt ($275,000 fee demand), and clear scam pattern including dating app origin, romantic relationship, crypto investment, withdrawal prevention, scammer ghosting, and platform shutdown. Case reported to authorities with substantial evidence of pig butchering scam tactics.",
+  "analyst_notes": "This case exemplifies a classic romance-based pig butchering scam with several notable characteristics: (1) Dating app as initial attack vector establishing romantic relationship, (2) Direct control pattern - victim acted 'at the direction of the individual' throughout, (3) Significant financial loss of $240,000+, (4) Excessive withdrawal fee demand ($275,000) exceeding the victim's total investment, (5) Victim's critical smart decision to refuse the $275,000 payment prevented additional loss, (6) Immediate scammer ghosting when extraction failed confirmed fraudulent nature of relationship, (7) Coordinated platform shutdown (stdubrye.top no longer operational), (8) Use of .top TLD consistent with fraud patterns. The victim's refusal to pay the excessive withdrawal fee was crucial in preventing an additional $275,000 loss, demonstrating the importance of recognizing that withdrawal fees exceeding investments are always fraudulent. The immediate cessation of communication after fee refusal starkly revealed the relationship was entirely fabricated for financial exploitation. No wallet addresses documented, limiting blockchain analysis opportunities. This case should be used for public awareness about the dating app + crypto investment scam pattern that exploits both romantic and financial vulnerabilities."
+}

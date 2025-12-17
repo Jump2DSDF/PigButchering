@@ -1,0 +1,311 @@
+{
+  "case_metadata": {
+    "pb_case_id": 77,
+    "original_case_id": 178,
+    "analysis_date": "2025-12-17",
+    "case_status": "completed_analysis",
+    "victim_location": "California, USA",
+    "primary_subject": "Bullish Dot / Bullish-dot.com"
+  },
+  "scam_classification": {
+    "primary_type": "Pig Butchering Scam",
+    "secondary_types": [
+      "Fraudulent Trading Platform",
+      "Investment Scam"
+    ],
+    "scam_variant": "Quick Exit Scam",
+    "sophistication_level": "Medium"
+  },
+  "initial_contact": {
+    "method": "Online Platform",
+    "platform": "Unspecified (likely social media or messaging app)",
+    "contact_initiator": "Scammer (Le)",
+    "approach_type": "Social/Friendship with investment opportunity",
+    "persona_type": "Affluent individual investor",
+    "persona_details": {
+      "name": "Le",
+      "claimed_location": "Beverly Hills, California, USA",
+      "gender": "Not specified",
+      "background": "Implied wealth and success",
+      "characteristics": "Local California resident, investment savvy"
+    },
+    "relationship_building": "Online friendship/acquaintance",
+    "communication_channels": [
+      "Online platform (unspecified)",
+      "Trading platform website"
+    ]
+  },
+  "trust_building_tactics": {
+    "legitimacy_indicators": [
+      "Beverly Hills residence claim",
+      "Geographic proximity (both in California)",
+      "Personal connection before investment pitch",
+      "Professional trading platform recommendation",
+      "Name suggesting international sophistication"
+    ],
+    "social_engineering": [
+      "Wealth association (Beverly Hills)",
+      "Local connection building",
+      "Shared interest in cryptocurrency",
+      "Personal recommendation trust",
+      "Online relationship development"
+    ],
+    "time_invested": "Not specified (appears relatively short)",
+    "relationship_type": "Online friendship/acquaintance"
+  },
+  "platform_details": {
+    "platform_name": "Bullish Dot",
+    "platform_type": "Fraudulent crypto trading platform",
+    "domains": [
+      "bullish-dot.com"
+    ],
+    "urls": [
+      "https://bullish-dot.com/"
+    ],
+    "current_status": "Offline/Defunct",
+    "platform_features": [
+      "Cryptocurrency deposit capability",
+      "Account balance display",
+      "Ethereum trading/holding",
+      "Trading interface (implied)"
+    ],
+    "apparent_functionality": "Functional deposit and balance tracking",
+    "technical_infrastructure": "Basic crypto trading platform"
+  },
+  "financial_details": {
+    "total_loss_usd": 10000,
+    "initial_investment_usd": 10000,
+    "additional_fees_demanded_usd": 0,
+    "additional_fees_paid_usd": 0,
+    "amount_recovered_usd": 0,
+    "cryptocurrency_types": [
+      "Ethereum (ETH)"
+    ],
+    "cryptocurrency_amounts": [
+      {
+        "currency": "ETH",
+        "value_usd": 10000,
+        "note": "Exact ETH amount depends on market price at time of transfer"
+      }
+    ],
+    "payment_methods": [
+      "Ethereum cryptocurrency transfer"
+    ],
+    "investment_timeline": "Not specified",
+    "withdrawal_blocked": true
+  },
+  "investment_phase": {
+    "initial_deposit": {
+      "amount_usd": 10000,
+      "method": "Ethereum transfer to platform",
+      "encouraged_by": "Personal recommendation from Le"
+    },
+    "profit_demonstration": {
+      "method": "Platform balance display (implied)",
+      "apparent_gains": "Not specified",
+      "victim_allowed_trading": "Not specified",
+      "fabricated_returns": "Possible but not detailed"
+    },
+    "escalation_tactics": [
+      "Personal recommendation from trusted contact",
+      "Platform functionality appearance"
+    ]
+  },
+  "withdrawal_blocking": {
+    "trigger_event": "Victim attempted to withdraw Ethereum",
+    "victim_action": "Withdrawal attempt",
+    "blocking_mechanism": "Technical prevention of withdrawals",
+    "fees_demanded": [],
+    "pressure_tactics": [
+      "Platform withdrawal functionality blocked",
+      "No customer support response",
+      "Contact Le became unresponsive"
+    ],
+    "communication_escalation": "Communication cessation (ghosting)"
+  },
+  "red_flags": [
+    "Met contact only through online platforms",
+    "Beverly Hills residence claim unverifiable",
+    "Unknown/unregulated trading platform",
+    "Platform not listed on legitimate exchange directories",
+    "Direct personal recommendation for investment",
+    "Unable to withdraw deposited cryptocurrency",
+    "Platform went completely offline",
+    "Contact Le became unresponsive",
+    "No customer support availability",
+    "No regulatory oversight or licensing",
+    "Quick platform shutdown after deposit",
+    "Domain name not associated with legitimate exchange"
+  ],
+  "scammer_infrastructure": {
+    "domains_identified": [
+      "bullish-dot.com"
+    ],
+    "hosting_info": "Not available",
+    "registration_info": "Not available",
+    "communication_tools": [
+      "Online platform (unspecified)",
+      "Trading platform website"
+    ],
+    "scammer_personas": [
+      {
+        "name": "Le",
+        "claimed_location": "Beverly Hills, California",
+        "role": "Introducer/relationship builder"
+      }
+    ],
+    "phone_numbers": "Not specified",
+    "email_addresses": "Not specified"
+  },
+  "crypto_wallets": {
+    "identified_addresses": [],
+    "blockchain_networks": [
+      "Ethereum"
+    ],
+    "note": "No specific wallet addresses provided in case narrative. Victim transferred ETH to platform-controlled wallet(s)."
+  },
+  "outcome": {
+    "victim_realized_scam": true,
+    "realization_trigger": "Unable to withdraw funds and platform shutdown",
+    "platform_shutdown": true,
+    "funds_recovered": false,
+    "law_enforcement_contacted": true,
+    "case_reported_to": "California authorities (implied)",
+    "scammer_identified": false,
+    "scammer_prosecuted": false
+  },
+  "ttp_summary": {
+    "initial_contact_ttp": [
+      "Online platform meeting",
+      "Casual friendship development",
+      "Geographic proximity claim",
+      "Beverly Hills wealth association"
+    ],
+    "trust_building_ttp": [
+      "Local California connection",
+      "Personal relationship before investment pitch",
+      "Affluent location claim",
+      "Name suggesting sophistication"
+    ],
+    "platform_operation_ttp": [
+      "Crypto trading platform with trading terminology name",
+      "Ethereum deposit functionality",
+      "Account balance display",
+      "Professional-appearing website"
+    ],
+    "investment_extraction_ttp": [
+      "Single significant investment ($10,000 ETH)",
+      "Personal recommendation from Le",
+      "Direct platform introduction",
+      "Quick deposit encouragement"
+    ],
+    "withdrawal_blocking_ttp": [
+      "Technical withdrawal prevention",
+      "No customer support response",
+      "Contact ghosting",
+      "Platform functionality disabled"
+    ],
+    "exit_strategy_ttp": [
+      "Clean exit scam without fee extraction",
+      "Complete platform shutdown",
+      "Communication cessation",
+      "Quick operation and exit",
+      "Domain taken offline"
+    ]
+  },
+  "victim_vulnerabilities": [
+    "Trust in online contact Le",
+    "Belief in Beverly Hills residence legitimacy",
+    "Interest in cryptocurrency investment",
+    "Confidence from personal recommendation",
+    "California local connection trust",
+    "Desire for investment returns",
+    "Lack of due diligence on platform",
+    "Trust in platform functionality"
+  ],
+  "unique_characteristics": [
+    "Ethereum specifically targeted",
+    "Beverly Hills residence claim",
+    "No withdrawal fee demands (clean exit)",
+    "Lower loss amount ($10,000)",
+    "Quick operation without extended grooming",
+    "Simple withdrawal block without fee schemes",
+    "Geographic proximity trust building",
+    "Relatively streamlined scam execution"
+  ],
+  "iocs": {
+    "domains": [
+      "bullish-dot.com"
+    ],
+    "urls": [
+      "https://bullish-dot.com/"
+    ],
+    "scammer_names": [
+      "Le"
+    ],
+    "claimed_locations": [
+      "Beverly Hills, California, USA"
+    ],
+    "platform_names": [
+      "Bullish Dot"
+    ]
+  },
+  "recommendations": {
+    "prevention": [
+      "Verify cryptocurrency exchange legitimacy on CoinMarketCap or CoinGecko",
+      "Only use regulated and well-known exchanges",
+      "Be suspicious of personal investment recommendations from online contacts",
+      "Verify claimed residences and identities independently",
+      "Research platform domain age and reviews",
+      "Check for regulatory licenses and compliance",
+      "Never send cryptocurrency to unknown platforms",
+      "Test small amounts before large investments"
+    ],
+    "detection": [
+      "Check if platform is listed on legitimate exchange directories",
+      "Verify domain registration and age",
+      "Test withdrawal functionality with small amounts first",
+      "Research platform reviews and scam databases",
+      "Verify contact's identity through video calls",
+      "Check for customer support responsiveness",
+      "Look for regulatory compliance information"
+    ],
+    "response": [
+      "Report to FBI IC3 immediately",
+      "File complaint with FTC and SEC",
+      "Contact Ethereum blockchain analytics firms",
+      "Document all communications with Le",
+      "Report domain to hosting providers and registrars",
+      "Share case with crypto anti-fraud organizations",
+      "Consult with cryptocurrency fraud attorney",
+      "Report to California Department of Business Oversight"
+    ]
+  },
+  "timeline_analysis": {
+    "estimated_duration": "Short-term operation (weeks to months)",
+    "grooming_phase": "Brief (appears shorter than typical pig butchering)",
+    "investment_phase": "Quick deposit after introduction",
+    "withdrawal_block_phase": "Immediate upon withdrawal attempt",
+    "exit_phase": "Rapid platform shutdown",
+    "total_estimated_duration": "Likely less than 3 months"
+  },
+  "comparison_to_typical_pig_butchering": {
+    "similarities": [
+      "Online contact and relationship building",
+      "Fraudulent trading platform",
+      "Cryptocurrency investment",
+      "Withdrawal blocking",
+      "Complete loss of funds",
+      "Platform shutdown"
+    ],
+    "differences": [
+      "Shorter grooming period",
+      "No withdrawal fee demands",
+      "Lower loss amount",
+      "Clean exit scam vs extended fee extraction",
+      "No romantic relationship emphasis",
+      "Quick operation timeline",
+      "Single-phase investment vs multiple rounds"
+    ]
+  }
+}

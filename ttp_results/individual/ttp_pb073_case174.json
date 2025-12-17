@@ -1,0 +1,346 @@
+{
+  "case_id": "pb073_case174",
+  "pb_case_id": 73,
+  "original_case_id": 174,
+  "case_name": "SEIKUM Fraudulent Trading Platform",
+  "financial_loss": 3000.00,
+  "fake_balance_shown": 10000.00,
+  "additional_fees_demanded": 2500.00,
+  "additional_fees_paid": 0.00,
+  "victim_location": "California, United States",
+  "scam_classification": [
+    "Fraudulent Trading Platform",
+    "Pig Butchering Scam"
+  ],
+  "threat_actor_profile": {
+    "sophistication_level": "High",
+    "team_based": true,
+    "team_size_minimum": 2,
+    "target_demographics": "Individuals with investment capital, crypto-interested",
+    "geographic_focus": "United States (California confirmed)",
+    "language": "English",
+    "operational_pattern": "Coordinated multi-person operation with defined roles"
+  },
+  "attack_chain": {
+    "initial_contact": {
+      "method": "Phone call",
+      "platform": "Telephone",
+      "persona": "Leonid - investment representative",
+      "social_engineering": "Professional business approach with investment opportunity"
+    },
+    "trust_building": {
+      "relationship_type": "Professional investment advisory",
+      "duration": "Not specified",
+      "techniques": [
+        "Multi-person team approach",
+        "Various company 'analysts' providing proposals",
+        "Formal investment contracts",
+        "Professional company structure",
+        "Big profit promises",
+        "Coordinated team effort appearing as legitimate company"
+      ],
+      "key_actors": [
+        "Leonid (initial contact)",
+        "Various analysts (follow-up contacts)"
+      ]
+    },
+    "platform_introduction": {
+      "platform_name": "SEIKUM",
+      "platform_type": "Fraudulent crypto trading platform",
+      "platform_urls": [
+        "https://trade.platform-seikum.org/",
+        "https://trade.platform-seikum.org/finances/history",
+        "https://Seikum.com",
+        "Seikum.org"
+      ],
+      "platform_status": "Offline/defunct",
+      "legitimacy_indicators": [
+        "Multiple associated domains",
+        "Professional subdomain structure",
+        "Functional trading interface",
+        "Finance history tracking",
+        "Account system with authentication",
+        "HTTPS/SSL certificates"
+      ]
+    },
+    "investment_phase": {
+      "initial_deposit": 3000.00,
+      "total_deposits": 3000.00,
+      "investment_narrative": "Crypto asset investment with company analysts' guidance",
+      "promised_returns": "Big profits",
+      "fake_profits_shown": true,
+      "fake_balance_displayed": 10000.00,
+      "fake_profit_amount": 7000.00,
+      "return_percentage_shown": 233.33
+    },
+    "withdrawal_prevention": {
+      "attempted_withdrawal": true,
+      "barriers_encountered": [
+        "Account frozen",
+        "Blockchain commissions fee demanded"
+      ],
+      "additional_fees_requested": [
+        {
+          "fee_type": "Blockchain commissions",
+          "amount": 2500.00,
+          "justification": "Required to unfreeze account and access funds",
+          "paid": false
+        }
+      ],
+      "deduction_from_balance_offered": false
+    },
+    "exit_strategy": {
+      "method": "Platform shutdown after victim refused additional fees",
+      "status": "Website no longer operational"
+    }
+  },
+  "technical_indicators": {
+    "websites": [
+      {
+        "url": "https://trade.platform-seikum.org/",
+        "status": "Offline",
+        "purpose": "Primary trading platform interface"
+      },
+      {
+        "url": "https://trade.platform-seikum.org/finances/history",
+        "status": "Offline",
+        "purpose": "Finance history tracking page"
+      },
+      {
+        "url": "https://Seikum.com",
+        "status": "Offline",
+        "purpose": "Primary brand domain"
+      },
+      {
+        "url": "https://Seikum.org",
+        "status": "Offline",
+        "purpose": "Alternative brand domain"
+      }
+    ],
+    "domains": [
+      "trade.platform-seikum.org",
+      "platform-seikum.org",
+      "Seikum.com",
+      "Seikum.org"
+    ],
+    "cryptocurrency_addresses": [],
+    "communication_platforms": [
+      "Telephone"
+    ],
+    "fake_tokens": [],
+    "apps": [],
+    "email_addresses": [],
+    "phone_numbers": [
+      {
+        "purpose": "Used by 'Leonid' and analysts to contact victim",
+        "details": "Specific number(s) not provided in narrative"
+      }
+    ]
+  },
+  "social_engineering_tactics": [
+    "Phone-based cold calling or targeted outreach",
+    "Multi-person coordinated team approach",
+    "Professional company structure and roles",
+    "Formal investment proposals and contracts",
+    "Multiple 'analyst' contacts for credibility",
+    "Big profit promises",
+    "Technical-sounding justifications (blockchain commissions)",
+    "Account freezing to create urgency",
+    "Fee demand to access own funds"
+  ],
+  "red_flags": [
+    "Unsolicited phone call about investment opportunity",
+    "Multiple company representatives all pushing same platform",
+    "Big profit promises with low risk",
+    "Unregulated trading platform",
+    "Multiple domains for same company (redundancy suggests temporary)",
+    "Over 233% returns shown quickly",
+    "Account frozen upon withdrawal attempt",
+    "Blockchain commissions fee (not a real thing)",
+    "$2,500 fee (25% of balance) to withdraw",
+    "Cannot deduct fee from existing balance",
+    "Must pay new funds to access own money",
+    "Website shut down after fee refusal"
+  ],
+  "victim_vulnerabilities_exploited": [
+    "Interest in cryptocurrency investment",
+    "Trust in professional-appearing company structure",
+    "Belief in multiple expert analysts",
+    "Limited understanding of blockchain technology",
+    "Greed/desire for big profits",
+    "Sunk cost fallacy (already invested $3,000)",
+    "Fear of losing displayed $10,000 balance"
+  ],
+  "impersonated_entities": [],
+  "timeline": {
+    "initial_contact": "Not specified - phone call from Leonid",
+    "analyst_contacts": "Not specified - various analysts reached out after Leonid",
+    "first_investment": "Not specified",
+    "balance_growth_period": "Not specified",
+    "withdrawal_attempt": "Not specified",
+    "account_freeze": "Upon withdrawal attempt",
+    "fee_demand": "After account freeze",
+    "total_duration": "Not specified",
+    "platform_shutdown": "After victim refused to pay fees (current status: offline)"
+  },
+  "investigation_leads": {
+    "blockchain_addresses": [],
+    "domains_for_analysis": [
+      "trade.platform-seikum.org",
+      "platform-seikum.org",
+      "Seikum.com",
+      "Seikum.org"
+    ],
+    "phone_numbers": [
+      "Number(s) used by Leonid",
+      "Number(s) used by various analysts"
+    ],
+    "documents": [
+      "Investment proposals provided to victim",
+      "Contracts provided to victim"
+    ],
+    "connected_cases": [
+      "Other 'blockchain commissions' fee scams",
+      "Other Seikum-branded scams",
+      "Other phone-based crypto investment scams"
+    ],
+    "additional_leads": [
+      "Call detail records if available",
+      "Server hosting information",
+      "Domain registration records",
+      "Payment processor information"
+    ]
+  },
+  "defensive_recommendations": [
+    "Be highly skeptical of unsolicited investment phone calls",
+    "Research investment companies through regulatory databases (SEC, FINRA, FinCEN)",
+    "Verify company legitimacy through official channels, not provided contact info",
+    "Question why legitimate investment company would cold-call strangers",
+    "Be wary when multiple company representatives all push same opportunity",
+    "Understand that blockchain transactions have network fees, not percentage commissions",
+    "Never pay fees to access your own funds",
+    "Recognize account freezing as manipulation tactic",
+    "Always test withdrawals with small amounts before large deposits",
+    "Check domain registration age and details",
+    "Verify company physical address and regulatory licensing",
+    "Be suspicious of guaranteed or 'big' profit promises",
+    "Get second opinions from independent financial advisors",
+    "Understand legitimate platforms deduct fees from balance, don't require new payments"
+  ],
+  "ttps": {
+    "initial_access": {
+      "technique": "Phone-Based Outreach",
+      "platforms": ["Telephone"],
+      "description": "Person named Leonid called victim about investment opportunity with Seikum"
+    },
+    "social_engineering": {
+      "techniques": [
+        {
+          "name": "Professional Company Impersonation",
+          "description": "Presented Seikum as legitimate crypto asset company with multiple employees"
+        },
+        {
+          "name": "Multi-Person Coordination",
+          "description": "Leonid made initial contact, then various 'analysts' followed up with proposals"
+        },
+        {
+          "name": "Formal Documentation",
+          "description": "Provided investment proposals and contracts to appear legitimate"
+        },
+        {
+          "name": "Authority and Expertise",
+          "description": "Multiple 'analysts' provided expert-sounding investment advice"
+        },
+        {
+          "name": "Fake Profit Display",
+          "description": "Showed balance growing from $3,000 to over $10,000"
+        },
+        {
+          "name": "Technical Intimidation",
+          "description": "Used 'blockchain commissions' terminology to justify fee"
+        }
+      ]
+    },
+    "infrastructure": {
+      "websites": [
+        {
+          "url": "https://trade.platform-seikum.org/",
+          "purpose": "Fraudulent trading platform",
+          "sophistication": "High - functional trading, account system, finance tracking"
+        }
+      ],
+      "domains": [
+        "Seikum.com",
+        "Seikum.org",
+        "platform-seikum.org"
+      ],
+      "communication": [
+        {
+          "platform": "Telephone",
+          "purpose": "Initial contact and ongoing communication with victim"
+        }
+      ]
+    },
+    "fund_extraction": {
+      "method": "Deposits to fraudulent trading platform",
+      "total_extracted": 3000.00,
+      "currency": "USD",
+      "attempted_additional_extraction": 2500.00,
+      "additional_extraction_success": false
+    },
+    "persistence": {
+      "technique": "Fake profit display and multiple team members maintaining engagement",
+      "description": "Showed growing balance and had various analysts continue engagement to maintain victim interest"
+    },
+    "evasion": {
+      "techniques": [
+        "Multi-domain infrastructure for redundancy",
+        "Platform shutdown after failed additional extraction",
+        "Professional appearance to delay suspicion",
+        "Technical jargon to confuse victim",
+        "Team-based approach makes investigation more complex"
+      ]
+    }
+  },
+  "mitre_attack_mapping": {
+    "initial_access": [
+      "T1566 - Phishing (Voice/Vishing variant)"
+    ],
+    "execution": [
+      "User-initiated deposits to fraudulent platform"
+    ],
+    "persistence": [
+      "Multi-person engagement",
+      "Fake profit display maintaining interest"
+    ],
+    "defense_evasion": [
+      "T1070.004 - Indicator Removal on Host (Website shutdown)",
+      "T1027 - Obfuscated Files or Information (Technical jargon)",
+      "T1535 - Unused/Unsupported Cloud Regions (Multiple domains)"
+    ],
+    "credential_access": [
+      "Platform account credentials"
+    ],
+    "collection": [
+      "T1530 - Data from Cloud Storage Object (Cryptocurrency deposits)",
+      "User account information"
+    ],
+    "impact": [
+      "T1499 - Endpoint Denial of Service (Account freeze, platform shutdown)",
+      "T1657 - Financial Theft"
+    ]
+  },
+  "metadata": {
+    "report_source": "California resident complaint",
+    "analysis_date": "2025-12-17",
+    "analyst_notes": "Sophisticated multi-person operation combining phone-based fraud with crypto platform scam. Notable for phone-based initial contact (unusual for pig butchering). Team coordination with Leonid and various 'analysts' creates professional company appearance. Formal contracts and proposals add legitimacy. Blockchain commissions fee is fake concept designed to extract additional funds. Victim showed good judgment refusing to pay additional $2,500. Multi-domain infrastructure indicates organized operation with resources.",
+    "severity": "High",
+    "confidence": "High",
+    "unique_elements": [
+      "Phone-based initial contact",
+      "Multi-person coordinated team",
+      "Formal investment contracts and proposals",
+      "Blockchain commissions terminology"
+    ]
+  }
+}

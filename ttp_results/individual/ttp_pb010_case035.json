@@ -1,0 +1,80 @@
+{
+  "case_id": 35,
+  "approach_and_lure": {
+    "initial_contact_platform": [
+      "online_platform_unspecified"
+    ],
+    "lure_type": [
+      "investment_opportunity"
+    ],
+    "communication_migration": "trading_platform_direct"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Licensed broker representing Amundi investment firm",
+      "wealth_indicators": [
+        "institutional_affiliation",
+        "margin_lending_capability",
+        "access_to_trading_platform",
+        "professional_credentials"
+      ],
+      "relationship_type": "company_representative"
+    },
+    "psychological_tactics": [
+      "authority",
+      "trust_building",
+      "reciprocity",
+      "fear_of_missing_out",
+      "sunk_cost_exploitation",
+      "urgency"
+    ],
+    "trust_building_period": "Brief period (estimated days to 2 weeks) - professional pitch requires less relationship building"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": [
+      "Amundi TM",
+      "Amundi Ltd"
+    ],
+    "platform_urls": [
+      "https://www.amundi-ltd.info/",
+      "amundi-ltd.com"
+    ],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "margin_loan_repayment_demand",
+      "external_wire_transfer_required",
+      "refusal_to_deduct_from_account_balance"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": [],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": null,
+    "payment_methods": [
+      "wire_transfer_demanded_not_completed",
+      "initial_payment_method_unknown"
+    ]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Estimated 3-6 weeks (fast-burn professional variant)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.7,
+    "missing_information": [
+      "initial_investment_amount",
+      "margin_loan_amount",
+      "margin_repayment_demand_amount",
+      "initial_payment_method",
+      "cryptocurrency_involvement",
+      "wallet_addresses",
+      "transaction_hashes",
+      "specific_initial_contact_platform",
+      "exact_scam_duration",
+      "communication_records"
+    ],
+    "notes": "Sophisticated professional broker impersonation variant using brand hijacking (legitimate Amundi company). Unique TTP: margin loan trap - offering institutional-style margin lending, then demanding external repayment despite fake profits displayed. Victim demonstrated good judgment by refusing illogical wire transfer demand. Fast-burn variant (3-6 weeks) vs typical romance-based scams (months). No explicit cryptocurrency mention - may be traditional securities fraud angle. Platform defunct. Strong operational TTP profile but weak financial tracking data. Case highlights evolution of pig butchering from romance-based to professional investment scams targeting different demographics."
+  }
+}

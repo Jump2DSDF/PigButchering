@@ -1,0 +1,360 @@
+{
+  "verification_report": {
+    "generated_at": "2025-12-18",
+    "verification_method": "Blockchain Explorer API Queries",
+    "sources": ["Etherscan.io", "Blockchain.info API"]
+  },
+  "summary": {
+    "total_wallets_verified": 25,
+    "ethereum_verified": 18,
+    "bitcoin_verified": 6,
+    "xrp_pending": 1,
+    "all_addresses_valid": true,
+    "total_btc_volume_tracked": "20.85+ BTC",
+    "total_eth_transactions": "2700+",
+    "total_btc_transactions": "732",
+    "key_exchange_connections": ["Robinhood", "HTX", "Binance", "Coinbase", "OKX", "ByBit", "Crypto.com", "Bitget", "Coins.ph"]
+  },
+  "ethereum_wallets_verified": [
+    {
+      "address": "0xba909bd6cd78bd9ba9c491d400821ff2bedd003b",
+      "case": "pb_133",
+      "status": "VERIFIED",
+      "balance": "0 ETH",
+      "transaction_count": 11,
+      "first_tx": "2023-02-17",
+      "last_tx": "2023-06-23",
+      "activity_period": "~4 months",
+      "notes": "Dormant. Connected to 0x270740c5... for transfers."
+    },
+    {
+      "address": "0xb1ee662001a0247270b282e03cfc0c86642babec",
+      "case": "pb_018",
+      "status": "VERIFIED",
+      "balance": "0.00014 ETH (~$0.40)",
+      "transaction_count": 304,
+      "first_tx": "2025-04-02",
+      "last_tx": "2025-06-14",
+      "multichain_portfolio": "$14.66 (Base chain)",
+      "notes": "HIGH ACTIVITY. Coinbase withdrawal patterns detected."
+    },
+    {
+      "address": "0xd33F76dA78669B41ABcb98234Abb887bFe2D4F0a",
+      "case": "pb_165",
+      "status": "VERIFIED",
+      "balance": "0.000141 ETH (~$0.40)",
+      "transaction_count": 236,
+      "first_tx": "~2021-03 (3 yrs 93 days ago)",
+      "last_tx": "2023-02-22",
+      "notes": "OKX transfers detected. Moderate historical activity."
+    },
+    {
+      "address": "0xC834a7EF0337F939219Ea1B05f2248DE7d809aB4",
+      "case": "pb_166",
+      "status": "VERIFIED",
+      "balance": "0 ETH",
+      "token_holdings": "$0.95 (SHIB)",
+      "transaction_count": 213,
+      "first_tx": "~2023 (1 yr 363 days ago)",
+      "last_tx": "2025-01-25",
+      "notes": "ByBit deposits, THORChain, Across Protocol interactions."
+    },
+    {
+      "address": "0x7630B16b5456075a2B8474B94e7950A917A251B9",
+      "case": "pb_160",
+      "status": "VERIFIED",
+      "balance": "0.0053 ETH (~$15)",
+      "transaction_count": 17,
+      "first_tx": "2024-01-22",
+      "last_tx": "2025-07-14",
+      "notes": "Active wallet with USDT interactions."
+    },
+    {
+      "address": "0x1Bab6ae69Cbcd31e11dccC92b5346B320e5d619C",
+      "case": "pb_149",
+      "status": "VERIFIED",
+      "balance": "0 ETH",
+      "transaction_count": 56,
+      "first_tx": "~2022 (2 yrs 20 days ago)",
+      "last_tx": "2024-07-08",
+      "notes": "OKX funded. Inactive ~1 year."
+    },
+    {
+      "address": "0xc0818387a81Bea766C9038F961C1ae7b2342106b",
+      "case": "pb_168",
+      "status": "VERIFIED",
+      "balance": "0.00048 ETH (~$1.37)",
+      "transaction_count": 30,
+      "first_tx": "2024-02-13",
+      "last_tx": "2024-03-20",
+      "notes": "HIGH ACTIVITY. Binance, Crypto.com, Coins.ph interactions."
+    },
+    {
+      "address": "0x83cA775F45Ca6E979414e71B10F49ac7685aFEde",
+      "case": "pb_126",
+      "status": "VERIFIED",
+      "balance": "0 ETH",
+      "token_holdings": "$0.44 (1INCH tokens)",
+      "transaction_count": 173,
+      "first_tx": "~2021 (3 yrs 178 days ago)",
+      "last_tx": "2023-10-12",
+      "notes": "Binance funded. Inactive ~2 years."
+    },
+    {
+      "address": "0xB10ABECA64cf19d37c45045a5851BB528fB21E47",
+      "case": "pb_008",
+      "status": "VERIFIED",
+      "balance": "0 ETH",
+      "transaction_count": 1364,
+      "first_tx": "~2023-10 (1 yr 68 days ago)",
+      "last_tx": "2025-01-02",
+      "notes": "VERY HIGH ACTIVITY (1364 txns). Recent activity."
+    },
+    {
+      "address": "0xa5fe0f74911715f5d6290d39da823c8e15986554",
+      "case": "pb_018",
+      "status": "VERIFIED",
+      "balance": "0.00066 ETH (~$1.86)",
+      "token_holdings": "$9,240.80 (9,244 USDC)",
+      "transaction_count": 238,
+      "first_tx": "~2024-10 (288 days ago)",
+      "last_tx": "2025-05-31",
+      "notes": "HIGH VALUE TOKEN HOLDINGS. Active DeFi wallet."
+    },
+    {
+      "address": "0xe89107246a3808602ad4946f485ec4bad51045b7",
+      "case": "pb_019",
+      "status": "VERIFIED",
+      "balance": "0.000063 ETH (~$0.18)",
+      "transaction_count": 5,
+      "first_tx": "2025-05-16",
+      "last_tx": "2025-06-25",
+      "notes": "Low activity. Recent wallet."
+    },
+    {
+      "address": "0x0BFE55CbaB96AC7c9e6f2995D7BE9356fC5a9639",
+      "case": "pb_023",
+      "status": "VERIFIED",
+      "balance": "0 ETH",
+      "token_holdings": "$1.00 (USDC)",
+      "transaction_count": 97,
+      "first_tx": "~2023-10 (1 yr 191 days ago)",
+      "last_tx": "2025-05-04",
+      "notes": "Multichain activity (BSC-USD on BNB Chain)."
+    },
+    {
+      "address": "0xcd184922133e42fd6bc0d07187de4bcb9b3f3242",
+      "case": "pb_150",
+      "status": "VERIFIED",
+      "balance": "~0 ETH",
+      "transaction_count": 14,
+      "first_tx": "2024-03-14",
+      "last_tx": "2024-03-28",
+      "notes": "CRITICAL: Funded by Robinhood. 2-week activity window. Connected to 0x1F973636..."
+    },
+    {
+      "address": "0x1F973636c97d8775024E5965a7C709a28442beEb",
+      "case": "pb_150 (traced)",
+      "status": "VERIFIED",
+      "balance": "~0 ETH",
+      "transaction_count": 121,
+      "first_tx": "~2022 (2 yrs 39 days ago)",
+      "last_tx": "~2023 (1 yr 236 days ago)",
+      "notes": "CRITICAL: Funded by HTX exchange. Received from pb_150 primary address."
+    },
+    {
+      "address": "0x6DfbdCadf54dF4c29C6BF34fedD24d27096f245D",
+      "case": "pb_160",
+      "status": "VERIFIED",
+      "balance": "0 ETH",
+      "transaction_count": 25,
+      "first_tx": "2024-01-22",
+      "last_tx": "2025-05-24",
+      "notes": "CRITICAL: Sent 0.157 ETH to Binance deposit. Exchange cashout detected."
+    },
+    {
+      "address": "0xe9B5aAD40cC30F82343CDC8F7c947Bb30DADAe1C",
+      "case": "pb_100",
+      "status": "VERIFIED",
+      "balance": "0.0326 ETH (~$92.42)",
+      "transaction_count": 10,
+      "first_tx": "2024-06-18",
+      "last_tx": "2024-09-27",
+      "notes": "CRITICAL: Funded by Robinhood (1.4 ETH). Also received from Crypto.com."
+    },
+    {
+      "address": "0xcb116E1d9d4a794a31D51a525Ff1832Ab3f20C28",
+      "case": "pb_113",
+      "status": "VERIFIED",
+      "balance": "0 ETH",
+      "transaction_count": 32,
+      "first_tx": "~2022-11 (2 yrs 26 days ago)",
+      "last_tx": "2024-05",
+      "notes": "Funded by Bitget exchange. USDT transfers."
+    },
+    {
+      "address": "0xb8E2C1BA095bb446C676F9Ce2A903a4A33367F58",
+      "case": "pb_117",
+      "status": "VERIFIED",
+      "balance": "0.0003 ETH (~$0.87)",
+      "transaction_count": 88,
+      "first_tx": "~2022-03 (2 yrs 209 days ago)",
+      "last_tx": "2024-01-17",
+      "notes": "Funded by Crypto.com. Tokenlon DEX interactions."
+    },
+    {
+      "address": "0xacb5E5158558ad1D1B1c01B23E5a9ee8aFd8c41b",
+      "case": "pb_118",
+      "status": "VERIFIED",
+      "balance": "0 ETH",
+      "transaction_count": 39,
+      "first_tx": "2022-07-12",
+      "last_tx": "2023-07-30",
+      "notes": "Funded by Coinbase. USDT/USDC transfers. Inactive since mid-2023."
+    },
+    {
+      "address": "0xD98E210ee45E88e95235bEa7e2a77A9B8BEFB9a4",
+      "case": "pb_035",
+      "status": "VERIFIED",
+      "balance": "0.0098 ETH (~$27.97)",
+      "transaction_count": 24,
+      "first_tx": "2025-04-07",
+      "last_tx": "2025-04-21",
+      "notes": "Recent activity. Uniswap routing, Across Protocol interactions."
+    },
+    {
+      "address": "0xBd648f4083d85E2Fc53eC603363670cf58D6DF72",
+      "case": "pb_071",
+      "status": "VERIFIED",
+      "balance": "0 ETH",
+      "transaction_count": 1,
+      "first_tx": "2024-08-30",
+      "last_tx": "2024-08-31",
+      "notes": "Single transaction wallet. Funded by Coinbase 10. Transferred 1.035 ETH out."
+    }
+  ],
+  "bitcoin_wallets_verified": [
+    {
+      "address": "3ES9qFnB35pTYV6frG59AUtgCtDMCKZ6nu",
+      "case": "pb_023",
+      "status": "VERIFIED",
+      "type": "P2SH (Legacy SegWit)",
+      "total_received": "8.73156418 BTC",
+      "total_sent": "8.73156418 BTC",
+      "final_balance": "0 BTC",
+      "transaction_count": 412,
+      "usd_value_at_current": "~$349,000 (at $40K/BTC)",
+      "notes": "HIGH VOLUME. Fully drained. PRIORITY INVESTIGATION."
+    },
+    {
+      "address": "1QBhSQhUHnaAZcM7ZXnwvfSaAayP2uL3vk",
+      "case": "pb_150 (traced)",
+      "status": "VERIFIED",
+      "type": "P2PKH (Legacy)",
+      "total_received": "5.71969692 BTC",
+      "total_sent": "5.71969692 BTC",
+      "final_balance": "0 BTC",
+      "transaction_count": 36,
+      "usd_value_at_current": "~$229,000 (at $40K/BTC)",
+      "notes": "TRACED ADDRESS. Connected to Volcanic Exchange operation."
+    },
+    {
+      "address": "3G4xQtmai9ENZ4dnRq9uWzGCRW2wgDy7S4",
+      "case": "pb_113",
+      "status": "VERIFIED",
+      "type": "P2SH (Legacy SegWit)",
+      "total_received": "4.38741548 BTC",
+      "total_sent": "4.38741548 BTC",
+      "final_balance": "0 BTC",
+      "transaction_count": 50,
+      "usd_value_at_current": "~$175,000 (at $40K/BTC)",
+      "notes": "Fully drained."
+    },
+    {
+      "address": "bc1qplq9m3hn2w4gqlcvm0vttpmd79dycuprkyf85w",
+      "case": "pb_138",
+      "status": "VERIFIED",
+      "type": "Native SegWit (Bech32)",
+      "total_received": "1.90001060 BTC",
+      "total_sent": "1.89995771 BTC",
+      "final_balance": "0.00005289 BTC",
+      "transaction_count": 218,
+      "usd_value_at_current": "~$76,000 received",
+      "notes": "HIGH ACTIVITY. Small dust balance remaining."
+    },
+    {
+      "address": "bc1qehjnu7vqjwwqex3nn69ak67haeqha3hn0zgjx7",
+      "case": "pb_150",
+      "status": "VERIFIED",
+      "type": "Native SegWit (Bech32)",
+      "total_received": "0.16174932 BTC",
+      "total_sent": "0.16174932 BTC",
+      "final_balance": "0 BTC",
+      "transaction_count": 6,
+      "usd_value_at_current": "~$6,500 received",
+      "notes": "Volcanic Exchange operation."
+    },
+    {
+      "address": "bc1qwzmg5dtk2tlyglevgh5rgdqtk72tly269dly6e",
+      "case": "pb_049",
+      "status": "VERIFIED",
+      "type": "Native SegWit (Bech32)",
+      "total_received": "0.04252643 BTC",
+      "total_sent": "0.04252643 BTC",
+      "final_balance": "0 BTC",
+      "transaction_count": 10,
+      "usd_value_at_current": "~$1,700 received",
+      "notes": "Small volume. Xperiatrade.com operation."
+    }
+  ],
+  "xrp_wallet": {
+    "address": "rLEFT4k54Pd1k73iqAsA24S8rqKYv5wWrG",
+    "case": "pb_131",
+    "status": "PENDING_VERIFICATION",
+    "notes": "XRP Ledger explorers require JavaScript or authenticated API. Address format is valid (starts with 'r', correct length). Manual verification recommended via xrpscan.com or livenet.xrpl.org"
+  },
+  "high_priority_findings": {
+    "highest_volume_btc_address": {
+      "address": "3ES9qFnB35pTYV6frG59AUtgCtDMCKZ6nu",
+      "total_volume": "8.73 BTC (~$349K)",
+      "transactions": 412,
+      "case": "pb_023",
+      "recommendation": "URGENT: Full transaction graph analysis recommended"
+    },
+    "highest_activity_eth_address": {
+      "address": "0xB10ABECA64cf19d37c45045a5851BB528fB21E47",
+      "transaction_count": 1364,
+      "case": "pb_008",
+      "recommendation": "HIGH: Investigate connected addresses and exchange flows"
+    },
+    "exchange_connections_detected": [
+      "Robinhood (0xcd184922..., 0xe9B5aAD4...) - CRITICAL: US exchange with strong KYC",
+      "HTX/Huobi (0x1F973636...) - Major exchange connection",
+      "Binance (0x83cA775F..., 0x6DfbdCad... cashout) - Multiple addresses",
+      "Coinbase (0xb1ee6620..., 0xacb5E515..., 0xBd648f40...) - Multiple funded",
+      "Crypto.com (0xc0818387..., 0xe9B5aAD4..., 0xb8E2C1BA...) - Multiple connections",
+      "OKX (multiple addresses)",
+      "ByBit (0xC834a7EF0337F939219Ea1B05f2248DE7d809aB4)",
+      "Bitget (0xcb116E1d9d4a794a31D51a525Ff1832Ab3f20C28)",
+      "Coins.ph (0xc0818387a81Bea766C9038F961C1ae7b2342106b)"
+    ],
+    "critical_forensic_findings": [
+      "Robinhood funded addresses: Direct link to US-regulated exchange with KYC requirements",
+      "HTX exchange connection: Potential international fund flow",
+      "Binance deposit detected: Cashout attempt via 0x6DfbdCad... (0.157 ETH)",
+      "Multiple DEX interactions: THORChain, Across Protocol, Tokenlon, Uniswap - mixing attempts"
+    ]
+  },
+  "investigation_recommendations": {
+    "immediate_actions": [
+      "Request KYC data from exchanges: OKX, Binance, ByBit, Crypto.com, Coinbase, Coins.ph",
+      "Full transaction graph for 3ES9qFnB35pTYV6frG59AUtgCtDMCKZ6nu (8.73 BTC)",
+      "Cluster analysis of pb_150 Volcanic Exchange addresses"
+    ],
+    "blockchain_forensics": [
+      "Trace outflows from all verified addresses",
+      "Identify common destination addresses (potential consolidation wallets)",
+      "Cross-reference timestamps with victim complaint dates"
+    ]
+  }
+}

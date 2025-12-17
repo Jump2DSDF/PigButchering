@@ -1,0 +1,60 @@
+{
+  "case_id": 257,
+  "approach_and_lure": {
+    "initial_contact_platform": ["Instagram"],
+    "lure_type": ["influencer_impersonation", "free_course", "investment_opportunity"],
+    "communication_migration": "Instagram DM"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Instagram influencer (victim's existing follow)",
+      "wealth_indicators": ["influencer_status"],
+      "relationship_type": "trusted_influencer"
+    },
+    "impersonated_entities": [
+      {"entity": "Instagram influencer (unknown)", "type": "social_media_influencer"}
+    ],
+    "psychological_tactics": [
+      "authority",
+      "social_proof",
+      "trust_via_existing_follow",
+      "free_offer_lure"
+    ],
+    "trust_building_period": "Short (leveraged existing follow relationship)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["makerealscents.com"],
+    "platform_urls": ["makerealscents.com"],
+    "initial_lure": "Free marketing course",
+    "bait_and_switch": "Marketing course → crypto trading",
+    "secondary_attack": "Bank account unauthorized transaction attempts"
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["BTC"],
+    "wallet_addresses": [
+      "bc1qplq9m3hn2w4gqlcvm0vttpmd79dycuprkyf85w"
+    ],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 300,
+    "payment_methods": ["cryptocurrency_transfer"],
+    "additional_fraud_attempts": ["unauthorized_bank_transactions_blocked"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Short",
+    "platform_status": "active_unknown"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.88,
+    "missing_information": ["influencer_identity", "transaction_hashes", "bank_fraud_details"],
+    "notes": "CRITICAL: BTC wallet address bc1qplq9m3hn2w4gqlcvm0vttpmd79dycuprkyf85w extracted. Notable: scammers attempted unauthorized bank transactions AFTER initial crypto theft - multi-stage fraud attempt. Bank successfully blocked these attempts. Bait-and-switch tactic: free marketing course → crypto trading."
+  },
+  "chain_of_thought": {
+    "step_1_initial_contact": "Scammer messaged victim on Instagram, impersonating influencer they already followed",
+    "step_2_trust_building": "Leveraged victim's existing follow/trust relationship with the real influencer",
+    "step_3_lure_presentation": "Offered free 'marketing course' link",
+    "step_4_bait_and_switch": "Link actually led to crypto trading site makerealscents.com",
+    "step_5_extraction": "Convinced victim to send $300 in crypto to BTC wallet",
+    "step_6_secondary_attack": "Attempted unauthorized bank transactions (blocked by bank)"
+  }
+}

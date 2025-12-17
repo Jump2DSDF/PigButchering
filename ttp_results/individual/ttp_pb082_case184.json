@@ -1,0 +1,243 @@
+{
+  "case_metadata": {
+    "pb_case_id": 82,
+    "original_case_id": 184,
+    "primary_subject": "Capital handels system (capitalhandelssystem.com)",
+    "analysis_date": "2025-12-17",
+    "scam_type": [
+      "Fraudulent Trading Platform",
+      "Pig Butchering Scam",
+      "Romance Scam"
+    ]
+  },
+  "ttp_profile": {
+    "initial_contact": {
+      "method": "Online dating site",
+      "platform": "Dating platform (unspecified)",
+      "approach": "Romance scam / friendship building",
+      "persona": "Romantic interest or online friend",
+      "target_demographic": "Dating site users seeking relationships"
+    },
+    "relationship_building": {
+      "tactics": [
+        "Romance/dating platform engagement",
+        "Development of emotional connection",
+        "Positioning as knowledgeable friend about cryptocurrency",
+        "Time investment in building trust",
+        "Regular communication maintenance",
+        "Personal advocacy (appearing to help victim)"
+      ],
+      "trust_indicators": [
+        "Romantic or friendship interest",
+        "Claimed financial expertise",
+        "Promise of helping victim achieve profits",
+        "Acting as intermediary with platform",
+        "Sustained communication over time"
+      ],
+      "duration": "Multiple weeks/months (relationship development through exit)",
+      "communication_channels": [
+        "Online dating platform",
+        "Messaging apps (likely WhatsApp/Telegram)",
+        "Email"
+      ]
+    },
+    "platform_introduction": {
+      "platform_name": "Capital Handels System",
+      "platform_type": "Fraudulent Cryptocurrency Trading Platform",
+      "website": "capitalhandelssystem.com",
+      "website_status": "No longer operational (exit scam)",
+      "investment_type": "Cryptocurrency trading",
+      "promised_returns": "Large profits within 72 hours",
+      "legitimacy_claims": [
+        "Professional trading platform",
+        "Structured withdrawal process via email",
+        "Customer service availability",
+        "Friend endorsement and expertise"
+      ],
+      "red_flags": [
+        "Misspelled name (handels vs handles)",
+        "Unrealistic 72-hour profit timeline",
+        "Friend-based referral rather than direct marketing",
+        "Required waiting for email instructions"
+      ]
+    },
+    "financial_extraction": {
+      "deposit_methods": [
+        "Direct transfers to platform",
+        "Likely cryptocurrency purchases and transfers",
+        "Possibly bank transfers or payment processors"
+      ],
+      "total_amount_lost": "More than $10,000",
+      "payment_progression": [
+        "Initial deposits to Capital Handels System",
+        "Multiple transactions over time",
+        "Pressure for additional payment to enable withdrawal"
+      ],
+      "cryptocurrency_focus": "Crypto assets (unspecified types)"
+    },
+    "withdrawal_barriers": {
+      "tactics": [
+        "Promised withdrawal email never sent",
+        "Platform unresponsive to withdrawal inquiries",
+        "Forced use of friend as intermediary",
+        "Additional immediate payment demanded for withdrawal",
+        "Time pressure (immediately pay)",
+        "Platform shutdown/exit scam"
+      ],
+      "victim_responses": [
+        "Sent several inquiries about withdrawals",
+        "Reached out to online friend for help",
+        "Refused to pay additional fees",
+        "Attempted recovery efforts",
+        "Reported to authorities"
+      ],
+      "additional_fees_demanded": {
+        "amount": "Unspecified payment required for withdrawal",
+        "urgency": "Immediate payment demanded",
+        "justification": "Required to process withdrawal"
+      },
+      "red_flags": [
+        "No direct platform communication about issues",
+        "All information filtered through friend",
+        "Additional payment to access own funds",
+        "Immediate urgency language",
+        "Platform became non-operational",
+        "Complete inability to recover funds"
+      ]
+    },
+    "impact_assessment": {
+      "financial_loss": "More than $10,000",
+      "victim_count": "At least 1 (California resident)",
+      "fund_recovery": "None - victim unable to recover any funds",
+      "reporting": "California Department of Financial Protection and Innovation",
+      "current_status": "Website non-operational, exit scam completed",
+      "psychological_impact": [
+        "Betrayal of trust (romance element)",
+        "Emotional manipulation",
+        "Financial loss",
+        "Potential embarrassment affecting reporting"
+      ]
+    }
+  },
+  "indicators_of_compromise": {
+    "domains": [
+      {
+        "domain": "capitalhandelssystem.com",
+        "status": "Non-operational",
+        "type": "Fraudulent trading platform",
+        "note": "Misspelling: 'handels' instead of 'handles'"
+      }
+    ],
+    "email_addresses": [],
+    "wallet_addresses": [],
+    "cryptocurrency_types": [
+      "Crypto assets (unspecified)"
+    ],
+    "communication_platforms": [
+      "Online dating site (unspecified)",
+      "Email",
+      "Messaging apps (likely)"
+    ]
+  },
+  "attack_lifecycle": {
+    "phase_1_targeting": {
+      "vector": "Online dating platform",
+      "method": "Romance scam initiation"
+    },
+    "phase_2_engagement": {
+      "technique": "Emotional relationship building",
+      "duration": "Extended period for trust establishment",
+      "promise": "Large profits within 72 hours"
+    },
+    "phase_3_investment": {
+      "mechanism": "Transfers to fraudulent trading platform",
+      "amount": "Multiple deposits totaling over $10,000",
+      "platform": "Capital Handels System"
+    },
+    "phase_4_exploitation": {
+      "barrier": "Withdrawal obstruction via missing emails and additional payment demands",
+      "outcome": "Complete loss of funds, platform shutdown"
+    }
+  },
+  "mitre_attack_mapping": {
+    "initial_access": {
+      "technique": "T1566.001 - Phishing: Spearphishing Attachment / T1598 - Phishing for Information",
+      "description": "Romance scam via dating platform to establish trust"
+    },
+    "execution": {
+      "technique": "T1204.002 - User Execution: Malicious File",
+      "description": "Victims voluntarily transfer funds based on social engineering"
+    },
+    "persistence": {
+      "technique": "T1534 - Internal Spearphishing",
+      "description": "Sustained romantic/friendship relationship over extended period"
+    },
+    "defense_evasion": {
+      "technique": "T1070 - Indicator Removal on Host",
+      "description": "Use of friend as intermediary to obscure direct scammer involvement"
+    },
+    "collection": {
+      "technique": "T1114 - Email Collection / T1005 - Data from Local System",
+      "description": "Multiple fund transfers exceeding $10,000"
+    },
+    "impact": {
+      "technique": "T1485 - Data Destruction / T1491 - Defacement",
+      "description": "Exit scam resulting in complete financial loss and emotional trauma"
+    }
+  },
+  "behavioral_patterns": {
+    "romance_scam_indicators": [
+      "Initial contact via dating platform",
+      "Development of emotional relationship",
+      "Transition from romance to financial advice",
+      "Friend positioning as helper/advocate",
+      "Emotional manipulation tactics"
+    ],
+    "pig_butchering_indicators": [
+      "Gradual trust building before investment pitch",
+      "Introduction to fraudulent trading platform",
+      "Display of fake profits",
+      "Withdrawal obstruction tactics",
+      "Additional payment demands",
+      "Exit scam execution"
+    ],
+    "time_pressure_tactics": [
+      "72-hour profit promise",
+      "Immediate payment requirement",
+      "Urgency language in communications"
+    ]
+  },
+  "recommendations": {
+    "detection": [
+      "Be extremely cautious of investment advice from online romantic interests",
+      "Verify platform legitimacy through independent research",
+      "Check for spelling errors in platform names (handels vs handles)",
+      "Research domain registration and company information",
+      "Be skeptical of guaranteed returns in 72 hours"
+    ],
+    "prevention": [
+      "Never mix romance and investment opportunities",
+      "Refuse investment suggestions from online dating contacts",
+      "Independently verify any trading platform before depositing funds",
+      "Be wary of platforms requiring email instructions for withdrawals",
+      "Never send additional payments to access your own funds",
+      "Research typical pig butchering scam patterns"
+    ],
+    "response": [
+      "Document all communications with online friend",
+      "Save all platform communications and transactions",
+      "Report to dating platform to remove scammer account",
+      "Report to financial authorities immediately",
+      "Share experience to warn others",
+      "Seek support for emotional impact of romance scam"
+    ],
+    "red_flag_checklist": [
+      "Met on dating site + investment advice = HIGH RISK",
+      "Unrealistic returns (large profits in 72 hours)",
+      "Cannot withdraw without additional payment",
+      "Friend acts as intermediary instead of direct platform contact",
+      "Platform becomes unresponsive",
+      "Misspellings in company name"
+    ]
+  }
+}

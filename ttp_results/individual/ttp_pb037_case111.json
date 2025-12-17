@@ -1,0 +1,345 @@
+{
+  "case_id": 111,
+  "case_identifier": "pb_037",
+  "approach_and_lure": {
+    "initial_contact_platform": ["WeChat"],
+    "lure_type": ["romance", "celebrity_impersonation", "investment_opportunity"],
+    "communication_migration": "WeChat (no migration mentioned, relationship maintained on WeChat)"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Famous model with romantic interest and cryptocurrency investment expertise",
+      "wealth_indicators": [
+        "celebrity_status",
+        "professional_modeling_career",
+        "cryptocurrency_trading_knowledge",
+        "successful_investment_experience",
+        "teaching_investment_skills"
+      ],
+      "relationship_type": "romantic_partner",
+      "celebrity_claim": "famous model"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "love_bombing",
+      "celebrity_allure",
+      "authority",
+      "reciprocity",
+      "social_proof",
+      "fear_of_missing_out",
+      "commitment_and_consistency",
+      "sunk_cost_exploitation",
+      "false_sense_of_security"
+    ],
+    "trust_building_period": "Extended period (WeChat relationship development before investment introduction)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["Unktlife.com"],
+    "platform_urls": ["Unktlife.com"],
+    "fake_profit_shown": true,
+    "initial_withdrawal_allowed": true,
+    "withdrawal_block_tactics": [
+      "fee_extortion",
+      "tax_credit_demand",
+      "complete_communication_cessation",
+      "platform_shutdown"
+    ],
+    "fraudulent_fees_demanded": {
+      "fee_type": "tax_credit",
+      "fee_paid": true,
+      "outcome": "no_fund_recovery"
+    }
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["crypto_assets_unspecified"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 550000,
+    "payment_methods": [
+      "crypto_purchase_and_deposit"
+    ],
+    "escalation_pattern": {
+      "initial_deposits": "smaller amounts",
+      "profit_demonstration": "early_withdrawals_successful",
+      "increased_deposits": "encouraged by fake profits",
+      "trigger_event": "attempted large withdrawal for house purchase",
+      "final_extortion": "tax credit demand"
+    }
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended period (weeks to months, from WeChat introduction through relationship building to platform shutdown)",
+    "platform_status": "defunct",
+    "key_timeline_events": [
+      "Initial contact on WeChat",
+      "Relationship development with famous model persona",
+      "Introduction to cryptocurrency investing",
+      "Account opening on Unktlife.com",
+      "Initial deposits and successful small withdrawals",
+      "Increased deposits based on fake profits",
+      "Attempted withdrawal for house purchase",
+      "Tax credit fee demand",
+      "Fee payment",
+      "Platform cessation of communication",
+      "Platform shutdown"
+    ]
+  },
+  "victim_profile": {
+    "location": "California",
+    "financial_goal": "house_purchase",
+    "vulnerability_factors": [
+      "seeking_romantic_connection",
+      "inexperienced_with_cryptocurrency",
+      "influenced_by_celebrity_status",
+      "trusted_initial_withdrawal_success"
+    ]
+  },
+  "mitre_attack_mapping": {
+    "reconnaissance": [
+      {
+        "technique": "T1593 - Search Open Websites/Domains",
+        "sub_technique": "T1593.002 - Search Engines",
+        "description": "Scammer likely identified victim through WeChat platform searches or social media reconnaissance",
+        "evidence": "Initial contact made through WeChat"
+      },
+      {
+        "technique": "T1589 - Gather Victim Identity Information",
+        "sub_technique": "T1589.001 - Credentials",
+        "description": "Gathered victim's financial capacity and personal information during relationship building",
+        "evidence": "Victim's ability to invest $550,000 and desire to purchase house"
+      }
+    ],
+    "resource_development": [
+      {
+        "technique": "T1583 - Acquire Infrastructure",
+        "sub_technique": "T1583.006 - Web Services",
+        "description": "Created fake trading platform Unktlife.com to simulate legitimate cryptocurrency trading",
+        "evidence": "Unktlife.com hosted fake trading interface"
+      },
+      {
+        "technique": "T1585 - Establish Accounts",
+        "sub_technique": "T1585.001 - Social Media Accounts",
+        "description": "Created fake WeChat profile impersonating famous model",
+        "evidence": "Scammer represented himself as famous model on WeChat"
+      },
+      {
+        "technique": "T1587 - Develop Capabilities",
+        "sub_technique": "T1587.003 - Digital Certificates",
+        "description": "Potentially obtained SSL certificates for Unktlife.com to appear legitimate",
+        "evidence": "Website operational with account management system"
+      }
+    ],
+    "initial_access": [
+      {
+        "technique": "T1566 - Phishing",
+        "sub_technique": "T1566.002 - Spearphishing Link",
+        "description": "Directed victim to fraudulent trading platform through trusted relationship",
+        "evidence": "Victim instructed to open account on Unktlife.com"
+      }
+    ],
+    "execution": [
+      {
+        "technique": "T1204 - User Execution",
+        "sub_technique": "T1204.002 - Malicious File",
+        "description": "Victim voluntarily created account and transferred cryptocurrency based on scammer instructions",
+        "evidence": "Victim taught how to open account and transfer crypto assets"
+      }
+    ],
+    "persistence": [
+      {
+        "technique": "T1098 - Account Manipulation",
+        "description": "Maintained control over victim's account on fake platform, showing false profits to ensure continued engagement",
+        "evidence": "Platform displayed fake profits and allowed initial withdrawals"
+      }
+    ],
+    "defense_evasion": [
+      {
+        "technique": "T1027 - Obfuscated Files or Information",
+        "description": "Used legitimate-appearing trading platform interface to hide fraudulent nature",
+        "evidence": "Website appeared functional with account management and withdrawal features"
+      },
+      {
+        "technique": "T1036 - Masquerading",
+        "sub_technique": "T1036.005 - Match Legitimate Name or Location",
+        "description": "Impersonated famous model to gain victim trust and credibility",
+        "evidence": "Scammer represented himself as famous model"
+      },
+      {
+        "technique": "T1497 - Virtualization/Sandbox Evasion",
+        "description": "Platform shutdown to avoid detection and investigation after fund extraction",
+        "evidence": "Website no longer operational after scam completion"
+      }
+    ],
+    "credential_access": [
+      {
+        "technique": "T1528 - Steal Application Access Token",
+        "description": "Obtained victim's crypto wallet credentials or controlled platform login to prevent legitimate withdrawals",
+        "evidence": "Victim unable to withdraw funds despite account access"
+      }
+    ],
+    "collection": [
+      {
+        "technique": "T1530 - Data from Cloud Storage Object",
+        "description": "Collected victim's cryptocurrency deposits into platform-controlled wallets",
+        "evidence": "Victim transferred crypto assets into Unktlife.com accounts"
+      },
+      {
+        "technique": "T1114 - Email Collection",
+        "description": "Likely collected victim's personal and financial information during account creation",
+        "evidence": "Account opening process on Unktlife.com"
+      }
+    ],
+    "impact": [
+      {
+        "technique": "T1486 - Data Encrypted for Impact",
+        "description": "Locked victim out of funds by demanding tax credit payment",
+        "evidence": "Website demanded tax credit to access funds"
+      },
+      {
+        "technique": "T1489 - Service Stop",
+        "description": "Shut down platform to prevent victim recovery and investigation",
+        "evidence": "Website no longer operational and ceased communication"
+      },
+      {
+        "technique": "T1657 - Financial Theft",
+        "description": "Stole $550,000 through fake investment platform and fee extortion",
+        "evidence": "Total loss of more than $550,000"
+      }
+    ]
+  },
+  "attack_chain_analysis": {
+    "phase_1_reconnaissance": {
+      "description": "Target identification and profiling through WeChat platform",
+      "duration": "Initial contact period",
+      "objectives": [
+        "Identify vulnerable targets",
+        "Assess financial capacity",
+        "Evaluate susceptibility to romance scam"
+      ]
+    },
+    "phase_2_relationship_building": {
+      "description": "Establish romantic relationship using famous model persona",
+      "duration": "Extended trust-building period",
+      "objectives": [
+        "Build emotional connection",
+        "Establish trust through celebrity persona",
+        "Create dependency and emotional investment",
+        "Position as knowledgeable investment mentor"
+      ]
+    },
+    "phase_3_investment_introduction": {
+      "description": "Introduce cryptocurrency investment opportunity",
+      "duration": "Transition from relationship to financial involvement",
+      "objectives": [
+        "Present investment as natural progression",
+        "Leverage relationship trust",
+        "Educate victim on process to establish control",
+        "Direct victim to fraudulent platform"
+      ]
+    },
+    "phase_4_initial_engagement": {
+      "description": "Facilitate account creation and initial deposits",
+      "duration": "Early investment period",
+      "objectives": [
+        "Guide account setup on Unktlife.com",
+        "Encourage initial cryptocurrency transfers",
+        "Demonstrate platform functionality",
+        "Show fake profits to build confidence"
+      ]
+    },
+    "phase_5_confidence_building": {
+      "description": "Allow small withdrawals to establish legitimacy",
+      "duration": "Mid-scam period",
+      "objectives": [
+        "Prove platform legitimacy through successful withdrawals",
+        "Build victim confidence in platform",
+        "Encourage larger deposits",
+        "Create false sense of security"
+      ]
+    },
+    "phase_6_escalation": {
+      "description": "Encourage increasingly larger deposits",
+      "duration": "Investment growth period",
+      "objectives": [
+        "Exploit sunk cost fallacy",
+        "Display increasing fake profits",
+        "Maximize total deposit amount",
+        "Prepare for exit strategy"
+      ]
+    },
+    "phase_7_extraction_trigger": {
+      "description": "Victim attempts large withdrawal for house purchase",
+      "duration": "Critical event",
+      "objectives": [
+        "Identify optimal extraction point",
+        "Implement withdrawal block",
+        "Introduce fee extortion mechanism"
+      ]
+    },
+    "phase_8_fee_extortion": {
+      "description": "Demand tax credit payment to access funds",
+      "duration": "Final extraction phase",
+      "objectives": [
+        "Extract additional funds through fake fees",
+        "Exploit victim's desperation to recover investment",
+        "Use official-sounding terminology to appear legitimate",
+        "Maximize total stolen amount"
+      ]
+    },
+    "phase_9_exit": {
+      "description": "Cease communication and shut down platform",
+      "duration": "Post-extraction",
+      "objectives": [
+        "Prevent victim recovery attempts",
+        "Eliminate evidence",
+        "Avoid detection and investigation",
+        "Complete fraud operation"
+      ]
+    }
+  },
+  "indicators_of_compromise": {
+    "network_indicators": [
+      {
+        "type": "domain",
+        "value": "Unktlife.com",
+        "status": "defunct",
+        "confidence": "high"
+      }
+    ],
+    "behavioral_indicators": [
+      "Celebrity impersonation on WeChat",
+      "Romance development before financial discussion",
+      "Unsolicited cryptocurrency investment advice",
+      "Direction to specific unknown trading platform",
+      "Fake profit displays",
+      "Initial withdrawal success to build trust",
+      "Fee demands using official-sounding terminology",
+      "Communication cessation after fee payment",
+      "Platform shutdown after fund extraction"
+    ],
+    "financial_indicators": [
+      "Large cumulative deposits over time",
+      "Escalating deposit amounts",
+      "Withdrawal blocking at high balance",
+      "Tax credit or fee demands",
+      "Additional payments requested after initial deposits"
+    ]
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.95,
+    "case_severity": "HIGH",
+    "loss_magnitude": "very_high",
+    "missing_information": [
+      "specific_cryptocurrency_types",
+      "wallet_addresses",
+      "transaction_hashes",
+      "exact_timeline_dates",
+      "number_of_transactions",
+      "scammer_identity_details",
+      "WeChat_account_information",
+      "famous_model_claimed_identity",
+      "amount_of_tax_credit_paid"
+    ],
+    "notes": "CRITICAL HIGH-VALUE case with $550,000 loss. Sophisticated multi-phase pig butchering operation combining celebrity impersonation, romance scam, and cryptocurrency fraud. Key distinguishing features: (1) Impersonation of famous model for enhanced credibility and emotional manipulation, (2) Extended relationship building on WeChat before financial involvement, (3) Sophisticated platform with functional withdrawal capability initially, (4) Strategic use of small successful withdrawals to build false confidence, (5) Large withdrawal attempt for house purchase used as trigger for fee extortion, (6) Tax credit terminology to appear legitimate and governmental, (7) Clean exit strategy with communication cessation and platform shutdown. The case demonstrates advanced social engineering combining celebrity allure, romantic manipulation, and false legitimacy through controlled platform behavior. The $550,000 loss represents significant financial devastation and indicates victim had substantial financial resources, making them a highly targeted victim profile. Platform Unktlife.com now defunct prevents recovery and investigation. No cryptocurrency wallet addresses or transaction hashes available, limiting blockchain analysis opportunities."
+  }
+}

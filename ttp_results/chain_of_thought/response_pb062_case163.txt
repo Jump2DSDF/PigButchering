@@ -1,0 +1,203 @@
+CHAIN OF THOUGHT ANALYSIS - PIG BUTCHERING CASE 62
+===================================================
+
+Case ID: pb_case_id 62 (original_case_id 163)
+Primary Subject: Capiturly.io
+Analysis Date: 2025-12-17
+
+STEP 1: INITIAL CONTACT & TRUST BUILDING
+-----------------------------------------
+Attack Vector: Direct contact by scammer
+- Scammer initiated contact using persona "Sharon"
+- Sharon claimed to be a stock broker (professional credential claim)
+- Method of initial contact not specified (likely social media, messaging app, or unsolicited message)
+- Professional identity used to establish credibility and trust
+- No romantic component mentioned (purely financial/professional relationship)
+
+Key Indicators:
+- Unsolicited contact from stranger
+- Professional credential claim (stock broker)
+- Female persona used (common in pig butchering)
+- No indication of prior relationship or legitimate referral
+- Trust building through claimed financial expertise
+
+Relationship Building Phase:
+- Duration not specified in complaint
+- Likely involved demonstration of trading knowledge
+- Progressive building of confidence in Sharon's expertise
+- Gradual introduction to cryptocurrency trading concept
+
+STEP 2: INTRODUCTION TO INVESTMENT OPPORTUNITY
+-----------------------------------------------
+Platform Introduction: Capiturly.io (https://capiturly.io/)
+- Sharon convinced victim to transfer Bitcoin to the platform
+- Platform presented as trading venue for investments
+- Likely showed professional appearance and trading interface
+- Sharon positioned as guide/mentor for trading activities
+
+Investment Narrative:
+- Focus on Bitcoin trading
+- Sharon likely demonstrated knowledge of markets and trading strategies
+- Platform positioned as legitimate trading venue
+- No mention of guaranteed returns or specific promises (more subtle approach)
+
+Transition Strategy:
+- Sharon's stock broker credentials created bridge from traditional trading to crypto
+- Professional framing made investment seem legitimate
+- Personal guidance reduced victim's skepticism about unfamiliar platform
+
+STEP 3: PLATFORM & INFRASTRUCTURE ANALYSIS
+-------------------------------------------
+Fraudulent Platform: https://capiturly.io/ (now non-operational)
+
+Platform Characteristics:
+- Custom domain mimicking professional trading platform naming conventions
+- ".io" domain extension (common in crypto/tech industry)
+- Designed to accept Bitcoin deposits
+- Professional appearance based on screenshot evidence
+- No legitimate regulatory registration or licensing
+
+Technical Infrastructure:
+- Website interface for trading simulation
+- Bitcoin wallet integration
+- Likely included fake account dashboard
+- Possibly showed fake trading activity and price charts
+- Platform shutdown indicates exit scam execution
+
+Red Flags:
+- Unregulated platform
+- No verifiable company information
+- Introduction through personal contact rather than legitimate channels
+- Platform became non-operational after receiving funds
+- No withdrawal functionality despite claims
+
+STEP 4: DEPOSIT & ESCALATION TACTICS
+-------------------------------------
+Initial Deposit:
+- Victim transferred Bitcoin to platform
+- Specific amount not disclosed in complaint
+- Wallet address used: bc1qdv4zpss0c0c868pwp8r0nvuds5vxwa0vtha2wm
+- Bitcoin (BTC) cryptocurrency used
+
+Sharon's Role in Deposit Phase:
+- Provided instructions for Bitcoin transfer process
+- Likely guided victim through account setup
+- May have demonstrated own "successful" trading
+- Convinced victim that platform was safe and legitimate
+
+Platform Interaction:
+- Victim likely saw fake account balance
+- May have observed simulated trading profits
+- Platform designed to appear functional until withdrawal attempt
+- No indication of multiple deposit requests (but amount not disclosed)
+
+STEP 5: WITHDRAWAL BARRIERS & EXIT SCAM
+----------------------------------------
+Withdrawal Attempts:
+- Victim attempted to withdraw funds
+- Withdrawal was blocked/prevented
+- No specific barrier tactics mentioned (no tax demands, verification fees, etc.)
+- Platform simply did not allow fund recovery
+
+Exit Strategy:
+- Website became non-operational: capiturly.io no longer accessible
+- Classic exit scam pattern
+- Complete loss of access to funds
+- Sharon likely ceased all communication
+- No customer service or dispute resolution mechanism
+
+Indicators of Fraudulent Platform:
+- Inability to withdraw deposited funds
+- Platform shutdown after receiving deposits
+- No legitimate business entity to contact
+- Complete disappearance of infrastructure
+- Irreversible cryptocurrency transaction
+
+STEP 6: ATTRIBUTION & TTP SUMMARY
+----------------------------------
+Scam Classification:
+- Fraudulent Trading Platform (primary)
+- Pig Butchering Scam (relationship-based crypto fraud)
+- Advance Fee Fraud elements (funds taken with no service provided)
+
+Tactics, Techniques, and Procedures (TTPs):
+
+1. INITIAL ACCESS
+   - Direct outreach using professional persona
+   - Credential claim (stock broker)
+   - Trust building through financial expertise demonstration
+
+2. EXECUTION
+   - Introduction to fraudulent platform (capiturly.io)
+   - Guidance through deposit process
+   - Social engineering to overcome skepticism
+
+3. PERSISTENCE
+   - Ongoing communication with victim through "Sharon" persona
+   - Continuous encouragement and support
+   - Building victim confidence in platform
+
+4. COLLECTION
+   - Bitcoin transfer to scammer-controlled wallet
+   - Wallet address: bc1qdv4zpss0c0c868pwp8r0nvuds5vxwa0vtha2wm
+   - Amount not disclosed
+
+5. DEFENSE EVASION
+   - Use of cryptocurrency for irreversible transactions
+   - Platform shutdown to prevent investigation
+   - Persona abandonment (Sharon disappears)
+
+6. IMPACT
+   - Complete financial loss (withdrawal blocked)
+   - Platform exit scam
+   - Victim unable to recover funds
+
+Criminal Infrastructure:
+- Fraudulent domain: capiturly.io
+- Bitcoin wallet: bc1qdv4zpss0c0c868pwp8r0nvuds5vxwa0vtha2wm
+- Scammer persona: "Sharon" (stock broker)
+- Communication channel (unspecified - likely WhatsApp, Telegram, or similar)
+- Fake trading platform interface
+
+Victim Profile:
+- Location not specified
+- Interest in trading/investing
+- Bitcoin owner/user
+- Trusting of professional credentials
+- Susceptible to expert-guided investment approach
+
+Attack Pattern Analysis:
+- Professional approach (stock broker persona)
+- Single-platform focus (capiturly.io)
+- Simplified pig butchering (less relationship building, more direct)
+- Exit scam execution (platform shutdown)
+- No prolonged extraction phase
+
+MITRE ATT&CK-Style Mapping:
+- Initial Access: T1566.002 (Phishing - Spearphishing Link)
+- Execution: T1204.001 (User Execution - Malicious Link)
+- Credential Access: T1056.002 (Input Capture - GUI Input Capture - via fake platform)
+- Collection: T1005 (Data from Local System - victim's Bitcoin)
+- Impact: T1657 (Financial Theft)
+
+Comparison to Traditional Pig Butchering:
+SIMILARITIES:
+- Unsolicited contact from stranger
+- Building trust through expertise claims
+- Introduction to cryptocurrency platform
+- Fraudulent platform preventing withdrawals
+- Complete loss of funds
+
+DIFFERENCES:
+- Professional rather than romantic persona
+- Shorter relationship building period implied
+- Direct business transaction framing
+- No mention of fake profits or escalating deposits
+- Quick exit scam rather than prolonged extraction
+
+CONCLUSION:
+-----------
+This case represents a streamlined pig butchering scam that employs professional credentialing rather than romantic relationship building. The use of a "stock broker" persona creates immediate credibility and provides a logical pathway to cryptocurrency trading discussions. The scam demonstrates efficiency in victim acquisition and fund extraction through the fraudulent platform capiturly.io. The exit scam pattern (platform shutdown, withdrawal blocking) is characteristic of mass-scale fraud operations that target multiple victims simultaneously. The use of cryptocurrency ensures irreversibility of transactions and complicates law enforcement recovery efforts. Sharon's role as guide and expert reduces victim skepticism and facilitates the deposit of funds into the scammer-controlled wallet.
+
+EXTRACTED WALLET ADDRESSES:
+bc1qdv4zpss0c0c868pwp8r0nvuds5vxwa0vtha2wm (Bitcoin)

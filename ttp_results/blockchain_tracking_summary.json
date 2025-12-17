@@ -1,0 +1,566 @@
+{
+  "summary": {
+    "generated_at": "2025-12-18",
+    "total_ttp_profiles_created": 112,
+    "total_cases_in_dataset": 273,
+    "cases_with_wallet_addresses": 25,
+    "total_unique_wallets": 42,
+    "total_eth_wallets": 33,
+    "total_btc_wallets": 8,
+    "total_xrp_wallets": 1,
+    "high_value_cases_profiled": 24,
+    "total_estimated_losses_tracked": "$18,000,000+"
+  },
+  "wallet_addresses": {
+    "ethereum": [
+      {
+        "address": "0xB10ABECA64cf19d37c45045a5851BB528fB21E47",
+        "case": "pb_008",
+        "platform": "Up-Business (up-business.top, up-business.business)",
+        "estimated_loss_usd": 55000,
+        "scammer_names": ["Raddy", "Reddy"],
+        "priority": "HIGH"
+      },
+      {
+        "address": "0xb1ee662001a0247270b282e03cfc0c86642babec",
+        "case": "pb_018",
+        "platform": "CBMWW.com (bittisport.com, nvbit.cc, frbit.cc)",
+        "estimated_loss_usd": 579000,
+        "scammer_names": ["Yinan"],
+        "priority": "CRITICAL"
+      },
+      {
+        "address": "0xa5fe0f74911715f5d6290d39da823c8e15986554",
+        "case": "pb_018",
+        "platform": "CBMWW.com (bittisport.com, nvbit.cc, frbit.cc)",
+        "estimated_loss_usd": 579000,
+        "scammer_names": ["Yinan"],
+        "priority": "CRITICAL"
+      },
+      {
+        "address": "0xe89107246a3808602ad4946f485ec4bad51045b7",
+        "case": "pb_019",
+        "platform": "Hikkod.com",
+        "estimated_loss_usd": 15000,
+        "scammer_names": ["Unknown - dating app contact"],
+        "priority": "HIGH"
+      },
+      {
+        "address": "0x0BFE55CbaB96AC7c9e6f2995D7BE9356fC5a9639",
+        "case": "pb_023",
+        "platform": "Crypto-rd.top (impersonating Crypto.com)",
+        "estimated_loss_usd": 75000,
+        "scammer_names": ["Rafael"],
+        "priority": "HIGH"
+      },
+      {
+        "address": "0x1D45F02c6D2729ba1AD8694597F51b0E4A0429A3",
+        "case": "pb_032",
+        "platform": "dimensionvip.com (Dimensional Fund Advisors impersonation)",
+        "estimated_loss_usd": 5000,
+        "scammer_names": ["Ryan"],
+        "priority": "HIGH"
+      },
+      {
+        "address": "0x7fF3e940eA4Db870e294C89D2ad579C27aC33A80",
+        "case": "pb_032",
+        "platform": "dimensionvip.com",
+        "estimated_loss_usd": 5000,
+        "scammer_names": ["Ryan"],
+        "priority": "HIGH"
+      },
+      {
+        "address": "0xd85b6EE53292bb0EEC259355C2B6471941D55002",
+        "case": "pb_032",
+        "platform": "dimensionvip.com",
+        "estimated_loss_usd": 5000,
+        "scammer_names": ["Ryan"],
+        "priority": "HIGH"
+      },
+      {
+        "address": "0xd9eACc4C3be80AB34c65Cd51bB623aa8620cD919",
+        "case": "pb_032",
+        "platform": "dimensionvip.com",
+        "estimated_loss_usd": 5000,
+        "scammer_names": ["Ryan"],
+        "priority": "HIGH"
+      },
+      {
+        "address": "0x490d095bBdfA1036E3ecAb18Cf3f5AD2Df73bf97",
+        "case": "pb_032",
+        "platform": "dimensionvip.com",
+        "estimated_loss_usd": 5000,
+        "scammer_names": ["Ryan"],
+        "priority": "HIGH"
+      },
+      {
+        "address": "0xD98E210ee45E88e95235bEa7e2a77A9B8BEFB9a4",
+        "case": "pb_035",
+        "platform": "define-gifts.com",
+        "estimated_loss_usd": null,
+        "scammer_names": ["Romantic interest - dating app"],
+        "priority": "HIGH"
+      },
+      {
+        "address": "0xBd648f4083d85E2Fc53eC603363670cf58D6DF72",
+        "case": "pb_071",
+        "platform": "xai-official.org (XAI token impersonation)",
+        "estimated_loss_usd": 3816.60,
+        "scammer_names": ["Tai - fake influencer"],
+        "priority": "HIGH"
+      },
+      {
+        "address": "0xe9B5aAD40cC30F82343CDC8F7c947Bb30DADAe1C",
+        "case": "pb_100",
+        "platform": "bitvoxcoin.com",
+        "estimated_loss_usd": null,
+        "scammer_names": ["Anthony"],
+        "priority": "HIGH"
+      },
+      {
+        "address": "0xCA703c3D290eDA004935c63719eEEe2c04792272",
+        "case": "pb_100",
+        "platform": "bitvoxcoin.com",
+        "estimated_loss_usd": null,
+        "scammer_names": ["Anthony"],
+        "priority": "HIGH"
+      },
+      {
+        "address": "0x65862927Fb58B7bb7c1875211E679775955c1993",
+        "case": "pb_100",
+        "platform": "bitvoxcoin.com",
+        "estimated_loss_usd": null,
+        "scammer_names": ["Anthony"],
+        "priority": "HIGH"
+      },
+      {
+        "address": "0xcb116E1d9d4a794a31D51a525Ff1832Ab3f20C28",
+        "case": "pb_113",
+        "platform": "h5.ltex.top",
+        "estimated_loss_usd": 3400,
+        "scammer_names": ["Unknown - dating app contact"],
+        "priority": "HIGH"
+      },
+      {
+        "address": "0xb8E2C1BA095bb446C676F9Ce2A903a4A33367F58",
+        "case": "pb_117",
+        "platform": "yunshfex.com",
+        "estimated_loss_usd": 25000,
+        "scammer_names": ["Shirley"],
+        "priority": "HIGH",
+        "notes": "DFPI warned about potential deepfake/AI in this case"
+      },
+      {
+        "address": "0xacb5E5158558ad1D1B1c01B23E5a9ee8aFd8c41b",
+        "case": "pb_118",
+        "platform": "pc.dbg-coltdfx.cc",
+        "estimated_loss_usd": 46000,
+        "scammer_names": ["Ned"],
+        "priority": "HIGH"
+      },
+      {
+        "address": "0x0cd46ee0bcec9d0b1875498404e6dfaf71afcea5",
+        "case": "pb_118",
+        "platform": "pc.dbg-coltdfx.cc",
+        "estimated_loss_usd": 46000,
+        "scammer_names": ["Ned"],
+        "priority": "HIGH"
+      },
+      {
+        "address": "0x83cA775F45Ca6E979414e71B10F49ac7685aFEde",
+        "case": "pb_126",
+        "platform": "spikefxfasttrade.com",
+        "estimated_loss_usd": 4500,
+        "scammer_names": ["Sasha"],
+        "priority": "HIGH",
+        "notes": "Hacked Instagram friend account vector"
+      },
+      {
+        "address": "0xba909bd6cd78bd9ba9c491d400821ff2bedd003b",
+        "case": "pb_133",
+        "platform": "coinmatevip.com",
+        "estimated_loss_usd": 980000,
+        "scammer_names": ["LinXinXin", "Scarlett", "Leena"],
+        "priority": "CRITICAL",
+        "notes": "FATF impersonation, 3 victims, HIGH VALUE CASE"
+      },
+      {
+        "address": "0x1Bab6ae69Cbcd31e11dccC92b5346B320e5d619C",
+        "case": "pb_149",
+        "platform": "securityplatf.com (Securityco)",
+        "estimated_loss_usd": null,
+        "scammer_names": ["Anna"],
+        "priority": "HIGH",
+        "notes": "5 domain rotation, unauthorized deposit demands"
+      },
+      {
+        "address": "0xcd184922133e42fd6bc0d07187de4bcb9b3f3242",
+        "case": "pb_150",
+        "platform": "volcanic.exchange",
+        "estimated_loss_usd": 43000,
+        "scammer_names": ["William"],
+        "priority": "HIGH",
+        "notes": "Stock tips → crypto pivot, IPO delay excuse"
+      },
+      {
+        "address": "0x1F973636c97d8775024E5965a7C709a28442beEb",
+        "case": "pb_150",
+        "platform": "volcanic.exchange (traced)",
+        "estimated_loss_usd": 43000,
+        "scammer_names": ["William"],
+        "priority": "HIGH",
+        "notes": "Traced address from same operation"
+      },
+      {
+        "address": "0x7630B16b5456075a2B8474B94e7950A917A251B9",
+        "case": "pb_160",
+        "platform": "dailyharvestltd.com",
+        "estimated_loss_usd": 50000,
+        "scammer_names": ["Ava"],
+        "priority": "HIGH",
+        "notes": "False NFA/CFTC certifications, AI trading claims"
+      },
+      {
+        "address": "0x6DfbdCadf54dF4c29C6BF34fedD24d27096f245D",
+        "case": "pb_160",
+        "platform": "dailyharvestltd.com",
+        "estimated_loss_usd": 50000,
+        "scammer_names": ["Ava"],
+        "priority": "HIGH",
+        "notes": "Second wallet from same operation"
+      },
+      {
+        "address": "0xd33F76dA78669B41ABcb98234Abb887bFe2D4F0a",
+        "case": "pb_165",
+        "platform": "youbitpro.me (YoBitPro)",
+        "estimated_loss_usd": 261000,
+        "scammer_names": ["Francis", "Unknown female"],
+        "priority": "CRITICAL",
+        "notes": "HIGH VALUE - 2 victims, 401K liquidation, $261K+ loss"
+      },
+      {
+        "address": "0x074580e8Ad363e06A904602Fac3b28beC21B2303",
+        "case": "pb_165",
+        "platform": "youbitpro.me (YoBitPro)",
+        "estimated_loss_usd": 261000,
+        "scammer_names": ["Francis", "Unknown female"],
+        "priority": "CRITICAL",
+        "notes": "Second wallet same operation, also used in follow-up phishing"
+      },
+      {
+        "address": "0x232bf7c4096b3639eb9AFfB5902d9bE72138bC6B",
+        "case": "pb_165",
+        "platform": "youbitpro.me (YoBitPro)",
+        "estimated_loss_usd": 261000,
+        "scammer_names": ["Francis", "Unknown female"],
+        "priority": "CRITICAL",
+        "notes": "Third wallet - used in follow-up phishing emails"
+      },
+      {
+        "address": "0xC834a7EF0337F939219Ea1B05f2248DE7d809aB4",
+        "case": "pb_166",
+        "platform": "publicrealm.pro",
+        "estimated_loss_usd": 183000,
+        "scammer_names": ["Anjali", "Csilla"],
+        "priority": "CRITICAL",
+        "notes": "HIGH VALUE - Double scam (investment + recovery scam)"
+      },
+      {
+        "address": "0xD80afd661c2835dd04AeaA7ADB39526eB287569E",
+        "case": "pb_166",
+        "platform": "publicrealm.pro",
+        "estimated_loss_usd": 183000,
+        "scammer_names": ["Anjali", "Csilla"],
+        "priority": "CRITICAL",
+        "notes": "Second wallet from publicrealm operation"
+      },
+      {
+        "address": "0xA7a5855B1b62b22c55da59724d85cbac7F3ce3d7",
+        "case": "pb_166",
+        "platform": "publicrealm.pro",
+        "estimated_loss_usd": 183000,
+        "scammer_names": ["Anjali", "Csilla"],
+        "priority": "CRITICAL",
+        "notes": "Third wallet - possibly recovery scam wallet (Csilla)"
+      },
+      {
+        "address": "0xc0818387a81Bea766C9038F961C1ae7b2342106b",
+        "case": "pb_168",
+        "platform": "globaltekforex.com",
+        "estimated_loss_usd": 3100,
+        "scammer_names": ["Mandy", "Nancy"],
+        "priority": "HIGH",
+        "notes": "DANGEROUS - Identity theft attempts (SSN, IDme), threatening behavior"
+      }
+    ],
+    "bitcoin": [
+      {
+        "address": "3ES9qFnB35pTYV6frG59AUtgCtDMCKZ6nu",
+        "case": "pb_023",
+        "platform": "Crypto-rd.top (impersonating Crypto.com)",
+        "estimated_loss_usd": 75000,
+        "scammer_names": ["Rafael"],
+        "address_type": "P2SH (legacy segwit)",
+        "priority": "HIGH"
+      },
+      {
+        "address": "bc1qwzmg5dtk2tlyglevgh5rgdqtk72tly269dly6e",
+        "case": "pb_049",
+        "platform": "Xperiatrade.com",
+        "estimated_loss_usd": 5080,
+        "scammer_names": ["Moneybynora", "Mr. Alan"],
+        "address_type": "Native SegWit (bech32)",
+        "priority": "HIGH"
+      },
+      {
+        "address": "bc1qnjy98m5g8d4qctp8s7v5j5jynsqhkdvvwm3840",
+        "case": "pb_061",
+        "platform": "webelon.org (Tesla/Elon Musk impersonation)",
+        "estimated_loss_usd": 5000,
+        "scammer_names": ["Fake Elon Musk"],
+        "address_type": "Native SegWit (bech32)",
+        "priority": "HIGH"
+      },
+      {
+        "address": "bc1qdv4zpss0c0c868pwp8r0nvuds5vxwa0vtha2wm",
+        "case": "pb_062",
+        "platform": "Capiturly.io",
+        "estimated_loss_usd": null,
+        "scammer_names": ["Sharon - stock broker"],
+        "address_type": "Native SegWit (bech32)",
+        "priority": "HIGH"
+      },
+      {
+        "address": "3G4xQtmai9ENZ4dnRq9uWzGCRW2wgDy7S4",
+        "case": "pb_113",
+        "platform": "h5.ltex.top",
+        "estimated_loss_usd": 3400,
+        "scammer_names": ["Unknown - dating app contact"],
+        "address_type": "P2SH (legacy segwit)",
+        "priority": "HIGH"
+      },
+      {
+        "address": "bc1qplq9m3hn2w4gqlcvm0vttpmd79dycuprkyf85w",
+        "case": "pb_138",
+        "platform": "makerealscents.com",
+        "estimated_loss_usd": 300,
+        "scammer_names": ["Instagram influencer impersonator"],
+        "address_type": "Native SegWit (bech32)",
+        "priority": "HIGH",
+        "notes": "Multi-stage fraud: crypto theft + bank fraud attempt"
+      },
+      {
+        "address": "bc1qehjnu7vqjwwqex3nn69ak67haeqha3hn0zgjx7",
+        "case": "pb_150",
+        "platform": "volcanic.exchange",
+        "estimated_loss_usd": 43000,
+        "scammer_names": ["William"],
+        "address_type": "Native SegWit (bech32)",
+        "priority": "HIGH",
+        "notes": "Stock tips → crypto pivot"
+      },
+      {
+        "address": "1QBhSQhUHnaAZcM7ZXnwvfSaAayP2uL3vk",
+        "case": "pb_150",
+        "platform": "volcanic.exchange (traced)",
+        "estimated_loss_usd": 43000,
+        "scammer_names": ["William"],
+        "address_type": "P2PKH (legacy)",
+        "priority": "HIGH",
+        "notes": "Traced address from same operation"
+      }
+    ],
+    "xrp": [
+      {
+        "address": "rLEFT4k54Pd1k73iqAsA24S8rqKYv5wWrG",
+        "case": "pb_131",
+        "platform": "flrmeshworknet.us",
+        "estimated_loss_usd": 63543.92,
+        "scammer_names": ["YouTube crypto influencer impersonator"],
+        "priority": "CRITICAL",
+        "notes": "FIRST XRP WALLET IN DATASET. Flare airdrop phishing, wallet key theft, HIGH VALUE"
+      }
+    ]
+  },
+  "high_value_cases": [
+    {
+      "case": "pb_044",
+      "platform": "Zipmexpro.com",
+      "loss_usd": 3800000,
+      "wallet_count": 0,
+      "notes": "HIGHEST VALUE CASE - Zipmex brand impersonation, dating app romance, Kevin persona, victim liquidated brokerage + retirement + personal loans"
+    },
+    {
+      "case": "pb_133",
+      "platform": "coinmatevip.com",
+      "loss_usd": 980000,
+      "wallet_count": 1,
+      "notes": "FATF impersonation, 3 victims ($650K, $330K, unknown), LinXinXin/Scarlett/Leena personas, ETH wallet extracted"
+    },
+    {
+      "case": "pb_131",
+      "platform": "flrmeshworknet.us",
+      "loss_usd": 63543.92,
+      "wallet_count": 1,
+      "notes": "FIRST XRP WALLET - Flare airdrop phishing, YouTube influencer impersonation, wallet key theft"
+    },
+    {
+      "case": "pb_165",
+      "platform": "youbitpro.me (YoBitPro)",
+      "loss_usd": 261000,
+      "wallet_count": 3,
+      "notes": "2 victims, Francis rental inquiry + luxury lifestyle display, 401K liquidation, 25% return promise"
+    },
+    {
+      "case": "pb_166",
+      "platform": "publicrealm.pro",
+      "loss_usd": 183000,
+      "wallet_count": 3,
+      "notes": "DOUBLE SCAM - Investment fraud + recovery scam (Csilla $10K gas fee), Facebook mutual friends vector"
+    },
+    {
+      "case": "pb_064",
+      "platform": "SAXO Group",
+      "loss_usd": 1621870.63,
+      "wallet_count": 0,
+      "notes": "Saxo Bank impersonation, 2 victims, Victim 2 paid $500K+ Dutch government tax, mobile app delivery"
+    },
+    {
+      "case": "pb_039",
+      "platform": "bybtcoim-vip.top, zaifusw.com, nextran.top",
+      "loss_usd": 742000,
+      "wallet_count": 0,
+      "notes": "Serial victimization - same victim scammed 3 times by Lisa, Luisa, Susan personas, Zaif brand impersonation"
+    },
+    {
+      "case": "pb_052",
+      "platform": "Qexbit.org",
+      "loss_usd": 762000,
+      "wallet_count": 0,
+      "notes": "Wayne romance scam, LinkedIn->Messenger, multi-stage fee extraction ($245K+$187K+$70K+$150K)"
+    },
+    {
+      "case": "pb_018",
+      "platform": "CBMWW.com",
+      "loss_usd": 579000,
+      "wallet_count": 2,
+      "notes": "Two victims, multi-domain operation, fake 'Cryptocurrency Regulatory Authority'"
+    },
+    {
+      "case": "pb_054",
+      "platform": "Coinefx / Coin EFX",
+      "loss_usd": 571936.70,
+      "wallet_count": 0,
+      "notes": "KakaoTalk mistaken identity approach, John persona claimed private equity, victim borrowed from family + retirement"
+    },
+    {
+      "case": "pb_023",
+      "platform": "Crypto-rd.top",
+      "loss_usd": 75000,
+      "wallet_count": 2,
+      "notes": "Impersonating Crypto.com, BTC + ETH wallets"
+    },
+    {
+      "case": "pb_008",
+      "platform": "Up-Business",
+      "loss_usd": 55000,
+      "wallet_count": 1,
+      "notes": "AI trading program claims, dual domain strategy"
+    },
+    {
+      "case": "pb_207",
+      "platform": "liquldohn.com",
+      "loss_usd": 930000,
+      "wallet_count": 0,
+      "notes": "Elderly victim targeting, UC Berkeley alumni hook, 401K/trust/IRA exploitation, financial firm intervention"
+    },
+    {
+      "case": "pb_211",
+      "platform": "ICEX (icetrad.cc, icextee.top)",
+      "loss_usd": 154000,
+      "wallet_count": 0,
+      "notes": "ICE (Intercontinental Exchange) impersonation, 5-domain rotation, Discord/Telegram/WhatsApp operation"
+    },
+    {
+      "case": "pb_188",
+      "platform": "sundell-fx.com",
+      "loss_usd": 800000,
+      "wallet_count": 0,
+      "notes": "Video call scam with Amelia persona, gold futures trading, UK tax extraction, Korean cultural affinity"
+    },
+    {
+      "case": "pb_199",
+      "platform": "coinhakoxds.com",
+      "loss_usd": 750000,
+      "wallet_count": 0,
+      "notes": "Coinhako/Singapore Exchange impersonation, partnership scam with $550K fake co-investment"
+    },
+    {
+      "case": "pb_191",
+      "platform": "moodyfx.com",
+      "loss_usd": 740000,
+      "wallet_count": 0,
+      "notes": "Charity angle (autistic children), $23M fake balance, retirement fund targeting"
+    },
+    {
+      "case": "pb_216",
+      "platform": "NYMEX (fake)",
+      "loss_usd": 650000,
+      "wallet_count": 0,
+      "notes": "NYMEX (New York Mercantile Exchange) impersonation, $10M fake balance shown"
+    }
+  ],
+  "brand_impersonation_cases": [
+    {"case": "pb_006", "legitimate_brand": "KuCoin", "fake_platform": "kakucoin.com"},
+    {"case": "pb_023", "legitimate_brand": "Crypto.com", "fake_platform": "Crypto-rd.top"},
+    {"case": "pb_024", "legitimate_brand": "Riot Platforms", "fake_platform": "RIOT Blockchain"},
+    {"case": "pb_032", "legitimate_brand": "Dimensional Fund Advisors", "fake_platform": "dimensionvip.com"},
+    {"case": "pb_004", "legitimate_brand": "OSL", "fake_platform": "oslvsap.vip"},
+    {"case": "pb_044", "legitimate_brand": "Zipmex", "fake_platform": "zipmexpro.com"},
+    {"case": "pb_064", "legitimate_brand": "Saxo Bank", "fake_platform": "SAXO Group app"},
+    {"case": "pb_039", "legitimate_brand": "Zaif.jp", "fake_platform": "zaifusw.com"},
+    {"case": "pb_060", "legitimate_brand": "BitMex", "fake_platform": "btm-vip.com, bitaeqcke.net"},
+    {"case": "pb_061", "legitimate_brand": "Tesla/Elon Musk", "fake_platform": "webelon.org"},
+    {"case": "pb_071", "legitimate_brand": "XAI token (Offchain Labs)", "fake_platform": "xai-official.org"},
+    {"case": "pb_072", "legitimate_brand": "BitcoinX (BCX)", "fake_platform": "h5.opacoin.net"},
+    {"case": "pb_081", "legitimate_brand": "Brave Software", "fake_platform": "bravehqnx.cc"},
+    {"case": "pb_133", "legitimate_brand": "FATF (Financial Action Task Force)", "fake_platform": "coinmatevip.com", "notes": "Intergovernmental org impersonation for AML freeze excuse"},
+    {"case": "pb_160", "legitimate_brand": "NFA (National Futures Association)", "fake_platform": "dailyharvestltd.com", "notes": "False regulatory certification"},
+    {"case": "pb_160", "legitimate_brand": "CFTC (Commodities Futures Trading Commission)", "fake_platform": "dailyharvestltd.com", "notes": "False regulatory certification"},
+    {"case": "pb_199", "legitimate_brand": "Coinhako", "fake_platform": "coinhakoxds.com", "notes": "Singapore Exchange impersonation"},
+    {"case": "pb_199", "legitimate_brand": "Singapore Exchange", "fake_platform": "coinhakoxds.com", "notes": "Major Asian exchange impersonation"},
+    {"case": "pb_211", "legitimate_brand": "ICE (Intercontinental Exchange)", "fake_platform": "icetrad.cc, icextee.top", "notes": "Major US exchange impersonation"},
+    {"case": "pb_216", "legitimate_brand": "NYMEX (New York Mercantile Exchange)", "fake_platform": "Unknown", "notes": "US commodity futures exchange impersonation"}
+  ],
+  "investigation_recommendations": {
+    "priority_1_blockchain_analysis": [
+      "0xba909bd6cd78bd9ba9c491d400821ff2bedd003b (CoinMate VIP - $980K+ loss, FATF impersonation, 3 victims)",
+      "0xb1ee662001a0247270b282e03cfc0c86642babec (CBMWW - $579K loss)",
+      "0xa5fe0f74911715f5d6290d39da823c8e15986554 (CBMWW - $579K loss)",
+      "0xd33F76dA78669B41ABcb98234Abb887bFe2D4F0a (YoBitPro - $261K loss, 2 victims)",
+      "0xC834a7EF0337F939219Ea1B05f2248DE7d809aB4 (publicrealm.pro - $183K double scam)",
+      "rLEFT4k54Pd1k73iqAsA24S8rqKYv5wWrG (flrmeshworknet.us - $63K XRP airdrop phishing)",
+      "3ES9qFnB35pTYV6frG59AUtgCtDMCKZ6nu (Crypto-rd.top - BTC)"
+    ],
+    "priority_2_cluster_analysis": [
+      "pb_032 dimensionvip.com - 5 ETH addresses likely connected",
+      "pb_165 youbitpro.me - 3 ETH addresses (2 victims, follow-up phishing)",
+      "pb_166 publicrealm.pro - 3 ETH addresses (investment + recovery scam)",
+      "pb_150 volcanic.exchange - 4 addresses (2 ETH + 2 BTC) connected network",
+      "pb_160 dailyharvestltd.com - 2 ETH addresses same operation"
+    ],
+    "priority_3_new_attack_vectors": [
+      "pb_131 - First XRP wallet discovered, airdrop phishing via influencer impersonation",
+      "pb_166 - DOUBLE SCAM: Investment fraud + recovery scam (Csilla persona)",
+      "pb_168 - Identity theft attempt (SSN, IDme credentials) with threatening behavior",
+      "pb_165 - Rental property inquiry as entry vector (Francis persona)",
+      "pb_138 - Multi-stage fraud (crypto theft + bank account compromise attempt)",
+      "pb_126 - Hacked Instagram friend account as entry vector"
+    ],
+    "exchange_reporting": [
+      "Report all wallet addresses to major exchanges (Coinbase, Binance, Kraken, etc.)",
+      "Request transaction history and KYC data if funds transferred to exchanges",
+      "Report XRP address to Ripple compliance for XRPL tracking"
+    ]
+  }
+}

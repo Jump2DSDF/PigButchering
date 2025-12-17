@@ -1,0 +1,218 @@
+{
+  "case_metadata": {
+    "pb_case_id": 62,
+    "original_case_id": 163,
+    "analysis_date": "2025-12-17",
+    "primary_subject": "Capiturly.io",
+    "scam_classification": [
+      "Fraudulent Trading Platform",
+      "Pig Butchering Scam"
+    ]
+  },
+  "financial_impact": {
+    "total_loss_usd": null,
+    "amount_disclosed": false,
+    "cryptocurrency_type": "Bitcoin",
+    "number_of_transactions": "at_least_one",
+    "loss_escalation_pattern": "unknown"
+  },
+  "victim_profile": {
+    "location": "unknown",
+    "acquisition_channel": "direct_contact",
+    "victim_interests": [
+      "trading",
+      "investing",
+      "cryptocurrency",
+      "stock_market"
+    ],
+    "technical_sophistication": "moderate"
+  },
+  "attack_chain": {
+    "initial_contact": {
+      "method": "direct_outreach",
+      "platform": "unknown",
+      "contact_initiator": "scammer",
+      "impersonated_entity": null,
+      "persona_type": "professional",
+      "lure_type": "investment_opportunity",
+      "trust_building_duration": "unknown",
+      "narrative": "Stock broker offering trading guidance"
+    },
+    "platform_introduction": {
+      "platform_name": "capiturly.io",
+      "platform_type": "fraudulent_trading_platform",
+      "introduction_method": "personal_recommendation",
+      "promised_returns": "trading_profits",
+      "initial_deposit_requirement": null,
+      "platform_features": [
+        "cryptocurrency_trading",
+        "bitcoin_deposits",
+        "account_dashboard"
+      ]
+    },
+    "deposit_phase": {
+      "initial_deposit_usd": null,
+      "deposit_method": "cryptocurrency_transfer",
+      "fake_profit_display": "likely",
+      "withdrawal_test_allowed": false,
+      "escalation_tactics": []
+    },
+    "exit_strategy": {
+      "exit_type": "withdrawal_block_and_platform_shutdown",
+      "withdrawal_barrier_type": "technical_prevention",
+      "platform_status": "taken_offline",
+      "scammer_disappearance": true
+    }
+  },
+  "technical_infrastructure": {
+    "domains": [
+      {
+        "domain": "capiturly.io",
+        "status": "inactive",
+        "purpose": "fraudulent_trading_platform"
+      }
+    ],
+    "cryptocurrency_wallets": [
+      {
+        "address": "bc1qdv4zpss0c0c868pwp8r0nvuds5vxwa0vtha2wm",
+        "cryptocurrency": "Bitcoin",
+        "network": "Bitcoin",
+        "amount_received_usd": null
+      }
+    ],
+    "communication_platforms": [
+      {
+        "platform": "unknown",
+        "purpose": "victim_communication",
+        "method": "direct_messaging"
+      }
+    ],
+    "technical_elements": [
+      "custom_website",
+      "fake_trading_interface",
+      "bitcoin_wallet_integration",
+      "account_dashboard"
+    ]
+  },
+  "scammer_personas": {
+    "personas": [
+      {
+        "name": "Sharon",
+        "role": "stock_broker",
+        "communication_style": "professional",
+        "claimed_expertise": "stock_trading_and_cryptocurrency",
+        "relationship_type": "professional_advisor",
+        "gender": "female"
+      }
+    ]
+  },
+  "red_flags": [
+    "unsolicited_contact",
+    "unverified_credentials",
+    "unregulated_platform",
+    "withdrawal_blocking",
+    "platform_shutdown_after_deposits",
+    "no_company_information",
+    "introduction_through_stranger",
+    "cryptocurrency_only_platform",
+    "no_customer_service"
+  ],
+  "tactics_techniques_procedures": {
+    "mitre_attack_mapping": [
+      {
+        "tactic": "Initial Access",
+        "technique_id": "T1566.002",
+        "technique_name": "Phishing",
+        "sub_technique": "Spearphishing Link",
+        "description": "Direct contact with victim to introduce fraudulent platform"
+      },
+      {
+        "tactic": "Execution",
+        "technique_id": "T1204.001",
+        "technique_name": "User Execution",
+        "sub_technique": "Malicious Link",
+        "description": "Victim directed to fraudulent platform capiturly.io"
+      },
+      {
+        "tactic": "Credential Access",
+        "technique_id": "T1056.002",
+        "technique_name": "Input Capture",
+        "sub_technique": "GUI Input Capture",
+        "description": "Fake platform captures victim wallet and transaction data"
+      },
+      {
+        "tactic": "Collection",
+        "technique_id": "T1005",
+        "technique_name": "Data from Local System",
+        "sub_technique": "Cryptocurrency Wallet",
+        "description": "Collection of victim's Bitcoin through platform"
+      },
+      {
+        "tactic": "Impact",
+        "technique_id": "T1657",
+        "technique_name": "Financial Theft",
+        "sub_technique": "Cryptocurrency Theft",
+        "description": "Theft via Bitcoin transfer to scammer wallet"
+      }
+    ],
+    "social_engineering_tactics": [
+      "professional_credential_claim",
+      "expertise_demonstration",
+      "trust_building_through_guidance",
+      "authority_exploitation",
+      "financial_advisor_impersonation"
+    ],
+    "technical_tactics": [
+      "fraudulent_platform_deployment",
+      "fake_trading_interface",
+      "cryptocurrency_wallet_infrastructure",
+      "withdrawal_blocking_mechanism",
+      "exit_scam_platform_shutdown"
+    ],
+    "financial_tactics": [
+      "cryptocurrency_irreversibility",
+      "no_withdrawal_mechanism",
+      "platform_exit_scam",
+      "direct_wallet_theft"
+    ]
+  },
+  "timeline": {
+    "relationship_duration": "unknown",
+    "time_to_first_deposit": "unknown",
+    "time_to_exit_scam": "after_withdrawal_attempt",
+    "total_scam_duration": "unknown"
+  },
+  "regulatory_concerns": [
+    "unlicensed_securities_trading",
+    "cryptocurrency_fraud",
+    "wire_fraud",
+    "identity_theft",
+    "impersonation_of_financial_professional",
+    "platform_hosting_fraud"
+  ],
+  "evidence_artifacts": {
+    "screenshots": [
+      "pig_butchering_cases\\screenshots\\pb_062_case_163.png"
+    ],
+    "urls": [
+      "https://capiturly.io/",
+      "https://dfpi.ca.gov/wp-content/uploads/2025/03/Capiturly-io-Home-Page.png"
+    ],
+    "wallet_addresses": [
+      "bc1qdv4zpss0c0c868pwp8r0nvuds5vxwa0vtha2wm"
+    ],
+    "communication_records": [
+      "conversations_with_Sharon"
+    ]
+  },
+  "prevention_recommendations": [
+    "Verify financial professional credentials through regulatory bodies",
+    "Only use regulated and licensed trading platforms",
+    "Research platform registration before depositing funds",
+    "Be skeptical of unsolicited investment advice",
+    "Test small withdrawals before making large deposits",
+    "Verify platform domain and company information",
+    "Use only well-established cryptocurrency exchanges",
+    "Report unlicensed platforms to financial regulators"
+  ]
+}

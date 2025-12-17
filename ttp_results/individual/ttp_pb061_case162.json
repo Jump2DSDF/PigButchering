@@ -1,0 +1,215 @@
+{
+  "case_metadata": {
+    "pb_case_id": 61,
+    "original_case_id": 162,
+    "analysis_date": "2025-12-17",
+    "primary_subject": "webelon.org (Entity Impersonating Tesla and Elon Musk)",
+    "scam_classification": [
+      "Crypto Giveaway/Airdrop Scam",
+      "Imposter Scam",
+      "Fraudulent Trading Platform",
+      "Pig Butchering Scam"
+    ]
+  },
+  "financial_impact": {
+    "total_loss_usd": 5000,
+    "cryptocurrency_type": "Bitcoin",
+    "number_of_transactions": 1,
+    "loss_escalation_pattern": "single_transaction"
+  },
+  "victim_profile": {
+    "location": "California",
+    "acquisition_channel": "YouTube Live Stream",
+    "victim_interests": [
+      "cryptocurrency",
+      "Elon Musk",
+      "Tesla",
+      "crypto giveaways"
+    ],
+    "technical_sophistication": "moderate"
+  },
+  "attack_chain": {
+    "initial_contact": {
+      "method": "social_media_impersonation",
+      "platform": "YouTube",
+      "contact_initiator": "scammer",
+      "impersonated_entity": "Elon Musk",
+      "brand_impersonation": "Tesla",
+      "lure_type": "crypto_giveaway",
+      "trust_building_duration": "immediate",
+      "narrative": "$100 million crypto giveaway promotion"
+    },
+    "platform_introduction": {
+      "platform_name": "webelon.org",
+      "platform_type": "fraudulent_website",
+      "introduction_method": "QR_code_in_livestream",
+      "promised_returns": "giveaway_multiplier",
+      "initial_deposit_requirement": 5000,
+      "platform_features": [
+        "cryptocurrency_deposit",
+        "giveaway_participation"
+      ]
+    },
+    "deposit_phase": {
+      "initial_deposit_usd": 5000,
+      "deposit_method": "cryptocurrency_transfer",
+      "fake_profit_display": false,
+      "withdrawal_test_allowed": false,
+      "escalation_tactics": []
+    },
+    "exit_strategy": {
+      "exit_type": "immediate_theft",
+      "withdrawal_barrier_type": "none",
+      "platform_status": "taken_offline",
+      "scammer_disappearance": true
+    }
+  },
+  "technical_infrastructure": {
+    "domains": [
+      {
+        "domain": "webelon.org",
+        "status": "inactive",
+        "purpose": "fraudulent_giveaway_platform"
+      }
+    ],
+    "cryptocurrency_wallets": [
+      {
+        "address": "bc1qnjy98m5g8d4qctp8s7v5j5jynsqhkdvvwm3840",
+        "cryptocurrency": "Bitcoin",
+        "network": "Bitcoin",
+        "amount_received_usd": 5000
+      }
+    ],
+    "communication_platforms": [
+      {
+        "platform": "YouTube",
+        "purpose": "victim_acquisition",
+        "method": "fake_livestream"
+      }
+    ],
+    "technical_elements": [
+      "QR_code_generation",
+      "video_streaming",
+      "brand_asset_theft",
+      "custom_website"
+    ]
+  },
+  "scammer_personas": {
+    "personas": [
+      {
+        "name": "Elon Musk (impersonation)",
+        "role": "celebrity_impersonator",
+        "communication_style": "video_livestream",
+        "claimed_expertise": "technology_entrepreneur",
+        "relationship_type": "parasocial"
+      }
+    ]
+  },
+  "red_flags": [
+    "celebrity_impersonation",
+    "payment_required_for_giveaway",
+    "unauthorized_brand_usage",
+    "QR_code_redirect",
+    "too_good_to_be_true_returns",
+    "no_regulatory_information",
+    "platform_shutdown_after_deposits",
+    "unverified_youtube_livestream",
+    "immediate_payment_pressure"
+  ],
+  "tactics_techniques_procedures": {
+    "mitre_attack_mapping": [
+      {
+        "tactic": "Initial Access",
+        "technique_id": "T1566",
+        "technique_name": "Phishing",
+        "sub_technique": "Social Media Phishing",
+        "description": "Fake YouTube livestream impersonating Elon Musk"
+      },
+      {
+        "tactic": "Execution",
+        "technique_id": "T1204.002",
+        "technique_name": "User Execution",
+        "sub_technique": "Malicious Link",
+        "description": "QR code scanning redirects to fraudulent website"
+      },
+      {
+        "tactic": "Collection",
+        "technique_id": "T1114",
+        "technique_name": "Data Collection",
+        "sub_technique": "Contact Information",
+        "description": "Collection of victim cryptocurrency wallet information"
+      },
+      {
+        "tactic": "Impact",
+        "technique_id": "T1657",
+        "technique_name": "Financial Theft",
+        "sub_technique": "Cryptocurrency Theft",
+        "description": "Direct theft via cryptocurrency transfer"
+      }
+    ],
+    "social_engineering_tactics": [
+      "celebrity_impersonation",
+      "brand_hijacking",
+      "urgency_creation",
+      "false_scarcity",
+      "social_proof_manipulation",
+      "authority_exploitation",
+      "parasocial_relationship_exploitation"
+    ],
+    "technical_tactics": [
+      "QR_code_weaponization",
+      "domain_squatting",
+      "video_platform_abuse",
+      "cryptocurrency_infrastructure",
+      "brand_asset_theft",
+      "website_cloning"
+    ],
+    "financial_tactics": [
+      "advance_fee_fraud",
+      "immediate_theft",
+      "cryptocurrency_irreversibility",
+      "no_withdrawal_mechanism",
+      "exit_scam"
+    ]
+  },
+  "timeline": {
+    "relationship_duration": "single_interaction",
+    "time_to_first_deposit": "immediate",
+    "time_to_exit_scam": "immediate_after_deposit",
+    "total_scam_duration": "hours_to_days"
+  },
+  "regulatory_concerns": [
+    "trademark_infringement",
+    "brand_impersonation",
+    "securities_fraud",
+    "wire_fraud",
+    "identity_theft",
+    "platform_hosting_liability",
+    "cryptocurrency_fraud"
+  ],
+  "evidence_artifacts": {
+    "screenshots": [
+      "pig_butchering_cases\\screenshots\\pb_061_case_162.jpg"
+    ],
+    "urls": [
+      "https://webelon.org",
+      "https://dfpi.ca.gov/wp-content/uploads/2025/03/webelon-Promotion.jpg"
+    ],
+    "wallet_addresses": [
+      "bc1qnjy98m5g8d4qctp8s7v5j5jynsqhkdvvwm3840"
+    ],
+    "communication_records": [
+      "YouTube_livestream_recording"
+    ]
+  },
+  "prevention_recommendations": [
+    "Verify celebrity social media accounts through official channels",
+    "No legitimate giveaway requires payment",
+    "Verify URLs before scanning QR codes",
+    "Check for official brand associations",
+    "Be skeptical of too-good-to-be-true offers",
+    "Research investment platforms before depositing",
+    "Use only verified and regulated cryptocurrency exchanges",
+    "Report suspicious livestreams to platform providers"
+  ]
+}

@@ -1,0 +1,610 @@
+{
+  "case_id": "54",
+  "case_name": "CBMWW Multi-Domain Pig Butchering Scam",
+  "summary": "Two California residents lost a combined $579,000+ in a sophisticated pig butchering scam involving multiple fraudulent crypto trading platforms. Scammers used Facebook for initial contact, built trust through elaborate personas (including 'Yinan' with fabricated business success stories), and migrated conversations to WhatsApp. Victims were directed to fraudulent platforms that cycled through four domains: bittisport.com, nvbit.cc, frbit.cc, and cbmww.com. One victim successfully withdrew $1,000 initially to build trust before being encouraged to deposit more. When victims attempted withdrawals, they faced account access denial or fabricated $260,000 'tax' demands from a fake 'Cryptocurrency Regulatory Authority.' Two Ethereum wallet addresses were identified as receiving stolen funds.",
+  "ttps": [
+    {
+      "category": "Initial Access",
+      "techniques": [
+        {
+          "id": "T1566.002",
+          "name": "Phishing: Spearphishing Link",
+          "description": "Scammers initiated unsolicited contact with victims via Facebook Messenger, claiming to be crypto investors. Messages included investment opportunities with promises of high returns.",
+          "evidence": [
+            "Victim 1 received Facebook message from someone claiming to be a crypto investor",
+            "Victim 2 was approached by 'Yinan' on Facebook",
+            "Both initial contacts were unsolicited and investment-focused"
+          ]
+        },
+        {
+          "id": "T1598.003",
+          "name": "Phishing for Information: Social Media",
+          "description": "Attackers used Facebook as the initial vector to identify and engage potential victims, gathering information through conversation to tailor their social engineering approach.",
+          "evidence": [
+            "Both victims were initially contacted through Facebook",
+            "Scammers engaged in conversations to understand victim's financial situation",
+            "Information gathered was used to customize investment pitches"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Execution",
+      "techniques": [
+        {
+          "id": "T1204.001",
+          "name": "User Execution: Malicious Link",
+          "description": "Victims were directed to fraudulent cryptocurrency trading platforms through links provided by the scammers, leading to account creation and fund deposits on fake platforms.",
+          "evidence": [
+            "Victim 1 directed to bittisport.com initially, then through multiple domain changes",
+            "Victim 2 directed to open account on www.cbmww.com",
+            "Four domains identified: bittisport.com, nvbit.cc, frbit.cc, cbmww.com"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Persistence",
+      "techniques": [
+        {
+          "id": "T1584.001",
+          "name": "Compromise Infrastructure: Domains",
+          "description": "Scammers maintained persistence through multiple domain rotations, cycling through four different domains as previous ones were potentially flagged or taken down.",
+          "evidence": [
+            "Domain sequence: bittisport.com → nvbit.cc → frbit.cc → cbmww.com",
+            "Victim 1 reports domain changed several times during investment period",
+            "All websites eventually taken offline",
+            "Use of .cc TLD (Country Code Top-Level Domain) known for lax registration requirements"
+          ]
+        },
+        {
+          "id": "T1586.002",
+          "name": "Compromise Accounts: Social Media Accounts",
+          "description": "Scammers created or potentially compromised social media accounts on Facebook to conduct outreach and maintain persistent communication with victims.",
+          "evidence": [
+            "Facebook accounts used for initial contact with both victims",
+            "'Yinan' persona maintained on Facebook with fabricated business success story",
+            "Multiple victims contacted suggests organized operation with multiple social media accounts"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Defense Evasion",
+      "techniques": [
+        {
+          "id": "T1562.001",
+          "name": "Impair Defenses: Disable or Modify Tools",
+          "description": "Scammers moved conversations from Facebook (which has fraud monitoring) to WhatsApp (encrypted messaging) to evade platform security controls and monitoring.",
+          "evidence": [
+            "Victim 1 explicitly states conversation moved from Facebook to WhatsApp",
+            "Platform migration is common tactic to avoid detection by social media fraud systems",
+            "WhatsApp provides end-to-end encryption, preventing platform monitoring"
+          ]
+        },
+        {
+          "id": "T1027",
+          "name": "Obfuscated Files or Information",
+          "description": "Multiple layers of obfuscation including fake platform interfaces, fabricated balance displays, false business statements, and fictitious regulatory authorities to obscure the fraudulent nature of operations.",
+          "evidence": [
+            "Platform displayed fake balance of over $1 million for Victim 2",
+            "Fabricated 'Cryptocurrency Regulatory Authority' cited for tax demand",
+            "Yinan showed fake business statements as proof of returns",
+            "Customer support infrastructure created illusion of legitimate operation"
+          ]
+        },
+        {
+          "id": "T1497",
+          "name": "Virtualization/Sandbox Evasion",
+          "description": "Domain rotation strategy allowed scammers to evade blocklists, reputation systems, and takedown efforts by continuously moving to new domains.",
+          "evidence": [
+            "Four different domains used during operation",
+            "Sequential domain changes suggest proactive evasion",
+            "All domains eventually taken down but operation continued across migrations"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Credential Access",
+      "techniques": [
+        {
+          "id": "T1649",
+          "name": "Steal or Forge Authentication Certificates",
+          "description": "Scammer 'Yinan' attempted to gain access to victim's personal cryptocurrency wallet credentials under the guise of helping pay the fabricated tax.",
+          "evidence": [
+            "Yinan offered to help pay half of the $260,000 tax",
+            "Victim realized Yinan was trying to gain access to their crypto asset wallet",
+            "Attempt to obtain wallet private keys or recovery phrases"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Collection",
+      "techniques": [
+        {
+          "id": "T1114",
+          "name": "Email Collection",
+          "description": "Scammers collected victim information through extended conversations on messaging platforms to build detailed profiles and maintain the long-term relationship.",
+          "evidence": [
+            "Extended conversations with both victims over weeks/months",
+            "Victim 2 received regular communications about market opportunities",
+            "Information gathering enabled personalized social engineering"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Command and Control",
+      "techniques": [
+        {
+          "id": "T1071.001",
+          "name": "Application Layer Protocol: Web Protocols",
+          "description": "Fraudulent trading platforms used standard web protocols (HTTPS) to appear legitimate and facilitate victim interaction with fake trading interfaces.",
+          "evidence": [
+            "www.cbmww.com operated as web-based trading platform",
+            "All four domains functioned as interactive websites",
+            "Platform included account login, deposit, withdrawal request, and customer support features"
+          ]
+        },
+        {
+          "id": "T1102",
+          "name": "Web Service",
+          "description": "Scammers leveraged legitimate web services (Facebook, WhatsApp) for command and control communications with victims.",
+          "evidence": [
+            "Facebook used for initial contact and ongoing relationship building",
+            "WhatsApp used for continued victim communication",
+            "Both platforms provided persistent communication channels"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Impact",
+      "techniques": [
+        {
+          "id": "T1657",
+          "name": "Financial Theft",
+          "description": "Primary objective was financial theft through fraudulent cryptocurrency investments. Victims lost over $579,000 combined through deposits to fake trading platforms.",
+          "evidence": [
+            "Victim 1 lost over $400,000",
+            "Victim 2 lost over $179,000",
+            "Total documented losses exceed $579,000",
+            "Funds transferred to Ethereum wallets: 0xb1ee662001a0247270b282e03cfc0c86642babec and 0xa5fe0f74911715f5d6290d39da823c8e15986554"
+          ]
+        },
+        {
+          "id": "T1565.001",
+          "name": "Data Manipulation: Stored Data Manipulation",
+          "description": "Platform manipulated displayed account balances to show false profits, encouraging victims to deposit more funds. Victim 2's account showed over $1 million in false profits.",
+          "evidence": [
+            "Victim 2's account displayed balance exceeding $1 million",
+            "Fake profit displays used to maintain victim engagement",
+            "Initial $1,000 withdrawal approved to build false confidence",
+            "Platform customer support system created illusion of legitimate operations"
+          ]
+        },
+        {
+          "id": "T1499",
+          "name": "Endpoint Denial of Service",
+          "description": "Victims were denied access to their accounts and funds through various mechanisms including account lockouts and fabricated withdrawal obstacles.",
+          "evidence": [
+            "Victim 1 can no longer access their cryptocurrency",
+            "Victim 2 faced $260,000 'tax' demand when attempting withdrawal",
+            "Withdrawal prevention through fabricated regulatory requirements",
+            "All platforms eventually taken offline, preventing any victim access"
+          ]
+        }
+      ]
+    }
+  ],
+  "attack_flow": [
+    {
+      "step": 1,
+      "phase": "Initial Contact",
+      "description": "Scammers sent unsolicited messages to victims via Facebook, presenting themselves as successful crypto investors. Victim 1 received generic crypto investor pitch. Victim 2 was contacted by 'Yinan' with elaborate backstory about successful business and early retirement plans.",
+      "ttps": [
+        "T1566.002",
+        "T1598.003"
+      ]
+    },
+    {
+      "step": 2,
+      "phase": "Platform Migration & Trust Building",
+      "description": "Conversations migrated from Facebook to WhatsApp (at least for Victim 1) to evade platform monitoring. Scammers built trust through detailed stories, fake credentials, and social proof. 'Yinan' showed business statements and claimed access to uncle's analyst team. Extended relationship development over time.",
+      "ttps": [
+        "T1562.001",
+        "T1102",
+        "T1027"
+      ]
+    },
+    {
+      "step": 3,
+      "phase": "Platform Introduction & Onboarding",
+      "description": "Victims directed to fraudulent cryptocurrency trading platforms. Victim 1 started with bittisport.com. Victim 2 directed to www.cbmww.com. Victims guided through account registration process and initial deposit procedures.",
+      "ttps": [
+        "T1204.001",
+        "T1071.001"
+      ]
+    },
+    {
+      "step": 4,
+      "phase": "Initial Investment & Confidence Building",
+      "description": "Victims made initial deposits to platforms. Critically, Victim 2 was allowed to withdraw first profit of $1,000 successfully, establishing false legitimacy and building confidence in the platform. This is a classic pig butchering tactic.",
+      "ttps": [
+        "T1657",
+        "T1565.001"
+      ]
+    },
+    {
+      "step": 5,
+      "phase": "Investment Escalation ('Fattening the Pig')",
+      "description": "After initial success, victims encouraged to deposit significantly more funds. Victim 1 deposited over $400,000 total across multiple transactions. Victim 2 deposited over $179,000 with regular 'market information' from Yinan. Platform displayed fake growing balances to maintain engagement. During this phase, Victim 1 experienced multiple domain changes (bittisport.com → nvbit.cc → frbit.cc → cbmww.com).",
+      "ttps": [
+        "T1657",
+        "T1565.001",
+        "T1584.001",
+        "T1497"
+      ]
+    },
+    {
+      "step": 6,
+      "phase": "Withdrawal Prevention & Additional Extraction",
+      "description": "When victims attempted to withdraw funds, scammers implemented exit prevention mechanisms. Victim 1 lost account access entirely. Victim 2 was told by customer support that they must pay $260,000 to the fake 'Cryptocurrency Regulatory Authority' before withdrawing. Yinan offered to pay half the 'tax' but her true motive was to gain access to victim's personal crypto wallet.",
+      "ttps": [
+        "T1499",
+        "T1027",
+        "T1649"
+      ]
+    },
+    {
+      "step": 7,
+      "phase": "Exit & Infrastructure Shutdown",
+      "description": "Victim 2 recognized the wallet access attempt as a scam and ceased participation. Victim 1 remained locked out of account. All four domains (bittisport.com, nvbit.cc, frbit.cc, cbmww.com) eventually taken offline or abandoned. Stolen funds consolidated in identified Ethereum wallets. Victims reported to authorities with combined losses exceeding $579,000.",
+      "ttps": [
+        "T1499",
+        "T1657"
+      ]
+    }
+  ],
+  "iocs": {
+    "domains": [
+      {
+        "domain": "bittisport.com",
+        "type": "Fraudulent Crypto Trading Platform",
+        "status": "Inactive/Taken Down",
+        "description": "First domain in the sequence used for fraudulent crypto trading platform. Part of rotating infrastructure."
+      },
+      {
+        "domain": "nvbit.cc",
+        "type": "Fraudulent Crypto Trading Platform",
+        "status": "Inactive/Taken Down",
+        "description": "Second domain in rotation sequence. Continued fraudulent trading operations after bittisport.com."
+      },
+      {
+        "domain": "frbit.cc",
+        "type": "Fraudulent Crypto Trading Platform",
+        "status": "Inactive/Taken Down",
+        "description": "Third domain in rotation sequence. Used .cc TLD known for lax registration requirements."
+      },
+      {
+        "domain": "cbmww.com",
+        "type": "Fraudulent Crypto Trading Platform",
+        "status": "Inactive/Taken Down",
+        "description": "Final domain in sequence. Primary platform referenced by both victims at time of reporting."
+      },
+      {
+        "domain": "www.cbmww.com",
+        "type": "Fraudulent Crypto Trading Platform",
+        "status": "Inactive/Taken Down",
+        "description": "WWW subdomain variant of cbmww.com explicitly mentioned for Victim 2."
+      }
+    ],
+    "wallets": [
+      {
+        "address": "0xb1ee662001a0247270b282e03cfc0c86642babec",
+        "blockchain": "Ethereum",
+        "type": "Receiving Wallet",
+        "description": "Ethereum wallet address identified as receiving stolen funds from victims. Should be flagged for monitoring, blockchain analysis, and potential asset freezing.",
+        "associated_platforms": [
+          "CBMWW.com",
+          "bittisport.com",
+          "nvbit.cc",
+          "frbit.cc"
+        ]
+      },
+      {
+        "address": "0xa5fe0f74911715f5d6290d39da823c8e15986554",
+        "blockchain": "Ethereum",
+        "type": "Receiving Wallet",
+        "description": "Ethereum wallet address identified as receiving stolen funds from victims. Should be flagged for monitoring, blockchain analysis, and potential asset freezing.",
+        "associated_platforms": [
+          "CBMWW.com",
+          "bittisport.com",
+          "nvbit.cc",
+          "frbit.cc"
+        ]
+      }
+    ],
+    "social_media": [
+      {
+        "platform": "Facebook",
+        "identifier": "Unknown account(s)",
+        "description": "Facebook account(s) used to contact Victim 1, claiming to be crypto investor"
+      },
+      {
+        "platform": "Facebook",
+        "identifier": "Yinan",
+        "description": "Facebook account under name 'Yinan' used to contact Victim 2. Persona included fabricated business success story and early retirement narrative."
+      },
+      {
+        "platform": "WhatsApp",
+        "identifier": "Unknown account(s)",
+        "description": "WhatsApp account(s) used for continued communication with Victim 1 after migration from Facebook"
+      }
+    ],
+    "fake_entities": [
+      {
+        "name": "Cryptocurrency Regulatory Authority",
+        "type": "Fictitious Regulatory Body",
+        "description": "Fake regulatory authority fabricated by scammers to justify $260,000 'tax' demand from Victim 2. No such legitimate authority exists."
+      },
+      {
+        "name": "Uncle's Analyst Team",
+        "type": "Fictitious Investment Group",
+        "description": "Fabricated team of analysts supposedly managed by 'Yinan's uncle' to provide market intelligence and investment recommendations."
+      }
+    ],
+    "behavioral_indicators": [
+      {
+        "indicator": "Unsolicited Facebook messages about cryptocurrency investment opportunities",
+        "severity": "High",
+        "description": "Initial contact vector for both victims"
+      },
+      {
+        "indicator": "Request to move conversation from Facebook to WhatsApp",
+        "severity": "High",
+        "description": "Platform migration to evade monitoring"
+      },
+      {
+        "indicator": "Claims of insider access to investment analysts or special market knowledge",
+        "severity": "High",
+        "description": "Social engineering tactic used by 'Yinan'"
+      },
+      {
+        "indicator": "Display of fabricated business statements or profit proofs",
+        "severity": "High",
+        "description": "False social proof to build credibility"
+      },
+      {
+        "indicator": "Initial small withdrawal approval followed by requests for larger deposits",
+        "severity": "Critical",
+        "description": "Classic pig butchering confidence-building tactic - Victim 2 received $1,000 withdrawal"
+      },
+      {
+        "indicator": "Platform domain changes during active investment relationship",
+        "severity": "Critical",
+        "description": "Infrastructure rotation to evade detection - 4 domains identified"
+      },
+      {
+        "indicator": "Account access denial when attempting withdrawals",
+        "severity": "Critical",
+        "description": "Exit prevention mechanism - Victim 1 locked out completely"
+      },
+      {
+        "indicator": "Large 'tax' or 'fee' demands before withdrawal approval",
+        "severity": "Critical",
+        "description": "Fake $260,000 tax to 'Cryptocurrency Regulatory Authority' demanded from Victim 2"
+      },
+      {
+        "indicator": "Third party offering to help pay fees/taxes",
+        "severity": "Critical",
+        "description": "Yinan offered to pay half of $260,000 tax - secondary extraction attempt"
+      },
+      {
+        "indicator": "Requests for access to personal cryptocurrency wallets",
+        "severity": "Critical",
+        "description": "Yinan attempted to gain access to Victim 2's personal crypto wallet"
+      },
+      {
+        "indicator": "Account balances showing unrealistic gains (e.g., $1M+ from $179K investment)",
+        "severity": "High",
+        "description": "Fake balance manipulation to maintain victim engagement"
+      }
+    ]
+  },
+  "financial_impact": {
+    "total_loss": "$579,000+",
+    "victim_breakdown": [
+      {
+        "victim_id": "Victim 1",
+        "location": "California",
+        "amount_lost": "$400,000+",
+        "investment_period": "Multiple transactions over extended period (weeks/months)",
+        "withdrawal_attempts": "Unable to access account before withdrawal possible",
+        "platforms_used": [
+          "bittisport.com",
+          "nvbit.cc",
+          "frbit.cc",
+          "cbmww.com"
+        ]
+      },
+      {
+        "victim_id": "Victim 2",
+        "location": "California",
+        "amount_lost": "$179,000+",
+        "investment_period": "Multiple transactions over extended period (weeks/months)",
+        "withdrawal_attempts": "One successful withdrawal of $1,000 (trust building), later $260,000 'tax' demanded for larger withdrawal",
+        "platforms_used": [
+          "www.cbmww.com"
+        ],
+        "additional_exposure": "Avoided additional loss by recognizing Yinan's wallet access attempt as scam"
+      }
+    ],
+    "cryptocurrency_flow": {
+      "deposit_method": "Victims deposited fiat or cryptocurrency to platform",
+      "platform_conversion": "Funds converted to cryptocurrency by platform",
+      "destination_wallets": [
+        "0xb1ee662001a0247270b282e03cfc0c86642babec",
+        "0xa5fe0f74911715f5d6290d39da823c8e15986554"
+      ],
+      "laundering_method": "Likely cryptocurrency mixing services or exchanges for further laundering"
+    }
+  },
+  "victim_profile": {
+    "count": 2,
+    "locations": [
+      "California, USA"
+    ],
+    "targeting_method": "Unsolicited social media contact (Facebook)",
+    "common_characteristics": [
+      "Active on social media (Facebook)",
+      "Interest in or openness to cryptocurrency investment",
+      "Responsive to investment opportunity pitches",
+      "Capable of making significant financial investments"
+    ]
+  },
+  "scammer_profile": {
+    "organization_level": "Organized Group",
+    "sophistication": "High",
+    "indicators": [
+      "Multiple backup domains prepared for rotation",
+      "Professional-looking trading platform interface",
+      "Customer support infrastructure",
+      "Ability to process selective withdrawals (trust building)",
+      "Coordinated social engineering with detailed personas",
+      "Extended victim engagement capability (weeks/months)",
+      "Multilayered extraction attempts (deposits + fake taxes + wallet access)",
+      "Infrastructure shutdown coordination"
+    ],
+    "personas_used": [
+      {
+        "name": "Generic Crypto Investor",
+        "platform": "Facebook",
+        "target": "Victim 1",
+        "characteristics": "Basic crypto investment expertise claims, high return promises"
+      },
+      {
+        "name": "Yinan",
+        "platform": "Facebook",
+        "target": "Victim 2",
+        "characteristics": "Successful business owner, early retirement planning, uncle with analyst team, sharing of market intelligence, false partnership building"
+      }
+    ],
+    "communication_channels": [
+      "Facebook Messenger",
+      "WhatsApp",
+      "Platform customer support chat"
+    ],
+    "likely_location": "International (offshore operation typical for pig butchering scams)",
+    "operational_duration": "Months (based on extended victim engagement and multiple domain iterations)"
+  },
+  "timeline": {
+    "earliest_known_activity": "Unknown (predates first victim contact)",
+    "infrastructure_setup": "Multiple domains registered and platforms developed prior to victim contact",
+    "victim_1_timeline": {
+      "initial_contact": "Date unknown - Facebook message from crypto investor",
+      "platform_migration": "Conversation moved to WhatsApp",
+      "first_investment": "Date unknown - Initial deposit to bittisport.com",
+      "domain_migrations": "bittisport.com → nvbit.cc → frbit.cc → cbmww.com during investment period",
+      "total_investment_period": "Extended period (weeks/months) totaling $400,000+",
+      "account_lockout": "Date unknown - Lost access to cryptocurrency",
+      "reporting": "Reported to authorities after total loss"
+    },
+    "victim_2_timeline": {
+      "initial_contact": "Date unknown - Facebook contact from 'Yinan'",
+      "relationship_building": "Extended conversations about business success and investment strategies",
+      "platform_onboarding": "Directed to www.cbmww.com and guided through registration",
+      "first_investment": "Date unknown - Initial deposit",
+      "first_withdrawal": "Successfully withdrew $1,000 (trust building phase)",
+      "escalation_phase": "Multiple additional deposits with regular market information from Yinan",
+      "account_peak": "Platform displayed balance exceeding $1 million",
+      "withdrawal_attempt": "Attempted to withdraw funds",
+      "tax_demand": "Customer support demanded $260,000 payment to 'Cryptocurrency Regulatory Authority'",
+      "secondary_scam_attempt": "Yinan offered to pay half of tax, attempted to gain wallet access",
+      "scam_recognition": "Victim recognized wallet access attempt as scam",
+      "total_loss": "$179,000+",
+      "reporting": "Reported to authorities"
+    },
+    "infrastructure_shutdown": "All four domains (bittisport.com, nvbit.cc, frbit.cc, cbmww.com) eventually taken offline",
+    "current_status": "Operation ceased, all platforms inactive, investigation ongoing"
+  },
+  "recommendations": {
+    "immediate_actions": [
+      "Flag and monitor Ethereum wallet addresses: 0xb1ee662001a0247270b282e03cfc0c86642babec and 0xa5fe0f74911715f5d6290d39da823c8e15986554",
+      "Add all domains to blocklists and reputation databases",
+      "Conduct blockchain analysis to trace fund flows from identified wallets",
+      "Coordinate with cryptocurrency exchanges to freeze assets if possible",
+      "Investigate Facebook accounts used for victim contact",
+      "Issue public warning about CBMWW and related platforms"
+    ],
+    "victim_support": [
+      "Report to FBI IC3 (Internet Crime Complaint Center)",
+      "Report to FTC (Federal Trade Commission)",
+      "Report to local law enforcement and California Attorney General",
+      "Document all evidence: screenshots, transaction records, blockchain hashes",
+      "Consult with cryptocurrency asset recovery specialists",
+      "Monitor credit and set up fraud alerts",
+      "Claim tax deduction for investment fraud losses if applicable"
+    ],
+    "prevention_measures": [
+      "Public awareness campaigns on pig butchering scam tactics",
+      "Education on 'small withdrawal' trust-building tactic",
+      "Social media platform monitoring for crypto investment solicitation patterns",
+      "Browser and wallet software warnings for flagged addresses",
+      "Enhanced verification for crypto trading platform domains",
+      "Cryptocurrency exchange wallet blacklisting and intelligence sharing",
+      "Financial institution monitoring for large crypto purchase patterns"
+    ],
+    "detection_indicators": [
+      "Unsolicited social media messages about cryptocurrency investments",
+      "Requests to migrate conversations to encrypted messaging apps",
+      "Claims of insider access to investment analysts or special knowledge",
+      "Display of fabricated business statements or profit proofs",
+      "Initial small withdrawal approvals followed by deposit escalation requests",
+      "Platform domain changes during active relationship",
+      "Withdrawal obstacles citing taxes, fees, or fake regulatory requirements",
+      "Third parties offering to help pay fees to gain wallet access",
+      "Account balances showing unrealistic returns"
+    ],
+    "law_enforcement_priorities": [
+      "Blockchain forensics on identified wallet addresses",
+      "Domain registration and hosting provider investigation",
+      "International cooperation for offshore operation tracking",
+      "Facebook and WhatsApp account investigation",
+      "Exchange subpoenas for wallet transaction data",
+      "Identification of connected victims through pattern analysis",
+      "Cryptocurrency mixing service tracking",
+      "Asset recovery and freezing efforts"
+    ]
+  },
+  "mitre_attack_mapping": {
+    "tactics": [
+      "Initial Access",
+      "Execution",
+      "Persistence",
+      "Defense Evasion",
+      "Credential Access",
+      "Collection",
+      "Command and Control",
+      "Impact"
+    ],
+    "technique_summary": {
+      "total_techniques": 15,
+      "by_tactic": {
+        "Initial Access": 2,
+        "Execution": 1,
+        "Persistence": 2,
+        "Defense Evasion": 3,
+        "Credential Access": 1,
+        "Collection": 1,
+        "Command and Control": 2,
+        "Impact": 3
+      }
+    }
+  },
+  "confidence_level": "High",
+  "confidence_justification": "Analysis based on detailed victim reports from two separate individuals with consistent patterns, specific domain names, identified wallet addresses, and clear documentation of scammer tactics. Multiple corroborating details including domain rotation sequence, specific personas, financial amounts, and social engineering methods. Case reported to authorities with substantial evidence.",
+  "analyst_notes": "This case exemplifies a sophisticated, organized pig butchering operation with several notable characteristics: (1) Infrastructure resilience through four-domain rotation strategy, (2) Classic trust-building through initial $1,000 withdrawal approval, (3) Multi-layered extraction including deposits, fake taxes ($260,000), and wallet access attempts, (4) Professional platform interface with customer support, (5) Extended victim engagement over weeks/months, (6) Coordinated shutdown of all infrastructure post-scam. The identification of two Ethereum wallet addresses is crucial for blockchain analysis and potential asset recovery. The fake 'Cryptocurrency Regulatory Authority' and $260,000 tax demand represent an additional sophisticated layer to extract more funds. Victim 2's recognition of the wallet access attempt prevented further losses and provides valuable insight into secondary extraction tactics. The domain rotation pattern (bittisport.com → nvbit.cc → frbit.cc → cbmww.com) suggests proactive infrastructure management to evade detection. Total documented losses exceed $579,000 across two victims, indicating high-value targeting. This case should be prioritized for international law enforcement cooperation given the likely offshore operation."
+}

@@ -1,0 +1,51 @@
+{
+  "case_id": 10,
+  "approach_and_lure": {
+    "initial_contact_platform": ["WhatsApp"],
+    "lure_type": ["friendship", "investment_opportunity"],
+    "communication_migration": "WhatsApp (no migration)"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Friend and crypto trading mentor/advisor",
+      "wealth_indicators": ["successful_crypto_trader", "trading_knowledge"],
+      "relationship_type": "friend"
+    },
+    "psychological_tactics": ["trust_building", "authority", "social_proof", "fear_of_missing_out", "sunk_cost_exploitation"],
+    "trust_building_period": "Days to weeks (sufficient to establish friendship)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["goldmarketer.net"],
+    "platform_urls": ["goldmarketer.net"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": ["tax_payment_demand"]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["crypto_assets_unspecified"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": null,
+    "payment_methods": ["unspecified"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Days to weeks",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.65,
+    "missing_information": [
+      "cryptocurrency_types_specific",
+      "wallet_addresses",
+      "transaction_hashes",
+      "deposit_amount",
+      "tax_demand_amount",
+      "scammer_identity_details",
+      "exact_timeline",
+      "payment_methods",
+      "fake_profit_amounts",
+      "additional_communications"
+    ],
+    "notes": "Classic Pig Butchering scam with WhatsApp contact, friendship building, and fraudulent crypto trading platform. Tax demand is sophisticated withdrawal blocking tactic. Platform now defunct (exit scam). Significant intelligence gaps in financial tracking data limit blockchain investigation capability. Victim suffered complete loss of funds."
+  }
+}

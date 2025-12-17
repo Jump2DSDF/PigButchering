@@ -1,0 +1,145 @@
+CHAIN OF THOUGHT ANALYSIS - PIG BUTCHERING CASE
+=================================================
+Case ID: pb081 (Original Case ID: 183)
+Primary Subject: bravehqnx.cc (Entity Impersonating Brave Software)
+Analysis Date: 2025-12-17
+
+STEP 1: CASE UNDERSTANDING & INITIAL CONTACT
+---------------------------------------------
+Scam Type Classification:
+- Fraudulent Trading Platform
+- Imposter Scam
+- Pig Butchering Scam
+
+Initial Contact Method:
+The narrative does not explicitly detail the initial contact method, but victims were convinced to engage with the fraudulent platform. The scam leverages impersonation tactics, suggesting initial outreach may have occurred through social media, crypto forums, or direct messaging platforms where the scammers posed as representatives of Brave Software.
+
+Victim Profile:
+- Cryptocurrency investors, particularly those interested in Ethereum (ETH)
+- Individuals seeking legitimate cryptocurrency staking and mining opportunities
+- Users familiar with Brave browser/ecosystem who may trust the brand
+
+STEP 2: RELATIONSHIP BUILDING & TRUST ESTABLISHMENT
+---------------------------------------------------
+Trust Building Tactics:
+1. Brand Impersonation: Fraudulent company poses as Brave Software, a legitimate and well-known privacy-focused browser company with its own cryptocurrency (BAT - Basic Attention Token)
+2. Professional Website Design: Created a deceptive website (bravehqnx.cc) that closely mimics Brave's official branding, logo, color scheme, and design elements
+3. Legitimate Business Association: Exploited the reputation and trust associated with Brave Software to lower victim skepticism
+4. Promise of High Returns: Offered alleged cryptocurrency investment opportunities with claims of high returns from crypto-mining or staking activities
+5. Technical Legitimacy: Focused on Ethereum (ETH), a major cryptocurrency, adding perceived legitimacy to the operation
+
+Duration and Interaction:
+The narrative indicates ongoing communication through the fraudulent platform's customer support and emails, suggesting a sustained interaction period where victims believed they were dealing with legitimate customer service representatives.
+
+STEP 3: PLATFORM/INVESTMENT INTRODUCTION
+-----------------------------------------
+Platform Details:
+- Website: bravehqnx.cc (now non-operational)
+- Impersonated Entity: Brave Software (legitimate company at brave.com)
+- Confused With: Brave Wallet service (https://brave.com/wallet/)
+
+Investment Opportunity Presented:
+1. Cryptocurrency Investment: Focused on Ethereum (ETH) and potentially other cryptocurrencies
+2. Staking Activities: Promised returns from crypto staking mechanisms
+3. Mining Operations: Claimed profits from crypto-mining activities
+4. High Returns: Advertised significant profit potential to attract investors
+
+Platform Features (Fraudulent):
+- Professional-looking interface mimicking Brave Software's design
+- Customer support system (email and platform-based)
+- Account management system for deposits and tracking
+- Mining/staking dashboard (likely showing fake returns)
+
+STEP 4: INVESTMENT/DEPOSIT PHASE
+---------------------------------
+Fund Transfer Methods:
+Users were convinced to transfer their ETH or other cryptocurrencies to wallet addresses controlled by the fraudulent company. This indicates:
+- Direct cryptocurrency wallet transfers
+- Use of specific wallet addresses controlled by scammers
+- Victims sent funds believing they were depositing into legitimate Brave Software investment accounts
+
+Investment Pattern:
+The narrative suggests multiple victims were affected, with users transferring various amounts of cryptocurrency (primarily ETH). The specific amounts are not detailed, but the phrase "significant financial losses" indicates substantial sums were involved.
+
+Wallet Addresses:
+While specific wallet addresses are not provided in the complaint narrative, the scam involved directing victims to transfer cryptocurrencies to scammer-controlled wallet addresses. These addresses would be critical for blockchain analysis and tracking stolen funds.
+
+STEP 5: MANIPULATION & WITHDRAWAL BARRIERS
+-------------------------------------------
+Continued Engagement:
+Victims maintained communication with the fraudulent platform's customer support and email system, attempting to:
+1. Track their investments
+2. Request withdrawals
+3. Seek assistance with account issues
+4. Verify the legitimacy of the operation
+
+Withdrawal Issues:
+The narrative indicates victims "report significant financial losses," suggesting they were unable to recover their funds. Common barriers likely included:
+- Account access problems
+- Unresponsive customer support
+- Platform becoming non-operational
+- Inability to withdraw deposited cryptocurrencies
+- Fake error messages or technical issues
+
+Red Flags Identified (Post-Loss):
+1. Website no longer operational - classic exit scam pattern
+2. Domain name (bravehqnx.cc) differs from legitimate Brave domain (brave.com)
+3. Unrealistic return promises for staking/mining
+4. Communication difficulties with support
+5. Inability to withdraw funds
+
+STEP 6: OUTCOME & IMPACT ASSESSMENT
+------------------------------------
+Financial Impact:
+- Multiple victims affected
+- Significant financial losses reported
+- Funds transferred via cryptocurrency (primarily ETH)
+- Complete loss of deposited assets
+- No successful fund recovery mentioned
+
+Victim Actions Taken:
+1. Attempted communication with fraudulent customer support
+2. Sent multiple emails seeking assistance
+3. Likely reported to authorities (California DFB received the complaint)
+
+Current Status:
+- Website bravehqnx.cc is no longer operational
+- Scam appears to be an exit scam where operators shut down after collecting sufficient funds
+- Victims unable to access or recover their cryptocurrency
+
+Scam Characteristics:
+This case represents a sophisticated impersonation-based pig butchering scam with the following key elements:
+1. Brand Hijacking: Leveraged Brave Software's reputation
+2. Technical Sophistication: Created convincing replica website
+3. Cryptocurrency Focus: Targeted ETH investors specifically
+4. False Legitimacy: Used mining/staking narratives common in legitimate crypto space
+5. Exit Strategy: Shut down operations after collecting funds
+
+EXTRACTED INDICATORS OF COMPROMISE (IoCs):
+-----------------------------------------
+Domains:
+- bravehqnx.cc (fraudulent, now non-operational)
+
+Legitimate References (DO NOT BLOCK):
+- brave.com (legitimate Brave Software website)
+- brave.com/wallet (legitimate Brave Wallet service)
+
+Cryptocurrency:
+- Primary focus: Ethereum (ETH)
+- Other cryptocurrencies potentially involved
+
+Tactics:
+- Brand impersonation
+- Professional website cloning
+- Fake mining/staking promises
+- High return guarantees
+- Customer support facade
+- Exit scam execution
+
+MITRE ATT&CK-Style TTP Summary:
+- Initial Access: Social engineering via brand impersonation
+- Execution: Fraudulent trading platform operation
+- Persistence: Sustained customer support interaction
+- Credential Access: Not applicable (direct crypto transfers)
+- Collection: Cryptocurrency wallet transfers
+- Impact: Financial theft, brand reputation damage, victim financial loss

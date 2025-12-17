@@ -1,0 +1,87 @@
+{
+  "case_id": 66,
+  "approach_and_lure": {
+    "initial_contact_platform": [
+      "acquaintance_referral",
+      "unknown_for_victim2"
+    ],
+    "lure_type": [
+      "investment_opportunity",
+      "referral"
+    ],
+    "communication_migration": "platform_internal_communications"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "DeFi Wallet platform representative, affiliated with Crypto.com branding. Rafael - platform representative/recovery agent",
+      "wealth_indicators": [
+        "legitimate_platform_appearance",
+        "regulatory_compliance_claims",
+        "professional_customer_service"
+      ],
+      "relationship_type": "company_representative"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "authority",
+      "fear_of_missing_out",
+      "sunk_cost_exploitation",
+      "social_proof"
+    ],
+    "trust_building_period": "Extended period through trading activity and referral introduction"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": [
+      "crypto-rd.top",
+      "DeFi Wallet platform"
+    ],
+    "platform_urls": [
+      "www.crypto-rd.top"
+    ],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "platform_fee_demand",
+      "kyc_verification_fee",
+      "maintenance_fee",
+      "fake_regulatory_fee_esec",
+      "wallet_lockout",
+      "restoration_ransom_75000_usd"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": [
+      "BTC",
+      "ETH"
+    ],
+    "wallet_addresses": [
+      "3ES9qFnB35pTYV6frG59AUtgCtDMCKZ6nu",
+      "0x0BFE55CbaB96AC7c9e6f2995D7BE9356fC5a9639"
+    ],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 75000,
+    "payment_methods": [
+      "cryptocurrency_transfer_btc",
+      "cryptocurrency_transfer_eth",
+      "platform_payment_system"
+    ]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended period (weeks to months implied by multi-stage extraction)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.8,
+    "missing_information": [
+      "victim1_total_deposit_amounts",
+      "victim1_individual_fee_amounts",
+      "victim2_original_wallet_balance",
+      "transaction_hashes",
+      "specific_dates_timeline",
+      "communication_platforms_used",
+      "acquaintance_identity_role",
+      "victim2_initial_contact_method"
+    ],
+    "notes": "Sophisticated multi-chain operation impersonating Crypto.com. Excellent blockchain tracking data with BTC and ETH addresses. Two victims with different extraction tactics: infinite fee loop (Victim 1) vs wallet lockout ransom (Victim 2). Platform now defunct. Fake European Securities and Exchange Commission (ESEC) reference - no such entity exists. Professional exit scam pattern."
+  }
+}

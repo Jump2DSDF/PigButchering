@@ -1,0 +1,314 @@
+TTP CHAIN OF THOUGHT ANALYSIS
+Case: pb_025 (case 68)
+Platform: CBOTBIT (cbotbit.com)
+Analyst: Claude Opus 4.5
+Date: 2025-12-17
+
+================================================================================
+CASE NARRATIVE
+================================================================================
+A California resident met "Lin" through WhatsApp who steered the conversation
+to investing in crypto assets. Lin directed the victim to the crypto asset
+trading platform, CBOTBIT, located at https://cbotbit.com and showed them how
+to open an account and transfer funds. Following Lin's instructions for trading,
+the victim believed their account had grown substantially. But when the victim
+tried to withdraw funds from the platform, they were unable to do so. The
+website is no longer operational. All told, the victim believed they lost more
+than $40,000.
+
+================================================================================
+STEP 1: INITIAL CONTACT ANALYSIS (접근 및 유인)
+================================================================================
+
+Initial Contact Platform:
+- IDENTIFIED: WhatsApp
+- Evidence: "A California resident met 'Lin' through WhatsApp"
+- Confidence: HIGH - explicitly stated
+
+Lure Type:
+- IDENTIFIED: Investment opportunity
+- Evidence: Lin "steered the conversation to investing in crypto assets"
+- Pattern: Classic pig butchering progression from initial contact to investment
+- Confidence: HIGH - clear from narrative
+
+Communication Migration:
+- ASSESSMENT: No migration evident
+- Evidence: No mention of moving to another platform
+- Likely scenario: Communications remained on WhatsApp throughout
+- Confidence: MEDIUM - based on absence of contrary information
+
+Attack Vector Assessment:
+This appears to be either:
+1. Random/targeted outreach on WhatsApp, OR
+2. Contact initiated through another platform then moved to WhatsApp
+The narrative doesn't specify how they "met" on WhatsApp initially.
+
+================================================================================
+STEP 2: PERSONA & PSYCHOLOGY ANALYSIS (사칭 및 심리)
+================================================================================
+
+Scammer Identity:
+- NAME: "Lin" (quoted in narrative, suggesting possible alias)
+- Gender: Unknown from narrative
+- Other identity markers: None provided
+- Confidence: LOW - minimal information
+
+Wealth Indicators:
+- NONE explicitly mentioned in narrative
+- Possible implicit indicator: Knowledge of "successful" trading strategies
+- Assessment: Lin positioned as knowledgeable/successful trader rather than
+  displaying obvious wealth
+- Confidence: LOW - speculative
+
+Relationship Type:
+- IDENTIFIED: Investment advisor / Mentor
+- Evidence: "showed them how to open an account and transfer funds"
+- Evidence: "Following Lin's instructions for trading"
+- Pattern: Lin acted as guide/instructor rather than romantic interest or friend
+- Confidence: HIGH - clear advisory relationship
+
+Psychological Tactics Identified:
+
+1. TRUST BUILDING
+   - Evidence: Victim followed Lin's instructions and made substantial deposits
+   - Pattern: Sufficient rapport established for victim to trust financial advice
+   - Confidence: HIGH
+
+2. AUTHORITY
+   - Evidence: Lin positioned as knowledgeable expert showing "how to" invest
+   - Pattern: Victim deferred to Lin's expertise and "instructions"
+   - Confidence: HIGH
+
+3. SOCIAL PROOF (Possible)
+   - Evidence: Platform showing "account had grown substantially"
+   - Pattern: Fake gains serve as proof that Lin's method works
+   - Confidence: MEDIUM
+
+4. SUNK COST EXPLOITATION
+   - Evidence: Victim deposited "more than $40,000" total
+   - Pattern: Likely multiple deposits following initial success
+   - Assessment: After seeing initial fake gains, victim likely continued
+     investing more to capitalize on apparent opportunity
+   - Confidence: MEDIUM
+
+5. FEAR OF MISSING OUT (FOMO)
+   - Evidence: Substantial account growth shown to victim
+   - Pattern: Display of fake profits creates urgency to invest more
+   - Confidence: MEDIUM
+
+Trust-Building Period:
+- DURATION: Not specified in narrative
+- ASSESSMENT: Sufficient time to establish credibility and demonstrate
+  "successful" trading
+- Pattern suggests: Likely weeks to months (typical for this scam type)
+- Confidence: LOW - speculative based on pattern analysis
+
+================================================================================
+STEP 3: FRAUD MECHANISM ANALYSIS (사기 수법)
+================================================================================
+
+Platform Type:
+- IDENTIFIED: Fake trading platform
+- Evidence: "crypto asset trading platform, CBOTBIT"
+- Confidence: HIGH
+
+Platform Details:
+- NAME: CBOTBIT
+- URL: https://cbotbit.com
+- Confidence: HIGH - explicitly stated
+
+Fake Profit Display:
+- CONFIRMED: YES
+- Evidence: "the victim believed their account had grown substantially"
+- Pattern: Classic pig butchering technique showing fake returns
+- Purpose: Encourage continued deposits and prevent early withdrawal attempts
+- Confidence: HIGH
+
+Withdrawal Block Tactics:
+- OUTCOME: Complete withdrawal failure
+- Evidence: "when the victim tried to withdraw funds from the platform, they
+  were unable to do so"
+- SPECIFIC TACTICS: Not detailed in narrative
+- Common scenarios for this pattern:
+  * Platform interface prevents withdrawal function
+  * Requests for "taxes" or "fees" before withdrawal
+  * Account "verification" or "security deposit" demands
+  * Technical "errors" preventing withdrawal
+  * Support unresponsive to withdrawal requests
+- Confidence: HIGH that blocking occurred, LOW on specific method
+
+Platform Status:
+- CURRENT STATUS: Defunct
+- Evidence: "The website is no longer operational"
+- Pattern: Typical exit scam - platform shuts down after collecting funds
+- Confidence: HIGH
+
+Technical Assessment:
+- The cbotbit.com domain represents a fake exchange impersonating legitimate
+  trading infrastructure
+- No indication of app vs. web-based platform
+- No screenshots or technical indicators mentioned
+
+================================================================================
+STEP 4: FINANCIAL INTELLIGENCE EXTRACTION (추적단서)
+================================================================================
+
+Cryptocurrency Types:
+- MENTIONED: "crypto assets" (generic term)
+- SPECIFIC TYPES: Not specified
+- LIKELY CANDIDATES: BTC, ETH, USDT (most common in pig butchering)
+- Confidence: LOW - no specific information
+
+Wallet Addresses:
+- IDENTIFIED: None
+- Assessment: Critical gap for blockchain tracking
+- Confidence: N/A - information not present
+
+Transaction Hashes:
+- IDENTIFIED: None
+- Assessment: Critical gap for blockchain tracking
+- Confidence: N/A - information not present
+
+Estimated Total Loss:
+- AMOUNT: More than $40,000 USD
+- PRECISION: Minimum threshold, actual amount may be higher
+- Evidence: "the victim believed they lost more than $40,000"
+- Confidence: HIGH for minimum estimate
+
+Payment Methods:
+- EXPLICIT METHODS: Not specified
+- EVIDENCE: "transfer funds" mentioned
+- LIKELY SCENARIOS:
+  1. Deposits from legitimate crypto exchange (e.g., Coinbase, Binance)
+  2. Direct crypto transfers to platform-controlled wallets
+  3. Possibly bank wire to crypto purchase service
+- Pattern: Typical pig butchering uses crypto exchanges as initial on-ramp
+- Confidence: LOW - speculative
+
+Deposit Pattern Analysis:
+- NUMBER OF DEPOSITS: Not specified
+- AMOUNTS: Not specified
+- PROGRESSION: Likely escalating (typical pattern)
+- Evidence of multiple deposits: Total of $40k+ suggests multiple transactions
+  rather than single deposit
+- Confidence: MEDIUM - based on typical patterns
+
+Critical Intelligence Gaps:
+1. No wallet addresses = cannot trace funds on blockchain
+2. No transaction hashes = cannot identify specific transfers
+3. No cryptocurrency types = cannot focus blockchain analysis
+4. No deposit timeline = cannot correlate with platform operations
+5. No bank information = cannot trace initial fiat on-ramp
+
+================================================================================
+STEP 5: TEMPORAL ANALYSIS (시간적 지표)
+================================================================================
+
+Scam Duration:
+- START: Not specified
+- END: Not specified
+- TOTAL DURATION: Unknown
+- Pattern analysis suggests: Likely weeks to months
+  * Time needed to build trust
+  * Time to make multiple deposits totaling $40k+
+  * Time to show fake gains before withdrawal attempt
+- Typical range for this scam type: 1-6 months
+- Confidence: LOW - no explicit information
+
+Key Timeline Events (Reconstructed):
+1. Initial contact via WhatsApp (T0)
+2. Trust building / conversation about crypto investing (T0 + days/weeks)
+3. Introduction to CBOTBIT platform (T1)
+4. Account opening and first deposit (T1)
+5. Trading instructions from Lin (T1 to T2)
+6. Observing account growth (fake profits) (T1 to T2)
+7. Additional deposits based on apparent success (T1 to T2)
+8. Withdrawal attempt and failure (T2)
+9. Platform shutdown (T3 - may coincide with T2 or later)
+10. Report filed (T4)
+
+Platform Status:
+- CURRENT: Defunct
+- Evidence: "The website is no longer operational"
+- TIMELINE: Shutdown likely occurred at or before withdrawal attempt
+- Pattern: Classic exit scam behavior
+- Confidence: HIGH
+
+Operational Intelligence:
+- Platform cbotbit.com is no longer accessible
+- No indication if domain still resolves or completely offline
+- No information about when platform went offline relative to complaint
+- No information about platform operational period (days, months, years)
+
+================================================================================
+STEP 6: CONFIDENCE ASSESSMENT
+================================================================================
+
+HIGH CONFIDENCE EXTRACTIONS (>0.8):
+1. Initial contact platform: WhatsApp
+2. Lure type: Investment opportunity
+3. Platform name: CBOTBIT
+4. Platform URL: https://cbotbit.com
+5. Platform type: Fake trading platform
+6. Fake profits shown: YES
+7. Withdrawal blocked: YES
+8. Platform status: Defunct
+9. Minimum loss: $40,000 USD
+10. Relationship type: Investment advisor/mentor
+
+MEDIUM CONFIDENCE EXTRACTIONS (0.5-0.8):
+1. Psychological tactics: Trust building, authority, social proof, sunk cost
+2. No communication platform migration
+3. Multiple deposits made
+4. Scam duration: Weeks to months
+
+LOW CONFIDENCE EXTRACTIONS (<0.5):
+1. Specific cryptocurrency types
+2. Payment methods used
+3. Trust building period duration
+4. Scammer persona details beyond name "Lin"
+5. Specific withdrawal blocking tactics
+
+CRITICAL MISSING INFORMATION:
+1. Wallet addresses (blockchain tracking impossible)
+2. Transaction hashes (transaction tracing impossible)
+3. Specific cryptocurrency types
+4. Exact timeline/dates
+5. Number and amounts of individual deposits
+6. Lin's contact information (WhatsApp number)
+7. Specific withdrawal blocking tactics employed
+8. Communication logs or screenshots
+9. Platform screenshots or technical details
+10. Whether victim attempted to contact "Lin" after withdrawal failure
+11. Whether platform demanded additional fees/taxes for withdrawal
+12. How initial WhatsApp contact was established
+
+OVERALL CONFIDENCE SCORE: 0.75
+
+RATIONALE:
+- Core facts clearly stated: platform URL, name, loss amount, contact method
+- Strong narrative consistency with known pig butchering patterns
+- Significant gaps in technical/forensic intelligence
+- Minimal detail on scammer persona and psychological manipulation specifics
+- No blockchain tracking information whatsoever
+
+INTELLIGENCE VALUE:
+- URL (cbotbit.com) can be checked for historical data, DNS records, hosting
+- Name "Lin" adds to pattern database but limited actionable value
+- Loss amount confirms high-value target
+- WhatsApp as platform consistent with Asian-origin scam operations
+- Pattern matches classic investment-type pig butchering
+
+RECOMMENDATIONS FOR FOLLOW-UP:
+1. OSINT on cbotbit.com domain (WHOIS, historical snapshots, DNS)
+2. Request victim's transaction records from legitimate exchanges used
+3. Request bank records showing fiat-to-crypto conversions
+4. Request WhatsApp communication logs with Lin
+5. Search for other victims of cbotbit.com platform
+6. Check if victim has screenshots of platform or communications
+7. Determine if victim has any wallet addresses used for transfers
+8. Cross-reference "Lin" with other reported pig butchering cases
+
+================================================================================
+ANALYSIS COMPLETE
+================================================================================

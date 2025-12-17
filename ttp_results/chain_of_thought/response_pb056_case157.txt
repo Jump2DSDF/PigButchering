@@ -1,0 +1,182 @@
+CHAIN OF THOUGHT ANALYSIS: PIG BUTCHERING CASE 56
+Case ID: pb_case_id 56 (Original Case 157)
+Primary Subject: leedsbrokerages.com / Leeds Brokerages
+Financial Loss: $30,000
+
+================================================================================
+6-STEP FRAUD TTP EXTRACTION FRAMEWORK
+================================================================================
+
+STEP 1: INITIAL CONTACT & TRUST ESTABLISHMENT
+--------------------------------------------------------------------------------
+Analysis Focus: How did the scammer first make contact and build initial credibility?
+
+Key Observations:
+- Initial Contact Method: Social Media (TikTok)
+- Trust Vector: Trusted TikTok video creator
+- The victim discovered the exchange through content from a TikTok creator they already trusted
+- This represents an "influencer exploitation" or "social proof" technique
+- No direct personal relationship building mentioned (differentiates from romance scams)
+
+Trust Building Mechanism:
+- Parasocial trust relationship with TikTok creator
+- Implied legitimacy through association with known content creator
+- Platform credibility borrowed from influencer's reputation
+
+TTP Classification:
+- Initial Contact Channel: Social Media Platform (TikTok)
+- Trust Mechanism: Influencer/Social Proof Exploitation
+- Relationship Type: Indirect (through trusted intermediary)
+
+STEP 2: PLATFORM INTRODUCTION & ONBOARDING
+--------------------------------------------------------------------------------
+Analysis Focus: How was the victim guided onto the fraudulent platform?
+
+Key Observations:
+- Fraudulent Platform: leedsbrokerages.com (no longer operational)
+- Platform Type: Crypto asset exchange
+- Guidance Provided: Representatives from the exchange provided direct assistance
+- Technical Onboarding: Victim was guided through:
+  * Setting up a crypto wallet
+  * Transferring crypto to the exchange
+
+Sophistication Indicators:
+- Direct customer support interaction (creates legitimacy impression)
+- Step-by-step technical guidance (reduces friction, increases victim comfort)
+- Professional appearance of "exchange representatives"
+
+Red Flags (Visible in Hindsight):
+- Need for manual guidance suggests non-standard platform
+- Representatives directly assisting with wallet setup (unusual for legitimate exchanges)
+
+TTP Classification:
+- Platform Type: Fraudulent Crypto Exchange
+- Onboarding Support: Direct representative assistance
+- Technical Requirements: External wallet setup + platform account
+
+STEP 3: INVESTMENT & ENGAGEMENT PHASE
+--------------------------------------------------------------------------------
+Analysis Focus: How did scammers maintain engagement and encourage continued investment?
+
+Key Observations:
+- Investment Activity: Victim transferred crypto assets to platform
+- Account Display: "The resident believed their account balance was steadily growing"
+- Duration: Not specified, but implies sustained period of engagement
+- Investment Amount: Approximately $30,000 total
+
+Psychological Manipulation Techniques:
+- Fake profit display to create illusion of successful investment
+- Steady growth pattern to encourage continued holding/investment
+- Positive reinforcement through displayed "gains"
+
+Platform Behavior:
+- Account showed increasing balance (fabricated gains)
+- Platform remained accessible during investment phase
+- No immediate withdrawal issues during accumulation phase
+
+TTP Classification:
+- Profit Display: Fabricated account growth
+- Engagement Duration: Extended (sufficient for $30,000 investment)
+- Manipulation: Positive reinforcement through fake returns
+
+STEP 4: WITHDRAWAL BLOCKING & ADDITIONAL FEE EXTRACTION
+--------------------------------------------------------------------------------
+Analysis Focus: What barriers were created when victim attempted withdrawal?
+
+Key Observations:
+- Withdrawal Trigger: Victim attempted to withdraw funds
+- Blocking Mechanism: Demand for additional payments
+- Fee Request: Exchange representatives demanded additional payments (specific amount not stated)
+- Current Recovery Status: Victim has not recovered any funds
+
+Fee Extraction Pattern:
+- Secondary fraud attempt through fabricated fees
+- Common pig butchering pattern: taxes, commissions, insurance, etc.
+- Creates additional financial damage beyond initial loss
+
+Communication Pattern:
+- Representatives remained engaged during fee demand phase
+- Maintained illusion that withdrawal possible after payment
+- No indication victim actually paid the additional fees
+
+TTP Classification:
+- Withdrawal Blocking Method: Additional payment requirement
+- Fee Type: Unspecified additional payments
+- Exit Scam Indicator: Website no longer operational
+
+STEP 5: EXIT STRATEGY & PLATFORM SHUTDOWN
+--------------------------------------------------------------------------------
+Analysis Focus: How did the scam terminate?
+
+Key Observations:
+- Platform Status: "The website is no longer operational"
+- Recovery Attempts: Victim has not recovered any funds
+- Total Loss: Approximately $30,000
+- Timeline: Platform shutdown occurred after withdrawal denial
+
+Exit Indicators:
+- Complete platform shutdown
+- No funds returned
+- Communications ceased
+- Domain no longer accessible
+
+Scammer Exit Strategy:
+- Clean exit through complete platform termination
+- Eliminates evidence and victim recourse
+- Typical pattern: shutdown after sufficient victim acquisition or when withdrawal pressure increases
+
+TTP Classification:
+- Exit Method: Complete platform shutdown
+- Evidence Preservation: Likely minimal (site offline)
+- Recovery Probability: Very low
+
+STEP 6: TTP SUMMARY & PATTERN IDENTIFICATION
+--------------------------------------------------------------------------------
+
+COMPLETE ATTACK CHAIN:
+1. Social Proof Exploitation (TikTok influencer) →
+2. Fraudulent Platform Introduction (leedsbrokerages.com) →
+3. Guided Onboarding (wallet setup assistance) →
+4. Investment Phase (fabricated growth display) →
+5. Withdrawal Blocking (additional fee demands) →
+6. Exit Scam (platform shutdown)
+
+DISTINCTIVE CHARACTERISTICS:
+- Social media influencer as trust vector (not direct romance/friendship)
+- Professional "customer support" facade
+- Standard crypto exchange impersonation
+- Additional fee extraction attempt
+- Clean exit via platform shutdown
+
+SCAM TYPE CLASSIFICATION:
+Primary: Pig Butchering Scam (investment fraud with relationship/trust element)
+Secondary: Fraudulent Trading Platform
+Variant: Social Media Influencer-Facilitated
+
+TECHNICAL INDICATORS:
+- Domain: leedsbrokerages.com (OFFLINE)
+- Platform Type: Crypto asset exchange (fraudulent)
+- Crypto Assets: Used (type unspecified)
+- Wallet Addresses: None provided in narrative
+
+FINANCIAL IMPACT:
+- Direct Loss: ~$30,000
+- Additional Fee Demand: Yes (amount unspecified, unclear if paid)
+- Recovery: $0
+
+VICTIM VULNERABILITY FACTORS:
+- Trust in social media influencer
+- Crypto investment interest
+- Limited technical knowledge (needed guidance)
+- Belief in displayed account growth
+
+PREVENTION INDICATORS (Red Flags):
+1. Investment opportunity promoted by social media influencer
+2. Exchange representatives providing direct wallet setup assistance
+3. Unusual or non-standard onboarding process
+4. Demand for additional payments to process withdrawals
+5. New/unknown exchange platform not in major exchange listings
+
+================================================================================
+END OF CHAIN OF THOUGHT ANALYSIS
+================================================================================

@@ -1,0 +1,50 @@
+{
+  "chain_of_thought": {
+    "step1_initial_contact": "Victim contacted via LinkedIn then moved to WhatsApp. Direct investment opportunity lure focused on quick, profitable crypto trading using YCBIT platform. Scammer initiated contact on professional network (LinkedIn) then migrated to personal messaging (WhatsApp) for continued communication.",
+    "step2_persona_psychology": "Scammer likely posed as investment advisor or successful crypto trader (implied from context). Used professional relationship type originating from LinkedIn. Psychological tactics: authority/expertise, greed/FOMO (quick profits), fake profit display, escalating commitment through three-tier payment demands, compliance conditioning. Trust-building period appears short to medium term based on trading activity mentioned.",
+    "step3_fraud_mechanism": "Fake crypto trading platform YCBIT at ycbit.com. Platform displayed fake profits to victim. Sophisticated three-tier withdrawal blocking: 10% withdrawal fee, then 15% identity verification, then 100% account balance matching. Each demand framed as necessary to access funds. Platform now defunct.",
+    "step4_financial_intelligence": "Limited financial tracking data available. Cryptocurrency type not specified (crypto assets mentioned generically). No wallet addresses or transaction hashes provided. Total loss unknown - victim made initial investment and possibly additional payments but amounts not specified. Payment methods not detailed, likely crypto transfers.",
+    "step5_temporal_analysis": "Scam duration estimated weeks to 1-2 months based on trading period and multiple sequential payment demands. Timeline: contact, account setup, trading period (showing fake gains), withdrawal attempt triggering three-tier demands, eventual platform shutdown. Platform confirmed defunct ('no longer active').",
+    "step6_confidence_assessment": "High confidence: platforms (LinkedIn/WhatsApp), platform details (YCBIT, ycbit.com), fake profits shown, three-tier withdrawal blocking structure, defunct status. Medium confidence: scammer persona (implied), relationship type, psychological tactics (inferred), duration estimate. Low confidence: specific identity details, crypto types, wallet addresses, transaction data, exact loss amounts, payment methods. Overall: 0.70 - Strong fraud mechanism details but weak financial tracking information."
+  },
+  "ttp_profile": {
+    "case_id": 20,
+    "approach_and_lure": {
+      "initial_contact_platform": ["linkedin"],
+      "lure_type": ["investment_opportunity", "quick_profits"],
+      "communication_migration": "whatsapp"
+    },
+    "impersonation_and_psychology": {
+      "scammer_persona": {
+        "claimed_identity": "Investment advisor or successful crypto trader (implied)",
+        "wealth_indicators": ["crypto_trading_expertise", "platform_knowledge", "successful_investor"],
+        "relationship_type": "professional_mentor"
+      },
+      "psychological_tactics": ["authority_expertise", "greed_fomo", "fake_profit_display", "sunk_cost_exploitation", "escalating_commitment", "compliance_conditioning"],
+      "trust_building_period": "Short to medium term (days to weeks, implied)"
+    },
+    "fraud_mechanism": {
+      "platform_type": "fake_crypto_trading_platform",
+      "platform_names": ["YCBIT"],
+      "platform_urls": ["ycbit.com"],
+      "fake_profit_shown": true,
+      "withdrawal_block_tactics": ["10_percent_withdrawal_deposit", "15_percent_identity_verification", "100_percent_account_balance_matching"]
+    },
+    "financial_tracking": {
+      "cryptocurrency_types": ["crypto_assets_unspecified"],
+      "wallet_addresses": [],
+      "transaction_hashes": [],
+      "estimated_loss_usd": null,
+      "payment_methods": ["unknown"]
+    },
+    "temporal_indicators": {
+      "scam_duration": "Estimated weeks to 1-2 months",
+      "platform_status": "defunct"
+    },
+    "extraction_metadata": {
+      "confidence_score": 0.70,
+      "missing_information": ["cryptocurrency_types", "wallet_addresses", "transaction_hashes", "total_loss_amount", "payment_methods", "exact_timeline", "specific_scammer_identity", "trust_building_duration", "which_payments_were_made"],
+      "notes": "Classic Pig Butchering with professional networking approach (LinkedIn). Notable three-tier escalating withdrawal blocking system (10%, 15%, 100%). Strong fraud mechanism documentation but limited financial tracking data. Platform now defunct. Victim unable to recover any funds."
+    }
+  }
+}

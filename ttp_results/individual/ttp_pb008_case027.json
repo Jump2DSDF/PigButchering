@@ -1,0 +1,92 @@
+{
+  "chain_of_thought": {
+    "step1_initial_contact": "Two victims contacted separately: Victim 1 via Facebook by 'Raddy' then moved to WhatsApp; Victim 2 directly on WhatsApp by 'Reddy'. Similar scammer names suggest coordinated operation. Classic friendship-to-investment lure pattern with gradual trust building 'over time'.",
+    "step2_persona_psychology": "Scammers posed as crypto trading experts with access to AI trading programs promising 'stable returns'. Used trust building, authority/expertise claims, FOMO, social proof, and sunk cost exploitation. Victim 2 experienced artificial requirements (minimum trades), moving goalposts (5 trades → 5 more), and percentage-based fee extraction (10% of fake $100K+ balance).",
+    "step3_fraud_mechanism": "Fake crypto trading platform operating on up-business.top and up-business.business (dual domains). Both victims shown fake substantial profits. Withdrawal blocking via: (V1) complete block, (V2) escalating barriers: minimum trades → more trades → 10% upfront fee. Platform now defunct - classic exit scam.",
+    "step4_financial_intelligence": "Victim 1 sent crypto to 0xB10ABECA64cf19d37c45045a5851BB528fB21E47 (Ethereum address), losing $55,000+. Victim 2 saw fake balance of $100,000+, actual loss unknown. Only one wallet address recovered. Cryptocurrency type likely Ethereum/ERC-20 tokens based on address format. No transaction hashes provided.",
+    "step5_temporal_analysis": "Extended duration indicated by 'over time' for trust building - typical weeks to months. Multiple phases: contact → trust building → investment introduction → trading → withdrawal blocks → extraction attempts. Platform shut down post-extraction. Two concurrent victims suggest coordinated multi-target operation.",
+    "step6_confidence_assessment": "High confidence: platform URLs, scammer names, contact platforms, one wallet address, fake profits, AI program claims, platform defunct status. Medium confidence: crypto type (inferred from address), scam duration, coordinated operation, psychological tactics. Low/Missing: Victim 2 wallet/amounts, transaction hashes, exact crypto types, specific dates, payment methods, technical infrastructure. Overall: 0.7 - Well-documented TTPs and one blockchain indicator, but incomplete financial tracking data."
+  },
+  "ttp_profile": {
+    "case_id": 27,
+    "approach_and_lure": {
+      "initial_contact_platform": [
+        "Facebook",
+        "WhatsApp"
+      ],
+      "lure_type": [
+        "friendship",
+        "investment_opportunity"
+      ],
+      "communication_migration": "WhatsApp"
+    },
+    "impersonation_and_psychology": {
+      "scammer_persona": {
+        "claimed_identity": "Crypto trading expert with AI trading program access",
+        "wealth_indicators": [
+          "successful_trader",
+          "AI_technology_access",
+          "stable_returns_claim"
+        ],
+        "relationship_type": "friend"
+      },
+      "psychological_tactics": [
+        "trust_building",
+        "authority",
+        "fear_of_missing_out",
+        "social_proof",
+        "sunk_cost_exploitation"
+      ],
+      "trust_building_period": "Extended period (weeks to months implied by 'over time')"
+    },
+    "fraud_mechanism": {
+      "platform_type": "fake_trading_platform",
+      "platform_names": [
+        "Up-Business"
+      ],
+      "platform_urls": [
+        "up-business.top",
+        "up-business.business"
+      ],
+      "fake_profit_shown": true,
+      "withdrawal_block_tactics": [
+        "complete_withdrawal_block",
+        "minimum_trade_requirement_5_trades",
+        "additional_trade_requirement_5_more_trades",
+        "10_percent_withdrawal_fee_upfront"
+      ]
+    },
+    "financial_tracking": {
+      "cryptocurrency_types": [
+        "crypto_assets",
+        "likely_ethereum_or_erc20_tokens"
+      ],
+      "wallet_addresses": [
+        "0xB10ABECA64cf19d37c45045a5851BB528fB21E47"
+      ],
+      "transaction_hashes": [],
+      "estimated_loss_usd": 55000,
+      "payment_methods": [
+        "cryptocurrency_transfer"
+      ]
+    },
+    "temporal_indicators": {
+      "scam_duration": "Extended period, multiple weeks to months per victim",
+      "platform_status": "defunct"
+    },
+    "extraction_metadata": {
+      "confidence_score": 0.7,
+      "missing_information": [
+        "victim_2_wallet_addresses",
+        "victim_2_exact_loss_amount",
+        "transaction_hashes",
+        "specific_cryptocurrency_types",
+        "exact_dates_timeline",
+        "payment_methods_details",
+        "scammer_location",
+        "additional_infrastructure"
+      ],
+      "notes": "Coordinated operation targeting multiple California residents. Similar scammer names ('Raddy' and 'Reddy') suggest organized team using scripts. Dual-domain strategy (up-business.top and up-business.business) for redundancy. AI trading program claim adds technological sophistication to social engineering. One Ethereum wallet address recovered for blockchain investigation. Victim 2 experienced more elaborate multi-stage withdrawal blocking compared to Victim 1's simple block."
+    }
+  }
+}

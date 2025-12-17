@@ -1,0 +1,64 @@
+{
+  "case_id": 67,
+  "approach_and_lure": {
+    "initial_contact_platform": ["WhatsApp"],
+    "lure_type": ["job_offer"],
+    "communication_migration": "WhatsApp (no migration mentioned)"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Diana - recruiter/company representative for RIOT Blockchain platform",
+      "wealth_indicators": [],
+      "relationship_type": "company_representative"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "authority",
+      "social_proof",
+      "sunk_cost_exploitation",
+      "fear_of_missing_out"
+    ],
+    "trust_building_period": "Days to weeks (training completion phase)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "other",
+    "platform_names": ["RIOT Blockchain platform"],
+    "platform_urls": [],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "credibility_rating_requirement",
+      "increasing_deposit_demands"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["crypto_assets_likely_BTC_or_USDT"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 81000,
+    "payment_methods": ["unspecified_likely_crypto_exchange"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Estimated 2-6 months",
+    "platform_status": "unknown"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.70,
+    "missing_information": [
+      "platform_url",
+      "wallet_addresses",
+      "transaction_hashes",
+      "specific_cryptocurrency_types",
+      "exact_timeline_dates",
+      "payment_methods_specific",
+      "number_of_deposits",
+      "individual_deposit_amounts",
+      "diana_whatsapp_number",
+      "platform_screenshots",
+      "communication_logs",
+      "training_materials",
+      "task_descriptions",
+      "credibility_rating_mechanics_details"
+    ],
+    "notes": "Task Scam variant of Pig Butchering - victim lured with crypto mining job offer instead of romance/investment. Scammer 'Diana' posed as recruiter for 'RIOT Blockchain platform' (impersonating legitimate Riot Platforms, Inc.). Sophisticated progression: job offer → training → deposit demand → daily task work with fake rewards → escalating deposits → withdrawal blocked by 'credibility rating' system. Victim deposited nearly $81,000 in increasing amounts, eventually borrowing money to continue. Novel withdrawal blocking mechanism: platform required deposits to increase 'credibility rating' to enable withdrawals (gamification of fraud). Critical intelligence gaps: no platform URL, wallet addresses, or transaction hashes prevent blockchain tracking. Victim located in California. This represents an emerging variant targeting job seekers rather than romance/investment victims, exploiting employment psychology and brand impersonation of legitimate public company."
+  }
+}

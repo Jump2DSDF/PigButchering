@@ -1,0 +1,52 @@
+{
+  "case_id": 43,
+  "approach_and_lure": {
+    "initial_contact_platform": ["Bumpy"],
+    "lure_type": ["romance", "investment_opportunity"],
+    "communication_migration": "Unknown (likely WhatsApp, Telegram, or similar - not specified)"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Romantic interest with crypto investment knowledge",
+      "wealth_indicators": ["crypto_trading_knowledge", "successful_investor"],
+      "relationship_type": "romantic_partner"
+    },
+    "psychological_tactics": ["trust_building", "authority", "fear_of_missing_out", "love_bombing", "reciprocity", "sunk_cost_exploitation"],
+    "trust_building_period": "A few months"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["btc01.org"],
+    "platform_urls": ["btc01.org"],
+    "fake_profit_shown": null,
+    "withdrawal_block_tactics": []
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["crypto_assets_unspecified"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 46000,
+    "payment_methods": ["unspecified"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "A few months minimum (trust building phase) + unknown investment phase",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.70,
+    "missing_information": [
+      "communication_migration_platform",
+      "specific_cryptocurrency_types",
+      "wallet_addresses",
+      "transaction_hashes",
+      "payment_methods",
+      "scammer_specific_identity",
+      "fake_profit_details",
+      "withdrawal_blocking_tactics",
+      "exact_loss_amount",
+      "investment_phase_duration",
+      "number_of_deposits"
+    ],
+    "notes": "Classic pig butchering scam via international dating app 'Bumpy'. Multi-month trust building phase before investment solicitation. Platform btc01.org now defunct (exit scam). Loss exceeds $46,000. Limited financial tracking data prevents blockchain investigation. Domain name pattern (btc01.org) suggests possible series of related scam sites. Bumpy represents a less commonly reported dating app vector. Brief narrative limits technical intelligence extraction."
+  }
+}

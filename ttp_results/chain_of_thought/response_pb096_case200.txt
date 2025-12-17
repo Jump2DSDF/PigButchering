@@ -1,0 +1,121 @@
+CHAIN OF THOUGHT ANALYSIS: Case PB096 (Original Case ID: 200)
+=================================================================
+
+STEP 1: INITIAL CONTACT & TRUST BUILDING
+-----------------------------------------
+Contact Method: The victim met a stranger online (platform not specified).
+
+Trust Building Tactics:
+- Stranger initiated conversation and established rapport with the victim
+- Positioned themselves as knowledgeable about cryptocurrency mining opportunities
+- Presented the opportunity as a way to "make money from cryptocurrency mining"
+
+Key Observations:
+- Initial contact platform is unspecified, suggesting possible dating app, social media, or messaging platform
+- Scammer avoided direct investment pressure, framing it as a passive income opportunity through mining
+- The liquidity mining angle is a sophisticated variation of pig butchering scams
+
+STEP 2: INTRODUCTION TO FRAUDULENT PLATFORM
+--------------------------------------------
+Platform Details:
+- Primary websites: graphwebtsiplus.com and web3mwy.com
+- Full URL: https://www.graphwebtsiplus.com/mining2dex/index.html#/
+- Platform Type: Fraudulent cryptocurrency mining/liquidity mining platform
+
+Introduction Method:
+- Scammer directly provided website links to the victim
+- Positioned the platforms as legitimate liquidity mining opportunities
+- Used technical-sounding names ("graph web tsi plus", "mining2dex", "web3") to appear credible
+
+Platform Characteristics:
+- Used subdirectory structure (/mining2dex/index.html#/) suggesting a web application
+- Web3 branding (web3mwy.com) to leverage DeFi/Web3 trending terminology
+- Multiple domain names used, possibly for redundancy or phishing variations
+
+STEP 3: GUIDANCE & INSTRUCTIONAL CONTROL
+-----------------------------------------
+Scammer Guidance Provided:
+- Instructions on how to access an account on the websites
+- Detailed steps on how to add funds to the platform
+- Instructions on converting crypto assets into platform-specific tokens
+
+Technical Control Elements:
+- Victim required to transfer assets from their personal cryptocurrency wallet
+- Asset conversion process ensured funds were locked in platform-specific format
+- Multi-step process increased victim commitment (sunk cost fallacy)
+
+Psychological Manipulation:
+- Step-by-step guidance created dependency on scammer
+- Technical complexity made victim feel they needed scammer's expertise
+- Conversion requirements obscured the actual movement of victim's funds
+
+STEP 4: FINANCIAL EXTRACTION
+-----------------------------
+Initial Investment:
+- Victim transferred cryptocurrency assets from personal wallet to fraudulent platform
+- Specific amounts not disclosed in complaint
+- Multiple transfers likely occurred (implied by "add funds" plural reference)
+
+Platform Behavior:
+- Platform displayed fabricated profits to the victim
+- Interface showed successful mining/liquidity generation
+- Fake dashboard created illusion of growing investment
+
+Loss Amount: Not specified in the complaint narrative
+
+Wallet Addresses: None identified in the complaint narrative
+
+STEP 5: WITHDRAWAL DENIAL & EXIT SCAM
+--------------------------------------
+Withdrawal Attempts:
+- Victim attempted to recover their funds
+- All withdrawal attempts were blocked or denied
+- No specific fees or additional payments mentioned as prerequisites
+
+Exit Strategy:
+- Websites became non-operational (both graphwebtsiplus.com and web3mwy.com)
+- Complete disappearance of platforms indicates coordinated exit scam
+- No customer service or dispute resolution offered
+
+Victim Realization:
+- Victim realized they "believed they had made profits" (past tense awareness)
+- Unable to recover any funds despite displayed profits
+- Recognized the scam when websites went offline
+
+STEP 6: TOTAL IMPACT & INDICATORS OF COMPROMISE
+------------------------------------------------
+Financial Loss: Amount not specified
+
+Victim Location: California resident
+
+Timeline: Duration not specified, but included multiple interactions and fund transfers
+
+Scam Classification:
+1. Pig Butchering Scam - relationship building followed by investment fraud
+2. Fraudulent Trading Platform - fake crypto exchange/mining platform
+3. Liquidity Mining Scam - specialized crypto scam variant exploiting DeFi trends
+
+Technical Indicators of Compromise:
+- graphwebtsiplus.com (primary domain)
+- web3mwy.com (secondary domain)
+- https://www.graphwebtsiplus.com/mining2dex/index.html#/ (full URL)
+
+Red Flags Present:
+1. Unsolicited online contact with investment opportunity
+2. Unknown platform not listed on legitimate exchange directories
+3. Required asset conversion to platform-specific tokens
+4. Displayed unrealistic profits
+5. Complete inability to withdraw funds
+6. Sudden platform disappearance
+
+Behavioral Patterns:
+- Scammer maintained ongoing communication throughout process
+- Provided technical guidance to appear legitimate
+- Used trending cryptocurrency concepts (Web3, liquidity mining) for credibility
+- Exit scam pattern with complete platform shutdown
+
+Additional Context:
+- This case represents a sophisticated pig butchering variant targeting crypto-savvy victims
+- Liquidity mining angle exploits knowledge of legitimate DeFi yield farming
+- Use of multiple domains and technical infrastructure suggests organized crime operation
+- Platform shutdown timing suggests either law enforcement detection or planned exit after accumulating sufficient funds

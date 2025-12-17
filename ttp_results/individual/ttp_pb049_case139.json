@@ -1,0 +1,60 @@
+{
+  "case_id": 139,
+  "approach_and_lure": {
+    "initial_contact_platform": ["Instagram"],
+    "lure_type": ["investment_opportunity"],
+    "communication_migration": "unknown"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Moneybynora - Investment advisor on Instagram",
+      "wealth_indicators": [
+        "claims_investment_expertise",
+        "promises_profit_generation",
+        "professional_investment_advisor_persona"
+      ],
+      "relationship_type": "investment_advisor"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "authority",
+      "fear_of_missing_out",
+      "sunk_cost_exploitation"
+    ],
+    "trust_building_period": "Unknown duration, but sufficient to convince victim to invest"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["Xperiatrade.com"],
+    "platform_urls": ["Xperiatrade.com"],
+    "fake_profit_shown": false,
+    "withdrawal_block_tactics": [
+      "account_disabled",
+      "encrypted_code_fee_required",
+      "brokerage_director_unable_to_recover_funds"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["Bitcoin"],
+    "wallet_addresses": ["bc1qwzmg5dtk2tlyglevgh5rgdqtk72tly269dly6e"],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 5080,
+    "payment_methods": ["cryptocurrency_wallet_transfer"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Unknown",
+    "platform_status": "unknown"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.85,
+    "missing_information": [
+      "communication_migration_platform",
+      "exact_trust_building_duration",
+      "whether_fake_profits_shown",
+      "transaction_hashes",
+      "exact_scam_timeline",
+      "platform_current_status"
+    ],
+    "notes": "HIGH PRIORITY case due to BTC wallet address extraction. California resident victim contacted via Instagram by account 'Moneybynora' claiming to be investment advisor. Classic withdrawal blocking tactic using account disablement and encryption code fee demand. Victim communicated with 'Mr. Alan' who claimed to be brokerage director but stated inability to recover funds - likely playing 'sympathetic insider' role to discourage further recovery attempts. BTC wallet address is native SegWit format (bc1...), indicating modern Bitcoin address type. Moderate loss amount ($5,080) typical of smaller-scale pig butchering operations. Platform Xperiatrade.com specifically targeted for crypto asset trading."
+  }
+}

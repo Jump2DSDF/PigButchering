@@ -1,0 +1,412 @@
+{
+  "case_metadata": {
+    "pb_case_id": 78,
+    "original_case_id": 179,
+    "analysis_date": "2025-12-17",
+    "case_status": "completed_analysis",
+    "victim_location": "California, USA",
+    "primary_subject": "nrgbit.com (Entity Impersonating NRG token)"
+  },
+  "scam_classification": {
+    "primary_type": "Pig Butchering Scam",
+    "secondary_types": [
+      "Fraudulent Trading Platform",
+      "Investment Group Scam",
+      "Imposter Scam",
+      "Identity Theft"
+    ],
+    "scam_variant": "Investment Group with Brand Impersonation",
+    "sophistication_level": "High"
+  },
+  "initial_contact": {
+    "method": "WhatsApp Group",
+    "platform": "WhatsApp (investment group)",
+    "secondary_platforms": [
+      "Telegram (private communication)"
+    ],
+    "contact_initiator": "Scammer (Caroline from group)",
+    "approach_type": "Investment group mentorship",
+    "persona_type": "Experienced trader and mentor",
+    "persona_details": {
+      "name": "Caroline",
+      "gender": "Female (implied)",
+      "role": "Group member offering personal guidance",
+      "characteristics": "Helpful, experienced, mentoring",
+      "expertise_claimed": "Cryptocurrency trading"
+    },
+    "relationship_building": "Mentorship and guidance",
+    "communication_channels": [
+      "WhatsApp group",
+      "WhatsApp direct message",
+      "Telegram app (private)",
+      "Trading platform (nrgbit.com)"
+    ]
+  },
+  "trust_building_tactics": {
+    "legitimacy_indicators": [
+      "WhatsApp investment group (social proof)",
+      "Multiple group members",
+      "Caroline's helpful persona",
+      "Personal mentorship offer",
+      "Platform impersonating legitimate NRG token",
+      "Extensive KYC verification process",
+      "Professional website design"
+    ],
+    "social_engineering": [
+      "Group setting providing social proof",
+      "Isolation through platform migration (WhatsApp to Telegram)",
+      "Personal attention from Caroline",
+      "Mentorship dynamic creating dependency",
+      "Shared cryptocurrency trading interest",
+      "Hands-on assistance building trust",
+      "Brand association with legitimate Energi (NRG) project"
+    ],
+    "time_invested": "Not specified (appears moderate duration)",
+    "relationship_type": "Mentor-mentee / guidance relationship"
+  },
+  "platform_details": {
+    "platform_name": "NRG (impersonating Energi NRG token)",
+    "platform_type": "Fraudulent crypto asset exchange",
+    "domains": [
+      "nrgbit.com"
+    ],
+    "urls": [
+      "https://www.nrgbit.com/app/#/",
+      "https://nrgbit.com"
+    ],
+    "current_status": "Offline/Defunct",
+    "platform_features": [
+      "Account creation and dashboard",
+      "KYC verification process",
+      "Cryptocurrency deposit functionality",
+      "Trading capability",
+      "Balance tracking",
+      "Personal information collection"
+    ],
+    "apparent_functionality": "Full-featured crypto exchange",
+    "technical_infrastructure": "Professional web application with account management",
+    "impersonation_target": {
+      "legitimate_project": "Energi",
+      "legitimate_token": "NRG (native token of Energi blockchain)",
+      "impersonation_method": "Brand confusion using similar naming"
+    }
+  },
+  "financial_details": {
+    "total_loss_usd": 500,
+    "initial_investment_usd": 500,
+    "additional_fees_demanded_usd": 0,
+    "additional_fees_paid_usd": 0,
+    "amount_recovered_usd": 0,
+    "cryptocurrency_types": [
+      "Unspecified (likely Bitcoin or general crypto)"
+    ],
+    "payment_methods": [
+      "Cryptocurrency transfer to platform"
+    ],
+    "investment_timeline": "Not specified",
+    "withdrawal_blocked": true
+  },
+  "investment_phase": {
+    "initial_deposit": {
+      "amount_usd": 500,
+      "method": "Crypto transfer to exchange account",
+      "encouraged_by": "Caroline's guidance and assistance"
+    },
+    "trading_activity": {
+      "trades_made": "One trade for $500",
+      "allowed_trading": true,
+      "platform_functionality": "Trading interface operational"
+    },
+    "profit_demonstration": {
+      "method": "Account balance display",
+      "balance_change": "Balance went down (loss)",
+      "apparent_gains": "None - victim experienced loss",
+      "fabricated_returns": "No artificial gains mentioned"
+    },
+    "escalation_tactics": [
+      "Caroline's hands-on guidance",
+      "Personal assistance throughout process",
+      "KYC process suggesting legitimacy",
+      "Balance decline creating urgency"
+    ]
+  },
+  "withdrawal_blocking": {
+    "trigger_event": "Account balance decreased, victim attempted withdrawal",
+    "victim_action": "Withdrawal request to crypto wallet",
+    "blocking_mechanism": "Complete account lockout",
+    "fees_demanded": [],
+    "pressure_tactics": [
+      "False assurances from Caroline about fund return",
+      "Account access removed during withdrawal process",
+      "Login credentials changed or account suspended",
+      "No customer support response"
+    ],
+    "communication_escalation": "False reassurances followed by account lockout and ghosting"
+  },
+  "personal_information_collected": {
+    "identity_documents": [
+      "Driver's license (images and number)"
+    ],
+    "contact_information": [
+      "Phone number",
+      "Home address"
+    ],
+    "identity_theft_risk": "High",
+    "data_usage_concerns": [
+      "Identity fraud potential",
+      "Account creation using victim's identity",
+      "Sale of personal information",
+      "SIM swapping attacks",
+      "Additional scam targeting"
+    ]
+  },
+  "red_flags": [
+    "WhatsApp investment group with unknown members",
+    "Direct outreach from group member Caroline",
+    "Request to move communication to Telegram",
+    "Unknown exchange not on legitimate directories",
+    "Exchange impersonating known cryptocurrency project",
+    "Extensive personal information requirements",
+    "Caroline providing step-by-step setup assistance",
+    "Pressure to transfer funds quickly",
+    "Balance unexpectedly decreased",
+    "Unable to withdraw despite assurances",
+    "Complete account lockout",
+    "Platform went offline",
+    "Caroline became unresponsive",
+    "No regulatory licensing",
+    "Domain not associated with legitimate Energi project"
+  ],
+  "scammer_infrastructure": {
+    "domains_identified": [
+      "nrgbit.com"
+    ],
+    "hosting_info": "Not available",
+    "registration_info": "Not available",
+    "communication_tools": [
+      "WhatsApp (investment group)",
+      "Telegram (private communication)",
+      "Trading platform website"
+    ],
+    "scammer_personas": [
+      {
+        "name": "Caroline",
+        "role": "Mentor/experienced trader",
+        "platform": "WhatsApp group member, Telegram contact"
+      }
+    ],
+    "group_infrastructure": {
+      "group_platform": "WhatsApp",
+      "group_theme": "Bitcoin trading",
+      "member_composition": "Mix of scammer accounts and victims (likely)"
+    },
+    "phone_numbers": "Not specified",
+    "email_addresses": "Not specified"
+  },
+  "crypto_wallets": {
+    "identified_addresses": [],
+    "blockchain_networks": [
+      "Unspecified (victim attempted withdrawal to crypto wallet)"
+    ],
+    "note": "No specific wallet addresses provided in case narrative. Victim transferred crypto to platform-controlled wallet(s)."
+  },
+  "outcome": {
+    "victim_realized_scam": true,
+    "realization_trigger": "Account lockout and inability to withdraw funds",
+    "platform_shutdown": true,
+    "funds_recovered": false,
+    "law_enforcement_contacted": true,
+    "case_reported_to": "California authorities (implied)",
+    "scammer_identified": false,
+    "scammer_prosecuted": false,
+    "identity_compromise": true,
+    "additional_concerns": "Driver's license and personal information in scammer possession"
+  },
+  "ttp_summary": {
+    "initial_contact_ttp": [
+      "WhatsApp investment/trading group",
+      "Social proof through group participation",
+      "Direct outreach from group member",
+      "Platform migration for isolation (WhatsApp to Telegram)",
+      "Mentorship approach"
+    ],
+    "trust_building_ttp": [
+      "Group setting legitimacy",
+      "Caroline's helpful and experienced persona",
+      "Personal attention and guidance",
+      "Shared cryptocurrency interest",
+      "Hands-on assistance throughout",
+      "Brand impersonation of legitimate project"
+    ],
+    "platform_operation_ttp": [
+      "Fake exchange impersonating Energi NRG",
+      "Professional website design",
+      "Extensive KYC process",
+      "Personal information harvesting",
+      "Account dashboard and trading interface",
+      "Balance tracking functionality"
+    ],
+    "investment_extraction_ttp": [
+      "Caroline-guided account setup and funding",
+      "Small initial investment ($500)",
+      "Trading activity allowed",
+      "Hands-on transfer assistance",
+      "Personal mentorship maintaining control"
+    ],
+    "withdrawal_blocking_ttp": [
+      "Balance decline triggering withdrawal",
+      "False assurances during withdrawal",
+      "Complete account lockout",
+      "Credential change or suspension",
+      "No customer support",
+      "Communication cessation"
+    ],
+    "exit_strategy_ttp": [
+      "Quick exit after withdrawal attempt",
+      "Account lockout instead of fee extraction",
+      "Platform shutdown",
+      "Group likely disbanded",
+      "Caroline persona abandoned",
+      "Clean exit without prolonged demands"
+    ]
+  },
+  "victim_vulnerabilities": [
+    "Interest in Bitcoin/crypto trading",
+    "Trust in group setting (social proof)",
+    "Desire for mentorship and guidance",
+    "Belief in Caroline's expertise",
+    "Willingness to provide personal information",
+    "Fear of losing invested funds",
+    "Trust in Caroline's withdrawal assurances",
+    "Small initial investment reducing risk perception",
+    "Trust in legitimate-sounding brand (NRG)"
+  ],
+  "unique_characteristics": [
+    "WhatsApp investment group entry point",
+    "Multi-platform communication progression",
+    "Brand impersonation of legitimate crypto project",
+    "Extensive personal information collection (identity theft)",
+    "Small financial loss ($500)",
+    "Investment Group Scam hybrid",
+    "Account lockout method vs fee extraction",
+    "Mentorship and guidance approach",
+    "Social proof through group setting",
+    "Platform migration isolation tactic"
+  ],
+  "iocs": {
+    "domains": [
+      "nrgbit.com"
+    ],
+    "urls": [
+      "https://www.nrgbit.com/app/#/",
+      "https://nrgbit.com"
+    ],
+    "scammer_names": [
+      "Caroline"
+    ],
+    "group_names": [
+      "WhatsApp Bitcoin trading group (specific name not provided)"
+    ],
+    "platform_names": [
+      "NRG (fraudulent)",
+      "nrgbit"
+    ],
+    "impersonated_brands": [
+      "Energi",
+      "NRG token"
+    ]
+  },
+  "recommendations": {
+    "prevention": [
+      "Be extremely cautious of investment groups on messaging apps",
+      "Never move conversations to different platforms when requested",
+      "Verify cryptocurrency exchanges on CoinMarketCap/CoinGecko",
+      "Research domain connections to claimed projects",
+      "Never provide driver's license to unknown platforms",
+      "Be wary of personal mentorship offers from strangers",
+      "Verify group members' authenticity before trusting",
+      "Only use regulated and well-known exchanges",
+      "Question why extensive personal information is required"
+    ],
+    "detection": [
+      "Check if exchange is listed on legitimate directories",
+      "Verify brand association with official project channels",
+      "Research domain registration and age",
+      "Test withdrawal with minimal amounts first",
+      "Verify KYC provider legitimacy",
+      "Check for regulatory licenses",
+      "Research group and member histories",
+      "Validate Caroline's identity through video calls"
+    ],
+    "response": [
+      "Report to FBI IC3 immediately",
+      "File complaint with FTC, SEC, and CFTC",
+      "Report identity theft to FTC (IdentityTheft.gov)",
+      "Place fraud alert on credit reports",
+      "Monitor credit for unauthorized accounts",
+      "Report to California Attorney General",
+      "Contact legitimate Energi project to report impersonation",
+      "Document all communications with Caroline",
+      "Report WhatsApp group to WhatsApp",
+      "Report Telegram account to Telegram",
+      "Share case with crypto anti-fraud organizations",
+      "Consider identity theft protection services"
+    ],
+    "identity_protection": [
+      "Place fraud alert with credit bureaus",
+      "Monitor credit reports regularly",
+      "Report driver's license theft to DMV",
+      "Enable two-factor authentication on all accounts",
+      "Be alert for SIM swapping attempts",
+      "Watch for unauthorized account openings",
+      "Consider freezing credit reports"
+    ]
+  },
+  "brand_impersonation_analysis": {
+    "legitimate_entity": {
+      "name": "Energi",
+      "token": "NRG",
+      "description": "Native token of the Energi blockchain"
+    },
+    "fraudulent_entity": {
+      "name": "NRG",
+      "domain": "nrgbit.com",
+      "impersonation_method": "Brand confusion through similar naming"
+    },
+    "confusion_tactics": [
+      "Using NRG name and branding",
+      "Exploiting legitimate project's reputation",
+      "Creating domain with 'nrg' prefix",
+      "Positioning as crypto exchange for NRG trading"
+    ],
+    "impact": [
+      "Victim confusion with legitimate project",
+      "Reputation damage to real Energi project",
+      "Case requires clarification note",
+      "Trust erosion in legitimate NRG token"
+    ]
+  },
+  "comparison_to_typical_pig_butchering": {
+    "similarities": [
+      "Personal relationship building (Caroline)",
+      "Fraudulent trading platform",
+      "Cryptocurrency investment",
+      "Withdrawal blocking",
+      "Platform shutdown",
+      "Complete loss of funds",
+      "Social engineering tactics"
+    ],
+    "differences": [
+      "Group chat entry point (not wrong number)",
+      "Investment group scam element",
+      "Mentorship approach (not romantic)",
+      "Small loss amount ($500)",
+      "Quick exit without fee extraction",
+      "Account lockout method",
+      "Multi-platform migration",
+      "Identity theft component",
+      "Brand impersonation element",
+      "Social proof through group setting"
+    ]
+  }
+}

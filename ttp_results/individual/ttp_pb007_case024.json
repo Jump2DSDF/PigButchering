@@ -1,0 +1,65 @@
+{
+  "case_id": 24,
+  "approach_and_lure": {
+    "initial_contact_platform": ["Dating App"],
+    "lure_type": ["romance", "investment_opportunity"],
+    "communication_migration": "WhatsApp"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Dylan - romantic interest with cryptocurrency trading expertise",
+      "wealth_indicators": ["successful_crypto_trader"],
+      "relationship_type": "romantic_partner"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "love_bombing",
+      "authority",
+      "fear_of_missing_out",
+      "sunk_cost_exploitation"
+    ],
+    "trust_building_period": "2-6 months estimated (extended period from meeting to $550K+ investment)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["2bridgeio", "2bridge"],
+    "platform_urls": ["2bridgeio.com", "http://2bridgeio.com/"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "withdrawal_prevented_unspecified_method",
+      "platform_shutdown_exit_scam"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["crypto_assets_unspecified"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 550000,
+    "payment_methods": [
+      "traditional_investment_liquidation",
+      "crypto_exchange_purchase",
+      "platform_deposit"
+    ]
+  },
+  "temporal_indicators": {
+    "scam_duration": "2-6 months estimated",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.70,
+    "missing_information": [
+      "specific_dating_app",
+      "specific_cryptocurrency_types",
+      "wallet_addresses",
+      "transaction_hashes",
+      "exact_timeline",
+      "victim_sending_exchange",
+      "dylan_whatsapp_number",
+      "dylan_profile_information",
+      "specific_withdrawal_blocking_tactics_before_shutdown",
+      "number_of_deposits",
+      "dylan_claimed_location_background"
+    ],
+    "notes": "High-value Pig Butchering case with $550K+ loss. Classic romance-to-investment pattern. Platform executed exit scam. Victim had significant pre-existing investment portfolio, suggesting sophistication of scam operation. Missing critical blockchain tracking information limits investigative potential. Strong pattern data for TTP analysis but weak on actionable financial intelligence. California resident targeted, Dylan likely claimed US-based identity given dating app context."
+  }
+}

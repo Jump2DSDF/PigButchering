@@ -1,0 +1,92 @@
+{
+  "case_id": 119,
+  "approach_and_lure": {
+    "initial_contact_platform": [
+      "WhatsApp",
+      "LinkedIn"
+    ],
+    "lure_type": [
+      "investment_opportunity"
+    ],
+    "communication_migration": "No explicit migration mentioned - likely remained on initial platforms or moved to unspecified messaging app"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Moses (investment mentor/teacher) and Vivian (professional broker/advisor associated with FRTC Limited Broker)",
+      "wealth_indicators": [
+        "crypto trading expertise and teaching capability (Moses)",
+        "professional association with brokerage firm (Vivian)",
+        "ability to contribute $350,000 toward taxes (Vivian)",
+        "investment knowledge and guidance"
+      ],
+      "relationship_type": "mentor"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "authority",
+      "social_proof",
+      "fear_of_missing_out",
+      "sunk_cost_exploitation",
+      "reciprocity"
+    ],
+    "trust_building_period": "Victim 1: Days to weeks with progressive onboarding and initial success; Victim 2: Extended period over time with multiple deposits and $1.66M displayed profits, including successful $55,000 withdrawal to establish legitimacy"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": [
+      "FRTC Limited",
+      "FRTCNE Limited",
+      "FRTC Limited Broker"
+    ],
+    "platform_urls": [
+      "https://www.frtcnet.live",
+      "frtc.net"
+    ],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "Victim 1: Sudden catastrophic loss - $75,000 deposit lost in minutes via claimed trading losses",
+      "Victim 2: 45% tax demand on $1.66M profits (approximately $747,000)",
+      "Victim 2: Scammer offered to contribute $350,000 toward taxes as pressure/reciprocity tactic",
+      "Victim 2: Account locked and closed when victim refused to pay tax demand",
+      "Proof-of-concept withdrawal ($55,000) allowed to establish platform legitimacy before large-scale exit",
+      "Multi-stage escalation with collaborative investment encouragement"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": [
+      "unspecified crypto assets"
+    ],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 75000,
+    "payment_methods": [
+      "cryptocurrency transfers (specific exchanges and methods not stated)",
+      "crypto purchased per Moses' instructions and sent to platform account",
+      "funds transferred to FRTC platform account"
+    ]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Victim 1: Estimated 1-4 weeks (rapid extraction model); Victim 2: Estimated 2-6 months (extended pig butchering with multiple deposits over time and $1.66M profit display)",
+    "platform_status": "unknown"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.77,
+    "missing_information": [
+      "specific cryptocurrency types (BTC, ETH, USDT, etc.)",
+      "wallet addresses (scammer-controlled)",
+      "transaction hashes",
+      "exchange platforms used for crypto purchases",
+      "exact dates and durations",
+      "full URL for frtc.net domain",
+      "communication migration specifics",
+      "scammer background details beyond names (nationality, profession)",
+      "explicit wealth displays (photos, lifestyle claims)",
+      "whether Moses and Vivian are real names or aliases",
+      "contact information (phone numbers, email addresses, IP addresses)",
+      "Victim 2 actual deposit amounts and transaction dates",
+      "whether victims were targeted independently or as part of coordinated campaign",
+      "current confirmed platform status"
+    ],
+    "notes": "This case demonstrates a sophisticated pig butchering operation with multiple distinct tactical approaches: (1) RAPID EXTRACTION (Victim 1/Moses): WhatsApp contact, mentorship lure, quick onboarding, initial success followed by sudden $75k loss in minutes via claimed trading volatility - fast-exit model; (2) EXTENDED PIG BUTCHERING (Victim 2/Vivian): LinkedIn professional approach, extended relationship over time with multiple deposits, $1.66M fake profits displayed, CRITICAL $55k successful withdrawal to prove legitimacy, then 45% tax barrier ($747k demand) with scammer offering $350k contribution as reciprocity pressure, ending in account lock/closure. The operation shows high sophistication: multi-platform targeting (WhatsApp + LinkedIn), gender-diverse personas suggesting organized group, victim-tailored approaches (fast vs. slow con), and proof-of-concept withdrawal capability. The $55k successful withdrawal is a key tactical element that distinguishes this from simpler scams - it overcomes withdrawal skepticism and makes subsequent large tax demands seem plausible. Both California residents unable to recover funds. Estimated total losses: $75k confirmed (Victim 1) + $100k-$500k estimated (Victim 2 deposits) = $175k-$575k combined. Platform operated at frtcnet.live and frtc.net. Critical gap: no blockchain tracking data (addresses/hashes) limits financial investigation capability."
+  }
+}

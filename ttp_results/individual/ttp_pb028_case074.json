@@ -1,0 +1,50 @@
+{
+  "case_id": 74,
+  "approach_and_lure": {
+    "initial_contact_platform": ["Instagram"],
+    "lure_type": ["investment_opportunity", "social_proof"],
+    "communication_migration": "No migration mentioned (likely remained on Instagram DM)"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Successful crypto trader (initial contact), then Trading Account Manager from capnovas.com platform",
+      "wealth_indicators": ["account_statements_showing_large_profits", "successful_trader_image", "insider_trading_knowledge", "platform_authority"],
+      "relationship_type": "mentor"
+    },
+    "psychological_tactics": ["social_proof", "authority", "fear_of_missing_out", "trust_building", "urgency", "sunk_cost_exploitation", "reciprocity"],
+    "trust_building_period": "Short/rapid (estimated days to 1-2 weeks)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["capnovas.com"],
+    "platform_urls": ["capnovas.com"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": ["denial_of_withdrawal_access", "platform_shutdown_exit_scam"]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["crypto_assets_unspecified"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": null,
+    "payment_methods": ["crypto_transfer_to_platform"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Short/rapid (estimated days to 2 weeks)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.80,
+    "missing_information": [
+      "specific_cryptocurrency_types",
+      "wallet_addresses",
+      "transaction_hashes",
+      "actual_loss_amount_usd",
+      "exact_timeline_dates",
+      "crypto_acquisition_method",
+      "communication_platform_migration_details",
+      "additional_fee_demands",
+      "scammer_account_identifiers"
+    ],
+    "notes": "Investment-lure pig butchering variant with sophisticated test trade technique. Scammer used dual persona (trader + Trading Account Manager) to establish legitimacy. Victim shown fake $1,000+ profit on test trade, then pressured for immediate additional deposit. Fast-burn operation (days to weeks) vs traditional long-term pig butchering. Platform executed exit scam - now defunct. Instagram initial contact suggests targeting of potentially younger demographic. Test trade hook is distinctive TTP marker indicating experienced operators. Significant financial intelligence gaps limit blockchain investigation capability. Domain capnovas.com available for further investigation (WHOIS, hosting, related domains)."
+  }
+}

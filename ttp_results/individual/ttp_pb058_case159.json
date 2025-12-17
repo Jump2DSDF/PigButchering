@@ -1,0 +1,407 @@
+{
+  "case_metadata": {
+    "pb_case_id": 58,
+    "original_case_id": 159,
+    "primary_subject": "Tpkcoin / web.directcurrent.top",
+    "analysis_date": "2025-12-17",
+    "case_status": "Platform Offline - Account Blocked",
+    "evidence_available": {
+      "screenshots": true,
+      "screenshot_url": "https://dfpi.ca.gov/wp-content/uploads/2025/04/TPKcoin-WhatsApp-Chat462.jpg",
+      "screenshot_local": "pig_butchering_cases\\screenshots\\pb_058_case_159.jpg",
+      "screenshot_type": "WhatsApp Chat"
+    }
+  },
+  "financial_impact": {
+    "total_loss_usd": 4200,
+    "commission_demand_usd": 29000,
+    "commission_paid": false,
+    "tax_demand_usd": 48000,
+    "tax_paid": false,
+    "total_demands_usd": 77000,
+    "demand_ratio_percent": 1833,
+    "amount_recovered": 0,
+    "recovery_likelihood": "very_low"
+  },
+  "scam_classification": {
+    "primary_type": "Pig Butchering Scam",
+    "secondary_types": [
+      "Signal Selling Scam",
+      "Fraudulent Trading Platform",
+      "Investment Group Scam"
+    ],
+    "variant": "Telegram Investment Group with Signal Selling",
+    "confidence_level": "high"
+  },
+  "attack_chain": {
+    "phase_1_initial_contact": {
+      "contact_method": "Telegram Group",
+      "group_purpose": "Crypto asset trading education",
+      "contact_pattern": "Group invitation/joining",
+      "platform": "Telegram App"
+    },
+    "phase_2_authority_establishment": {
+      "primary_actor": "Mason",
+      "claimed_credentials": "Partner at a well-known financial company",
+      "role": "Group leader / Trading educator",
+      "authority_type": "Professional expert",
+      "organizational_structure": "Group with multiple leaders",
+      "trust_building": [
+        "Professional credentials",
+        "Expert positioning",
+        "Educational service facade",
+        "Organized program structure"
+      ]
+    },
+    "phase_3_social_proof": {
+      "group_setting": true,
+      "peer_pressure": "Group participation",
+      "social_validation": "Multiple group members",
+      "shared_experience": "Coordinated trading event",
+      "community_facade": "Investment learning community"
+    },
+    "phase_4_platform_introduction": {
+      "platform_names": [
+        "TPKcoin",
+        "DirectCurrent"
+      ],
+      "platform_url": "web.directcurrent.top/mobile/home",
+      "platform_type": "Crypto trading platform",
+      "introduction_method": "Required for group trading program",
+      "instructions_source": "Group leaders",
+      "integration": "Telegram group + trading platform ecosystem"
+    },
+    "phase_5_onboarding": {
+      "account_creation": "Group-provided instructions",
+      "funding_required": true,
+      "initial_deposit_usd": 4200,
+      "kyc_requirements": "Not mentioned",
+      "platform_access": "Mobile-optimized interface"
+    },
+    "phase_6_trading_program": {
+      "program_name": "Big Data Trading",
+      "program_duration_days": 5,
+      "program_structure": "Time-limited trading event",
+      "signal_source": "Telegram group leaders",
+      "signal_delivery": "Over five-day span",
+      "trading_method": "Signal-based (follow leader instructions)",
+      "coordination": "Group trades together",
+      "psychological_tactics": [
+        "Sophisticated-sounding program name",
+        "Time limitation creates urgency",
+        "Group participation creates commitment",
+        "Dependency on leader signals"
+      ]
+    },
+    "phase_7_profit_manipulation": {
+      "explicit_profit_display": "Not mentioned",
+      "implied_profits": "Yes (necessary for commission demands)",
+      "victim_engagement": "Completed five-day program"
+    },
+    "phase_8_withdrawal_blocking_layer1": {
+      "trigger": "Trading event ended",
+      "blocking_method": "Commission demand",
+      "fee_type": "Commissions owed",
+      "fee_amount_usd": 29000,
+      "fee_ratio": "690% of initial investment",
+      "absurdity_level": "Extreme (impossible on $4,200 investment)",
+      "payment_status": "Not paid"
+    },
+    "phase_9_withdrawal_blocking_layer2": {
+      "victim_action": "Attempted to withdraw money to pay commission",
+      "blocking_method": "Tax payment demand",
+      "fee_type": "Taxes",
+      "fee_amount_usd": 48000,
+      "requirement": "Pay taxes before withdrawal allowed",
+      "absurdity_level": "Extreme ($48k taxes on $4.2k investment impossible)",
+      "payment_status": "Not paid"
+    },
+    "phase_10_cold_wallet_scheme": {
+      "victim_response": "Said did not have money to pay taxes",
+      "platform_actor": "Platform assistant",
+      "proposed_solution": "Download cold wallet",
+      "scheme_description": "Withdraw funds in small transactions to avoid taxes",
+      "scheme_validity": "Completely false (small withdrawals don't avoid taxes)",
+      "likely_purpose": [
+        "Additional fee extraction",
+        "Maintain engagement",
+        "Create false hope",
+        "Technical complexity to confuse victim"
+      ],
+      "victim_decision": "Wanted to seek further advice first"
+    },
+    "phase_11_account_termination": {
+      "trigger": "Victim resistance (seeking advice)",
+      "action": "Blocked from trading platform",
+      "access_status": "Could no longer access account",
+      "blocking_type": "Active account termination by operators",
+      "timing": "After victim showed skepticism"
+    },
+    "phase_12_exit_strategy": {
+      "exit_method": "Account blocking followed by platform shutdown",
+      "platform_status": "No longer operational",
+      "fund_recovery": "Unable to recover $4,200",
+      "evidence_destruction": "Platform offline",
+      "communication_status": "Terminated"
+    }
+  },
+  "technical_indicators": {
+    "domains": [
+      {
+        "domain": "directcurrent.top",
+        "subdomain": "web.directcurrent.top",
+        "status": "offline",
+        "role": "primary_platform",
+        "path": "/mobile/home",
+        "mobile_optimized": true
+      }
+    ],
+    "platform_aliases": [
+      "TPKcoin",
+      "DirectCurrent"
+    ],
+    "platform_infrastructure": {
+      "subdomain_structure": true,
+      "mobile_optimization": true,
+      "desktop_version": "Implied (web. subdomain)",
+      "multi_platform": true
+    },
+    "wallet_addresses": [],
+    "messaging_apps": [
+      {
+        "platform": "Telegram",
+        "role": "Primary communication and group coordination",
+        "group_based": true,
+        "leaders": [
+          "Mason",
+          "Multiple other leaders (unspecified)"
+        ]
+      },
+      {
+        "platform": "WhatsApp",
+        "role": "Secondary communication (evidence from screenshot)",
+        "usage": "Additional communication channel"
+      }
+    ],
+    "communication_channels": [
+      "Telegram (group)",
+      "WhatsApp (indicated by screenshot)"
+    ]
+  },
+  "actor_profile": {
+    "primary_actors": [
+      {
+        "identity": "Mason",
+        "role": "Group leader / Trading expert",
+        "claimed_credentials": "Partner at a well-known financial company",
+        "platform": "Telegram",
+        "activities": [
+          "Leading Telegram trading group",
+          "Providing crypto trading education",
+          "Directing members to fraudulent platform"
+        ],
+        "authority_positioning": "High (professional credentials)"
+      },
+      {
+        "identity": "Platform Assistant",
+        "role": "Platform support / Additional extraction",
+        "activities": [
+          "Advised cold wallet workaround",
+          "Maintained victim engagement",
+          "Proposed fake tax avoidance scheme"
+        ]
+      }
+    ],
+    "organizational_structure": {
+      "type": "Multi-tier organized group",
+      "leadership": "Multiple leaders (plural mentioned)",
+      "support_staff": "Platform assistants",
+      "coordination": "Telegram group + platform operations",
+      "sophistication": "Medium-high (coordinated roles)"
+    },
+    "group_dynamics": {
+      "member_count": "Not specified",
+      "participation_type": "Coordinated trading events",
+      "signal_distribution": "Leaders to members",
+      "peer_pressure": "Group participation expectations"
+    }
+  },
+  "brand_impersonation": {
+    "impersonation_present": false,
+    "fake_brands_created": [
+      "TPKcoin",
+      "DirectCurrent"
+    ],
+    "legitimacy_tactics": [
+      "Professional platform names",
+      "Sophisticated program names (Big Data Trading)",
+      "Claimed affiliation with well-known financial company",
+      "Organized trading events",
+      "Educational community facade"
+    ]
+  },
+  "psychological_manipulation": {
+    "techniques_used": [
+      "Authority (Mason as financial company partner)",
+      "Social Proof (group participation)",
+      "Scarcity/Urgency (five-day time-limited event)",
+      "Exclusivity (special trading program)",
+      "Technical Complexity (Big Data Trading terminology)",
+      "Dependency Creation (signal-based trading)",
+      "Sunk Cost Fallacy (investment + time in program)",
+      "False Solution (cold wallet tax avoidance)"
+    ],
+    "vulnerability_exploited": [
+      "Desire for crypto trading education",
+      "Trust in professional credentials",
+      "Interest in exclusive trading opportunities",
+      "Limited knowledge of crypto taxation",
+      "Group conformity pressure",
+      "Fear of missing profitable opportunities"
+    ],
+    "emotional_manipulation_level": "Medium",
+    "relationship_investment": "Medium (community/educational relationship)",
+    "manipulation_sophistication": "Medium-High (structured program with multiple layers)"
+  },
+  "red_flags": [
+    {
+      "indicator": "Telegram group offering crypto trading education/signals",
+      "severity": "high",
+      "detectability": "medium",
+      "phase": "initial_contact"
+    },
+    {
+      "indicator": "Leader claims unnamed 'well-known financial company' credentials",
+      "severity": "high",
+      "detectability": "high",
+      "phase": "authority_establishment"
+    },
+    {
+      "indicator": "Group requires specific unknown trading platform",
+      "severity": "critical",
+      "detectability": "high",
+      "phase": "platform_introduction"
+    },
+    {
+      "indicator": "Platform name inconsistency (TPKcoin vs DirectCurrent)",
+      "severity": "high",
+      "detectability": "medium",
+      "phase": "platform_introduction"
+    },
+    {
+      "indicator": "Vague sophisticated-sounding program name (Big Data Trading)",
+      "severity": "medium",
+      "detectability": "medium",
+      "phase": "trading_program"
+    },
+    {
+      "indicator": "Commission demand of $29,000 on $4,200 investment",
+      "severity": "critical",
+      "detectability": "high",
+      "phase": "withdrawal_blocking"
+    },
+    {
+      "indicator": "Tax demand of $48,000 before withdrawal allowed",
+      "severity": "critical",
+      "detectability": "high",
+      "phase": "withdrawal_blocking"
+    },
+    {
+      "indicator": "Platform prevents withdrawal to pay demanded fees",
+      "severity": "critical",
+      "detectability": "high",
+      "phase": "withdrawal_blocking"
+    },
+    {
+      "indicator": "Suggestion to avoid taxes through small withdrawals",
+      "severity": "critical",
+      "detectability": "high",
+      "phase": "cold_wallet_scheme"
+    },
+    {
+      "indicator": "Account blocked when victim seeks outside advice",
+      "severity": "critical",
+      "detectability": "high",
+      "phase": "exit"
+    }
+  ],
+  "mitre_attack_mapping": {
+    "reconnaissance": [
+      "T1593 - Search Open Websites/Domains",
+      "Social Media Reconnaissance (Telegram user targeting)"
+    ],
+    "initial_access": [
+      "Social Engineering via Telegram Group",
+      "Investment Group Recruitment"
+    ],
+    "execution": [
+      "User-initiated platform registration",
+      "User-initiated cryptocurrency transfer",
+      "Signal-based trading execution"
+    ],
+    "persistence": [
+      "Telegram group continuous engagement",
+      "Multi-platform communication (Telegram + WhatsApp)",
+      "Time-limited event creates sustained engagement",
+      "Signal dependency"
+    ],
+    "defense_evasion": [
+      "Professional credentials claimed",
+      "Educational facade",
+      "Legitimate-appearing platform interface",
+      "Sophisticated terminology (Big Data Trading)",
+      "Multi-platform name obfuscation (TPKcoin/DirectCurrent)"
+    ],
+    "impact": [
+      "T1565 - Data Manipulation (fabricated profits implied)",
+      "Financial Theft ($4,200)",
+      "Account Termination (access blocking)",
+      "Evidence Destruction (platform shutdown)"
+    ]
+  },
+  "prevention_recommendations": [
+    "Be extremely cautious of Telegram investment groups",
+    "Verify professional credentials independently (not through group)",
+    "Never use trading platforms required by investment groups",
+    "Research platforms independently before depositing funds",
+    "Understand that commission fees cannot exceed realistic profit margins",
+    "Know that taxes are paid to government, never to trading platforms",
+    "Platforms cannot legally block withdrawals for tax obligations",
+    "Small withdrawal amounts do not avoid tax reporting requirements",
+    "Seeking outside financial advice is critical protective behavior",
+    "Account blocking in response to questions is definitive scam indicator",
+    "Be suspicious of time-limited trading events creating urgency"
+  ],
+  "recovery_actions": [
+    "Report to California DFPI (completed)",
+    "File complaint with FBI IC3",
+    "Report to FTC",
+    "Report Telegram group to Telegram support",
+    "Document all Telegram group communications",
+    "Preserve WhatsApp chat evidence",
+    "Report Mason's Telegram account",
+    "Document platform screenshots if available",
+    "Blockchain analysis for cryptocurrency tracing",
+    "Share group information with law enforcement for pattern analysis"
+  ],
+  "victim_protective_actions": {
+    "positive_behaviors": [
+      "Sought outside advice before complying with cold wallet scheme",
+      "Expressed skepticism about platform demands",
+      "Did not pay additional demanded fees",
+      "Preserved evidence (screenshots)"
+    ],
+    "prevented_additional_losses": "Yes ($77,000 in additional demands avoided)"
+  },
+  "unique_characteristics": [
+    "Investment group model (vs individual romance/friendship)",
+    "Signal selling integration (trading signals from leaders)",
+    "Time-limited trading event (five-day Big Data Trading program)",
+    "Extreme fee demands (1,833% of investment)",
+    "Multi-layer extraction attempt (commission + tax + cold wallet)",
+    "Cold wallet scheme as false solution",
+    "Active account blocking when victim resisted",
+    "Multi-platform communication (Telegram + WhatsApp)",
+    "Platform name inconsistency (TPKcoin/DirectCurrent aliases)"
+  ]
+}

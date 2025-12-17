@@ -1,0 +1,147 @@
+TTP ANALYSIS - CHAIN OF THOUGHT
+Case: pb_027 (Case ID: 73)
+Platform: C2C TG DEX - TGDEXCustomerService.com
+Date: 2025-12-17
+
+=== CASE NARRATIVE REVIEW ===
+
+Two California residents fell victim to the C2C TG DEX platform located at http://www.TGDEXCustomerService.com.
+
+Victim 1:
+- Initial contact via Telegram
+- Trust-building over time with individual
+- Individual claimed to be an investment advisor associated with a consulting company
+- Directed to C2C TG DEX platform
+- Deposited funds and began trading
+- When attempting withdrawal, platform blocked access
+- Unable to withdraw funds
+
+Victim 2:
+- Invested funds on C2C TG DEX platform
+- When attempting withdrawal, platform demanded "taxes" payment first
+- Victim did not pay the tax
+- Unable to withdraw funds
+
+Platform Status: No longer operational (defunct)
+
+=== TTP EXTRACTION ANALYSIS ===
+
+1. APPROACH AND LURE
+   - Initial Contact Platform: Telegram (Victim 1), Unknown (Victim 2)
+   - Lure Type: Investment opportunity (both victims)
+   - Communication Migration: Telegram was used for communication with Victim 1, unknown for Victim 2
+   - Notable: Direct approach through messaging platform, steering conversation toward investments
+
+2. IMPERSONATION AND PSYCHOLOGY
+   Scammer Persona:
+   - Claimed Identity: Investment advisor associated with a consulting company
+   - Relationship Type: Investment advisor/mentor
+   - Wealth Indicators: Professional affiliation, investment expertise claim
+
+   Psychological Tactics:
+   - Trust Building: Extended conversation over time before investment pitch
+   - Authority: Claimed professional credentials as investment advisor
+   - Fear of Missing Out (FOMO): Presented investment opportunity
+   - Sunk Cost Exploitation: Both victims deposited funds and likely continued engagement
+
+   Trust Building Period: "Over time" - suggests weeks to months of interaction (Victim 1)
+
+3. FRAUD MECHANISM
+   Platform Type: Fake trading platform (crypto DEX)
+   Platform Names: "C2C TG DEX"
+   Platform URLs: http://www.TGDEXCustomerService.com
+
+   Fake Profit Shown: Likely yes (implied by trading activity, though not explicitly stated)
+
+   Withdrawal Block Tactics:
+   - Complete access blocking (Victim 1)
+   - Tax payment demand before withdrawal (Victim 2)
+
+   Notable: The "customer service" domain name suggests professional appearance
+
+4. FINANCIAL TRACKING
+   Cryptocurrency Types: Crypto assets (type unspecified in narrative)
+   Wallet Addresses: None provided
+   Transaction Hashes: None provided
+   Estimated Loss: Not specified in narrative
+   Payment Methods: Platform deposit system
+
+   Missing: Specific amounts, crypto types, blockchain addresses
+
+5. TEMPORAL INDICATORS
+   Scam Duration: Extended period implied by trust building phase
+   Platform Status: DEFUNCT (explicitly stated "platform is no longer operational")
+
+   Timeline suggests:
+   - Initial contact and trust building period (weeks to months)
+   - Investment phase
+   - Withdrawal attempt and blocking
+   - Platform shutdown
+
+=== CONFIDENCE ASSESSMENT ===
+
+High Confidence Elements (explicit in narrative):
+- Telegram as initial contact platform (Victim 1)
+- Investment advisor persona
+- Platform name and URL
+- Withdrawal blocking tactics (access denial, tax demands)
+- Platform defunct status
+
+Medium Confidence Elements (strongly implied):
+- Trust building tactics
+- Authority psychological manipulation
+- Fake profit display (common pattern, trading occurred)
+
+Low Confidence/Unknown Elements:
+- Specific cryptocurrency types
+- Financial loss amounts
+- Wallet addresses or transaction details
+- Victim 2's initial contact method
+- Exact duration of scam
+- Communication migration for Victim 2
+
+Overall Confidence Score: 0.75
+Reasoning: Clear narrative with explicit details on approach, impersonation, and fraud mechanism, but missing specific financial tracking data and some technical details.
+
+=== NOTABLE PATTERNS ===
+
+1. DEX Branding: Platform branded as "DEX" (Decentralized Exchange) - common legitimacy tactic
+2. Customer Service Domain: Domain includes "CustomerService" suggesting professional operation
+3. Multiple Victims: At least two victims from same jurisdiction (California)
+4. Different Extraction Tactics: Access blocking vs tax demands shows operational flexibility
+5. Exit Scam: Platform shut down after extraction, preventing recovery attempts
+
+=== COMPARATIVE ANALYSIS ===
+
+Similarities to Other Cases:
+- Telegram initial contact (common in pig butchering)
+- Investment advisor persona
+- Withdrawal blocking with fee/tax demands
+- Platform defunct status (exit scam)
+
+Unique Elements:
+- "C2C TG DEX" branding (C2C = customer-to-customer, TG = Telegram?)
+- CustomerService domain name
+- Dual victim reporting with different tactics
+
+=== EXTRACTION DECISIONS ===
+
+For JSON output:
+- Case ID: 73 (pb_027)
+- Use "crypto_assets_unspecified" for cryptocurrency type
+- Mark estimated_loss_usd as null (not provided)
+- Include both victims' experiences in withdrawal_block_tactics
+- Platform status: "defunct" (explicitly stated)
+- List missing information comprehensively
+- Confidence score: 0.75
+
+=== CHAIN OF THOUGHT SUMMARY ===
+
+This case demonstrates a classic Pig Butchering operation with:
+1. Social engineering through Telegram
+2. Trust building with investment advisor persona
+3. Professional-appearing platform (DEX branding, customer service domain)
+4. Multiple withdrawal blocking tactics
+5. Exit scam with platform shutdown
+
+The TTP profile is relatively complete for behavioral analysis but lacks financial tracking details. The multiple victim reports with different experiences provide good insight into the scammers' operational flexibility and extraction tactics.

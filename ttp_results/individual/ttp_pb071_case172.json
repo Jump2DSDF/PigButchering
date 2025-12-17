@@ -1,0 +1,256 @@
+{
+  "case_id": "pb071_case172",
+  "pb_case_id": 71,
+  "original_case_id": 172,
+  "case_name": "XAI xai88X Impersonation Scam",
+  "financial_loss": 3816.60,
+  "victim_location": "California, United States",
+  "scam_classification": [
+    "Fraudulent Trading Platform",
+    "Imposter Scam",
+    "Pig Butchering Scam"
+  ],
+  "threat_actor_profile": {
+    "sophistication_level": "Medium-High",
+    "target_demographics": "Retail crypto investors",
+    "geographic_focus": "United States (California)",
+    "language": "English",
+    "operational_pattern": "Quick exit after fund collection"
+  },
+  "attack_chain": {
+    "initial_contact": {
+      "method": "Unsolicited approach on Telegram",
+      "platform": "Telegram",
+      "persona": "Famous influencer named 'Tai'",
+      "social_engineering": "Celebrity impersonation"
+    },
+    "trust_building": {
+      "relationship_type": "Investment advisor / influencer",
+      "duration": "Not specified",
+      "techniques": [
+        "Celebrity/influencer impersonation",
+        "Exclusive opportunity positioning",
+        "Presale token offering"
+      ]
+    },
+    "platform_introduction": {
+      "platform_name": "xai-official.org",
+      "platform_type": "Fake token swap platform",
+      "platform_urls": [
+        "https://xai-official.org/swap"
+      ],
+      "platform_status": "Offline/defunct",
+      "legitimacy_indicators": [
+        "Professional domain name mimicking legitimate project",
+        "Functional swap endpoint",
+        "Brand confusion with legitimate XAI token"
+      ]
+    },
+    "investment_phase": {
+      "initial_deposit": "Not specified",
+      "total_deposits": 3816.60,
+      "investment_narrative": "Presale offering of xAI88X token",
+      "promised_returns": "Not specified",
+      "fake_profits_shown": false
+    },
+    "withdrawal_prevention": {
+      "attempted_withdrawal": false,
+      "barriers_encountered": [
+        "Website taken offline"
+      ],
+      "additional_fees_requested": []
+    },
+    "exit_strategy": {
+      "method": "Complete shutdown of platform",
+      "status": "Website no longer operational"
+    }
+  },
+  "technical_indicators": {
+    "websites": [
+      {
+        "url": "https://xai-official.org/swap",
+        "status": "Offline",
+        "purpose": "Fake token swap platform",
+        "impersonates": "XAI token project by Offchain Labs"
+      }
+    ],
+    "domains": [
+      "xai-official.org"
+    ],
+    "cryptocurrency_addresses": [
+      {
+        "address": "0xBd648f4083d85E2Fc53eC603363670cf58D6DF72",
+        "blockchain": "Ethereum (assumed based on 0x prefix)",
+        "purpose": "Fund collection wallet",
+        "amount_received": 3816.60
+      }
+    ],
+    "communication_platforms": [
+      "Telegram"
+    ],
+    "fake_tokens": [
+      {
+        "name": "xAI88X",
+        "impersonates": "XAI token (Offchain Labs)",
+        "offering_type": "Presale"
+      }
+    ],
+    "apps": [],
+    "email_addresses": [],
+    "phone_numbers": []
+  },
+  "social_engineering_tactics": [
+    "Celebrity/influencer impersonation",
+    "Brand confusion with legitimate crypto project",
+    "Exclusive presale offering",
+    "Artificial scarcity and urgency",
+    "Step-by-step instruction to reduce friction",
+    "Exploitation of limited crypto knowledge"
+  ],
+  "red_flags": [
+    "Unsolicited contact from alleged celebrity on Telegram",
+    "Celebrity offering direct investment opportunities to strangers",
+    "Presale offering through unofficial channels",
+    "Token name similar but not identical to legitimate project",
+    "Direct wallet transfers instead of proper token sale platform",
+    "Domain name mimicking but not matching legitimate project",
+    "Website taken offline after fund collection"
+  ],
+  "victim_vulnerabilities_exploited": [
+    "Interest in cryptocurrency investment",
+    "Trust in celebrity endorsements",
+    "Limited ability to verify token legitimacy",
+    "Desire for early-stage investment opportunities",
+    "Insufficient due diligence on platforms and projects"
+  ],
+  "impersonated_entities": [
+    {
+      "type": "Crypto Project",
+      "name": "XAI token",
+      "legitimate_entity": "Offchain Labs XAI gaming token",
+      "fake_variant": "xAI88X"
+    },
+    {
+      "type": "Individual",
+      "name": "Famous influencer 'Tai'",
+      "details": "Likely impersonating known crypto influencer"
+    }
+  ],
+  "timeline": {
+    "initial_contact": "Not specified",
+    "first_investment": "Not specified",
+    "total_duration": "Not specified",
+    "platform_shutdown": "Before report filing (current status: offline)"
+  },
+  "investigation_leads": {
+    "blockchain_addresses": [
+      "0xBd648f4083d85E2Fc53eC603363670cf58D6DF72"
+    ],
+    "domains_for_analysis": [
+      "xai-official.org"
+    ],
+    "social_media_accounts": [
+      "Telegram account claiming to be 'Tai'"
+    ],
+    "connected_cases": [
+      "Other XAI token impersonation scams",
+      "Other Telegram-based presale scams"
+    ]
+  },
+  "defensive_recommendations": [
+    "Verify celebrity/influencer identity through official verified channels",
+    "Research token projects on official websites and blockchain explorers",
+    "Be skeptical of unsolicited investment opportunities on social media",
+    "Verify domain authenticity and registration details",
+    "Never send cryptocurrency to unfamiliar wallets without thorough verification",
+    "Understand legitimate token presales use established launchpad platforms",
+    "Check for official announcements from legitimate projects about token sales",
+    "Be wary of name variations that closely resemble legitimate projects"
+  ],
+  "ttps": {
+    "initial_access": {
+      "technique": "Unsolicited Social Media Contact",
+      "platforms": ["Telegram"],
+      "description": "Scammer initiated contact with victim on Telegram claiming to be famous influencer"
+    },
+    "social_engineering": {
+      "techniques": [
+        {
+          "name": "Impersonation",
+          "description": "Posed as famous influencer named 'Tai' to establish credibility and trust"
+        },
+        {
+          "name": "Brand Confusion",
+          "description": "Created xAI88X token to exploit confusion with legitimate XAI token project"
+        },
+        {
+          "name": "Artificial Scarcity",
+          "description": "Positioned investment as exclusive presale opportunity"
+        }
+      ]
+    },
+    "infrastructure": {
+      "websites": [
+        {
+          "url": "https://xai-official.org/swap",
+          "purpose": "Fake token swap platform",
+          "sophistication": "Professional appearance, functional interface"
+        }
+      ],
+      "wallets": [
+        {
+          "address": "0xBd648f4083d85E2Fc53eC603363670cf58D6DF72",
+          "purpose": "Direct fund collection"
+        }
+      ]
+    },
+    "fund_extraction": {
+      "method": "Direct cryptocurrency transfer to scammer wallet",
+      "total_extracted": 3816.60,
+      "currency": "USD equivalent"
+    },
+    "persistence": {
+      "technique": "None - quick exit",
+      "description": "Platform shut down after fund collection, no ongoing engagement"
+    },
+    "evasion": {
+      "techniques": [
+        "Platform shutdown to avoid detection",
+        "Use of cryptocurrency for irreversible transfers",
+        "Anonymous Telegram communication"
+      ]
+    }
+  },
+  "mitre_attack_mapping": {
+    "initial_access": [
+      "T1566 - Phishing (Social Media Variant)"
+    ],
+    "execution": [
+      "User-initiated cryptocurrency transfer"
+    ],
+    "persistence": [
+      "Not applicable - quick exit operation"
+    ],
+    "defense_evasion": [
+      "T1070.004 - Indicator Removal on Host (Website shutdown)",
+      "T1027 - Obfuscated Files or Information (Brand confusion)"
+    ],
+    "credential_access": [
+      "Not applicable"
+    ],
+    "collection": [
+      "T1530 - Data from Cloud Storage Object (Cryptocurrency wallet)"
+    ],
+    "impact": [
+      "T1499 - Endpoint Denial of Service (Platform shutdown)",
+      "Financial theft"
+    ]
+  },
+  "metadata": {
+    "report_source": "California resident complaint",
+    "analysis_date": "2025-12-17",
+    "analyst_notes": "Professional operation with celebrity impersonation and brand confusion tactics. Wallet address is key evidence for blockchain forensics. Quick exit strategy suggests coordinated operation targeting multiple victims.",
+    "severity": "High",
+    "confidence": "High"
+  }
+}

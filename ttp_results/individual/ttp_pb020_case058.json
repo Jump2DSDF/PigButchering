@@ -1,0 +1,54 @@
+{
+  "case_id": 58,
+  "approach_and_lure": {
+    "initial_contact_platform": ["Telegram"],
+    "lure_type": ["investment_opportunity", "relationship_building"],
+    "communication_migration": "Telegram (no migration mentioned)"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Crypto investment expert/advisor",
+      "wealth_indicators": ["successful_crypto_investor", "exclusive_opportunity_access", "investment_knowledge"],
+      "relationship_type": "romantic_interest_or_close_friend"
+    },
+    "psychological_tactics": ["trust_building", "authority", "wealth_display", "fear_of_missing_out", "sunk_cost_exploitation", "technical_legitimacy"],
+    "trust_building_period": "Weeks to months (inferred from $900K+ investment)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_crypto_asset_platform",
+    "platform_names": ["globalcryptous.com"],
+    "platform_urls": ["globalcryptous.com"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": ["gas_fee_demand"]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["crypto_assets_unspecified"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 900000,
+    "additional_demands_usd": 45000,
+    "payment_methods": ["unspecified"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Weeks to months (2-6 months inferred)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.70,
+    "missing_information": [
+      "cryptocurrency_types_specific",
+      "wallet_addresses",
+      "transaction_hashes",
+      "deposit_timeline_breakdown",
+      "scammer_identity_details",
+      "communication_content",
+      "whether_gas_fee_was_paid",
+      "fake_profit_amounts",
+      "initial_withdrawal_attempts",
+      "scammer_contact_details"
+    ],
+    "notes": "High-value Pig Butchering scam with $900,000+ loss. Telegram contact, extended trust-building (weeks/months inferred), fraudulent crypto platform. Sophisticated withdrawal blocking using 'gas fee' terminology ($45K demand). Platform now defunct. Large investment amount suggests romance or deep friendship element. Critical need to obtain blockchain tracking data from victim's records. HIGH PRIORITY for investigation due to massive financial loss and recent occurrence.",
+    "investigative_priority": "HIGH",
+    "victim_location": "California"
+  }
+}

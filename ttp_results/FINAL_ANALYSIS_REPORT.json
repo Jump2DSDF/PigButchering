@@ -1,0 +1,257 @@
+{
+  "report_metadata": {
+    "title": "DFPI Pig Butchering Scam TTP Analysis Report",
+    "generated_at": "2025-12-18",
+    "data_source": "California DFPI Crypto Scam Tracker",
+    "analysis_method": "LLM-based TTP (Tactics, Techniques, Procedures) Profiling with Chain of Thought",
+    "analyst": "Claude Opus 4.5"
+  },
+  "executive_summary": {
+    "total_cases_in_dataset": 273,
+    "ttp_profiles_created": 112,
+    "wallet_addresses_extracted": 42,
+    "estimated_total_losses_tracked": "$18,000,000+",
+    "brand_impersonation_cases_identified": 20,
+    "key_findings": [
+      "Multi-chain cryptocurrency laundering: ETH (33 wallets), BTC (8 wallets), XRP (1 wallet)",
+      "Major financial exchange impersonation: ICE, NYMEX, Singapore Exchange, Coinhako",
+      "Government/regulatory body impersonation: FATF, NFA, CFTC for fake compliance demands",
+      "Vulnerable population targeting: Elderly victims, retirement fund exploitation",
+      "Multi-stage fraud operations: Investment scam + recovery scam combinations"
+    ]
+  },
+  "blockchain_intelligence": {
+    "total_unique_wallets": 42,
+    "ethereum_wallets": 33,
+    "bitcoin_wallets": 8,
+    "xrp_wallets": 1,
+    "priority_investigation_wallets": [
+      {
+        "address": "0xba909bd6cd78bd9ba9c491d400821ff2bedd003b",
+        "case": "pb_133",
+        "platform": "coinmatevip.com",
+        "loss": "$980,000+",
+        "priority": "CRITICAL",
+        "reason": "FATF impersonation, 3 victims"
+      },
+      {
+        "address": "0xb1ee662001a0247270b282e03cfc0c86642babec",
+        "case": "pb_018",
+        "platform": "CBMWW.com",
+        "loss": "$579,000",
+        "priority": "CRITICAL",
+        "reason": "Multi-domain operation"
+      },
+      {
+        "address": "0xd33F76dA78669B41ABcb98234Abb887bFe2D4F0a",
+        "case": "pb_165",
+        "platform": "youbitpro.me",
+        "loss": "$261,000",
+        "priority": "CRITICAL",
+        "reason": "401K liquidation, 2 victims"
+      },
+      {
+        "address": "0xC834a7EF0337F939219Ea1B05f2248DE7d809aB4",
+        "case": "pb_166",
+        "platform": "publicrealm.pro",
+        "loss": "$183,000",
+        "priority": "CRITICAL",
+        "reason": "Double scam (investment + recovery)"
+      },
+      {
+        "address": "rLEFT4k54Pd1k73iqAsA24S8rqKYv5wWrG",
+        "case": "pb_131",
+        "platform": "flrmeshworknet.us",
+        "loss": "$63,543",
+        "priority": "CRITICAL",
+        "reason": "First XRP wallet, airdrop phishing"
+      }
+    ],
+    "cluster_analysis_targets": [
+      "pb_032 dimensionvip.com - 5 ETH addresses connected",
+      "pb_165 youbitpro.me - 3 ETH addresses (follow-up phishing)",
+      "pb_166 publicrealm.pro - 3 ETH addresses (investment + recovery)",
+      "pb_150 volcanic.exchange - 4 addresses (2 ETH + 2 BTC)",
+      "pb_160 dailyharvestltd.com - 2 ETH addresses"
+    ]
+  },
+  "high_value_cases": {
+    "total_tracked_losses": "$18,000,000+",
+    "cases_over_500k": [
+      {"case": "pb_044", "platform": "Zipmexpro.com", "loss": 3800000, "notes": "Highest value - Zipmex impersonation"},
+      {"case": "pb_064", "platform": "SAXO Group", "loss": 1621870, "notes": "Saxo Bank impersonation"},
+      {"case": "pb_133", "platform": "coinmatevip.com", "loss": 980000, "notes": "FATF impersonation, 3 victims"},
+      {"case": "pb_207", "platform": "liquldohn.com", "loss": 930000, "notes": "Elderly victim, financial firm intervened"},
+      {"case": "pb_188", "platform": "sundell-fx.com", "loss": 800000, "notes": "Gold trading, video call scam"},
+      {"case": "pb_052", "platform": "Qexbit.org", "loss": 762000, "notes": "Multi-stage fee extraction"},
+      {"case": "pb_199", "platform": "coinhakoxds.com", "loss": 750000, "notes": "Partnership scam"},
+      {"case": "pb_039", "platform": "zaifusw.com", "loss": 742000, "notes": "Serial victimization, 3 scams"},
+      {"case": "pb_191", "platform": "moodyfx.com", "loss": 740000, "notes": "Charity angle, retirement targeting"},
+      {"case": "pb_216", "platform": "NYMEX fake", "loss": 650000, "notes": "NYMEX impersonation"},
+      {"case": "pb_018", "platform": "CBMWW.com", "loss": 579000, "notes": "Wallet addresses extracted"},
+      {"case": "pb_054", "platform": "Coinefx", "loss": 571936, "notes": "Mistaken identity approach"}
+    ]
+  },
+  "brand_impersonation_analysis": {
+    "total_cases": 20,
+    "categories": {
+      "crypto_exchanges": [
+        {"brand": "KuCoin", "fake": "kakucoin.com", "case": "pb_006"},
+        {"brand": "Crypto.com", "fake": "Crypto-rd.top", "case": "pb_023"},
+        {"brand": "Zipmex", "fake": "zipmexpro.com", "case": "pb_044"},
+        {"brand": "Coinhako", "fake": "coinhakoxds.com", "case": "pb_199"},
+        {"brand": "BitMex", "fake": "btm-vip.com", "case": "pb_060"}
+      ],
+      "financial_exchanges": [
+        {"brand": "ICE (Intercontinental Exchange)", "fake": "icetrad.cc, icextee.top", "case": "pb_211"},
+        {"brand": "NYMEX (New York Mercantile Exchange)", "fake": "Unknown", "case": "pb_216"},
+        {"brand": "Singapore Exchange", "fake": "coinhakoxds.com", "case": "pb_199"},
+        {"brand": "Saxo Bank", "fake": "SAXO Group app", "case": "pb_064"}
+      ],
+      "regulatory_bodies": [
+        {"brand": "FATF (Financial Action Task Force)", "fake": "coinmatevip.com", "case": "pb_133"},
+        {"brand": "NFA (National Futures Association)", "fake": "dailyharvestltd.com", "case": "pb_160"},
+        {"brand": "CFTC (Commodities Futures Trading Commission)", "fake": "dailyharvestltd.com", "case": "pb_160"}
+      ],
+      "financial_institutions": [
+        {"brand": "Dimensional Fund Advisors", "fake": "dimensionvip.com", "case": "pb_032"},
+        {"brand": "Riot Platforms", "fake": "RIOT Blockchain", "case": "pb_024"}
+      ],
+      "tech_companies": [
+        {"brand": "Tesla/Elon Musk", "fake": "webelon.org", "case": "pb_061"},
+        {"brand": "Brave Software", "fake": "bravehqnx.cc", "case": "pb_081"}
+      ]
+    }
+  },
+  "ttp_patterns": {
+    "initial_contact_platforms": {
+      "primary": ["LinkedIn", "WhatsApp", "Instagram", "Dating Apps", "Twitter"],
+      "secondary": ["Telegram", "Discord", "Line Chat", "Facebook"],
+      "migration_pattern": "Initial contact → Private messaging → Investment platform"
+    },
+    "trust_building_tactics": [
+      "Cultural affinity (Korean, Chinese heritage)",
+      "Video calls with scammers",
+      "Alma mater connections (UC Berkeley)",
+      "Mutual friends/connections (real or fake)",
+      "Charity/non-profit involvement claims",
+      "Live trading demonstrations",
+      "Small proof-of-concept withdrawals allowed"
+    ],
+    "lure_types": [
+      "Investment mentorship",
+      "AI/algorithmic trading promises",
+      "Cryptocurrency airdrops",
+      "Gold/forex trading",
+      "Partnership/co-investment offers",
+      "Free courses/education"
+    ],
+    "withdrawal_blocking_tactics": [
+      "Tax demands (US, UK, offshore)",
+      "Account freeze/lock",
+      "Deposit-to-unlock schemes (10-20%)",
+      "Money laundering accusations",
+      "Verification fee demands",
+      "Processing delays (30-45 days)",
+      "Network maintenance excuses",
+      "Hacker/security incident claims"
+    ],
+    "secondary_scam_patterns": [
+      "Recovery scam (fake exchange support)",
+      "Follow-up phishing emails",
+      "Identity theft attempts (SSN, IDme)",
+      "Bank account compromise attempts"
+    ]
+  },
+  "victim_profiles": {
+    "vulnerable_populations_targeted": [
+      "Elderly individuals with diminished capacity",
+      "401K/retirement account holders",
+      "Recent immigrants with cultural isolation",
+      "People seeking romantic connections",
+      "College alumni (social engineering hook)"
+    ],
+    "financial_exploitation_methods": [
+      "401K early withdrawal",
+      "Personal loans",
+      "Credit card debt",
+      "Trust/IRA accounts",
+      "Borrowing from friends/family",
+      "Home equity"
+    ],
+    "successful_interventions": [
+      "pb_207: Financial advisory firm blocked $260K additional loss",
+      "pb_138: Bank blocked unauthorized transactions"
+    ]
+  },
+  "attack_vectors": {
+    "novel_techniques_identified": [
+      {
+        "case": "pb_131",
+        "technique": "Airdrop phishing via influencer impersonation",
+        "platform": "flrmeshworknet.us",
+        "result": "Wallet key theft"
+      },
+      {
+        "case": "pb_166",
+        "technique": "Double scam (investment + recovery)",
+        "platform": "publicrealm.pro",
+        "result": "Additional $10K extracted as 'gas fee'"
+      },
+      {
+        "case": "pb_168",
+        "technique": "Identity theft escalation",
+        "platform": "globaltekforex.com",
+        "result": "SSN and IDme credential theft attempt"
+      },
+      {
+        "case": "pb_126",
+        "technique": "Hacked friend's Instagram account",
+        "platform": "spikefxfasttrade.com",
+        "result": "Leveraged real social trust"
+      },
+      {
+        "case": "pb_165",
+        "technique": "Rental property inquiry as entry",
+        "platform": "youbitpro.me",
+        "result": "Built trust through legitimate-seeming interaction"
+      }
+    ]
+  },
+  "recommendations": {
+    "blockchain_forensics": [
+      "Priority analysis of 42 extracted wallet addresses",
+      "Cluster analysis of connected wallet groups",
+      "Exchange reporting for KYC data requests",
+      "XRP address reporting to Ripple compliance"
+    ],
+    "regulatory_actions": [
+      "Coordinate with impersonated entities for brand protection",
+      "Alert FATF, NFA, CFTC about regulatory impersonation",
+      "Domain takedown requests for active fraud sites"
+    ],
+    "public_awareness": [
+      "Warn about video call scams (deepfake potential)",
+      "Educate on recovery scam patterns",
+      "Highlight airdrop phishing risks",
+      "Alert financial institutions to elderly targeting patterns"
+    ]
+  },
+  "chain_of_thought_methodology": {
+    "description": "6-step analysis framework applied to each case",
+    "steps": [
+      "Step 1: Initial Contact Analysis - Platform, approach method, first contact dynamics",
+      "Step 2: Platform Migration - Communication channel transitions",
+      "Step 3: Trust Building - Tactics used to establish credibility",
+      "Step 4: Investment Introduction - How the scam opportunity was presented",
+      "Step 5: Financial Extraction - Methods used to obtain funds",
+      "Step 6: Withdrawal Blocking - Tactics used to prevent fund recovery"
+    ],
+    "output_format": "Structured JSON with chain_of_thought field documenting reasoning"
+  },
+  "files_generated": {
+    "individual_ttp_profiles": "ttp_results/individual/ttp_pb*.json (112 files)",
+    "blockchain_tracking_summary": "ttp_results/blockchain_tracking_summary.json",
+    "final_report": "ttp_results/FINAL_ANALYSIS_REPORT.json"
+  }
+}

@@ -1,0 +1,280 @@
+TTP ANALYSIS - CHAIN OF THOUGHT
+Case ID: pb_028 (Original Case ID: 74)
+Platform: capnovas.com
+Analysis Date: 2025-12-17
+
+================================================================================
+STEP 1: INITIAL CONTACT ANALYSIS
+================================================================================
+
+How did the victim first encounter the scammer?
+- The victim was reached out to by an individual on Instagram
+- This was an unsolicited contact (cold approach)
+- The scammer initiated the conversation
+
+What platform was used for initial contact?
+- Instagram was the initial contact platform
+- This is a social media platform commonly used for pig butchering scams
+
+Was there a migration to another communication platform?
+- The narrative does not explicitly mention migration to another platform
+- Communication likely remained on Instagram direct messaging
+- No mention of WhatsApp, Telegram, or other messaging apps
+
+What type of lure was used?
+- PRIMARY LURE: Investment opportunity
+- The scammer showed their own account statements from capnovas.com
+- Claimed to have earned "large profits" trading on the platform
+- Promised the victim could achieve the same results by copying their method
+- This is classic social proof technique - "I'm making money, you can too"
+
+ASSESSMENT: Clear investment opportunity lure with social proof via displayed account statements. Instagram is increasingly common for initial contact in pig butchering operations targeting younger demographics.
+
+================================================================================
+STEP 2: PERSONA & PSYCHOLOGY ANALYSIS
+================================================================================
+
+What identity did the scammer claim?
+- DUAL PERSONA OPERATION:
+  1. Initial contact: Successful crypto trader/mentor
+  2. Secondary contact: "Trading Account Manager" from capnovas.com platform
+- This two-actor approach is sophisticated - creates appearance of legitimate platform with support staff
+- Could be two different scammers working together OR single scammer playing multiple roles
+
+What wealth or success indicators were shown?
+- Account statements showing large profits from trading
+- Claimed expertise in crypto trading
+- Positioned as someone with insider knowledge of profitable trading methods
+- Authority position as official "Trading Account Manager"
+
+What type of relationship was established?
+- Initial: Mentor/investment advisor relationship
+- Transition to: Company representative (Trading Account Manager)
+- NOT romantic - this is purely financial/business relationship
+- Educational framing: "I'll teach you my method"
+
+What psychological manipulation tactics are evident?
+1. SOCIAL PROOF: Showing their own successful account statements
+2. AUTHORITY: Positioning as Trading Account Manager with platform access
+3. FEAR OF MISSING OUT (FOMO): "I'm making large profits, you can too"
+4. TRUST BUILDING: Step-by-step guidance on opening account and making test trade
+5. URGENCY: Immediate demand for more money after test trade success
+6. SUNK COST EXPLOITATION: Once victim has funds in platform and can't withdraw
+7. RECIPROCITY: Scammer is "helping" victim learn to trade
+
+How long was the trust-building phase?
+- Appears to be relatively SHORT timeline
+- Quick progression from initial contact to account opening to test trade
+- No indication of weeks/months of relationship building
+- This is a "fast burn" approach vs traditional longer-term pig butchering
+- Estimate: Days to 1-2 weeks maximum
+
+ASSESSMENT: Sophisticated multi-persona operation with rapid trust-building via social proof. The test trade is the key psychological hook - makes victim believe platform is legitimate and profitable before extraction phase.
+
+================================================================================
+STEP 3: FRAUD MECHANISM ANALYSIS
+================================================================================
+
+What type of fraudulent platform was used?
+- FAKE TRADING PLATFORM
+- Presents as crypto asset trading platform
+- Website: capnovas.com
+- No indication this is a real exchange or legitimate platform
+
+What was the platform name and URL?
+- Platform name: capnovas.com (no branding beyond domain)
+- URL: capnovas.com
+- Domain now defunct (website no longer operational)
+
+Were fake profits shown to the victim?
+- YES - CRITICAL TECHNIQUE
+- The "test trade" showed the victim making "more than $1,000" profit
+- This fake profit display is the key psychological manipulation
+- Creates belief that platform is legitimate and profitable
+- Encourages victim to deposit more funds
+- Classic pig butchering "fattening" phase
+
+What tactics were used to block withdrawals?
+- SIMPLE DENIAL OF ACCESS
+- Victim "is unable to withdraw any of their funds from the platform"
+- No mention of tax demands, verification fees, or other pretexts
+- Platform simply prevents withdrawal functionality
+- Eventually executed EXIT SCAM (site shut down)
+
+Additional fraud mechanism observations:
+- Test trade is sophisticated psychological technique
+- Small initial "profit" shown to victim to establish trust
+- Immediate demand for more money after test trade success
+- This creates urgency and exploits the excitement of perceived profit
+- Platform had account management features (viewing balances, making trades)
+- Sufficient functionality to appear legitimate during deception phase
+
+ASSESSMENT: Classic fake trading platform with sophisticated test trade hook. The immediate demand for more money after test trade reveals the rushed timeline. Platform has since executed exit scam.
+
+================================================================================
+STEP 4: FINANCIAL INTELLIGENCE EXTRACTION
+================================================================================
+
+What cryptocurrencies were involved?
+- Narrative states "crypto assets" generically
+- NO SPECIFIC CRYPTOCURRENCY NAMED
+- Could be Bitcoin, Ethereum, USDT, or others
+- This is a significant intelligence gap
+
+Are any wallet addresses mentioned?
+- NO wallet addresses provided in narrative
+- Victim transferred crypto assets "into the account" on platform
+- Likely provided a deposit address by platform, but not recorded in complaint
+
+Are any transaction hashes mentioned?
+- NO transaction hashes mentioned
+- No blockchain tracking information available
+
+What was the estimated total loss?
+- NOT QUANTIFIED in the narrative
+- We know victim:
+  1. Deposited unspecified amount initially
+  2. Supposedly made $1,000+ in test trade (fake)
+  3. Cannot withdraw any funds
+- Actual loss amount: UNKNOWN
+- Loss includes: Initial deposit + any additional amounts sent
+
+What payment methods were used?
+- Victim transferred crypto assets to the platform
+- Method of acquisition not specified (could be:
+  - Purchase from legitimate exchange (Coinbase, Kraken, etc.)
+  - Peer-to-peer transfer
+  - Bitcoin ATM
+  - Other source)
+- Transfer method: Direct crypto transfer to platform account
+
+ASSESSMENT: Significant gaps in financial intelligence. Without cryptocurrency type, wallet addresses, or transaction hashes, blockchain tracing is not possible. The lack of specific loss amount is common in initial complaints. This limits investigative and recovery options.
+
+================================================================================
+STEP 5: TEMPORAL ANALYSIS
+================================================================================
+
+How long did the scam last?
+- Timeline appears COMPRESSED/RAPID
+- Sequence: Instagram contact → Account statements shown → Introduction to Manager → Account opening → Crypto transfer → Test trade → Demand for more money → Refusal → Withdrawal blocked
+- No indication of extended trust-building period
+- Estimate: Several days to 2 weeks maximum
+- This is faster than typical pig butchering which can last months
+
+Is the fraudulent platform still operational?
+- PLATFORM STATUS: DEFUNCT
+- "The website is no longer operational"
+- This is EXIT SCAM behavior
+- Platform likely shut down after extracting funds from multiple victims
+- Common pattern: Scammers operate for weeks/months, then disappear
+
+Temporal observations:
+- Quick progression suggests organized operation with established playbook
+- Test trade technique indicates prior successful use of this method
+- Platform shutdown indicates:
+  1. Operation reached target extraction amount, OR
+  2. Too much victim attention/complaints triggered shutdown, OR
+  3. Platform rotation (common tactic - shut down one, open another)
+
+ASSESSMENT: Fast-burn operation (days to weeks) with exit scam conclusion. Platform shutdown eliminates victim recovery options and makes scammer identification more difficult.
+
+================================================================================
+STEP 6: CONFIDENCE ASSESSMENT
+================================================================================
+
+What information was clearly stated vs. inferred?
+
+CLEARLY STATED:
+- Instagram initial contact ✓
+- Scammer showed account statements with large profits ✓
+- Investment opportunity lure (copy trading method) ✓
+- Introduction to "Trading Account Manager" ✓
+- Platform name: capnovas.com ✓
+- Victim opened account and transferred crypto assets ✓
+- Test trade showed $1,000+ profit ✓
+- Immediate demand for more money ✓
+- Victim refused to send more ✓
+- Victim unable to withdraw any funds ✓
+- Website no longer operational ✓
+
+INFERRED:
+- Two-person operation (or role-playing) ~
+- Short timeline (days to weeks) ~
+- Generic "crypto assets" (specific type unknown) ~
+- Exit scam execution ~
+
+MISSING INFORMATION (Critical gaps):
+- Specific cryptocurrency type(s)
+- Wallet addresses (deposit addresses)
+- Transaction hashes
+- Actual loss amount (USD value)
+- Exact timeline/dates
+- Method of crypto acquisition
+- Communication platform migration (if any)
+- Screenshots or evidence preservation
+- Whether victim reported to law enforcement
+- Any additional fees/taxes demanded (none mentioned)
+
+Overall confidence in extraction?
+- CONFIDENCE SCORE: 0.80 (High)
+
+REASONING:
+- Narrative is relatively detailed on operational tactics
+- Clear identification of TTP pattern
+- Missing financial intelligence lowers score from 0.90+
+- What IS present is reliable and clearly stated
+- Can confidently identify this as investment-lure pig butchering variant
+- Pattern matches known capnovas.com complaints (if any)
+
+LIMITATIONS:
+- Cannot perform blockchain analysis without wallet addresses
+- Cannot quantify financial impact without loss amount
+- Cannot establish detailed timeline without dates
+- Cannot link to other victims without transaction data
+
+INVESTIGATIVE VALUE:
+- Domain name (capnovas.com) can be researched for WHOIS, hosting, related domains
+- Instagram as platform suggests scammer targeting methodology
+- Test trade technique is distinctive TTP marker
+- Trading Account Manager persona is sophisticated indicator
+
+================================================================================
+SUMMARY INTELLIGENCE ASSESSMENT
+================================================================================
+
+THREAT SOPHISTICATION: MEDIUM-HIGH
+- Multi-persona operation (trader + manager)
+- Test trade psychological technique
+- Rapid execution suggests experienced operators
+- Exit scam coordination indicates organized operation
+
+VICTIM VULNERABILITY FACTORS:
+- Interest in cryptocurrency investment
+- Susceptible to social proof (account statements)
+- Limited experience with legitimate trading platforms
+- Instagram user (suggests younger demographic possibly)
+
+SCAMMER TRADECRAFT:
++ Effective social proof via account statements
++ Two-persona approach adds legitimacy
++ Test trade is sophisticated psychological hook
++ Fast timeline reduces victim risk assessment time
+- Platform shutdown eliminates evidence
+- No financial tracking data captured
+
+INVESTIGATIVE LEADS:
+1. Domain analysis: capnovas.com (WHOIS, hosting history, related domains)
+2. Instagram account identification (if reported to Meta)
+3. Search for other capnovas.com victims
+4. Pattern matching with other fast-burn investment scams
+
+PREVENTION INSIGHTS:
+- Educate on social media investment scam risks
+- Warning signs: Unsolicited investment advice on social media
+- Red flag: Requests to deposit crypto on unknown platforms
+- Test trades are common pig butchering technique
+- Verify trading platform legitimacy before depositing funds
+
+================================================================================
+END CHAIN OF THOUGHT ANALYSIS
+================================================================================

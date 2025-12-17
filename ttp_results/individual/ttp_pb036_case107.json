@@ -1,0 +1,68 @@
+{
+  "case_id": 107,
+  "approach_and_lure": {
+    "initial_contact_platform": ["WhatsApp"],
+    "lure_type": ["investment_opportunity", "referral", "social_media_ad"],
+    "communication_migration": "WhatsApp groups and CryptoMMS platform"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Investment advisors and trading experts (Olivia - recruiter, Professor Parker and James - trading gurus)",
+      "wealth_indicators": [
+        "SEC license claim (Professor Parker)",
+        "40+ years trading experience claim",
+        "professional titles (Professor)",
+        "high profit promises (60-70% returns)"
+      ],
+      "relationship_type": "investment_advisor"
+    },
+    "psychological_tactics": [
+      "authority",
+      "social_proof",
+      "fear_of_missing_out",
+      "trust_building",
+      "sunk_cost_exploitation",
+      "gaslighting"
+    ],
+    "trust_building_period": "Days to weeks (group participation, observing trading signals)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["CryptoMMS"],
+    "platform_urls": ["cryptomms.co"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "security_evaluation_freeze",
+      "indefinite_account_freeze",
+      "complete_platform_shutdown",
+      "contact_accounts_disabled"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["crypto_unspecified"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 14000,
+    "payment_methods": ["cryptocurrency_deposit_to_platform"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Weeks to months",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.75,
+    "missing_information": [
+      "specific_cryptocurrency_types",
+      "wallet_addresses",
+      "transaction_hashes",
+      "victim1_total_loss_amount",
+      "exact_deposit_dates",
+      "whatsapp_account_details",
+      "trading_group_size",
+      "platform_funding_methods",
+      "kyc_requirements",
+      "number_of_victims"
+    ],
+    "notes": "Group-based Pig Butchering variant using trading signals and investment groups rather than individual romantic relationships. Multi-persona operation with recruiters (Olivia) and trading gurus (Professor Parker, James). High sophistication with false SEC license claims, professional trading signal system, and coordinated exit scam. Two confirmed victims from California and Canada with minimum combined loss of $14,000. Platform used fake security evaluation as withdrawal blocking tactic before complete shutdown. Represents more scalable scam model focused on investment opportunity rather than relationship building."
+  }
+}

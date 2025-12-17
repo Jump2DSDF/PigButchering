@@ -1,0 +1,56 @@
+{
+  "case_id": 230,
+  "approach_and_lure": {
+    "initial_contact_platform": ["WhatsApp_group"],
+    "lure_type": ["investment_group", "investment_opportunity"],
+    "communication_migration": "WhatsApp group (investment group recruitment)"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "name": "Ned",
+      "claimed_identity": "Investment group leader, trading program operator",
+      "wealth_indicators": ["trading_expertise"],
+      "relationship_type": "investment_mentor"
+    },
+    "psychological_tactics": [
+      "authority",
+      "social_proof",
+      "group_dynamics",
+      "fake_profit_display",
+      "sunk_cost_exploitation"
+    ],
+    "trust_building_period": "Observation period before investing"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["DBG Coltd FX"],
+    "platform_urls": ["pc.dbg-coltdfx.cc"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "commission_fee_20_percent",
+      "additional_escalating_fees"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["ETH"],
+    "wallet_addresses": [
+      "0xacb5E5158558ad1D1B1c01B23E5a9ee8aFd8c41b",
+      "0x0cd46ee0bcec9d0b1875498404e6dfaf71afcea5"
+    ],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 46000,
+    "payment_methods": ["cryptocurrency_transfer"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended (observation + trading period)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.85,
+    "missing_information": [
+      "transaction_hashes",
+      "specific_additional_fees"
+    ],
+    "notes": "CRITICAL: 2 Ethereum wallet addresses extracted for blockchain forensics. Investment group scam with Ned as leader. Progressive fee extraction: 20% commission then escalating additional fees. WhatsApp group used for social proof."
+  }
+}

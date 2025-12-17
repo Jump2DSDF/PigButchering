@@ -1,0 +1,165 @@
+{
+  "case_id": "pb086_case189",
+  "original_case_id": 189,
+  "analysis_date": "2025-12-17",
+  "case_metadata": {
+    "primary_subject": "Vbitex.com",
+    "scam_type": [
+      "Fraudulent Trading Platform",
+      "Pig Butchering Scam"
+    ],
+    "victim_location": "California",
+    "total_loss_usd": 64400,
+    "loss_breakdown": {
+      "initial_investments": 40000,
+      "withdrawal_fees": 22000,
+      "password_reset_fee": 2400,
+      "attempted_credit_score_fee": 3300,
+      "note": "Total paid: $64,400+, additional $3,300 demanded but not paid"
+    },
+    "platform_status": "No longer operational",
+    "recovery_status": "No recovery"
+  },
+  "ttp_profile": {
+    "initial_contact": {
+      "ttp_id": "T1566",
+      "technique": "Initial Contact & Trust Building",
+      "channel": "Unspecified (direct contact)",
+      "approach_method": "Mentor/teacher relationship",
+      "social_engineering_tactics": [
+        "Positioned as helpful guide/teacher",
+        "Promise of trading assistance",
+        "Building false expertise and trust"
+      ],
+      "sophistication": "HIGH"
+    },
+    "platform_introduction": {
+      "ttp_id": "T1204",
+      "technique": "Fraudulent Platform Deployment",
+      "platform_name": "Vbitex",
+      "platform_urls": [
+        "https://vbitex.com/",
+        "vbitex.com"
+      ],
+      "platform_type": "Fake crypto trading exchange",
+      "initial_success_fabrication": {
+        "method": "Small initial deposit allowed",
+        "fake_profits_displayed": true,
+        "account_value_claimed": 440000,
+        "actual_investment": 40000
+      }
+    },
+    "investment_escalation": {
+      "ttp_id": "T1078",
+      "technique": "Investment Escalation Through Guided Trading",
+      "escalation_pattern": [
+        "Small initial deposit to build confidence",
+        "Guided trading by 'teacher'",
+        "Progressive investments based on fake account growth",
+        "Display of $440,000 account value to encourage more deposits"
+      ],
+      "total_invested": 40000,
+      "psychological_manipulation": [
+        "Teacher guidance and continuous support",
+        "Fabricated massive returns (1000%+ apparent gains)",
+        "Illusion of legitimate trading activity"
+      ]
+    },
+    "withdrawal_barriers": {
+      "ttp_id": "T1486",
+      "technique": "Multi-Stage Fee Extraction",
+      "barrier_sequence": [
+        {
+          "stage": 1,
+          "barrier_type": "Withdrawal Fee",
+          "amount_demanded": 22000,
+          "justification": "Required fee for withdrawal",
+          "pressure_tactic": "5% additional fee if not paid within timeframe",
+          "outcome": "Paid with 'teacher' assistance"
+        },
+        {
+          "stage": 2,
+          "barrier_type": "Password Reset Fee",
+          "amount_demanded": 2400,
+          "justification": "Account password not working",
+          "outcome": "Paid"
+        },
+        {
+          "stage": 3,
+          "barrier_type": "Credit Score Requirement",
+          "amount_demanded": 3300,
+          "justification": "Need credit score of 100 to withdraw, requires repair fee",
+          "outcome": "Not paid - victim exhausted"
+        }
+      ],
+      "total_fees_extracted": 24400,
+      "sophistication_indicators": [
+        "Progressive fee demands",
+        "Time pressure with penalties",
+        "False assistance from teacher to maintain trust",
+        "Absurd requirements (credit scores for crypto)",
+        "Each payment led to new barriers"
+      ]
+    },
+    "final_extraction": {
+      "ttp_id": "T1537",
+      "technique": "Exit Strategy & Platform Shutdown",
+      "exit_method": "Continuous barriers until victim exhaustion, then platform shutdown",
+      "total_loss": 64400,
+      "funds_recovered": 0,
+      "platform_status": "Offline",
+      "communication_status": "Likely ceased"
+    }
+  },
+  "red_flags": {
+    "critical_indicators": [
+      "Unrealistic returns (account value $440,000 from $40,000 investment)",
+      "Withdrawal fees required before accessing funds",
+      "Progressive fee demands - multiple fees in succession",
+      "Time-based penalties and pressure tactics",
+      "Absurd requirements - credit score for crypto withdrawals",
+      "Password reset fees charged separately",
+      "Teacher/mentor from unknown source",
+      "Fees not deducted from account balance",
+      "Website shutdown after extraction"
+    ],
+    "technical_indicators": [
+      "Platform now offline/non-operational",
+      "No legitimate exchange requires credit scores for withdrawals",
+      "No legitimate exchange charges for password resets"
+    ],
+    "financial_indicators": [
+      "$22,000 withdrawal fee (excessive)",
+      "Escalating fee demands",
+      "Inability to deduct fees from balance",
+      "No successful withdrawals despite payments"
+    ]
+  },
+  "cryptocurrency_indicators": {
+    "wallet_addresses": [],
+    "blockchain_networks": [],
+    "note": "No specific cryptocurrency wallet addresses mentioned in complaint narrative"
+  },
+  "timeline": {
+    "estimated_duration": "Several months",
+    "phases": [
+      "Initial contact and platform introduction",
+      "Small deposit and guided trading",
+      "Investment escalation with fake profit display",
+      "First withdrawal attempt and fee demand",
+      "Progressive fee payments and new barriers",
+      "Victim exhaustion and platform shutdown"
+    ]
+  },
+  "threat_actor_profile": {
+    "sophistication_level": "HIGH",
+    "operational_characteristics": [
+      "Mentor/teacher relationship model",
+      "Multi-stage fee extraction strategy",
+      "Progressive barrier implementation",
+      "False assistance to maintain trust",
+      "Coordinated platform shutdown"
+    ],
+    "social_engineering_skill": "Advanced - maintained teacher persona while extracting multiple fees"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "case_id": 118,
+  "approach_and_lure": {
+    "initial_contact_platform": ["social_media_messaging_platform_unspecified", "group_chat_unspecified"],
+    "lure_type": ["investment_opportunity", "mentorship", "group_trading_recommendation"],
+    "communication_migration": "unknown"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Cryptocurrency trading mentor/advisor offering guidance on profitable crypto options trading (Victim 1); Stock trading group community members (Victim 2)",
+      "wealth_indicators": [
+        "crypto_options_trading_expertise",
+        "claims_60_70_percent_returns_per_trade",
+        "ethereum_trading_specialist",
+        "successful_trader_persona",
+        "trading_mentorship_offered"
+      ],
+      "relationship_type": "mentor_advisor"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "authority",
+      "social_proof",
+      "greed",
+      "fear_of_missing_out",
+      "sunk_cost_exploitation",
+      "fear_and_intimidation",
+      "progressive_commitment"
+    ],
+    "trust_building_period": "Multiple trades over days to weeks (sufficient for victim to increase investment amounts progressively)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["Bitagold", "BitaGold"],
+    "platform_urls": ["ghfyrh.ac", "zymomer.cc"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "tax_payment_demand",
+      "account_freeze",
+      "reactivation_fee_demand"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["ETH", "crypto_assets_unspecified"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": null,
+    "payment_methods": ["cryptocurrency_transfer"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Weeks to months (multiple trades, progressive investment escalation)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.75,
+    "missing_information": [
+      "specific_social_media_platforms",
+      "wallet_addresses",
+      "transaction_hashes",
+      "exact_loss_amounts",
+      "tax_demand_amounts",
+      "reactivation_fee_amounts",
+      "exact_timeline_dates",
+      "scammer_detailed_identity",
+      "total_victim_count",
+      "domain_usage_pattern"
+    ],
+    "notes": "Sophisticated multi-vector Pig Butchering operation targeting California consumers. BitaGold platform operated via two domains (ghfyrh.ac, zymomer.cc) suggesting redundancy or evolution. Multiple entry vectors: (1) Individual social media contact with trading mentorship, (2) Group chat community recruitment. Platform displayed fake profits of 60-70% per transaction to build confidence and encourage progressive investment escalation. Three-stage withdrawal blocking: (1) short-term capital gains tax payment demand in crypto, (2) account freeze for non-immediate payment, (3) additional reactivation fee demand. Two confirmed California victims with complete fund loss. Platform now defunct (exit scam). Critical intelligence gaps: no wallet addresses or transaction hashes severely limit blockchain investigation capability. Ethereum (ETH) trading specifically mentioned, indicating platform posed as sophisticated crypto options trading venue. High sophistication in psychology (progressive commitment through fake wins) and withdrawal blocking (three-tier extortion). Geographic clustering of victims (California) may indicate targeted regional campaign or reporting bias."
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "case_id": "pb087_case190",
+  "original_case_id": 190,
+  "analysis_date": "2025-12-17",
+  "case_metadata": {
+    "primary_subject": "Trus Flow / trusflow.com",
+    "scam_type": [
+      "Fraudulent Trading Platform",
+      "Pig Butchering Scam"
+    ],
+    "victim_location": "California",
+    "total_loss_usd": 300000,
+    "loss_breakdown": {
+      "initial_investments": 100000,
+      "large_volume_trading_commission": 100000,
+      "green_channel_fee": 100000,
+      "security_deposit_demanded": 75000,
+      "note": "Over $300,000 total loss, at least $200,000 in fees paid"
+    },
+    "platform_status": "No longer operational",
+    "recovery_status": "No recovery, contact ghosted"
+  },
+  "ttp_profile": {
+    "initial_contact": {
+      "ttp_id": "T1566",
+      "technique": "Initial Contact via Professional Network",
+      "channel": "LinkedIn -> WhatsApp",
+      "approach_method": "Professional networking with migration to private messaging",
+      "social_engineering_tactics": [
+        "Initial contact through LinkedIn (professional legitimacy)",
+        "Migration to WhatsApp for private communication",
+        "Friendly conversation building rapport",
+        "Suggestion of earning opportunity rather than hard sell"
+      ],
+      "sophistication": "VERY HIGH"
+    },
+    "platform_introduction": {
+      "ttp_id": "T1204",
+      "technique": "Fraudulent Platform with Educational Grooming",
+      "platform_name": "Trus Flow",
+      "platform_urls": [
+        "https://www.trusflow.com/#/",
+        "https://www.trusflow.com/",
+        "https://www.trusflow.com",
+        "trusflow.com"
+      ],
+      "platform_type": "Fake crypto trading exchange",
+      "educational_component": {
+        "method": "Contact taught victim how to exchange cash for crypto",
+        "guidance": "Instructed on transferring funds to site for trading",
+        "purpose": "Build trust and appearance of legitimate expertise"
+      },
+      "initial_success_fabrication": {
+        "test_amount": 1000,
+        "test_outcome": "Victim believed they made a profit",
+        "fake_profits_displayed": true,
+        "account_value_claimed": 500000,
+        "actual_investment": "Over $300,000"
+      }
+    },
+    "investment_escalation": {
+      "ttp_id": "T1078",
+      "technique": "Progressive Investment Over Extended Period",
+      "escalation_pattern": [
+        "$1,000 initial test investment with fabricated profit",
+        "Progressive deposits over couple of months",
+        "Continuous guidance from contact",
+        "Display of nearly $500,000 in profits",
+        "Total investment over $300,000"
+      ],
+      "timeline": "Couple of months",
+      "total_invested": 300000,
+      "psychological_manipulation": [
+        "Initial small success built confidence",
+        "Massive fake returns displayed",
+        "Gradual escalation over time",
+        "Continuous contact support and guidance",
+        "Illusion of legitimate trading activity"
+      ]
+    },
+    "withdrawal_barriers": {
+      "ttp_id": "T1486",
+      "technique": "Extreme Multi-Stage Fee Extraction",
+      "barrier_sequence": [
+        {
+          "stage": 1,
+          "barrier_type": "Large Volume Trading Commission",
+          "amount_demanded": 100000,
+          "justification": "Required commission for large volume trading before withdrawal",
+          "outcome": "PAID"
+        },
+        {
+          "stage": 2,
+          "barrier_type": "Green Channel Fee",
+          "amount_demanded": 100000,
+          "justification": "Fee to expedite withdrawal",
+          "false_promise": "Would be refunded to victim later",
+          "outcome": "PAID"
+        },
+        {
+          "stage": 3,
+          "barrier_type": "Security Deposit",
+          "amount_demanded": 75000,
+          "justification": "Security deposit required",
+          "false_promise": "Would also be refunded",
+          "outcome": "DEMANDED"
+        }
+      ],
+      "total_fees_demanded": 275000,
+      "total_fees_paid": 200000,
+      "sophistication_indicators": [
+        "Massive fee amounts ($100,000+)",
+        "False refund promises to overcome resistance",
+        "Progressive fee demands",
+        "Invented fee types (green channel, security deposit)",
+        "Fees comparable to total investment",
+        "Each payment led to new barriers"
+      ]
+    },
+    "final_extraction": {
+      "ttp_id": "T1537",
+      "technique": "Complete Ghosting & Platform Shutdown",
+      "exit_method": "Contact cut off all communication, platform shutdown",
+      "total_loss": 300000,
+      "funds_recovered": 0,
+      "platform_status": "Offline",
+      "communication_status": "LinkedIn contact ceased all communication",
+      "abandonment": "Victim completely ghosted after extraction"
+    }
+  },
+  "red_flags": {
+    "critical_indicators": [
+      "Contact migration from LinkedIn to WhatsApp",
+      "Unsolicited investment advice from LinkedIn connection",
+      "Unrealistic returns (nearly $500,000 profit displayed)",
+      "Massive withdrawal fees ($100,000+ per fee)",
+      "Multiple progressive fee demands",
+      "Fees equal to or exceeding original investment",
+      "False promises of fee refunds",
+      "Invented fee types (green channel fee, large volume trading commission)",
+      "Contact ghosting after fee payments",
+      "Website shutdown after extraction"
+    ],
+    "technical_indicators": [
+      "Platform now offline/non-operational",
+      "No legitimate exchange requires 'green channel fees'",
+      "No legitimate exchange requires $75,000 security deposits"
+    ],
+    "financial_indicators": [
+      "$100,000 trading commission (unprecedented)",
+      "$100,000 green channel fee (non-existent in legitimate platforms)",
+      "$75,000 security deposit (absurd requirement)",
+      "Total fees $275,000 (nearly equal to investment)",
+      "Fees not deducted from account balance",
+      "False refund promises"
+    ]
+  },
+  "cryptocurrency_indicators": {
+    "wallet_addresses": [],
+    "blockchain_networks": [],
+    "note": "No specific cryptocurrency wallet addresses mentioned in complaint narrative. Victim taught to exchange cash for crypto and transfer to platform."
+  },
+  "timeline": {
+    "estimated_duration": "Several months (3-5 months estimated)",
+    "phases": [
+      "Initial contact on LinkedIn",
+      "Migration to WhatsApp communication",
+      "Educational grooming (teaching crypto exchange)",
+      "Small $1,000 test investment with fake profit",
+      "Progressive deposits over couple of months",
+      "Withdrawal attempt triggers first $100,000 fee demand",
+      "Second $100,000 fee demand after first payment",
+      "Third $75,000 fee demand",
+      "Contact ghosting and platform shutdown"
+    ]
+  },
+  "threat_actor_profile": {
+    "sophistication_level": "VERY HIGH",
+    "operational_characteristics": [
+      "Professional platform exploitation (LinkedIn)",
+      "Educational grooming approach",
+      "Extended relationship building (months)",
+      "Extreme fee extraction ($275,000 total)",
+      "False refund promises as psychological tool",
+      "Complete abandonment strategy"
+    ],
+    "social_engineering_skill": "Advanced - Professional network leverage, educational trust building, refund promise manipulation",
+    "financial_impact": "Extreme - One of highest loss amounts, $300,000+"
+  },
+  "notable_characteristics": [
+    "Professional network exploitation (LinkedIn as initial vector)",
+    "Extreme fee amounts ($100,000+ per fee)",
+    "False refund promises as psychological manipulation",
+    "Complete communication cutoff after extraction",
+    "One of the highest loss amounts in dataset"
+  ]
+}

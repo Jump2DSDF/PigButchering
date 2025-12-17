@@ -1,0 +1,149 @@
+{
+  "case_id": "pb096_case200",
+  "pb_case_id": 96,
+  "original_case_id": 200,
+  "scam_classification": {
+    "primary_type": "Pig Butchering Scam",
+    "secondary_types": [
+      "Fraudulent Trading Platform",
+      "Liquidity Mining Scam"
+    ],
+    "sophistication_level": "High"
+  },
+  "ttp_analysis": {
+    "initial_contact": {
+      "method": "Online platform (unspecified)",
+      "platform": "Unknown - not disclosed in complaint",
+      "approach": "Unsolicited contact with investment opportunity",
+      "persona_used": "Knowledgeable cryptocurrency mining expert"
+    },
+    "trust_building": {
+      "duration": "Not specified",
+      "communication_channels": [
+        "Initial online platform (unspecified)"
+      ],
+      "relationship_type": "Financial advisor / opportunity provider",
+      "techniques": [
+        "Positioned as expert in cryptocurrency mining",
+        "Offered passive income opportunity",
+        "Provided step-by-step guidance and support"
+      ]
+    },
+    "platform_introduction": {
+      "fraudulent_websites": [
+        "graphwebtsiplus.com",
+        "web3mwy.com",
+        "https://www.graphwebtsiplus.com/mining2dex/index.html#/"
+      ],
+      "platform_type": "Fraudulent cryptocurrency liquidity mining platform",
+      "platform_features": [
+        "Account creation and management",
+        "Cryptocurrency deposit functionality",
+        "Asset conversion to platform-specific tokens",
+        "Fake profit display dashboard",
+        "Mining/liquidity generation interface"
+      ],
+      "legitimacy_indicators_used": [
+        "Professional-looking website interface",
+        "Technical terminology (Web3, mining, liquidity)",
+        "Dashboard showing profits and activities",
+        "Account management system"
+      ]
+    },
+    "financial_extraction": {
+      "initial_investment_amount": "Not specified",
+      "total_loss_amount": "Not specified",
+      "currency_type": "Cryptocurrency (type not specified)",
+      "payment_methods": [
+        "Direct cryptocurrency wallet transfer"
+      ],
+      "escalation_pattern": "Multiple deposits with asset conversion requirement",
+      "wallet_addresses": []
+    },
+    "control_maintenance": {
+      "guidance_provided": [
+        "Instructions on accessing account",
+        "Steps for adding funds to platform",
+        "Process for converting crypto assets",
+        "Navigation of platform interface"
+      ],
+      "psychological_techniques": [
+        "Created dependency through technical guidance",
+        "Displayed fake profits to maintain engagement",
+        "Multi-step process increased commitment (sunk cost fallacy)",
+        "Technical complexity positioned scammer as necessary expert"
+      ],
+      "frequency_of_contact": "Ongoing throughout process"
+    },
+    "withdrawal_prevention": {
+      "tactics_used": [
+        "Platform blocked all withdrawal attempts",
+        "No specific fees mentioned - complete withdrawal denial"
+      ],
+      "fees_demanded": [],
+      "excuses_provided": [
+        "Implied technical or system issues"
+      ],
+      "final_outcome": "Complete loss of access - websites went offline"
+    },
+    "exit_strategy": {
+      "method": "Complete platform shutdown",
+      "indicators": [
+        "Both graphwebtsiplus.com and web3mwy.com became non-operational",
+        "No communication possible after shutdown",
+        "All funds irrecoverable"
+      ],
+      "victim_realization_point": "When websites became inaccessible"
+    }
+  },
+  "technical_indicators": {
+    "domains": [
+      "graphwebtsiplus.com",
+      "web3mwy.com"
+    ],
+    "urls": [
+      "https://www.graphwebtsiplus.com/mining2dex/index.html#/"
+    ],
+    "wallet_addresses": [],
+    "communication_platforms": [
+      "Unknown online platform (initial contact)"
+    ],
+    "social_media_accounts": []
+  },
+  "victim_profile": {
+    "location": "California, United States",
+    "targeting_method": "Online contact with unsolicited investment opportunity",
+    "victim_experience_level": "Intermediate (had personal cryptocurrency wallet)"
+  },
+  "financial_impact": {
+    "direct_loss": "Not specified",
+    "currency": "Cryptocurrency (type not specified)",
+    "recovery_status": "Unable to recover any funds",
+    "additional_losses": []
+  },
+  "red_flags_present": [
+    "Unsolicited online contact with investment opportunity",
+    "Unknown/unverified trading platform",
+    "Required asset conversion to platform-specific tokens",
+    "Displayed unrealistic or fabricated profits",
+    "Complete inability to withdraw any funds",
+    "Platform suddenly became non-operational",
+    "No legitimate company registration or regulatory compliance",
+    "High-pressure guidance through technical processes",
+    "Use of trending terminology without substance (Web3, liquidity mining)"
+  ],
+  "timeline": {
+    "initial_contact": "Not specified",
+    "platform_introduction": "Not specified",
+    "first_investment": "Not specified",
+    "withdrawal_denial": "Not specified",
+    "scam_realization": "When websites became non-operational",
+    "total_duration": "Not specified"
+  },
+  "law_enforcement_actions": {
+    "reported": true,
+    "reporting_agency": "Implied SEC or crypto fraud reporting agency",
+    "case_status": "Under investigation (implied)",
+    "platforms_status": "No longer operational"
+  }
+}

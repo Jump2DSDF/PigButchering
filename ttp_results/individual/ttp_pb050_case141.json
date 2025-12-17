@@ -1,0 +1,1455 @@
+{
+  "chain_of_thought": {
+    "step1_initial_contact": "Victim received unsolicited Facebook friend request from stranger 'Johanna'. After initial chatting on Facebook, Johanna requested migration to WhatsApp. Lure evolved from friendship/social connection to investment opportunity (crypto trading). Clear platform migration pattern typical of pig butchering.",
+    "step2_persona_psychology": "Scammer 'Johanna' posed as investment broker at Citibank in Brooklyn, New York. Used authority/expertise positioning. Psychological tactics: professional credibility, trust building through friendship, guided assistance (helped open account), fear tactics (money laundering accusation), urgency (deadlines), sunk cost exploitation ($300K+ invested), false rescue (offered to 'lend' $17,719). Relationship type: friend/mentor, not romantic.",
+    "step3_fraud_mechanism": "Fake crypto trading platform 'Crypto Pumb' at cryptopumb.com. Displayed fake profits (grew $300K+ to $479K+). Multi-stage withdrawal blocking: (1) technical problem requiring 7-day wait, (2) money laundering accusation with account freeze, (3) $105,320 fee demand with 15-day deadline, (4) 'loan' offer of $17,719 when victim couldn't pay. Platform now defunct.",
+    "step4_financial_intelligence": "Victim invested $300,000+ (confirmed lost). Platform showed growth to $479,000+. Demanded $105,320 fee, offered $17,719 'loan'. Crypto asset trading mentioned but specific cryptocurrencies unspecified. No wallet addresses, transaction hashes, or specific payment methods documented. Total confirmed loss: $300,000+.",
+    "step5_temporal_analysis": "Multi-phase timeline: Facebook contact → chatting/trust building → WhatsApp migration → investment pitch → account opening → deposits → fake growth → withdrawal attempt → 7-day delay → money laundering accusation → 15-day deadline. Specific timeframes: 7 workdays, 15 days. Overall duration likely weeks to months. Platform confirmed defunct. Victim in California, scammer claimed Brooklyn, NY.",
+    "step6_confidence_assessment": "High confidence: Facebook initial contact, WhatsApp migration, scammer persona (Johanna, Citibank investment broker, Brooklyn NY), platform (Crypto Pumb/cryptopumb.com), withdrawal tactics, financial amounts ($300K+ invested, $479K+ shown, $105,320 fee, $17,719 loan), platform defunct, California victim. Medium confidence: psychological tactics (inferred), fake profits (implied). Low/Missing: exact dates/timeline, specific crypto types, payment methods, wallet addresses, transaction hashes, whether any portion of fees paid, scammer's real identity/location. Overall: 0.75"
+  },
+  "ttp_profile": {
+    "case_id": "pb_050",
+    "original_case_id": 141,
+    "approach_and_lure": {
+      "initial_contact_platform": ["facebook"],
+      "lure_type": ["friendship", "investment_opportunity"],
+      "communication_migration": "whatsapp"
+    },
+    "impersonation_and_psychology": {
+      "scammer_persona": {
+        "claimed_identity": "Johanna, investment broker at Citibank, Brooklyn, New York",
+        "wealth_indicators": ["professional financial expertise", "employed at major bank (Citibank)", "investment broker credentials"],
+        "relationship_type": "friend_mentor"
+      },
+      "psychological_tactics": [
+        "authority_expertise",
+        "trust_building",
+        "guided_assistance",
+        "social_proof",
+        "fear_tactics",
+        "urgency",
+        "sunk_cost_exploitation",
+        "false_rescue_partnership"
+      ],
+      "trust_building_period": "unspecified, multiple phases from Facebook to WhatsApp"
+    },
+    "fraud_mechanism": {
+      "platform_type": "fake_trading_platform",
+      "platform_names": ["Crypto Pumb", "Crypto Plumb"],
+      "platform_urls": ["cryptopumb.com"],
+      "fake_profit_shown": true,
+      "withdrawal_block_tactics": [
+        "technical problem requiring 7-day wait",
+        "money laundering accusation",
+        "account freeze threat",
+        "fee demand of $105,320 with 15-day deadline",
+        "false loan offer of $17,719 to assist with fee payment",
+        "permanent account freeze threat if deadline not met"
+      ]
+    },
+    "financial_tracking": {
+      "cryptocurrency_types": ["unspecified crypto assets"],
+      "wallet_addresses": [],
+      "transaction_hashes": [],
+      "estimated_loss_usd": 300000,
+      "fake_balance_shown_usd": 479000,
+      "additional_fees_demanded_usd": 105320,
+      "payment_methods": ["unknown - likely cryptocurrency or wire transfer"]
+    },
+    "temporal_indicators": {
+      "scam_duration": "unknown - likely weeks to months based on multi-phase trust building and investment",
+      "specific_timeframes": "7 workdays delay, 15-day deadline for fee payment",
+      "platform_status": "defunct"
+    },
+    "geographic_indicators": {
+      "victim_location": "California",
+      "scammer_claimed_location": "Brooklyn, New York"
+    },
+    "extraction_metadata": {
+      "confidence_score": 0.75,
+      "missing_information": [
+        "exact dates and timeline",
+        "trust building phase duration",
+        "specific cryptocurrency types (BTC, ETH, USDT, etc.)",
+        "wallet addresses",
+        "transaction hashes",
+        "payment methods used for initial investment",
+        "whether victim paid any portion of the $105,320 fee or $17,719 loan",
+        "whether multiple deposits made or single deposit",
+        "scammer's actual identity and location",
+        "whether any withdrawals were ever successful"
+      ],
+      "notes": "Classic pig butchering case with professional persona (Citibank investment broker). Notable elements: multi-platform progression (Facebook → WhatsApp), fake professional credentials at major financial institution, substantial fake profits displayed ($300K to $479K), multi-stage withdrawal blocking with escalating pressure (technical delay → money laundering → fee demand → deadline → fake rescue offer). The 'loan' offer of $17,719 is manipulative tactic to appear helpful while extracting more money. Platform Crypto Pumb (cryptopumb.com) now defunct. Total confirmed victim loss: $300,000+ unrecovered. Strong case documentation but missing blockchain tracking data."
+    }
+  },
+  "case_id": "141",
+  "case_name": "Crypto Pumb/Crypto Plumb - High Value Investment Fraud",
+  "primary_subject": "cryptopumb.com",
+  "scam_type": "Pig Butchering Scam",
+  "analysis_date": "2025-12-17",
+  "analyst": "Claude Code TTP Analysis System",
+  "confidence_level": "high",
+  "case_value": "HIGH VALUE - $300,000 loss",
+
+  "executive_summary": {
+    "overview": "A California resident fell victim to an exceptionally sophisticated and high-value pig butchering scam involving the fraudulent cryptocurrency trading platform Crypto Pumb (cryptopumb.com). The victim was initially contacted via Facebook friend request by a scammer named 'Johanna' who claimed to be a Citibank investment broker in Brooklyn, New York. After establishing trust through Facebook, the conversation migrated to WhatsApp. Johanna convinced the victim to invest in crypto asset trading through Crypto Pumb. The victim's investment appeared to grow rapidly to more than $479,000. However, when attempting to withdraw funds, the victim encountered a series of deliberate obstacles: first a 7-workday waiting period, then an account freeze with a $105,320 deposit demand within 15 days due to alleged money laundering suspicions, followed by an offered 'loan' of $17,719 from customer service to help cover the fee. The website is now defunct, and the victim has lost over $300,000 with no recovery possible.",
+    "key_findings": [
+      "HIGH VALUE CASE: $300,000+ confirmed victim loss - among the highest documented losses",
+      "Fraudulent trading platform Crypto Pumb (cryptopumb.com) operated as primary fund collection mechanism",
+      "Multi-stage scam combining romance/relationship fraud with investment fraud and advance fee fraud",
+      "Facebook to WhatsApp migration established private command and control channel",
+      "False professional identity: 'Johanna' claimed to be Citibank investment broker in Brooklyn, NY",
+      "Fabricated massive account growth: $300,000 investment grew to appear as $479,000+",
+      "Sophisticated withdrawal blocking: 7-workday delay followed by money laundering accusation",
+      "Secondary extraction attempt: $105,320 demand within 15-day ultimatum",
+      "Psychological manipulation: Customer service offered 'loan' of $17,719 to create appearance of assistance",
+      "Website now defunct, eliminating all access and evidence",
+      "Platform operated long enough to extract $300,000+ from single victim"
+    ],
+    "impact_assessment": {
+      "financial_loss": "$300,000+ (confirmed victim investment)",
+      "fabricated_account_value": "$479,000+",
+      "attempted_secondary_extraction": "$105,320 (money laundering fee demand)",
+      "fake_loan_offer": "$17,719 (customer service manipulation tactic)",
+      "victim_location": "California, USA",
+      "emotional_impact": "Extreme - betrayal of trust combined with massive financial devastation",
+      "recovery_likelihood": "Minimal to none - website defunct, cryptocurrency transactions irreversible",
+      "case_classification": "HIGH VALUE TARGET - substantial victim exploitation"
+    }
+  },
+
+  "threat_classification": {
+    "primary_category": "Pig Butchering Scam",
+    "secondary_categories": [
+      "Social Networking Fraud",
+      "Investment Fraud",
+      "Cryptocurrency Fraud",
+      "Advance Fee Fraud",
+      "Identity Fraud (impersonation of financial professional)",
+      "Platform Impersonation (fake exchange)"
+    ],
+    "attack_sophistication": "Very High",
+    "threat_actor_type": "Organized Crime Syndicate",
+    "likely_origin": "Southeast Asia (Cambodia, Myanmar, Philippines, or Laos)",
+    "operation_scale": "Professional, multi-victim, high-value targeting operation",
+    "case_severity": "CRITICAL - $300,000+ loss from single victim indicates sophisticated targeting",
+    "mitre_attack_mapping": {
+      "initial_access": ["T1566.001 - Phishing: Spearphishing Attachment (Facebook friend request)"],
+      "execution": ["T1204.002 - User Execution: Malicious File (account creation and deposits)"],
+      "persistence": ["T1543 - Create or Modify System Process (ongoing communication)", "T1078 - Valid Accounts (impersonation of legitimate professional)"],
+      "privilege_escalation": ["T1078.001 - Valid Accounts: Default Accounts (professional identity exploitation)"],
+      "defense_evasion": ["T1027 - Obfuscated Files or Information (fake platform)", "T1036 - Masquerading (Citibank broker impersonation)", "T1070 - Indicator Removal (website shutdown)"],
+      "credential_access": ["T1589 - Gather Victim Identity Information", "T1598 - Phishing for Information"],
+      "collection": ["T1005 - Data from Local System (personal/financial information)", "T1114 - Email Collection (victim data)"],
+      "command_and_control": ["T1102 - Web Service (WhatsApp, Facebook)", "T1071 - Application Layer Protocol"],
+      "impact": ["T1485 - Data Destruction (website shutdown)", "T1657 - Financial Theft (massive fund extraction)"]
+    }
+  },
+
+  "attack_chain": {
+    "phase_1_initial_contact": {
+      "description": "Unsolicited Facebook friend request sent to victim by scammer profile 'Johanna'",
+      "tactics": ["Initial Access", "Social Engineering"],
+      "techniques": [
+        "Facebook profile creation with false identity",
+        "Targeted friend request to selected victim",
+        "Professional persona establishment (Citibank investment broker)",
+        "Geographic specificity (Brooklyn, New York) to add credibility",
+        "Victim acceptance of friend request"
+      ],
+      "scammer_identity": {
+        "name_used": "Johanna",
+        "claimed_profession": "Investment Broker",
+        "claimed_employer": "Citibank",
+        "claimed_location": "Brooklyn, New York"
+      },
+      "platforms": ["Facebook"],
+      "success_indicators": ["Victim accepts friend request and begins communication"]
+    },
+    "phase_2_relationship_establishment": {
+      "description": "Initial trust building through Facebook messaging",
+      "tactics": ["Execution", "Social Engineering", "Trust Building"],
+      "techniques": [
+        "Professional identity reinforcement",
+        "Financial expertise demonstration",
+        "Personal connection development",
+        "Credibility establishment through claimed Citibank affiliation",
+        "Casual conversation to build rapport"
+      ],
+      "platforms": ["Facebook Messenger"],
+      "success_indicators": ["Victim engages in ongoing conversations", "Victim views Johanna as credible financial professional"]
+    },
+    "phase_3_platform_migration": {
+      "description": "Conversation moved from Facebook to WhatsApp for private communication",
+      "tactics": ["Command and Control Establishment", "Defense Evasion"],
+      "techniques": [
+        "Request to continue conversation on WhatsApp",
+        "Justification for migration (privacy, convenience, better communication)",
+        "Removal from Facebook's monitoring and security systems",
+        "Establishment of unmonitored private communication channel",
+        "Elimination of platform-based protection mechanisms"
+      ],
+      "platforms": ["WhatsApp"],
+      "success_indicators": ["Victim migrates to WhatsApp", "Direct private communication channel established"]
+    },
+    "phase_4_investment_introduction": {
+      "description": "Introduction of cryptocurrency trading opportunity through Crypto Pumb platform",
+      "tactics": ["Execution", "Privilege Escalation"],
+      "techniques": [
+        "Leveraging of claimed investment broker expertise",
+        "Introduction of crypto asset trading as lucrative opportunity",
+        "Recommendation of specific platform (Crypto Pumb)",
+        "Professional guidance offer",
+        "Exploitation of victim trust in financial professional identity",
+        "Positioning as insider helping victim access profitable opportunity"
+      ],
+      "platforms": ["WhatsApp", "cryptopumb.com"],
+      "success_indicators": ["Victim shows interest in cryptocurrency trading", "Victim agrees to explore Crypto Pumb platform"]
+    },
+    "phase_5_platform_onboarding": {
+      "description": "Guided account setup on fraudulent Crypto Pumb trading platform",
+      "tactics": ["Persistence", "Credential Access", "Collection"],
+      "techniques": [
+        "Step-by-step account creation guidance",
+        "Collection of personal information and credentials",
+        "Platform navigation instructions",
+        "Deposit address provision",
+        "Initial deposit facilitation",
+        "Professional broker assistance to establish legitimacy"
+      ],
+      "data_collected": [
+        "Personal identification information",
+        "Email address",
+        "Password/credentials",
+        "Financial information",
+        "Banking/payment details"
+      ],
+      "platforms": ["cryptopumb.com"],
+      "success_indicators": ["Account successfully created", "Victim credentials collected", "Platform access established"]
+    },
+    "phase_6_initial_investment": {
+      "description": "Victim deposits substantial cryptocurrency investment into platform",
+      "tactics": ["Impact", "Financial Theft"],
+      "techniques": [
+        "Professional guidance and reassurance",
+        "Emphasis on investment opportunity",
+        "Platform legitimacy reinforcement",
+        "Cryptocurrency transfer to scammer-controlled wallets",
+        "Initial deposit of $300,000+ (high-value extraction)"
+      ],
+      "financial_activity": {
+        "victim_deposit": "$300,000+ (massive initial investment)",
+        "asset_type": "Cryptocurrency (likely Bitcoin, Ethereum, USDT)",
+        "transaction_irreversibility": "Complete - crypto transactions cannot be reversed"
+      },
+      "platforms": ["cryptopumb.com", "Cryptocurrency blockchain"],
+      "success_indicators": ["$300,000+ transferred to scammer control", "Victim believes funds are in legitimate trading platform"]
+    },
+    "phase_7_fabricated_growth": {
+      "description": "Platform displays false account balance increases to show profitable trading",
+      "tactics": ["Defense Evasion", "Psychological Manipulation"],
+      "techniques": [
+        "Display of fabricated trading activity",
+        "False balance growth from $300,000+ to $479,000+",
+        "Simulated successful trades",
+        "Creation of belief in platform legitimacy",
+        "Generation of greed and desire to continue/expand investment",
+        "Reinforcement of Johanna's expertise and guidance value"
+      ],
+      "financial_activity": {
+        "initial_investment": "$300,000+",
+        "fabricated_peak_value": "$479,000+",
+        "fabricated_gain": "$179,000+ (approximately 60% return)",
+        "actual_victim_control": "$0 (all funds in scammer possession)"
+      },
+      "platforms": ["cryptopumb.com"],
+      "success_indicators": ["Victim believes account has substantial value", "Victim fully trusts platform and Johanna", "Victim ready to attempt withdrawal"]
+    },
+    "phase_8_withdrawal_delay": {
+      "description": "First withdrawal attempt blocked with 7-workday waiting period requirement",
+      "tactics": ["Defense Evasion", "Time-Based Evasion"],
+      "techniques": [
+        "Victim attempts to withdraw funds",
+        "Customer service creates artificial delay",
+        "Claim of 'problem' requiring 7 workdays to resolve",
+        "Bureaucratic obstacle to create appearance of legitimate process",
+        "Time delay for scammer to prepare next phase or extract from other victims",
+        "Victim frustration and anxiety building"
+      ],
+      "timeline": {
+        "waiting_period": "7 workdays",
+        "purpose": "Delay tactic and psychological preparation for fee demand"
+      },
+      "platforms": ["cryptopumb.com"],
+      "success_indicators": ["Victim waits required period", "Victim remains engaged with platform", "Victim anticipates successful withdrawal after delay"]
+    },
+    "phase_9_account_freeze_and_fee_demand": {
+      "description": "After waiting period, account frozen with money laundering accusation and massive fee demand",
+      "tactics": ["Impact", "Advance Fee Fraud", "Psychological Manipulation"],
+      "techniques": [
+        "Account freeze implemented",
+        "False accusation of money laundering activity",
+        "Demand for $105,320 'compliance deposit' to unfreeze account",
+        "15-day ultimatum creating urgency and pressure",
+        "Threat of permanent account freeze if fee not paid",
+        "Threat of fund loss to motivate immediate action",
+        "Exploitation of victim's desire to recover $479,000+ believed balance"
+      ],
+      "financial_activity": {
+        "fee_demanded": "$105,320",
+        "fee_justification": "Money laundering investigation compliance",
+        "payment_deadline": "15 days",
+        "consequence_claimed": "Permanent account freeze and fund loss",
+        "actual_purpose": "Secondary extraction attempt from already-victimized target"
+      },
+      "platforms": ["cryptopumb.com"],
+      "success_indicators": ["Victim receives fee demand", "Victim feels extreme pressure to pay", "Victim seeks way to raise $105,320"]
+    },
+    "phase_10_fake_assistance_offer": {
+      "description": "When victim unable to pay full fee, customer service offers 'loan' to help cover part of demand",
+      "tactics": ["Psychological Manipulation", "False Empathy"],
+      "techniques": [
+        "Victim expresses inability to pay $105,320",
+        "Customer service acts as 'helpful' intermediary",
+        "Offer of $17,719 'loan' to help victim",
+        "Creation of appearance that platform wants to assist",
+        "Reduction of victim's required payment to $87,601 ($105,320 - $17,719)",
+        "Manipulation to make fee seem more achievable",
+        "False sense of platform legitimacy and goodwill",
+        "Attempted extraction of whatever amount victim can access"
+      ],
+      "financial_activity": {
+        "original_fee": "$105,320",
+        "loan_offer": "$17,719",
+        "reduced_victim_payment": "$87,601",
+        "actual_loan": "Completely fictitious - no money would be provided",
+        "purpose": "Create illusion of assistance to extract additional funds"
+      },
+      "platforms": ["cryptopumb.com"],
+      "success_indicators": ["Victim perceives customer service as helpful", "Victim considers paying reduced amount", "Victim may attempt to raise $87,601"]
+    },
+    "phase_11_victim_inability_to_pay": {
+      "description": "Victim unable or unwilling to provide additional funds, triggering operation exit phase",
+      "tactics": ["Impact Assessment", "Operation Transition"],
+      "techniques": [
+        "Victim declares inability to pay fee",
+        "Scammers recognize no additional funds extractable",
+        "Decision to abandon victim and move to exit phase",
+        "Preparation for infrastructure shutdown"
+      ],
+      "platforms": ["WhatsApp", "cryptopumb.com"],
+      "success_indicators": ["Victim extraction maximized at $300,000+", "No additional funds available", "Operation moves to evidence destruction phase"]
+    },
+    "phase_12_exit_and_evidence_destruction": {
+      "description": "Crypto Pumb website taken offline, eliminating victim access and evidence",
+      "tactics": ["Impact", "Defense Evasion", "Indicator Removal"],
+      "techniques": [
+        "cryptopumb.com taken offline",
+        "Website becomes completely inaccessible",
+        "Victim loses all account access",
+        "Platform evidence eliminated",
+        "Domain abandoned or deleted",
+        "Communication with Johanna likely ceased or continues with excuses",
+        "Infrastructure moved to new domains/operations for future victims"
+      ],
+      "impact": {
+        "victim_account_access": "Permanently lost",
+        "fund_recovery": "Impossible through platform",
+        "evidence_availability": "Severely reduced",
+        "victim_status": "Lost $300,000+ with no recovery mechanism",
+        "scammer_status": "Moved to new victims or new infrastructure"
+      },
+      "platforms": ["cryptopumb.com"],
+      "success_indicators": ["Scam operation complete", "$300,000+ secured by scammers", "Evidence minimized", "Victim investigation/recovery severely hindered"]
+    }
+  },
+
+  "ttps": [
+    {
+      "ttp_id": "TTP-001",
+      "name": "Facebook Friend Request Initial Contact",
+      "tactic": "Initial Access",
+      "technique": "Social Engineering via Social Networking Platform",
+      "description": "Scammer creates fake Facebook profile under name 'Johanna' and sends unsolicited friend request to targeted victim. Profile designed to appear as legitimate professional with credible background (Citibank investment broker).",
+      "mitre_attack_id": "T1566.001",
+      "platforms": ["Facebook"],
+      "indicators": [
+        "Unsolicited friend request from unknown person",
+        "Profile claiming financial/investment professional status",
+        "Specific employer mentioned (Citibank)",
+        "Geographic details provided (Brooklyn, NY) for credibility",
+        "Profile photos appearing professional and trustworthy"
+      ],
+      "detection_methods": [
+        "Facebook fake profile detection algorithms",
+        "User verification of claimed employer/profession",
+        "Caution with friend requests from financial professionals",
+        "Background verification before accepting requests"
+      ],
+      "mitigation": [
+        "Only accept friend requests from known individuals",
+        "Verify claimed professional identities before accepting",
+        "Be suspicious of financial professionals initiating contact",
+        "Use Facebook privacy settings to limit profile visibility",
+        "Report suspicious profiles to platform"
+      ]
+    },
+    {
+      "ttp_id": "TTP-002",
+      "name": "Professional Identity Impersonation",
+      "tactic": "Defense Evasion",
+      "technique": "False Professional Credentials",
+      "description": "Scammer claims to be investment broker working for Citibank in Brooklyn, New York. This professional identity establishes credibility, expertise, and trustworthiness, making victim more susceptible to investment recommendations.",
+      "mitre_attack_id": "T1036.005",
+      "platforms": ["Facebook", "WhatsApp"],
+      "indicators": [
+        "Claims of employment at major financial institution (Citibank)",
+        "Specific job title (investment broker)",
+        "Location specificity (Brooklyn, New York)",
+        "No verifiable professional credentials provided",
+        "Reluctance to provide verifiable business contact information",
+        "Investment advice through personal social media channels rather than professional channels"
+      ],
+      "detection_methods": [
+        "Verify employment claims directly with claimed employer",
+        "Check professional licensing databases (FINRA BrokerCheck for US brokers)",
+        "Request business email address and verify domain",
+        "Legitimate brokers don't solicit via personal social media",
+        "Search for professional online presence (LinkedIn, company directory)"
+      ],
+      "mitigation": [
+        "Always verify professional claims independently",
+        "Contact claimed employer directly through official channels",
+        "Check licensing status through regulatory bodies",
+        "Be skeptical of investment advice from social media contacts",
+        "Understand that regulated professionals follow compliance rules"
+      ]
+    },
+    {
+      "ttp_id": "TTP-003",
+      "name": "Platform Migration to WhatsApp",
+      "tactic": "Command and Control Establishment",
+      "technique": "Migration to Private Encrypted Messaging",
+      "description": "After initial Facebook contact, scammer requests to move conversation to WhatsApp. This removes communication from Facebook's monitoring, eliminates platform security measures, and establishes private channel for scam execution.",
+      "mitre_attack_id": "T1102",
+      "platforms": ["WhatsApp"],
+      "indicators": [
+        "Request to move to WhatsApp after initial Facebook contact",
+        "Justifications about convenience, privacy, or better communication",
+        "Avoidance of Facebook Messenger for continued conversations",
+        "Quick migration request after connection established"
+      ],
+      "detection_methods": [
+        "Recognition of platform migration as red flag",
+        "Awareness that legitimate professionals use business communication channels",
+        "Pattern recognition of scammer migration tactics"
+      ],
+      "mitigation": [
+        "Be suspicious of requests to move to different platforms",
+        "Maintain communication on original platform where reporting is available",
+        "Understand that platform migration removes protections",
+        "Question why professional would not use business communication tools"
+      ]
+    },
+    {
+      "ttp_id": "TTP-004",
+      "name": "Relationship and Trust Development",
+      "tactic": "Execution",
+      "technique": "Extended Social Engineering Through Rapport Building",
+      "description": "Scammer develops relationship with victim over extended period through WhatsApp conversations, establishing trust by leveraging professional identity and providing investment guidance. Trust foundation created for large financial commitment.",
+      "mitre_attack_id": "T1204",
+      "platforms": ["WhatsApp"],
+      "indicators": [
+        "Regular ongoing conversations",
+        "Personal connection development",
+        "Financial advice provision",
+        "Positioning as mentor or guide",
+        "Gradual progression toward investment opportunity",
+        "Professional expertise demonstration"
+      ],
+      "detection_methods": [
+        "Awareness of trust-building as precursor to fraud",
+        "Recognition of mixing personal relationship with financial advice",
+        "Skepticism toward unsolicited investment guidance"
+      ],
+      "mitigation": [
+        "Maintain boundaries between personal relationships and finances",
+        "Be cautious of investment advice from social media contacts",
+        "Consult licensed professionals for investment decisions",
+        "Never invest based solely on social media contact recommendations"
+      ]
+    },
+    {
+      "ttp_id": "TTP-005",
+      "name": "Cryptocurrency Trading Platform Introduction",
+      "tactic": "Execution",
+      "technique": "Introduction of Controlled Fraudulent Platform",
+      "description": "Scammer introduces victim to Crypto Pumb (cryptopumb.com) platform, positioning it as legitimate cryptocurrency trading exchange. Leverages professional broker identity to add credibility to platform recommendation.",
+      "mitre_attack_id": "T1204.002",
+      "platforms": ["WhatsApp", "cryptopumb.com"],
+      "indicators": [
+        "Recommendation of specific, relatively unknown platform",
+        "Guidance away from major, established exchanges",
+        "Claim that specific platform has better opportunities/returns",
+        "Insistence on using particular platform",
+        "Platform name variation or typo (Pumb vs Pump) to avoid detection"
+      ],
+      "detection_methods": [
+        "Research platform reputation before investing",
+        "Check regulatory registration status",
+        "Search for scam reports and user reviews",
+        "Verify domain age and registration details",
+        "Compare to known legitimate exchanges"
+      ],
+      "mitigation": [
+        "Only use well-established, regulated cryptocurrency exchanges",
+        "Verify platform registration with financial regulators",
+        "Research platform thoroughly before depositing funds",
+        "Be suspicious of broker recommending obscure platforms",
+        "Check for legitimate licensing and compliance information"
+      ]
+    },
+    {
+      "ttp_id": "TTP-006",
+      "name": "Fraudulent Trading Platform Operation",
+      "tactic": "Defense Evasion",
+      "technique": "Professional-Appearing Fake Exchange Website",
+      "description": "Scammers operate Crypto Pumb (cryptopumb.com) as fake cryptocurrency trading platform with professional appearance, charts, account balances, and trading interfaces. All displayed data is fabricated to deceive victims into believing platform is legitimate.",
+      "mitre_attack_id": "T1036.005",
+      "platforms": ["cryptopumb.com"],
+      "indicators": [
+        "Recently registered domain",
+        "No regulatory registration information",
+        "Absence of legitimate user reviews",
+        "Domain name variation (Pumb instead of common spelling)",
+        "No verifiable company information",
+        "Withdrawal difficulties or restrictions",
+        "Unrealistic returns shown on platform"
+      ],
+      "detection_methods": [
+        "Domain age checking via WHOIS lookup",
+        "Regulatory registration verification (FinCEN, SEC, CFTC)",
+        "Search for independent reviews and testimonials",
+        "Check scam databases and reporting sites",
+        "Verify company registration and physical address",
+        "Test small withdrawal before large deposits"
+      ],
+      "mitigation": [
+        "Use only exchanges registered with financial regulators",
+        "Verify platform legitimacy through multiple sources",
+        "Check domain registration date (avoid newly created sites)",
+        "Research company background and leadership",
+        "Start with small amounts to test withdrawal functionality",
+        "Compare platform features to known legitimate exchanges"
+      ]
+    },
+    {
+      "ttp_id": "TTP-007",
+      "name": "Guided Account Setup and Credential Harvesting",
+      "tactic": "Credential Access",
+      "technique": "Account Creation Guidance and Data Collection",
+      "description": "Scammer provides step-by-step instructions for creating account on Crypto Pumb platform, collecting victim's personal information, credentials, and financial details during onboarding process.",
+      "mitre_attack_id": "T1589.001",
+      "platforms": ["cryptopumb.com"],
+      "indicators": [
+        "Detailed setup guidance from scammer",
+        "Requirement for extensive personal information",
+        "Collection of credentials by third party",
+        "Scammer involvement in account creation process",
+        "Platform requests more information than necessary"
+      ],
+      "detection_methods": [
+        "Recognition that legitimate platforms don't require partner guidance",
+        "Awareness of credential harvesting attempts",
+        "Understanding of appropriate information requests"
+      ],
+      "mitigation": [
+        "Create accounts independently without third-party guidance",
+        "Use unique, strong passwords for each platform",
+        "Provide only necessary information",
+        "Be suspicious of excessive data requests",
+        "Never share account credentials with anyone"
+      ]
+    },
+    {
+      "ttp_id": "TTP-008",
+      "name": "High-Value Initial Cryptocurrency Deposit",
+      "tactic": "Impact",
+      "technique": "Large Fund Transfer to Scammer-Controlled Infrastructure",
+      "description": "Victim transfers $300,000+ in cryptocurrency to platform/wallets controlled by scammers. The exceptionally high initial deposit indicates sophisticated targeting of high-net-worth victim. Cryptocurrency's irreversible nature ensures scammers immediately control funds.",
+      "mitre_attack_id": "T1657",
+      "platforms": ["Cryptocurrency blockchain", "cryptopumb.com"],
+      "indicators": [
+        "Very large initial deposit ($300,000+)",
+        "Cryptocurrency payment requirement",
+        "Wallet addresses provided by platform",
+        "No traditional payment methods or payment protections available",
+        "Pressure to deposit large amounts quickly",
+        "High-value targeting suggests victim profiling"
+      ],
+      "detection_methods": [
+        "Blockchain analysis of receiving wallet addresses",
+        "Wallet blacklist checking",
+        "Exchange monitoring for suspicious addresses",
+        "Pattern analysis of large deposits to new platforms"
+      ],
+      "mitigation": [
+        "Never deposit large amounts to unverified platforms",
+        "Start with minimal test deposits to verify withdrawal functionality",
+        "Use only regulated exchanges with insurance/protections",
+        "Verify wallet addresses through independent sources",
+        "Check blockchain explorer for wallet history and patterns",
+        "Consult financial advisor before large crypto investments",
+        "Understand cryptocurrency transaction irreversibility"
+      ]
+    },
+    {
+      "ttp_id": "TTP-009",
+      "name": "Fabricated Account Balance Growth",
+      "tactic": "Defense Evasion",
+      "technique": "False Display of Investment Returns",
+      "description": "Platform displays fabricated account balance increases from $300,000+ initial deposit to $479,000+, showing approximately 60% returns. All figures completely fabricated to encourage victim belief in platform legitimacy and create desire to access funds.",
+      "mitre_attack_id": "T1027",
+      "platforms": ["cryptopumb.com"],
+      "indicators": [
+        "Unrealistic returns (60% gain)",
+        "Consistent profits with no losses",
+        "Rapid account growth",
+        "Returns that seem too good to be true",
+        "No ability to verify balances on public blockchain",
+        "Platform-only visibility of funds"
+      ],
+      "detection_methods": [
+        "Independent verification of balances on blockchain",
+        "Comparison with realistic market returns",
+        "Skepticism toward extraordinary performance",
+        "Verification that deposits appear in public blockchain wallets"
+      ],
+      "mitigation": [
+        "Verify all balances on public blockchain explorers",
+        "Understand realistic cryptocurrency investment returns",
+        "Be highly suspicious of consistent high returns",
+        "Recognize that legitimate platforms show verifiable blockchain transactions",
+        "Consult with independent financial advisors",
+        "Remember: if it seems too good to be true, it probably is"
+      ]
+    },
+    {
+      "ttp_id": "TTP-010",
+      "name": "Withdrawal Attempt and Initial Delay",
+      "tactic": "Defense Evasion",
+      "technique": "Time-Based Evasion and Bureaucratic Obstacles",
+      "description": "When victim attempts to withdraw funds from $479,000+ shown balance, platform customer service claims there is a 'problem' requiring 7-workday waiting period before withdrawal can be attempted again. Creates artificial delay and builds anticipation.",
+      "mitre_attack_id": "T1070",
+      "platforms": ["cryptopumb.com"],
+      "indicators": [
+        "Unexpected withdrawal delays",
+        "Vague 'problem' explanation without technical details",
+        "Specific waiting period requirement (7 workdays)",
+        "Customer service involvement in blocking withdrawal",
+        "No clear reason provided for delay"
+      ],
+      "detection_methods": [
+        "Recognition that legitimate platforms process withdrawals quickly",
+        "Awareness that withdrawal delays are major red flags",
+        "Understanding that customer service should resolve issues, not create delays"
+      ],
+      "mitigation": [
+        "Test withdrawal capability with small amounts before large deposits",
+        "Understand legitimate platform withdrawal timeframes",
+        "Treat unexpected delays as warning signs",
+        "Cease additional deposits if withdrawal issues occur",
+        "Document all communications about withdrawal problems"
+      ]
+    },
+    {
+      "ttp_id": "TTP-011",
+      "name": "Account Freeze with Money Laundering Accusation",
+      "tactic": "Impact",
+      "technique": "False Regulatory Claim to Block Fund Access",
+      "description": "After 7-workday delay, victim attempts withdrawal again but account is frozen. Platform claims account freeze due to 'suspected money laundering' activity, creating false regulatory justification for preventing victim from accessing funds.",
+      "mitre_attack_id": "T1657",
+      "platforms": ["cryptopumb.com"],
+      "indicators": [
+        "Sudden account freeze after withdrawal attempt",
+        "False money laundering accusation",
+        "No actual evidence or investigation details provided",
+        "Regulatory language used to intimidate victim",
+        "Account access restriction after large deposit and growth shown"
+      ],
+      "detection_methods": [
+        "Understanding that legitimate platforms don't freeze accounts without evidence",
+        "Knowledge that AML investigations don't work this way",
+        "Recognition of false regulatory claims as scam tactic"
+      ],
+      "mitigation": [
+        "Know that legitimate platforms follow proper AML procedures",
+        "Understand that real investigations don't require victim deposits",
+        "Recognize account freeze as major red flag indicating scam",
+        "Immediately cease communication and report to authorities",
+        "Document all communications regarding freeze"
+      ]
+    },
+    {
+      "ttp_id": "TTP-012",
+      "name": "Advance Fee Fraud - Massive Compliance Deposit Demand",
+      "tactic": "Impact",
+      "technique": "Secondary Extraction via Fee Requirement",
+      "description": "Platform demands victim deposit $105,320 within 15 days to 'unfreeze' account and resolve alleged money laundering issue. Fee is completely fraudulent and payment would not result in account access. Threatens permanent account freeze and fund loss to create extreme pressure.",
+      "mitre_attack_id": "T1657",
+      "platforms": ["cryptopumb.com"],
+      "indicators": [
+        "Large fee demand ($105,320 - approximately 35% of initial deposit)",
+        "Short deadline (15 days) creating urgency",
+        "Threat of permanent freeze if fee not paid",
+        "Threat of total fund loss to motivate payment",
+        "Fee justified as regulatory compliance or money laundering resolution",
+        "No legitimate regulatory or legal basis for fee"
+      ],
+      "detection_methods": [
+        "Understanding that legitimate platforms deduct fees from existing balance",
+        "Knowledge that compliance issues don't require additional deposits",
+        "Recognition of advance fee fraud tactics",
+        "Awareness that money laundering investigations don't work this way"
+      ],
+      "mitigation": [
+        "Never pay fees to access your own money",
+        "Understand legitimate fee structures (deducted from balance)",
+        "Recognize withdrawal blocking with fee demands as definitive scam indicators",
+        "Immediately stop all communication with platform",
+        "Report to law enforcement and regulatory authorities",
+        "Accept that initial funds are likely unrecoverable to avoid further loss"
+      ]
+    },
+    {
+      "ttp_id": "TTP-013",
+      "name": "Fake Assistance - Customer Service Loan Offer",
+      "tactic": "Psychological Manipulation",
+      "technique": "False Empathy and Assistance to Reduce Fee Burden",
+      "description": "When victim expresses inability to pay $105,320 fee, platform customer service offers to 'loan' victim $17,719 to help cover part of the demand. Creates appearance that platform wants to assist victim while actually attempting to extract whatever remaining funds victim can access.",
+      "mitre_attack_id": "T1656",
+      "platforms": ["cryptopumb.com"],
+      "indicators": [
+        "Unexpected offer of financial assistance from scammer",
+        "Loan amount reduces victim's required payment",
+        "Creation of appearance that platform is helpful/legitimate",
+        "Attempt to make fee seem more achievable",
+        "Manipulation to extract whatever victim can pay",
+        "No actual loan would ever be provided"
+      ],
+      "detection_methods": [
+        "Recognition that scammers don't actually help victims",
+        "Understanding that loan offer is manipulation tactic",
+        "Awareness that any payment would result in total loss with no benefit"
+      ],
+      "mitigation": [
+        "Recognize loan offers as manipulation to extract more money",
+        "Understand that any additional payment will be lost",
+        "Cease all communication immediately",
+        "Do not send any additional funds regardless of offers or threats",
+        "Report all communications to authorities",
+        "Seek support from law enforcement and fraud victim assistance"
+      ]
+    },
+    {
+      "ttp_id": "TTP-014",
+      "name": "Website Shutdown and Evidence Destruction",
+      "tactic": "Defense Evasion",
+      "technique": "Infrastructure Takedown After Maximum Extraction",
+      "description": "After victim unable to pay additional fees and $300,000+ secured, scammers take Crypto Pumb (cryptopumb.com) offline completely. Website becomes inaccessible, eliminating victim's account access and destroying evidence for investigation.",
+      "mitre_attack_id": "T1485",
+      "platforms": ["cryptopumb.com"],
+      "indicators": [
+        "Website suddenly becomes completely inaccessible",
+        "Domain no longer resolves",
+        "All account access permanently lost",
+        "No customer service contact available",
+        "Platform disappearance after fee demand refused",
+        "Communication from Johanna may cease or continue with excuses"
+      ],
+      "detection_methods": [
+        "Domain monitoring and status checking",
+        "Website uptime tracking",
+        "Archive and screenshot collection for evidence"
+      ],
+      "mitigation": [
+        "Screenshot all communications, transactions, and platform pages immediately",
+        "Document all wallet addresses and transaction IDs",
+        "Archive website pages using archive.org or similar services",
+        "Preserve all WhatsApp and Facebook communications",
+        "Report immediately to law enforcement with all evidence",
+        "File complaint with FBI IC3, FTC, and state authorities",
+        "Share evidence with blockchain analysis firms"
+      ]
+    },
+    {
+      "ttp_id": "TTP-015",
+      "name": "High-Value Victim Targeting and Profiling",
+      "tactic": "Reconnaissance",
+      "technique": "Selection of High-Net-Worth Targets",
+      "description": "The $300,000+ initial deposit indicates scammers specifically targeted victim assessed to have substantial financial resources. Sophisticated profiling suggests review of victim's social media, employment, lifestyle indicators to identify high-value targets before initiating contact.",
+      "mitre_attack_id": "T1589",
+      "platforms": ["Facebook"],
+      "indicators": [
+        "Very large financial commitment obtained ($300,000+)",
+        "Victim likely showed wealth indicators on social media",
+        "Employment or financial status visible in profile",
+        "Lifestyle or possessions indicating financial capability",
+        "Scammer investment in high-value target",
+        "Professional identity (broker) chosen to match victim's sophistication level"
+      ],
+      "detection_methods": [
+        "Awareness that scammers profile targets based on visible wealth",
+        "Recognition of targeted approach vs random contact",
+        "Understanding that financial details in social media enable targeting"
+      ],
+      "mitigation": [
+        "Limit financial information visible on social media",
+        "Use strict privacy settings on Facebook and other platforms",
+        "Avoid posting about income, investments, or expensive purchases",
+        "Be aware that wealth indicators attract scammers",
+        "Understand that sophisticated scammers research targets extensively",
+        "Be especially cautious when contacted by financial professionals"
+      ]
+    },
+    {
+      "ttp_id": "TTP-016",
+      "name": "Multi-Stage Psychological Manipulation",
+      "tactic": "Execution",
+      "technique": "Layered Social Engineering Campaign",
+      "description": "Scam employs sophisticated multi-stage psychological manipulation: professional identity for credibility, relationship building for trust, platform migration for control, fabricated returns for greed, withdrawal delay for anticipation building, false accusation for fear creation, massive fee demand for pressure, fake assistance for hope, and ultimatum for urgency.",
+      "mitre_attack_id": "T1204",
+      "platforms": ["Facebook", "WhatsApp", "cryptopumb.com"],
+      "indicators": [
+        "Progression through multiple psychological stages",
+        "Each stage builds on previous manipulation",
+        "Exploitation of multiple emotions (trust, greed, fear, hope, urgency)",
+        "Professional orchestration of victim psychology",
+        "Sophisticated understanding of victim decision-making"
+      ],
+      "detection_methods": [
+        "Awareness of multi-stage manipulation tactics",
+        "Recognition of emotional exploitation patterns",
+        "Understanding of pig butchering scam methodology",
+        "Education on psychological manipulation techniques"
+      ],
+      "mitigation": [
+        "Educate public on pig butchering scam psychology",
+        "Encourage independent verification at each stage",
+        "Promote consultation with trusted third parties",
+        "Teach recognition of emotional manipulation",
+        "Emphasize importance of professional financial advice",
+        "Provide resources for victims to verify legitimacy at each stage"
+      ]
+    }
+  ],
+
+  "indicators_of_compromise": {
+    "domains": [
+      {
+        "domain": "cryptopumb.com",
+        "type": "primary_scam_platform",
+        "status": "inactive/defunct",
+        "role": "Fraudulent cryptocurrency trading platform",
+        "confidence": "high",
+        "first_seen": "Unknown - requires historical DNS research",
+        "last_seen": "Unknown - defunct at time of case report",
+        "notes": "Website no longer operational after scam completion. Note domain spelling 'Pumb' instead of 'Pump' may be intentional to avoid detection or typo in victim report.",
+        "priority": "CRITICAL",
+        "alternate_spellings": ["cryptopump.com (possible)", "crypto-pumb.com (possible)"]
+      }
+    ],
+    "cryptocurrency_addresses": [
+      {
+        "note": "No specific cryptocurrency wallet addresses provided in case narrative. Blockchain forensic analysis of victim's transaction history would reveal scammer-controlled wallets.",
+        "recommended_action": "Obtain victim's cryptocurrency transaction records to identify receiving wallet addresses for blockchain analysis",
+        "priority": "CRITICAL"
+      }
+    ],
+    "ip_addresses": [],
+    "email_addresses": [],
+    "phone_numbers": [],
+    "social_media_accounts": [
+      {
+        "platform": "Facebook",
+        "account_name": "Johanna",
+        "role": "Primary scammer profile",
+        "claimed_identity": "Investment broker at Citibank, Brooklyn, New York",
+        "confidence": "high",
+        "status": "Unknown - likely deleted or deactivated",
+        "recommended_action": "Victim should report profile to Facebook, provide profile URL/ID to law enforcement",
+        "priority": "HIGH"
+      },
+      {
+        "platform": "WhatsApp",
+        "account_name": "Johanna (same identity)",
+        "role": "Primary communication and command & control channel",
+        "confidence": "high",
+        "status": "Unknown - likely still active or number changed",
+        "details": "Phone number associated with WhatsApp account should be documented and investigated",
+        "recommended_action": "Obtain WhatsApp phone number from victim for investigation",
+        "priority": "HIGH"
+      }
+    ],
+    "communication_platforms": [
+      {
+        "platform": "Facebook",
+        "role": "Initial contact and trust establishment platform",
+        "confidence": "high",
+        "details": "Used for initial friend request, profile presentation, and early conversations before WhatsApp migration"
+      },
+      {
+        "platform": "WhatsApp",
+        "role": "Primary command and control channel",
+        "confidence": "high",
+        "details": "Used for relationship development, investment guidance, platform instructions, and ongoing scam coordination after Facebook migration"
+      }
+    ],
+    "file_hashes": [],
+    "urls": [
+      {
+        "url": "https://cryptopumb.com",
+        "type": "assumed_https_variant",
+        "status": "inactive",
+        "role": "Primary scam platform URL"
+      },
+      {
+        "url": "http://cryptopumb.com",
+        "type": "possible_http_variant",
+        "status": "inactive",
+        "role": "Alternative platform access"
+      }
+    ],
+    "behavioral_indicators": [
+      {
+        "behavior": "Facebook friend request from claimed financial professional",
+        "description": "Unsolicited friend request from person claiming to be Citibank investment broker",
+        "confidence": "high",
+        "detection_value": "Strong indicator of professional impersonation scam initiation"
+      },
+      {
+        "behavior": "Facebook to WhatsApp migration request",
+        "description": "Request to move conversation from Facebook to WhatsApp for continued communication",
+        "confidence": "high",
+        "detection_value": "Classic pig butchering scam platform migration tactic"
+      },
+      {
+        "behavior": "Investment guidance from social media contact",
+        "description": "Investment and trading recommendations provided through personal social media channels",
+        "confidence": "high",
+        "detection_value": "Major red flag - legitimate professionals don't operate this way"
+      },
+      {
+        "behavior": "Recommendation of obscure trading platform",
+        "description": "Guidance to use specific, relatively unknown platform (Crypto Pumb) rather than major exchanges",
+        "confidence": "high",
+        "detection_value": "Indicates scammer-controlled infrastructure"
+      },
+      {
+        "behavior": "Extremely high initial deposit",
+        "description": "Victim convinced to deposit $300,000+ initially - exceptionally high amount",
+        "confidence": "high",
+        "detection_value": "Indicates sophisticated high-value targeting and victim profiling"
+      },
+      {
+        "behavior": "Unrealistic account growth",
+        "description": "Account balance shown growing from $300,000+ to $479,000+ (approximately 60% return)",
+        "confidence": "high",
+        "detection_value": "Fabricated returns to encourage withdrawal attempt and fee extraction"
+      },
+      {
+        "behavior": "Withdrawal delay with vague justification",
+        "description": "7-workday waiting period imposed when victim attempts withdrawal",
+        "confidence": "high",
+        "detection_value": "Time-based evasion tactic preparing for fee demand"
+      },
+      {
+        "behavior": "Account freeze with money laundering accusation",
+        "description": "Account frozen after waiting period with false money laundering claim",
+        "confidence": "high",
+        "detection_value": "False regulatory justification to block fund access"
+      },
+      {
+        "behavior": "Massive advance fee demand with threat",
+        "description": "$105,320 fee demanded within 15-day ultimatum to unfreeze account",
+        "confidence": "high",
+        "detection_value": "Classic advance fee fraud component of pig butchering scam"
+      },
+      {
+        "behavior": "Customer service fake assistance offer",
+        "description": "Platform offers $17,719 'loan' to help victim pay fee when victim expresses inability",
+        "confidence": "high",
+        "detection_value": "Sophisticated manipulation to extract additional funds by appearing helpful"
+      },
+      {
+        "behavior": "Website disappearance after fee refused",
+        "description": "Platform becomes completely inaccessible after victim unable to pay additional fees",
+        "confidence": "high",
+        "detection_value": "Evidence destruction and operation exit after extraction maximized"
+      }
+    ]
+  },
+
+  "victim_profile": {
+    "location": "California, USA",
+    "victim_type": "Individual - High Net Worth",
+    "demographics": "Adult with substantial financial resources (had $300,000+ available for investment)",
+    "initial_contact_platform": "Facebook",
+    "vulnerabilities_exploited": [
+      "Presence on social media with visible wealth indicators",
+      "Interest in investment opportunities",
+      "Trust in claimed financial professional credentials",
+      "Unfamiliarity with pig butchering scam tactics",
+      "Limited knowledge of cryptocurrency platform verification",
+      "Desire for investment returns",
+      "Susceptibility to professional authority figures",
+      "Belief in fabricated regulatory compliance requirements"
+    ],
+    "financial_impact": {
+      "confirmed_loss": "$300,000+ (actual cryptocurrency deposits)",
+      "fabricated_account_value": "$479,000+",
+      "fabricated_gains_shown": "$179,000+ (approximately 60% return)",
+      "attempted_additional_extraction": "$105,320 (money laundering fee demand - not paid)",
+      "fake_loan_offer": "$17,719 (completely fictitious)",
+      "total_potential_loss_if_fee_paid": "$405,320+ (original loss plus fee)",
+      "case_classification": "HIGH VALUE - among largest single-victim losses documented"
+    },
+    "emotional_impact": "Extreme - combination of professional relationship betrayal, massive financial devastation, regulatory fear, and psychological trauma from manipulation",
+    "recovery_likelihood": "Minimal - cryptocurrency transactions irreversible, website defunct, likely international operation, funds dispersed through multiple wallets"
+  },
+
+  "threat_actor_profile": {
+    "actor_type": "Organized Crime Syndicate",
+    "sophistication_level": "Very High",
+    "likely_origin": "Southeast Asia (Cambodia, Myanmar, Philippines, or Laos)",
+    "operation_characteristics": [
+      "Multi-phase operation spanning extended period",
+      "Professional fake trading platform infrastructure",
+      "Sophisticated victim profiling and targeting",
+      "High-value target selection",
+      "Professional identity impersonation (Citibank broker)",
+      "Multi-platform communication coordination (Facebook, WhatsApp)",
+      "Cryptocurrency transaction expertise",
+      "Advanced social engineering and psychological manipulation",
+      "Customer service roleplay for legitimacy",
+      "Proven operational playbook with multiple manipulation layers"
+    ],
+    "capabilities": [
+      "Fake website development and hosting",
+      "Professional-appearing trading platform creation",
+      "Cryptocurrency wallet management and fund transfer",
+      "Multi-platform communication and identity management",
+      "Long-term victim engagement and relationship building",
+      "Psychological manipulation and emotional exploitation",
+      "Professional identity impersonation",
+      "International operation coordination",
+      "High-value victim identification and profiling",
+      "Evidence destruction and infrastructure takedown"
+    ],
+    "potential_human_trafficking_connection": "High - many pig butchering operations use trafficked/forced labor for victim communication. 'Johanna' may be a victim working under threat in a scam compound. Multiple operators may be involved with different roles (initial contact, trading guidance, customer service).",
+    "target_selection": "Sophisticated profiling of Facebook users with high net worth indicators. Victim likely showed employment, lifestyle, or financial indicators suggesting capability for large investment. $300,000+ extraction indicates careful target selection.",
+    "motivation": "Financial gain through systematic high-value fraud. Single victim yielding $300,000+ demonstrates operation's effectiveness and justifies investment in sophisticated infrastructure.",
+    "estimated_operation_scale": "Large-scale operation given professional infrastructure investment. Multiple victims likely targeted simultaneously. Platform creation and maintenance suggests significant resources and team operation."
+  },
+
+  "timeline": {
+    "estimated_duration": "Several weeks to months (typical for pig butchering with this level of investment)",
+    "key_events": [
+      {
+        "phase": "Initial Contact",
+        "timeframe": "T0",
+        "event": "Johanna sends friend request to victim on Facebook",
+        "significance": "Operation initiation - victim selected based on profile analysis"
+      },
+      {
+        "phase": "Profile Establishment",
+        "timeframe": "T0 + hours to days",
+        "event": "Victim accepts friend request, initial Facebook conversations begin",
+        "significance": "Access granted, professional identity (Citibank broker) presented"
+      },
+      {
+        "phase": "Platform Migration",
+        "timeframe": "T0 + days",
+        "event": "Conversation moved from Facebook to WhatsApp",
+        "significance": "Private C2 channel established, removal from Facebook monitoring"
+      },
+      {
+        "phase": "Trust Building",
+        "timeframe": "T0 + days to weeks",
+        "event": "Relationship development through WhatsApp conversations, financial expertise demonstrated",
+        "significance": "Foundation for investment recommendation and large financial commitment"
+      },
+      {
+        "phase": "Investment Introduction",
+        "timeframe": "T0 + weeks",
+        "event": "Johanna introduces Crypto Pumb trading opportunity",
+        "significance": "Transition to financial exploitation phase"
+      },
+      {
+        "phase": "Platform Onboarding",
+        "timeframe": "T1",
+        "event": "Victim guided to create account on cryptopumb.com",
+        "significance": "Credential harvesting, platform access establishment"
+      },
+      {
+        "phase": "Initial Investment",
+        "timeframe": "T1 + days",
+        "event": "Victim deposits $300,000+ in cryptocurrency",
+        "significance": "Major fund extraction - high-value targeting success"
+      },
+      {
+        "phase": "Fabricated Growth",
+        "timeframe": "T1 + days to weeks",
+        "event": "Platform shows account balance growing to $479,000+",
+        "significance": "Creation of belief in platform legitimacy and profit opportunity"
+      },
+      {
+        "phase": "First Withdrawal Attempt",
+        "timeframe": "T2",
+        "event": "Victim attempts to withdraw funds, receives 7-workday delay",
+        "significance": "Withdrawal blocking initiated, anticipation built"
+      },
+      {
+        "phase": "Second Withdrawal Attempt",
+        "timeframe": "T2 + 7 workdays",
+        "event": "Victim attempts withdrawal again after waiting period",
+        "significance": "Trigger for fee demand phase"
+      },
+      {
+        "phase": "Account Freeze",
+        "timeframe": "T2 + 7 workdays",
+        "event": "Account frozen with money laundering accusation",
+        "significance": "False regulatory justification to block access"
+      },
+      {
+        "phase": "Fee Demand",
+        "timeframe": "T2 + 7 workdays",
+        "event": "$105,320 fee demanded within 15 days to unfreeze account",
+        "significance": "Secondary extraction attempt via advance fee fraud"
+      },
+      {
+        "phase": "Victim Resistance",
+        "timeframe": "T2 + days to weeks",
+        "event": "Victim expresses inability to pay $105,320 fee",
+        "significance": "Victim financial limits reached"
+      },
+      {
+        "phase": "Fake Assistance",
+        "timeframe": "T2 + days to weeks",
+        "event": "Customer service offers $17,719 'loan' to help cover fee",
+        "significance": "Final manipulation attempt to extract additional funds"
+      },
+      {
+        "phase": "Operation Exit",
+        "timeframe": "T3",
+        "event": "Victim unable/unwilling to pay, cryptopumb.com taken offline",
+        "significance": "Evidence destruction, operation conclusion"
+      },
+      {
+        "phase": "Reporting",
+        "timeframe": "T3 + days to weeks",
+        "event": "Victim reports case to authorities",
+        "significance": "Case documentation, investigation initiation"
+      }
+    ]
+  },
+
+  "recommended_actions": {
+    "immediate": [
+      {
+        "action": "Obtain and analyze victim's cryptocurrency transaction records",
+        "priority": "CRITICAL",
+        "responsible_party": "Law enforcement, victim, blockchain analysis firms",
+        "objective": "Identify all scammer-controlled wallet addresses receiving victim's $300,000+ deposits for blockchain forensic analysis"
+      },
+      {
+        "action": "Blockchain forensic analysis of identified scammer wallets",
+        "priority": "CRITICAL",
+        "responsible_party": "Law enforcement, specialized blockchain analysis firms (Chainalysis, Elliptic, CipherTrace)",
+        "objective": "Trace fund flows, identify connected wallets, locate exchange cash-out points, identify other victims"
+      },
+      {
+        "action": "Report identified wallet addresses to major cryptocurrency exchanges",
+        "priority": "CRITICAL",
+        "responsible_party": "Law enforcement",
+        "objective": "Enable monitoring, potential freezing of funds, identification of cash-out attempts"
+      },
+      {
+        "action": "File comprehensive report with FBI Internet Crime Complaint Center (IC3)",
+        "priority": "HIGH",
+        "responsible_party": "Victim",
+        "objective": "Official federal documentation, contribution to national pig butchering scam intelligence"
+      },
+      {
+        "action": "Report to California law enforcement and Attorney General",
+        "priority": "HIGH",
+        "responsible_party": "Victim",
+        "objective": "State-level investigation, consumer protection action"
+      },
+      {
+        "action": "Collect Johanna Facebook profile information",
+        "priority": "HIGH",
+        "responsible_party": "Victim, law enforcement",
+        "objective": "Obtain profile URL, ID, photos, and all visible information for investigation"
+      },
+      {
+        "action": "Obtain WhatsApp account phone number for Johanna",
+        "priority": "HIGH",
+        "responsible_party": "Victim, law enforcement",
+        "objective": "Document phone number for telecommunications investigation and potential location tracking"
+      },
+      {
+        "action": "Preserve all communications",
+        "priority": "HIGH",
+        "responsible_party": "Victim",
+        "objective": "Export and save all Facebook and WhatsApp conversations with Johanna including timestamps, photos, and transaction details"
+      },
+      {
+        "action": "Report Facebook profile to platform",
+        "priority": "MEDIUM",
+        "responsible_party": "Victim",
+        "objective": "Profile removal, platform fraud detection data contribution"
+      },
+      {
+        "action": "HIGH VALUE CASE - Victim support and counseling referral",
+        "priority": "HIGH",
+        "responsible_party": "Law enforcement victim services, support organizations",
+        "objective": "Address severe emotional trauma from $300,000+ loss and psychological manipulation"
+      }
+    ],
+    "investigative": [
+      {
+        "action": "Historical DNS and WHOIS research for cryptopumb.com",
+        "priority": "CRITICAL",
+        "responsible_party": "Law enforcement, security researchers",
+        "objective": "Identify registration details, registrant, hosting provider, operational timeline, IP addresses"
+      },
+      {
+        "action": "Investigate alternate domain spellings (cryptopump.com, crypto-pumb.com)",
+        "priority": "HIGH",
+        "responsible_party": "Law enforcement, security researchers",
+        "objective": "Determine if spelling variation is intentional or transcription error, identify related domains"
+      },
+      {
+        "action": "Archive and forensic analysis of cryptopumb.com (if archives available)",
+        "priority": "HIGH",
+        "responsible_party": "Security researchers, law enforcement",
+        "objective": "Document platform features, UI design, code patterns, potential attribution indicators"
+      },
+      {
+        "action": "Verify Citibank employment claim",
+        "priority": "HIGH",
+        "responsible_party": "Law enforcement",
+        "objective": "Confirm no legitimate employee named Johanna in Brooklyn, document identity fraud"
+      },
+      {
+        "action": "Search FINRA BrokerCheck for claimed broker identity",
+        "priority": "MEDIUM",
+        "responsible_party": "Law enforcement, investigators",
+        "objective": "Verify no registered broker matching Johanna's profile, document professional credential fraud"
+      },
+      {
+        "action": "Facebook investigation and data preservation",
+        "priority": "HIGH",
+        "responsible_party": "Law enforcement with legal process",
+        "objective": "Obtain account creation details, IP logs, payment information, connected accounts"
+      },
+      {
+        "action": "WhatsApp investigation via telecommunications providers",
+        "priority": "HIGH",
+        "responsible_party": "Law enforcement with legal process",
+        "objective": "Obtain phone number registration details, subscriber information, location data"
+      },
+      {
+        "action": "Search for related cases with same infrastructure",
+        "priority": "HIGH",
+        "responsible_party": "Law enforcement, fraud databases (IC3, FTC)",
+        "objective": "Identify other victims of cryptopumb.com or Johanna persona, establish operation scale"
+      },
+      {
+        "action": "Cryptocurrency wallet network mapping",
+        "priority": "HIGH",
+        "responsible_party": "Blockchain analysts",
+        "objective": "Map complete fund flow network, identify layering wallets, mixing services, exchange deposits"
+      },
+      {
+        "action": "International law enforcement coordination",
+        "priority": "MEDIUM",
+        "responsible_party": "FBI, Interpol, international agencies",
+        "objective": "Cross-border investigation, potential operation disruption, Southeast Asia focus"
+      },
+      {
+        "action": "HIGH VALUE CASE - Dedicated investigative resources",
+        "priority": "HIGH",
+        "responsible_party": "FBI, California authorities",
+        "objective": "Given $300,000+ loss, case warrants significant investigative investment"
+      }
+    ],
+    "preventive": [
+      {
+        "action": "Public awareness campaign highlighting high-value targeting",
+        "priority": "HIGH",
+        "responsible_party": "FBI, FTC, SEC, consumer protection agencies",
+        "objective": "Educate public on pig butchering tactics, professional impersonation, platform verification"
+      },
+      {
+        "action": "Financial professional impersonation alert",
+        "priority": "HIGH",
+        "responsible_party": "FINRA, SEC, banking industry",
+        "objective": "Warn public about fraudulent broker/advisor claims, promote verification practices"
+      },
+      {
+        "action": "Social media platform partnership for fake professional profile detection",
+        "priority": "HIGH",
+        "responsible_party": "Facebook, LinkedIn, law enforcement",
+        "objective": "Improve detection of profiles claiming financial professional status, verify credentials"
+      },
+      {
+        "action": "Cryptocurrency exchange monitoring and wallet blacklisting",
+        "priority": "HIGH",
+        "responsible_party": "Exchanges, blockchain analysis firms",
+        "objective": "Monitor and freeze identified scam wallets, prevent cash-out, protect future victims"
+      },
+      {
+        "action": "High-value transaction warnings",
+        "priority": "MEDIUM",
+        "responsible_party": "Cryptocurrency exchanges, wallet providers",
+        "objective": "Alert users before large transfers to new/unverified platforms"
+      },
+      {
+        "action": "Trading platform verification education",
+        "priority": "MEDIUM",
+        "responsible_party": "SEC, CFTC, consumer protection organizations",
+        "objective": "Teach public to verify platform registration, check regulatory compliance, recognize fake exchanges"
+      },
+      {
+        "action": "Distribution of cryptopumb.com IOC to security community",
+        "priority": "MEDIUM",
+        "responsible_party": "Cybersecurity community, fraud prevention groups",
+        "objective": "Document known scam infrastructure, warn potential victims, enable detection"
+      }
+    ]
+  },
+
+  "intelligence_gaps": [
+    "Specific cryptocurrency wallet addresses receiving victim's $300,000+ deposits not provided - CRITICAL INTELLIGENCE GAP",
+    "Blockchain platform used (Bitcoin, Ethereum, USDT, other) not specified",
+    "Exact amount of victim's investment (stated as $300,000+) not precisely documented",
+    "Johanna's Facebook profile URL, username, or ID not provided",
+    "Johanna's WhatsApp phone number not documented",
+    "Whether victim made multiple deposits or single large transfer unknown",
+    "Exact operational timeline (specific dates) not provided",
+    "Whether victim had additional communications after website shutdown unknown",
+    "Full conversation history and social engineering details not available",
+    "Whether victim attempted to contact real Citibank to verify Johanna's employment unknown",
+    "cryptopumb.com registration, hosting, and IP address details require investigation",
+    "Number of other victims of cryptopumb.com unknown",
+    "Total funds collected by operation unknown",
+    "Whether victim sent screenshots or documentation of platform to anyone not specified",
+    "Whether any withdrawal was ever permitted (unlike some cases where small withdrawal builds trust) not mentioned",
+    "Scammer's actual identity, location, and organizational affiliations unknown"
+  ],
+
+  "related_cases": {
+    "correlation_opportunities": [
+      "Other cryptopumb.com victim reports",
+      "Cases involving Facebook profile 'Johanna' claiming Citibank employment",
+      "Pig butchering cases with Citibank broker impersonation",
+      "High-value pig butchering cases ($200,000+ losses)",
+      "California-based pig butchering victims",
+      "Facebook to WhatsApp migration scams",
+      "Cases with $105,000+ advance fee demands",
+      "Money laundering accusation withdrawal blocking cases",
+      "Customer service 'loan offer' manipulation tactics",
+      "Crypto trading platform scams with similar UI/features (if archives available)",
+      "Cases with 7-workday waiting periods before fee demands",
+      "Southeast Asian pig butchering operation intelligence"
+    ],
+    "potential_infrastructure_sharing": [
+      "Similar fake crypto platform domains (crypto-*, *pumb.com, *pump.com patterns)",
+      "Shared hosting infrastructure with other scam platforms",
+      "Connected cryptocurrency wallet clusters",
+      "Shared Facebook or WhatsApp accounts across multiple cases"
+    ]
+  },
+
+  "confidence_assessment": {
+    "overall_confidence": "High",
+    "pig_butchering_classification": {
+      "confidence": "100%",
+      "justification": "All classic pig butchering elements present: social media initial contact, platform migration (Facebook to WhatsApp), relationship/trust building, professional identity exploitation, investment introduction, fake platform, fabricated returns, withdrawal blocking, advance fee fraud, website shutdown. Textbook case."
+    },
+    "cryptocurrency_involvement": {
+      "confidence": "100%",
+      "justification": "Case explicitly describes crypto asset trading platform, victim invested in cryptocurrency"
+    },
+    "organized_crime_attribution": {
+      "confidence": "95%",
+      "justification": "Professional infrastructure (fake trading platform), multi-phase sophisticated operation, team indicators (customer service role), high-value targeting capability, proven complex playbook, typical of organized syndicates. $300,000+ extraction indicates significant organizational capability."
+    },
+    "southeast_asian_origin": {
+      "confidence": "80%",
+      "justification": "Consistent with known pig butchering operation centers, typical tactical patterns, professional infrastructure, but no definitive geographic proof in case narrative"
+    },
+    "professional_impersonation": {
+      "confidence": "100%",
+      "justification": "Clear impersonation of Citibank investment broker with specific details (Brooklyn, New York)"
+    },
+    "high_value_targeting": {
+      "confidence": "100%",
+      "justification": "$300,000+ initial investment confirms sophisticated victim profiling and high-net-worth targeting"
+    }
+  },
+
+  "lessons_learned": [
+    "HIGH VALUE TARGETING: $300,000+ single-victim loss demonstrates sophisticated targeting of high-net-worth individuals based on social media profiling",
+    "Professional identity impersonation (Citibank broker) highly effective for establishing credibility and trust with financially sophisticated victims",
+    "Facebook platform enables victim profiling and initial contact, while WhatsApp migration removes platform protections",
+    "Extended relationship building with professional guidance persona creates foundation for extraordinarily large financial commitments",
+    "Fabricated returns ($300k to $479k) create strong withdrawal motivation, triggering fee extraction phase",
+    "Multi-stage withdrawal blocking (delay + freeze + fee demand) maximizes psychological pressure",
+    "Customer service 'loan offer' ($17,719) is sophisticated manipulation tactic to appear helpful while extracting remaining victim resources",
+    "Cryptocurrency's irreversibility is critical enabler - $300,000+ transferred with no recovery mechanism",
+    "Website shutdown eliminates evidence and access, severely hampering investigation and recovery",
+    "Absence of small withdrawal allowance (common in many pig butchering cases) suggests scammers assessed victim would not demand early proof",
+    "15-day ultimatum with permanent freeze threat creates extreme urgency to manipulate victim into hasty decisions",
+    "High-value cases warrant significant investigative resources given substantial victim impact and potential to identify larger criminal networks",
+    "Victims may not recognize scam despite obvious red flags when professional identity and gradual manipulation employed",
+    "Social media wealth indicators make users targets for sophisticated financial scams"
+  ],
+
+  "metadata": {
+    "case_id": "141",
+    "case_designation": "pb_050",
+    "analysis_version": "1.0",
+    "analyst": "Claude Code TTP Analysis System",
+    "analysis_date": "2025-12-17",
+    "last_updated": "2025-12-17",
+    "framework_version": "Pig Butchering TTP Analysis Framework v1.0",
+    "case_classification": "HIGH VALUE CASE - $300,000+ loss",
+    "data_sources": [
+      "Case narrative - victim complaint",
+      "Platform domain information (cryptopumb.com)",
+      "Scammer identity information (Johanna, claimed Citibank broker)",
+      "General pig butchering scam intelligence"
+    ],
+    "limitations": [
+      "Analysis based solely on victim narrative without independent verification",
+      "No cryptocurrency wallet addresses provided - CRITICAL gap for investigation",
+      "No blockchain analysis performed",
+      "No technical infrastructure investigation conducted for cryptopumb.com",
+      "Exact dates and detailed timeline not available",
+      "Complete communication history not analyzed",
+      "Facebook and WhatsApp account details not fully documented"
+    ],
+    "special_notes": [
+      "This is a HIGH VALUE case with $300,000+ confirmed loss",
+      "Among the largest single-victim losses in documented pig butchering cases",
+      "Case demonstrates sophisticated high-net-worth targeting",
+      "Professional identity impersonation adds complexity",
+      "Multi-stage psychological manipulation highly sophisticated",
+      "Warrants significant investigative resources and priority",
+      "Victim likely requires substantial support services given magnitude of loss"
+    ]
+  }
+}

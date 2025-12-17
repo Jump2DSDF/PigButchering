@@ -1,0 +1,188 @@
+{
+  "case_metadata": {
+    "pb_case_id": 81,
+    "original_case_id": 183,
+    "primary_subject": "bravehqnx.cc (Entity Impersonating Brave Software)",
+    "analysis_date": "2025-12-17",
+    "scam_type": [
+      "Fraudulent Trading Platform",
+      "Imposter Scam",
+      "Pig Butchering Scam"
+    ]
+  },
+  "ttp_profile": {
+    "initial_contact": {
+      "method": "Unknown/Multiple",
+      "platform": "Likely social media, crypto forums, or direct messaging",
+      "approach": "Brand impersonation",
+      "impersonation_details": {
+        "impersonated_entity": "Brave Software",
+        "legitimate_domain": "brave.com",
+        "fraudulent_domain": "bravehqnx.cc"
+      },
+      "target_demographic": "Cryptocurrency investors, particularly Ethereum holders"
+    },
+    "relationship_building": {
+      "tactics": [
+        "Brand impersonation of trusted company (Brave Software)",
+        "Professional website design mimicking legitimate branding",
+        "Exploitation of Brave Software's reputation",
+        "Promise of high returns from crypto-mining",
+        "Promise of high returns from staking activities",
+        "Customer support facade"
+      ],
+      "trust_indicators": [
+        "Website closely mimics Brave's branding",
+        "Professional appearance and design",
+        "Focus on legitimate cryptocurrency (Ethereum)",
+        "Fake customer support system"
+      ],
+      "duration": "Sustained interaction through customer support communications",
+      "communication_channels": [
+        "Fraudulent website platform",
+        "Email communications",
+        "Customer support system"
+      ]
+    },
+    "platform_introduction": {
+      "platform_name": "Fraudulent Brave Software Platform",
+      "platform_type": "Fraudulent Trading/Investment Platform",
+      "website": "bravehqnx.cc",
+      "website_status": "No longer operational (exit scam)",
+      "investment_type": [
+        "Cryptocurrency mining",
+        "Cryptocurrency staking",
+        "Ethereum (ETH) investment"
+      ],
+      "promised_returns": "High returns (unspecified percentage)",
+      "legitimacy_claims": [
+        "Association with Brave Software brand",
+        "Crypto-mining operations",
+        "Staking activities"
+      ]
+    },
+    "financial_extraction": {
+      "deposit_methods": [
+        "Direct cryptocurrency wallet transfers",
+        "Ethereum (ETH) transfers",
+        "Other cryptocurrency transfers"
+      ],
+      "cryptocurrency_focus": "Ethereum (ETH)",
+      "wallet_addresses": "Not specified in narrative (controlled by scammers)",
+      "amount_pattern": "Significant financial losses (amounts unspecified)",
+      "payment_progression": "Users convinced to transfer cryptocurrencies to scammer-controlled wallets"
+    },
+    "withdrawal_barriers": {
+      "tactics": [
+        "Platform shutdown/exit scam",
+        "Inability to withdraw funds",
+        "Communication difficulties with support",
+        "Website becoming non-operational"
+      ],
+      "victim_responses": [
+        "Attempted communication with customer support",
+        "Sent multiple email inquiries",
+        "Efforts to recover funds"
+      ],
+      "red_flags": [
+        "Website no longer operational",
+        "Domain name differs from legitimate Brave (bravehqnx.cc vs brave.com)",
+        "Unrealistic return promises",
+        "Unable to withdraw deposited cryptocurrencies",
+        "Unresponsive or evasive customer support"
+      ]
+    },
+    "impact_assessment": {
+      "financial_loss": "Significant (specific amounts not provided)",
+      "victim_count": "Multiple victims",
+      "fund_recovery": "None reported",
+      "reporting": "California Department of Financial Protection and Innovation",
+      "current_status": "Website non-operational, exit scam completed"
+    }
+  },
+  "indicators_of_compromise": {
+    "domains": [
+      {
+        "domain": "bravehqnx.cc",
+        "status": "Non-operational",
+        "type": "Fraudulent trading platform"
+      }
+    ],
+    "legitimate_references": [
+      {
+        "domain": "brave.com",
+        "note": "Legitimate Brave Software - DO NOT BLOCK"
+      },
+      {
+        "domain": "brave.com/wallet",
+        "note": "Legitimate Brave Wallet service - DO NOT BLOCK"
+      }
+    ],
+    "email_addresses": [],
+    "wallet_addresses": [],
+    "cryptocurrency_types": [
+      "Ethereum (ETH)"
+    ]
+  },
+  "attack_lifecycle": {
+    "phase_1_targeting": {
+      "vector": "Brand impersonation",
+      "method": "Fraudulent website creation mimicking Brave Software"
+    },
+    "phase_2_engagement": {
+      "technique": "Trust establishment through brand reputation",
+      "promise": "High returns from mining and staking"
+    },
+    "phase_3_investment": {
+      "mechanism": "Direct cryptocurrency wallet transfers",
+      "asset_type": "Primarily Ethereum (ETH)"
+    },
+    "phase_4_exploitation": {
+      "barrier": "Exit scam - platform shutdown",
+      "outcome": "Complete loss of deposited funds"
+    }
+  },
+  "mitre_attack_mapping": {
+    "initial_access": {
+      "technique": "T1566 - Phishing (Brand Impersonation)",
+      "description": "Impersonation of Brave Software to gain victim trust"
+    },
+    "execution": {
+      "technique": "T1204 - User Execution",
+      "description": "Victims voluntarily transfer cryptocurrency to fraudulent platform"
+    },
+    "persistence": {
+      "technique": "T1534 - Internal Spearphishing",
+      "description": "Sustained communication through fake customer support"
+    },
+    "collection": {
+      "technique": "T1114 - Email Collection / T1005 - Data from Local System",
+      "description": "Collection of cryptocurrency through wallet transfers"
+    },
+    "impact": {
+      "technique": "T1499 - Endpoint Denial of Service / T1485 - Data Destruction",
+      "description": "Exit scam resulting in complete financial loss and platform shutdown"
+    }
+  },
+  "recommendations": {
+    "detection": [
+      "Monitor for domains impersonating legitimate cryptocurrency brands",
+      "Verify official company domains before transferring funds",
+      "Check SSL certificates and domain registration details",
+      "Cross-reference investment opportunities with official company announcements"
+    ],
+    "prevention": [
+      "Always use official company websites accessed directly (not through links)",
+      "Verify legitimacy of investment platforms through official channels",
+      "Be skeptical of unsolicited investment opportunities",
+      "Research domain names for slight variations (bravehqnx.cc vs brave.com)",
+      "Be wary of promises of high returns from mining/staking"
+    ],
+    "response": [
+      "Document all communications and wallet addresses",
+      "Report to relevant financial authorities",
+      "Attempt blockchain analysis to trace cryptocurrency transfers",
+      "Alert legitimate companies of impersonation attempts"
+    ]
+  }
+}

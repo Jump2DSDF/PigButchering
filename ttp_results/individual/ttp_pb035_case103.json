@@ -1,0 +1,65 @@
+{
+  "case_id": 103,
+  "approach_and_lure": {
+    "initial_contact_platform": ["dating_app"],
+    "lure_type": ["romance", "investment_opportunity"],
+    "communication_migration": "WhatsApp"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Romantic interest with cryptocurrency trading expertise",
+      "wealth_indicators": [
+        "cryptocurrency_trading_knowledge",
+        "successful_trading_experience",
+        "teaching_investment_skills"
+      ],
+      "relationship_type": "romantic_partner"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "love_bombing",
+      "authority",
+      "reciprocity",
+      "fear_of_missing_out",
+      "sunk_cost_exploitation"
+    ],
+    "trust_building_period": "Extended period (dating app interaction through WhatsApp relationship building)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["define-gifts.com"],
+    "platform_urls": ["define-gifts.com"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "complete_withdrawal_block",
+      "platform_shutdown"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["crypto_assets_unspecified"],
+    "wallet_addresses": ["0xD98E210ee45E88e95235bEa7e2a77A9B8BEFB9a4"],
+    "transaction_hashes": [],
+    "estimated_loss_usd": null,
+    "payment_methods": [
+      "wire_transfer_to_intermediary",
+      "crypto_purchase_and_deposit"
+    ]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended period (weeks to months, from dating app to platform shutdown)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.85,
+    "missing_information": [
+      "specific_dating_app_name",
+      "specific_cryptocurrency_types",
+      "transaction_hashes",
+      "estimated_loss_amount_usd",
+      "exact_timeline_dates",
+      "number_of_transactions",
+      "scammer_identity_details"
+    ],
+    "notes": "HIGH PRIORITY case due to wallet address presence. Classic Pig Butchering pattern with romance-to-crypto investment progression. Victim location: California. Notable features: (1) Romantic interest served as both relationship partner and investment mentor, (2) Two-stage payment mechanism requiring wire transfers to scammer before crypto purchases, creating dependency and control, (3) Platform define-gifts.com now defunct preventing fund recovery, (4) Critical wallet address available for blockchain analysis: 0xD98E210ee45E88e95235bEa7e2a77A9B8BEFB9a4. The wire transfer intermediary step is significant as it gives scammer direct control over crypto purchasing process rather than victim making independent purchases. This increases victim dependency and allows scammer to potentially pocket wire transfer funds while showing fake deposits on platform."
+  }
+}

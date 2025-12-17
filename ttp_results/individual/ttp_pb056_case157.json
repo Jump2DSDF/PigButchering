@@ -1,0 +1,220 @@
+{
+  "case_metadata": {
+    "pb_case_id": 56,
+    "original_case_id": 157,
+    "primary_subject": "leedsbrokerages.com / Leeds Brokerages",
+    "analysis_date": "2025-12-17",
+    "case_status": "Platform Offline"
+  },
+  "financial_impact": {
+    "total_loss_usd": 30000,
+    "additional_fees_demanded": true,
+    "additional_fees_paid": false,
+    "amount_recovered": 0,
+    "recovery_likelihood": "very_low"
+  },
+  "scam_classification": {
+    "primary_type": "Pig Butchering Scam",
+    "secondary_types": [
+      "Fraudulent Trading Platform",
+      "Investment Fraud"
+    ],
+    "variant": "Social Media Influencer-Facilitated",
+    "confidence_level": "high"
+  },
+  "attack_chain": {
+    "phase_1_initial_contact": {
+      "contact_method": "Social Media",
+      "platform": "TikTok",
+      "actor_type": "Trusted Video Creator/Influencer",
+      "relationship_type": "Parasocial (Indirect Trust)",
+      "trust_building_technique": "Social Proof Exploitation",
+      "duration": "Not specified"
+    },
+    "phase_2_platform_introduction": {
+      "fraudulent_platform": "leedsbrokerages.com",
+      "platform_type": "Crypto Asset Exchange",
+      "introduction_method": "TikTok Content/Promotion",
+      "legitimacy_indicators": [
+        "Professional website appearance",
+        "Customer support representatives",
+        "Exchange branding"
+      ],
+      "onboarding_support": "Direct representative assistance"
+    },
+    "phase_3_technical_setup": {
+      "wallet_setup_required": true,
+      "wallet_type": "External crypto wallet",
+      "guidance_provided": true,
+      "guided_by": "Exchange representatives",
+      "kyc_requirements": "Not mentioned",
+      "technical_barriers": "Low (assistance provided)"
+    },
+    "phase_4_investment_phase": {
+      "investment_type": "Cryptocurrency",
+      "specific_assets": "Not specified",
+      "total_invested_usd": 30000,
+      "investment_pattern": "Progressive deposits",
+      "account_display": "Fabricated growth",
+      "profit_shown": true,
+      "communication_frequency": "Regular (implied through guidance)",
+      "duration": "Not specified"
+    },
+    "phase_5_profit_manipulation": {
+      "fake_profits_displayed": true,
+      "growth_pattern": "Steady increase",
+      "victim_belief": "Account balance steadily growing",
+      "encouragement_tactics": [
+        "Positive account display",
+        "Continued representative engagement"
+      ]
+    },
+    "phase_6_withdrawal_blocking": {
+      "withdrawal_attempted": true,
+      "blocking_method": "Additional payment demand",
+      "fee_type": "Unspecified additional payments",
+      "fee_amount_usd": "Not specified",
+      "payment_deadline": "Not mentioned",
+      "fee_paid": false,
+      "justification_provided": "Not detailed"
+    },
+    "phase_7_exit_strategy": {
+      "exit_method": "Complete platform shutdown",
+      "platform_status": "Offline",
+      "communication_status": "Ceased",
+      "evidence_preservation": "Minimal (site offline)",
+      "law_enforcement_reported": true
+    }
+  },
+  "technical_indicators": {
+    "domains": [
+      {
+        "domain": "leedsbrokerages.com",
+        "status": "offline",
+        "role": "primary_platform",
+        "protocol": "https"
+      }
+    ],
+    "wallet_addresses": [],
+    "ip_addresses": [],
+    "email_addresses": [],
+    "phone_numbers": [],
+    "messaging_apps": []
+  },
+  "actor_profile": {
+    "primary_actors": [
+      {
+        "role": "TikTok Influencer/Creator",
+        "name": "Not specified",
+        "platform": "TikTok",
+        "trust_level": "High (victim trusted creator)",
+        "involvement": "Promotion/Advertisement of platform"
+      },
+      {
+        "role": "Exchange Representatives",
+        "name": "Not specified",
+        "quantity": "Multiple (implied)",
+        "communication_channel": "Platform-based (implied)",
+        "activities": [
+          "Wallet setup guidance",
+          "Transfer assistance",
+          "Additional payment demands"
+        ]
+      }
+    ],
+    "organizational_structure": "Multi-tier (influencer + platform operators)",
+    "sophistication_level": "Medium-High"
+  },
+  "brand_impersonation": {
+    "impersonation_present": false,
+    "legitimate_entity": null,
+    "fake_entity": "Leeds Brokerages",
+    "confusion_tactics": [
+      "Professional exchange branding",
+      "Customer support presence"
+    ]
+  },
+  "psychological_manipulation": {
+    "techniques_used": [
+      "Social Proof (trusted influencer)",
+      "Authority (exchange representatives)",
+      "Greed (displayed profits)",
+      "Sunk Cost Fallacy (continued investment)",
+      "Fear of Missing Out (FOMO)"
+    ],
+    "vulnerability_exploited": [
+      "Trust in social media influencers",
+      "Crypto investment interest",
+      "Limited technical knowledge",
+      "Desire for passive income"
+    ],
+    "emotional_manipulation": "Low (primarily profit-driven, no romance element)",
+    "relationship_investment": "Low (indirect through influencer)"
+  },
+  "red_flags": [
+    {
+      "indicator": "Investment promoted by social media influencer",
+      "severity": "medium",
+      "detectability": "medium"
+    },
+    {
+      "indicator": "Exchange representatives providing direct wallet setup help",
+      "severity": "high",
+      "detectability": "medium"
+    },
+    {
+      "indicator": "Unknown/unverified crypto exchange platform",
+      "severity": "high",
+      "detectability": "high"
+    },
+    {
+      "indicator": "Demand for additional payments to process withdrawal",
+      "severity": "critical",
+      "detectability": "high"
+    },
+    {
+      "indicator": "Platform not listed on major exchange aggregators",
+      "severity": "high",
+      "detectability": "medium"
+    }
+  ],
+  "mitre_attack_mapping": {
+    "initial_access": [
+      "T1566 - Phishing (Social Media variant)",
+      "Social Engineering via Trusted Third Party"
+    ],
+    "execution": [
+      "User-initiated cryptocurrency transfer"
+    ],
+    "persistence": [
+      "Continuous engagement through fake profit display",
+      "Representative support interaction"
+    ],
+    "defense_evasion": [
+      "Legitimate-appearing platform interface",
+      "Professional branding and communications"
+    ],
+    "impact": [
+      "Financial Theft ($30,000)",
+      "Data Destruction (platform shutdown)"
+    ]
+  },
+  "prevention_recommendations": [
+    "Verify crypto exchanges against official listings (CoinMarketCap, CoinGecko)",
+    "Be skeptical of investment opportunities promoted by social media influencers",
+    "Research platform reviews and regulatory status before investing",
+    "Legitimate exchanges do not require additional fees to process withdrawals",
+    "Use only well-established, regulated cryptocurrency exchanges",
+    "Verify platform customer support through official channels",
+    "Be cautious of platforms requiring external wallet setup assistance"
+  ],
+  "recovery_actions": [
+    "Report to California DFPI (completed)",
+    "Document all communications and transactions",
+    "Report to social media platform (TikTok) regarding fraudulent promotion",
+    "File complaint with FBI IC3",
+    "Report to FTC",
+    "Consult with cryptocurrency tracing services",
+    "Monitor for platform reemergence under different domain"
+  ]
+}

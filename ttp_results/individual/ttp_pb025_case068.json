@@ -1,0 +1,76 @@
+{
+  "case_id": 68,
+  "approach_and_lure": {
+    "initial_contact_platform": [
+      "WhatsApp"
+    ],
+    "lure_type": [
+      "investment_opportunity"
+    ],
+    "communication_migration": "No migration - remained on WhatsApp"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Lin - investment advisor/mentor for crypto trading",
+      "wealth_indicators": [],
+      "relationship_type": "investment_advisor"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "authority",
+      "social_proof",
+      "sunk_cost_exploitation",
+      "fear_of_missing_out"
+    ],
+    "trust_building_period": "Unknown duration - sufficient to establish credibility and demonstrate fake trading success"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": [
+      "CBOTBIT"
+    ],
+    "platform_urls": [
+      "https://cbotbit.com"
+    ],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "complete_withdrawal_failure",
+      "platform_prevents_withdrawal_function"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": [
+      "unspecified_crypto_assets"
+    ],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 40000,
+    "payment_methods": [
+      "unspecified_likely_crypto_exchange_transfers"
+    ]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Unknown - estimated weeks to months based on pattern",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.75,
+    "missing_information": [
+      "specific_cryptocurrency_types",
+      "wallet_addresses",
+      "transaction_hashes",
+      "exact_timeline_dates",
+      "scam_duration",
+      "number_of_deposits",
+      "individual_deposit_amounts",
+      "lin_whatsapp_contact_info",
+      "specific_withdrawal_blocking_tactics_details",
+      "trust_building_period_duration",
+      "scammer_persona_details",
+      "initial_contact_method_on_whatsapp",
+      "communication_logs",
+      "platform_screenshots"
+    ],
+    "notes": "Classic investment-type pig butchering scam. Victim contacted via WhatsApp by 'Lin' who positioned as investment mentor/advisor. Lin directed victim to fake crypto trading platform CBOTBIT (cbotbit.com) and provided trading instructions. Platform showed fake substantial account growth to encourage continued deposits. When victim attempted withdrawal after depositing $40k+, platform completely blocked withdrawal function. Platform now defunct (no longer operational). Critical intelligence gaps: no wallet addresses, transaction hashes, or specific cryptocurrency types prevent blockchain tracking. No specific timeline provided. Scammer name 'Lin' consistent with Asian-origin pig butchering operations. Platform URL cbotbit.com available for OSINT/historical analysis. Victim located in California. Pattern matches standard pig butchering playbook: trust building → platform introduction → fake profits → withdrawal blocking → exit scam. Loss amount ($40k+) indicates high-value victim and likely multiple escalating deposits. Recommend follow-up: domain OSINT on cbotbit.com, request victim's exchange transaction records, WhatsApp communication logs, and any wallet addresses used for transfers."
+  }
+}

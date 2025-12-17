@@ -1,0 +1,74 @@
+{
+  "case_id": 64,
+  "approach_and_lure": {
+    "initial_contact_platform": [
+      "social_media_advertisement"
+    ],
+    "lure_type": [
+      "investment_opportunity",
+      "brokerage_advertisement"
+    ],
+    "communication_migration": "whatsapp"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Financial advisors for fourgearstools.com trading platform. Anastasia - advisor, Alexy - advisor",
+      "wealth_indicators": [
+        "professional_trading_platform",
+        "multiple_advisors",
+        "legitimate_brokerage_appearance"
+      ],
+      "relationship_type": "company_representative"
+    },
+    "psychological_tactics": [
+      "authority",
+      "trust_building",
+      "social_proof",
+      "fear_and_urgency",
+      "sunk_cost_exploitation"
+    ],
+    "trust_building_period": "Short to medium term (weeks estimated)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": [
+      "fourgearstools.com"
+    ],
+    "platform_urls": [
+      "fourgearstools.com"
+    ],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "aml_violation_fee_demand",
+      "regulatory_compliance_demand_3838_usd"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": [
+      "unspecified_crypto_assets"
+    ],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 8636.69,
+    "payment_methods": [
+      "cryptocurrency_transfer"
+    ]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Estimated weeks (advertisement to withdrawal attempt)",
+    "platform_status": "defunct_seized_by_authorities"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.75,
+    "missing_information": [
+      "specific_social_media_platform",
+      "specific_cryptocurrency_types",
+      "wallet_addresses",
+      "transaction_hashes",
+      "exact_timeline_dates",
+      "number_of_deposits",
+      "detailed_platform_interface_description"
+    ],
+    "notes": "Professional trading platform scam using multi-advisor personas. Platform domain seized by Kings County District Attorney's Office (NY) and NY Department of Financial Services - indicating successful law enforcement action. Classic AML violation exit scam demanding $3,838 for 'clearance'. Total victim loss $8,636.69. Initial contact via social media advertisement, migration to WhatsApp for advisor communications. Notable: Two named advisors (Anastasia, Alexy) suggest organized operation. Critical blockchain tracking data absent from narrative but likely available through victim's transaction records or seized domain forensics. Lower loss amount than typical romance-based pig butchering, suggesting faster-moving professional scam model."
+  }
+}

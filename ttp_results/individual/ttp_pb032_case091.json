@@ -1,0 +1,55 @@
+{
+  "case_id": 91,
+  "approach_and_lure": {
+    "initial_contact_platform": ["WhatsApp"],
+    "lure_type": ["investment_opportunity"],
+    "communication_migration": "WhatsApp investment club group"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Ryan (first victim), Dimensional Fund Advisors investment group representative (second victim)",
+      "wealth_indicators": ["investment_expertise", "trading_platform_access", "group_investment_club"],
+      "relationship_type": "investment_advisor"
+    },
+    "psychological_tactics": ["trust_building", "authority", "social_proof", "sunk_cost_exploitation", "fear_of_missing_out"],
+    "trust_building_period": "Sufficient time to establish trust through investment club participation and guided platform setup"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["Dimension", "dimensionvip.com"],
+    "platform_urls": ["www.dimensionvip.com", "dimensionvip.com"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": ["additional_deposit_demand", "fee_payment_demand"]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["crypto_assets"],
+    "wallet_addresses": [
+      "0x1D45F02c6D2729ba1AD8694597F51b0E4A0429A3",
+      "0x7fF3e940eA4Db870e294C89D2ad579C27aC33A80",
+      "0xd85b6EE53292bb0EEC259355C2B6471941D55002",
+      "0xd9eACc4C3be80AB34c65Cd51bB623aa8620cD919",
+      "0x490d095bBdfA1036E3ecAb18Cf3f5AD2Df73bf97"
+    ],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 5000,
+    "payment_methods": ["crypto_transfer"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Weeks to months (involving trading period and withdrawal attempts)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.85,
+    "missing_information": [
+      "transaction_hashes",
+      "cryptocurrency_types_specific",
+      "total_deposits",
+      "fake_profit_amounts",
+      "exact_fee_amounts_demanded",
+      "timeline_specifics",
+      "scammer_phone_numbers",
+      "additional_scammer_identities"
+    ],
+    "notes": "HIGH PRIORITY case due to 5 wallet addresses providing strong blockchain tracking opportunity. Two victims with similar attack patterns involving dimensionvip.com. First victim (Ryan contact) experienced deposit-to-withdraw trap. Second victim was recruited via WhatsApp investment club 'Dimensional Fund Advisors' (impersonating legitimate investment firm). Both victims shown fake profits then blocked from withdrawal via fee/deposit demands. Platform now defunct (exit scam). Second victim confirmed minimum $5,000 loss. All 5 Ethereum wallet addresses (0x...) extracted for blockchain analysis. Strong social proof tactic via investment club group. Multiple withdrawal blocking methods indicate sophisticated operation."
+  }
+}

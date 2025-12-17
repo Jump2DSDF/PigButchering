@@ -1,0 +1,438 @@
+{
+  "case_metadata": {
+    "pb_case_id": 59,
+    "original_case_id": 160,
+    "primary_subject": "SILD group crypto / sildgroup.co / sild.us",
+    "analysis_date": "2025-12-17",
+    "case_status": "Platform Offline",
+    "evidence_available": {
+      "screenshots": true,
+      "screenshot_url": "https://dfpi.ca.gov/wp-content/uploads/2025/03/IMG_spam310-redacted.jpg",
+      "screenshot_local": "pig_butchering_cases\\screenshots\\pb_059_case_160.jpg",
+      "screenshot_notes": "Labeled 'spam', redacted for PII"
+    }
+  },
+  "financial_impact": {
+    "total_loss_usd": 85000,
+    "total_loss_minimum": true,
+    "direct_personal_transfer_usd": 50000,
+    "crypto_wallet_transfer_usd": 25000,
+    "platform_deposits_estimated_usd": 10000,
+    "exclusive_tier_requirement_usd": 100000,
+    "exclusive_tier_paid": false,
+    "amount_recovered": 0,
+    "recovery_likelihood": "very_low"
+  },
+  "bank_intervention": {
+    "intervention_occurred": true,
+    "bank_action": "Refused to process transfer to platform",
+    "bank_reasoning": "Platform appeared suspicious",
+    "victim_response": "Circumvented by sending funds directly to scammer",
+    "protective_action_effectiveness": "Failed (victim ignored warning)",
+    "teaching_value": "Critical example of manipulation overcoming institutional protection"
+  },
+  "scam_classification": {
+    "primary_type": "Pig Butchering Scam",
+    "secondary_types": [
+      "Investment Group Scam",
+      "Fraudulent Trading Platform",
+      "Affinity Fraud",
+      "Advance Fee Fraud"
+    ],
+    "variant": "Tiered Investment Group with Personal Relationship Exploitation",
+    "confidence_level": "high"
+  },
+  "attack_chain": {
+    "phase_1_discovery": {
+      "contact_method": "Online (victim discovered group)",
+      "discovery_type": "Victim-initiated",
+      "platform": "Not specified",
+      "group_name": "SILD group / Investment group led by Professor Robert"
+    },
+    "phase_2_authority_establishment": {
+      "primary_authority": {
+        "identity": "Robert",
+        "title": "Professor",
+        "role": "Investment group leader",
+        "credentials": "Academic authority",
+        "activities": [
+          "Led investment group",
+          "Created SILD trading platform",
+          "Provided investment education"
+        ]
+      },
+      "secondary_authority": {
+        "identity": "Angelina",
+        "title": "Assistant (to Robert)",
+        "initial_role": "Technical support and onboarding",
+        "evolved_role": "Primary relationship manipulator and fund extractor"
+      },
+      "performance_claims": {
+        "roi_claimed": "20-30% returns",
+        "social_proof": "People were making revenue",
+        "credibility_level": "Medium (believable returns)"
+      }
+    },
+    "phase_3_tier1_platform": {
+      "platform_name": "SILD",
+      "platform_creator": "Robert (group leader)",
+      "platform_urls": [
+        "sildgroup.co",
+        "sild.us"
+      ],
+      "platform_type": "Group-specific crypto trading platform",
+      "platform_purpose": "Entire group would trade together",
+      "onboarding_guide": "Angelina (Robert's assistant)",
+      "onboarding_activities": [
+        "Showed how to open account",
+        "Demonstrated how to make trades"
+      ],
+      "initial_investment": "Some money (amount unspecified)",
+      "trading_activity": "Active group trading",
+      "tier_classification": "Standard/Basic tier"
+    },
+    "phase_4_exclusive_tier_introduction": {
+      "tier_name": "Exclusive trading platform",
+      "tier_type": "Premium/VIP",
+      "investment_range_min_usd": 50000,
+      "investment_range_max_usd": 3000000,
+      "initial_victim_response": "Told couldn't participate (insufficient funds)",
+      "exclusion_tactic": "Create desire through initial rejection",
+      "psychological_effect": "FOMO, desire for exclusive access"
+    },
+    "phase_5_personal_relationship": {
+      "actor": "Angelina",
+      "contact_method": "WhatsApp (personal outreach)",
+      "relationship_shift": "Group assistant → Personal advisor",
+      "message_content": "Investment had tripled in two weeks",
+      "fabricated_returns": {
+        "multiplier": "3x",
+        "timeframe": "Two weeks",
+        "percentage": 300
+      },
+      "encouragement": "Try to join the new group",
+      "communication_channel": "WhatsApp (1-on-1)"
+    },
+    "phase_6_extraction_escalation": {
+      "stage_1": {
+        "victim_statement": "I have $50,000 in the bank",
+        "angelina_response": "All $50,000 slots were taken",
+        "new_requirement_usd": 100000,
+        "tactic": "Scarcity (lower tier sold out)"
+      },
+      "stage_2": {
+        "angelina_instruction": "Get as much money as possible",
+        "angelina_promise": "She would kick in the rest to get to $100,000",
+        "partnership_fraud": true,
+        "fake_co_investment": "Angelina claimed she would contribute remaining amount"
+      },
+      "stage_3": {
+        "victim_action": "Went to bank to liquidate $50,000 CD",
+        "bank_response": "Wouldn't allow the transfer",
+        "bank_reasoning": "Platform appeared suspicious",
+        "protective_intervention": true,
+        "victim_circumvention": "Sent funds directly to scammer instead"
+      },
+      "stage_4_direct_transfers": {
+        "transfer_1": {
+          "amount_usd": 50000,
+          "recipient": "Angela (likely same as Angelina)",
+          "method": "Direct personal transfer",
+          "bypass": "Circumvented bank's platform transfer block"
+        },
+        "transfer_2": {
+          "amount_usd": 25000,
+          "recipient": "Angelina's crypto wallet",
+          "method": "Cryptocurrency transfer",
+          "direct_to_scammer": true
+        },
+        "total_direct_transfers_usd": 75000
+      }
+    },
+    "phase_7_exit_strategy": {
+      "exit_method": "Platform shutdown",
+      "platform_status": "No longer operational",
+      "domains_offline": [
+        "sildgroup.co",
+        "sild.us"
+      ],
+      "fund_recovery": "Unable to recover any money",
+      "total_victim_loss_usd": 85000,
+      "scammer_direct_receipt": 75000
+    }
+  },
+  "technical_indicators": {
+    "domains": [
+      {
+        "domain": "sildgroup.co",
+        "status": "offline",
+        "role": "primary_platform"
+      },
+      {
+        "domain": "sild.us",
+        "status": "offline",
+        "role": "secondary_platform"
+      }
+    ],
+    "platform_infrastructure": {
+      "multi_domain": true,
+      "tier_structure": "Two-tier (standard + exclusive)",
+      "platform_creator": "Group leader (Robert)"
+    },
+    "wallet_addresses": [
+      {
+        "owner": "Angelina (scammer)",
+        "type": "Personal crypto wallet",
+        "amount_received_usd": 25000,
+        "address": "Not specified in narrative"
+      }
+    ],
+    "messaging_apps": [
+      {
+        "platform": "WhatsApp",
+        "role": "Personal relationship communication",
+        "actors": [
+          "Angelina"
+        ],
+        "purpose": "1-on-1 manipulation and extraction"
+      }
+    ]
+  },
+  "actor_profile": {
+    "primary_actors": [
+      {
+        "identity": "Robert",
+        "title": "Professor",
+        "role": "Investment group leader / Platform creator",
+        "authority_type": "Academic",
+        "activities": [
+          "Led online investment group",
+          "Created SILD trading platform",
+          "Established credibility through professor title",
+          "Created exclusive tier platform"
+        ],
+        "sophistication": "High (multi-tier scam architect)"
+      },
+      {
+        "identity": "Angelina (also referred to as Angela)",
+        "title": "Robert's Assistant (initial) / Primary Manipulator (evolved)",
+        "role_evolution": "Assistant → Personal Relationship Exploiter → Direct Fund Recipient",
+        "communication_platforms": [
+          "Group platform (initial)",
+          "WhatsApp (personal)"
+        ],
+        "activities": [
+          "Onboarding assistance (account setup, trading education)",
+          "Personal outreach via WhatsApp",
+          "Fabricated performance reporting (tripled investment)",
+          "Exclusive tier encouragement",
+          "Partnership fraud (promised to co-invest)",
+          "Direct fund reception ($50k personal + $25k crypto wallet)"
+        ],
+        "sophistication": "Very High (relationship manipulation + direct extraction)",
+        "financial_benefit": "$75,000 direct transfers"
+      }
+    ],
+    "organizational_structure": {
+      "type": "Hierarchical investment group",
+      "leadership": "Professor Robert (figurehead)",
+      "operations": "Angelina (hands-on manipulation)",
+      "coordination": "Highly coordinated (tier 1 platform → personal relationship → tier 2 extraction)",
+      "sophistication": "Very High"
+    }
+  },
+  "brand_impersonation": {
+    "impersonation_present": false,
+    "fake_brand_created": "SILD / SILD group",
+    "legitimacy_tactics": [
+      "Academic authority (Professor)",
+      "Professional assistant structure",
+      "Multi-tier platform system",
+      "Group coordination",
+      "Performance reporting (20-30% returns)"
+    ]
+  },
+  "psychological_manipulation": {
+    "techniques_used": [
+      "Academic Authority (Professor Robert)",
+      "Social Proof (group members making 20-30% returns)",
+      "Exclusivity (premium tier with high requirements)",
+      "Scarcity ($50k slots 'taken')",
+      "FOMO (fear of missing exclusive opportunity)",
+      "Escalating Commitment (tier 1 → tier 2)",
+      "Personal Relationship (Angelina's WhatsApp outreach)",
+      "Greed (investment tripled in two weeks)",
+      "Partnership Fraud (Angelina's fake co-investment promise)",
+      "Reciprocity (Angelina 'helping' victim access exclusive tier)",
+      "Sunk Cost Fallacy (tier 1 investment + relationship investment)"
+    ],
+    "vulnerability_exploited": [
+      "Trust in academic authority",
+      "Desire for crypto investment returns",
+      "Interest in exclusive opportunities",
+      "FOMO regarding limited access",
+      "Trust in personal relationship (Angelina)",
+      "Belief in partnership/mutual benefit",
+      "Willingness to maximize investment for better returns"
+    ],
+    "emotional_manipulation_level": "High",
+    "relationship_investment": "Medium-High (personal relationship with Angelina)",
+    "manipulation_sophistication": "Very High (multi-stage, tiered, relationship-based)"
+  },
+  "red_flags": [
+    {
+      "indicator": "Group leader (Robert) creating and controlling trading platform",
+      "severity": "critical",
+      "detectability": "medium",
+      "phase": "platform_introduction"
+    },
+    {
+      "indicator": "Tiered investment structure with escalating requirements",
+      "severity": "high",
+      "detectability": "medium",
+      "phase": "exclusive_tier"
+    },
+    {
+      "indicator": "Initial exclusion followed by special access offer",
+      "severity": "high",
+      "detectability": "medium",
+      "phase": "manipulation"
+    },
+    {
+      "indicator": "Investment tripled in two weeks (unrealistic)",
+      "severity": "critical",
+      "detectability": "high",
+      "phase": "performance_claims"
+    },
+    {
+      "indicator": "Scarcity tactics (all slots taken)",
+      "severity": "high",
+      "detectability": "medium",
+      "phase": "extraction"
+    },
+    {
+      "indicator": "Request for direct personal transfer (not to platform)",
+      "severity": "critical",
+      "detectability": "high",
+      "phase": "extraction"
+    },
+    {
+      "indicator": "Request for transfer to personal crypto wallet",
+      "severity": "critical",
+      "detectability": "high",
+      "phase": "extraction"
+    },
+    {
+      "indicator": "Bank flagging platform as suspicious",
+      "severity": "critical",
+      "detectability": "high",
+      "phase": "bank_intervention"
+    },
+    {
+      "indicator": "Assistant requesting victim send money directly to them",
+      "severity": "critical",
+      "detectability": "high",
+      "phase": "extraction"
+    },
+    {
+      "indicator": "Promise of co-investment to reach requirement",
+      "severity": "critical",
+      "detectability": "medium",
+      "phase": "partnership_fraud"
+    }
+  ],
+  "mitre_attack_mapping": {
+    "reconnaissance": [
+      "T1593 - Search Open Websites/Domains",
+      "Online investment community targeting"
+    ],
+    "initial_access": [
+      "Social Engineering via Investment Group",
+      "Victim-initiated discovery (search/advertisement)"
+    ],
+    "execution": [
+      "User-initiated platform registration (tier 1)",
+      "User-initiated cryptocurrency trading",
+      "User-initiated direct transfers to scammers"
+    ],
+    "persistence": [
+      "Multi-tier engagement (standard → exclusive)",
+      "Personal relationship development (Angelina)",
+      "WhatsApp communication channel",
+      "Escalating commitment ladder"
+    ],
+    "privilege_escalation": [
+      "Tier 1 member → Exclusive tier prospect",
+      "Group member → Personal relationship (Angelina)"
+    ],
+    "defense_evasion": [
+      "Academic authority facade (Professor)",
+      "Professional organizational structure",
+      "Multi-tier platform legitimacy",
+      "Bank circumvention (direct personal transfers)",
+      "Name variation (Angelina/Angela)"
+    ],
+    "collection": [
+      "T1005 - Financial data collection (victim bank account info)",
+      "Crypto wallet addresses"
+    ],
+    "impact": [
+      "T1565 - Data Manipulation (fabricated profits)",
+      "Financial Theft ($85,000+)",
+      "Direct Personal Enrichment ($75,000 to Angelina)",
+      "Evidence Destruction (platform shutdown)"
+    ]
+  },
+  "prevention_recommendations": [
+    "CRITICAL: Never send money directly to individuals for investment access",
+    "CRITICAL: Always heed bank warnings about suspicious transfers",
+    "Be extremely cautious when investment group leaders control platforms",
+    "Verify platforms through regulatory databases before investing",
+    "Be suspicious of tiered exclusive investment opportunities",
+    "Question why investments require personal transfers vs platform deposits",
+    "Research platforms independently (not through group sources)",
+    "Understand that legitimate investments never require direct personal payments",
+    "Be wary of promises to co-invest or contribute to reach requirements",
+    "Recognize scarcity tactics (slots taken, limited access) as manipulation",
+    "300% returns in two weeks is unrealistic for legitimate investments",
+    "Academic titles (Professor) can be fabricated - verify independently"
+  ],
+  "recovery_actions": [
+    "Report to California DFPI (completed)",
+    "File complaint with FBI IC3",
+    "Report to FTC",
+    "Provide all evidence of Angelina's WhatsApp communications",
+    "Document direct transfer details ($50k + $25k)",
+    "Report crypto wallet address to blockchain analysis firms",
+    "Provide bank records showing blocked transfer and subsequent direct transfers",
+    "Share investment group information with law enforcement",
+    "File complaint with cryptocurrency exchange used for $25k transfer",
+    "Work with bank to document fraud for potential insurance/recovery",
+    "Consider civil litigation against identifiable actors",
+    "Share evidence with other potential victims in group"
+  ],
+  "unique_characteristics": [
+    "Academic authority positioning (Professor vs typical roles)",
+    "Two-tier platform structure (standard → exclusive)",
+    "Assistant-to-primary-manipulator role evolution (Angelina)",
+    "Escalating investment requirements with scarcity ($50k → $100k, slots taken)",
+    "Bank intervention that was circumvented by victim",
+    "Extremely high direct personal transfers ($75,000 to scammer)",
+    "Partnership fraud (fake promise to co-invest)",
+    "Multi-domain infrastructure (sildgroup.co + sild.us)",
+    "Victim ignored institutional warning (bank)",
+    "Direct crypto wallet transfer to scammer's personal wallet"
+  ],
+  "institutional_protection_failure": {
+    "protective_actor": "Victim's bank",
+    "protective_action": "Refused suspicious platform transfer",
+    "victim_circumvention": "Direct personal transfer to scammer",
+    "amount_lost_after_warning": 75000,
+    "lessons": [
+      "Institutional warnings should be heeded",
+      "Scammers adapt to circumvent protections",
+      "Direct personal transfers bypass protective systems",
+      "Psychological manipulation can overcome rational warnings"
+    ]
+  }
+}

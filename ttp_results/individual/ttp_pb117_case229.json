@@ -1,0 +1,52 @@
+{
+  "case_id": 229,
+  "approach_and_lure": {
+    "initial_contact_platform": ["SMS_text"],
+    "lure_type": ["romance", "investment_opportunity"],
+    "communication_migration": "SMS → WhatsApp"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "name": "Shirley",
+      "claimed_identity": "Romantic interest, crypto trader",
+      "wealth_indicators": ["crypto_trading_success"],
+      "relationship_type": "romantic_partner",
+      "verification_avoidance": "Refused video calls, only sent photos/videos"
+    },
+    "psychological_tactics": [
+      "romance_manipulation",
+      "trust_building",
+      "authority",
+      "expertise_claims"
+    ],
+    "trust_building_period": "Extended"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["Yun Shang Hui Xin Limited"],
+    "platform_urls": ["yunshfex.com"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": ["unknown"]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["ETH"],
+    "wallet_addresses": [
+      "0xb8E2C1BA095bb446C676F9Ce2A903a4A33367F58"
+    ],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 25000,
+    "payment_methods": ["wire_transfer", "cryptocurrency_transfer"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.82,
+    "missing_information": [
+      "withdrawal_blocking_method",
+      "transaction_hashes"
+    ],
+    "notes": "CRITICAL: Ethereum wallet address extracted: 0xb8E2C1BA095bb446C676F9Ce2A903a4A33367F58. DFPI specifically warned about deepfake/AI concerns in this case - scammer sent photos/videos but refused video calls, potential early indicator of AI-generated content. Chinese platform name suggests organized operation."
+  }
+}

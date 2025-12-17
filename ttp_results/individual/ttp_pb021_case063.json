@@ -1,0 +1,76 @@
+{
+  "case_id": 63,
+  "pb_case_id": 21,
+  "approach_and_lure": {
+    "initial_contact_platform": [
+      "Online (unspecified)"
+    ],
+    "lure_type": [
+      "investment_opportunity"
+    ],
+    "communication_migration": "Not specified in narrative"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Yilin - investment advisor with knowledge of 'electric gold' opportunities",
+      "wealth_indicators": [
+        "Knowledge of profitable investment opportunities",
+        "Access to 'electric gold' trading platform"
+      ],
+      "relationship_type": "investment_advisor"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "authority",
+      "fear_of_missing_out",
+      "social_proof",
+      "sunk_cost_exploitation"
+    ],
+    "trust_building_period": "Not specified - online meeting followed by investment introduction"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": [
+      "CWG Main"
+    ],
+    "platform_urls": [
+      "CWGMain.cc"
+    ],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "Demanded $49,000 for 'taxes' to withdraw funds",
+      "Complete withdrawal block when victim couldn't pay additional fees",
+      "Platform shutdown after blocking withdrawals"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": [
+      "Electric gold (digital gold currency - specific crypto type not identified)"
+    ],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 91000,
+    "payment_methods": [
+      "Wire transfer",
+      "Bank transfer"
+    ]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Not specified in narrative",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.75,
+    "missing_information": [
+      "Specific initial contact platform (dating app, social media, etc.)",
+      "Communication migration details",
+      "Duration of trust building period",
+      "Detailed scammer background or wealth claims",
+      "Specific cryptocurrency types involved",
+      "Wallet addresses or transaction hashes",
+      "Exact timeline and scam duration",
+      "Whether any successful withdrawals occurred before final block"
+    ],
+    "notes": "This case follows classic Pig Butchering withdrawal blocking pattern: victim deposits $91,000+, platform shows fake balance of $289,000, then demands $49,000 in 'taxes' to withdraw. The 'electric gold' product name is designed to sound innovative and valuable. Platform is now defunct. High confidence in fraud mechanism details, moderate confidence in initial contact and relationship building aspects due to limited narrative detail."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "case_id": 394,
+  "approach_and_lure": {
+    "initial_contact_platform": ["Line_Chat"],
+    "lure_type": ["investment_opportunity", "partnership"],
+    "communication_migration": "Line Chat"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "name": "Jenny Wang",
+      "claimed_identity": "Crypto trading expert",
+      "relationship_type": "investment_partner"
+    },
+    "impersonated_entities": [
+      {"entity": "Singapore Exchange", "type": "financial_exchange"},
+      {"entity": "Coinhako", "type": "crypto_exchange", "real_url": "coinhako.com"}
+    ],
+    "psychological_tactics": [
+      "proof_of_concept_withdrawal",
+      "partnership_offer",
+      "co_investment_illusion",
+      "progressive_fee_extraction",
+      "deadline_pressure"
+    ],
+    "trust_building_period": "Extended"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["Coinhako (fake)", "coinhakoxds.com"],
+    "platform_urls": ["coinhakoxds.com"],
+    "partial_withdrawals_allowed": true,
+    "withdrawal_amount_allowed": 2000,
+    "fake_profit_shown": true,
+    "fake_balance_displayed": 4700000,
+    "partnership_scam": {
+      "scammer_fake_investment": 550000,
+      "combined_fake_balance": 1000000
+    },
+    "withdrawal_block_tactics": [
+      "account_lock",
+      "10_percent_deposit_to_unlock",
+      "second_account_lock",
+      "additional_400000_demand",
+      "split_payment_offer"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["unknown"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 750000,
+    "payment_methods": ["cryptocurrency_transfer"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.90,
+    "missing_information": ["wallet_addresses", "transaction_hashes"],
+    "notes": "HIGH VALUE CASE: $750K loss. BRAND IMPERSONATION: Singapore Exchange + Coinhako. Sophisticated partnership scam - Jenny 'invested' $550K of 'her own money' to create $1M combined balance illusion. Multi-stage fee extraction: 10% unlock fee → second lock → $400K demand → split payment offer."
+  },
+  "chain_of_thought": {
+    "step_1_initial_contact": "Jenny Wang contacted victim on Line Chat messaging app",
+    "step_2_trust_building": "Extended conversations building relationship and trust",
+    "step_3_proof_of_concept": "Small trades totaling several thousand dollars, then $2K withdrawal allowed",
+    "step_4_escalation": "Victim invested additional $200K, saw balance rise to $450K",
+    "step_5_partnership_trap": "Jenny 'invested' $550K of 'her own money', creating $1M combined illusion",
+    "step_6_extraction_loop": "Account locked → 10% fee paid → locked again → $400K demanded → split offer"
+  }
+}

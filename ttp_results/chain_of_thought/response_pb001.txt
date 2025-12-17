@@ -1,0 +1,158 @@
+TTP ANALYSIS - PIG BUTCHERING CASE pb_001
+Case: b2c2-amm.com
+Date: 2025-12-17
+Analyst: Claude Sonnet 4.5
+
+================================================================================
+CHAIN OF THOUGHT ANALYSIS
+================================================================================
+
+### Step 1: Initial Contact Analysis (접근 및 유인)
+
+REASONING:
+The narrative states "being contacted by an individual online" which indicates an online initial contact, but the specific platform is not explicitly mentioned. The text then mentions "asked to move the conversation to a messaging platform" - this indicates a communication migration pattern, but again the specific messaging platform is not identified.
+
+The lure type appears to be dual-purpose:
+1. Initially it seems to be a friendship-based approach ("forming a relationship" with a "friend")
+2. Then transitions to an investment opportunity lure ("brought up the topic of investing in crypto assets")
+
+KEY FINDINGS:
+- Initial contact platform: Unknown (described as "online" but no specific platform mentioned)
+- Communication migration: Yes, to an unnamed "messaging platform"
+- Lure type: Friendship + Investment opportunity
+- The scammer positioned themselves as a friend who introduced investment opportunities
+
+### Step 2: Persona & Psychology Analysis (사칭 및 심리)
+
+REASONING:
+The scammer established themselves as a "friend" - this is explicitly stated in the narrative. The relationship type is clearly friendship-based, not romantic.
+
+Psychological tactics observed:
+1. TRUST_BUILDING: "After forming a relationship" indicates a period of trust establishment before introducing the investment topic
+2. RECIPROCITY: The scammer proposed "joint-investing" where they would "match whatever amount the victim invested" - this creates a sense of mutual participation and reduces perceived risk
+3. SOCIAL_PROOF: Implicit social proof by positioning themselves as a successful investor who knows about profitable platforms
+4. SUNK_COST_EXPLOITATION: After victim invested, demanding additional fees ($77k, then $100k more) to "withdraw funds" exploits the victim's desire to recover already-invested money
+
+The trust-building period duration is not specified in the narrative ("After a while" is the only temporal indicator between relationship formation and withdrawal issues).
+
+Wealth indicators: The scammer implicitly demonstrated knowledge of crypto investing and willingness to match investments, suggesting financial capability, but no explicit luxury lifestyle or wealth signals are mentioned.
+
+### Step 3: Fraud Mechanism Analysis (사기 수법)
+
+REASONING:
+Platform Analysis:
+- Type: Fake crypto trading platform
+- URL: b2c2-amm.com (explicitly stated)
+- Platform name: Not explicitly stated as a brand name, just the domain
+
+Fake Profit Pattern:
+The narrative doesn't explicitly state whether fake profits were shown, but the structure suggests they likely were (victim invested, "after a while" the platform communicated, suggesting the victim was monitoring activity). However, since not explicitly stated, I'll mark this as uncertain.
+
+Withdrawal Block Tactics:
+Very clear multi-stage withdrawal blocking:
+1. First demand: Platform claimed "potential data-breach" and demanded $77,000 to withdraw funds
+2. Second demand: After victim paid $77k, platform demanded additional $100,000 "investment" to "fully withdraw their funds"
+3. This is a classic escalating fee scam - each payment triggers a new requirement
+
+These are classic withdrawal blocking tactics:
+- Security/technical issue excuse ("data-breach")
+- Withdrawal fees disguised as necessary payments
+- Escalating demands after initial payment
+- Additional "investment" requirement
+
+Platform Status:
+"The website is no longer operational" - clearly defunct
+
+### Step 4: Financial Intelligence Extraction (추적단서)
+
+REASONING:
+Cryptocurrency involvement:
+- The narrative explicitly mentions "crypto assets" and "crypto asset trading platform"
+- However, no specific cryptocurrency types (BTC, ETH, USDT, etc.) are mentioned
+- This suggests cryptocurrency was involved but the specific types are unknown
+
+Financial amounts clearly stated:
+- First withdrawal fee demand: $77,000
+- Second withdrawal fee demand: $100,000
+- Total paid by victim: $77,000
+- The initial investment amount is NOT stated
+
+Estimated total loss calculation:
+- Known paid: $77,000 (withdrawal fee)
+- Unknown: Initial investment amount(s)
+- The victim states they "have been unable to withdraw their funds" suggesting the initial investment is also lost
+- Conservative estimate: At least $77,000 (confirmed paid), but actual loss is higher due to initial investment
+
+Payment methods:
+- Not explicitly stated how the $77k was paid
+- Not stated how initial investments were made
+- Likely cryptocurrency-based given the platform type, but not confirmed
+
+Blockchain tracking data:
+- No wallet addresses mentioned
+- No transaction hashes mentioned
+- No specific cryptocurrency types identified
+
+### Step 5: Temporal Analysis (시간적 지표)
+
+REASONING:
+Scam Duration:
+The only temporal indicators are:
+- "After forming a relationship" - suggests days to weeks for trust building
+- "After a while" - suggests some time between investment and withdrawal demand
+- No specific dates or duration mentioned
+- Overall duration: Unknown, but likely weeks to months based on typical pig butchering patterns
+
+Platform Status:
+- Explicitly stated: "The website is no longer operational"
+- Status: DEFUNCT
+- This is typical - fraudulent platforms often shut down after accumulating victims or when receiving regulatory attention
+
+### Step 6: Confidence Assessment
+
+INFORMATION QUALITY ASSESSMENT:
+
+CLEARLY STATED (High Confidence):
+- Platform URL: b2c2-amm.com
+- Lure type: Friendship + Investment
+- Relationship type: Friend
+- Withdrawal blocking tactics: Data breach excuse, escalating fee demands
+- Specific dollar amounts: $77,000 paid, $100,000 demanded
+- Platform status: Defunct
+- Communication migration: Yes (to messaging platform)
+
+STRONGLY IMPLIED (Medium Confidence):
+- Platform type: Fake trading platform (stated as "crypto asset trading platform")
+- Cryptocurrency involvement: Yes (mentioned but types not specified)
+- Psychological tactics: Trust building, reciprocity, sunk cost exploitation
+- Joint investment scheme: Matching funds promise
+
+MISSING/UNKNOWN (Low Confidence Areas):
+- Initial contact platform
+- Specific messaging platform used
+- Scammer's claimed identity (no name, nationality, profession mentioned)
+- Wealth indicators shown by scammer
+- Duration of trust-building phase
+- Total scam duration
+- Initial investment amount(s)
+- Specific cryptocurrency types used
+- Wallet addresses
+- Transaction hashes
+- Payment methods used
+- Whether fake profits were shown
+- Geographic locations (victim or scammer)
+
+OVERALL CONFIDENCE SCORE: 0.65
+
+JUSTIFICATION:
+- Core fraud mechanism is well documented (0.8 confidence)
+- Financial tracking has significant gaps (0.4 confidence)
+- Psychological tactics are inferable but not explicit (0.6 confidence)
+- Temporal information is vague (0.5 confidence)
+- Communication platforms not clearly identified (0.4 confidence)
+
+The narrative provides a clear overview of the scam structure and key financial demands, but lacks specific technical details (wallet addresses, crypto types) and precise temporal/platform information that would be valuable for fraud tracking and prevention.
+
+================================================================================
+STRUCTURED TTP EXTRACTION FOLLOWS
+================================================================================

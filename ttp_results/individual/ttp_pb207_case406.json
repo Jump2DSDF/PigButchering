@@ -1,0 +1,64 @@
+{
+  "case_id": 406,
+  "victim_count": 2,
+  "approach_and_lure": {
+    "initial_contact_platform": ["LinkedIn"],
+    "lure_type": ["investment_opportunity", "college_alumni_connection"],
+    "communication_migration": "LinkedIn → Line app"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": [
+      {"name": "Fergus Lee", "role": "primary_contact_victim1"},
+      {"name": "Unknown female", "claimed_identity": "UC Berkeley computer science student", "role": "primary_contact_victim2"}
+    ],
+    "psychological_tactics": [
+      "alma_mater_connection",
+      "progressive_investment_pressure",
+      "account_freeze_threat",
+      "elderly_exploitation"
+    ],
+    "trust_building_period": "Extended"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["Liquldohn"],
+    "platform_urls": ["liquldohn.com", "liquldohn.com/h5"],
+    "legitimate_platform_used": "Crypto.com",
+    "fake_profit_shown": true,
+    "fake_balance_displayed": {"victim_1": 200000},
+    "withdrawal_block_tactics": [
+      "account_freeze",
+      "unfreeze_fee_18000"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["unknown"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": {"victim_1": 50000, "victim_2": 880000, "total": 930000},
+    "payment_methods": ["cryptocurrency_transfer"],
+    "victim_fund_sources": ["401k_retirement", "bank_account", "trust_account", "ira_account"]
+  },
+  "intervention": {
+    "type": "financial_advisory_firm_intervention",
+    "action": "Denied additional withdrawals and reported to DFPI",
+    "amount_prevented": 260000
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.88,
+    "missing_information": ["wallet_addresses", "transaction_hashes"],
+    "notes": "CRITICAL HIGH VALUE: $930K combined loss. Victim 2 was elderly with diminished mental capacity - vulnerable population targeting. Financial advisory firm intervened and prevented additional $260K loss. UC Berkeley alumni connection used as social engineering hook."
+  },
+  "chain_of_thought": {
+    "step_1_initial_contact": "Fergus Lee contacted victim 1 on LinkedIn; Female 'UC Berkeley student' contacted elderly victim 2",
+    "step_2_trust_building": "Used college alumni connection to build trust with victim 2",
+    "step_3_platform_setup": "Showed victims how to set up Crypto.com accounts and transfer to Liquldohn",
+    "step_4_proof_of_concept": "Victim 1: $1,000 investment returned $607 on first trade",
+    "step_5_escalation": "Victim 1 withdrew from 401K ($50K); Victim 2 transferred $880K from bank",
+    "step_6_intervention": "Financial firm detected fraud, denied trust/IRA withdrawals, reported to DFPI"
+  }
+}

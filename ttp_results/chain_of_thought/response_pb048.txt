@@ -1,0 +1,172 @@
+## Chain of Thought Analysis - Case pb_048 (MIC Markets - micmarkfx.com)
+
+### Step 1: Initial Contact Analysis (접근 및 유인)
+
+**Victim 1:**
+- Initial contact: "met online" - platform unspecified
+- Communication migration: Not explicitly mentioned
+- Lure type: Investment opportunity (crypto asset trading)
+- Approach: Online acquaintance persuaded victim to deposit into trading account
+
+**Victim 2:**
+- Initial contact: "popular dating app" - specific app not named
+- Communication migration: YES - moved from dating app to WhatsApp
+- Lure type: Romance + investment opportunity (combined approach)
+- Approach: Romantic interest suggested investing together for "strong financial future"
+
+**Analysis:** This case demonstrates two distinct attack vectors:
+1. Social relationship → investment pitch (Victim 1)
+2. Romance scam → investment fraud (Victim 2, classic Pig Butchering)
+
+Both victims were directed to the same fraudulent platform (MIC Markets at micmarkfx.com).
+
+### Step 2: Persona & Psychology Analysis (사칭 및 심리)
+
+**Victim 1:**
+- Scammer persona: Online acquaintance (relationship type not romantic initially)
+- Wealth indicators: Not explicitly mentioned, but implied success through persuasion
+- Psychological tactics:
+  * Trust building through online relationship
+  * Social proof (successful platform claim)
+  * Small withdrawal allowance to build confidence
+  * Authority (fake tax demands)
+
+**Victim 2:**
+- Scammer persona: Romantic partner from dating app
+- Identity deception: Used stolen photos and information for fake dating profile (catfishing)
+- Wealth indicators: Demonstrated trading success (fake 25% profit demonstration)
+- Relationship type: Romantic partner with financial partnership angle
+- Psychological tactics:
+  * Trust building through romance
+  * Proof of concept (scammer added $1,000 and showed 25% profit)
+  * Social engineering (joint investment for future together)
+  * Pressure and bullying (demanded more funding from 401(k) or loans)
+  * Reciprocity (scammer promised to pay part of withdrawal fee)
+  * Sunk cost exploitation (victim already invested, pushed for more)
+
+**Trust Building Period:**
+- Victim 1: Not specified, but "over time" suggests weeks to months
+- Victim 2: Extended period - moved from dating app, built romantic relationship, demonstrated trades before soliciting large investments
+
+### Step 3: Fraud Mechanism Analysis (사기 수법)
+
+**Platform Details:**
+- Platform type: Fake cryptocurrency trading platform/app
+- Platform name: MIC Markets
+- Platform URL: micmarkfx.com
+- Platform format: Mobile app (victim instructed to download app)
+
+**Fake Profit Mechanism:**
+- YES - Both victims shown fake profits
+- Victim 1: Believed they had "doubled their money"
+- Victim 2: Shown 25% profit on demonstration trades, profit reached $50,000
+
+**Initial Withdrawal Allowance (Confidence Building):**
+- Victim 1: "At first, the victim was able to withdraw small amounts"
+- This is a classic tactic to build trust before the major extraction
+
+**Withdrawal Block Tactics:**
+- Victim 1:
+  * Blocked withdrawal of total balance
+  * Demanded "tax" payment before withdrawal allowed
+  * Complete withdrawal freeze after tax demand
+
+- Victim 2:
+  * Refused withdrawal processing
+  * Demanded 20% fee (on $50,000 profit = $10,000 fee)
+  * Complete account lockout after victim discovered fake profile
+  * Platform went offline/defunct
+
+**Additional Fraud Elements:**
+- Victim 2 was instructed to download Bitcoin wallet app (separate from trading app)
+- Multi-app ecosystem to appear legitimate
+
+### Step 4: Financial Intelligence Extraction (추적단서)
+
+**Cryptocurrency Types:**
+- Crypto assets (general, specific types not mentioned)
+- Bitcoin (explicitly mentioned for Victim 2's wallet app)
+
+**Wallet Addresses:** None mentioned in narrative
+
+**Transaction Hashes:** None mentioned in narrative
+
+**Financial Losses:**
+- Victim 1: $45,000 deposited, unable to withdraw despite believing account had doubled
+  * Estimated loss: $45,000 (initial deposit is confirmed loss)
+
+- Victim 2:
+  * Initial transfers: "thousands of dollars"
+  * Loan: $20,000 (explicitly stated)
+  * Total loss: "about $20,000" (stated at end)
+  * This suggests the "thousands of dollars" initial investment may have been smaller, or victim is only counting the loan
+
+**Total Combined Loss:** Approximately $65,000 ($45,000 + $20,000)
+
+**Payment Methods:**
+- Victim 1: Unknown specific method, deposited to trading account
+- Victim 2:
+  * Bitcoin wallet transfers
+  * Attempted to use 401(k) funds (for fees)
+  * Personal loan ($20,000)
+
+**Fee Extortion Amounts:**
+- Victim 2: 20% fee on $50,000 = $10,000 demanded
+- Scammer offered to split fee (victim to pay portion from 401(k))
+
+### Step 5: Temporal Analysis (시간적 지표)
+
+**Scam Duration:**
+- Victim 1: "Over time" - suggests extended period (weeks to months)
+- Victim 2: Extended period - relationship building phase, multiple deposits, loan acquisition timeline
+
+**Platform Status:**
+- "The site is no longer operational" (explicitly stated at end of narrative)
+- Status: DEFUNCT
+
+**Timeline Indicators:**
+- Small withdrawals allowed initially (trust building phase)
+- Progressive investment increases
+- Exit scam executed when victims attempted major withdrawals
+
+### Step 6: Confidence Assessment
+
+**High Confidence Information:**
+- Platform name: MIC Markets
+- Platform URL: micmarkfx.com
+- Platform status: Defunct
+- Initial contact methods: Dating app (Victim 2), online (Victim 1)
+- Communication migration: WhatsApp (Victim 2)
+- Fake profits shown: YES (both victims)
+- Withdrawal blocking: YES (both victims)
+- Financial losses: $45,000 (Victim 1), $20,000 (Victim 2)
+- Catfishing/identity theft: YES (Victim 2)
+
+**Medium Confidence Information:**
+- Trust building duration (inferred from narrative pacing)
+- Specific cryptocurrency types (Bitcoin mentioned but others unclear)
+- Total profit amounts shown to victims
+
+**Missing Information:**
+- Specific dating app name
+- Specific online platform for Victim 1
+- Wallet addresses
+- Transaction hashes
+- Exact timeline/dates
+- Scammer's claimed identity details (name, profession, location)
+- Whether Victim 1's acquaintance also posed as romantic interest
+- Specific cryptocurrency types traded
+- Geographic location of victims (California mentioned in other cases, but not here)
+
+**Confidence Score:** 0.85
+
+**Reasoning:**
+The narrative provides detailed information about two distinct victims with the same fraudulent platform. The dual victim account provides corroborating evidence of the fraud mechanism (fake profits, withdrawal blocks, fee demands). Platform details and loss amounts are explicit. However, some technical tracking details (wallet addresses, transaction hashes) and specific platform identifiers (dating app name) are absent. The confidence is high due to detailed operational TTPs and consistent fraud patterns across both victims.
+
+**Notable Elements:**
+1. This case shows the evolution from social engineering to romance scam variants
+2. Platform used mobile app format (not just website)
+3. Classic "allow small withdrawals first" trust-building tactic
+4. Pressure escalation (bullying victim into 401(k) or loan funding)
+5. Exit scam timing: platform shut down after victims discovered fraud and refused fee payments
+6. Catfishing confirmed (fake photos and identity)

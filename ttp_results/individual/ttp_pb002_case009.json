@@ -1,0 +1,64 @@
+{
+  "case_id": 9,
+  "approach_and_lure": {
+    "initial_contact_platform": ["online_platform_unspecified"],
+    "lure_type": ["romance", "investment_opportunity"],
+    "communication_migration": "unknown"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Romantic partner named 'Aileen' with wealthy investor aunt",
+      "wealth_indicators": [
+        "aunt_owns_properties_france_croatia",
+        "successful_investor_family",
+        "personal_trading_success",
+        "made_money_on_platform"
+      ],
+      "relationship_type": "romantic_partner"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "social_proof",
+      "authority",
+      "reciprocity",
+      "fear_of_missing_out",
+      "sunk_cost_exploitation"
+    ],
+    "trust_building_period": "Extended period (weeks to months, relationship establishment phase)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["web3app.rest"],
+    "platform_urls": ["web3app.rest"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "security_fee_500000",
+      "complete_fund_freeze_after_refusal"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["crypto_assets_unspecified"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 2500000,
+    "payment_methods": ["unknown"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended period (estimated 6+ months based on relationship building and investment accumulation)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.8,
+    "missing_information": [
+      "initial_contact_platform_specific",
+      "messaging_app_used",
+      "cryptocurrency_types_specific",
+      "wallet_addresses",
+      "transaction_hashes",
+      "payment_methods",
+      "exact_timeline_dates",
+      "scammer_location"
+    ],
+    "notes": "High-value case ($2.5M+ loss) demonstrating classic Pig Butchering pattern. Notable for sophisticated proof-of-concept mechanism: allowing initial small withdrawals to build confidence before major extraction attempt. Victim showed financial caution by refusing final $500K demand but had already lost $2.5M+. Platform's 'blockchain savings plan' terminology designed to sound legitimate and low-risk. California resident victim. Platform web3app.rest now defunct."
+  }
+}

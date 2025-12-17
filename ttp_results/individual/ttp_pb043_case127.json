@@ -1,0 +1,72 @@
+{
+  "case_id": 127,
+  "approach_and_lure": {
+    "initial_contact_platform": ["WhatsApp"],
+    "lure_type": ["friendship", "investment_opportunity"],
+    "communication_migration": "WhatsApp (maintained throughout)"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Business contact interested in professional services, evolved into trusted friend with crypto investment knowledge",
+      "wealth_indicators": [
+        "knowledge_of_crypto_investing",
+        "successful_trades_on_platform",
+        "ability_to_teach_crypto_purchases",
+        "confidence_in_investment_strategy",
+        "claimed_substantial_returns"
+      ],
+      "relationship_type": "friend"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "authority",
+      "social_proof",
+      "reciprocity",
+      "fear_of_missing_out",
+      "urgency",
+      "sunk_cost_exploitation"
+    ],
+    "trust_building_period": "Extended period (estimated 6-7 months): professional contact → friendship development → investment education → platform usage"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["Taurus Chain"],
+    "platform_urls": ["Tauruschain.net"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "VAT_tax_demand_200000_with_7day_deadline",
+      "friend_withdrawal_fee_request_120000",
+      "platform_unresponsive_after_refusal",
+      "complete_platform_shutdown"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["crypto_assets_unspecified"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 370000,
+    "payment_methods": [
+      "cryptocurrency_purchases_and_transfers",
+      "wire_transfer_120000_to_friend"
+    ]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Estimated 6-7 months (professional contact → friendship → investment education → platform deposits → withdrawal attempt → secondary extraction → scam revelation)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.9,
+    "missing_information": [
+      "specific_cryptocurrency_types",
+      "wallet_addresses",
+      "transaction_hashes",
+      "crypto_exchange_name",
+      "exact_timeline_dates",
+      "scammer_identity_details",
+      "wire_transfer_recipient_information",
+      "victim_demographic_details",
+      "blockchain_network_used"
+    ],
+    "notes": "HIGH-VALUE CASE: $370,000+ total loss representing most of victim's life savings. California resident. Sophisticated multi-stage approach: (1) Initial WhatsApp contact claiming professional services interest, (2) Friendship cultivation over months, (3) Investment education and mentorship, (4) Platform introduction showing substantial fake returns, (5) Withdrawal block via $200K 'VAT tax' demand with 7-day deadline, (6) Secondary extraction: $120K wire transfer for 'friend's' withdrawal fee - solidarity manipulation tactic. Notable tactics: Professional services initial angle (vs typical romance), educational approach building authority and reciprocity, scammer claimed same withdrawal issue to validate fake tax scenario and extract additional $120K via wire transfer. Multi-channel extraction (crypto + traditional wire). Platform Taurus Chain (Tauruschain.net) now defunct. Victim showed some caution by not paying $200K tax but had already lost $370K. Attempted total extraction: $570K+ ($250K platform deposits + $120K wire paid + $200K tax demanded). Loss breakdown estimated: ~$250K in crypto to platform, $120K wire to 'friend'. Demonstrates sophisticated targeting of high-value professional victims with patient, months-long cultivation period."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "case_id": 223,
+  "approach_and_lure": {
+    "initial_contact_platform": ["dating_app"],
+    "lure_type": ["romance", "investment_opportunity"],
+    "communication_migration": "Dating app (primary)"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Romantic interest met on dating app",
+      "wealth_indicators": [],
+      "relationship_type": "romantic_partner"
+    },
+    "psychological_tactics": [
+      "romance_manipulation",
+      "trust_building",
+      "proof_of_legitimacy",
+      "sunk_cost_exploitation"
+    ],
+    "trust_building_period": "Extended"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["LTEX"],
+    "platform_urls": ["h5.ltex.top"],
+    "trading_type": "Contract leveraging",
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "wire_transfer_charge_25",
+      "crypto_tax_demand_1209"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["ETH", "BTC"],
+    "wallet_addresses": [
+      "0xcb116E1d9d4a794a31D51a525Ff1832Ab3f20C28",
+      "3G4xQtmai9ENZ4dnRq9uWzGCRW2wgDy7S4"
+    ],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 3400,
+    "payment_methods": ["cryptocurrency_transfer"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.85,
+    "missing_information": [
+      "scammer_name",
+      "specific_dating_app",
+      "transaction_hashes"
+    ],
+    "notes": "CRITICAL: Both ETH and BTC wallet addresses extracted. ETH: 0xcb116E1d9d4a794a31D51a525Ff1832Ab3f20C28, BTC (P2SH): 3G4xQtmai9ENZ4dnRq9uWzGCRW2wgDy7S4. Contract leveraging scheme. Progressive fee extraction: $25 wire charge, then $1,209 crypto tax."
+  }
+}

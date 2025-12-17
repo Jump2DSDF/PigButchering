@@ -1,0 +1,336 @@
+{
+  "case_metadata": {
+    "pb_case_id": 84,
+    "original_case_id": 186,
+    "primary_subject": "ABS Trading (absgbl.com)",
+    "analysis_date": "2025-12-17",
+    "scam_type": [
+      "Fraudulent Trading Platform",
+      "Pig Butchering Scam",
+      "Investment Group Scam"
+    ]
+  },
+  "ttp_profile": {
+    "initial_contact": {
+      "method": "WhatsApp group chat + individual contact",
+      "platform": "WhatsApp",
+      "approach": "Dual-vector: investment group + personal relationship",
+      "group_details": {
+        "type": "Crypto contract trading group",
+        "participants": "Multiple (likely some fake accounts)",
+        "purpose": "Social proof and validation"
+      },
+      "individual_contact": {
+        "name": "Mona",
+        "relationship": "Group member turned personal advisor",
+        "role": "Investment coach and guide"
+      },
+      "target_demographic": "WhatsApp users interested in cryptocurrency trading"
+    },
+    "relationship_building": {
+      "tactics": [
+        "WhatsApp investment group for social proof",
+        "Multiple group participants for validation",
+        "Personal relationship development with Mona",
+        "Positioning as helpful investment advisor",
+        "Step-by-step technical guidance",
+        "Platform introduction via trusted group member",
+        "Ongoing coaching and support"
+      ],
+      "trust_indicators": [
+        "Group membership and community",
+        "Peer recommendations (implied)",
+        "Personal coaching relationship",
+        "Detailed instructional support",
+        "Professional trading platform",
+        "Successful initial deposits and trading"
+      ],
+      "duration": "Extended period (group joining through trading to exit attempt)",
+      "communication_channels": [
+        "WhatsApp group chat",
+        "Direct WhatsApp messages with Mona",
+        "Platform website (absgbl.com)",
+        "Platform messaging system"
+      ],
+      "manipulation_evolution": {
+        "initial_phase": "Helpful group and personal coaching",
+        "middle_phase": "Platform introduction and successful trading",
+        "late_phase": "Repeated pressure for additional deposits",
+        "exit_phase": "Withdrawal failure and platform shutdown"
+      }
+    },
+    "platform_introduction": {
+      "platform_name": "ABS Trading",
+      "platform_type": "Fraudulent Crypto Asset Trading Platform",
+      "website": "absgbl.com",
+      "urls": [
+        "https://absgbl.com/#/home",
+        "https://absgbl.com"
+      ],
+      "website_status": "No longer operational (exit scam)",
+      "investment_type": "Cryptocurrency contract trading",
+      "platform_features": [
+        "Account creation and login",
+        "Crypto asset deposit mechanism",
+        "Trading interface for crypto contracts",
+        "Balance display and tracking",
+        "Withdrawal request system",
+        "Professional design mimicking exchanges"
+      ],
+      "introduction_method": "Personal recommendation from Mona with detailed instructions",
+      "instructions_provided": [
+        "How to purchase crypto assets",
+        "How to transfer assets to platform",
+        "Platform navigation and features",
+        "Trading execution procedures",
+        "Account management"
+      ]
+    },
+    "financial_extraction": {
+      "deposit_methods": [
+        "Purchase crypto assets from legitimate exchange",
+        "Transfer assets to absgbl.com platform",
+        "Platform-controlled wallet addresses"
+      ],
+      "investment_pattern": [
+        "Initial deposits to platform",
+        "Active trading of crypto contracts",
+        "Likely displayed fake profits",
+        "Repeated pressure for additional deposits"
+      ],
+      "pressure_campaign": {
+        "tactic": "Mona repeatedly asked when victim would deposit more money",
+        "behavioral_shift": "Changed from advisor to aggressive salesperson",
+        "victim_reaction": "Became suspicious of repeated requests",
+        "significance": "Red flag that triggered withdrawal attempt"
+      },
+      "total_amount_lost": "Not specified (multiple deposits)",
+      "cryptocurrency_focus": "Crypto assets (unspecified types)"
+    },
+    "withdrawal_barriers": {
+      "tactics": [
+        "Victim became suspicious of deposit pressure",
+        "Attempted withdrawal from platform",
+        "Received false confirmation message from platform",
+        "Funds never actually transferred",
+        "Platform became non-operational",
+        "Mona and group disappeared"
+      ],
+      "false_confirmation": {
+        "message": "Transaction completed",
+        "source": "Platform website message",
+        "reality": "Funds never received by victim",
+        "purpose": [
+          "Delay victim's realization of theft",
+          "Prevent immediate escalation",
+          "Buy time for scammer exit",
+          "Create confusion about timing",
+          "Suggest technical issue rather than fraud"
+        ]
+      },
+      "victim_responses": [
+        "Became suspicious of repeated deposit requests",
+        "Attempted to withdraw funds",
+        "Waited for funds after confirmation",
+        "Realized funds never arrived",
+        "Discovered platform non-operational",
+        "Reported to authorities"
+      ],
+      "red_flags": [
+        "Mona's repeated deposit pressure",
+        "Behavioral change from helpful to pushy",
+        "Withdrawal confirmation without actual receipt",
+        "Inability to contact platform or Mona",
+        "Platform shutdown",
+        "Complete communication blackout"
+      ]
+    },
+    "impact_assessment": {
+      "financial_loss": "Multiple deposits (amount unspecified)",
+      "successful_withdrawal": "$0 (despite false confirmation)",
+      "fund_recovery": "None",
+      "victim_count": "At least 1 (California resident)",
+      "reporting": "California Department of Financial Protection and Innovation",
+      "current_status": "Website non-operational, exit scam completed",
+      "psychological_impact": [
+        "Betrayal by Mona and group",
+        "False hope from confirmation message",
+        "Realization of coordinated deception"
+      ]
+    }
+  },
+  "indicators_of_compromise": {
+    "domains": [
+      {
+        "domain": "absgbl.com",
+        "status": "Non-operational",
+        "type": "Fraudulent trading platform",
+        "urls": [
+          "https://absgbl.com/#/home",
+          "https://absgbl.com"
+        ]
+      }
+    ],
+    "individuals": [
+      {
+        "name": "Mona",
+        "platform": "WhatsApp",
+        "role": "Investment advisor/coach",
+        "note": "Likely pseudonym, coordinated with platform"
+      }
+    ],
+    "email_addresses": [],
+    "wallet_addresses": [],
+    "cryptocurrency_types": [
+      "Crypto assets (unspecified)"
+    ],
+    "communication_platforms": [
+      "WhatsApp group chat",
+      "WhatsApp direct messages",
+      "Platform messaging system"
+    ]
+  },
+  "attack_lifecycle": {
+    "phase_1_targeting": {
+      "vector": "WhatsApp investment group + individual contact",
+      "method": "Dual-vector social engineering with group validation"
+    },
+    "phase_2_engagement": {
+      "technique": "Personal coaching relationship with group social proof",
+      "duration": "Extended period of trust building",
+      "social_proof": "Multiple group participants validating opportunity"
+    },
+    "phase_3_investment": {
+      "mechanism": "Crypto asset transfers to platform",
+      "guidance": "Step-by-step instructions from Mona",
+      "pressure": "Repeated requests for additional deposits"
+    },
+    "phase_4_exploitation": {
+      "barrier": "False withdrawal confirmation message",
+      "outcome": "Complete loss of funds, platform shutdown"
+    }
+  },
+  "mitre_attack_mapping": {
+    "initial_access": {
+      "technique": "T1566.002 - Phishing: Spearphishing Link / T1566.003 - Phishing: Spearphishing via Service",
+      "description": "WhatsApp group-based social engineering with individual contact"
+    },
+    "execution": {
+      "technique": "T1204.002 - User Execution: Malicious File",
+      "description": "Victims voluntarily transfer crypto based on group and personal trust"
+    },
+    "persistence": {
+      "technique": "T1098 - Account Manipulation / T1136 - Create Account",
+      "description": "WhatsApp group membership, platform account, ongoing Mona relationship"
+    },
+    "privilege_escalation": {
+      "technique": "T1078 - Valid Accounts",
+      "description": "Group admin controls, platform authority, advisor positioning"
+    },
+    "defense_evasion": {
+      "technique": "T1027 - Obfuscated Files or Information / T1036 - Masquerading",
+      "description": "Group-based legitimacy, false confirmations, professional platform design"
+    },
+    "credential_access": {
+      "technique": "T1056 - Input Capture",
+      "description": "Platform account creation with victim credentials"
+    },
+    "discovery": {
+      "technique": "T1087 - Account Discovery / T1069 - Permission Groups Discovery",
+      "description": "Gathering victim financial capacity through conversation"
+    },
+    "collection": {
+      "technique": "T1005 - Data from Local System / T1114 - Email Collection",
+      "description": "Multiple crypto asset transfers, victim information"
+    },
+    "command_and_control": {
+      "technique": "T1071 - Application Layer Protocol",
+      "description": "WhatsApp communications, platform messaging system"
+    },
+    "impact": {
+      "technique": "T1485 - Data Destruction / T1499 - Endpoint Denial of Service",
+      "description": "Financial theft via false confirmation and exit scam"
+    }
+  },
+  "behavioral_patterns": {
+    "group_scam_indicators": [
+      "Investment group as entry point",
+      "Multiple participants for social proof",
+      "Shared learning environment facade",
+      "Peer recommendations within group",
+      "Individual coaching from group member",
+      "Platform promoted in group context",
+      "Coordinated operation (group, individual, platform)"
+    ],
+    "pressure_campaign_evolution": [
+      "Initial helpfulness establishing trust",
+      "Successful early deposits and trading",
+      "Gradual shift to deposit pressure",
+      "Repeated requests for more money",
+      "Victim suspicion triggered",
+      "Aggressive follow-up attempts"
+    ],
+    "false_confirmation_tactic": [
+      "Victim attempts withdrawal",
+      "Platform sends success confirmation",
+      "Funds never actually transferred",
+      "Victim believes processing delay",
+      "Scammers use time to exit",
+      "Platform shuts down permanently"
+    ]
+  },
+  "organizational_structure": {
+    "coordination_indicators": [
+      "Group administrators managing WhatsApp",
+      "Individual operators like Mona providing coaching",
+      "Platform operators managing website",
+      "Support personnel handling confirmations",
+      "Synchronized exit (group, Mona, platform all disappear)"
+    ],
+    "sophistication_markers": [
+      "Multi-vector initial contact",
+      "Layered social engineering",
+      "Professional platform development",
+      "Automated messaging systems",
+      "Coordinated pressure campaigns",
+      "Synchronized exit strategy"
+    ]
+  },
+  "recommendations": {
+    "detection": [
+      "Be extremely cautious of WhatsApp investment groups",
+      "Verify platform legitimacy independently",
+      "Research unfamiliar platform names and domains",
+      "Be suspicious of personal investment advice from group members",
+      "Watch for repeated deposit pressure as RED FLAG",
+      "Verify withdrawal confirmations with actual fund receipt"
+    ],
+    "prevention": [
+      "Avoid investment opportunities from messaging app groups",
+      "Never trust personal advisors met in investment groups",
+      "Research platforms through official regulatory sources",
+      "Be wary of step-by-step guidance to transfer funds",
+      "Recognize social proof in groups may be manufactured",
+      "Exit immediately if advisor pressures additional deposits",
+      "Verify all withdrawal confirmations before assuming success"
+    ],
+    "response": [
+      "Document all WhatsApp group and individual communications",
+      "Save screenshots of platform and confirmations",
+      "Report WhatsApp group and Mona's account",
+      "Report to financial authorities",
+      "Warn other group members if still accessible",
+      "Share domain and contact info with anti-scam communities",
+      "Do not respond to any recovery scam offers"
+    ],
+    "red_flag_checklist": [
+      "Investment opportunity from WhatsApp group = HIGH RISK",
+      "Personal advisor from group context",
+      "Unfamiliar platform (absgbl.com)",
+      "Repeated pressure for more deposits",
+      "Behavioral shift from helpful to pushy",
+      "Withdrawal confirmation but no funds received",
+      "Platform and contacts disappear simultaneously"
+    ]
+  }
+}

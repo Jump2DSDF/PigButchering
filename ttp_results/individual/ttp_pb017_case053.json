@@ -1,0 +1,103 @@
+{
+  "case_id": "pb_017",
+  "internal_reference": "case053",
+  "approach_and_lure": {
+    "initial_contact_platform": ["Facebook"],
+    "lure_type": ["investment_opportunity"],
+    "communication_migration": "Facebook (no migration detected - communications remained on Facebook)"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Successful crypto trader/investment advisor",
+      "wealth_indicators": [
+        "facebook_testimonials_from_others",
+        "testimonials_showing_luxury_cars",
+        "testimonials_showing_houses",
+        "crypto_trading_expertise",
+        "quick_profit_generation"
+      ],
+      "relationship_type": "investment_advisor"
+    },
+    "psychological_tactics": [
+      "social_proof",
+      "authority",
+      "greed",
+      "fear_of_missing_out",
+      "trust_building",
+      "sunk_cost_exploitation",
+      "false_rescue",
+      "artificial_urgency"
+    ],
+    "trust_building_period": "Days to short weeks (rapid-moving scam with 3-day profit promise)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["xplivetrade.com"],
+    "platform_urls": ["xplivetrade.com"],
+    "fake_profit_shown": true,
+    "fake_profit_details": {
+      "promised_return": "$5,500 in 3 days",
+      "displayed_profit": "$60,000 after 3 days"
+    },
+    "withdrawal_block_tactics": [
+      "percentage_fee_15_percent_of_earnings",
+      "conversion_fee_7000_to_convert_crypto_to_cash",
+      "false_rescue_1500_for_20_minute_bank_transfer"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["crypto_assets_unspecified"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": null,
+    "confirmed_payments": {
+      "percentage_fee_paid": "15% of $60,000 fake profits = $9,000",
+      "conversion_fee_status": "demanded $7,000, payment status unknown",
+      "rescue_fee_status": "demanded $1,500, victim refused"
+    },
+    "estimated_minimum_loss": "$9,000+ (confirmed 15% fee paid, plus unknown initial deposit)",
+    "payment_methods": ["unknown"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Days to weeks (rapid extraction model with 3-day profit window)",
+    "platform_status": "defunct",
+    "timeline_details": {
+      "initial_contact": "Facebook contact initiated by scammer",
+      "account_opening": "Victim guided to open account on xplivetrade.com",
+      "profit_display_window": "3 days",
+      "withdrawal_attempt": "After 3 days when fake profits displayed",
+      "current_status": "Platform no longer operational"
+    }
+  },
+  "technical_indicators": {
+    "domains": ["xplivetrade.com"],
+    "social_media_profiles": ["Facebook profile with testimonials (details unknown)"],
+    "infrastructure_notes": "Platform designed to show realistic trading interface with profit displays"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.75,
+    "missing_information": [
+      "initial_deposit_amount",
+      "whether_7000_conversion_fee_paid",
+      "total_financial_loss",
+      "cryptocurrency_types_specific",
+      "wallet_addresses",
+      "transaction_hashes",
+      "payment_methods",
+      "scammer_facebook_profile_details",
+      "testimonial_account_details",
+      "exact_dates_timeline",
+      "victim_banking_crypto_exchange_records",
+      "platform_technical_details"
+    ],
+    "notable_tactics": [
+      "Multi-tier extraction: Three separate fee demands (15% earnings, $7K conversion, $1.5K rescue)",
+      "False rescue scam: Original scammer offered to help retrieve funds for additional fee",
+      "Exceeded promises: Showed $60K profit vs promised $5.5K to build confidence",
+      "Social proof sophistication: Facebook testimonials with specific outcomes (cars, houses)",
+      "Quick-strike model: 3-day timeline indicates rapid extraction vs extended grooming",
+      "Integrated rescue scam: False rescue attempt by original scammer (not separate recovery scam)"
+    ],
+    "notes": "Fast-moving investment fraud variant of Pig Butchering scam. Distinguished by lack of romance element and compressed timeline (3-day profit promise vs months-long relationship building in classic cases). Sophisticated multi-tier extraction with three separate fee demands demonstrates organized operation. The 'false rescue' where original scammer offered to help for $1,500 is particularly notable - this integrates recovery scam tactics into the primary fraud. Facebook testimonials showing luxury purchases (cars, houses) provide powerful social proof. Victim showed financial awareness by refusing final $1,500 demand but had already paid 15% fee ($9,000). Platform now defunct (typical exit scam). California resident victim. Significant intelligence gaps in financial tracking data severely limit blockchain investigation potential."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "case_id": 243,
+  "approach_and_lure": {
+    "initial_contact_platform": ["online_unspecified"],
+    "lure_type": ["investment_opportunity"],
+    "communication_migration": "Unknown"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Unknown individual met online",
+      "wealth_indicators": [],
+      "relationship_type": "investment_advisor"
+    },
+    "psychological_tactics": [
+      "fake_profit_display",
+      "delayed_withdrawal_excuse",
+      "escalating_fee_demands"
+    ],
+    "trust_building_period": "Unknown"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["Tether Pool"],
+    "platform_urls": ["tetherpool.art", "tetherpool.top"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "tax_demand",
+      "withdrawal_processing_delay",
+      "special_handling_fee_30000"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["ETH"],
+    "wallet_addresses": [
+      "0xd68f7E162BA2697684e544A424A0ca6886D82345"
+    ],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 9500,
+    "payment_methods": ["cryptocurrency_transfer"]
+  },
+  "victim_count": 2,
+  "temporal_indicators": {
+    "scam_duration": "Several months",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.78,
+    "missing_information": [
+      "victim1_wallet_address",
+      "total_combined_loss",
+      "transaction_hashes"
+    ],
+    "notes": "CRITICAL: ETH wallet address 0xd68f7E162BA2697684e544A424A0ca6886D82345 extracted. 2 victims. Extended delay tactic - months of 'processing' before demanding $30K special handling fee. Multiple domain names (tetherpool.art, tetherpool.top)."
+  }
+}

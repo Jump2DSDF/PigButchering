@@ -1,0 +1,71 @@
+{
+  "case_id": 322,
+  "approach_and_lure": {
+    "initial_contact_platform": ["Facebook"],
+    "lure_type": ["investment_opportunity", "crypto_education"],
+    "communication_migration": "Facebook → WhatsApp"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": [
+      {"name": "Anjali", "claimed_identity": "Mutual friend connection", "role": "primary_scammer"},
+      {"name": "Csilla", "claimed_identity": "Exchange support representative", "role": "recovery_scammer"}
+    ],
+    "psychological_tactics": [
+      "social_proof_mutual_friends",
+      "education_offer",
+      "big_market_day_urgency",
+      "fake_profit_display",
+      "account_freeze_threat",
+      "hacker_blame",
+      "recovery_scam"
+    ],
+    "trust_building_period": "Short to Medium"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["Public Realm", "Publicrealm.pro"],
+    "platform_urls": ["publicrealm.pro"],
+    "fake_profit_shown": true,
+    "fake_balance_displayed": 178000,
+    "withdrawal_block_tactics": [
+      "account_freeze",
+      "20_percent_deposit_to_unfreeze",
+      "hacker_stole_funds_excuse"
+    ],
+    "secondary_scam": {
+      "type": "recovery_scam",
+      "scammer": "Csilla",
+      "method": "Fake exchange support on community page",
+      "extracted": 10000,
+      "excuse": "gas_fee"
+    }
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["ETH"],
+    "wallet_addresses": [
+      "0xC834a7EF0337F939219Ea1B05f2248DE7d809aB4",
+      "0xD80afd661c2835dd04AeaA7ADB39526eB287569E",
+      "0xA7a5855B1b62b22c55da59724d85cbac7F3ce3d7"
+    ],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 183000,
+    "payment_methods": ["cryptocurrency_transfer"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.93,
+    "missing_information": ["transaction_hashes"],
+    "notes": "CRITICAL: 3 ETH wallets extracted, $183K loss. DOUBLE SCAM - victim hit by BOTH investment fraud AND recovery scam. Csilla posed as exchange support on 'legitimate community page' and stole additional $10K as 'gas fee'. Shows organized operation with multiple scam phases."
+  },
+  "chain_of_thought": {
+    "step_1_initial_contact": "Anjali approached on Facebook appearing to have mutual friends",
+    "step_2_platform_migration": "Moved conversation to WhatsApp for 'private' instruction",
+    "step_3_education_hook": "Offered to teach victim how to set up and trade crypto",
+    "step_4_investment_escalation": "$5K initial → $133K on 'big market day' urgency",
+    "step_5_primary_extraction": "Account frozen, 20% ($35K) deposit demanded, then 'hacker' excuse",
+    "step_6_secondary_scam": "Victim sought help online, Csilla posed as exchange support, stole $10K as 'gas fee'"
+  }
+}

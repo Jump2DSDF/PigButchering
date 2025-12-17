@@ -1,0 +1,199 @@
+CHAIN OF THOUGHT ANALYSIS - PIG BUTCHERING CASE
+================================================
+Case ID: pb087_case190
+Platform: Trus Flow (trusflow.com)
+Analysis Date: 2025-12-17
+
+STEP 1: INITIAL CONTACT & TRUST BUILDING
+-----------------------------------------
+Platform/Channel: LinkedIn (initial contact) -> WhatsApp (communication)
+Approach Method: Professional networking leading to private messaging with investment opportunity
+Social Engineering Tactics:
+  - Initial contact through professional network (LinkedIn)
+  - Migration to private messaging app (WhatsApp)
+  - Friendly conversation building rapport
+  - Suggestion of earning opportunity through crypto trading
+
+Initial Hook: "Earning money by crypto trading" presented as friendly suggestion
+
+Contact Pattern:
+  - Met on LinkedIn (professional context)
+  - Invited to chat on WhatsApp (private channel)
+  - Built relationship before introducing investment opportunity
+  - Positioned as friend/advisor rather than salesperson
+
+STEP 2: PLATFORM INTRODUCTION & SMALL WINS
+-------------------------------------------
+Fraudulent Platform: Trus Flow (trusflow.com)
+Platform URLs:
+  - https://www.trusflow.com/#/
+  - https://www.trusflow.com/
+  - https://www.trusflow.com
+  - trusflow.com
+
+Platform Type: Fraudulent crypto trading platform
+Platform Status: No longer operational
+
+Educational Component:
+  - Contact "taught" victim how to exchange cash for crypto
+  - Guided on transferring funds to the site for trading
+  - Created appearance of legitimate instruction and expertise
+
+Initial Investment Strategy:
+  - Victim tested platform with $1,000
+  - Small test amount allowed to build confidence
+  - Victim "believed they had made a profit" on initial investment
+
+Fabricated Success:
+  - Initial $1,000 test showed profit
+  - Encouraged continued deposits over couple of months
+  - Account allegedly grew to nearly $500,000 in profit
+  - False profits displayed to encourage further investment
+
+STEP 3: INVESTMENT ESCALATION
+------------------------------
+Total Investment: Over $300,000 (not including fees)
+
+Investment Pattern:
+  - Started with $1,000 test investment
+  - Successful initial test encouraged more deposits
+  - Deposits made over a couple of months
+  - Progressive investment based on displayed profits
+  - Account showed nearly $500,000 in profits
+
+Timeline: Couple of months of active trading and deposits
+
+Psychological Manipulation:
+  - Initial small success built confidence
+  - Display of massive fake profits (nearly $500,000)
+  - Gradual investment escalation over time
+  - Contact providing continuous guidance and support
+  - Illusion of legitimate trading platform
+
+STEP 4: WITHDRAWAL BARRIERS & FEE EXTRACTION
+---------------------------------------------
+This case demonstrates an extreme progressive fee extraction scheme:
+
+Barrier 1 - Large Volume Trading Commission:
+  - Fee Demanded: $100,000
+  - Justification: "Large volume trading commission" required before withdrawal
+  - Outcome: PAID by victim
+
+Barrier 2 - Green Channel Fee:
+  - Fee Demanded: $100,000
+  - Justification: "Green channel fee" to expedite withdrawal
+  - Promise: Would be refunded to victim later
+  - Outcome: PAID by victim
+
+Barrier 3 - Security Deposit:
+  - Fee Demanded: $75,000
+  - Justification: "Security deposit" required
+  - Promise: Would also be refunded
+  - Outcome: Demanded but payment status unclear
+
+Fee Extraction Tactics:
+  - Massive fee demands ($100,000 per fee)
+  - False promises of refunds to justify payment
+  - Progressive barrier creation
+  - Each payment led to new fee requirement
+  - Total fee demands: $275,000 ($100,000 + $100,000 + $75,000)
+  - Fees comparable to or exceeding original investment
+
+Total Fees Paid: At minimum $200,000 (first two fees)
+Total Loss: Over $300,000 (not recovered)
+
+STEP 5: FINAL EXTRACTION & EXIT
+--------------------------------
+Final Status:
+  - Total loss: Over $300,000
+  - No funds recovered
+  - Contact cut off all communication
+  - Website is no longer operational
+  - Victim completely ghosted
+
+Exit Strategy:
+  - Progressive fee extraction until victim exhausted or suspicious
+  - Complete communication cutoff by LinkedIn contact
+  - Website shutdown
+  - No recourse for victim
+
+Communication Termination:
+  - LinkedIn contact ceased all communication
+  - Victim abandoned after extraction complete
+  - WhatsApp contact likely blocked or deleted
+
+Impact:
+  - Total financial loss exceeds $300,000
+  - Loss includes both investments and massive fraudulent fees
+  - Complete ghosting and platform shutdown
+  - No possibility of recovery
+
+STEP 6: KEY INDICATORS & RED FLAGS
+-----------------------------------
+Critical Warning Signs:
+  1. Contact migration from LinkedIn to WhatsApp
+  2. Unsolicited investment advice from LinkedIn connection
+  3. Unrealistic returns - account showed nearly $500,000 profit
+  4. Massive withdrawal fees ($100,000+) required before accessing funds
+  5. Multiple progressive fee demands
+  6. Fees equal to or exceeding original investment
+  7. False promises of fee refunds
+  8. Invented fee types ("green channel fee", "large volume trading commission")
+  9. Contact ghosting after fee payments
+  10. Website shutdown after extraction
+
+Technical Indicators:
+  - Domain: trusflow.com (multiple URL variations)
+  - Platform now offline/non-operational
+  - No legitimate exchange requires "green channel fees"
+  - No legitimate exchange requires "security deposits" of $75,000
+
+Financial Red Flags:
+  - $100,000 "trading commission" (unprecedented)
+  - $100,000 "green channel fee" (non-existent in legitimate platforms)
+  - $75,000 "security deposit" (absurd requirement)
+  - Total fees: $275,000 (nearly equal to total investment)
+  - Fees not deducted from account balance
+  - False refund promises
+
+Operational Patterns:
+  - LinkedIn to WhatsApp migration
+  - Educational grooming (teaching crypto exchange and transfers)
+  - Small initial test success
+  - Massive fake profit display
+  - Extreme multi-stage fee extraction
+  - Complete ghosting and shutdown
+
+Social Engineering Sophistication:
+  - Professional platform (LinkedIn) for initial legitimacy
+  - Private channel (WhatsApp) for manipulation
+  - Educational approach to build trust and expertise
+  - Progressive trust building over months
+  - Refund promises to overcome fee resistance
+
+CRYPTOCURRENCY WALLET ADDRESSES IDENTIFIED
+-------------------------------------------
+None explicitly mentioned in the complaint narrative.
+
+SUMMARY & TTP CLASSIFICATION
+-----------------------------
+Scam Type: Fraudulent Trading Platform / Pig Butchering Scam
+Sophistication Level: VERY HIGH - Professional platform approach, massive fee extraction
+Primary TTPs:
+  - T1566: Initial Contact via LinkedIn with migration to WhatsApp
+  - T1204: Platform Introduction with educational grooming
+  - T1078: Investment escalation over months with fabricated success
+  - T1486: Extreme multi-stage fee extraction ($275,000 total)
+  - T1537: Complete ghosting and platform shutdown
+
+Victim Profile: Californian, LinkedIn user, crypto trading interest
+Loss Amount: $300,000+ (including fees)
+Attack Duration: Several months (couple of months of trading + fee extraction period)
+Recovery Status: No recovery, contact ghosted, website offline
+
+Notable Characteristics:
+  - Professional network exploitation (LinkedIn)
+  - Extreme fee amounts ($100,000+ per fee)
+  - False refund promises as psychological manipulation
+  - Complete abandonment after extraction
+  - One of the highest loss amounts in dataset

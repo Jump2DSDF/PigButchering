@@ -1,0 +1,343 @@
+{
+  "case_metadata": {
+    "pb_case_id": 92,
+    "original_case_id": 196,
+    "analysis_date": "2025-12-17",
+    "platform_name": "Hagradg.cc",
+    "primary_domain": "hagradg.cc",
+    "case_status": "complete_loss_limited",
+    "victim_location": "California, USA"
+  },
+  "scam_classification": {
+    "primary_type": "Fraudulent Trading Platform",
+    "secondary_types": [
+      "Pig Butchering Scam",
+      "Fee Extortion Scam",
+      "Exit Scam",
+      "Mobile App Fraud"
+    ],
+    "sophistication_level": "medium_high",
+    "target_demographic": "retail_traders_multi_asset"
+  },
+  "attack_chain": {
+    "initial_access": {
+      "method": "mobile_application",
+      "vector": "fraudulent_trading_app",
+      "platform": "mobile_app_and_web",
+      "lure": "multi_asset_trading_platform",
+      "trust_building_duration": "short",
+      "initial_deposit_barrier": "low_100_usd"
+    },
+    "reconnaissance": {
+      "victim_profiling": "retail_trader_interested",
+      "targeting_method": "app_distribution_broad_net",
+      "information_gathered": "basic_trading_interest"
+    },
+    "execution": {
+      "platform_type": "fake_multi_asset_exchange",
+      "access_methods": [
+        "mobile_application",
+        "web_interface_pc_hagradg_cc"
+      ],
+      "onboarding_process": [
+        "app_download_or_access",
+        "account_registration",
+        "initial_deposit_100_usd"
+      ],
+      "investment_mechanism": "crypto_or_payment_deposit",
+      "trading_interface": "multi_asset_simulation",
+      "asset_classes_offered": [
+        "forex",
+        "metals",
+        "oil",
+        "cfd",
+        "cryptocurrency"
+      ]
+    },
+    "persistence": {
+      "engagement_tactics": [
+        "display_extreme_fake_profits",
+        "multi_market_trading_simulation",
+        "professional_mobile_and_web_interface",
+        "real_time_price_feeds",
+        "account_balance_growth_display"
+      ],
+      "communication_channels": [
+        "in_app_messaging"
+      ],
+      "duration": "short_term"
+    },
+    "profit_manipulation": {
+      "display_method": "fabricated_account_balance_in_app",
+      "fake_profits_shown": true,
+      "initial_deposit": 100,
+      "displayed_balance": "over_1500",
+      "profit_amount": 1400,
+      "profit_percentage": "1400_percent_plus",
+      "encouragement_for_more_deposits": "via_profit_display"
+    },
+    "withdrawal_denial": {
+      "method": "fee_extortion",
+      "fee_demanded": 900,
+      "fee_justification": "required_to_release_funds",
+      "fee_percentage_of_balance": 60,
+      "victim_compliance": "refused_complained",
+      "platform_response": "immediate_account_lockout"
+    },
+    "exit_strategy": {
+      "method": "account_lockout_then_platform_shutdown",
+      "timing": "after_victim_complaint",
+      "site_status": "no_longer_in_operation",
+      "contact_loss": true,
+      "retaliation": "account_lockout_for_complaining"
+    }
+  },
+  "technical_indicators": {
+    "infrastructure": {
+      "domains": [
+        "hagradg.cc",
+        "pc.hagradg.cc"
+      ],
+      "urls": [
+        "https://pc.hagradg.cc/#/?from=/user"
+      ],
+      "tld": "cc",
+      "tld_jurisdiction": "cocos_islands_offshore",
+      "subdomains": [
+        "pc.hagradg.cc"
+      ],
+      "hosting": "unknown",
+      "ssl_enabled": true,
+      "current_status": "offline"
+    },
+    "application": {
+      "platform_type": "mobile_app",
+      "supported_platforms": [
+        "mobile_ios_and_or_android",
+        "web_browser"
+      ],
+      "architecture": "single_page_application",
+      "hash_routing": true,
+      "referral_tracking": "possible_via_url_params"
+    },
+    "cryptocurrency": {
+      "wallet_addresses": [],
+      "crypto_types": [
+        "unspecified"
+      ],
+      "deposit_method": "victim_deposits_to_platform",
+      "blockchain_trails": "unknown"
+    },
+    "communication": {
+      "platforms": [
+        "in_app_messaging"
+      ],
+      "contact_methods": [
+        "platform_internal_complaint_system"
+      ],
+      "impersonation": false
+    }
+  },
+  "financial_impact": {
+    "direct_losses": {
+      "initial_deposit": 100,
+      "currency": "usd_or_crypto",
+      "payment_methods": [
+        "unknown_likely_crypto"
+      ]
+    },
+    "fees_demanded": {
+      "withdrawal_fee": 900,
+      "fee_paid": false,
+      "victim_avoided_additional_loss": 900
+    },
+    "fake_profits_displayed": 1400,
+    "total_actual_loss": 100,
+    "total_potential_loss_if_complied": 1000,
+    "recovery_status": "no_recovery",
+    "recovery_probability": "none"
+  },
+  "victim_interaction": {
+    "relationship_type": "platform_customer_only",
+    "communication_frequency": "minimal",
+    "trust_level_achieved": "moderate_via_interface",
+    "victim_actions": [
+      "deposited_100_usd",
+      "observed_fake_profits",
+      "attempted_withdrawal",
+      "complained_about_fee",
+      "refused_to_pay_additional_900"
+    ],
+    "red_flags_noticed": [
+      "unrealistic_fee_demand",
+      "account_lockout_after_complaint",
+      "platform_shutdown"
+    ],
+    "reporting_action": "complaint_filed",
+    "victim_judgment": "good_refused_additional_payment"
+  },
+  "ttps_mitre_style": {
+    "tactics": [
+      "Initial Access",
+      "Execution",
+      "Persistence",
+      "Collection",
+      "Defense Evasion",
+      "Impact"
+    ],
+    "techniques": {
+      "initial_access": [
+        "T-PB-003: Mobile Application Distribution",
+        "T-PB-004: Low Initial Investment Barrier",
+        "T-PB-005: Multi-Asset Trading Lure"
+      ],
+      "execution": [
+        "T-PB-012: Fake Trading Interface",
+        "T-PB-013: Multi-Market Simulation",
+        "T-PB-014: Victim Deposits to Platform"
+      ],
+      "persistence": [
+        "T-PB-020: Fake Profit Display",
+        "T-PB-022: Extreme Profit Growth Display",
+        "T-PB-023: Professional Multi-Platform Interface"
+      ],
+      "collection": [
+        "T-PB-050: Initial Deposit Collection",
+        "T-PB-051: Withdrawal Fee Extortion Attempt"
+      ],
+      "defense_evasion": [
+        "T-PB-030: Legitimate Exchange Mimicry",
+        "T-PB-032: HTTPS Encryption",
+        "T-PB-033: Offshore Domain Registration",
+        "T-PB-034: Mobile App Distribution",
+        "T-PB-035: Complex Multi-Asset Simulation"
+      ],
+      "impact": [
+        "T-PB-040: Withdrawal Denial",
+        "T-PB-043: Fee Extortion Demand",
+        "T-PB-044: Account Lockout as Retaliation",
+        "T-PB-045: Complete Platform Shutdown",
+        "T-PB-046: Financial Loss"
+      ]
+    }
+  },
+  "behavioral_patterns": {
+    "scammer_behavior": {
+      "patience_level": "low",
+      "professionalism": "high_technical_low_social",
+      "aggression": "high_when_challenged",
+      "exit_trigger": "victim_complaint_and_refusal",
+      "retaliation": "immediate_account_lockout",
+      "volume_approach": "many_victims_small_amounts"
+    },
+    "victim_behavior": {
+      "trust_establishment": "platform_interface_quality",
+      "investment_pattern": "single_small_deposit",
+      "withdrawal_attempts": "one_after_profit_display",
+      "awareness_point": "unrealistic_fee_demand",
+      "resistance": "complained_and_refused_payment",
+      "final_action": "reported_to_authorities"
+    }
+  },
+  "timeline": {
+    "initial_contact": "unknown",
+    "first_deposit": "unknown_date",
+    "first_deposit_amount": 100,
+    "profit_display_period": "unknown_short",
+    "account_peak_balance": 1500,
+    "withdrawal_attempt": "unknown_date",
+    "fee_demand": "upon_withdrawal_attempt",
+    "complaint_filed": "unknown_date",
+    "account_lockout": "immediately_after_complaint",
+    "platform_shutdown": "subsequently",
+    "total_duration": "short_term"
+  },
+  "indicators_of_compromise": {
+    "domains": [
+      "hagradg.cc",
+      "pc.hagradg.cc"
+    ],
+    "urls": [
+      "https://pc.hagradg.cc/#/?from=/user"
+    ],
+    "wallet_addresses": [],
+    "email_addresses": [],
+    "phone_numbers": [],
+    "social_media_accounts": [],
+    "mobile_apps": [
+      "hagradg_trading_app_name_unknown"
+    ]
+  },
+  "prevention_lessons": {
+    "red_flags": [
+      "Unrealistic profit growth (1,400% in short time)",
+      "Low initial deposit requirement targeting volume",
+      "Unusual domain extension (.cc)",
+      "Mobile app from unknown source",
+      "Multi-asset trading from unheard-of platform",
+      "Withdrawal fee demand of 60% of balance",
+      "Account lockout as response to complaint",
+      "No regulatory information",
+      "Platform not on known exchange lists"
+    ],
+    "verification_failures": [
+      "No verification of app legitimacy",
+      "No check of platform regulatory status",
+      "No independent reviews consulted",
+      "No verification of company information",
+      "No test withdrawal before larger deposits"
+    ],
+    "recommendations": [
+      "Only use regulated, well-known trading platforms",
+      "Verify regulatory registration before depositing",
+      "Be extremely skeptical of unrealistic returns",
+      "Avoid mobile apps from unknown developers",
+      "Research platform extensively before investing",
+      "Test withdrawal capability with minimum amount",
+      "Never pay fees to access your own money",
+      "Avoid platforms with offshore domain registrations",
+      "Check app store ratings and reviews carefully",
+      "Consult financial advisor before exotic trading platforms"
+    ],
+    "victim_positive_actions": [
+      "Kept initial deposit small ($100)",
+      "Questioned unrealistic fee demand",
+      "Complained to platform about suspicious activity",
+      "Refused to pay additional $900",
+      "Reported to authorities",
+      "Limited total loss by resistance"
+    ]
+  },
+  "law_enforcement": {
+    "reported": true,
+    "reporting_agency": "implied_california_authorities",
+    "case_number": "unknown",
+    "investigation_status": "unknown",
+    "international_coordination": "unknown"
+  },
+  "attribution": {
+    "threat_actor": "unknown",
+    "geographic_origin": "unknown_offshore_infrastructure",
+    "organization_type": "organized_fraud_group_technical_capability",
+    "related_campaigns": "unknown",
+    "confidence_level": "low"
+  },
+  "additional_notes": {
+    "analyst_comments": "This case demonstrates a high-volume, low-value approach to pig butchering fraud. The mobile app distribution and immediate retaliation to complaints suggests an operation focused on quick turnover rather than long-term victim cultivation. The extreme profit display (1,400%+) appears designed to trigger rapid withdrawal attempts, enabling the fee extortion phase. Victim showed excellent judgment by refusing to pay the $900 fee, limiting losses to the initial $100 deposit.",
+    "missing_information": [
+      "Mobile app distribution method (app store vs sideload)",
+      "Cryptocurrency wallet addresses",
+      "Timeline duration",
+      "Communication platform details",
+      "Operator identity or location"
+    ],
+    "comparison_to_typical_pig_butchering": "Significantly shorter timeline than classic pig butchering. No relationship building or romance elements. Focus on volume (many victims, small amounts) rather than cultivation (few victims, large amounts). Fee extortion variant differs from typical encouragement of additional investments.",
+    "unique_characteristics": [
+      "Mobile-first approach with dedicated app",
+      "Very low initial deposit ($100)",
+      "Extreme fake profit display (14x)",
+      "Immediate punitive response to complaint",
+      "Quick exit after failed extortion"
+    ]
+  }
+}

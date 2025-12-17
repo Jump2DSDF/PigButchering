@@ -1,0 +1,59 @@
+{
+  "case_id": 418,
+  "approach_and_lure": {
+    "initial_contact_platform": ["online_unspecified"],
+    "lure_type": ["investment_opportunity"],
+    "communication_migration": "Unknown"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "name": "Hao Yang",
+      "claimed_identity": "Crypto investment advisor",
+      "relationship_type": "investment_advisor"
+    },
+    "impersonated_entities": [
+      {"entity": "NYMEX (New York Mercantile Exchange)", "type": "commodity_exchange", "real_entity": true}
+    ],
+    "psychological_tactics": [
+      "authority",
+      "legitimate_exchange_impersonation",
+      "extreme_fake_profit_display"
+    ],
+    "trust_building_period": "Extended"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["NYMEX (fake)"],
+    "platform_urls": ["unknown"],
+    "legitimate_platform_used": "Coinbase",
+    "fake_profit_shown": true,
+    "fake_balance_displayed": 10000000,
+    "withdrawal_block_tactics": [
+      "complete_communication_cutoff"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["unknown"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 650000,
+    "payment_methods": ["cryptocurrency_transfer"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.80,
+    "missing_information": ["wallet_addresses", "platform_url", "transaction_hashes", "detailed_narrative"],
+    "notes": "HIGH VALUE CASE: $650K loss. MAJOR BRAND IMPERSONATION: NYMEX (New York Mercantile Exchange) - legitimate US commodity futures exchange. Extreme fake balance: $10M displayed (15x actual investment). Complete ghosting at withdrawal stage."
+  },
+  "chain_of_thought": {
+    "step_1_initial_contact": "Hao Yang contacted victim online",
+    "step_2_trust_building": "Extended relationship building period",
+    "step_3_platform_setup": "Instructed to buy crypto on Coinbase and transfer to 'NYMEX'",
+    "step_4_investment_escalation": "Progressive investment totaling $650K",
+    "step_5_fake_profit_display": "Account showed $10M balance (15x return illusion)",
+    "step_6_exit_scam": "When withdrawal attempted, scammers disappeared completely"
+  }
+}

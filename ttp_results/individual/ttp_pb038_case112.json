@@ -1,0 +1,88 @@
+{
+  "case_id": 112,
+  "approach_and_lure": {
+    "initial_contact_platform": ["Tinder", "phone_call"],
+    "lure_type": ["romance", "investment_opportunity", "professional_broker_pitch"],
+    "communication_migration": "unknown"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Victim 1: Romantic partner with investment knowledge; Victim 2: Professional broker representing Tickmill",
+      "wealth_indicators": [
+        "trading_success",
+        "investment_knowledge",
+        "professional_credentials",
+        "company_affiliation_tickmill",
+        "platform_access"
+      ],
+      "relationship_type": "romantic_partner_and_professional_advisor"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "authority",
+      "social_proof",
+      "legitimacy_theater",
+      "brand_impersonation",
+      "fear_of_tax_consequences",
+      "sunk_cost_exploitation",
+      "reciprocity"
+    ],
+    "trust_building_period": "Victim 1: Weeks to months (1-3 months inferred); Victim 2: Days to weeks (cold-call approach)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_trading_platform",
+    "platform_names": ["Tickmill", "tickmillgloballtd.cc"],
+    "platform_urls": ["https://pc.tickmillgloballtd.cc/#/"],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "short_term_capital_gains_tax_demand",
+      "withdrawal_blocking_unspecified_victim2"
+    ],
+    "brand_impersonation": "Legitimate Tickmill broker brand impersonated using fraudulent domain"
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["crypto_assets_unspecified"],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 62000,
+    "loss_breakdown": {
+      "victim_1": 51000,
+      "victim_2": 11000
+    },
+    "payment_methods": ["unspecified"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Victim 1: 1-3 months (inferred); Victim 2: Days to weeks (inferred)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.75,
+    "missing_information": [
+      "cryptocurrency_types_specific",
+      "wallet_addresses",
+      "transaction_hashes",
+      "deposit_dates_and_amounts",
+      "tax_demand_amount_victim1",
+      "victim2_withdrawal_blocking_mechanism",
+      "communication_platform_post_tinder_victim1",
+      "payment_methods",
+      "scammer_phone_number_victim2",
+      "tinder_profile_data_victim1",
+      "exact_timeline_dates",
+      "number_of_deposits",
+      "whether_initial_withdrawals_allowed",
+      "platform_screenshots"
+    ],
+    "notes": "Sophisticated Pig Butchering operation using BRAND IMPERSONATION of legitimate Tickmill broker. DUAL-VECTOR ATTACK: (1) Romance-based via Tinder ($51K+ loss), (2) Professional cold-call 'broker' approach ($11K loss). Combined loss: $62,000+ from two California victims. Sophisticated 'short-term capital gains tax' withdrawal blocking (V1). Platform exit scam (defunct). Professional operation with multi-channel victim acquisition. Geographic concentration in California suggests possible targeting. Loss amount variance reflects different victim profiles/relationship depths. Critical need for blockchain data. High priority for brand impersonation report to legitimate Tickmill and domain investigation.",
+    "investigative_priority": "MEDIUM-HIGH",
+    "victim_location": "California",
+    "number_of_victims": 2,
+    "special_characteristics": [
+      "brand_impersonation",
+      "multi_vector_attack",
+      "dual_victim_case",
+      "geographic_concentration",
+      "sophisticated_tax_terminology"
+    ]
+  }
+}

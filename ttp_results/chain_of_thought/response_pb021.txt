@@ -1,0 +1,662 @@
+## Chain of Thought Analysis for Case 063 (CWGMain.cc) - pb_021
+
+### Case Information
+**Case ID:** 63
+**PB Case ID:** 21
+**Primary Subject:** CWGmain
+**Platform:** CWGMain.cc
+**Scam Type:** Pig Butchering Scam / Fraudulent Trading Platform
+
+**Complaint Narrative:**
+"A California resident reports meeting 'Yilin' online, who promised an investment opportunity for 'electric gold', a type of digital gold currency. Following Yilin's instructions, the resident wired money to the Fraudulent Trading Platform 'CWG Main'. At one point, the resident believed their account had grown to approximately $289,000 on the platform. But when they tried to withdraw funds, the platform demanded they pay $49,000 for 'taxes' to withdraw their funds. The resident has been unable to recover any funds and the website is no longer operational. All told the victim lost more than $91,000 on the platform."
+
+---
+
+### Step 1: Initial Contact Analysis (접근 및 유인)
+
+**Reasoning:**
+The narrative states the victim "reports meeting 'Yilin' online." This indicates:
+- Initial contact was made on an unspecified online platform (likely dating app, social media, or messaging platform)
+- The scammer used a specific persona name ("Yilin")
+- No explicit mention of the specific platform or whether there was migration to another communication channel
+- The contact was online and resulted in establishing some form of relationship or trust
+
+The lure type evolved from an online meeting into an investment opportunity. Yilin "promised an investment opportunity for 'electric gold', a type of digital gold currency." This is a classic Pig Butchering pattern - establishing contact first, then introducing the investment opportunity.
+
+Unlike romance-heavy cases, this narrative focuses more on the investment opportunity aspect. The initial "meeting online" could suggest:
+1. Dating app or social media (most common for Pig Butchering)
+2. Investment forum or chat
+3. Random message/friend request
+4. Professional networking platform
+
+The lack of detail about the initial platform and relationship building suggests the victim may have been focused more on the financial loss than the relationship aspects when filing the complaint.
+
+**Extracted:**
+- Initial contact platform: Online (unspecified platform - likely dating app, social media, or messaging app)
+- Lure type: Investment opportunity (electric gold/digital gold currency)
+- Communication migration: Not specified in narrative
+- Scammer name: "Yilin"
+- Relationship context: Met online, but relationship type not detailed
+
+**Confidence Level for Step 1:** Medium (60%)
+- Clear that contact was online
+- Clear investment lure was used
+- Missing: specific platform, migration details, nature of initial relationship
+
+---
+
+### Step 2: Persona & Psychology Analysis (사칭 및 심리)
+
+**Reasoning:**
+Yilin presented themselves as someone with knowledge of profitable investment opportunities, specifically "electric gold" - a type of digital gold currency. The narrative does not provide extensive detail about wealth indicators or personal backstory that are typical in more elaborate Pig Butchering cases, but several psychological tactics are clearly evident:
+
+**Persona Characteristics:**
+1. **Name:** "Yilin" - possibly chosen to sound Asian/Chinese, which aligns with common Pig Butchering patterns originating from Asian criminal organizations
+2. **Claimed expertise:** Knowledge of "electric gold" investment opportunities
+3. **Access to platform:** Positioned as having insider access or special knowledge of CWG Main platform
+4. **Role:** Investment advisor or mentor figure
+
+**Psychological Tactics Identified:**
+
+1. **Trust Building**: Established relationship through online meeting before introducing investment. The sequence "meeting online" → "promised investment opportunity" shows deliberate trust building phase.
+
+2. **Authority/Expertise**: Presented as knowledgeable about specialized investment ("electric gold") that victim may not have heard of, creating perception of insider knowledge.
+
+3. **Proof of Concept**: Platform showed account growth to $289,000, creating strong belief in profitability and legitimacy. This is critical - seeing apparent profits removes skepticism.
+
+4. **Greed/FOMO (Fear of Missing Out)**: Displayed large account balance ($289,000 from $91,000 investment = 3.2x return) to encourage continued investment and create desire to access these "profits."
+
+5. **Sunk Cost Exploitation**: After victim invested $91,000+, demanded additional $49,000 for "taxes." At this point, victim has significant sunk cost and may rationalize paying more to "unlock" the larger sum.
+
+6. **Fear/Urgency**: The tax requirement creates a barrier and psychological pressure - pay now or lose access to funds.
+
+7. **Reciprocity (implied)**: By "sharing" this investment opportunity, Yilin may have positioned it as a favor or insider tip, creating sense of reciprocity obligation.
+
+**Wealth Indicators:**
+The narrative doesn't explicitly mention wealth indicators like:
+- Luxury lifestyle photos
+- Successful trading screenshots (beyond the victim's own account)
+- Properties or assets
+- Expensive items
+
+However, the implicit wealth indicator is: **Knowledge and access to a profitable investment platform**, which serves as a form of intellectual/financial capital signaling.
+
+**Relationship Type:**
+The relationship appears to be **investment advisor/mentor** rather than explicitly romantic. The initial "meeting online" could have romantic undertones, but the narrative emphasizes the investment aspect. This could indicate:
+1. A less romance-focused Pig Butchering variant
+2. A male victim less comfortable discussing romantic aspects
+3. Narrative focused on financial loss for complaint purposes
+
+**Trust Building Period:**
+Not specified in detail. We can infer there was:
+1. Initial online meeting phase
+2. Introduction of investment opportunity
+3. First deposit(s)
+4. Period of watching account "grow"
+5. Attempted withdrawal
+
+The fact that the victim invested $91,000+ suggests a significant trust building period or multiple deposits over time.
+
+**Extracted:**
+- Claimed identity: "Yilin" - investment advisor/mentor with knowledge of "electric gold" opportunities
+- Relationship type: Investment advisor/mentor
+- Wealth indicators: Knowledge of profitable investment opportunities, access to exclusive trading platform
+- Psychological tactics: Trust building, authority/expertise, proof of concept, greed/FOMO, sunk cost exploitation, fear, reciprocity
+- Trust building period: Not specified - online meeting followed by investment introduction, sufficient time to invest $91,000+
+
+**Confidence Level for Step 2:** Medium-High (70%)
+- Clear psychological tactics evident in the scam structure
+- Limited explicit detail on persona background and wealth claims
+- Relationship type can be inferred but not explicitly stated
+
+---
+
+### Step 3: Fraud Mechanism Analysis (사기 수법)
+
+**Reasoning:**
+The fraudulent platform "CWG Main" (CWGMain.cc) is described as a "Fraudulent Trading Platform" where the victim could invest in "electric gold" (digital gold currency). This case demonstrates a textbook Pig Butchering platform operation.
+
+**Platform Analysis:**
+
+**Name:** "CWG Main" / "CWGMain.cc"
+- "CWG" could be intentionally vague initials suggesting legitimacy
+- "Main" suggests there might be other divisions or platforms (CWG subsidiaries)
+- ".cc" domain (Cocos Islands) is commonly used by scammers due to:
+  - Low registration requirements
+  - Difficult jurisdiction for law enforcement
+  - Cheap registration
+  - Appears similar to .com to casual observers
+
+**Product:** "Electric Gold"
+- Described as "a type of digital gold currency"
+- Name designed to sound innovative and valuable
+- Combines concepts of:
+  - Gold (traditional store of value, trust, wealth)
+  - Digital/Crypto (modern, tech-forward, high returns)
+  - "Electric" (dynamic, energy, power)
+- This naming is classic fraud marketing - creates new "asset class" that victim can't easily research or verify
+
+**Platform Type:**
+Fake trading platform - displays fake account balances, fake trades, fake profits, but no real trading occurs. All numbers are fabricated in a database controlled by scammers.
+
+**Critical Fraud Mechanics:**
+
+1. **Fake Profit Display: YES**
+   - Victim's account showed growth from $91,000+ deposits to approximately $289,000
+   - This is roughly 3.2x return or 220% profit
+   - These fake profits serve multiple purposes:
+     a) Validate the investment as legitimate
+     b) Create greed and desire to invest more
+     c) Make victim feel successful and smart
+     d) Create larger sunk cost for later exploitation
+
+2. **Withdrawal Blocking Mechanism:**
+
+   The classic Pig Butchering withdrawal block sequence:
+
+   **Phase 1: Deposit Period**
+   - Victim wired money (total $91,000+) to the platform
+   - Platform likely showed immediate reflection of deposits
+   - May have shown "trades" or "investments" occurring
+
+   **Phase 2: Profit Display Period**
+   - Platform showed account balance growing to $289,000
+   - Victim could log in and see these "profits"
+   - Likely showed charts, trade history, fake market data
+   - This phase builds confidence and greed
+
+   **Phase 3: Withdrawal Attempt**
+   - Victim tried to withdraw funds (amount not specified)
+   - This is the critical moment where scam reveals itself
+
+   **Phase 4: Fee/Tax Demand**
+   - Platform demanded $49,000 for "taxes" to withdraw funds
+   - This is approximately 17% of the displayed balance ($289,000)
+   - Common variations of this tactic:
+     * "Taxes" (this case)
+     * "Trading fees"
+     * "Security deposit"
+     * "Insurance"
+     * "Margin call"
+     * "Account upgrade"
+     * "Regulatory compliance fee"
+
+   **Phase 5: Complete Block**
+   - Victim unable to withdraw any funds
+   - No further access or recovery possible
+
+   **Phase 6: Platform Shutdown**
+   - "Website is no longer operational"
+   - Classic exit scam behavior
+   - Removes evidence and prevents further complaints
+   - Scammers move to new domains/platforms
+
+**Why the $49,000 Tax Demand Works:**
+
+This is sophisticated psychological manipulation:
+1. **Percentage appears legitimate:** ~17% could seem like a realistic tax rate
+2. **Sunk cost:** Victim already invested $91,000, losing that seems worse than paying $49,000 more
+3. **Profit illusion:** If victim pays $49,000, they believe they'll get $289,000, netting $240,000 total (minus original $91,000 = $149,000 profit)
+4. **Urgency:** Taxes often have deadlines, creating pressure
+5. **External authority:** "Taxes" implies government requirement, not platform decision
+6. **Small relative to gains:** $49,000 seems small compared to $198,000 in supposed profits ($289,000 - $91,000)
+
+**Platform Status:**
+"No longer operational" - the website is defunct. This is typical after:
+- Scammers extract maximum funds from victim pool
+- Victim reports to authorities
+- Platform draws too much attention
+- Scammers ready to launch new platform with new name
+
+The scam organization likely operates multiple platforms simultaneously and regularly cycles through domain names.
+
+**Extracted:**
+- Platform type: Fake trading platform
+- Platform name: CWG Main
+- Platform URL: CWGMain.cc
+- Fake profits shown: Yes (account appeared to grow from $91,000+ to approximately $289,000)
+- Withdrawal tactics:
+  * Demanded $49,000 for "taxes" to withdraw funds (approximately 17% of displayed balance)
+  * Complete withdrawal block when victim couldn't/wouldn't pay additional fees
+  * Platform shutdown after blocking withdrawals
+- Platform status: Defunct ("no longer operational")
+- Product offerings: "Electric gold" (marketed as digital gold currency)
+- Platform domain strategy: .cc TLD (Cocos Islands) commonly used for scam operations
+
+**Confidence Level for Step 3:** High (90%)
+- Platform name, URL, and status clearly stated
+- Fake profit amount explicitly mentioned
+- Withdrawal blocking tactic explicitly described
+- Classic Pig Butchering platform mechanics evident
+
+---
+
+### Step 4: Financial Intelligence Extraction (추적단서)
+
+**Reasoning:**
+The narrative provides clear information about financial loss, but limited technical details about cryptocurrency or payment tracking.
+
+**Financial Loss Analysis:**
+
+**Total Victim Investment:** "More than $91,000"
+- This phrasing suggests the actual amount may be higher
+- Could be $91,000-$99,999 range, or victim may not remember exact amount
+- Represents multiple deposits/wires (not single payment)
+
+**Fake Account Balance Shown:** "Approximately $289,000"
+- Represents 3.17x return on investment
+- 217% profit margin (fake)
+- Designed to be impressive but not impossibly high (maintains credibility)
+
+**Additional Demand (Not Paid):** $49,000 for "taxes"
+- 16.95% of fake balance ($289,000)
+- 53.8% of original investment ($91,000)
+- Victim wisely refused this payment
+
+**Actual Financial Outcome:**
+- Total deposited: $91,000+
+- Total withdrawn: $0
+- Net loss: $91,000+
+- Recovery: None ("unable to recover any funds")
+
+**Payment Methods:**
+
+"The resident wired money to the Fraudulent Trading Platform"
+
+This indicates:
+1. **Wire transfer** - traditional bank wire
+2. **Bank transfer** - electronic funds transfer
+
+This is significant because:
+- Wire transfers are common in Pig Butchering (along with crypto)
+- Wires can potentially be traced and recovered if reported quickly
+- Using wire transfer (not crypto-to-crypto) suggests:
+  a) Victim was not crypto-native
+  b) Platform accepted fiat deposits
+  c) Scammers had bank accounts to receive wires (higher risk for them, but more accessible to victims)
+
+**Important Note:** While the victim wired fiat currency, the platform's offering was "electric gold" (digital gold currency). This suggests:
+- Platform converted fiat deposits to fake "electric gold" tokens on their platform
+- No real crypto custody or blockchain transactions occurred
+- "Electric gold" only existed as database entries on the fraudulent platform
+
+**Cryptocurrency Details:**
+
+**"Electric gold" - described as "a type of digital gold currency"**
+
+Analysis:
+- This is NOT a recognized cryptocurrency
+- Not Bitcoin, Ethereum, USDT, or any legitimate digital asset
+- Likely a completely fabricated token/currency that only exists on CWG Main platform
+- Name designed to sound like a legitimate crypto project
+- Could be:
+  a) Pure fiction - just database numbers
+  b) Actual smart contract token with no real value
+  c) Branding for whatever they claim to trade
+
+**Missing Technical Details:**
+- No specific cryptocurrency types mentioned (BTC, ETH, USDT, etc.)
+- No wallet addresses provided
+- No transaction hashes provided
+- No blockchain network specified
+- No exchange intermediaries mentioned
+
+This lack of technical detail suggests:
+1. Victim may not be crypto-sophisticated
+2. Scammers kept operations simple (wire transfer in, fake balance display)
+3. No actual blockchain transactions occurred
+4. Investigation may need to focus on wire transfer tracking rather than blockchain analysis
+
+**Potential Investigation Leads:**
+
+1. **Wire Transfer Records:**
+   - Bank account details where wires were sent
+   - Beneficiary bank and account information
+   - SWIFT/routing numbers
+   - Wire transfer dates and amounts
+   - Intermediary banks involved
+
+2. **Domain Intelligence:**
+   - CWGMain.cc domain registration (likely privacy protected)
+   - Domain registrar
+   - Hosting provider
+   - IP address history
+   - SSL certificate information
+   - Related domains in same ownership
+
+3. **Communication Records:**
+   - Phone numbers used by "Yilin"
+   - Email addresses
+   - Messaging app accounts (WhatsApp, Telegram, etc.)
+   - Any provided identification documents
+
+4. **Platform Screenshots/Evidence:**
+   - Screenshots of account showing $289,000 balance
+   - Screenshots of tax demand
+   - Platform interface and features
+   - Any terms of service or legal documents
+   - Communication logs on platform
+
+**Extracted:**
+- Cryptocurrency types: "Electric gold" (described as digital gold currency - not a recognized cryptocurrency, likely platform-specific fabricated asset)
+- Total loss: $91,000+ USD (exact amount unclear, described as "more than $91,000")
+- Payment methods: Wire transfer / Bank transfer (fiat to platform)
+- Fake balance displayed: Approximately $289,000
+- Additional demand (unpaid): $49,000 for "taxes"
+- Wallet addresses: None mentioned in narrative
+- Transaction hashes: None mentioned in narrative
+- Blockchain network: Not specified
+- Real cryptocurrency involvement: Unclear - likely none, just fake platform tokens
+
+**Confidence Level for Step 4:** Medium-High (70%)
+- Clear loss amount and payment method stated
+- Missing technical cryptocurrency details
+- "Electric gold" is fabricated asset, not traceable cryptocurrency
+- Wire transfer details would be key for investigation but not provided in narrative
+
+---
+
+### Step 5: Temporal Analysis (시간적 지표)
+
+**Reasoning:**
+The narrative provides limited temporal information. We must infer the timeline from the structure of the scam.
+
+**Scam Duration - Not Explicitly Stated**
+
+However, we can infer a multi-phase timeline:
+
+**Phase 1: Initial Contact & Trust Building**
+- "Meeting 'Yilin' online"
+- Duration: Unknown (could be days to months)
+- Typical Pig Butchering: 1-4 weeks for investment-focused, 1-3 months for romance-focused
+
+**Phase 2: Investment Introduction**
+- "Promised an investment opportunity for 'electric gold'"
+- Duration: Unknown (typically days to weeks)
+
+**Phase 3: Initial Deposits**
+- "Following Yilin's instructions, the resident wired money"
+- Total deposits: $91,000+
+- Duration: Unknown - could be single large wire or multiple wires over time
+- If multiple wires: likely weeks to months
+- The amount ($91,000+) suggests either:
+  a) Multiple deposits over time (more likely)
+  b) Single large deposit from liquidated savings/assets
+  c) Series of escalating deposits
+
+**Phase 4: Account Growth Display**
+- "Believed their account had grown to approximately $289,000"
+- Duration: Unknown
+- Typically this phase lasts weeks to months to build confidence
+
+**Phase 5: Withdrawal Attempt**
+- "When they tried to withdraw funds"
+- Specific timing not mentioned
+- Could be: attempt to withdraw all, attempt to test withdrawal, attempt to withdraw profits, or need for emergency funds
+
+**Phase 6: Tax Demand & Block**
+- "Platform demanded they pay $49,000 for 'taxes'"
+- "Unable to recover any funds"
+- Duration: Likely days to weeks of back-and-forth
+
+**Phase 7: Platform Shutdown**
+- "Website is no longer operational"
+- Timing relative to complaint: Unknown
+- Could be: immediately after victim refused payment, days/weeks later, or months later
+
+**Total Scam Duration Estimate:**
+Given the investment amount ($91,000+) and progression through multiple phases:
+- **Conservative estimate:** 1-3 months
+- **Likely range:** 2-6 months
+- **Maximum range:** Could be up to 6-12 months if romance was involved
+
+The lack of specific timeline in the narrative suggests:
+1. Victim focused on financial loss rather than timeline when filing complaint
+2. Process happened gradually enough that victim didn't track dates
+3. Complaint form may not have requested timeline details
+
+**Platform Status - Explicitly Stated:**
+
+"The website is no longer operational" - Platform is **DEFUNCT**
+
+Timing of shutdown:
+- Unknown relative to complaint filing
+- Could indicate:
+  a) Scammers shut down proactively after major victim losses
+  b) Shutdown after victim reported to authorities
+  c) Shutdown as part of regular domain rotation
+  d) Domain seized or taken down by hosting provider
+  e) Natural lifecycle of scam platform (3-12 months typical operation)
+
+**Current Status Verification Needs:**
+- When was complaint filed? (Not in narrative)
+- When was domain last active?
+- Is domain still registered?
+- Did domain redirect to new platform?
+- Are there archived versions (Wayback Machine)?
+
+**Extracted:**
+- Scam duration: Not specified in narrative (estimated 2-6 months based on investment amount and scam structure)
+- Platform status: Defunct ("website is no longer operational")
+- Timeline phases: Initial contact → Investment introduction → Deposits ($91,000+) → Account growth display ($289,000) → Withdrawal attempt → Tax demand ($49,000) → Fund block → Platform shutdown
+- Specific dates: None provided
+
+**Confidence Level for Step 5:** Low-Medium (50%)
+- Platform status clearly stated as defunct
+- No explicit timeline information provided
+- Duration can only be estimated from scam structure and investment amount
+
+---
+
+### Step 6: Confidence Assessment
+
+**Overall Extraction Confidence Score: 0.75 (75%)**
+
+This score reflects high confidence in certain areas and significant gaps in others.
+
+**HIGH CONFIDENCE AREAS (90-95% confidence):**
+
+1. **Fraud Mechanism:**
+   - Platform name: CWG Main
+   - Platform URL: CWGMain.cc
+   - Platform type: Fake trading platform
+   - Fake profits displayed: $289,000
+   - Withdrawal blocking: $49,000 tax demand
+   - Platform status: Defunct
+   - Product: "Electric gold" (digital gold currency)
+
+2. **Financial Loss:**
+   - Total loss: $91,000+ (clearly stated)
+   - Payment method: Wire transfer
+   - Additional demand: $49,000 (not paid)
+
+3. **Basic Scam Structure:**
+   - Scammer name: "Yilin"
+   - Investment lure: "Electric gold"
+   - Classic Pig Butchering pattern evident
+
+**MEDIUM CONFIDENCE AREAS (60-75% confidence):**
+
+1. **Psychological Tactics:**
+   - Tactics are evident from scam structure but not explicitly described
+   - Trust building, authority, FOMO, sunk cost exploitation clearly present
+   - Details about how these were employed are inferred
+
+2. **Cryptocurrency Details:**
+   - "Electric gold" is described but not technically defined
+   - No evidence of real blockchain transactions
+   - Likely fabricated platform-specific token
+
+3. **Relationship Type:**
+   - "Met online" suggests social/potentially romantic contact
+   - Narrative focuses on investment aspect
+   - Relationship type can be inferred as investment advisor/mentor but not explicitly stated
+
+**LOW CONFIDENCE AREAS (40-50% confidence):**
+
+1. **Initial Contact Details:**
+   - Platform where victim met "Yilin" not specified
+   - Could be dating app, social media, messaging app, forum, etc.
+   - No communication migration details provided
+
+2. **Timeline/Duration:**
+   - No specific dates or timeframes provided
+   - Duration can only be estimated from investment amount and scam phases
+   - No information on when complaint was filed vs when scam occurred
+
+3. **Persona Details:**
+   - Limited information about "Yilin's" claimed background
+   - No wealth indicators explicitly mentioned
+   - No details about claimed success or lifestyle
+
+**INFORMATION EXPLICITLY STATED vs. INFERRED:**
+
+**Clearly Stated:**
+- Victim "met 'Yilin' online" ✓
+- "Promised an investment opportunity for 'electric gold', a type of digital gold currency" ✓
+- "Resident wired money to the Fraudulent Trading Platform 'CWG Main'" ✓
+- "Account had grown to approximately $289,000" ✓
+- "Platform demanded they pay $49,000 for 'taxes' to withdraw" ✓
+- "Unable to recover any funds" ✓
+- "Website is no longer operational" ✓
+- "Lost more than $91,000" ✓
+
+**Inferred:**
+- Initial contact platform (dating/social media) - inferred from "met online"
+- Relationship type (investment advisor) - inferred from focus on investment
+- Psychological tactics - inferred from scam structure
+- Timeline duration - inferred from investment amount
+- Multiple deposits - inferred from $91,000+ total
+- Platform mechanics (fake database) - inferred from standard Pig Butchering MO
+
+**CRITICAL MISSING INFORMATION:**
+
+1. **Initial Contact & Relationship:**
+   - Specific platform where victim met "Yilin"
+   - Nature of relationship (romantic, friendly, purely investment)
+   - Communication migration (moved to WhatsApp, Telegram, etc.?)
+   - Duration of trust building
+   - Content of conversations
+
+2. **Technical Tracking Details:**
+   - Specific cryptocurrency types (BTC, ETH, USDT, etc.)
+   - Wallet addresses
+   - Transaction hashes
+   - Blockchain network used
+   - Exchange platforms involved
+   - Wire transfer beneficiary details (bank, account, SWIFT)
+
+3. **Timeline:**
+   - When did scam start?
+   - How long did each phase last?
+   - When was complaint filed?
+   - When did platform go offline?
+   - Multiple deposits or single deposit?
+
+4. **Scammer Details:**
+   - "Yilin's" claimed background
+   - Phone number(s)
+   - Email address(es)
+   - Messaging accounts
+   - Any identification documents provided
+   - Photos shared
+   - Voice or video communication
+
+5. **Platform Details:**
+   - Were there successful withdrawals before the block?
+   - What other features did platform have?
+   - Were there other "investors" visible?
+   - Did platform have customer service?
+   - Were there other products besides "electric gold"?
+
+6. **Investigation Materials:**
+   - Screenshots of platform
+   - Screenshots of conversations
+   - Wire transfer receipts
+   - Email communications
+   - Any contracts or agreements
+
+**WHY CONFIDENCE SCORE IS 0.75:**
+
+**Strengths (+):**
+- Core fraud mechanism well documented
+- Financial loss clearly stated
+- Platform identification clear
+- Scam pattern matches known Pig Butchering TTPs
+- Withdrawal blocking tactic explicitly described
+
+**Weaknesses (-):**
+- Missing initial contact details
+- No timeline information
+- Limited persona/relationship details
+- No technical cryptocurrency tracking data
+- No communication platform details
+- Sparse scammer background information
+
+**Justification:**
+A 0.75 confidence score indicates:
+- We have **solid, reliable information** about the fraud mechanism and financial impact
+- We have **sufficient information** to classify this as Pig Butchering and understand the scam flow
+- We have **significant gaps** in initial contact, relationship building, and technical tracking details
+- We can **confidently extract** core TTPs but cannot provide comprehensive intelligence
+- Additional victim interview would substantially increase confidence to 0.90+
+
+**Impact on Investigation:**
+
+This level of detail (0.75 confidence) is:
+- **Sufficient for:** Pattern recognition, victim support, scam classification, public warning
+- **Insufficient for:** Detailed scam network mapping, cryptocurrency tracing, communication analysis, timeline reconstruction
+- **Recommendation:** Follow-up interview with victim to gather communication records, wire transfer receipts, screenshots, and timeline details
+
+**Reliability Assessment:**
+
+The information provided is likely **highly reliable** because:
+1. Victim is reporting direct personal experience
+2. Financial loss is specific and verifiable
+3. Platform details are concrete (name, URL)
+4. Story follows consistent Pig Butchering pattern
+5. No inconsistencies or red flags in narrative
+
+Areas where victim memory may be less reliable:
+- Exact dates and timeline
+- Exact conversation details
+- Technical terminology (hence "electric gold" description)
+- Precise amount if "more than $91,000" is approximate
+
+---
+
+## Summary
+
+This case (pb_021 / Case 063 - CWGMain.cc) represents a **classic Pig Butchering investment scam** with the following key characteristics:
+
+**Core Pattern:**
+1. Online meeting with "Yilin"
+2. Introduction to "electric gold" investment opportunity
+3. Wire transfers totaling $91,000+ to CWG Main platform (CWGMain.cc)
+4. Fake profits displayed ($289,000 balance)
+5. Withdrawal blocked with $49,000 "tax" demand
+6. Complete fund loss, platform now defunct
+
+**Distinctive Features:**
+- "Electric gold" branding (fabricated digital asset)
+- Wire transfer payment method (not direct crypto)
+- 3.17x fake return shown (realistic enough to be credible)
+- 17% "tax" withdrawal block (specific percentage adds legitimacy)
+- Platform shutdown post-scam
+
+**Investigation Priorities:**
+1. Wire transfer tracking (bank accounts receiving funds)
+2. Domain/hosting intelligence (CWGMain.cc)
+3. Communication records with "Yilin"
+4. Victim interview for additional details
+
+**Confidence:** 75% - Strong core intelligence, significant gaps in relationship/timeline details.
+
+---
+
+**Analysis Completed**
+**Date:** 2025-12-17
+**Analyst:** TTP Extraction System
+**Case:** pb_021 (Original Case 063)
+**Platform:** CWGMain.cc
+**Estimated Loss:** $91,000+

@@ -1,0 +1,76 @@
+{
+  "case_id": 73,
+  "approach_and_lure": {
+    "initial_contact_platform": [
+      "Telegram",
+      "unknown_victim2"
+    ],
+    "lure_type": [
+      "investment_opportunity"
+    ],
+    "communication_migration": "Telegram"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Investment advisor associated with a consulting company",
+      "wealth_indicators": [
+        "professional_investment_advisor_credentials",
+        "consulting_company_affiliation",
+        "investment_expertise"
+      ],
+      "relationship_type": "investment_advisor"
+    },
+    "psychological_tactics": [
+      "trust_building",
+      "authority",
+      "fear_of_missing_out",
+      "sunk_cost_exploitation"
+    ],
+    "trust_building_period": "Extended period (over time - weeks to months implied)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "fake_exchange",
+    "platform_names": [
+      "C2C TG DEX"
+    ],
+    "platform_urls": [
+      "http://www.TGDEXCustomerService.com"
+    ],
+    "fake_profit_shown": true,
+    "withdrawal_block_tactics": [
+      "complete_access_blocking",
+      "tax_payment_demand_before_withdrawal"
+    ]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": [
+      "crypto_assets_unspecified"
+    ],
+    "wallet_addresses": [],
+    "transaction_hashes": [],
+    "estimated_loss_usd": null,
+    "payment_methods": [
+      "platform_deposit_system"
+    ]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Extended period (weeks to months implied by trust building and trading activity)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.75,
+    "missing_information": [
+      "victim2_initial_contact_platform",
+      "victim2_communication_details",
+      "specific_cryptocurrency_types",
+      "wallet_addresses",
+      "transaction_hashes",
+      "estimated_loss_amounts",
+      "exact_timeline_dates",
+      "scammer_location",
+      "number_of_deposits",
+      "fake_profit_amounts_shown"
+    ],
+    "notes": "Two-victim case from California involving C2C TG DEX platform at TGDEXCustomerService.com. Platform branding suggests Telegram-based DEX (decentralized exchange). Victim 1 contacted via Telegram by individual claiming to be investment advisor with consulting company affiliation. Trust built over time before investment pitch. Victim 2's initial contact method unknown. Different withdrawal blocking tactics used: complete access denial (Victim 1) vs tax payment demand (Victim 2), showing operational flexibility. Platform explicitly stated as no longer operational (exit scam). Notable use of 'CustomerService' in domain name to appear professional and legitimate. DEX branding exploits decentralized finance trends. Classic Pig Butchering pattern with investment advisor persona and withdrawal blocking."
+  }
+}

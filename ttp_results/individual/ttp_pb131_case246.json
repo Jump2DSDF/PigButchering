@@ -1,0 +1,60 @@
+{
+  "case_id": 246,
+  "approach_and_lure": {
+    "initial_contact_platform": ["Twitter"],
+    "lure_type": ["influencer_impersonation", "crypto_airdrop"],
+    "communication_migration": "Twitter → WhatsApp"
+  },
+  "impersonation_and_psychology": {
+    "scammer_persona": {
+      "claimed_identity": "Popular YouTube crypto asset influencer",
+      "wealth_indicators": ["crypto_expertise", "influencer_status"],
+      "relationship_type": "trusted_influencer"
+    },
+    "impersonated_entities": [
+      {"entity": "YouTube crypto influencer (unknown)", "type": "social_media_influencer"}
+    ],
+    "psychological_tactics": [
+      "authority",
+      "social_proof",
+      "fomo_airdrop",
+      "urgency",
+      "trust_via_influencer_status"
+    ],
+    "trust_building_period": "Short (leveraged influencer trust)"
+  },
+  "fraud_mechanism": {
+    "platform_type": "phishing_site",
+    "platform_names": ["flrmeshworknet.us"],
+    "platform_urls": ["https://flrmeshworknet.us"],
+    "attack_method": "wallet_key_phishing",
+    "fake_airdrop_claim": "Flare token airdrop",
+    "withdrawal_block_tactics": ["error_message_display", "wallet_key_theft"]
+  },
+  "financial_tracking": {
+    "cryptocurrency_types": ["XRP"],
+    "wallet_addresses": [
+      "rLEFT4k54Pd1k73iqAsA24S8rqKYv5wWrG"
+    ],
+    "transaction_hashes": [],
+    "estimated_loss_usd": 63543.92,
+    "payment_methods": ["cryptocurrency_transfer"]
+  },
+  "temporal_indicators": {
+    "scam_duration": "Short (airdrop phishing attack)",
+    "platform_status": "defunct"
+  },
+  "extraction_metadata": {
+    "confidence_score": 0.92,
+    "missing_information": ["influencer_identity", "transaction_hashes"],
+    "notes": "CRITICAL: XRP wallet address rLEFT4k54Pd1k73iqAsA24S8rqKYv5wWrG extracted. First XRP wallet in dataset. Unique attack vector: fake airdrop phishing via influencer impersonation. Victim entered wallet keys on fake airdrop claim site. $63,543.92 loss - HIGH VALUE CASE. DFPI included general airdrop warning in report."
+  },
+  "chain_of_thought": {
+    "step_1_initial_contact": "Scammer impersonated popular YouTube crypto influencer on Twitter",
+    "step_2_platform_migration": "Convinced victim to move conversation to WhatsApp for 'privacy'",
+    "step_3_trust_building": "Leveraged fake influencer credibility to build immediate trust",
+    "step_4_lure_presentation": "Presented Flare token airdrop opportunity",
+    "step_5_attack_execution": "Provided phishing link flrmeshworknet.us to 'claim' airdrop tokens",
+    "step_6_extraction": "Victim entered wallet keys, received error message, funds stolen"
+  }
+}
