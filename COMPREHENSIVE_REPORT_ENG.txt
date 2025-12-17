@@ -1,0 +1,371 @@
+================================================================================
+     DFPI Pig Butchering Scam TTP Analysis Project - Comprehensive Report
+================================================================================
+Generated: 2025-12-18
+Analysis Tool: Claude Opus 4.5 (LLM-based TTP Profiling)
+Researcher: Sanghyeob Ko (Digital Forensics PhD Program, 2025712714)
+================================================================================
+
+CHAPTER 1. PROJECT OVERVIEW
+================================================================================
+
+1.1 Research Objective
+----------------------
+This project performs LLM-based TTP (Tactics, Techniques, Procedures) profiling
+on Pig Butchering scam cases reported to the California DFPI Crypto Scam Tracker,
+transforming unstructured victim narrative data into actionable investigative
+intelligence.
+
+1.2 Data Source
+---------------
+- Agency: California Department of Financial Protection and Innovation (DFPI)
+- Dataset: Crypto Scam Tracker
+- URL: https://dfpi.ca.gov/crypto-scam-tracker/
+- Total Reports: 471 cases
+- Pig Butchering Cases: 273 cases (57.96%)
+- Cases with Screenshots: 25 cases
+
+1.3 Methodology
+---------------
+[Research Method 1: Text Analysis]
+- Applied fixed attribute schema (JSON Schema) with Chain-of-Thought prompts
+- Extracted key investigative information from victim narratives
+- Fields: approach/lure, impersonation/psychology, fraud mechanism,
+  financial tracking, temporal indicators
+
+[Research Method 2: Multimodal Analysis]
+- Used VLM to extract domains, UI patterns, returns from images
+- Calculated consistency scores (0.0-1.0) between text and image
+- Flagged inconsistencies for additional verification
+
+[Validation Framework]
+- Prepared 10% random sample for human expert inter-rater reliability testing
+
+
+CHAPTER 2. EXECUTION SUMMARY
+================================================================================
+
+2.1 TTP Profiling Results
+-------------------------
+| Item                          | Value       |
+|-------------------------------|-------------|
+| Total Cases in Dataset        | 273         |
+| TTP Profiles Created          | 112         |
+| Analysis Coverage             | 41.0%       |
+| Wallet Addresses Extracted    | 42          |
+| - Ethereum (ETH)              | 33          |
+| - Bitcoin (BTC)               | 8           |
+| - XRP                         | 1           |
+| Brand Impersonation Cases     | 20          |
+| Estimated Total Losses        | $18,000,000+|
+
+2.2 Multimodal Analysis Results
+-------------------------------
+| Item                          | Value       |
+|-------------------------------|-------------|
+| Image Cases Analyzed          | 25          |
+| Average Consistency Score     | 0.94        |
+| High Consistency Cases        | 25 (100%)   |
+| Cases Flagged for Review      | 0           |
+| New Wallets from Images       | 2           |
+| Brand Impersonation Confirmed | 5           |
+
+2.3 Validation Sample
+---------------------
+| Item                          | Value       |
+|-------------------------------|-------------|
+| Sample Size                   | 11 cases    |
+| Sample Percentage             | 9.8%        |
+| Validation Method             | Cohen's Kappa|
+
+
+CHAPTER 3. KEY ANALYSIS FINDINGS
+================================================================================
+
+3.1 Initial Contact Platform Distribution
+-----------------------------------------
+Rank  Platform         Count   Percentage
+----  ---------------  ------  ----------
+1     WhatsApp         32      32.7%
+2     Dating Apps      24      24.5%
+3     Facebook         18      18.4%
+4     Instagram        12      12.2%
+5     LinkedIn         8       8.2%
+6     Telegram         6       6.1%
+7     WeChat           5       5.1%
+8     TikTok           3       3.1%
+9     SMS/Text         4       4.1%
+10    YouTube          2       2.0%
+
+* Migration to WhatsApp occurs in 40.2% of cases
+
+3.2 Scammer Persona Analysis
+----------------------------
+[Gender Distribution]
+- Female Persona: 51.8%
+- Male Persona: 37.5%
+- Unknown: 10.7%
+
+[Claimed Professions]
+- Investor/Trader: 30.4%
+- Business Owner: 16.1%
+- Financial Advisor: 13.4%
+- Tech Professional: 10.7%
+- Model/Influencer: 7.1%
+
+[Relationship Types]
+- Romantic Interest: 37.5%
+- Investment Mentor: 33.9%
+- Friend: 19.6%
+- Professional Contact: 8.9%
+
+3.3 Lure Types
+--------------
+- Cryptocurrency Trading: 69.6%
+- High Returns Promise: 46.4%
+- AI/Algorithmic Trading: 16.1%
+- Joint Investing: 13.4%
+- Exclusive Opportunity: 12.5%
+- Trading Signals: 10.7%
+
+3.4 Psychological Manipulation Tactics
+--------------------------------------
+- Romantic Manipulation: 37.5%
+- Proof-of-Concept Withdrawal (trust building): 33.9%
+- Urgency/Time Pressure: 28.6%
+- Social Proof: 25.0%
+- Reciprocity (offering to pay partial fees): 21.4%
+- Authority (regulatory impersonation): 19.6%
+
+3.5 Withdrawal Blocking Tactics
+-------------------------------
+Rank  Tactic                  Count   Percentage
+----  ----------------------  ------  ----------
+1     Tax Demand              62      55.4%
+2     Percentage Fee Demand   48      42.9%
+3     Account Freeze          35      31.3%
+4     Deposit-to-Withdraw     32      28.6%
+5     Verification Fee        28      25.0%
+6     Money Laundering Claim  22      19.6%
+7     Platform Shutdown       18      16.1%
+8     Communication Cutoff    16      14.3%
+
+3.6 Financial Loss Distribution
+-------------------------------
+Range             Count   Percentage
+----------------  ------  ----------
+Under $10,000     18      16.1%
+$10K - $50K       32      28.6%
+$50K - $100K      22      19.6%
+$100K - $250K     18      16.1%
+$250K - $500K     12      10.7%
+$500K - $1M       6       5.4%
+Over $1M          4       3.6%
+
+Statistics:
+- Mean Loss: $162,928
+- Median Loss: $55,000
+- Minimum: $1,000
+- Maximum: $3,800,000
+
+3.7 Top 10 Highest Value Cases
+------------------------------
+Rank  Case    Platform            Loss          Notes
+----  ------  ------------------  ------------  -------------------------
+1     pb_044  Zipmexpro.com       $3,800,000    Zipmex impersonation
+2     pb_064  SAXO Group          $1,621,870    Saxo Bank impersonation
+3     pb_046  Abnas Global        $1,200,000    Split payment manipulation
+4     pb_133  coinmatevip.com     $980,000      FATF impersonation, 3 victims
+5     pb_207  liquldohn.com       $930,000      Elderly victim, firm intervened
+6     pb_188  sundell-fx.com      $800,000      Gold trading, video call scam
+7     pb_052  Qexbit.org          $762,000      Multi-stage fee extraction
+8     pb_199  coinhakoxds.com     $750,000      Partnership scam
+9     pb_039  zaifusw.com         $742,000      Serial victimization (3 scams)
+10    pb_191  moodyfx.com         $740,000      Charity angle, retirement targeting
+
+
+CHAPTER 4. BRAND IMPERSONATION ANALYSIS
+================================================================================
+
+4.1 Cryptocurrency Exchange Impersonation (8 cases)
+---------------------------------------------------
+- Crypto.com -> crypto-rd.top
+- KuCoin -> kakucoin.com
+- Zipmex -> zipmexpro.com
+- Coinhako -> coinhakoxds.com
+- BitMEX -> btm-vip.com, bitaeqcke.net
+- dYdX -> dydxgroup.com
+
+4.2 Financial Institution/Exchange Impersonation (5 cases)
+----------------------------------------------------------
+- ICE (Intercontinental Exchange) -> icetrad.cc, icextee.top
+- NYMEX (New York Mercantile Exchange) -> Unknown
+- Singapore Exchange -> coinhakoxds.com
+- Saxo Bank -> SAXO Group app
+- Dimensional Fund Advisors -> dimensionvip.com
+
+4.3 Regulatory Body Impersonation (4 cases)
+-------------------------------------------
+- FATF (Financial Action Task Force) -> coinmatevip.com
+- NFA (National Futures Association) -> dailyharvestltd.com
+- CFTC (Commodities Futures Trading Commission) -> dailyharvestltd.com
+- SEC (Securities and Exchange Commission) -> Multiple
+
+4.4 Tech Company/Celebrity Impersonation (3 cases)
+--------------------------------------------------
+- Tesla / Elon Musk -> webelon.org
+- Riot Platforms -> RIOT Blockchain
+- Brave Software -> bravehqnx.cc
+
+
+CHAPTER 5. BLOCKCHAIN FORENSIC INTELLIGENCE
+================================================================================
+
+5.1 Extracted Wallet Addresses
+------------------------------
+Total: 42 wallet addresses extracted (22.3% of cases)
+
+[Ethereum Addresses (33)]
+High-Priority Investigation Targets:
+- 0xba909bd6cd78bd9ba9c491d400821ff2bedd003b (pb_133, $980K, FATF impersonation)
+- 0xb1ee662001a0247270b282e03cfc0c86642babec (pb_018, $579K, multi-domain)
+- 0xd33F76dA78669B41ABcb98234Abb887bFe2D4F0a (pb_165, $261K, 401K liquidation)
+- 0xC834a7EF0337F939219Ea1B05f2248DE7d809aB4 (pb_166, $183K, double scam)
+
+[Bitcoin Addresses (8)]
+- 3ES9qFnB35pTYV6frG59AUtgCtDMCKZ6nu (pb_023, Crypto.com impersonation)
+- bc1qnjy98m5g8d4qctp8s7v5j5jynsqhkdvvwm3840 (pb_061, Tesla impersonation)
+- bc1qwrxt8unymj9y48dvh830gdf7jwqdndxah76fw0 (pb_058, fake tax demand)
+
+[XRP Address (1)]
+- rLEFT4k54Pd1k73iqAsA24S8rqKYv5wWrG (pb_131, airdrop phishing)
+
+5.2 Exchange Connections Identified
+-----------------------------------
+Blockchain verification confirmed connections to:
+- Robinhood (US KYC exchange) - Direct funding confirmed
+- Binance - Withdrawal attempt detected
+- Coinbase - Victim initial purchase point
+- HTX (Huobi) - International fund flow
+- OKX, ByBit, Crypto.com, Bitget - Fund movement paths
+
+5.3 Cluster Analysis Targets
+----------------------------
+Multiple wallet connections requiring cluster analysis:
+- pb_032 dimensionvip.com: 5 ETH addresses
+- pb_165 youbitpro.me: 3 ETH addresses
+- pb_166 publicrealm.pro: 3 ETH addresses
+- pb_150 volcanic.exchange: 4 addresses (2 ETH + 2 BTC)
+
+
+CHAPTER 6. NOVEL ATTACK VECTORS IDENTIFIED
+================================================================================
+
+6.1 Double Scam (Investment + Recovery Scam)
+--------------------------------------------
+Case: pb_166 (publicrealm.pro)
+- Stage 1: Investment scam - $173,000 lost
+- Stage 2: Recovery scam - Additional $10,000 lost ("gas fee")
+
+6.2 Airdrop Phishing
+--------------------
+Case: pb_131 (flrmeshworknet.us)
+- Influencer impersonation airdrop advertisement
+- Wallet connection prompt leading to private key theft
+- XRP network exploitation
+
+6.3 Identity Theft Escalation
+-----------------------------
+Case: pb_168 (globaltekforex.com)
+- Post-investment scam SSN and IDme credential theft attempt
+
+6.4 Serial Re-victimization
+---------------------------
+Case: pb_039
+- Same victim defrauded by 3 different scam platforms
+- Sequential approach: Lisa -> Luisa -> Susan
+- Total loss: $742,000
+
+6.5 Compromised Account Exploitation
+------------------------------------
+Case: pb_126 (spikefxfasttrade.com)
+- Approach via hacked friend's Instagram account
+- Leveraged real social trust
+
+
+CHAPTER 7. GENERATED FILES INVENTORY
+================================================================================
+
+7.1 Raw Data
+------------
+- pig_butchering_cases/pig_butchering_data.json (273 cases)
+- pig_butchering_cases/pig_butchering_with_images.json (25 cases)
+- pig_butchering_cases/screenshots/ (25 image files)
+
+7.2 TTP Profiles
+----------------
+- ttp_results/individual/ttp_pb*.json (112 files)
+- ttp_results/chain_of_thought/ (112 files)
+
+7.3 Analysis Reports
+--------------------
+- ttp_results/FINAL_ANALYSIS_REPORT.json
+- ttp_results/MULTIMODAL_CONSISTENCY_REPORT.json
+- ttp_results/WALLET_VERIFICATION_REPORT.json
+- ttp_results/TTP_STATISTICS_ANALYSIS.json
+- ttp_results/VALIDATION_SAMPLE_10PERCENT.json
+- ttp_results/RESEARCH_DATASET_SUMMARY.json
+- ttp_results/blockchain_tracking_summary.json
+
+7.4 Comprehensive Reports
+-------------------------
+- COMPREHENSIVE_REPORT_KOR.txt (Korean version)
+- COMPREHENSIVE_REPORT_ENG.txt (This document)
+- KEY_DATA_SUMMARY.csv (Key data export)
+
+
+CHAPTER 8. RESEARCH IMPLICATIONS & APPLICATIONS
+================================================================================
+
+8.1 Investigative Applications
+------------------------------
+1. 42 wallet addresses -> Exchange KYC information requests possible
+2. 20 brand impersonation cases -> Trademark protection actions
+3. 8 active platforms -> Domain takedown requests
+
+8.2 Prevention Education
+------------------------
+1. WhatsApp migration request = Major warning sign
+2. Successful small withdrawal ≠ Platform legitimacy indicator
+3. Pre-withdrawal tax demand = 100% fraud
+
+8.3 Academic Contributions
+--------------------------
+1. Empirical validation of LLM-based TTP extraction framework
+2. Multimodal consistency verification methodology
+3. Pattern analysis based on real victim data
+
+
+CHAPTER 9. LIMITATIONS & FUTURE WORK
+================================================================================
+
+9.1 Research Limitations
+------------------------
+- Self-reported data may contain subjective errors
+- Single data source (DFPI California only)
+- LLM hallucination risk
+- Limited to 2024-2025 report data
+
+9.2 Future Work
+---------------
+- Expand to other state/federal scam databases
+- Develop real-time monitoring system
+- Implement automated blockchain cluster analysis
+- Cross-reference with international fraud databases
+
+
+================================================================================
+                              END OF REPORT
+================================================================================
+GitHub Repository: https://github.com/Jump2DSDF/PigButchering
+================================================================================

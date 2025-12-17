@@ -1,0 +1,126 @@
+SECTION,CATEGORY,ITEM,VALUE,PERCENTAGE,NOTES
+================,================,================,================,================,================
+OVERVIEW,Dataset,Total DFPI Reports,471,,
+OVERVIEW,Dataset,Pig Butchering Cases,273,57.96%,
+OVERVIEW,Dataset,Cases with Screenshots,25,,
+OVERVIEW,Analysis,TTP Profiles Created,112,41.0%,of 273 cases
+OVERVIEW,Analysis,Wallet Addresses Extracted,42,22.3%,of 112 profiled cases
+OVERVIEW,Analysis,Brand Impersonation Cases,20,17.9%,
+OVERVIEW,Financial,Estimated Total Losses,$18000000+,,tracked losses
+================,================,================,================,================,================
+WALLET_SUMMARY,Ethereum,ETH Wallets,33,78.6%,of 42 wallets
+WALLET_SUMMARY,Bitcoin,BTC Wallets,8,19.0%,
+WALLET_SUMMARY,XRP,XRP Wallets,1,2.4%,
+================,================,================,================,================,================
+INITIAL_CONTACT,Platform,WhatsApp,32,32.7%,
+INITIAL_CONTACT,Platform,Dating Apps,24,24.5%,Bumble Tinder Hinge etc
+INITIAL_CONTACT,Platform,Facebook,18,18.4%,
+INITIAL_CONTACT,Platform,Instagram,12,12.2%,
+INITIAL_CONTACT,Platform,LinkedIn,8,8.2%,
+INITIAL_CONTACT,Platform,Telegram,6,6.1%,
+INITIAL_CONTACT,Platform,WeChat,5,5.1%,
+INITIAL_CONTACT,Platform,TikTok,3,3.1%,
+INITIAL_CONTACT,Platform,SMS/Text,4,4.1%,
+INITIAL_CONTACT,Platform,YouTube,2,2.0%,
+================,================,================,================,================,================
+SCAMMER_PERSONA,Gender,Female Persona,58,51.8%,
+SCAMMER_PERSONA,Gender,Male Persona,42,37.5%,
+SCAMMER_PERSONA,Gender,Unknown,12,10.7%,
+SCAMMER_PERSONA,Profession,Investor/Trader,34,30.4%,
+SCAMMER_PERSONA,Profession,Business Owner,18,16.1%,
+SCAMMER_PERSONA,Profession,Financial Advisor,15,13.4%,
+SCAMMER_PERSONA,Profession,Tech Professional,12,10.7%,
+SCAMMER_PERSONA,Profession,Model/Influencer,8,7.1%,
+SCAMMER_PERSONA,Relationship,Romantic Interest,42,37.5%,
+SCAMMER_PERSONA,Relationship,Investment Mentor,38,33.9%,
+SCAMMER_PERSONA,Relationship,Friend,22,19.6%,
+SCAMMER_PERSONA,Relationship,Professional Contact,10,8.9%,
+================,================,================,================,================,================
+LURE_TYPE,Investment,Crypto Trading,78,69.6%,
+LURE_TYPE,Investment,High Returns Promise,52,46.4%,
+LURE_TYPE,Investment,AI/Algorithmic Trading,18,16.1%,
+LURE_TYPE,Investment,Joint Investing,15,13.4%,
+LURE_TYPE,Investment,Exclusive Opportunity,14,12.5%,
+LURE_TYPE,Investment,Trading Signals,12,10.7%,
+================,================,================,================,================,================
+PSYCHOLOGICAL_TACTICS,Trust Building,Romantic Manipulation,42,37.5%,
+PSYCHOLOGICAL_TACTICS,Trust Building,Proof-of-Concept Withdrawal,38,33.9%,small withdrawal allowed
+PSYCHOLOGICAL_TACTICS,Pressure,Urgency/Time Pressure,32,28.6%,
+PSYCHOLOGICAL_TACTICS,Trust Building,Social Proof,28,25.0%,
+PSYCHOLOGICAL_TACTICS,Trust Building,Reciprocity,24,21.4%,scammer offers to pay fees
+PSYCHOLOGICAL_TACTICS,Trust Building,Authority,22,19.6%,regulatory impersonation
+================,================,================,================,================,================
+WITHDRAWAL_BLOCKING,Fee Type,Tax Demand,62,55.4%,most common
+WITHDRAWAL_BLOCKING,Fee Type,Percentage Fee Demand,48,42.9%,10-33% typically
+WITHDRAWAL_BLOCKING,Freeze,Account Freeze,35,31.3%,
+WITHDRAWAL_BLOCKING,Fee Type,Deposit-to-Withdraw,32,28.6%,
+WITHDRAWAL_BLOCKING,Fee Type,Verification Fee,28,25.0%,
+WITHDRAWAL_BLOCKING,Accusation,Money Laundering Claim,22,19.6%,
+WITHDRAWAL_BLOCKING,Exit,Platform Shutdown,18,16.1%,
+WITHDRAWAL_BLOCKING,Exit,Communication Cutoff,16,14.3%,
+================,================,================,================,================,================
+LOSS_DISTRIBUTION,Range,Under $10K,18,16.1%,
+LOSS_DISTRIBUTION,Range,$10K-$50K,32,28.6%,most common range
+LOSS_DISTRIBUTION,Range,$50K-$100K,22,19.6%,
+LOSS_DISTRIBUTION,Range,$100K-$250K,18,16.1%,
+LOSS_DISTRIBUTION,Range,$250K-$500K,12,10.7%,
+LOSS_DISTRIBUTION,Range,$500K-$1M,6,5.4%,
+LOSS_DISTRIBUTION,Range,Over $1M,4,3.6%,
+LOSS_DISTRIBUTION,Statistics,Mean Loss,$162928,,
+LOSS_DISTRIBUTION,Statistics,Median Loss,$55000,,
+LOSS_DISTRIBUTION,Statistics,Min Loss,$1000,,
+LOSS_DISTRIBUTION,Statistics,Max Loss,$3800000,,pb_044 Zipmexpro
+================,================,================,================,================,================
+HIGH_VALUE_CASES,pb_044,Zipmexpro.com,$3800000,,Zipmex impersonation
+HIGH_VALUE_CASES,pb_064,SAXO Group,$1621870,,Saxo Bank impersonation
+HIGH_VALUE_CASES,pb_046,Abnas Global,$1200000,,Split payment manipulation
+HIGH_VALUE_CASES,pb_133,coinmatevip.com,$980000,,FATF impersonation 3 victims
+HIGH_VALUE_CASES,pb_207,liquldohn.com,$930000,,Elderly victim
+HIGH_VALUE_CASES,pb_188,sundell-fx.com,$800000,,Gold trading video call
+HIGH_VALUE_CASES,pb_052,Qexbit.org,$762000,,Multi-stage fee extraction
+HIGH_VALUE_CASES,pb_199,coinhakoxds.com,$750000,,Partnership scam
+HIGH_VALUE_CASES,pb_039,zaifusw.com,$742000,,Serial victimization
+HIGH_VALUE_CASES,pb_191,moodyfx.com,$740000,,Charity angle
+================,================,================,================,================,================
+BRAND_IMPERSONATION,Crypto Exchange,Crypto.com,1,,crypto-rd.top
+BRAND_IMPERSONATION,Crypto Exchange,KuCoin,1,,kakucoin.com
+BRAND_IMPERSONATION,Crypto Exchange,Zipmex,1,,zipmexpro.com
+BRAND_IMPERSONATION,Crypto Exchange,Coinhako,1,,coinhakoxds.com
+BRAND_IMPERSONATION,Crypto Exchange,BitMEX,1,,btm-vip.com
+BRAND_IMPERSONATION,Crypto Exchange,dYdX,1,,dydxgroup.com
+BRAND_IMPERSONATION,Financial,ICE,1,,icetrad.cc
+BRAND_IMPERSONATION,Financial,NYMEX,1,,unknown URL
+BRAND_IMPERSONATION,Financial,Saxo Bank,1,,SAXO Group app
+BRAND_IMPERSONATION,Financial,Dimensional Fund Advisors,1,,dimensionvip.com
+BRAND_IMPERSONATION,Regulatory,FATF,1,,coinmatevip.com
+BRAND_IMPERSONATION,Regulatory,NFA,1,,dailyharvestltd.com
+BRAND_IMPERSONATION,Regulatory,CFTC,1,,dailyharvestltd.com
+BRAND_IMPERSONATION,Tech/Celebrity,Tesla/Elon Musk,1,,webelon.org
+BRAND_IMPERSONATION,Tech/Celebrity,Riot Platforms,1,,RIOT Blockchain
+================,================,================,================,================,================
+PRIORITY_WALLETS,ETH,0xba909bd6cd78bd9ba9c491d400821ff2bedd003b,pb_133,$980000,FATF impersonation
+PRIORITY_WALLETS,ETH,0xb1ee662001a0247270b282e03cfc0c86642babec,pb_018,$579000,Multi-domain
+PRIORITY_WALLETS,ETH,0xd33F76dA78669B41ABcb98234Abb887bFe2D4F0a,pb_165,$261000,401K liquidation
+PRIORITY_WALLETS,ETH,0xC834a7EF0337F939219Ea1B05f2248DE7d809aB4,pb_166,$183000,Double scam
+PRIORITY_WALLETS,XRP,rLEFT4k54Pd1k73iqAsA24S8rqKYv5wWrG,pb_131,$63543,Airdrop phishing
+PRIORITY_WALLETS,BTC,3ES9qFnB35pTYV6frG59AUtgCtDMCKZ6nu,pb_023,unknown,Crypto.com impersonation
+PRIORITY_WALLETS,BTC,bc1qnjy98m5g8d4qctp8s7v5j5jynsqhkdvvwm3840,pb_061,$5000,Tesla impersonation
+================,================,================,================,================,================
+MULTIMODAL_ANALYSIS,Summary,Total Image Cases,25,,
+MULTIMODAL_ANALYSIS,Summary,Avg Consistency Score,0.94,,
+MULTIMODAL_ANALYSIS,Summary,High Consistency,25,100%,
+MULTIMODAL_ANALYSIS,Summary,Flagged for Review,0,0%,
+MULTIMODAL_ANALYSIS,Summary,Brand Impersonation Confirmed,5,,visual evidence
+MULTIMODAL_ANALYSIS,Summary,New Wallets from Images,2,,
+================,================,================,================,================,================
+VALIDATION_SAMPLE,Summary,Sample Size,11,9.8%,of 112 profiles
+VALIDATION_SAMPLE,Summary,Validation Method,Cohens Kappa,,Inter-rater reliability
+================,================,================,================,================,================
+EXCHANGE_CONNECTIONS,US KYC,Robinhood,,,Direct funding confirmed
+EXCHANGE_CONNECTIONS,International,Binance,,,Withdrawal attempt
+EXCHANGE_CONNECTIONS,US,Coinbase,,,Victim purchase point
+EXCHANGE_CONNECTIONS,International,HTX (Huobi),,,Fund flow
+EXCHANGE_CONNECTIONS,International,OKX,,,Fund movement
+EXCHANGE_CONNECTIONS,International,ByBit,,,Fund movement
+EXCHANGE_CONNECTIONS,International,Crypto.com,,,Fund movement
+EXCHANGE_CONNECTIONS,International,Bitget,,,Fund movement
