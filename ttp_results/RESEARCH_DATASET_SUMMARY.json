@@ -1,0 +1,190 @@
+{
+  "research_metadata": {
+    "title": "Structuring Digital Forensic Intelligence from Pig-Butchering Scams: LLM-Based TTP Profiling and Multimodal Consistency Checking",
+    "title_korean": "Pig Butchering 사기 신고 데이터에서 LLM 기반 TTP 프로파일링 및 멀티모달 정합성 점검을 통한 디지털 포렌식 인텔리전스 구조화",
+    "target_journal": "FSI: Digital Investigation (SCI) or SSCI Journal",
+    "researcher": "고상협 (2025712714)",
+    "affiliation": "디지털포렌식전공 박사과정",
+    "data_generation_date": "2025-12-18",
+    "llm_model_used": "Claude Opus 4.5 (claude-opus-4-5-20251101)"
+  },
+  "data_source": {
+    "name": "California DFPI Crypto Scam Tracker",
+    "url": "https://dfpi.ca.gov/crypto-scam-tracker/",
+    "total_reports": 471,
+    "pig_butchering_cases": 273,
+    "pig_butchering_percentage": "57.96%",
+    "data_collection_date": "2025-12",
+    "data_characteristics": {
+      "format": "Self-reported victim narratives (unstructured text)",
+      "language": "English",
+      "includes_screenshots": true,
+      "screenshot_cases": 25
+    }
+  },
+  "methodology_implementation": {
+    "research_method_1": {
+      "name": "텍스트 분석 - Fraud-TTPs 자동 정형화",
+      "description": "LLM에 고정된 속성 스키마(JSON Schema)와 Chain-of-Thought 프롬프트를 적용하여 피해자 신고 텍스트에서 핵심 수사정보를 추출",
+      "implementation_status": "Completed",
+      "outputs": [
+        "112 individual TTP profile JSON files",
+        "42 wallet addresses extracted",
+        "20 brand impersonation cases identified"
+      ],
+      "schema_fields": [
+        "approach_and_lure",
+        "impersonation_and_psychology",
+        "fraud_mechanism",
+        "financial_tracking",
+        "temporal_indicators",
+        "chain_of_thought"
+      ]
+    },
+    "research_method_2": {
+      "name": "멀티모달 분석 - 텍스트와 이미지 정합성 점검",
+      "description": "VLM을 활용하여 도메인, UI 패턴, 수익률 등을 추출하고 진술 텍스트에서 추출된 속성과 비교하여 정합성 점수(0.0-1.0)를 산출",
+      "implementation_status": "Completed",
+      "outputs": [
+        "25 image cases analyzed",
+        "Consistency scores calculated (avg: 0.94)",
+        "5 brand impersonations visually confirmed",
+        "2 new wallet addresses extracted from images"
+      ]
+    },
+    "validation_framework": {
+      "name": "인간 전문가 상호 일치도 검증",
+      "description": "무작위 추출표본(10%)에 대해 인간 전문가와의 상호 일치도 검증",
+      "implementation_status": "Dataset Prepared",
+      "sample_size": "11 cases (9.8%)",
+      "validation_method": "Cohen's Kappa inter-rater reliability"
+    }
+  },
+  "dataset_inventory": {
+    "raw_data": {
+      "file": "pig_butchering_cases/pig_butchering_data.json",
+      "description": "273 pig butchering cases with narratives",
+      "record_count": 273
+    },
+    "image_data": {
+      "folder": "pig_butchering_cases/screenshots/",
+      "description": "Screenshots from 25 cases",
+      "file_count": 25,
+      "formats": ["jpg", "jpeg", "png"]
+    },
+    "ttp_profiles": {
+      "folder": "ttp_results/individual/",
+      "description": "Individual TTP profile JSON files",
+      "file_count": 112,
+      "schema_version": "1.0"
+    },
+    "chain_of_thought_logs": {
+      "folder": "ttp_results/chain_of_thought/",
+      "description": "LLM reasoning documentation for each case",
+      "file_count": 112
+    },
+    "analysis_reports": {
+      "files": [
+        {
+          "name": "FINAL_ANALYSIS_REPORT.json",
+          "description": "Comprehensive analysis summary"
+        },
+        {
+          "name": "MULTIMODAL_CONSISTENCY_REPORT.json",
+          "description": "Text-image consistency analysis for 25 cases"
+        },
+        {
+          "name": "WALLET_VERIFICATION_REPORT.json",
+          "description": "Blockchain verification results for 42 wallets"
+        },
+        {
+          "name": "TTP_STATISTICS_ANALYSIS.json",
+          "description": "Statistical analysis of TTP patterns"
+        },
+        {
+          "name": "VALIDATION_SAMPLE_10PERCENT.json",
+          "description": "10% sample for human expert validation"
+        },
+        {
+          "name": "blockchain_tracking_summary.json",
+          "description": "Master wallet tracking file"
+        }
+      ]
+    }
+  },
+  "key_research_findings": {
+    "finding_1": {
+      "title": "Initial Contact Platform Distribution",
+      "result": "WhatsApp is the primary communication migration channel (40.2%), followed by dating apps (24.5%) for initial contact",
+      "implication": "Platform-specific awareness campaigns should prioritize WhatsApp and dating apps"
+    },
+    "finding_2": {
+      "title": "Proof-of-Concept Withdrawal Tactic",
+      "result": "33.9% of cases involve allowing small withdrawals to build victim trust before blocking larger withdrawals",
+      "implication": "Successful small withdrawals should not be used as indicator of platform legitimacy"
+    },
+    "finding_3": {
+      "title": "Tax Demand as Primary Blocking Tactic",
+      "result": "55.4% of withdrawal blocking involves fake tax demands with fabricated legal citations",
+      "implication": "Public education should emphasize that legitimate exchanges never require tax payment before withdrawal"
+    },
+    "finding_4": {
+      "title": "Blockchain Address Extraction Rate",
+      "result": "22.3% of narratives contain actionable blockchain addresses for forensic investigation",
+      "implication": "LLM extraction can significantly accelerate blockchain forensic workflows"
+    },
+    "finding_5": {
+      "title": "Brand Impersonation Prevalence",
+      "result": "17.9% of cases involve impersonation of legitimate financial entities (exchanges, regulators)",
+      "implication": "Coordination with impersonated entities can enhance takedown and victim notification"
+    },
+    "finding_6": {
+      "title": "Multimodal Consistency",
+      "result": "All 25 image cases showed high text-image consistency (avg score: 0.94)",
+      "implication": "No false report indicators detected; victim narratives appear reliable"
+    }
+  },
+  "actionable_intelligence_generated": {
+    "blockchain_forensics": {
+      "wallet_addresses": 42,
+      "priority_investigation": 5,
+      "exchange_reporting_targets": 8
+    },
+    "brand_protection": {
+      "impersonation_cases": 20,
+      "trademark_notification_targets": ["Crypto.com", "KuCoin", "Zipmex", "BitMEX", "Riot Platforms", "Tesla"]
+    },
+    "regulatory_coordination": {
+      "fake_regulators_impersonated": ["FATF", "NFA", "CFTC", "SEC"],
+      "notification_recommended": true
+    },
+    "platform_takedown": {
+      "active_scam_platforms": 8,
+      "domain_registrar_contact_needed": true
+    }
+  },
+  "limitations_and_future_work": {
+    "limitations": [
+      "Self-reported data may contain subjective errors",
+      "Single data source (DFPI California only)",
+      "LLM hallucination risk requires human validation",
+      "Temporal coverage limited to 2024-2025 reports"
+    ],
+    "future_work": [
+      "Expand to other state/federal scam databases",
+      "Implement real-time monitoring system",
+      "Develop automated blockchain cluster analysis",
+      "Cross-reference with international fraud databases"
+    ]
+  },
+  "ethical_considerations": {
+    "data_privacy": "All data is publicly available from DFPI; victim identities not disclosed",
+    "responsible_disclosure": "Wallet addresses shared for law enforcement/forensic purposes only",
+    "research_ethics": "Study focuses on fraud prevention and victim protection"
+  },
+  "citation_ready_statistics": {
+    "for_abstract": "Analysis of 273 pig butchering cases yielded 112 TTP profiles, 42 blockchain addresses, and identified $18M+ in tracked losses",
+    "for_methodology": "LLM-based extraction achieved 22.3% wallet address extraction rate with 0.94 average multimodal consistency score across 25 image cases",
+    "for_results": "Tax demands (55.4%) and deposit-to-withdraw schemes (28.6%) were the most prevalent withdrawal blocking tactics; WhatsApp migration occurred in 40.2% of cases"
+  }
+}

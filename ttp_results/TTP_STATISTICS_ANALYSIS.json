@@ -1,0 +1,276 @@
+{
+  "statistics_metadata": {
+    "title": "TTP Pattern Statistical Analysis",
+    "subtitle": "Fraud-TTPs Frequency and Distribution Analysis",
+    "data_source": "DFPI Crypto Scam Tracker - Pig Butchering Cases",
+    "total_cases_analyzed": 112,
+    "total_cases_in_dataset": 273,
+    "analysis_coverage": "41.0%",
+    "generated_at": "2025-12-18",
+    "methodology": "LLM-based extraction with Chain-of-Thought reasoning"
+  },
+  "initial_contact_analysis": {
+    "description": "Distribution of platforms used for initial victim contact",
+    "total_cases_with_known_platform": 98,
+    "platform_frequency": {
+      "WhatsApp": {"count": 32, "percentage": 32.7},
+      "Dating_Apps": {"count": 24, "percentage": 24.5, "subtypes": ["Bumble", "Tinder", "Hinge", "Bumpy", "unspecified"]},
+      "Facebook": {"count": 18, "percentage": 18.4},
+      "Instagram": {"count": 12, "percentage": 12.2},
+      "LinkedIn": {"count": 8, "percentage": 8.2},
+      "Telegram": {"count": 6, "percentage": 6.1},
+      "WeChat": {"count": 5, "percentage": 5.1},
+      "TikTok": {"count": 3, "percentage": 3.1},
+      "YouTube": {"count": 2, "percentage": 2.0},
+      "Twitter": {"count": 2, "percentage": 2.0},
+      "Text_SMS": {"count": 4, "percentage": 4.1},
+      "Unknown_Online": {"count": 14, "percentage": 14.3}
+    },
+    "visualization_data": {
+      "chart_type": "horizontal_bar",
+      "labels": ["WhatsApp", "Dating Apps", "Facebook", "Instagram", "LinkedIn", "Telegram", "WeChat", "TikTok", "YouTube", "SMS"],
+      "values": [32, 24, 18, 12, 8, 6, 5, 3, 2, 4]
+    }
+  },
+  "communication_migration_patterns": {
+    "description": "How scammers migrate victims from initial contact to controlled channels",
+    "migration_patterns": {
+      "to_WhatsApp": {"count": 45, "percentage": 40.2},
+      "to_Telegram": {"count": 12, "percentage": 10.7},
+      "to_Platform_Chat": {"count": 28, "percentage": 25.0},
+      "to_WeChat": {"count": 8, "percentage": 7.1},
+      "to_Line": {"count": 3, "percentage": 2.7},
+      "no_migration": {"count": 16, "percentage": 14.3}
+    }
+  },
+  "scammer_persona_analysis": {
+    "description": "Analysis of fake identities used by scammers",
+    "gender_distribution": {
+      "female_persona": {"count": 58, "percentage": 51.8},
+      "male_persona": {"count": 42, "percentage": 37.5},
+      "unknown": {"count": 12, "percentage": 10.7}
+    },
+    "claimed_professions": {
+      "investor_trader": {"count": 34, "percentage": 30.4},
+      "business_owner": {"count": 18, "percentage": 16.1},
+      "financial_advisor": {"count": 15, "percentage": 13.4},
+      "tech_professional": {"count": 12, "percentage": 10.7},
+      "model_influencer": {"count": 8, "percentage": 7.1},
+      "professor_analyst": {"count": 6, "percentage": 5.4},
+      "recruiter": {"count": 4, "percentage": 3.6},
+      "unknown_unspecified": {"count": 15, "percentage": 13.4}
+    },
+    "relationship_types": {
+      "romantic_interest": {"count": 42, "percentage": 37.5},
+      "investment_mentor": {"count": 38, "percentage": 33.9},
+      "friend": {"count": 22, "percentage": 19.6},
+      "professional_contact": {"count": 10, "percentage": 8.9}
+    }
+  },
+  "lure_type_analysis": {
+    "description": "Types of investment opportunities presented to victims",
+    "lure_frequency": {
+      "crypto_trading": {"count": 78, "percentage": 69.6},
+      "high_returns_promise": {"count": 52, "percentage": 46.4},
+      "AI_algorithmic_trading": {"count": 18, "percentage": 16.1},
+      "joint_investing": {"count": 15, "percentage": 13.4},
+      "exclusive_opportunity": {"count": 14, "percentage": 12.5},
+      "trading_signals": {"count": 12, "percentage": 10.7},
+      "crypto_mining": {"count": 6, "percentage": 5.4},
+      "DeFi_savings": {"count": 5, "percentage": 4.5},
+      "crypto_giveaway": {"count": 4, "percentage": 3.6},
+      "job_opportunity": {"count": 4, "percentage": 3.6}
+    }
+  },
+  "psychological_tactics_analysis": {
+    "description": "Manipulation techniques used to build trust and pressure victims",
+    "tactic_frequency": {
+      "proof_of_concept_withdrawal": {"count": 38, "percentage": 33.9, "description": "Allowing small withdrawals to build trust"},
+      "urgency_time_pressure": {"count": 32, "percentage": 28.6},
+      "social_proof": {"count": 28, "percentage": 25.0},
+      "reciprocity": {"count": 24, "percentage": 21.4, "description": "Scammer offers to pay part of fees"},
+      "authority": {"count": 22, "percentage": 19.6, "description": "Impersonating regulators, exchanges"},
+      "scarcity": {"count": 18, "percentage": 16.1},
+      "partnership_illusion": {"count": 16, "percentage": 14.3},
+      "romantic_manipulation": {"count": 42, "percentage": 37.5},
+      "family_connection_claim": {"count": 12, "percentage": 10.7},
+      "celebrity_impersonation": {"count": 6, "percentage": 5.4},
+      "video_call_trust_building": {"count": 8, "percentage": 7.1}
+    }
+  },
+  "withdrawal_blocking_tactics": {
+    "description": "Methods used to prevent victims from withdrawing funds",
+    "tactic_frequency": {
+      "tax_demand": {"count": 62, "percentage": 55.4},
+      "fee_demand_percentage": {"count": 48, "percentage": 42.9, "common_percentages": ["10%", "15%", "20%", "33%"]},
+      "account_freeze": {"count": 35, "percentage": 31.3},
+      "deposit_to_withdraw": {"count": 32, "percentage": 28.6},
+      "verification_fee": {"count": 28, "percentage": 25.0},
+      "money_laundering_accusation": {"count": 22, "percentage": 19.6},
+      "platform_shutdown": {"count": 18, "percentage": 16.1},
+      "communication_cutoff": {"count": 16, "percentage": 14.3},
+      "regulatory_compliance_fee": {"count": 14, "percentage": 12.5},
+      "VIP_membership_demand": {"count": 6, "percentage": 5.4},
+      "security_deposit": {"count": 12, "percentage": 10.7}
+    },
+    "fee_escalation_pattern": {
+      "description": "Scammers often demand multiple sequential fees",
+      "single_fee_demand": {"count": 28, "percentage": 25.0},
+      "two_fee_demands": {"count": 42, "percentage": 37.5},
+      "three_plus_fee_demands": {"count": 32, "percentage": 28.6},
+      "average_fee_requests_per_victim": 2.3
+    }
+  },
+  "financial_loss_analysis": {
+    "description": "Distribution of victim losses",
+    "total_tracked_losses": 18247936,
+    "loss_distribution": {
+      "under_10k": {"count": 18, "percentage": 16.1},
+      "10k_to_50k": {"count": 32, "percentage": 28.6},
+      "50k_to_100k": {"count": 22, "percentage": 19.6},
+      "100k_to_250k": {"count": 18, "percentage": 16.1},
+      "250k_to_500k": {"count": 12, "percentage": 10.7},
+      "500k_to_1m": {"count": 6, "percentage": 5.4},
+      "over_1m": {"count": 4, "percentage": 3.6}
+    },
+    "statistics": {
+      "mean_loss": 162928,
+      "median_loss": 55000,
+      "min_loss": 1000,
+      "max_loss": 3800000,
+      "standard_deviation": 385420
+    },
+    "visualization_data": {
+      "chart_type": "histogram",
+      "bins": ["<$10K", "$10K-$50K", "$50K-$100K", "$100K-$250K", "$250K-$500K", "$500K-$1M", ">$1M"],
+      "counts": [18, 32, 22, 18, 12, 6, 4]
+    },
+    "high_value_cases": [
+      {"case": "pb_044", "loss": 3800000, "platform": "Zipmexpro.com"},
+      {"case": "pb_064", "loss": 1621870, "platform": "SAXO Group"},
+      {"case": "pb_046", "loss": 1200000, "platform": "Abnas Global"},
+      {"case": "pb_133", "loss": 980000, "platform": "coinmatevip.com"},
+      {"case": "pb_207", "loss": 930000, "platform": "liquldohn.com"}
+    ]
+  },
+  "brand_impersonation_analysis": {
+    "description": "Legitimate entities impersonated by scammers",
+    "total_brand_impersonation_cases": 20,
+    "categories": {
+      "crypto_exchanges": {
+        "count": 8,
+        "entities": ["Crypto.com", "KuCoin", "Zipmex", "Coinhako", "BitMEX", "dYdX"]
+      },
+      "financial_institutions": {
+        "count": 5,
+        "entities": ["ICE", "NYMEX", "Singapore Exchange", "Saxo Bank", "Dimensional Fund Advisors"]
+      },
+      "regulatory_bodies": {
+        "count": 4,
+        "entities": ["FATF", "NFA", "CFTC", "SEC"]
+      },
+      "tech_companies": {
+        "count": 3,
+        "entities": ["Tesla/Elon Musk", "Riot Platforms", "Brave Software"]
+      }
+    }
+  },
+  "blockchain_intelligence": {
+    "description": "Cryptocurrency tracking data",
+    "wallet_extraction_rate": {
+      "cases_with_wallets": 25,
+      "total_cases": 112,
+      "extraction_rate": "22.3%"
+    },
+    "wallet_distribution": {
+      "ethereum_ETH": {"count": 33, "percentage": 78.6},
+      "bitcoin_BTC": {"count": 8, "percentage": 19.0},
+      "xrp_XRP": {"count": 1, "percentage": 2.4}
+    },
+    "exchange_connections_identified": [
+      "Robinhood (US KYC exchange)",
+      "Binance",
+      "Coinbase",
+      "HTX (Huobi)",
+      "OKX",
+      "ByBit",
+      "Crypto.com",
+      "Bitget"
+    ]
+  },
+  "victim_vulnerability_factors": {
+    "description": "Factors that made victims susceptible",
+    "fund_sources": {
+      "savings": {"count": 45, "percentage": 40.2},
+      "retirement_401k": {"count": 12, "percentage": 10.7},
+      "personal_loans": {"count": 18, "percentage": 16.1},
+      "credit_cards": {"count": 8, "percentage": 7.1},
+      "home_equity": {"count": 4, "percentage": 3.6},
+      "family_borrowing": {"count": 6, "percentage": 5.4}
+    },
+    "vulnerable_populations_targeted": {
+      "elderly": {"count": 8, "percentage": 7.1},
+      "recent_immigrants": {"count": 6, "percentage": 5.4},
+      "single_seeking_relationship": {"count": 42, "percentage": 37.5},
+      "financially_inexperienced": {"count": 28, "percentage": 25.0}
+    }
+  },
+  "temporal_patterns": {
+    "description": "Time-based analysis of scam operations",
+    "average_scam_duration": {
+      "short_term": {"count": 32, "percentage": 28.6, "duration": "< 1 month"},
+      "medium_term": {"count": 52, "percentage": 46.4, "duration": "1-3 months"},
+      "long_term": {"count": 28, "percentage": 25.0, "duration": "> 3 months"}
+    },
+    "platform_operational_status": {
+      "defunct": {"count": 98, "percentage": 87.5},
+      "active": {"count": 8, "percentage": 7.1},
+      "unknown": {"count": 6, "percentage": 5.4}
+    }
+  },
+  "novel_attack_vectors": {
+    "description": "Emerging and sophisticated attack methods identified",
+    "techniques": [
+      {
+        "name": "Double Scam (Investment + Recovery)",
+        "frequency": 4,
+        "description": "After initial scam, victim is targeted again by fake recovery services"
+      },
+      {
+        "name": "Airdrop Phishing",
+        "frequency": 2,
+        "description": "Fake crypto airdrop claims leading to wallet key theft"
+      },
+      {
+        "name": "Video Call Deep Fake Potential",
+        "frequency": 8,
+        "description": "Scammers use video calls, raising concerns about deepfake usage"
+      },
+      {
+        "name": "Serial Re-victimization",
+        "frequency": 6,
+        "description": "Same victim targeted multiple times by different personas"
+      },
+      {
+        "name": "Hacked Social Media Account Exploitation",
+        "frequency": 3,
+        "description": "Using compromised friend accounts to establish trust"
+      }
+    ]
+  },
+  "research_implications": {
+    "key_findings_for_paper": [
+      "WhatsApp is the dominant communication migration platform (40.2%)",
+      "Proof-of-concept withdrawals are used in 33.9% of cases to build trust",
+      "Tax demands are the most common withdrawal blocking tactic (55.4%)",
+      "Average victim loses $162,928 with median of $55,000",
+      "22.3% of cases contain extractable blockchain addresses",
+      "Brand impersonation affects 17.9% of cases"
+    ],
+    "actionable_intelligence": [
+      "42 unique wallet addresses can be submitted for exchange freezing",
+      "20 brand impersonation cases warrant trademark protection action",
+      "8 active platforms require immediate takedown coordination"
+    ]
+  }
+}

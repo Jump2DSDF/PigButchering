@@ -1,0 +1,804 @@
+{
+  "report_metadata": {
+    "title": "Multimodal Consistency Analysis Report",
+    "subtitle": "Text-Image Cross-Validation for Pig Butchering Scam Cases",
+    "generated_at": "2025-12-18",
+    "methodology": "VLM-based image analysis with text narrative comparison",
+    "analyst": "Claude Opus 4.5",
+    "total_cases_analyzed": 25,
+    "research_reference": "세부 연구방법2: 멀티모달 분석"
+  },
+  "consistency_scoring_methodology": {
+    "description": "Each case evaluated on domain match, UI pattern match, financial claims match, and brand impersonation verification",
+    "score_range": "0.0 (complete mismatch) to 1.0 (perfect match)",
+    "threshold_for_flagging": 0.7,
+    "flagging_meaning": "Score below 0.7 indicates need for additional verification, NOT false report determination"
+  },
+  "summary_statistics": {
+    "total_cases": 25,
+    "high_consistency_cases": 25,
+    "medium_consistency_cases": 0,
+    "low_consistency_cases": 0,
+    "flagged_for_review": 0,
+    "average_consistency_score": 0.94,
+    "brand_impersonation_confirmed": 5
+  },
+  "individual_case_analysis": [
+    {
+      "case_id": "pb_001",
+      "original_case_id": 2,
+      "platform": "b2c2-amm.com",
+      "image_file": "pb_001_case_002.jpg",
+      "image_analysis": {
+        "domain_visible": "b2c2-amm.co...",
+        "ui_type": "Mobile trading app dashboard",
+        "fake_balance_displayed": "$316,120.19 USD",
+        "features_visible": ["Deposit", "Withdraw", "Convert", "Transfer", "History"],
+        "brand_impersonation": null
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "b2c2-amm.com",
+        "scam_type": "Joint-investing, data breach fee demand",
+        "loss_claimed": "$77,000+ demanded"
+      },
+      "consistency_assessment": {
+        "domain_match": true,
+        "ui_matches_description": true,
+        "financial_claims_plausible": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.95,
+      "flag_for_review": false,
+      "notes": "Domain and trading platform UI clearly visible, matches victim narrative"
+    },
+    {
+      "case_id": "pb_002",
+      "original_case_id": 9,
+      "platform": "web3app.rest",
+      "image_file": "pb_002_case_009.jpeg",
+      "image_analysis": {
+        "domain_visible": "web3app.rest",
+        "ui_type": "WEB 3.0 savings/investment platform",
+        "interest_rates_displayed": "1.7% to 11% INTEREST PER DAY",
+        "features_visible": ["Fixed-term savings plan", "Output transactions", "ETH wallet addresses"],
+        "wallet_addresses_visible": ["0xe45e5bf5********eb08b7b549", "0x018cc4d9********e6818ebc43"]
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "web3app.rest",
+        "scam_type": "Blockchain savings plan",
+        "loss_claimed": "$2.5 million"
+      },
+      "consistency_assessment": {
+        "domain_match": true,
+        "ui_matches_description": true,
+        "financial_claims_plausible": true,
+        "unrealistic_returns_visible": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.98,
+      "flag_for_review": false,
+      "notes": "CRITICAL EVIDENCE: Unrealistic daily interest rates (up to 11%) visible - classic Ponzi indicator"
+    },
+    {
+      "case_id": "pb_008",
+      "original_case_id": 27,
+      "platform": "up-business.top",
+      "image_file": "pb_008_case_027.jpeg",
+      "image_analysis": {
+        "domain_visible": "up-business.top",
+        "ui_type": "Crypto trading app with AI features",
+        "features_visible": ["AI Quantification: $81,350.80", "Today's Earnings: $938.35", "Market prices for BTC, ETH, LTC, DOT, DOGE, XRP"],
+        "ai_trading_claim": true
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "up-business.top",
+        "scam_type": "AI trading program",
+        "loss_claimed": "$55,000+"
+      },
+      "consistency_assessment": {
+        "domain_match": true,
+        "ui_matches_description": true,
+        "ai_feature_matches_narrative": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.97,
+      "flag_for_review": false,
+      "notes": "AI Quantification feature prominently displayed, confirms victim's AI trading claim"
+    },
+    {
+      "case_id": "pb_009",
+      "original_case_id": 34,
+      "platform": "hrdebit.com",
+      "image_file": "pb_009_case_034.jpg",
+      "image_analysis": {
+        "domain_visible": "hrdebit.com/#/assets",
+        "ui_type": "Trading platform with customer service chat",
+        "service_fee_demanded": "89901 USDT",
+        "threat_visible": "Account will be permanently frozen if fee not paid",
+        "features_visible": ["Withdrawal", "Deposit", "Transfer", "Swap", "Online Customer Service"]
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "hrdebit.com",
+        "scam_type": "AI trading, 20% service fee demand",
+        "loss_claimed": "$358,000"
+      },
+      "consistency_assessment": {
+        "domain_match": true,
+        "ui_matches_description": true,
+        "fee_demand_visible": true,
+        "coercion_tactics_visible": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.98,
+      "flag_for_review": false,
+      "notes": "CRITICAL EVIDENCE: Chat shows explicit fee demand with account freeze threat - classic withdrawal blocking"
+    },
+    {
+      "case_id": "pb_014",
+      "original_case_id": 43,
+      "platform": "btc01.org",
+      "image_file": "pb_014_case_043.jpg",
+      "image_analysis": {
+        "domain_visible": "btc01.org/Trade/tradelist",
+        "ui_type": "BTC trading platform homepage",
+        "promotional_offers": "$1M + EXTRA $100K in rewards",
+        "features_visible": ["Future trading", "Online Service", "Market prices", "Download App"]
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "btc01.org",
+        "scam_type": "Dating app introduction to crypto trading",
+        "loss_claimed": "$46,000+"
+      },
+      "consistency_assessment": {
+        "domain_match": true,
+        "ui_matches_description": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.95,
+      "flag_for_review": false,
+      "notes": "Referral rewards promotion visible - typical multi-level recruitment tactic"
+    },
+    {
+      "case_id": "pb_015",
+      "original_case_id": 47,
+      "platform": "pzmqgow.top",
+      "image_file": "pb_015_case_047.jpeg",
+      "image_analysis": {
+        "domain_visible": "pzmqgow.top",
+        "ui_type": "Crypto withdrawal interface",
+        "fake_balance_displayed": "$376,837.5671",
+        "withdrawal_details": {
+          "amount": "376837.5671",
+          "equivalent_eth": "205.156 ETH",
+          "transaction_fee": "$7536.75 (2%)",
+          "receiving_address": "0x6b38f83ac4506e2baa46e5a7825da8f0fadf86fc"
+        }
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "pzmqgow.top",
+        "scam_type": "High returns promise, fee demands to withdraw",
+        "loss_claimed": "Unspecified"
+      },
+      "consistency_assessment": {
+        "domain_match": true,
+        "ui_matches_description": true,
+        "wallet_address_extractable": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.96,
+      "flag_for_review": false,
+      "notes": "NEW WALLET ADDRESS EXTRACTED: 0x6b38f83ac4506e2baa46e5a7825da8f0fadf86fc"
+    },
+    {
+      "case_id": "pb_016",
+      "original_case_id": 48,
+      "platform": "stdubrye.top",
+      "image_file": "pb_016_case_048.jpeg",
+      "image_analysis": {
+        "domain_visible": "www.stdubrye.top",
+        "ui_type": "Crypto wallet/exchange interface",
+        "fake_balance_displayed": "$928,733.02 USDT",
+        "wallets_shown": ["USDT", "BTC", "ETH", "AAVE", "ADA"]
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "stdubrye.top",
+        "scam_type": "Dating app introduction, $275,000 withdrawal demand",
+        "loss_claimed": "$240,000+"
+      },
+      "consistency_assessment": {
+        "domain_match": true,
+        "ui_matches_description": true,
+        "inflated_balance_visible": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.95,
+      "flag_for_review": false,
+      "notes": "Extremely inflated USDT balance visible - classic fake profit display"
+    },
+    {
+      "case_id": "pb_023",
+      "original_case_id": 66,
+      "platform": "crypto-rd.top",
+      "image_file": "pb_023_case_066.jpg",
+      "image_analysis": {
+        "domain_visible": "www.crypto-rd.top",
+        "ui_type": "Crypto deposit interface impersonating Crypto.com",
+        "brand_impersonation": {
+          "fake_brand": "Crypto.com",
+          "real_entity": "Crypto.com (legitimate exchange)",
+          "impersonation_method": "Logo and name copying"
+        },
+        "deposit_address_visible": "3ES9qFnB35pTYV6frG59AUtgCtDMCKZ6nu (BTC)"
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "crypto-rd.top",
+        "scam_type": "Crypto.com impersonation, multiple fee demands",
+        "wallet_mentioned": "3ES9qFnB35pTYV6frG59AUtgCtDMCKZ6nu"
+      },
+      "consistency_assessment": {
+        "domain_match": true,
+        "brand_impersonation_confirmed": true,
+        "wallet_address_match": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.99,
+      "flag_for_review": false,
+      "notes": "BRAND IMPERSONATION CONFIRMED: Crypto.com. Wallet address in image matches text narrative."
+    },
+    {
+      "case_id": "pb_024",
+      "original_case_id": 67,
+      "platform": "RIOT Blockchain",
+      "image_file": "pb_024_case_067.jpg",
+      "image_analysis": {
+        "domain_visible": "lockchains.com (partial)",
+        "ui_type": "Crypto mining platform",
+        "brand_impersonation": {
+          "fake_brand": "RIOT BLOCKCHAIN",
+          "real_entity": "Riot Platforms (NASDAQ: RIOT)",
+          "impersonation_method": "Logo and brand name copying"
+        },
+        "crypto_prices_shown": ["BTC: $94,376.62", "DOGE: $0.175501", "KAS: $0.17"]
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "RIOT Blockchain",
+        "scam_type": "Crypto mining job scam",
+        "loss_claimed": "$81,000"
+      },
+      "consistency_assessment": {
+        "brand_impersonation_confirmed": true,
+        "ui_matches_mining_claim": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.94,
+      "flag_for_review": false,
+      "notes": "BRAND IMPERSONATION CONFIRMED: Riot Platforms (legitimate Bitcoin mining company)"
+    },
+    {
+      "case_id": "pb_025",
+      "original_case_id": 68,
+      "platform": "cbotbit.com",
+      "image_file": "pb_025_case_068.jpg",
+      "image_analysis": {
+        "domain_visible": "Not visible in screenshot",
+        "ui_type": "Fund account dashboard",
+        "fake_balance_displayed": "$41,647.67",
+        "crypto_holdings": {
+          "USDT": "41,647.672466 USDT",
+          "BTC": "0",
+          "ETH": "0",
+          "USDC": "0"
+        }
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "cbotbit.com",
+        "scam_type": "WhatsApp introduction, trading platform",
+        "loss_claimed": "$40,000+"
+      },
+      "consistency_assessment": {
+        "balance_matches_loss_claim": true,
+        "ui_matches_description": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.90,
+      "flag_for_review": false,
+      "notes": "Balance amount (~$41K) closely matches claimed loss (~$40K)"
+    },
+    {
+      "case_id": "pb_026",
+      "original_case_id": 69,
+      "platform": "eth-cryp.com (Cypo)",
+      "image_file": "pb_026_case_069.png",
+      "image_analysis": {
+        "domain_visible": "Cypo platform",
+        "ui_type": "Financial growth/trading dashboard",
+        "fake_balance_displayed": "Balance: 169944.78237703",
+        "features_visible": ["BTC", "GOLD", "Service", "Deposit", "Withdraw", "Loan", "Financial Growth chart"]
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "eth-cryp.com (Cypo)",
+        "scam_type": "Dating app, video call trading demonstrations",
+        "loss_claimed": "$34,000 invested, $150,000+ fake profit"
+      },
+      "consistency_assessment": {
+        "platform_name_match": true,
+        "ui_matches_description": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.92,
+      "flag_for_review": false,
+      "notes": "Cypo branding visible, trading interface matches description"
+    },
+    {
+      "case_id": "pb_032",
+      "original_case_id": 91,
+      "platform": "dimensionvip.com",
+      "image_file": "pb_032_case_091.png",
+      "image_analysis": {
+        "domain_visible": "dimensionalaccount.com",
+        "ui_type": "Investment platform homepage",
+        "features_visible": ["Security Protection", "Stock pick", "Order", "News", "IPO", "Popular recommendations", "GOOGL", "XAUUSD"],
+        "brand_reference": "Welcome to Dimensional"
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "dimensionvip.com, dimensionalaccount.com",
+        "scam_type": "WhatsApp investment club (Dimensional Fund Advisors impersonation)",
+        "wallets_mentioned": ["0x1D45F02c6D2729ba1AD8694597F51b0E4A0429A3", "0x7fF3e940eA4Db870e294C89D2ad579C27aC33A80"]
+      },
+      "consistency_assessment": {
+        "domain_match": true,
+        "brand_impersonation_indicator": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.95,
+      "flag_for_review": false,
+      "notes": "BRAND IMPERSONATION INDICATOR: Dimensional Fund Advisors (legitimate investment firm)"
+    },
+    {
+      "case_id": "pb_036",
+      "original_case_id": 107,
+      "platform": "CryptoMMS",
+      "image_file": "pb_036_case_107.jpeg",
+      "image_analysis": {
+        "domain_visible": "www.crypto-mms.com, m.crypto-mms.com",
+        "ui_type": "WhatsApp chat with platform links",
+        "communication_evidence": {
+          "platform_announcement": "cryptomms exchange has upgraded its internal system",
+          "urls_shared": ["https://www.crypto-mms.com/", "https://m.crypto-mms.com/"],
+          "trading_screenshot_shared": true
+        }
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "cryptomms.co, crypto-mms.com",
+        "scam_type": "WhatsApp trading group, Professor Parker signals",
+        "loss_claimed": "$12,000+"
+      },
+      "consistency_assessment": {
+        "domain_match": true,
+        "communication_method_match": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.97,
+      "flag_for_review": false,
+      "notes": "WhatsApp communication evidence matches narrative exactly"
+    },
+    {
+      "case_id": "pb_037",
+      "original_case_id": 111,
+      "platform": "Unktlife.com",
+      "image_file": "pb_037_case_111.jpg",
+      "image_analysis": {
+        "domain_visible": "unktlife.com",
+        "ui_type": "Chinese-language crypto trading platform",
+        "fake_balance_displayed": "$1,179,435.27 (total assets)",
+        "frozen_funds": "1179435.27000000 USDT (frozen)",
+        "interface_language": "Chinese"
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "Unktlife.com",
+        "scam_type": "WeChat introduction by fake model, tax credit demand",
+        "loss_claimed": "$550,000+"
+      },
+      "consistency_assessment": {
+        "domain_match": true,
+        "chinese_interface_matches_wechat_origin": true,
+        "funds_frozen_visible": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.96,
+      "flag_for_review": false,
+      "notes": "Chinese UI consistent with WeChat introduction; frozen USDT balance confirms withdrawal blocking"
+    },
+    {
+      "case_id": "pb_042",
+      "original_case_id": 120,
+      "platform": "GOO Market LLC",
+      "image_file": "pb_042_case_120.png",
+      "image_analysis": {
+        "domain_visible": "goomarketllc.info",
+        "ui_type": "Transaction record page",
+        "transaction_records": {
+          "type": "Withdraw",
+          "status": "Success (multiple entries)",
+          "amounts": "Redacted"
+        }
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "goomarketllc.info",
+        "scam_type": "WhatsApp introduction, fake $5.3M profit, tax + money laundering accusation",
+        "loss_claimed": "$540,000+"
+      },
+      "consistency_assessment": {
+        "domain_match": true,
+        "transaction_records_visible": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.94,
+      "flag_for_review": false,
+      "notes": "Transaction records show 'Success' status but victim couldn't actually withdraw - classic fake confirmation"
+    },
+    {
+      "case_id": "pb_046",
+      "original_case_id": 135,
+      "platform": "Abnas Global",
+      "image_file": "pb_046_case_135.png",
+      "image_analysis": {
+        "domain_visible": "abnasglobal.cc",
+        "ui_type": "Professional trading platform (desktop)",
+        "features_visible": ["VEX trading pair", "Price charts", "Position/Pending order/History tabs", "Leverage available", "Buy/Sell buttons"],
+        "price_displayed": "0.4911 VEXUSD"
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "abnasglobal.com, abnasglobal.cc",
+        "scam_type": "WhatsApp/WeChat introduction, $240K tax demand, split payment manipulation",
+        "loss_claimed": "$1,200,000+"
+      },
+      "consistency_assessment": {
+        "domain_match": true,
+        "professional_ui_matches_sophistication": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.95,
+      "flag_for_review": false,
+      "notes": "Sophisticated trading UI reflects high-value scam targeting"
+    },
+    {
+      "case_id": "pb_047",
+      "original_case_id": 136,
+      "platform": "DYDX Wallet",
+      "image_file": "pb_047_case_136.png",
+      "image_analysis": {
+        "domain_visible": "DYDX Wallet (header)",
+        "ui_type": "Options trading platform",
+        "brand_impersonation": {
+          "fake_brand": "DYDX Wallet",
+          "real_entity": "dYdX Exchange (legitimate DeFi platform)",
+          "impersonation_method": "Name similarity"
+        },
+        "trading_records_visible": "Multiple BTC/USDT options orders with profit/loss"
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "dydxgroup.com (DYDX Wallet)",
+        "scam_type": "Social media introduction, Nathan's trading signals, commission demands",
+        "loss_claimed": "$22,000"
+      },
+      "consistency_assessment": {
+        "brand_impersonation_confirmed": true,
+        "trading_interface_matches": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.96,
+      "flag_for_review": false,
+      "notes": "BRAND IMPERSONATION CONFIRMED: dYdX Exchange (legitimate DeFi platform)"
+    },
+    {
+      "case_id": "pb_048",
+      "original_case_id": 137,
+      "platform": "MIC Markets",
+      "image_file": "pb_048_case_137.png",
+      "image_analysis": {
+        "domain_visible": "Mic-Markets (app header)",
+        "ui_type": "Multi-asset trading app (Crypto, Metal, Oil, CFD, Forex)",
+        "markets_displayed": ["XAUUSD", "XAGUSD", "USOil", "UKOil", "BTCUSD", "ETHUSD", "EURUSD", "GBPUSD", "AUDUSD"]
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "micmarkfx.com (MIC Markets)",
+        "scam_type": "Dating app introduction, 401K targeting, 20% fee demand",
+        "loss_claimed": "$20,000+"
+      },
+      "consistency_assessment": {
+        "platform_name_match": true,
+        "multi_asset_trading_visible": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.94,
+      "flag_for_review": false,
+      "notes": "Mic-Markets branding matches narrative; forex/crypto hybrid platform"
+    },
+    {
+      "case_id": "pb_049",
+      "original_case_id": 139,
+      "platform": "Xperiatrade",
+      "image_file": "pb_049_case_139.png",
+      "image_analysis": {
+        "domain_visible": "xperiatrade.com",
+        "ui_type": "Mobile trading dashboard",
+        "fake_balance_displayed": "$12,264.00",
+        "stats_visible": {
+          "total_withdraw": "$145.00",
+          "total_deposit": "$4,428.00",
+          "profit": "$7,905.00"
+        },
+        "notification": "Your Payment Is Successfully Received"
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "Xperiatrade.com",
+        "scam_type": "Instagram introduction (Moneybynora), account disabled, encryption code fee",
+        "loss_claimed": "$5,080"
+      },
+      "consistency_assessment": {
+        "domain_match": true,
+        "balance_plausible_given_loss": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.93,
+      "flag_for_review": false,
+      "notes": "Dashboard shows deposits matching victim's investment pattern"
+    },
+    {
+      "case_id": "pb_057",
+      "original_case_id": 158,
+      "platform": "Wealth BAX",
+      "image_file": "pb_057_case_158.jpg",
+      "image_analysis": {
+        "domain_visible": "h5.wealthbax.com",
+        "ui_type": "Professional trading platform",
+        "features_visible": ["BTC/USD", "ETH/USD", "LTC/USD charts", "Contract/Option trading", "Safe and Reliable tagline", "24 Hours Customer Service"],
+        "promotional_claim": "SAFE AND RELIABLE"
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "wealthbax.com, h5.wealthbax.com",
+        "scam_type": "SMS introduction (Sandy), romance development, IRS tax demand",
+        "loss_claimed": "Unable to withdraw fake $281,992 balance"
+      },
+      "consistency_assessment": {
+        "domain_match": true,
+        "trading_interface_matches": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.95,
+      "flag_for_review": false,
+      "notes": "Professional UI matches sophisticated scam operation"
+    },
+    {
+      "case_id": "pb_058",
+      "original_case_id": 159,
+      "platform": "Tpkcoin",
+      "image_file": "pb_058_case_159.jpg",
+      "image_analysis": {
+        "domain_visible": "Tpkcoin official customer service (Telegram)",
+        "ui_type": "Telegram chat with customer service",
+        "withdrawal_blocking_evidence": {
+          "rejection_reason": "Unpaid personal income tax and crypto tax",
+          "tax_rate_claimed": "33%",
+          "tax_amount": "48532.8 USDT",
+          "legal_citation_fake": "US Federal International Blockchain Crypto Tax Law",
+          "btc_address_for_payment": "bc1qwrxt8unymj9y48dvh830gdf7jwqdndxah76fw0"
+        }
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "tpkcoin (directcurrent)",
+        "scam_type": "Telegram group, trading signals, commission + tax demands",
+        "loss_claimed": "$4,200"
+      },
+      "consistency_assessment": {
+        "communication_platform_match": true,
+        "tax_scam_tactic_visible": true,
+        "wallet_address_extractable": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.98,
+      "flag_for_review": false,
+      "notes": "CRITICAL EVIDENCE: Fake tax law citation visible; NEW BTC ADDRESS: bc1qwrxt8unymj9y48dvh830gdf7jwqdndxah76fw0"
+    },
+    {
+      "case_id": "pb_059",
+      "original_case_id": 160,
+      "platform": "SILD group",
+      "image_file": "pb_059_case_160.jpg",
+      "image_analysis": {
+        "domain_visible": "WhatsApp chat (Robert the Whale Project)",
+        "ui_type": "WhatsApp investment group chat",
+        "group_name": "Robert the Whale Project",
+        "promotional_content": {
+          "whale_project_infographic": true,
+          "profit_targets": "30%-100% daily",
+          "trading_signals_schedule": "1-2 signals per day at 4:00 EST"
+        }
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "sildgroup.co, sild.us",
+        "scam_type": "Professor Robert's investment group, Angelina assistant, exclusive $50K-$3M club",
+        "loss_claimed": "$85,000+"
+      },
+      "consistency_assessment": {
+        "group_leader_name_match": true,
+        "unrealistic_returns_visible": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.94,
+      "flag_for_review": false,
+      "notes": "Whale Project imagery and unrealistic profit targets (30-100% daily) confirm investment group scam"
+    },
+    {
+      "case_id": "pb_060",
+      "original_case_id": 161,
+      "platform": "btm-vip.com (BitMex impersonation)",
+      "image_file": "pb_060_case_161.png",
+      "image_analysis": {
+        "domain_visible": "bitaeqcke.net",
+        "ui_type": "Crypto trading platform homepage",
+        "brand_impersonation": {
+          "fake_brand": "Bitmex",
+          "real_entity": "BitMEX (legitimate derivatives exchange)",
+          "impersonation_method": "Logo and name copying",
+          "tagline_used": "Welcome to Bitmex - Experience the best encrypted derivative trading platform"
+        }
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "btm-vip.com, bitaeqcke.net",
+        "scam_type": "Instagram romance, tax profit fee demand",
+        "loss_claimed": "$30,000+ demanded"
+      },
+      "consistency_assessment": {
+        "brand_impersonation_confirmed": true,
+        "domain_match": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.97,
+      "flag_for_review": false,
+      "notes": "BRAND IMPERSONATION CONFIRMED: BitMEX (legitimate crypto derivatives exchange)"
+    },
+    {
+      "case_id": "pb_061",
+      "original_case_id": 162,
+      "platform": "webelon.org (Tesla/Elon Musk impersonation)",
+      "image_file": "pb_061_case_162.jpg",
+      "image_analysis": {
+        "domain_visible": "https://webelon.org/ (footer)",
+        "ui_type": "Crypto giveaway landing page",
+        "brand_impersonation": {
+          "fake_brand": "Tesla",
+          "real_entity": "Tesla Inc. / Elon Musk",
+          "impersonation_method": "Tesla logo, Elon Musk association"
+        },
+        "scam_details": {
+          "claimed_giveaway": "$100,000,000 BIGGEST CRYPTO GIVEAWAY",
+          "crypto_promised": "1,000 BTC & 10,000 ETH & 500,000 SOL & 100,000,000 DOGE"
+        }
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "webelon.org",
+        "scam_type": "YouTube livestream giveaway scam",
+        "wallet_mentioned": "bc1qnjy98m5g8d4qctp8s7v5j5jynsqhkdvvwm3840",
+        "loss_claimed": "$5,000"
+      },
+      "consistency_assessment": {
+        "domain_match": true,
+        "brand_impersonation_confirmed": true,
+        "giveaway_scam_pattern_visible": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.99,
+      "flag_for_review": false,
+      "notes": "BRAND IMPERSONATION CONFIRMED: Tesla/Elon Musk. Classic crypto giveaway scam pattern."
+    },
+    {
+      "case_id": "pb_062",
+      "original_case_id": 163,
+      "platform": "Capiturly.io",
+      "image_file": "pb_062_case_163.png",
+      "image_analysis": {
+        "domain_visible": "app.capiturly.io/dashboard",
+        "ui_type": "Professional trading dashboard (desktop)",
+        "fake_balance_displayed": "$138,681.00 USD (Portfolio Balance)",
+        "btc_holdings": "2.13355 BTC",
+        "features_visible": ["Dashboard", "Payment Accounts", "Transactions", "My Profile", "Live Trading Rates", "Technical Analysis Trading Chart"]
+      },
+      "text_narrative_claims": {
+        "platform_mentioned": "capiturly.io",
+        "scam_type": "Sharon (fake stock broker) introduction",
+        "wallet_mentioned": "bc1qdv4zpss0c0c868pwp8r0nvuds5vxwa0vtha2wm",
+        "loss_claimed": "Unspecified"
+      },
+      "consistency_assessment": {
+        "domain_match": true,
+        "professional_ui_visible": true,
+        "inconsistencies_found": []
+      },
+      "consistency_score": 0.95,
+      "flag_for_review": false,
+      "notes": "Professional trading dashboard with substantial fake portfolio balance"
+    }
+  ],
+  "new_wallet_addresses_extracted": [
+    {
+      "address": "0x6b38f83ac4506e2baa46e5a7825da8f0fadf86fc",
+      "type": "ETH",
+      "source": "pb_015 image (pzmqgow.top withdrawal screen)",
+      "context": "Receiving address for withdrawal"
+    },
+    {
+      "address": "bc1qwrxt8unymj9y48dvh830gdf7jwqdndxah76fw0",
+      "type": "BTC",
+      "source": "pb_058 image (Tpkcoin customer service chat)",
+      "context": "Tax payment address demanded by scammers"
+    }
+  ],
+  "brand_impersonation_confirmed_by_images": [
+    {
+      "case_id": "pb_023",
+      "fake_platform": "crypto-rd.top",
+      "impersonated_brand": "Crypto.com",
+      "evidence": "Logo and interface copying visible in image"
+    },
+    {
+      "case_id": "pb_024",
+      "fake_platform": "RIOT Blockchain",
+      "impersonated_brand": "Riot Platforms (NASDAQ: RIOT)",
+      "evidence": "RIOT logo visible in platform header"
+    },
+    {
+      "case_id": "pb_047",
+      "fake_platform": "DYDX Wallet",
+      "impersonated_brand": "dYdX Exchange",
+      "evidence": "DYDX name usage in platform header"
+    },
+    {
+      "case_id": "pb_060",
+      "fake_platform": "bitaeqcke.net",
+      "impersonated_brand": "BitMEX",
+      "evidence": "Bitmex logo and tagline visible"
+    },
+    {
+      "case_id": "pb_061",
+      "fake_platform": "webelon.org",
+      "impersonated_brand": "Tesla / Elon Musk",
+      "evidence": "Tesla logo and $100M giveaway claim visible"
+    }
+  ],
+  "critical_forensic_evidence_from_images": [
+    {
+      "case_id": "pb_002",
+      "evidence_type": "Unrealistic returns",
+      "detail": "Interest rates of 1.7% to 11% PER DAY visible - mathematically impossible sustainable returns"
+    },
+    {
+      "case_id": "pb_009",
+      "evidence_type": "Coercion tactics",
+      "detail": "Customer service chat demanding 89,901 USDT with account freeze threat"
+    },
+    {
+      "case_id": "pb_037",
+      "evidence_type": "Fund freezing",
+      "detail": "Chinese UI showing 1,179,435.27 USDT frozen (冻结)"
+    },
+    {
+      "case_id": "pb_058",
+      "evidence_type": "Fake legal citation",
+      "detail": "'US Federal International Blockchain Crypto Tax Law' - non-existent law cited to demand 33% tax"
+    },
+    {
+      "case_id": "pb_059",
+      "evidence_type": "Unrealistic profit claims",
+      "detail": "Whale Project promising 30%-100% daily returns"
+    }
+  ],
+  "conclusions": {
+    "overall_consistency": "HIGH - All 25 cases demonstrate strong text-image consistency",
+    "no_false_report_indicators": "No cases flagged for potential false reporting",
+    "image_value_for_investigation": "Images provide critical corroborating evidence for TTP analysis",
+    "additional_intelligence_extracted": "2 new wallet addresses, 5 confirmed brand impersonations",
+    "recommendation": "Images should be preserved as evidence and analyzed alongside text narratives in all future cases"
+  }
+}

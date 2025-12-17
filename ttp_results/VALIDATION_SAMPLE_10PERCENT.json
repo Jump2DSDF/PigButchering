@@ -1,0 +1,366 @@
+{
+  "validation_metadata": {
+    "title": "10% Random Sample Validation Dataset",
+    "purpose": "Human expert validation of LLM TTP extraction accuracy",
+    "methodology": "Inter-rater reliability assessment between LLM and human experts",
+    "reference": "연구계획서 세부 연구방법1: 무작위 추출표본(10%)에 대해 인간 전문가와의 상호 일치도 검증",
+    "total_ttp_profiles": 112,
+    "sample_size": 11,
+    "sample_percentage": "9.8%",
+    "selection_criteria": "Stratified random sampling - diverse case types, loss amounts, attack vectors",
+    "generated_at": "2025-12-18"
+  },
+  "validation_instructions": {
+    "task": "Compare LLM-extracted fields against original narrative",
+    "scoring_method": "Binary (Correct/Incorrect) + Partial credit for partially correct extractions",
+    "fields_to_validate": [
+      "initial_contact_platform",
+      "scammer_persona_name",
+      "platform_name",
+      "platform_url",
+      "psychological_tactics",
+      "withdrawal_block_tactics",
+      "estimated_loss_usd",
+      "wallet_addresses",
+      "brand_impersonation"
+    ],
+    "notes": "Focus on factual accuracy, not interpretation. Mark 'N/A' if field not applicable to case."
+  },
+  "validation_samples": [
+    {
+      "sample_id": 1,
+      "case_id": "pb_001",
+      "original_case_id": 2,
+      "selection_reason": "Basic pig butchering pattern - baseline case",
+      "original_narrative": "A California resident reports being contacted by an individual online who asked to move the conversation to a messaging platform. After forming a relationship, the "friend" brought up the topic of investing in crypto assets, and introduced the victim to a crypto asset trading platform located at b2c2-amm.com, saying they could engage in "joint-investing" where the "friend" would match whatever amount the victim invested. After a while the platform told the victim there was a potential "data-breach" and demanded $77,000 to withdraw their funds. The victim paid, but the platform demanded an additional $100,000 "investment" to fully withdraw their funds. The victim did not pay and has been unable to withdraw their funds. The website is no longer operational.",
+      "llm_extraction": {
+        "initial_contact_platform": ["online_unspecified"],
+        "communication_migration": "messaging_platform",
+        "scammer_persona": {"name": "Unknown", "relationship_type": "friend"},
+        "platform_name": "b2c2-amm.com",
+        "platform_url": "b2c2-amm.com",
+        "lure_type": ["joint_investing", "matched_investment"],
+        "psychological_tactics": ["partnership_illusion", "reciprocity"],
+        "withdrawal_block_tactics": ["data_breach_fee", "additional_investment_demand"],
+        "estimated_loss_usd": 77000,
+        "wallet_addresses": [],
+        "brand_impersonation": null
+      },
+      "human_validation": {
+        "initial_contact_platform": {"correct": null, "notes": ""},
+        "scammer_persona": {"correct": null, "notes": ""},
+        "platform_name": {"correct": null, "notes": ""},
+        "psychological_tactics": {"correct": null, "notes": ""},
+        "withdrawal_block_tactics": {"correct": null, "notes": ""},
+        "estimated_loss_usd": {"correct": null, "notes": ""},
+        "wallet_addresses": {"correct": null, "notes": ""},
+        "overall_accuracy_score": null
+      }
+    },
+    {
+      "sample_id": 2,
+      "case_id": "pb_018",
+      "original_case_id": 54,
+      "selection_reason": "High-value case with multiple wallet addresses extracted",
+      "original_narrative": "Two California residents report about their experience with the crypto asset trading platform, CBMWW, operating at wwww.cbmww.com. The first California resident indicated they were messaged on Facebook by someone claiming to be a crypto investor. The Facebook investor asked to move the conversations over to WhatsApp, and then presented an investment opportunity involving bitcoin trades, promising high returns. All told the victim invested more than$400,000 and stated that they can no longer access their cryptocurrency. The victim reports the domain name changed several times, and reports encountering the following domains: bittisport.com, nvbit.cc, frbit.cc, cbmww.com. The second California resident reports being approached by "Yinan" on Facebook. Yinan told the resident she had a successful business and was planning to retire early. When the resident inquired about this, Yinan claimed to have an uncle who managed a team of analysts that could determine which crypto asset to invest. Yinan showed business statements to the resident to prove she had made solid returns. Yinan then directed the resident to open an account on the crypto asset trading platform, CBMWW, operating at www.cbmww.com. The victim initially invested and was able to withdraw their first profit of $1,000. After that Yinan enticed the resident to deposit more funds, claiming she would regularly provide information about upcoming markets to trade in along. At one point, the resident believed that their account had grown to more than $1 million. But when they tried to withdraw funds, the platform's customer support demanded the resident pay the "Cryptocurrency Regulatory Authority" a $260,000 tax. Yinan offered to help pay half of the tax, but the victim realized she was only trying to gain access to their crypto asset wallet. All told, the resident lost over $179,000. The websites are no longer operational. The resident reported sending cryptocurrency to the following wallet addresses: 0xb1ee662001a0247270b282e03cfc0c86642babec, 0xa5fe0f74911715f5d6290d39da823c8e15986554",
+      "llm_extraction": {
+        "initial_contact_platform": ["Facebook"],
+        "communication_migration": "WhatsApp",
+        "scammer_persona": {"name": "Yinan", "claimed_identity": "Successful businesswoman", "relationship_type": "investment_mentor"},
+        "platform_name": "CBMWW",
+        "platform_urls": ["cbmww.com", "bittisport.com", "nvbit.cc", "frbit.cc"],
+        "lure_type": ["analyst_team", "early_retirement", "high_returns"],
+        "psychological_tactics": ["proof_of_concept_withdrawal", "social_proof", "family_connection_claim"],
+        "withdrawal_block_tactics": ["fake_regulatory_authority", "tax_demand", "split_payment_offer"],
+        "estimated_loss_usd": 579000,
+        "wallet_addresses": ["0xb1ee662001a0247270b282e03cfc0c86642babec", "0xa5fe0f74911715f5d6290d39da823c8e15986554"],
+        "brand_impersonation": {"entity": "Cryptocurrency Regulatory Authority", "type": "fake_regulator"}
+      },
+      "human_validation": {
+        "initial_contact_platform": {"correct": null, "notes": ""},
+        "scammer_persona": {"correct": null, "notes": ""},
+        "platform_name": {"correct": null, "notes": ""},
+        "psychological_tactics": {"correct": null, "notes": ""},
+        "withdrawal_block_tactics": {"correct": null, "notes": ""},
+        "estimated_loss_usd": {"correct": null, "notes": ""},
+        "wallet_addresses": {"correct": null, "notes": ""},
+        "overall_accuracy_score": null
+      }
+    },
+    {
+      "sample_id": 3,
+      "case_id": "pb_023",
+      "original_case_id": 66,
+      "selection_reason": "Brand impersonation case (Crypto.com)",
+      "original_narrative": "Two California consumers report on their experience with the crypto asset trading platform crypto-rd.top. The first victim was introduced to cryptocurrency trading by an acquaintance who directed them to a DeFi Wallet platform located at Crypto-rd.top. The victim opened an account on the platform and began trading. But when the victim tried to access their funds, the platform demanded multiple fees including a platform fee, a "Know Your Customer" fee, and a "maintenance" fee, and another fee to release assets through the European Securities and Exchange Commission before they would release the funds. The victim has been unable to access any of their funds. The consumer sent BTC to 3ES9qFnB35pTYV6frG59AUtgCtDMCKZ6nu and ETH to 0x0BFE55CbaB96AC7c9e6f2995D7BE9356fC5a9639. The second victim lost access to their Crypto-rd.top platform wallet but then received a letter from "Rafael," who claimed their wallet access would be fully restored if they paid the platform $75,000. The victim paid but did not regain access to their account and remain unable to withdraw any funds. The platform is no longer in operation. This is not to confused with legitimate crypo exchange, Crypto.com.",
+      "llm_extraction": {
+        "initial_contact_platform": ["acquaintance_referral"],
+        "scammer_persona": {"name": "Rafael", "claimed_identity": "Platform representative"},
+        "platform_name": "Crypto-rd.top",
+        "platform_url": "crypto-rd.top",
+        "lure_type": ["DeFi_wallet", "crypto_trading"],
+        "psychological_tactics": ["multiple_fee_stacking", "regulatory_impersonation"],
+        "withdrawal_block_tactics": ["platform_fee", "KYC_fee", "maintenance_fee", "fake_SEC_release_fee", "recovery_scam"],
+        "estimated_loss_usd": 75000,
+        "wallet_addresses": ["3ES9qFnB35pTYV6frG59AUtgCtDMCKZ6nu", "0x0BFE55CbaB96AC7c9e6f2995D7BE9356fC5a9639"],
+        "brand_impersonation": {"entity": "Crypto.com", "type": "crypto_exchange", "method": "similar_domain"}
+      },
+      "human_validation": {
+        "initial_contact_platform": {"correct": null, "notes": ""},
+        "scammer_persona": {"correct": null, "notes": ""},
+        "platform_name": {"correct": null, "notes": ""},
+        "psychological_tactics": {"correct": null, "notes": ""},
+        "withdrawal_block_tactics": {"correct": null, "notes": ""},
+        "estimated_loss_usd": {"correct": null, "notes": ""},
+        "wallet_addresses": {"correct": null, "notes": ""},
+        "brand_impersonation": {"correct": null, "notes": ""},
+        "overall_accuracy_score": null
+      }
+    },
+    {
+      "sample_id": 4,
+      "case_id": "pb_032",
+      "original_case_id": 91,
+      "selection_reason": "Investment group scam with 5 wallet addresses",
+      "original_narrative": "Two consumers have reported their experiences with the crypto trading platform www.dimensionvip.com. The first consumer was approached by "Ryan" about an investment opportunity. Ryan instructed the victim to open an account on the platform, after which the consumer began trading. But when the victim tried to withdraw their funds, the platform demanded they deposit additional funds to get their money back. The victim has been unable to recover their funds. The second consumer reports being invited to a WhatsApp investment club group called \"Dimensional Fund Advisors\". A representative of the group approached the consumer and instructed them how to open an account on the Dimension platform. After transferring crypto assets and trading on the platform, the victim believed they had earned profits. However, the platform demanded they pay fees in order to access their funds. All told, the consumer lost at least $5,000 on the platform, which is no longer operational. The victim report sending funds to the following wallet addresses: 0x1D45F02c6D2729ba1AD8694597F51b0E4A0429A3, 0x7fF3e940eA4Db870e294C89D2ad579C27aC33A80, 0xd85b6EE53292bb0EEC259355C2B6471941D55002, 0xd9eACc4C3be80AB34c65Cd51bB623aa8620cD919, 0x490d095bBdfA1036E3ecAb18Cf3f5AD2Df73bf97",
+      "llm_extraction": {
+        "initial_contact_platform": ["direct_approach", "WhatsApp_group"],
+        "scammer_persona": {"name": "Ryan", "claimed_identity": "Investment club representative"},
+        "platform_name": "Dimension / Dimensional Fund Advisors",
+        "platform_urls": ["dimensionvip.com", "dimensionalaccount.com", "dimesioal.com"],
+        "lure_type": ["investment_club", "trading_profits"],
+        "psychological_tactics": ["group_membership", "social_proof"],
+        "withdrawal_block_tactics": ["deposit_to_withdraw", "fee_demand"],
+        "estimated_loss_usd": 5000,
+        "wallet_addresses": ["0x1D45F02c6D2729ba1AD8694597F51b0E4A0429A3", "0x7fF3e940eA4Db870e294C89D2ad579C27aC33A80", "0xd85b6EE53292bb0EEC259355C2B6471941D55002", "0xd9eACc4C3be80AB34c65Cd51bB623aa8620cD919", "0x490d095bBdfA1036E3ecAb18Cf3f5AD2Df73bf97"],
+        "brand_impersonation": {"entity": "Dimensional Fund Advisors", "type": "investment_firm", "real_entity": true}
+      },
+      "human_validation": {
+        "initial_contact_platform": {"correct": null, "notes": ""},
+        "scammer_persona": {"correct": null, "notes": ""},
+        "platform_name": {"correct": null, "notes": ""},
+        "psychological_tactics": {"correct": null, "notes": ""},
+        "withdrawal_block_tactics": {"correct": null, "notes": ""},
+        "estimated_loss_usd": {"correct": null, "notes": ""},
+        "wallet_addresses": {"correct": null, "notes": ""},
+        "brand_impersonation": {"correct": null, "notes": ""},
+        "overall_accuracy_score": null
+      }
+    },
+    {
+      "sample_id": 5,
+      "case_id": "pb_044",
+      "original_case_id": 128,
+      "selection_reason": "Highest value case ($3.8M) - Zipmex impersonation",
+      "original_narrative": "A California resident reports being approached by "Kevin" on a popular dating app, claiming to be an investor in real estate, stocks, and cryptocurrency, as well as an IT manager and Director of Operations at a major intentional hotel chain. After offering to teach the resident how to trade crypto, Kevin led the resident to send funds to the fraudulent trading platform, Zipmexpro, at https://zipmexpro.com. Through trade signals provided by Kevin, the resident was led to believe they were engaging in bitcoin options trading. After making an initial profit, Kevin showed the resident how to transfer funds from Zipmexpro back to their bank account to encourage the resident to continue trading on the platform. After a month of trading, Kevin introduced another investment opportunity that he wanted them to be a part of. Kevin told the resident that he had an aunt who used to work at NASDAQ and worked with a group of experts in bitcoin options trading. Kevin's aunt purportedly gave him an $8 million quota in preparation for an upcoming investment opportunity that would take place in a month. The resident liquidated their brokerage account to participate in the investment. A few weeks later, Kevin told the resident he was short $500,000 in preparation for the $8 million trading signal and convinced the resident to liquidate their retirement accounts to make up the difference. After the execution of the $8 million trade signal, Kevin claimed the trade resulted in a $1.6 million loss but introduced another $12 million investment opportunity and convinced the resident to take out personal loans in order to participate. However, days after the execution of the purported investment the platform was shut down. All told, the investor reported losing over $3.8 million to Zipmexpro. The website is no longer operational. The trading platform appears to be a spoof of the Singapore and Thailand based exchange, Zipmex. This is not to be confused with Zipmex at https://zipmex.com/.",
+      "llm_extraction": {
+        "initial_contact_platform": ["dating_app"],
+        "scammer_persona": {"name": "Kevin", "claimed_identity": "IT manager, Director of Operations, real estate/stock/crypto investor", "relationship_type": "investment_mentor"},
+        "platform_name": "Zipmexpro",
+        "platform_url": "zipmexpro.com",
+        "lure_type": ["bitcoin_options_trading", "trading_signals", "exclusive_investment_opportunity", "NASDAQ_connection"],
+        "psychological_tactics": ["proof_of_concept_withdrawal", "family_connection", "exclusive_opportunity", "urgency", "escalating_investment"],
+        "withdrawal_block_tactics": ["platform_shutdown"],
+        "estimated_loss_usd": 3800000,
+        "wallet_addresses": [],
+        "victim_fund_sources": ["brokerage_account", "retirement_accounts", "personal_loans"],
+        "brand_impersonation": {"entity": "Zipmex", "type": "crypto_exchange", "real_entity": true}
+      },
+      "human_validation": {
+        "initial_contact_platform": {"correct": null, "notes": ""},
+        "scammer_persona": {"correct": null, "notes": ""},
+        "platform_name": {"correct": null, "notes": ""},
+        "psychological_tactics": {"correct": null, "notes": ""},
+        "withdrawal_block_tactics": {"correct": null, "notes": ""},
+        "estimated_loss_usd": {"correct": null, "notes": ""},
+        "brand_impersonation": {"correct": null, "notes": ""},
+        "overall_accuracy_score": null
+      }
+    },
+    {
+      "sample_id": 6,
+      "case_id": "pb_039",
+      "original_case_id": 117,
+      "selection_reason": "Serial victimization - 3 different scams, Zaif impersonation",
+      "original_narrative": "A California resident reports about their experience with multiple crypto asset trading platforms, including bybtcoim-vip.top, zaifusw.com, and nextran.top. First, the victim met Lisa online who claimed to live in New York City. Lisa introduced the victim to the trading platform bybtcoim. Following Lisa's instructions, the victim opened an account and transferred funds to trade. At one point, the victim believed their account had grown to more than $3 million. But when the victim tried to withdraw funds, the platform demanded $350k to release funds. All told, the victim lost $527,000 on the platform. The website is no longer operational. Next, the victim met Luisa online who claimed to be from San Francisco. Luisa gave the victim a loan of $100,000 to deposit on the Zaif platform to trade crypto assets. But later the platform demanded $30,000 from the victim. The website is no longer operational. Then the victim met Susan, who also claimed to be from San Francisco and told the victim that his previous crypto asset investments were fakes. She told him about another crypto asset trading platform, nextran.top, where the victim could really make money. Susan said she had invested her own money on the platform, and convinced the victim to invest as well. But when the victim tried to withdraw funds, the platform demanded they pay $100,000 first. Susan said she was a victim, too. All told the victim lost $215,000 to that platform. The website is no longer operational. This is not to be confused with the Japan based exchange, Zaif, at https://zaif.jp/.",
+      "llm_extraction": {
+        "initial_contact_platform": ["online_unspecified"],
+        "scammer_personas": [
+          {"name": "Lisa", "claimed_location": "New York City"},
+          {"name": "Luisa", "claimed_location": "San Francisco"},
+          {"name": "Susan", "claimed_location": "San Francisco"}
+        ],
+        "platforms": [
+          {"name": "bybtcoim", "url": "bybtcoim-vip.top", "loss": 527000},
+          {"name": "Zaif (fake)", "url": "zaifusw.com", "loss": 30000},
+          {"name": "nextran", "url": "nextran.top", "loss": 215000}
+        ],
+        "psychological_tactics": ["serial_targeting", "recovery_scam_pattern", "loan_manipulation", "victim_solidarity_claim"],
+        "withdrawal_block_tactics": ["fee_demand_350k", "fee_demand_30k", "fee_demand_100k"],
+        "estimated_loss_usd": 742000,
+        "brand_impersonation": {"entity": "Zaif (Japan)", "type": "crypto_exchange", "real_entity": true}
+      },
+      "human_validation": {
+        "initial_contact_platform": {"correct": null, "notes": ""},
+        "scammer_personas": {"correct": null, "notes": ""},
+        "platforms": {"correct": null, "notes": ""},
+        "psychological_tactics": {"correct": null, "notes": ""},
+        "withdrawal_block_tactics": {"correct": null, "notes": ""},
+        "estimated_loss_usd": {"correct": null, "notes": ""},
+        "brand_impersonation": {"correct": null, "notes": ""},
+        "overall_accuracy_score": null
+      }
+    },
+    {
+      "sample_id": 7,
+      "case_id": "pb_061",
+      "original_case_id": 162,
+      "selection_reason": "Celebrity/brand impersonation (Tesla/Elon Musk)",
+      "original_narrative": "A California resident reports they viewed a Live Stream on YouTube where "Elon Musk" was offering to give away $100 million in crypto assets. The Livestream provided a QR code that when scanned led to the website webelon.org. Even though the Livestream promised a giveaway, people were required to send crypto assets to the site in order to participate. All told, the victim sent $5,000 to the wallet address bc1qnjy98m5g8d4qctp8s7v5j5jynsqhkdvvwm3840. The website is no longer operational. This scam appears to be impersonating Tesla by falsely using Tesla's logo on its promotional materials and platform. This is not to be confused with Tesla at https://www.tesla.com/. Tesla is not in the business of promoting crypto giveaways.",
+      "llm_extraction": {
+        "initial_contact_platform": ["YouTube_livestream"],
+        "scammer_persona": {"name": "Elon Musk (impersonated)", "claimed_identity": "Tesla CEO"},
+        "platform_name": "webelon.org",
+        "platform_url": "webelon.org",
+        "lure_type": ["crypto_giveaway", "celebrity_endorsement"],
+        "psychological_tactics": ["celebrity_impersonation", "urgency", "free_money_promise", "QR_code_phishing"],
+        "withdrawal_block_tactics": ["advance_fee_fraud"],
+        "estimated_loss_usd": 5000,
+        "wallet_addresses": ["bc1qnjy98m5g8d4qctp8s7v5j5jynsqhkdvvwm3840"],
+        "brand_impersonation": {"entity": "Tesla / Elon Musk", "type": "tech_company_ceo", "real_entity": true}
+      },
+      "human_validation": {
+        "initial_contact_platform": {"correct": null, "notes": ""},
+        "scammer_persona": {"correct": null, "notes": ""},
+        "platform_name": {"correct": null, "notes": ""},
+        "psychological_tactics": {"correct": null, "notes": ""},
+        "withdrawal_block_tactics": {"correct": null, "notes": ""},
+        "estimated_loss_usd": {"correct": null, "notes": ""},
+        "wallet_addresses": {"correct": null, "notes": ""},
+        "brand_impersonation": {"correct": null, "notes": ""},
+        "overall_accuracy_score": null
+      }
+    },
+    {
+      "sample_id": 8,
+      "case_id": "pb_024",
+      "original_case_id": 67,
+      "selection_reason": "Job scam variant - crypto mining",
+      "original_narrative": "A California resident reports they were contacted by Diana via WhatsApp, who offered them a job as a freelance crypto asset miner for the RIOT Blockchain platform, with no restrictions or set schedule and the ability to work remotely. The victim accepted the offer, completed all their training and was ready to begin working as a miner. At that point, the platform demanded the victim deposit their own funds first. The victim did so and worked daily, getting rewards for completing each task. However, the platform kept asking the victim to deposit increasing amounts of their own money to continue working. Further, the platform wouldn't allow withdrawals unless the victim increased their "credibility rating" by depositing more funds. Eventually, the victim had to borrow money to continue to be able to work on the RIOT mining platform. Despite depositing nearly $81,000, the platform never allowed the victim to withdraw their funds. This is not to be confused with the investment company, Riot Platforms at https://www.riotplatforms.com/",
+      "llm_extraction": {
+        "initial_contact_platform": ["WhatsApp"],
+        "scammer_persona": {"name": "Diana", "claimed_identity": "Recruiter"},
+        "platform_name": "RIOT Blockchain",
+        "lure_type": ["remote_job", "crypto_mining", "flexible_work"],
+        "psychological_tactics": ["job_opportunity", "training_completion", "credibility_rating_system", "task_rewards"],
+        "withdrawal_block_tactics": ["credibility_deposit", "escalating_deposits"],
+        "estimated_loss_usd": 81000,
+        "wallet_addresses": [],
+        "brand_impersonation": {"entity": "Riot Platforms (NASDAQ: RIOT)", "type": "bitcoin_mining_company", "real_entity": true}
+      },
+      "human_validation": {
+        "initial_contact_platform": {"correct": null, "notes": ""},
+        "scammer_persona": {"correct": null, "notes": ""},
+        "platform_name": {"correct": null, "notes": ""},
+        "psychological_tactics": {"correct": null, "notes": ""},
+        "withdrawal_block_tactics": {"correct": null, "notes": ""},
+        "estimated_loss_usd": {"correct": null, "notes": ""},
+        "brand_impersonation": {"correct": null, "notes": ""},
+        "overall_accuracy_score": null
+      }
+    },
+    {
+      "sample_id": 9,
+      "case_id": "pb_037",
+      "original_case_id": 111,
+      "selection_reason": "WeChat origin, Chinese-language platform",
+      "original_narrative": "A California resident reports meeting an individual through WeChat that represented himself as a famous model, with whom they subsequently formed a relationship. Eventually, the model brought up the topic of investing in crypto assets and taught the victim how to open an account on the website Unktlife.com and transfer crypto assets into it. At first, the victim believed they were making profits and was able to withdraw money from their account. This encouraged the victim to send even more money to Unktlife.com. But when the victim tried to withdraw money to buy a house, the website demanded they pay a "tax credit" to access their funds. The victim paid the fees but now Unktlife.com no longer responds to them and they haven't been able to recover any more of their money. All told, the victim lost more than $550,000. The website is no longer operational.",
+      "llm_extraction": {
+        "initial_contact_platform": ["WeChat"],
+        "scammer_persona": {"name": "Unknown", "claimed_identity": "Famous model", "relationship_type": "romantic"},
+        "platform_name": "Unktlife.com",
+        "platform_url": "Unktlife.com",
+        "lure_type": ["crypto_trading", "romantic_relationship"],
+        "psychological_tactics": ["celebrity_persona", "romance", "proof_of_concept_withdrawal"],
+        "withdrawal_block_tactics": ["tax_credit_demand", "communication_cutoff"],
+        "estimated_loss_usd": 550000,
+        "wallet_addresses": [],
+        "brand_impersonation": null
+      },
+      "human_validation": {
+        "initial_contact_platform": {"correct": null, "notes": ""},
+        "scammer_persona": {"correct": null, "notes": ""},
+        "platform_name": {"correct": null, "notes": ""},
+        "psychological_tactics": {"correct": null, "notes": ""},
+        "withdrawal_block_tactics": {"correct": null, "notes": ""},
+        "estimated_loss_usd": {"correct": null, "notes": ""},
+        "overall_accuracy_score": null
+      }
+    },
+    {
+      "sample_id": 10,
+      "case_id": "pb_009",
+      "original_case_id": 34,
+      "selection_reason": "AI trading scam with explicit fee demand evidence",
+      "original_narrative": "A California resident reports meeting an individual named "Jack" who claimed he had developed a trading mechanism using AI that guaranteed profitable trades 100% of the time. Jack told the victim about a futures exchange trading platform, Hrdebit, operating at hrdebit.com where he would trade bitcoin for the both of them. Following Jack's instructions, the victim set up an account and deposited funds, believing the account was worth more than $2 million after only a few weeks of investing. But when the victim tried to withdraw their profits, the platform's customer service demanded a 20% service fee and that it would seize the funds if the victim didn't pay. The victim has been unable to recover their funds from the platform and the website is no longer operational. All told, the resident lost at least $358,000 on the platform.",
+      "llm_extraction": {
+        "initial_contact_platform": ["unspecified"],
+        "scammer_persona": {"name": "Jack", "claimed_identity": "AI trading developer"},
+        "platform_name": "Hrdebit",
+        "platform_url": "hrdebit.com",
+        "lure_type": ["AI_trading", "guaranteed_profits", "joint_trading"],
+        "psychological_tactics": ["technology_appeal", "guaranteed_returns", "partnership"],
+        "withdrawal_block_tactics": ["service_fee_20_percent", "seizure_threat"],
+        "estimated_loss_usd": 358000,
+        "fake_balance_shown": 2000000,
+        "wallet_addresses": [],
+        "brand_impersonation": null
+      },
+      "human_validation": {
+        "initial_contact_platform": {"correct": null, "notes": ""},
+        "scammer_persona": {"correct": null, "notes": ""},
+        "platform_name": {"correct": null, "notes": ""},
+        "psychological_tactics": {"correct": null, "notes": ""},
+        "withdrawal_block_tactics": {"correct": null, "notes": ""},
+        "estimated_loss_usd": {"correct": null, "notes": ""},
+        "overall_accuracy_score": null
+      }
+    },
+    {
+      "sample_id": 11,
+      "case_id": "pb_046",
+      "original_case_id": 135,
+      "selection_reason": "High-value with split payment manipulation tactic",
+      "original_narrative": "A California consumer met \"Tina\" via WhatsApp and WeChat, who introduced them to a crypto asset trading platform, Abnas Global. Tina provided links to Abnas Global at https://www.abnasglobal.com/#/home/modal and https://abnasglobal.cc/#/pc/trade. Tina also told the victim to download an app for the platform. Following Tina's instructions, the victim downloaded the app, opened an account on the platform, transferred crypto assets, and began to trade bitcoins. Eventually, the victim's account showed a balance of more than $2,017,141.86. But when the victim tried to withdraw funds, Abnas Global demanded that they pay $240,000 in "taxes" or have their assets confiscated. The victim reached out to Tina, who offered to pay some of the supposed tax, if the victim paid $100,000 to the platform. Then, Abnas Global demanded a fine of $160,000. Again, Tina convinced the victim to pay the fine by offering to pay the remaining balance after the victim paid $140,000 of the fine. Ultimately, the victim sent the platform more than $1,200,000, and has not retrieved any funds. None of the sites are operational now.",
+      "llm_extraction": {
+        "initial_contact_platform": ["WhatsApp", "WeChat"],
+        "scammer_persona": {"name": "Tina", "relationship_type": "investment_mentor"},
+        "platform_name": "Abnas Global",
+        "platform_urls": ["abnasglobal.com", "abnasglobal.cc"],
+        "lure_type": ["crypto_trading", "bitcoin_trading"],
+        "psychological_tactics": ["split_payment_offer", "confiscation_threat", "escalating_demands"],
+        "withdrawal_block_tactics": ["tax_demand_240k", "fine_demand_160k", "asset_confiscation_threat"],
+        "estimated_loss_usd": 1200000,
+        "fake_balance_shown": 2017141.86,
+        "wallet_addresses": [],
+        "brand_impersonation": null
+      },
+      "human_validation": {
+        "initial_contact_platform": {"correct": null, "notes": ""},
+        "scammer_persona": {"correct": null, "notes": ""},
+        "platform_name": {"correct": null, "notes": ""},
+        "psychological_tactics": {"correct": null, "notes": ""},
+        "withdrawal_block_tactics": {"correct": null, "notes": ""},
+        "estimated_loss_usd": {"correct": null, "notes": ""},
+        "overall_accuracy_score": null
+      }
+    }
+  ],
+  "validation_metrics": {
+    "fields_evaluated": 9,
+    "total_extractions_to_validate": 99,
+    "expected_completion_time": "2-3 hours for single expert",
+    "recommended_validators": 2,
+    "inter_rater_reliability_method": "Cohen's Kappa"
+  }
+}
