@@ -4,6 +4,7 @@ DFPI Scam Tracker 스크린샷 이미지 다운로드
 """
 
 import os
+import sys
 import json
 import requests
 import time
@@ -144,7 +145,7 @@ if __name__ == "__main__":
     json_files = glob.glob("dfpi_scam_data_*.json")
     if not json_files:
         print("[!] JSON 파일을 찾을 수 없습니다.")
-        exit(1)
+        sys.exit(1)
 
     latest_json = max(json_files)
     print(f"[*] 사용할 JSON 파일: {latest_json}")
